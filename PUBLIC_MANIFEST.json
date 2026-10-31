@@ -1,9 +1,9 @@
 {
   "export_date": "2026-11-01",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 24,
+  "manuals": 27,
   "diagrams": 12,
-  "checked_local_links": 236,
+  "checked_local_links": 185,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
   "export_changes": [
     "Local absolute evidence paths omitted",
@@ -12,7 +12,8 @@
     "Standalone public index added; no source repository Git history copied",
     "Hand workflow manuals and original diagram added; private state omitted and hand snapshot hashes explicitly marked",
     "Body workflow, topology, joint-volume and game-base manuals plus original diagram added; new private paths and project state omitted",
-    "Match3 manuals, all65 Taft index, source comparisons, original engineering diagrams and verification added; no source media/code or new private repository references. Official Unity6.3 web recrosscheck explicitly incomplete."
+    "Match3 manuals, all65 Taft index, source comparisons, original engineering diagrams and verification added; no source media/code or new private repository references. Official Unity6.3 web recrosscheck explicitly incomplete.",
+    "Added three seamless-texture manuals and five-course local Qwen/FrameLens sampled-visual + automatic-caption study. No source media, private assets or local paths published."
   ],
   "files": [
     {
@@ -22,8 +23,28 @@
     },
     {
       "path": "README.md",
-      "bytes": 4860,
-      "sha256": "72ca8525ee794b17071ad89c3a1ff30081c7abe4dbb0dae88833a07663b58d9e"
+      "bytes": 5479,
+      "sha256": "4ffd19a721b7be9cff1100455a7c18c4bc7f94319b60dd9396afee41cbb58648"
+    },
+    {
+      "path": "docs/BODY_CHARACTER_WORKFLOW.md",
+      "bytes": 8229,
+      "sha256": "9ea1c8c1489544bf29e61bb3ad0404daca790a8c345d521f3d9787e4b5e7532d"
+    },
+    {
+      "path": "docs/BODY_GAME_BASE_MESH.md",
+      "bytes": 9188,
+      "sha256": "631f1d9278fc3b510ed961b3cb1833621f95d67bd3a00c94dee397bc2dabeba4"
+    },
+    {
+      "path": "docs/BODY_JOINT_VOLUME.md",
+      "bytes": 7919,
+      "sha256": "a768bd288f64f9ca350d2e80b00026184f5741dfda714a5ff328a20190b6d455"
+    },
+    {
+      "path": "docs/BODY_RETOPOLOGY.md",
+      "bytes": 10713,
+      "sha256": "6a551c4bc68a63eb46a815db31a2071974545c6daa45824c0baaadd095fb1df3"
     },
     {
       "path": "docs/FACE_EYELID_SHAPE_KEYS.md",
@@ -51,6 +72,61 @@
       "sha256": "bf7491e3ea6efdf32d050855869a9e259b4691ef033e7036e36d341cedd56358"
     },
     {
+      "path": "docs/HAND_BUILDING.md",
+      "bytes": 9689,
+      "sha256": "c5ad1e47eaba2274d95cb16b17ae407fedef29789ada3b9efcda17621fc936a1"
+    },
+    {
+      "path": "docs/HAND_FINGER_RIGGING.md",
+      "bytes": 12835,
+      "sha256": "da0316fd298a9664f7bdb328374bd2802a08b4f381dd371751bc3defc915047e"
+    },
+    {
+      "path": "docs/HAND_FINGER_WORKFLOW.md",
+      "bytes": 7496,
+      "sha256": "f9796eed1e19149fa9d4dfb2010aadfeaba4b64d67c4d57082d7c6b68d06fad6"
+    },
+    {
+      "path": "docs/HAND_RETOPOLOGY.md",
+      "bytes": 7997,
+      "sha256": "e0d3b969c1e0bbdf887d4a39b16b9c57c7f60a965dbe839fd2289f346f1bff20"
+    },
+    {
+      "path": "docs/MATCH3_BOARD_INPUT.md",
+      "bytes": 9481,
+      "sha256": "673db4536fa221b770ebdfaffbcade845e8f9bf3961022229561237bb8e6a4c0"
+    },
+    {
+      "path": "docs/MATCH3_LEVEL_SAVE_QA.md",
+      "bytes": 9333,
+      "sha256": "fe018178d77edc8eac2e1e8dab634d1e5b0a714c0a6ba78564135a3c2fed2053"
+    },
+    {
+      "path": "docs/MATCH3_RESOLUTION_SPECIALS.md",
+      "bytes": 10186,
+      "sha256": "958cc74e2f2c9f9d369e57f047193eadc7967b1783492d960a0c4f05da74df1f"
+    },
+    {
+      "path": "docs/MATCH3_SOURCE_COMPARISON.md",
+      "bytes": 10674,
+      "sha256": "c02e5fd959a896289b270e8c0b802a602942ba1fe9d678e436d9008f1b6c654e"
+    },
+    {
+      "path": "docs/MATCH3_TAFT_EPISODES.md",
+      "bytes": 91848,
+      "sha256": "86be84a6c769f07ca124885d68f7c10fc9e10f3a023ff0d918cf08e58e75c05e"
+    },
+    {
+      "path": "docs/MATCH3_UNITY6_COMPATIBILITY.md",
+      "bytes": 5494,
+      "sha256": "768eb286c0ab9642580ad5f4de05dc6c3b84a4090d1a94923aa411747d1774ca"
+    },
+    {
+      "path": "docs/MATCH3_WORKFLOW.md",
+      "bytes": 7596,
+      "sha256": "36372208c5a6efefd18e2542f02b71d908615b8737e31ccce323c7e974180350"
+    },
+    {
       "path": "docs/PAINTER_CHARACTER_WORKFLOW.md",
       "bytes": 5252,
       "sha256": "f53cb057c8505d174e80b2a30c3e9f11039a20d6945221f26d772f5c11dada64"
@@ -74,6 +150,26 @@
       "path": "docs/PROJECT_REFERENCE_GUIDE.md",
       "bytes": 914,
       "sha256": "3209a9aac07c4f100ece6c00e74cfc14fe185a8175495ef8bbb240ceba710222"
+    },
+    {
+      "path": "docs/SEAMLESS_TEXTURE_HEIGHT_MAPS.md",
+      "bytes": 7252,
+      "sha256": "670613ae9f1755b64d934836bf9423a4a768bceadcc440a6c96264038f09b7db"
+    },
+    {
+      "path": "docs/SEAMLESS_TEXTURE_QA.md",
+      "bytes": 6295,
+      "sha256": "7efad7b90b9a3ed7d405e1a70b0cc6df488b608d7e6f8eb9391cec711adf50dc"
+    },
+    {
+      "path": "docs/SEAMLESS_TEXTURE_WORKFLOW.md",
+      "bytes": 9593,
+      "sha256": "0f9114a024994967f86728e2fc9c24497607e77e6563c2e34023a3fffc9a7004"
+    },
+    {
+      "path": "docs/assets/body-topology/body-loop-deformation.svg",
+      "bytes": 6095,
+      "sha256": "9b76031dd256d4bdd3adda324618dc22bf5dd4590a7211f3928298f9c81332ac"
     },
     {
       "path": "docs/assets/face-topology/eyelid-section.svg",
@@ -111,9 +207,34 @@
       "sha256": "62fb1aa24c95126a562231f34f1c1217d52daaa0b640be1591cf86349140a235"
     },
     {
+      "path": "docs/assets/hand-topology/hand-deformation-pipeline.svg",
+      "bytes": 6353,
+      "sha256": "627841cfba6bc213e9fc5e6d4564adb0a8d9e5d227ee7a44bdd63dfcb920a298"
+    },
+    {
+      "path": "docs/assets/match3/cell-and-match.svg",
+      "bytes": 5557,
+      "sha256": "ce69bfefe2070d9a38538b5b47769e124a755f0c49f832857f05efa9b91c68cd"
+    },
+    {
+      "path": "docs/assets/match3/turn-resolution.svg",
+      "bytes": 4947,
+      "sha256": "253b93e6d48d5be5cbd1f1c964a67b2d8e64f61882beee616b029408b4fae39c"
+    },
+    {
       "path": "docs/assets/texturing/painter-channel-pipeline.svg",
       "bytes": 4282,
       "sha256": "4f9d718640f2bb5659aeb5a972069972f63729d73bf048693cf50407a8d759e8"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_BODY_COURSES_REVIEW.md",
+      "bytes": 8796,
+      "sha256": "06c91b71e75bbf1b85b3dcd4e6d6c94415effc77d415e051f3fd94beeec34dbf"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_BODY_COURSES_VERIFICATION.json",
+      "bytes": 37642,
+      "sha256": "41c0ce65eb31e83f8f7e3ad09dbb35d06760e9457afe47bee4adaadbea9b3ace"
     },
     {
       "path": "reports/VideoLearning/20261031_DIKKO2_REVIEW.md",
@@ -144,6 +265,16 @@
       "path": "reports/VideoLearning/20261031_FACE_LOOP_VERIFICATION.json",
       "bytes": 5709,
       "sha256": "6566d1fc06a3909e768eb9e85f05768801095398cd0559d57c982a1dea084ea2"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_HAND_COURSES_REVIEW.md",
+      "bytes": 13878,
+      "sha256": "c12bb1a8f033e23a35e777266acbe7c3343d1a5e3e42c1d130b355fd6a8bf2ee"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_HAND_COURSES_VERIFICATION.json",
+      "bytes": 30006,
+      "sha256": "dbc01e9f4983964a6f069107754bc0a907b15958ff037c430013f9c2bb6c52ac"
     },
     {
       "path": "reports/VideoLearning/20261031_LPL_SHAPE_KEYS_REVIEW.md",
@@ -186,121 +317,6 @@
       "sha256": "8149429eecbbb268eb2b44133dd791c33fcfacecdeae5cfb091aacbb94afc0ac"
     },
     {
-      "path": "docs/HAND_BUILDING.md",
-      "bytes": 9689,
-      "sha256": "c5ad1e47eaba2274d95cb16b17ae407fedef29789ada3b9efcda17621fc936a1"
-    },
-    {
-      "path": "docs/HAND_FINGER_RIGGING.md",
-      "bytes": 12835,
-      "sha256": "da0316fd298a9664f7bdb328374bd2802a08b4f381dd371751bc3defc915047e"
-    },
-    {
-      "path": "docs/HAND_FINGER_WORKFLOW.md",
-      "bytes": 7496,
-      "sha256": "f9796eed1e19149fa9d4dfb2010aadfeaba4b64d67c4d57082d7c6b68d06fad6"
-    },
-    {
-      "path": "docs/HAND_RETOPOLOGY.md",
-      "bytes": 7997,
-      "sha256": "e0d3b969c1e0bbdf887d4a39b16b9c57c7f60a965dbe839fd2289f346f1bff20"
-    },
-    {
-      "path": "docs/assets/hand-topology/hand-deformation-pipeline.svg",
-      "bytes": 6353,
-      "sha256": "627841cfba6bc213e9fc5e6d4564adb0a8d9e5d227ee7a44bdd63dfcb920a298"
-    },
-    {
-      "path": "reports/VideoLearning/20261031_HAND_COURSES_REVIEW.md",
-      "bytes": 13878,
-      "sha256": "c12bb1a8f033e23a35e777266acbe7c3343d1a5e3e42c1d130b355fd6a8bf2ee"
-    },
-    {
-      "path": "reports/VideoLearning/20261031_HAND_COURSES_VERIFICATION.json",
-      "bytes": 30006,
-      "sha256": "dbc01e9f4983964a6f069107754bc0a907b15958ff037c430013f9c2bb6c52ac"
-    },
-    {
-      "path": "docs/BODY_CHARACTER_WORKFLOW.md",
-      "bytes": 8229,
-      "sha256": "9ea1c8c1489544bf29e61bb3ad0404daca790a8c345d521f3d9787e4b5e7532d"
-    },
-    {
-      "path": "docs/BODY_GAME_BASE_MESH.md",
-      "bytes": 9188,
-      "sha256": "631f1d9278fc3b510ed961b3cb1833621f95d67bd3a00c94dee397bc2dabeba4"
-    },
-    {
-      "path": "docs/BODY_JOINT_VOLUME.md",
-      "bytes": 7919,
-      "sha256": "a768bd288f64f9ca350d2e80b00026184f5741dfda714a5ff328a20190b6d455"
-    },
-    {
-      "path": "docs/BODY_RETOPOLOGY.md",
-      "bytes": 10713,
-      "sha256": "6a551c4bc68a63eb46a815db31a2071974545c6daa45824c0baaadd095fb1df3"
-    },
-    {
-      "path": "docs/assets/body-topology/body-loop-deformation.svg",
-      "bytes": 6095,
-      "sha256": "9b76031dd256d4bdd3adda324618dc22bf5dd4590a7211f3928298f9c81332ac"
-    },
-    {
-      "path": "reports/VideoLearning/20261031_BODY_COURSES_REVIEW.md",
-      "bytes": 8796,
-      "sha256": "06c91b71e75bbf1b85b3dcd4e6d6c94415effc77d415e051f3fd94beeec34dbf"
-    },
-    {
-      "path": "reports/VideoLearning/20261031_BODY_COURSES_VERIFICATION.json",
-      "bytes": 37642,
-      "sha256": "41c0ce65eb31e83f8f7e3ad09dbb35d06760e9457afe47bee4adaadbea9b3ace"
-    },
-    {
-      "path": "docs/MATCH3_BOARD_INPUT.md",
-      "bytes": 9481,
-      "sha256": "673db4536fa221b770ebdfaffbcade845e8f9bf3961022229561237bb8e6a4c0"
-    },
-    {
-      "path": "docs/MATCH3_LEVEL_SAVE_QA.md",
-      "bytes": 9333,
-      "sha256": "fe018178d77edc8eac2e1e8dab634d1e5b0a714c0a6ba78564135a3c2fed2053"
-    },
-    {
-      "path": "docs/MATCH3_RESOLUTION_SPECIALS.md",
-      "bytes": 10186,
-      "sha256": "958cc74e2f2c9f9d369e57f047193eadc7967b1783492d960a0c4f05da74df1f"
-    },
-    {
-      "path": "docs/MATCH3_SOURCE_COMPARISON.md",
-      "bytes": 10674,
-      "sha256": "c02e5fd959a896289b270e8c0b802a602942ba1fe9d678e436d9008f1b6c654e"
-    },
-    {
-      "path": "docs/MATCH3_TAFT_EPISODES.md",
-      "bytes": 91848,
-      "sha256": "86be84a6c769f07ca124885d68f7c10fc9e10f3a023ff0d918cf08e58e75c05e"
-    },
-    {
-      "path": "docs/MATCH3_UNITY6_COMPATIBILITY.md",
-      "bytes": 5494,
-      "sha256": "768eb286c0ab9642580ad5f4de05dc6c3b84a4090d1a94923aa411747d1774ca"
-    },
-    {
-      "path": "docs/MATCH3_WORKFLOW.md",
-      "bytes": 7596,
-      "sha256": "36372208c5a6efefd18e2542f02b71d908615b8737e31ccce323c7e974180350"
-    },
-    {
-      "path": "docs/assets/match3/cell-and-match.svg",
-      "bytes": 5557,
-      "sha256": "ce69bfefe2070d9a38538b5b47769e124a755f0c49f832857f05efa9b91c68cd"
-    },
-    {
-      "path": "docs/assets/match3/turn-resolution.svg",
-      "bytes": 4947,
-      "sha256": "253b93e6d48d5be5cbd1f1c964a67b2d8e64f61882beee616b029408b4fae39c"
-    },
-    {
       "path": "reports/VideoLearning/20261101_MATCH3_REVIEW.md",
       "bytes": 3552,
       "sha256": "f4a83161684276b1f184c4767d5ede5f74e6eb9205065ec0ba152fde50afb78b"
@@ -314,8 +330,20 @@
       "path": "reports/VideoLearning/20261101_MATCH3_VERIFICATION.json",
       "bytes": 238502,
       "sha256": "e4c0eefa43ad19a82297a82ec21b1410ea3f48f623c82763be34339c6f90cd2b"
+    },
+    {
+      "path": "reports/VideoLearning/20261101_SEAMLESS_TEXTURE_REVIEW.md",
+      "bytes": 5895,
+      "sha256": "66d3ebca4b5473cd11ca12360725620493269eb31abc2bb5e9ab02b62fa0a2db"
+    },
+    {
+      "path": "reports/VideoLearning/20261101_SEAMLESS_TEXTURE_VERIFICATION.json",
+      "bytes": 22285,
+      "sha256": "a86c90dda1e2b53a0223995c4736e4583499ec89765a22254b6831db6239014b"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
-  "body_training_added": "2026-10-31: Three public courses, 497 unique sampled source times, 96 contact sheets, 30 native UI images and full cleaned automatic caption text; no production app reproduction"
+  "body_training_added": "2026-10-31: Three public courses, 497 unique sampled source times, 96 contact sheets, 30 native UI images and full cleaned automatic caption text; no production app reproduction",
+  "seamless_training_added": "2026-11-01: 5 courses; 168 sampled source times, 30 contact sheets, 10 native UI images, 2299 cleaned automatic caption rows; Qwen10 requests/40 images and FrameLens300 source seconds. No model training or production app reproduction.",
+  "local_link_check_scope": "185 Markdown inline local file/directory targets; external URLs and anchor fragments excluded. Count is not comparable to historical checkers with different scopes."
 }

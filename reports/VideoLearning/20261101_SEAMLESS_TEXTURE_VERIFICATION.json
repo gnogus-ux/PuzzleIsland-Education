@@ -1,0 +1,820 @@
+{
+  "date": "2026-11-01",
+  "status": "DOCUMENTED_SAMPLED_VISUAL_AND_AUTOCAPTION_STUDY",
+  "course_count": 5,
+  "unique_direct_frames": 168,
+  "reviewed_contact_sheets": 30,
+  "native_ui_images_reviewed": 10,
+  "cleaned_caption_rows_reviewed": 2299,
+  "qwen_requests": 10,
+  "qwen_frames_submitted": 40,
+  "framelens_source_seconds_analyzed": 300,
+  "framelens_shots_in_proxies": 15,
+  "model_fine_tuning_performed": false,
+  "production_app_reproduction_performed": false,
+  "independent_review_performed": false,
+  "new_paid_API_calls": 0,
+  "external_AI_video_uploads": 0,
+  "VideoReverse": "Not executed: only mock configured; no real semantic analysis assumed",
+  "sources": [
+    {
+      "id": "9yN97W9vEBI",
+      "title": "패턴없는(타일링없는) 맵핑 만들기 - How To Make a Seamless Texture in Photoshop",
+      "author": "hogual",
+      "url": "https://www.youtube.com/watch?v=9yN97W9vEBI",
+      "metadata_duration_seconds": 2610,
+      "decoded_duration_seconds": 2609.760363,
+      "video_bytes": 152204844,
+      "local_source_sha256": "b498dce4f671ade79ff455402d460c4c242c08d79bb9ede8c60d2d558451fd48",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "30/1"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "chapters": [],
+      "direct_sample_times_seconds": [
+        0,
+        90,
+        180,
+        270,
+        360,
+        450,
+        540,
+        630,
+        720,
+        810,
+        900,
+        990,
+        1080,
+        1170,
+        1260,
+        1350,
+        1440,
+        1530,
+        1620,
+        1710,
+        1800,
+        1890,
+        1980,
+        2070,
+        2160,
+        2250,
+        2340,
+        2430,
+        2520,
+        2607.67
+      ],
+      "unique_direct_frames": 30,
+      "reviewed_contact_sheets": 5,
+      "native_ui_times_seconds": [
+        810,
+        1620
+      ],
+      "caption_language": "ko",
+      "caption_type": "YouTube automatic; not direct audio listening",
+      "cleaned_caption_rows": 852,
+      "entire_available_cleaned_caption_text_reviewed": true,
+      "direct_continuous_video_review": false,
+      "caption_sha256": "6a9b4ae8c8120b2e09026a53d8d0ee764130d558372db41a53db42baf9f6b4c8",
+      "caption_last_second": 2608.68,
+      "qwen": {
+        "model": "qwen3-vl:4b-instruct",
+        "local_only": true,
+        "requests": 2,
+        "frames_submitted": 8,
+        "source_seconds": [
+          180,
+          540,
+          810,
+          1170,
+          1440,
+          1800,
+          2070,
+          2430
+        ],
+        "successful_nonempty_responses": true,
+        "raw_results_published": false,
+        "temporal_alignment_and_UI_values_require_correction": true
+      },
+      "framelens": {
+        "source_id": "9yN97W9vEBI",
+        "source_range_seconds": [
+          780,
+          840
+        ],
+        "proxy_fps": 3,
+        "proxy_width": 640,
+        "shots": 5,
+        "semantics": "shot/motion/image metrics only; does not read menu operations or prove seamless output"
+      },
+      "rights": "Original media/captions/third-party assets retained locally only; Git contains original paraphrased manuals, references and bounded verification metadata."
+    },
+    {
+      "id": "9_36YihB8I4",
+      "title": "Turn Any Texture Into Seamless Pattern in Photoshop!",
+      "author": "PiXimperfect",
+      "url": "https://www.youtube.com/watch?v=9_36YihB8I4",
+      "metadata_duration_seconds": 737,
+      "decoded_duration_seconds": 736.513741,
+      "video_bytes": 88970159,
+      "local_source_sha256": "c7129b5fe1ecc275405d7eb5473327e5ffc3b840e28a3cdeb2d4e2b80906d5ad",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "av1",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "30/1"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Understanding Seamless Patterns",
+          "end_time": 72
+        },
+        {
+          "start_time": 72,
+          "title": "Offset and Blend the Edge",
+          "end_time": 276
+        },
+        {
+          "start_time": 276,
+          "title": "Refine and Repair",
+          "end_time": 379
+        },
+        {
+          "start_time": 379,
+          "title": "Dodge and Burn",
+          "end_time": 461
+        },
+        {
+          "start_time": 461,
+          "title": "Color Fix",
+          "end_time": 495
+        },
+        {
+          "start_time": 495,
+          "title": "Convert to Pattern",
+          "end_time": 516
+        },
+        {
+          "start_time": 516,
+          "title": "Application Example",
+          "end_time": 623
+        },
+        {
+          "start_time": 623,
+          "title": "Quick Recap",
+          "end_time": 737
+        }
+      ],
+      "direct_sample_times_seconds": [
+        0,
+        30,
+        36.0,
+        60,
+        90,
+        120,
+        150,
+        174.0,
+        180,
+        210,
+        240,
+        270,
+        300,
+        327.5,
+        330,
+        360,
+        390,
+        420,
+        450,
+        478.0,
+        480,
+        505.5,
+        510,
+        540,
+        569.5,
+        570,
+        600,
+        630,
+        660,
+        680.0,
+        690,
+        720,
+        734.47
+      ],
+      "unique_direct_frames": 33,
+      "reviewed_contact_sheets": 6,
+      "native_ui_times_seconds": [
+        210,
+        420
+      ],
+      "caption_language": "en",
+      "caption_type": "YouTube automatic; not direct audio listening",
+      "cleaned_caption_rows": 328,
+      "entire_available_cleaned_caption_text_reviewed": true,
+      "direct_continuous_video_review": false,
+      "caption_sha256": "26c00cb39c09fd36a8837e0e71c68e84b38fada2091cf3a5d481514a76e76391",
+      "caption_last_second": 718.0,
+      "qwen": {
+        "model": "qwen3-vl:4b-instruct",
+        "local_only": true,
+        "requests": 2,
+        "frames_submitted": 8,
+        "source_seconds": [
+          60,
+          150,
+          240,
+          327.5,
+          420,
+          505.5,
+          600,
+          680.0
+        ],
+        "successful_nonempty_responses": true,
+        "raw_results_published": false,
+        "temporal_alignment_and_UI_values_require_correction": true
+      },
+      "framelens": {
+        "source_id": "9_36YihB8I4",
+        "source_range_seconds": [
+          90,
+          150
+        ],
+        "proxy_fps": 3,
+        "proxy_width": 640,
+        "shots": 3,
+        "semantics": "shot/motion/image metrics only; does not read menu operations or prove seamless output"
+      },
+      "rights": "Original media/captions/third-party assets retained locally only; Git contains original paraphrased manuals, references and bounded verification metadata."
+    },
+    {
+      "id": "lY1LjXYrSZ4",
+      "title": "Create Seamless, Tileable Textures in Photoshop with Offset and Generative Fill",
+      "author": "What Make Art",
+      "url": "https://www.youtube.com/watch?v=lY1LjXYrSZ4",
+      "metadata_duration_seconds": 284,
+      "decoded_duration_seconds": 283.608526,
+      "video_bytes": 24682597,
+      "local_source_sha256": "b930fe770839990099ef52d62d6734a351dc8c4f85fb440a304a6c3d9238ea4b",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "vp9",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "60/1"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro: why seamless patterns (noise, textures for 3D, design reuse)",
+          "end_time": 23
+        },
+        {
+          "start_time": 23,
+          "title": "Source images: car wash bubbles example",
+          "end_time": 37
+        },
+        {
+          "start_time": 37,
+          "title": "Make a square canvas via Image → Canvas Size",
+          "end_time": 63
+        },
+        {
+          "start_time": 63,
+          "title": "Offset setup: 2160×2160 canvas, offset 1080/1080",
+          "end_time": 81
+        },
+        {
+          "start_time": 81,
+          "title": "Heal visible seams with the Healing Brush",
+          "end_time": 103
+        },
+        {
+          "start_time": 103,
+          "title": "Clone Stamp caveats and hard-edge artifacts",
+          "end_time": 117
+        },
+        {
+          "start_time": 117,
+          "title": "Selection + Generative Fill to blend problem areas",
+          "end_time": 161
+        },
+        {
+          "start_time": 161,
+          "title": "Stamp visible layer and re-offset to verify edges",
+          "end_time": 212
+        },
+        {
+          "start_time": 212,
+          "title": "Seamless texture achieved",
+          "end_time": 224
+        },
+        {
+          "start_time": 224,
+          "title": "Tone with Curves and Black & White for versatility",
+          "end_time": 245
+        },
+        {
+          "start_time": 245,
+          "title": "Save as pattern: Edit → Define Pattern",
+          "end_time": 260
+        },
+        {
+          "start_time": 260,
+          "title": "Apply with a Pattern Fill adjustment layer and scale",
+          "end_time": 274
+        },
+        {
+          "start_time": 274,
+          "title": "Final look and tiling demo",
+          "end_time": 284
+        }
+      ],
+      "direct_sample_times_seconds": [
+        0,
+        11.5,
+        20,
+        30.0,
+        40,
+        50.0,
+        60,
+        72.0,
+        80,
+        92.0,
+        100,
+        110.0,
+        120,
+        139.0,
+        140,
+        160,
+        180,
+        186.5,
+        200,
+        218.0,
+        220,
+        234.5,
+        240,
+        252.5,
+        260,
+        267.0,
+        279.0,
+        280,
+        281.55
+      ],
+      "unique_direct_frames": 29,
+      "reviewed_contact_sheets": 5,
+      "native_ui_times_seconds": [
+        60,
+        186.5
+      ],
+      "caption_language": "en",
+      "caption_type": "YouTube automatic; not direct audio listening",
+      "cleaned_caption_rows": 125,
+      "entire_available_cleaned_caption_text_reviewed": true,
+      "direct_continuous_video_review": false,
+      "caption_sha256": "a91a717d74b97d391e2493f7dd85422894a4b5a62c19a8cc221eb644fd788fa5",
+      "caption_last_second": 281.36,
+      "qwen": {
+        "model": "qwen3-vl:4b-instruct",
+        "local_only": true,
+        "requests": 2,
+        "frames_submitted": 8,
+        "source_seconds": [
+          20,
+          60,
+          92.0,
+          120,
+          160,
+          186.5,
+          220,
+          260
+        ],
+        "successful_nonempty_responses": true,
+        "raw_results_published": false,
+        "temporal_alignment_and_UI_values_require_correction": true
+      },
+      "framelens": {
+        "source_id": "lY1LjXYrSZ4",
+        "source_range_seconds": [
+          63,
+          123
+        ],
+        "proxy_fps": 3,
+        "proxy_width": 640,
+        "shots": 3,
+        "semantics": "shot/motion/image metrics only; does not read menu operations or prove seamless output"
+      },
+      "rights": "Original media/captions/third-party assets retained locally only; Git contains original paraphrased manuals, references and bounded verification metadata."
+    },
+    {
+      "id": "74We8IgMW0c",
+      "title": "3 Photoshop Seamless Pattern Techniques I Wish I Knew Sooner",
+      "author": "Photoshop Training Channel",
+      "url": "https://www.youtube.com/watch?v=74We8IgMW0c",
+      "metadata_duration_seconds": 1799,
+      "decoded_duration_seconds": 1799.082086,
+      "video_bytes": 501879802,
+      "local_source_sha256": "f5bac1485ff025adf9efc3fc9a01e7552663baeaf00b5cb0d982e89781479bf6",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "vp9",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "53971000/1799033"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "INTRO – What You’ll Learn Today",
+          "end_time": 20
+        },
+        {
+          "start_time": 20,
+          "title": "TECHNIQUE 1 – Wrinkled Paper Pattern (Beginner)",
+          "end_time": 78
+        },
+        {
+          "start_time": 78,
+          "title": "Use Offset Filter to Expose Seams",
+          "end_time": 126
+        },
+        {
+          "start_time": 126,
+          "title": "Remove Seams with Generative Fill",
+          "end_time": 237
+        },
+        {
+          "start_time": 237,
+          "title": "Refine with the Remove Tool",
+          "end_time": 279
+        },
+        {
+          "start_time": 279,
+          "title": "Define Pattern and Apply It",
+          "end_time": 317
+        },
+        {
+          "start_time": 317,
+          "title": "BONUS TIP – Add Variation with Multiply Layer",
+          "end_time": 401
+        },
+        {
+          "start_time": 401,
+          "title": "TECHNIQUE 2 – Stone Wall Texture (Intermediate)",
+          "end_time": 534
+        },
+        {
+          "start_time": 534,
+          "title": "Convert to Black & White for Better Control",
+          "end_time": 615
+        },
+        {
+          "start_time": 615,
+          "title": "Merge Layers and Remove Remaining Seams",
+          "end_time": 711
+        },
+        {
+          "start_time": 711,
+          "title": "Use Enhance Detail in Generative Fill",
+          "end_time": 808
+        },
+        {
+          "start_time": 808,
+          "title": "Harmonize Color to Reduce Repetition",
+          "end_time": 947
+        },
+        {
+          "start_time": 947,
+          "title": "TECHNIQUE 3 – Seamless Fence Pattern (Advanced / Pro Use Case)",
+          "end_time": 1071
+        },
+        {
+          "start_time": 1071,
+          "title": "Analyze Repeat with Pattern Preview",
+          "end_time": 1091
+        },
+        {
+          "start_time": 1091,
+          "title": "Rebuild Fence Details Manually",
+          "end_time": 1239
+        },
+        {
+          "start_time": 1239,
+          "title": "Use Offset and Clone Stamp for Seamless Join",
+          "end_time": 1345
+        },
+        {
+          "start_time": 1345,
+          "title": "Remove Repeating Artifacts with the Remove Tool",
+          "end_time": 1584
+        },
+        {
+          "start_time": 1584,
+          "title": "BONUS – Create Overlay Texture with Clouds Filter",
+          "end_time": 1701
+        },
+        {
+          "start_time": 1701,
+          "title": "FINAL TOUCH – Mask and Blend with Grass Brush",
+          "end_time": 1799
+        }
+      ],
+      "direct_sample_times_seconds": [
+        0,
+        10.0,
+        49.0,
+        60,
+        102.0,
+        120,
+        180,
+        181.5,
+        240,
+        258.0,
+        298.0,
+        300,
+        359.0,
+        360,
+        420,
+        467.5,
+        480,
+        540,
+        574.5,
+        600,
+        660,
+        663.0,
+        720,
+        759.5,
+        780,
+        840,
+        877.5,
+        900,
+        960,
+        1009.0,
+        1020,
+        1080,
+        1081.0,
+        1140,
+        1165.0,
+        1200,
+        1260,
+        1292.0,
+        1320,
+        1380,
+        1440,
+        1464.5,
+        1500,
+        1560,
+        1620,
+        1642.5,
+        1680,
+        1740,
+        1750.0,
+        1797.03
+      ],
+      "unique_direct_frames": 50,
+      "reviewed_contact_sheets": 9,
+      "native_ui_times_seconds": [
+        120,
+        574.5
+      ],
+      "caption_language": "en",
+      "caption_type": "YouTube automatic; not direct audio listening",
+      "cleaned_caption_rows": 828,
+      "entire_available_cleaned_caption_text_reviewed": true,
+      "direct_continuous_video_review": false,
+      "caption_sha256": "003a5fd141368d81f12aaceebe82892050217dc1ed85f251ce702c3e090f817f",
+      "caption_last_second": 1797.52,
+      "qwen": {
+        "model": "qwen3-vl:4b-instruct",
+        "local_only": true,
+        "requests": 2,
+        "frames_submitted": 8,
+        "source_seconds": [
+          120,
+          359.0,
+          574.5,
+          780,
+          1009.0,
+          1200,
+          1440,
+          1642.5
+        ],
+        "successful_nonempty_responses": true,
+        "raw_results_published": false,
+        "temporal_alignment_and_UI_values_require_correction": true
+      },
+      "framelens": {
+        "source_id": "74We8IgMW0c",
+        "source_range_seconds": [
+          420,
+          480
+        ],
+        "proxy_fps": 3,
+        "proxy_width": 640,
+        "shots": 3,
+        "semantics": "shot/motion/image metrics only; does not read menu operations or prove seamless output"
+      },
+      "rights": "Original media/captions/third-party assets retained locally only; Git contains original paraphrased manuals, references and bounded verification metadata."
+    },
+    {
+      "id": "lP3y5gIQ2mU",
+      "title": "How to Create Seamless Textures with Photoshop",
+      "author": "TriMech Group",
+      "url": "https://www.youtube.com/watch?v=lP3y5gIQ2mU",
+      "metadata_duration_seconds": 347,
+      "decoded_duration_seconds": 347.300862,
+      "video_bytes": 32276540,
+      "local_source_sha256": "a25ff85cb1952d9630a00e416617f16006cb5c3376ddcd76a42b18a43d231b6c",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "av1",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "60/1"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro",
+          "end_time": 47
+        },
+        {
+          "start_time": 47,
+          "title": "Getting Started",
+          "end_time": 82
+        },
+        {
+          "start_time": 82,
+          "title": "Creating the Texture",
+          "end_time": 113
+        },
+        {
+          "start_time": 113,
+          "title": "Creating the Seamless Texture",
+          "end_time": 142
+        },
+        {
+          "start_time": 142,
+          "title": "Cleaning Up",
+          "end_time": 205
+        },
+        {
+          "start_time": 205,
+          "title": "Creating a Normal Map",
+          "end_time": 256
+        },
+        {
+          "start_time": 256,
+          "title": "Applying the Texture",
+          "end_time": 347
+        }
+      ],
+      "direct_sample_times_seconds": [
+        0,
+        20,
+        23.5,
+        40,
+        60,
+        64.5,
+        80,
+        97.5,
+        100,
+        120,
+        127.5,
+        140,
+        160,
+        173.5,
+        180,
+        200,
+        220,
+        230.5,
+        240,
+        260,
+        280,
+        300,
+        301.5,
+        320,
+        340,
+        345.23
+      ],
+      "unique_direct_frames": 26,
+      "reviewed_contact_sheets": 5,
+      "native_ui_times_seconds": [
+        140,
+        230.5
+      ],
+      "caption_language": "en",
+      "caption_type": "YouTube automatic; not direct audio listening",
+      "cleaned_caption_rows": 166,
+      "entire_available_cleaned_caption_text_reviewed": true,
+      "direct_continuous_video_review": false,
+      "caption_sha256": "08be054172ec90c57fd8ad16ecb40de4f4a586a9c2929269d02dd07a0c4d8332",
+      "caption_last_second": 337.69,
+      "qwen": {
+        "model": "qwen3-vl:4b-instruct",
+        "local_only": true,
+        "requests": 2,
+        "frames_submitted": 8,
+        "source_seconds": [
+          23.5,
+          64.5,
+          120,
+          160,
+          200,
+          230.5,
+          280,
+          320
+        ],
+        "successful_nonempty_responses": true,
+        "raw_results_published": false,
+        "temporal_alignment_and_UI_values_require_correction": true
+      },
+      "framelens": {
+        "source_id": "lP3y5gIQ2mU",
+        "source_range_seconds": [
+          110,
+          170
+        ],
+        "proxy_fps": 3,
+        "proxy_width": 640,
+        "shots": 1,
+        "semantics": "shot/motion/image metrics only; does not read menu operations or prove seamless output"
+      },
+      "rights": "Original media/captions/third-party assets retained locally only; Git contains original paraphrased manuals, references and bounded verification metadata."
+    }
+  ],
+  "official_web_crosscheck": [
+    {
+      "topic": "Pattern Preview / Define Pattern",
+      "url": "https://helpx.adobe.com/photoshop/desktop/apply-painting-techniques/create-fill-with-patterns/create-a-new-pattern.html",
+      "read": true
+    },
+    {
+      "topic": "Bump versus true displacement and precision",
+      "url": "https://docs.blender.org/manual/en/5.2/render/materials/components/displacement.html",
+      "read": true
+    },
+    {
+      "topic": "Image Texture interpolation and Repeat/Mirror/Extend",
+      "url": "https://docs.blender.org/manual/en/5.2/render/shader_nodes/textures/image.html",
+      "read": true
+    },
+    {
+      "topic": "Displace Strength, Midlevel and vertex group",
+      "url": "https://docs.blender.org/manual/en/5.2/modeling/modifiers/deform/displace.html",
+      "read": true
+    }
+  ],
+  "compatibility_limits": [
+    "Historical Photoshop 3D Normal Map UI observed in video, not confirmed in current local app. Adobe old FAQ redirected to a different product article; not used as verification of current normal generator support.",
+    "PhotoCraft feature parity and final texture quality not validated by this learning task.",
+    "No Blender scene, Unity project, Android build or wallet asset was modified."
+  ]
+}
