@@ -1,0 +1,1395 @@
+{
+  "date": "2026-10-31",
+  "scope": "Three public Painter courses: whole-flow sampled visual study plus dense key UI review; no full audio/transcript study",
+  "status": "DOCUMENTED_SAMPLED_VISUAL_STUDY",
+  "not_a_production_or_independent_pass": true,
+  "reviewed_contact_sheets": 77,
+  "unique_source_frames": 336,
+  "course_unique_frames": {
+    "khatri": 105,
+    "adobe": 184,
+    "pilgrim": 47
+  },
+  "native_images_reviewed": 20,
+  "historical_unique_frames_before": 528,
+  "cumulative_unique_frames": 864,
+  "sources": [
+    {
+      "id": "1L5hJalAUHg",
+      "title": "Texturing Characters in Substance Painter - Creating the skin base color | Adobe Substance 3D",
+      "author": "Adobe Substance 3D",
+      "source": "https://www.youtube.com/watch?v=1L5hJalAUHg",
+      "source_duration": 1054,
+      "duration": 1053.442902,
+      "bytes": 72090945,
+      "sha256": "c9d1728940650bdac5d738453078c1466ffbe685ef32e4a4594523e720af6328",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "duration": "1053.433333"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "1053.442902"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Setting up the project",
+          "end_time": 60
+        },
+        {
+          "start_time": 60,
+          "title": "Base color and AO",
+          "end_time": 189
+        },
+        {
+          "start_time": 189,
+          "title": "Painting skin redness",
+          "end_time": 358
+        },
+        {
+          "start_time": 358,
+          "title": "Refining skin tones",
+          "end_time": 504
+        },
+        {
+          "start_time": 504,
+          "title": "Painting facial veins",
+          "end_time": 630
+        },
+        {
+          "start_time": 630,
+          "title": "Curvature and detail",
+          "end_time": 925
+        },
+        {
+          "start_time": 925,
+          "title": "Adding final texture",
+          "end_time": 1054
+        }
+      ],
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        90.0,
+        120.0,
+        180.0,
+        240.0,
+        270.0,
+        300.0,
+        360.0,
+        420.0,
+        450.0,
+        480.0,
+        540.0,
+        600.0,
+        630.0,
+        660.0,
+        720.0,
+        750.0,
+        757.5,
+        772.5,
+        780.0,
+        787.5,
+        802.5,
+        810.0,
+        840.0,
+        900.0,
+        930.0,
+        990.0,
+        1020.0,
+        1053.0
+      ],
+      "groups": {
+        "detail": 12,
+        "overview": 13,
+        "qwen": 4
+      },
+      "unique_direct_frames": 29,
+      "native_direct_review": []
+    },
+    {
+      "id": "20Af67BNcUE",
+      "title": "Texturing Characters in Substance Painter - Using Subsurface Scattering | Adobe Substance 3D",
+      "author": "Adobe Substance 3D",
+      "source": "https://www.youtube.com/watch?v=20Af67BNcUE",
+      "source_duration": 492,
+      "duration": 491.821859,
+      "bytes": 26646409,
+      "sha256": "1d44e104c5c424a49dcf4466e7e563055823ba3c6ffe94384088deecdda07de0",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "duration": "491.800000"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "491.821859"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "end_time": 130,
+          "title": "<Untitled Chapter 1>"
+        },
+        {
+          "start_time": 130,
+          "title": "increase the contrast in the map",
+          "end_time": 169
+        },
+        {
+          "start_time": 169,
+          "title": "added a paint layer onto our mask paint",
+          "end_time": 265
+        },
+        {
+          "start_time": 265,
+          "title": "paint them in white using a softer brush",
+          "end_time": 284
+        },
+        {
+          "start_time": 284,
+          "title": "export this map as a color map",
+          "end_time": 327
+        },
+        {
+          "start_time": 327,
+          "title": "add a scattering channel",
+          "end_time": 378
+        },
+        {
+          "start_time": 378,
+          "title": "find and activate subsurface scattering",
+          "end_time": 492
+        }
+      ],
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        45.0,
+        60.0,
+        90.0,
+        105.0,
+        135.0,
+        150.0,
+        180.0,
+        195.0,
+        225.0,
+        240.0,
+        270.0,
+        285.0,
+        315.0,
+        330.0,
+        337.5,
+        352.5,
+        360.0,
+        367.5,
+        375.0,
+        382.5,
+        405.0,
+        420.0,
+        450.0,
+        465.0,
+        491.0
+      ],
+      "groups": {
+        "detail": 10,
+        "overview": 12,
+        "qwen": 4
+      },
+      "unique_direct_frames": 26,
+      "native_direct_review": [
+        {
+          "source_seconds": 135,
+          "sha256": "400061c249fc219e387987d8b3fe3225995f45bcf68f10cb6d6ea7cf58c7e17c"
+        },
+        {
+          "source_seconds": 315,
+          "sha256": "cb98ec9c06326a7fea496cf59f5765c791d18d539ef35789f2281f4f66dee16b"
+        },
+        {
+          "source_seconds": 405,
+          "sha256": "18accc6df6448a78c61b0da0a0e0c3c6173983ae614690a6f53e7670cb8d1b3c"
+        }
+      ]
+    },
+    {
+      "id": "57ybKwtYoV4",
+      "title": "Texturing Characters in Substance Painter - Introduction | Adobe Substance 3D",
+      "author": "Adobe Substance 3D",
+      "source": "https://www.youtube.com/watch?v=57ybKwtYoV4",
+      "source_duration": 37,
+      "duration": 37.291247,
+      "bytes": 1466669,
+      "sha256": "bc363817f35b3edcb2d4fd5689b47a68d92d7c011afd35015e06b5f256967c1b",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "av1",
+          "width": 1920,
+          "height": 1080,
+          "duration": "37.233333"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "37.291247"
+        }
+      ],
+      "chapters": null,
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        10.0,
+        20.0,
+        30.0,
+        36.0
+      ],
+      "groups": {
+        "overview": 5
+      },
+      "unique_direct_frames": 5,
+      "native_direct_review": []
+    },
+    {
+      "id": "cpAPk72xq-I",
+      "title": "Texturing Characters in Substance Painter - Adding skin details | Adobe Substance 3D",
+      "author": "Adobe Substance 3D",
+      "source": "https://www.youtube.com/watch?v=cpAPk72xq-I",
+      "source_duration": 532,
+      "duration": 531.969161,
+      "bytes": 70998064,
+      "sha256": "61efe3e406d820388f497522a3b089662a59aac3841270972d45f588530ef78e",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "duration": "531.966667"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "531.969161"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Introduction to skin",
+          "end_time": 86
+        },
+        {
+          "start_time": 86,
+          "title": "Applying first skin layer",
+          "end_time": 328
+        },
+        {
+          "start_time": 328,
+          "title": "Adding further skin details",
+          "end_time": 532
+        }
+      ],
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        60.0,
+        105.0,
+        120.0,
+        135.0,
+        165.0,
+        180.0,
+        195.0,
+        240.0,
+        255.0,
+        300.0,
+        315.0,
+        360.0,
+        375.0,
+        420.0,
+        435.0,
+        480.0,
+        531.0
+      ],
+      "groups": {
+        "detail": 8,
+        "overview": 10
+      },
+      "unique_direct_frames": 18,
+      "native_direct_review": [
+        {
+          "source_seconds": 180,
+          "sha256": "c4a7c10e1e8232112626b980b4ea18608015b5e96434e758dde4427207f9c7ee"
+        }
+      ]
+    },
+    {
+      "id": "eMX6Xo3D44Q",
+      "title": "Texturing Characters in Substance Painter - Refining the layers | Adobe Substance 3D",
+      "author": "Adobe Substance 3D",
+      "source": "https://www.youtube.com/watch?v=eMX6Xo3D44Q",
+      "source_duration": 232,
+      "duration": 232.385306,
+      "bytes": 15061232,
+      "sha256": "6b4abed1f9fc75adbd875f36864f35c4c3006da809861e4d40cb08b26794d69a",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "duration": "232.366667"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "232.385306"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "end_time": 22,
+          "title": "<Untitled Chapter 1>"
+        },
+        {
+          "start_time": 22,
+          "title": "refining the layers",
+          "end_time": 70
+        },
+        {
+          "start_time": 70,
+          "title": "tone down the opacity",
+          "end_time": 173
+        },
+        {
+          "start_time": 173,
+          "title": "start also adding additional color layers",
+          "end_time": 199
+        },
+        {
+          "start_time": 199,
+          "title": "added a wash of pink",
+          "end_time": 232
+        }
+      ],
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        231.0
+      ],
+      "groups": {
+        "detail": 6,
+        "overview": 9
+      },
+      "unique_direct_frames": 15,
+      "native_direct_review": []
+    },
+    {
+      "id": "ERhrJIiN38o",
+      "title": "Texturing Characters in Substance Painter - Skin modifiers from Substance Source | Substance 3D",
+      "author": "Adobe Substance 3D",
+      "source": "https://www.youtube.com/watch?v=ERhrJIiN38o",
+      "source_duration": 769,
+      "duration": 768.673379,
+      "bytes": 65473491,
+      "sha256": "b088aa139b408a187a4a3c1f382b82a806875ee28945c379afdd2fd9e56a05a2",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "duration": "768.666667"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "768.673379"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "end_time": 41,
+          "title": "<Untitled Chapter 1>"
+        },
+        {
+          "start_time": 41,
+          "title": "paint the freckles by hand",
+          "end_time": 375
+        },
+        {
+          "start_time": 375,
+          "title": "add a black black mask",
+          "end_time": 422
+        },
+        {
+          "start_time": 422,
+          "title": "add redness to the face",
+          "end_time": 581
+        },
+        {
+          "start_time": 581,
+          "title": "add a black mask",
+          "end_time": 769
+        }
+      ],
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        60.0,
+        120.0,
+        150.0,
+        180.0,
+        210.0,
+        240.0,
+        270.0,
+        300.0,
+        330.0,
+        360.0,
+        390.0,
+        420.0,
+        450.0,
+        480.0,
+        510.0,
+        540.0,
+        570.0,
+        600.0,
+        630.0,
+        660.0,
+        690.0,
+        720.0,
+        768.0
+      ],
+      "groups": {
+        "detail": 10,
+        "overview": 14
+      },
+      "unique_direct_frames": 24,
+      "native_direct_review": []
+    },
+    {
+      "id": "ka9v9OiGoz8",
+      "title": "Texturing Characters in Substance Painter - Creating the roughness | Adobe Substance 3D",
+      "author": "Adobe Substance 3D",
+      "source": "https://www.youtube.com/watch?v=ka9v9OiGoz8",
+      "source_duration": 600,
+      "duration": 600.351927,
+      "bytes": 48318560,
+      "sha256": "d69e38013ccc9d1a2c277bc964973538f743e5aad1a37d2d1ed1817ba13d35f8",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "duration": "600.333333"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "600.351927"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro",
+          "end_time": 58
+        },
+        {
+          "start_time": 58,
+          "title": "Base reflectivity",
+          "end_time": 178
+        },
+        {
+          "start_time": 178,
+          "title": "Clouds",
+          "end_time": 361
+        },
+        {
+          "start_time": 361,
+          "title": "Dots",
+          "end_time": 456
+        },
+        {
+          "start_time": 456,
+          "title": "Roughness",
+          "end_time": 600
+        }
+      ],
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        60.0,
+        90.0,
+        120.0,
+        150.0,
+        180.0,
+        210.0,
+        240.0,
+        270.0,
+        300.0,
+        330.0,
+        360.0,
+        390.0,
+        397.5,
+        412.5,
+        420.0,
+        427.5,
+        442.5,
+        450.0,
+        480.0,
+        510.0,
+        540.0,
+        570.0,
+        599.0
+      ],
+      "groups": {
+        "detail": 9,
+        "overview": 11,
+        "qwen": 4
+      },
+      "unique_direct_frames": 24,
+      "native_direct_review": [
+        {
+          "source_seconds": 120,
+          "sha256": "471b06abeea240938b587525356da559586a077e4edc18c48f2fd824ff825e49"
+        },
+        {
+          "source_seconds": 420,
+          "sha256": "b6448d7b634cab2ae6dd75751c94958cbe2e7547a72f973305229b93d58a096e"
+        }
+      ]
+    },
+    {
+      "id": "L6vsR64BbXA",
+      "title": "Texturing Stylized Character - Substance Painter Tutorial",
+      "author": "Khatri3D",
+      "source": "https://www.youtube.com/watch?v=L6vsR64BbXA",
+      "source_duration": 1992,
+      "duration": 1992.318549,
+      "bytes": 132462540,
+      "sha256": "ed32c099754cede9c105916fefb993c5ac6180f42c51480ad76a95da12424247",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "duration": "1992.233333"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "1992.318549"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Introduction",
+          "end_time": 36
+        },
+        {
+          "start_time": 36,
+          "title": "Blocking base colors",
+          "end_time": 357
+        },
+        {
+          "start_time": 357,
+          "title": "Adding facial details",
+          "end_time": 643
+        },
+        {
+          "start_time": 643,
+          "title": "Creating color variations",
+          "end_time": 888
+        },
+        {
+          "start_time": 888,
+          "title": "Projecting logos",
+          "end_time": 1051
+        },
+        {
+          "start_time": 1051,
+          "title": "Refining roughness",
+          "end_time": 1223
+        },
+        {
+          "start_time": 1223,
+          "title": "Stylized beard painting",
+          "end_time": 1381
+        },
+        {
+          "start_time": 1381,
+          "title": "Clothing textures",
+          "end_time": 1626
+        },
+        {
+          "start_time": 1626,
+          "title": "Ambient occlusion",
+          "end_time": 1833
+        },
+        {
+          "start_time": 1833,
+          "title": "Exporting textures",
+          "end_time": 1992
+        }
+      ],
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        36.0,
+        50.0,
+        60.0,
+        80.0,
+        110.0,
+        120.0,
+        140.0,
+        170.0,
+        180.0,
+        187.5,
+        200.0,
+        202.5,
+        217.5,
+        230.0,
+        232.5,
+        240.0,
+        260.0,
+        290.0,
+        300.0,
+        320.0,
+        350.0,
+        357.0,
+        360.0,
+        380.0,
+        400.0,
+        420.0,
+        427.5,
+        440.0,
+        442.5,
+        457.5,
+        460.0,
+        472.5,
+        480.0,
+        500.0,
+        520.0,
+        540.0,
+        560.0,
+        580.0,
+        600.0,
+        620.0,
+        640.0,
+        650.0,
+        660.0,
+        680.0,
+        710.0,
+        720.0,
+        740.0,
+        770.0,
+        780.0,
+        800.0,
+        830.0,
+        840.0,
+        860.0,
+        885.0,
+        900.0,
+        930.0,
+        960.0,
+        990.0,
+        1020.0,
+        1050.0,
+        1080.0,
+        1110.0,
+        1140.0,
+        1170.0,
+        1200.0,
+        1230.0,
+        1260.0,
+        1290.0,
+        1320.0,
+        1327.5,
+        1342.5,
+        1350.0,
+        1357.5,
+        1372.5,
+        1380.0,
+        1410.0,
+        1440.0,
+        1470.0,
+        1500.0,
+        1530.0,
+        1560.0,
+        1590.0,
+        1620.0,
+        1650.0,
+        1680.0,
+        1710.0,
+        1740.0,
+        1770.0,
+        1800.0,
+        1830.0,
+        1833.0,
+        1840.0,
+        1860.0,
+        1880.0,
+        1900.0,
+        1907.5,
+        1920.0,
+        1922.5,
+        1937.5,
+        1940.0,
+        1952.5,
+        1960.0,
+        1980.0,
+        1991.0
+      ],
+      "groups": {
+        "base": 12,
+        "clothes": 10,
+        "export": 9,
+        "face": 15,
+        "logo": 8,
+        "overview": 35,
+        "qwen": 16,
+        "surface": 14,
+        "variation": 9
+      },
+      "unique_direct_frames": 105,
+      "native_direct_review": [
+        {
+          "source_seconds": 540,
+          "sha256": "b0206dd9aab9907e245cf05d1c921d6ea4420286848ccb0908b48ba96287261c"
+        },
+        {
+          "source_seconds": 1200,
+          "sha256": "a0029f937981e2f65b26060245dfba350b94323cd23554158742ff5183c901fe"
+        },
+        {
+          "source_seconds": 1800,
+          "sha256": "69496e04a83d4be76a2929018193b8b5473da3ecfe2d0d27a2cff569eb80876b"
+        },
+        {
+          "source_seconds": 1920,
+          "sha256": "7f12e68a3fa075916f54c1dac0bf9292d67fb4256dbb1641051cc68337e943cb"
+        },
+        {
+          "source_seconds": 1980,
+          "sha256": "01adb51c6974f9c18b958ee7eebd0af48363c01bf6746020f2f9295e361a9acd"
+        }
+      ]
+    },
+    {
+      "id": "LBEH_1_oz-s",
+      "title": "Texturing Characters in Substance Painter - Texturing dark skin | Adobe Substance 3D",
+      "author": "Adobe Substance 3D",
+      "source": "https://www.youtube.com/watch?v=LBEH_1_oz-s",
+      "source_duration": 229,
+      "duration": 228.716553,
+      "bytes": 18609540,
+      "sha256": "318b858aed34072351bb7f2dc50f354d075a8a1ed245c29aab7303deade87e14",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "duration": "228.700000"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "228.716553"
+        }
+      ],
+      "chapters": null,
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        228.0
+      ],
+      "groups": {
+        "detail": 6,
+        "overview": 9
+      },
+      "unique_direct_frames": 15,
+      "native_direct_review": []
+    },
+    {
+      "id": "N-FwA4A0nks",
+      "title": "Texturing Characters in Substance Painter - Setting up the scene | Adobe Substance 3D",
+      "author": "Adobe Substance 3D",
+      "source": "https://www.youtube.com/watch?v=N-FwA4A0nks",
+      "source_duration": 304,
+      "duration": 303.600907,
+      "bytes": 16631646,
+      "sha256": "44748f4cdccc55656c69945263f14d6409074b530d9bc3cc36e71088b6e4b7cd",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "duration": "303.600000"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "303.600907"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "end_time": 46,
+          "title": "<Untitled Chapter 1>"
+        },
+        {
+          "start_time": 46,
+          "title": "leave the document resolution at 1k",
+          "end_time": 202
+        },
+        {
+          "start_time": 202,
+          "title": "look at the texture settings",
+          "end_time": 235
+        },
+        {
+          "start_time": 235,
+          "title": "put my normal map out of zbrush",
+          "end_time": 249
+        },
+        {
+          "start_time": 249,
+          "title": "export the high res mesh out of zbrush",
+          "end_time": 304
+        }
+      ],
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        45.0,
+        60.0,
+        75.0,
+        105.0,
+        120.0,
+        155.0,
+        180.0,
+        215.0,
+        217.5,
+        232.5,
+        240.0,
+        247.5,
+        255.0,
+        262.5,
+        300.0,
+        303.0
+      ],
+      "groups": {
+        "detail": 6,
+        "overview": 7,
+        "qwen": 4
+      },
+      "unique_direct_frames": 17,
+      "native_direct_review": [
+        {
+          "source_seconds": 60,
+          "sha256": "bf86699dad7d6fc5cda513eff0726b760aceab1ab979d6fc12671a7a7cc31925"
+        },
+        {
+          "source_seconds": 240,
+          "sha256": "aea0ae40788c952cd2e47e9583781de97ee65e6d43a34505ebf7f20692bbdf19"
+        }
+      ]
+    },
+    {
+      "id": "YmZrz3hmhZg",
+      "title": "Texturing Characters in Substance Painter - Tips for skin texturing | Adobe Substance 3D",
+      "author": "Adobe Substance 3D",
+      "source": "https://www.youtube.com/watch?v=YmZrz3hmhZg",
+      "source_duration": 176,
+      "duration": 175.844717,
+      "bytes": 15568892,
+      "sha256": "df419cbbddf386bec59bf6395c6def69fc413e3c829f668c34e62ea4b99f729f",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "duration": "175.833333"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "175.844717"
+        }
+      ],
+      "chapters": null,
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        175.0
+      ],
+      "groups": {
+        "detail": 4,
+        "overview": 7
+      },
+      "unique_direct_frames": 11,
+      "native_direct_review": []
+    },
+    {
+      "id": "Ze88TvD2ku0",
+      "title": "From Substance Painter To Blender - The Easy Way",
+      "author": "Art of Pilgrim",
+      "source": "https://www.youtube.com/watch?v=Ze88TvD2ku0",
+      "source_duration": 210,
+      "duration": 210.326349,
+      "bytes": 13802554,
+      "sha256": "5a44a2b11c31f9cc5f0f2ca590ead637c43fc24de07547d08692d70461ff1509",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "av1",
+          "width": 1920,
+          "height": 1080,
+          "duration": "210.250000"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "210.326349"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Preparing textures",
+          "end_time": 35
+        },
+        {
+          "start_time": 35,
+          "title": "Export configuration",
+          "end_time": 92
+        },
+        {
+          "start_time": 92,
+          "title": "Finalizing export",
+          "end_time": 116
+        },
+        {
+          "start_time": 116,
+          "title": "Importing to blender",
+          "end_time": 144
+        },
+        {
+          "start_time": 144,
+          "title": "Shading setup",
+          "end_time": 210
+        }
+      ],
+      "audio_transcript_reviewed": false,
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "source_seconds_directly_reviewed": [
+        0.0,
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0,
+        30.0,
+        35.0,
+        40.0,
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0,
+        90.0,
+        95.0,
+        100.0,
+        105.0,
+        110.0,
+        115.0,
+        120.0,
+        125.0,
+        130.0,
+        135.0,
+        140.0,
+        145.0,
+        150.0,
+        155.0,
+        160.0,
+        165.0,
+        170.0,
+        175.0,
+        178.75,
+        180.0,
+        185.0,
+        186.25,
+        190.0,
+        193.75,
+        195.0,
+        200.0,
+        201.25,
+        205.0,
+        210.0
+      ],
+      "groups": {
+        "dense": 43,
+        "overview": 15,
+        "qwen": 12
+      },
+      "unique_direct_frames": 47,
+      "native_direct_review": [
+        {
+          "source_seconds": 50,
+          "sha256": "79c94de8fde5109f1afcf53c354e878d79eb8543211cca28e2d5dd2f05fb6384"
+        },
+        {
+          "source_seconds": 60,
+          "sha256": "d4bd0c78d1abab638882811f6350cfb2890ccefeb459c0ea6f3dcc4ff08f0217"
+        },
+        {
+          "source_seconds": 85,
+          "sha256": "578121a0a8fe1409fd9db8012b7a406ea977547f01e594d5d6cf8f3a00474b0f"
+        },
+        {
+          "source_seconds": 110,
+          "sha256": "7e323a68cb9999b77baaf9e64670bd6ba52eed7e30f8291eaccdf5e4cd074369"
+        },
+        {
+          "source_seconds": 150,
+          "sha256": "bfd742ae2b5342cd1b15d1fcf82cf0b55ab1c0c869d762f61f2fdc9c71b44d87"
+        },
+        {
+          "source_seconds": 165,
+          "sha256": "245c05166477f1aaaf7915032405de64eb57be406e728b16eb07c17be6f03bb7"
+        },
+        {
+          "source_seconds": 200,
+          "sha256": "9ffa28665f892832171f39f0d925a50e0ea7a9cfacbb9f43be85f456f054ddad"
+        }
+      ]
+    }
+  ],
+  "qwen": {
+    "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+    "calls": [
+      {
+        "output": "qwen_1L5hJalAUHg_750_810.json",
+        "sha256": "184bc845225da1d03d921cec362e504a21f03cf5eb4a8008fd9881b85e12c845",
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "input_frames": 4,
+        "returned_observation_array_count": 0,
+        "schema_four_observations": false,
+        "authority": "Auxiliary only; direct images and readable UI override all model claims"
+      },
+      {
+        "output": "qwen_20Af67BNcUE_330_390.json",
+        "sha256": "2d37f724397d4e1a150ceed895ac8810b984147c7fe3c5efef9e198df1e1256e",
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "input_frames": 4,
+        "returned_observation_array_count": 0,
+        "schema_four_observations": false,
+        "authority": "Auxiliary only; direct images and readable UI override all model claims"
+      },
+      {
+        "output": "qwen_ka9v9OiGoz8_390_450.json",
+        "sha256": "264527c287371d410a044900abedc744e1604424e1e277dd154d792aac7e8d96",
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "input_frames": 4,
+        "returned_observation_array_count": 0,
+        "schema_four_observations": false,
+        "authority": "Auxiliary only; direct images and readable UI override all model claims"
+      },
+      {
+        "output": "qwen_L6vsR64BbXA_1320_1380.json",
+        "sha256": "1a2b55f118dfa426c118660883136005eb6d172ca706b2bd52a874c20a88c661",
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "input_frames": 4,
+        "returned_observation_array_count": 4,
+        "schema_four_observations": true,
+        "authority": "Auxiliary only; direct images and readable UI override all model claims"
+      },
+      {
+        "output": "qwen_L6vsR64BbXA_180_240.json",
+        "sha256": "744af072ea864bbbb2fd4b40b2c04cab137b6aeeb4d6e46c6c5490edc8b09302",
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "input_frames": 4,
+        "returned_observation_array_count": 4,
+        "schema_four_observations": true,
+        "authority": "Auxiliary only; direct images and readable UI override all model claims"
+      },
+      {
+        "output": "qwen_L6vsR64BbXA_1900_1960.json",
+        "sha256": "d08bad368c9d1b92d5db393e6c4c5d9023a2e818cd0943be5f0ece5eb3a4f779",
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "input_frames": 4,
+        "returned_observation_array_count": 4,
+        "schema_four_observations": true,
+        "authority": "Auxiliary only; direct images and readable UI override all model claims"
+      },
+      {
+        "output": "qwen_L6vsR64BbXA_420_480.json",
+        "sha256": "c696cc7737c91661711299edde7e9f1072bb64dfa05c961b0668afbec42a3171",
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "input_frames": 4,
+        "returned_observation_array_count": 4,
+        "schema_four_observations": true,
+        "authority": "Auxiliary only; direct images and readable UI override all model claims"
+      },
+      {
+        "output": "qwen_N-FwA4A0nks_210_270.json",
+        "sha256": "d3c7da6ccefacd16bc03a0863bfc5538b190612290463b40caa81bba550d840f",
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "input_frames": 4,
+        "returned_observation_array_count": 0,
+        "schema_four_observations": false,
+        "authority": "Auxiliary only; direct images and readable UI override all model claims"
+      },
+      {
+        "output": "qwen_Ze88TvD2ku0_130_170.json",
+        "sha256": "39d8ad79a0394ab36063d63c65508ff9baec3b683c9a4f3e09b1fd52f8ad4339",
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "input_frames": 4,
+        "returned_observation_array_count": 4,
+        "schema_four_observations": true,
+        "authority": "Auxiliary only; direct images and readable UI override all model claims"
+      },
+      {
+        "output": "qwen_Ze88TvD2ku0_175_205.json",
+        "sha256": "eafc9cd0c8ab9ba85904bd1de9f0ba8b9a5337dbc21ceb0d15377c679cc99f4f",
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "input_frames": 4,
+        "returned_observation_array_count": 4,
+        "schema_four_observations": true,
+        "authority": "Auxiliary only; direct images and readable UI override all model claims"
+      },
+      {
+        "output": "qwen_Ze88TvD2ku0_40_80.json",
+        "sha256": "4f8b54796aa27ebd405a9e576fcbaa0d08b9d305c5d0bfea0960636310a998b7",
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "length",
+        "local_only": true,
+        "input_frames": 4,
+        "returned_observation_array_count": 0,
+        "schema_four_observations": false,
+        "authority": "Auxiliary only; direct images and readable UI override all model claims"
+      }
+    ],
+    "failures": [
+      "Khatri: Texture Set confused with layer, Fill misread Filter; Material viewport mode misread as selected set; beard layer names invented",
+      "Pilgrim export response repeats Reflection, incomplete JSON; reject",
+      "Pilgrim Blender fill-layer/texture-set node claim invented; reject",
+      "Adobe all four calls returned one object instead of requested four-observation array; reject as complete clip analysis",
+      "Adobe grayscale claimed no textures; actual channel/material display; brush claimed sculpting without evidence; reject"
+    ]
+  },
+  "framelens": [
+    {
+      "output": "framelens_adobe.json",
+      "sha256": "432889f2ebe74c34d04248cd34b542c7e862bd2f3685ac9391174b74be3b3c02",
+      "shots": 1,
+      "semantic_all_null": true,
+      "role": "shot/image metrics only, not workflow understanding"
+    },
+    {
+      "output": "framelens_khatri.json",
+      "sha256": "1f5ca76585bbc1384571da46ed93e4743b03b3c72b323a22767d809c863daaf8",
+      "shots": 1,
+      "semantic_all_null": true,
+      "role": "shot/image metrics only, not workflow understanding"
+    },
+    {
+      "output": "framelens_pilgrim.json",
+      "sha256": "fe06d0fdb288a06eef5941ee2bb7c8600078da332db7e948d64f4a9be354d115",
+      "shots": 1,
+      "semantic_all_null": true,
+      "role": "shot/image metrics only, not workflow understanding"
+    }
+  ],
+  "browser": {
+    "tool": "ego-browser",
+    "space": 29,
+    "explicit_resume_authorized": true,
+    "finished_once": true,
+    "update_installed": false,
+    "other_space_28_accessed": false,
+    "adobe_original_page": "Ten lesson headings read; original DOM had no embedded video source; official @Substance3D ten-video equivalent playlist matched titles/order/creator/description",
+    "official_equivalent_playlist": "https://www.youtube.com/playlist?list=PLB0wXHrWAmCyxQQSMWfYuTRT1pntzCjY7"
+  },
+  "official_docs_read": [
+    "https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/export/export-window/output-templates",
+    "https://docs.blender.org/manual/en/5.2/render/shader_nodes/displacement/normal_map.html",
+    "https://docs.blender.org/manual/en/5.2/render/shader_nodes/textures/image.html",
+    "https://docs.blender.org/manual/en/5.2/render/shader_nodes/shader/principled.html"
+  ],
+  "download_limits": "Existing tools only, public downloads; Adobe lessons2-10 first HTTPS137 returned403, one normal public HLS270+234 fallback succeeded. No login/paywall/DRM bypass, purchases or installations. ffprobe/hash records are authoritative over first-format info.json.",
+  "not_run": [
+    "Claude or Painter connection/status/test/restart",
+    "live Blender inspection/claim/edit",
+    "Lumi mesh/UV/texture modification or import",
+    "render/export on local production apps",
+    "rigging/motion",
+    "paid API or model download"
+  ],
+  "lumi_v021_status": "PARTIAL unchanged",
+  "raw_local_only": "[local evidence location omitted]",
+  "raw_media_or_ai_payload_published": false,
+  "reviewed_frame_hash_index_sha256": "64c8bc7ad158055dbf40eafda43491ad90cd2324ce34f454b923a818c0d7151a",
+  "validation": {
+    "UTF8_LF": true,
+    "relative_links": 31,
+    "scope_files": [
+      "docs/PAINTER_CHARACTER_WORKFLOW.md",
+      "docs/PAINTER_STYLIZED_CHARACTER.md",
+      "docs/PAINTER_SKIN_LAYERS.md",
+      "docs/PAINTER_TO_BLENDER.md",
+      "docs/assets/texturing/painter-channel-pipeline.svg",
+      "reports/VideoLearning/20261031_PAINTER_COURSES_REVIEW.md",
+      "reports/VideoLearning/20261031_PAINTER_COURSES_VERIFICATION.json",
+      "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md"
+    ],
+    "existing_manual_only_one_reference_added": true,
+    "protected_manuals_unchanged": [
+      "docs/FACE_ORAL_STRUCTURE.md",
+      "docs/FACE_EYELID_SHAPE_KEYS.md",
+      "docs/FACE_EYELID_VOLUME.md",
+      "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md"
+    ],
+    "SVG_XML_valid": true,
+    "SVG_rendered_locally_and_visually_reviewed": true,
+    "raw_local_folder_nested_gitignore": true,
+    "independent_PASS": false
+  },
+  "original_training_snapshot_files_sha256": {
+    "docs/PAINTER_CHARACTER_WORKFLOW.md": "3968cf758a4743355588e0bcb8f376a19778680498fdff877053b155d32cca13",
+    "docs/PAINTER_STYLIZED_CHARACTER.md": "9f71c02f70d77f1f27daa6cefdb889ce5d2c34d718db8d0badd3ad08f4951f7e",
+    "docs/PAINTER_SKIN_LAYERS.md": "6ed67823d351da99b94c87f0a33bd431de2872db3d3ee7004f33cad277278d9f",
+    "docs/PAINTER_TO_BLENDER.md": "347cf498aa5a53eaafae9fb3caaee04ee0d6774742757a6c2f2d9422653d30bb",
+    "docs/assets/texturing/painter-channel-pipeline.svg": "4f9d718640f2bb5659aeb5a972069972f63729d73bf048693cf50407a8d759e8",
+    "reports/VideoLearning/20261031_PAINTER_COURSES_REVIEW.md": "1889f299f0ae229fc55bf0c2e7eb0b3302367421bacaee5e742825babcdd05fc",
+    "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md": "8f4d620a33aea3cf9c478ce7f915013bbcbd30fd2178a5a4320226a6bfd98169"
+  },
+  "public_export_notice": "Local evidence locations omitted. Original training snapshot hashes and validation describe source-time review; see PUBLIC_MANIFEST.json for hashes of public files."
+}

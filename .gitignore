@@ -1,0 +1,13 @@
+# Keep this repository documentation-only.
+*.mp4
+*.webm
+*.m4a
+*.wav
+*.blend
+*.fbx
+*.glb
+*.zip
+.env
+.env.*
+__pycache__/
+.utmp/

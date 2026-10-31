@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="880" viewBox="0 0 1500 880" role="img" aria-labelledby="title desc"><title id="title">Retopology coverage audit with separate views</title><desc id="desc">Original conceptual diagram. Reference visibility can hide missing target patches. Distinguish feature openings, construction gaps, skin joins and intentional wall ends. Not a tutorial tracing, measured Lumi mesh or executable guide.</desc><rect width="100%" height="100%" fill="#f7f9fc"/>
+<text x="35" y="50" font-family="Arial, sans-serif" font-size="30" fill="#193447">RETOPOLOGY: CHECK COVERAGE AND COMPARISON STATE</text>
+<text x="35" y="85" font-family="Arial, sans-serif" font-size="20" fill="#193447">Original schematic - not a measured mesh, tutorial tracing or executable Blender Guide</text>
+<text x="40" y="150" font-family="Arial, sans-serif" font-size="25" fill="#193447">A  SOURCE + TARGET</text>
+<text x="525" y="150" font-family="Arial, sans-serif" font-size="25" fill="#193447">B  TARGET ONLY</text>
+<text x="1000" y="150" font-family="Arial, sans-serif" font-size="25" fill="#193447">C  CLASSIFY THE BORDER</text>
+<polyline points="480.0,130.0 480.0,600.0" fill="none" stroke="#b7c4cd" stroke-width="2"/>
+<polyline points="960.0,130.0 960.0,600.0" fill="none" stroke="#b7c4cd" stroke-width="2"/>
+<ellipse cx="250.0" cy="344.0" rx="150.0" ry="161.0" fill="#d9ece5" stroke="#418b72" stroke-width="3"/>
+<ellipse cx="180.0" cy="290.0" rx="40.0" ry="20.0" fill="none" stroke="#96528b" stroke-width="6"/>
+<ellipse cx="320.0" cy="290.0" rx="40.0" ry="20.0" fill="none" stroke="#96528b" stroke-width="6"/>
+<ellipse cx="250.0" cy="426.0" rx="45.0" ry="18.0" fill="none" stroke="#96528b" stroke-width="6"/>
+<polyline points="220.0,290.0 238.0,333.0 230.0,375.0 205.0,408.0" fill="none" stroke="#96528b" stroke-width="5"/>
+<polyline points="280.0,290.0 262.0,333.0 270.0,375.0 295.0,408.0" fill="none" stroke="#96528b" stroke-width="5"/>
+<polyline points="155.0,323.0 169.0,375.0 190.0,445.0 250.0,479.0 310.0,445.0 331.0,375.0 345.0,323.0" fill="none" stroke="#96528b" stroke-width="4"/>
+<polyline points="225.0,200.0 275.0,200.0 275.0,250.0 225.0,250.0 225.0,200.0" fill="none" stroke="#bd6219" stroke-width="3" stroke-dasharray="8 6"/>
+<ellipse cx="640.0" cy="290.0" rx="40.0" ry="20.0" fill="none" stroke="#96528b" stroke-width="6"/>
+<ellipse cx="780.0" cy="290.0" rx="40.0" ry="20.0" fill="none" stroke="#96528b" stroke-width="6"/>
+<ellipse cx="710.0" cy="426.0" rx="45.0" ry="18.0" fill="none" stroke="#96528b" stroke-width="6"/>
+<polyline points="680.0,290.0 698.0,333.0 690.0,375.0 665.0,408.0" fill="none" stroke="#96528b" stroke-width="5"/>
+<polyline points="740.0,290.0 722.0,333.0 730.0,375.0 755.0,408.0" fill="none" stroke="#96528b" stroke-width="5"/>
+<polyline points="615.0,323.0 629.0,375.0 650.0,445.0 710.0,479.0 770.0,445.0 791.0,375.0 805.0,323.0" fill="none" stroke="#96528b" stroke-width="4"/>
+<polyline points="685.0,200.0 735.0,200.0 735.0,250.0 685.0,250.0 685.0,200.0" fill="none" stroke="#bd6219" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="232" y="235" font-family="Arial, sans-serif" font-size="24" fill="#bd6219">G</text>
+<text x="692" y="235" font-family="Arial, sans-serif" font-size="24" fill="#bd6219">G</text>
+<text x="610" y="302" font-family="Arial, sans-serif" font-size="22" fill="#246eaa">F</text>
+<text x="709" y="436" font-family="Arial, sans-serif" font-size="22" fill="#246eaa">F</text>
+<polyline points="805.0,324.0 818.0,371.0 806.0,430.0" fill="none" stroke="#ae425a" stroke-width="5"/>
+<text x="828" y="385" font-family="Arial, sans-serif" font-size="25" fill="#ae425a">J</text>
+<text x="40" y="563" font-family="Arial, sans-serif" font-size="21" fill="#193447">The reference can hide missing patches.</text>
+<text x="40" y="597" font-family="Arial, sans-serif" font-size="20" fill="#193447">Surface fit does not prove target coverage.</text>
+<text x="525" y="563" font-family="Arial, sans-serif" font-size="21" fill="#193447">Inspect actual faces and remaining borders.</text>
+<text x="525" y="597" font-family="Arial, sans-serif" font-size="20" fill="#193447">A visible seam does not prove a weld.</text>
+<text x="1000" y="228" font-family="Arial, sans-serif" font-size="24" fill="#246eaa">F  FEATURE OPENING</text>
+<text x="1000" y="259" font-family="Arial, sans-serif" font-size="19" fill="#193447">Eye / lip opening: keep the intended hole.</text>
+<text x="1000" y="313" font-family="Arial, sans-serif" font-size="24" fill="#bd6219">G  CONSTRUCTION GAP</text>
+<text x="1000" y="344" font-family="Arial, sans-serif" font-size="19" fill="#193447">Unfinished region: plan the next patch.</text>
+<text x="1000" y="398" font-family="Arial, sans-serif" font-size="24" fill="#ae425a">J  SKIN JOIN</text>
+<text x="1000" y="429" font-family="Arial, sans-serif" font-size="19" fill="#193447">Count and match the shared boundary.</text>
+<text x="1000" y="483" font-family="Arial, sans-serif" font-size="24" fill="#8050a5">I  INNER WALL END</text>
+<text x="1000" y="514" font-family="Arial, sans-serif" font-size="19" fill="#193447">Document whether an open end is intended.</text>
+<polyline points="35.0,642.0 1465.0,642.0" fill="none" stroke="#b7c4cd" stroke-width="2"/>
+<text x="40" y="696" font-family="Arial, sans-serif" font-size="24" fill="#193447">MATCH THE COMPARISON STATE</text>
+<text x="40" y="740" font-family="Arial, sans-serif" font-size="22" fill="#193447">Object / copy name  |  shape key + values  |  timeline frame  |  view / camera</text>
+<text x="40" y="782" font-family="Arial, sans-serif" font-size="22" fill="#193447">Source visibility  |  base cage or evaluated surface  |  modifier order + display state</text>
+<text x="40" y="835" font-family="Arial, sans-serif" font-size="20" fill="#193447">A good preview is evidence for that state only. Confirm topology and contact separately.</text>
+</svg>

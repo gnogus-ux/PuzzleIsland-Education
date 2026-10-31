@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-31",
+  "task": "User-authorized sampled video learning, reusable manual, documentation-only Git publication",
+  "scope": "Documentation only; no Blender claim/edit/save or rig/animation execution",
+  "review_method": "Codex directly viewed all77 original-source sampled still frames in15 contact sheets, plus selected single-frame enlarged views. No continuous full-video/audio review claim.",
+  "directly_reviewed_unique_frames": 77,
+  "reviewed_source_times_seconds": {
+    "SwM19PgSdCM.mp4": [
+      60,
+      90,
+      120,
+      150,
+      180,
+      210,
+      240,
+      270,
+      300,
+      330,
+      360,
+      390,
+      420,
+      450,
+      480,
+      490.0,
+      500,
+      510.0,
+      520,
+      530.0,
+      540,
+      550.0,
+      560,
+      570.0,
+      580,
+      590.0,
+      600,
+      610.0,
+      620,
+      630.0,
+      640,
+      650.0,
+      660,
+      670.0,
+      680,
+      690.0,
+      700,
+      710.0,
+      720,
+      729.583,
+      740,
+      748.75,
+      760,
+      767.917,
+      780,
+      787.083,
+      800,
+      806.25,
+      820,
+      825.417,
+      835,
+      840,
+      900,
+      960,
+      1020,
+      1080,
+      1095,
+      1140,
+      1200,
+      1320,
+      1440,
+      1560,
+      2428,
+      2460,
+      2520,
+      2580,
+      2640,
+      2700,
+      2820,
+      2940,
+      3060
+    ],
+    "XleNIUWoydY.mp4": [
+      60,
+      90,
+      160,
+      234,
+      500,
+      644
+    ]
+  },
+  "reviewed_video_sha256": {
+    "SwM19PgSdCM.mp4": "259e9f87516007e98cd756883d67db034780f4a19aa03fc74543a8f2c62108f6",
+    "XleNIUWoydY.mp4": "e52f8930c7de66461be001224e012b18521ff074454af3c60dbd33b29c99050b"
+  },
+  "unreviewed_video": "DJbU_WfR2Z0.mp4 (metadata/source only)",
+  "local_qwen": {
+    "existing_server_reused": true,
+    "endpoint": "http://127.0.0.1:11436/api/chat",
+    "model": "qwen3-vl:4b-instruct",
+    "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+    "actual_done_nonempty_local_only_responses": 3,
+    "sampled_frames_per_clip": 6,
+    "clips": [
+      {
+        "clip": "clip_480_600.mp4",
+        "source_start_seconds": 480,
+        "duration": 120,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "local_only": true,
+        "source_sample_seconds": [
+          490.0,
+          510.0,
+          530.0,
+          550.0,
+          570.0,
+          590.0
+        ],
+        "output": "qwen_480_600.json"
+      },
+      {
+        "clip": "clip_600_720.mp4",
+        "source_start_seconds": 600,
+        "duration": 120,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "local_only": true,
+        "source_sample_seconds": [
+          610.0,
+          630.0,
+          650.0,
+          670.0,
+          690.0,
+          710.0
+        ],
+        "output": "qwen_600_720.json"
+      },
+      {
+        "clip": "clip_720_835.mp4",
+        "source_start_seconds": 720,
+        "duration": 115,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "local_only": true,
+        "source_sample_seconds": [
+          729.583,
+          748.75,
+          767.917,
+          787.083,
+          806.25,
+          825.417
+        ],
+        "output": "qwen_720_835.json"
+      }
+    ],
+    "correction_policy": "False/unsupported connection/completion claims rejected after original-frame comparison; see review Markdown",
+    "new_model_download_or_server": false
+  },
+  "framelens": {
+    "actual_clip_source_range_seconds": [
+      480,
+      600
+    ],
+    "actual_shots": 1,
+    "semantic_understanding_claim": false
+  },
+  "diagrams": {
+    "original_svg_count": 2,
+    "tutorial_tracing_or_embedded_media": false,
+    "xml_validated": true,
+    "external_resources_or_scripts": false,
+    "matching_geometry_png_reviewed_locally": true,
+    "execution_ready_mesh_claim": false
+  },
+  "validation": {
+    "relative_links": [
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "../reports/VideoLearning/20261031_FACE_LOOP_REVIEW.md",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "assets/face-topology/feature-loop-flow.svg",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "assets/face-topology/eyelid-section.svg",
+        "exists": true
+      },
+      {
+        "from": "reports/VideoLearning/20261031_FACE_LOOP_REVIEW.md",
+        "target": "../../docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "exists": true
+      }
+    ],
+    "svg_xml": "PASS",
+    "media_exclusion": "Only exact five text/SVG paths will be staged; raw MP4/audio/screenshots/clip/tool payloads remain local",
+    "v021_scope": "PARTIAL preserved: source not welded, eye boundary transition and nose/surface density unfinished;32 points7rings not tutorial universal rule",
+    "text_encoding": "UTF-8; canonical LF bytes hashed for committed documentation/SVG"
+  },
+  "original_training_snapshot_files_sha256": {
+    "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md": "f93df7c302399bc31ccbb638870d6b42736535a49bd38048a280eabff9e963bb",
+    "docs/assets/face-topology/feature-loop-flow.svg": "7d614b8510de82cc697624353ca92bcb20283c20a466ab7efd237e25626906b0",
+    "docs/assets/face-topology/eyelid-section.svg": "023316eb0dc0cc648957b8e7da2f7a3ec9767052ddf322497135ef7a486eb91d",
+    "reports/VideoLearning/20261031_FACE_LOOP_REVIEW.md": "a227b1e74e1e1bc4957887aaca25a64a1fdc72e0c4e37a38e0fded89f729d3d1"
+  },
+  "public_export_notice": "Local evidence locations omitted. Original training snapshot hashes and validation describe source-time review; see PUBLIC_MANIFEST.json for hashes of public files."
+}

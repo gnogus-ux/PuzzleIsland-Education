@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1020" viewBox="0 0 1500 1020" role="img" aria-labelledby="title desc"><title id="title">Eyelid shape-key pipeline and independent control display</title><desc id="desc">Original conceptual diagram. Stable Basis and blink geometry are separated from region masks, shape keys, bone inputs, drivers and custom display meshes. No executable rig or measured Lumi configuration is implied.</desc><rect width="100%" height="100%" fill="#f7f9fc"/>
+<text x="35" y="49" font-family="Arial, sans-serif" font-size="29" fill="#193447">EYELIDS: GEOMETRY, WEIGHTS, INPUT AND DISPLAY ARE SEPARATE</text>
+<text x="35" y="86" font-family="Arial, sans-serif" font-size="20" fill="#193447">Original conceptual pipeline - not tutorial tracing, a fixed rig or a ready-to-run Blender Guide</text>
+<text x="40" y="154" font-family="Arial, sans-serif" font-size="24" fill="#193447">A  AUTHOR THE SHAPES</text>
+<rect x="40" y="185" width="300" height="140" rx="12" fill="#ffffff" stroke="#246eaa" stroke-width="3"/>
+<text x="55" y="224" font-family="Arial, sans-serif" font-size="24" fill="#246eaa">Basis + blink source</text>
+<text x="55" y="261" font-family="Arial, sans-serif" font-size="19" fill="#193447">Stable vertex correspondence</text>
+<text x="55" y="288" font-family="Arial, sans-serif" font-size="19" fill="#193447">Preserve neutral geometry</text>
+<rect x="400" y="185" width="300" height="140" rx="12" fill="#ffffff" stroke="#187f60" stroke-width="3"/>
+<text x="415" y="224" font-family="Arial, sans-serif" font-size="24" fill="#187f60">4 region groups</text>
+<text x="415" y="261" font-family="Arial, sans-serif" font-size="19" fill="#193447">Left / right, upper / lower</text>
+<text x="415" y="288" font-family="Arial, sans-serif" font-size="19" fill="#193447">Check assignment + overlap</text>
+<rect x="760" y="185" width="300" height="140" rx="12" fill="#ffffff" stroke="#187f60" stroke-width="3"/>
+<text x="775" y="224" font-family="Arial, sans-serif" font-size="24" fill="#187f60">4 relative keys</text>
+<text x="775" y="261" font-family="Arial, sans-serif" font-size="19" fill="#193447">Copy the intended shape</text>
+<text x="775" y="288" font-family="Arial, sans-serif" font-size="19" fill="#193447">Map each region explicitly</text>
+<rect x="1120" y="185" width="330" height="140" rx="12" fill="#ffffff" stroke="#246eaa" stroke-width="3"/>
+<text x="1135" y="224" font-family="Arial, sans-serif" font-size="24" fill="#246eaa">Shape-only tests</text>
+<text x="1135" y="261" font-family="Arial, sans-serif" font-size="19" fill="#193447">Neutral / intermediate / close</text>
+<text x="1135" y="288" font-family="Arial, sans-serif" font-size="19" fill="#193447">Contact is checked separately</text>
+<polyline points="340,255 400,255" fill="none" stroke="#667f93" stroke-width="3"/>
+<polyline points="388,248 400,255 388,262" fill="none" stroke="#667f93" stroke-width="3"/>
+<polyline points="700,255 760,255" fill="none" stroke="#667f93" stroke-width="3"/>
+<polyline points="748,248 760,255 748,262" fill="none" stroke="#667f93" stroke-width="3"/>
+<polyline points="1060,255 1120,255" fill="none" stroke="#667f93" stroke-width="3"/>
+<polyline points="1108,248 1120,255 1108,262" fill="none" stroke="#667f93" stroke-width="3"/>
+<text x="40" y="414" font-family="Arial, sans-serif" font-size="24" fill="#193447">B  DRIVE THE CHANNEL VALUES</text>
+<rect x="40" y="450" width="300" height="140" rx="12" fill="#ffffff" stroke="#8050a5" stroke-width="3"/>
+<text x="55" y="489" font-family="Arial, sans-serif" font-size="24" fill="#8050a5">Control bone input</text>
+<text x="55" y="526" font-family="Arial, sans-serif" font-size="19" fill="#193447">Record neutral and close</text>
+<text x="55" y="553" font-family="Arial, sans-serif" font-size="19" fill="#193447">Verify axes / property path</text>
+<rect x="400" y="450" width="300" height="140" rx="12" fill="#ffffff" stroke="#8050a5" stroke-width="3"/>
+<text x="415" y="489" font-family="Arial, sans-serif" font-size="24" fill="#8050a5">Driver mapping</text>
+<text x="415" y="526" font-family="Arial, sans-serif" font-size="19" fill="#193447">Target, variable, sign, gain</text>
+<text x="415" y="553" font-family="Arial, sans-serif" font-size="19" fill="#193447">Do not copy tutorial values</text>
+<rect x="760" y="450" width="300" height="140" rx="12" fill="#ffffff" stroke="#187f60" stroke-width="3"/>
+<text x="775" y="489" font-family="Arial, sans-serif" font-size="24" fill="#187f60">Channel weights</text>
+<text x="775" y="526" font-family="Arial, sans-serif" font-size="19" fill="#193447">Correct key + region mask</text>
+<text x="775" y="553" font-family="Arial, sans-serif" font-size="19" fill="#193447">Avoid master-blink doubling</text>
+<rect x="1120" y="450" width="330" height="140" rx="12" fill="#ffffff" stroke="#246eaa" stroke-width="3"/>
+<text x="1135" y="489" font-family="Arial, sans-serif" font-size="24" fill="#246eaa">Evaluated face</text>
+<text x="1135" y="526" font-family="Arial, sans-serif" font-size="19" fill="#193447">Match object, key and frame</text>
+<text x="1135" y="553" font-family="Arial, sans-serif" font-size="19" fill="#193447">Test both sides + combinations</text>
+<polyline points="340,520 400,520" fill="none" stroke="#667f93" stroke-width="3"/>
+<polyline points="388,513 400,520 388,527" fill="none" stroke="#667f93" stroke-width="3"/>
+<polyline points="700,520 760,520" fill="none" stroke="#667f93" stroke-width="3"/>
+<polyline points="748,513 760,520 748,527" fill="none" stroke="#667f93" stroke-width="3"/>
+<polyline points="1060,520 1120,520" fill="none" stroke="#667f93" stroke-width="3"/>
+<polyline points="1108,513 1120,520 1108,527" fill="none" stroke="#667f93" stroke-width="3"/>
+<polyline points="910,325 910,450" fill="none" stroke="#187f60" stroke-width="3"/>
+<polyline points="903,438 910,450 917,438" fill="none" stroke="#187f60" stroke-width="3"/>
+<text x="40" y="676" font-family="Arial, sans-serif" font-size="24" fill="#193447">C  CUSTOM DISPLAY IS A DIFFERENT TASK</text>
+<rect x="40" y="708" width="300" height="140" rx="12" fill="#ffffff" stroke="#bd6219" stroke-width="3"/>
+<text x="55" y="747" font-family="Arial, sans-serif" font-size="24" fill="#bd6219">Display mesh template</text>
+<text x="55" y="784" font-family="Arial, sans-serif" font-size="19" fill="#193447">Viewport control outline</text>
+<text x="55" y="811" font-family="Arial, sans-serif" font-size="19" fill="#193447">Not eyelid shape coordinates</text>
+<rect x="400" y="708" width="300" height="140" rx="12" fill="#ffffff" stroke="#bd6219" stroke-width="3"/>
+<text x="415" y="747" font-family="Arial, sans-serif" font-size="24" fill="#bd6219">Display orientation</text>
+<text x="415" y="784" font-family="Arial, sans-serif" font-size="19" fill="#193447">Keep bone Roll / Pose separate</text>
+<text x="415" y="811" font-family="Arial, sans-serif" font-size="19" fill="#193447">Retest driver after changes</text>
+<polyline points="340,778 400,778" fill="none" stroke="#bd6219" stroke-width="3"/>
+<polyline points="388,771 400,778 388,785" fill="none" stroke="#bd6219" stroke-width="3"/>
+<rect x="760" y="708" width="690" height="140" rx="12" fill="#ffffff" stroke="#ae425a" stroke-width="3"/>
+<text x="775" y="747" font-family="Arial, sans-serif" font-size="24" fill="#ae425a">Verification state</text>
+<text x="775" y="784" font-family="Arial, sans-serif" font-size="19" fill="#193447">Same copy / key values / frame / camera</text>
+<text x="775" y="811" font-family="Arial, sans-serif" font-size="19" fill="#193447">Record cage versus evaluated mesh</text>
+<text x="775" y="838" font-family="Arial, sans-serif" font-size="19" fill="#193447">A closed-eye frame is not full rig PASS</text>
+<text x="40" y="928" font-family="Arial, sans-serif" font-size="22" fill="#193447">Lumi execution in this education task: NOT RUN. No shape keys, bones or drivers were changed.</text>
+<text x="40" y="973" font-family="Arial, sans-serif" font-size="20" fill="#193447">Exact expressions, ranges, axes and masks must be verified on the intended project copy.</text>
+</svg>

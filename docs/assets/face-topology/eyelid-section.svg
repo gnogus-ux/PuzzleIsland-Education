@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img"><title>Original schematic by Puzzle Island Codex</title><rect width="100%" height="100%" fill="#f7f9fc"/>
+<text x="38" y="49" font-family="Arial, sans-serif" font-size="29" fill="#163047">EYELID SECTION: A HOLE IS NOT AN EYELID</text>
+<text x="38" y="80" font-family="Arial, sans-serif" font-size="18" fill="#163047">Conceptual section; thickness and spacing must fit the actual model</text>
+<ellipse cx="460.0" cy="300.0" rx="135.0" ry="135.0" stroke="#6e9bae" stroke-width="3" fill="#e5f1f7"/>
+<text x="425" y="308" font-family="Arial, sans-serif" font-size="26" fill="#53798c">EYE</text>
+<polyline points="85.0,125.0 180.0,150.0 235.0,188.0 280.0,210.0 319.0,231.0 333.0,249.0" fill="none" stroke="#2876a8" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="333.0,249.0 330.0,258.0 326.0,270.0" fill="none" stroke="#c46617" stroke-width="7" stroke-linejoin="round"/>
+<polyline points="85.0,485.0 180.0,454.0 240.0,424.0 290.0,402.0 329.0,371.0 331.0,350.0" fill="none" stroke="#2876a8" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="331.0,350.0 327.0,345.0 326.0,330.0" fill="none" stroke="#c46617" stroke-width="7" stroke-linejoin="round"/>
+<polyline points="100.0,175.0 180.0,190.0 225.0,210.0 270.0,230.0 312.0,246.0" fill="none" stroke="#187b55" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="100.0,435.0 185.0,420.0 242.0,400.0 285.0,380.0 323.0,354.0" fill="none" stroke="#187b55" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="314.0,265.0 310.0,290.0 315.0,315.0 327.0,338.0" fill="none" stroke="#8550ad" stroke-width="3" stroke-linejoin="round" stroke-dasharray="8 7"/>
+<text x="80" y="557" font-family="Arial, sans-serif" font-size="17" fill="#8550ad">Dashed arc: later closure/contact test; no rig is made here.</text>
+<polyline points="210.0,166.0 650.0,140.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="275.0,230.0 650.0,240.0" fill="none" stroke="#187b55" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="330.0,252.0 650.0,340.0" fill="none" stroke="#c46617" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="326.0,330.0 650.0,425.0" fill="none" stroke="#c46617" stroke-width="2" stroke-linejoin="round"/>
+<text x="675" y="138" font-family="Arial, sans-serif" font-size="23" fill="#2876a8">A  OUTER SKIN</text>
+<text x="675" y="167" font-family="Arial, sans-serif" font-size="18" fill="#163047">Keep the silhouette and eye corners.</text>
+<text x="675" y="238" font-family="Arial, sans-serif" font-size="23" fill="#187b55">B  FOLD / SUPPORT</text>
+<text x="675" y="267" font-family="Arial, sans-serif" font-size="18" fill="#163047">Add rows where curvature needs them.</text>
+<text x="675" y="338" font-family="Arial, sans-serif" font-size="23" fill="#c46617">C  LID MARGIN</text>
+<text x="675" y="367" font-family="Arial, sans-serif" font-size="18" fill="#163047">Follow the eye; do not cut through it.</text>
+<text x="675" y="423" font-family="Arial, sans-serif" font-size="23" fill="#c46617">D  INNER TURN</text>
+<text x="675" y="452" font-family="Arial, sans-serif" font-size="18" fill="#163047">Build thickness / wall; do not cap the eye.</text>
+<text x="675" y="540" font-family="Arial, sans-serif" font-size="20" fill="#163047">Inspect front + side + underside.</text>
+<text x="675" y="574" font-family="Arial, sans-serif" font-size="18" fill="#163047">Smooth shading does not prove good geometry.</text>
+</svg>

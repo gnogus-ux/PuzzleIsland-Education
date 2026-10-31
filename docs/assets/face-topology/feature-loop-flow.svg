@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" role="img"><title>Original schematic by Puzzle Island Codex</title><rect width="100%" height="100%" fill="#f7f9fc"/>
+<text x="38" y="49" font-family="Arial, sans-serif" font-size="29" fill="#163047">FACE FLOW: FEATURES FIRST, CONNECTIONS SECOND</text>
+<text x="38" y="78" font-family="Arial, sans-serif" font-size="18" fill="#163047">Schematic only - not measured anatomy or a ready-to-build mesh</text>
+<ellipse cx="320.0" cy="410.0" rx="245.0" ry="310.0" stroke="#a7b4c0" stroke-width="3" fill="none"/>
+<polyline points="320.0,110.0 320.0,704.0" fill="none" stroke="#8550ad" stroke-width="2" stroke-linejoin="round" stroke-dasharray="8 7"/>
+<ellipse cx="205.0" cy="310.0" rx="65.0" ry="30.0" stroke="#c46617" stroke-width="3" fill="none"/>
+<ellipse cx="205.0" cy="310.0" rx="84.0" ry="48.0" stroke="#187b55" stroke-width="3" fill="none"/>
+<ellipse cx="205.0" cy="310.0" rx="103.0" ry="67.0" stroke="#2876a8" stroke-width="3" fill="none"/>
+<polyline points="270.0,310.0 308.0,310.0" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="251.0,331.2 277.8,357.4" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="205.0,340.0 205.0,377.0" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="159.0,331.2 132.2,357.4" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="140.0,310.0 102.0,310.0" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="159.0,288.8 132.2,262.6" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="205.0,280.0 205.0,243.0" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="251.0,288.8 277.8,262.6" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="150.0,240.0 158.2,195.0 166.5,150.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="205.0,240.0 205.0,195.0 205.0,150.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="260.0,240.0 251.8,195.0 243.5,150.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="435.0" cy="310.0" rx="65.0" ry="30.0" stroke="#c46617" stroke-width="3" fill="none"/>
+<ellipse cx="435.0" cy="310.0" rx="84.0" ry="48.0" stroke="#187b55" stroke-width="3" fill="none"/>
+<ellipse cx="435.0" cy="310.0" rx="103.0" ry="67.0" stroke="#2876a8" stroke-width="3" fill="none"/>
+<polyline points="500.0,310.0 538.0,310.0" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="481.0,331.2 507.8,357.4" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="435.0,340.0 435.0,377.0" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="389.0,331.2 362.2,357.4" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="370.0,310.0 332.0,310.0" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="389.0,288.8 362.2,262.6" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="435.0,280.0 435.0,243.0" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="481.0,288.8 507.8,262.6" fill="none" stroke="#a7b4c0" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="380.0,240.0 388.2,195.0 396.5,150.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="435.0,240.0 435.0,195.0 435.0,150.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="490.0,240.0 481.8,195.0 473.5,150.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="294.0,360.0 292.0,410.0 282.0,455.0 320.0,472.0 358.0,455.0 348.0,410.0 346.0,360.0" fill="none" stroke="#2876a8" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="294.0,370.0 346.0,370.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="294.0,395.0 346.0,395.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="294.0,420.0 346.0,420.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="306.0,360.0 306.0,430.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="334.0,360.0 334.0,430.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="320.0" cy="538.0" rx="84.0" ry="33.0" stroke="#c46617" stroke-width="3" fill="none"/>
+<ellipse cx="320.0" cy="539.5" rx="104.0" ry="54.5" stroke="#2876a8" stroke-width="3" fill="none"/>
+<polyline points="120.0,350.0 145.0,405.0 183.0,445.0 216.0,505.0" fill="none" stroke="#2876a8" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="115.0,375.0 145.0,440.0 174.0,495.0 199.0,550.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="160.0,426.0 169.0,435.0 160.0,444.0 151.0,435.0 160.0,426.0" fill="none" stroke="#8550ad" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="520.0,350.0 495.0,405.0 457.0,445.0 424.0,505.0" fill="none" stroke="#2876a8" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="525.0,375.0 495.0,440.0 466.0,495.0 441.0,550.0" fill="none" stroke="#2876a8" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="480.0,426.0 489.0,435.0 480.0,444.0 471.0,435.0 480.0,426.0" fill="none" stroke="#8550ad" stroke-width="3" stroke-linejoin="round"/>
+<text x="105" y="662" font-family="Arial, sans-serif" font-size="20" fill="#8550ad">P</text>
+<text x="120" y="689" font-family="Arial, sans-serif" font-size="16" fill="#163047">P = planned flow transition, not a weld</text>
+<text x="650" y="167" font-family="Arial, sans-serif" font-size="22" fill="#163047">1  Preserve source + mark landmarks</text>
+<text x="650" y="224" font-family="Arial, sans-serif" font-size="22" fill="#163047">2  Draw the eye-opening boundary</text>
+<text x="650" y="281" font-family="Arial, sans-serif" font-size="22" fill="#163047">3  Add lid/support rows locally</text>
+<text x="650" y="338" font-family="Arial, sans-serif" font-size="22" fill="#163047">4  Connect nose bridge + forehead</text>
+<text x="650" y="395" font-family="Arial, sans-serif" font-size="22" fill="#163047">5  Route cheek and mouth separately</text>
+<text x="650" y="452" font-family="Arial, sans-serif" font-size="22" fill="#163047">6  Keep poles away from lid creases</text>
+<polyline points="660.0,538.0 704.0,538.0" fill="none" stroke="#c46617" stroke-width="4" stroke-linejoin="round"/>
+<text x="722" y="542" font-family="Arial, sans-serif" font-size="20" fill="#163047">Opening / lip boundary</text>
+<polyline points="660.0,576.0 704.0,576.0" fill="none" stroke="#187b55" stroke-width="4" stroke-linejoin="round"/>
+<text x="722" y="580" font-family="Arial, sans-serif" font-size="20" fill="#163047">Local support rows</text>
+<polyline points="660.0,614.0 704.0,614.0" fill="none" stroke="#2876a8" stroke-width="4" stroke-linejoin="round"/>
+<text x="722" y="618" font-family="Arial, sans-serif" font-size="20" fill="#163047">Regional connection flow</text>
+<polyline points="660.0,652.0 704.0,652.0" fill="none" stroke="#8550ad" stroke-width="4" stroke-linejoin="round"/>
+<text x="722" y="656" font-family="Arial, sans-serif" font-size="20" fill="#163047">Mirror axis / transition</text>
+<text x="650" y="728" font-family="Arial, sans-serif" font-size="18" fill="#163047">Loop counts follow shape and deformation needs.</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1030" viewBox="0 0 1560 1030" role="img" aria-labelledby="title desc"><title id="title">Eyelid volume: opening rim, support rows and inner turn</title><desc id="desc">Original conceptual front and section diagram. Not a traced tutorial frame, measured Lumi anatomy, fixed quad layout or executable Blender Guide. Preserve medial and lateral corner landmarks; leave the opening uncapped. Exact thickness, eye clearance and end boundary must follow the actual model.</desc><rect width="100%" height="100%" fill="#f7f9fc"/>
+<text x="35" y="51" font-family="Arial, sans-serif" font-size="31" fill="#193447">EYELID VOLUME: PRESERVE THE OPENING, BUILD THE TURN</text>
+<text x="35" y="87" font-family="Arial, sans-serif" font-size="21" fill="#193447">Original schematic - not to scale, not a fixed loop count, not an executable Blender Guide</text>
+<text x="40" y="152" font-family="Arial, sans-serif" font-size="25" fill="#193447">FRONT: DISTINCT FUNCTIONAL ROWS</text>
+<text x="805" y="152" font-family="Arial, sans-serif" font-size="25" fill="#193447">SECTION: OUTER SKIN TO INNER WALL</text>
+<polyline points="760.0,130.0 760.0,965.0" fill="none" stroke="#b4c1cc" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="658.0,350.0 656.6,333.8 652.6,317.8 645.8,302.1 636.5,286.9 624.6,272.2 610.3,258.3 593.8,245.3 575.1,233.3 554.5,222.5 532.2,212.8 508.4,204.5 483.3,197.6 457.2,192.1 430.2,188.2 402.7,185.8 375.0,185.0 347.3,185.8 319.8,188.2 292.8,192.1 266.7,197.6 241.6,204.5 217.8,212.8 195.5,222.5 174.9,233.3 156.2,245.3 139.7,258.3 125.4,272.2 113.5,286.9 104.2,302.1 97.4,317.8 93.4,333.8 92.0,350.0 93.4,363.2 97.4,376.3 104.2,389.2 113.5,401.7 125.4,413.6 139.7,425.0 156.2,435.6 174.9,445.5 195.5,454.4 217.8,462.2 241.6,469.1 266.7,474.7 292.8,479.2 319.8,482.4 347.3,484.3 375.0,485.0 402.7,484.3 430.2,482.4 457.2,479.2 483.3,474.7 508.4,469.1 532.2,462.2 554.5,454.4 575.1,445.5 593.8,435.6 610.3,425.0 624.6,413.6 636.5,401.7 645.8,389.2 652.6,376.3 656.6,363.2 658.0,350.0" fill="none" stroke="#246eaa" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="626.0,350.0 624.8,337.7 621.2,325.6 615.2,313.7 606.9,302.2 596.4,291.1 583.7,280.6 569.0,270.7 552.5,261.6 534.2,253.4 514.4,246.1 493.3,239.8 471.1,234.5 447.9,230.4 424.0,227.4 399.6,225.6 375.0,225.0 350.4,225.6 326.0,227.4 302.1,230.4 278.9,234.5 256.7,239.8 235.6,246.1 215.8,253.4 197.5,261.6 181.0,270.7 166.3,280.6 153.6,291.1 143.1,302.2 134.8,313.7 128.8,325.6 125.2,337.7 124.0,350.0 125.2,359.2 128.8,368.3 134.8,377.3 143.1,386.0 153.6,394.3 166.3,402.2 181.0,409.6 197.5,416.5 215.8,422.7 235.6,428.2 256.7,432.9 278.9,436.8 302.1,440.0 326.0,442.2 350.4,443.5 375.0,444.0 399.6,443.5 424.0,442.2 447.9,440.0 471.1,436.8 493.3,432.9 514.4,428.2 534.2,422.7 552.5,416.5 569.0,409.6 583.7,402.2 596.4,394.3 606.9,386.0 615.2,377.3 621.2,368.3 624.8,359.2 626.0,350.0" fill="none" stroke="#187f60" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="600.0,350.0 598.9,341.2 595.7,332.4 590.3,323.9 582.9,315.6 573.4,307.6 562.1,300.0 548.9,292.9 534.1,286.4 517.7,280.4 500.0,275.2 481.1,270.6 461.1,266.9 440.3,263.9 418.9,261.7 397.1,260.4 375.0,260.0 352.9,260.4 331.1,261.7 309.7,263.9 288.9,266.9 268.9,270.6 250.0,275.2 232.3,280.4 215.9,286.4 201.1,292.9 187.9,300.0 176.6,307.6 167.1,315.6 159.7,323.9 154.3,332.4 151.1,341.2 150.0,350.0 151.1,356.4 154.3,362.7 159.7,368.9 167.1,374.9 176.6,380.6 187.9,386.1 201.1,391.2 215.9,396.0 232.3,400.2 250.0,404.0 268.9,407.3 288.9,410.1 309.7,412.2 331.1,413.8 352.9,414.7 375.0,415.0 397.1,414.7 418.9,413.8 440.3,412.2 461.1,410.1 481.1,407.3 500.0,404.0 517.7,400.2 534.1,396.0 548.9,391.2 562.1,386.1 573.4,380.6 582.9,374.9 590.3,368.9 595.7,362.7 598.9,356.4 600.0,350.0" fill="none" stroke="#bd6219" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="582.0,350.0 581.0,342.8 578.0,335.8 573.1,328.8 566.2,322.1 557.6,315.6 547.1,309.4 535.0,303.7 521.4,298.4 506.3,293.6 490.0,289.3 472.6,285.6 454.2,282.6 435.1,280.1 415.4,278.4 395.3,277.4 375.0,277.0 354.7,277.4 334.6,278.4 314.9,280.1 295.8,282.6 277.4,285.6 260.0,289.3 243.7,293.6 228.6,298.4 215.0,303.7 202.9,309.4 192.4,315.6 183.8,322.1 176.9,328.8 172.0,335.8 169.0,342.8 168.0,350.0 169.0,354.8 172.0,359.6 176.9,364.2 183.8,368.8 192.4,373.1 202.9,377.2 215.0,381.1 228.6,384.6 243.7,387.9 260.0,390.7 277.4,393.2 295.8,395.3 314.9,396.9 334.6,398.1 354.7,398.8 375.0,399.0 395.3,398.8 415.4,398.1 435.1,396.9 454.2,395.3 472.6,393.2 490.0,390.7 506.3,387.9 521.4,384.6 535.0,381.1 547.1,377.2 557.6,373.1 566.2,368.8 573.1,364.2 578.0,359.6 581.0,354.8 582.0,350.0" fill="none" stroke="#8050a5" stroke-width="3" stroke-linejoin="round"/>
+<ellipse cx="150.0" cy="350.0" rx="6.0" ry="6.0" fill="#b04460" stroke="#b04460" stroke-width="2"/>
+<text x="143" y="387" font-family="Arial, sans-serif" font-size="21" fill="#b04460">M</text>
+<ellipse cx="600.0" cy="350.0" rx="6.0" ry="6.0" fill="#b04460" stroke="#b04460" stroke-width="2"/>
+<text x="593" y="387" font-family="Arial, sans-serif" font-size="21" fill="#b04460">L</text>
+<text x="235" y="351" font-family="Arial, sans-serif" font-size="27" fill="#193447">OPENING</text>
+<text x="223" y="527" font-family="Arial, sans-serif" font-size="21" fill="#193447">Leave the center uncapped.</text>
+<text x="65" y="589" font-family="Arial, sans-serif" font-size="21" fill="#b04460">M / L: preserve both corner landmarks.</text>
+<text x="65" y="626" font-family="Arial, sans-serif" font-size="20" fill="#193447">Upper and lower rows meet locally at each corner.</text>
+<ellipse cx="1190.0" cy="380.0" rx="155.0" ry="155.0" fill="#e8f0f5" stroke="#7399af" stroke-width="3"/>
+<text x="1149" y="392" font-family="Arial, sans-serif" font-size="28" fill="#52798e">EYE</text>
+<polyline points="810.0,200.0 900.0,234.0 960.0,266.0 1005.0,286.0 1021.0,304.0" fill="none" stroke="#246eaa" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="810.0,560.0 900.0,526.0 960.0,494.0 1005.0,474.0 1021.0,456.0" fill="none" stroke="#246eaa" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="815.0,240.0 900.0,265.0 960.0,290.0 1001.0,309.0" fill="none" stroke="#187f60" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="815.0,520.0 900.0,495.0 960.0,470.0 1001.0,451.0" fill="none" stroke="#187f60" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="1021.0,304.0 1028.0,309.0 1024.0,317.0" fill="none" stroke="#bd6219" stroke-width="7" stroke-linejoin="round"/>
+<polyline points="1021.0,456.0 1028.0,448.0 1024.0,440.0" fill="none" stroke="#bd6219" stroke-width="7" stroke-linejoin="round"/>
+<polyline points="1024.0,317.0 1031.0,335.0 1036.0,348.0" fill="none" stroke="#8050a5" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="1024.0,440.0 1031.0,425.0 1036.0,412.0" fill="none" stroke="#8050a5" stroke-width="5" stroke-linejoin="round"/>
+<text x="835" y="205" font-family="Arial, sans-serif" font-size="23" fill="#246eaa">A</text>
+<text x="843" y="274" font-family="Arial, sans-serif" font-size="23" fill="#187f60">B</text>
+<text x="977" y="338" font-family="Arial, sans-serif" font-size="22" fill="#bd6219">C</text>
+<text x="1005" y="373" font-family="Arial, sans-serif" font-size="22" fill="#8050a5">D</text>
+<text x="1008" y="441" font-family="Arial, sans-serif" font-size="22" fill="#8050a5">D</text>
+<text x="975" y="462" font-family="Arial, sans-serif" font-size="22" fill="#bd6219">C</text>
+<text x="835" y="578" font-family="Arial, sans-serif" font-size="21" fill="#193447">Gap / thickness are not to scale.</text>
+<text x="835" y="620" font-family="Arial, sans-serif" font-size="21" fill="#193447">Check the real eye and intended wall end.</text>
+<text x="43" y="709" font-family="Arial, sans-serif" font-size="23" fill="#246eaa">A  OUTER SKIN</text>
+<text x="43" y="736" font-family="Arial, sans-serif" font-size="20" fill="#193447">Connect to forehead, nose and cheek.</text>
+<text x="43" y="776" font-family="Arial, sans-serif" font-size="23" fill="#187f60">B  SUPPORT / FOLD</text>
+<text x="43" y="803" font-family="Arial, sans-serif" font-size="20" fill="#193447">Space rows for curvature; avoid corner crowding.</text>
+<text x="43" y="843" font-family="Arial, sans-serif" font-size="23" fill="#bd6219">C  OPENING RIM</text>
+<text x="43" y="870" font-family="Arial, sans-serif" font-size="20" fill="#193447">Keep upper/lower outline and both corners.</text>
+<text x="43" y="910" font-family="Arial, sans-serif" font-size="23" fill="#8050a5">D  INNER TURN</text>
+<text x="43" y="937" font-family="Arial, sans-serif" font-size="20" fill="#193447">Follow the eye; document the end boundary.</text>
+<text x="798" y="706" font-family="Arial, sans-serif" font-size="20" fill="#193447">Inspect front, oblique, side, underside and inside.</text>
+<text x="798" y="757" font-family="Arial, sans-serif" font-size="20" fill="#193447">Compare with the eye shown and temporarily hidden.</text>
+<text x="798" y="808" font-family="Arial, sans-serif" font-size="20" fill="#193447">Check normals, overlap and intended open borders.</text>
+<text x="798" y="859" font-family="Arial, sans-serif" font-size="20" fill="#193447">A wall end can be open by design; a skin join needs weld.</text>
+<text x="798" y="910" font-family="Arial, sans-serif" font-size="20" fill="#193447">Support geometry alone does not certify a good blink.</text>
+<text x="798" y="967" font-family="Arial, sans-serif" font-size="19" fill="#193447">Basic shape work and later deformation tests are separate.</text>
+</svg>

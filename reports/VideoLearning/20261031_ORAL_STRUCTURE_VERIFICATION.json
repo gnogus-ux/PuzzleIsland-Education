@@ -1,0 +1,711 @@
+{
+  "date_kst": "2026-10-31",
+  "scope": "Oral structure list1 Animator Artist Life Maya tutorial; documentation study only",
+  "source": {
+    "date_kst": "2026-10-31",
+    "purpose": "User requested local oral structure tutorial study; no redistribution",
+    "source": "https://www.youtube.com/watch?v=zXQ53eA_-3U",
+    "title": "3D Teeth modelling and Tongue [CARTOON STYLE] - PART 06 of How to model a cartoon character in Maya",
+    "author": "Animator Artist Life",
+    "source_duration_seconds": 1795,
+    "ffprobe_duration_seconds": 1795.181134,
+    "bytes": 511013115,
+    "sha256": "02c485e1501f82343cf4beced26f1a1ae93964132f28f6c029e24c877b13cbbf",
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "duration": "1795.133333"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "duration": "1795.181134"
+      }
+    ],
+    "chapters": [
+      {
+        "start_time": 0,
+        "title": "How to hide polygons to see and work inside the head only",
+        "end_time": 129
+      },
+      {
+        "start_time": 129,
+        "title": "The interior mouth bag",
+        "end_time": 312
+      },
+      {
+        "start_time": 312,
+        "title": "Starting the gums",
+        "end_time": 344
+      },
+      {
+        "start_time": 344,
+        "title": "Introduction to the bend deformer",
+        "end_time": 529
+      },
+      {
+        "start_time": 529,
+        "title": "The first tooth",
+        "end_time": 1180
+      },
+      {
+        "start_time": 1180,
+        "title": "Building the tongue",
+        "end_time": 1593
+      },
+      {
+        "start_time": 1593,
+        "title": "Closing the mouth up",
+        "end_time": 1795
+      }
+    ],
+    "audio_or_transcript_reviewed": false,
+    "new_install_paid_subscription": false
+  },
+  "review": {
+    "cohorts_source_seconds": {
+      "bag": [
+        129.0,
+        140.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        312.0
+      ],
+      "closing": [
+        1600.0,
+        1620.0,
+        1640.0,
+        1660.0,
+        1680.0,
+        1700.0,
+        1720.0,
+        1740.0,
+        1760.0,
+        1780.0
+      ],
+      "gums": [
+        325.0,
+        344.0,
+        360.0,
+        375.0,
+        390.0,
+        405.0,
+        420.0,
+        435.0,
+        450.0,
+        465.0,
+        480.0,
+        495.0,
+        510.0,
+        525.0
+      ],
+      "overview": [
+        0,
+        60,
+        120,
+        180,
+        240,
+        300,
+        360,
+        420,
+        480,
+        540,
+        600,
+        660,
+        720,
+        780,
+        840,
+        900,
+        960,
+        1020,
+        1080,
+        1140,
+        1200,
+        1260,
+        1320,
+        1380,
+        1440,
+        1500,
+        1560,
+        1620,
+        1680,
+        1740,
+        1794
+      ],
+      "prep": [
+        45.0,
+        75.0,
+        90.0,
+        105.0,
+        115.0,
+        125.0
+      ],
+      "qwen": [
+        157.5,
+        172.5,
+        187.5,
+        202.5,
+        407.5,
+        422.5,
+        437.5,
+        452.5,
+        767.5,
+        782.5,
+        797.5,
+        812.5,
+        1327.5,
+        1342.5,
+        1357.5,
+        1372.5,
+        1627.5,
+        1642.5,
+        1657.5,
+        1672.5
+      ],
+      "teeth": [
+        529.0,
+        545.0,
+        560.0,
+        575.0,
+        590.0,
+        605.0,
+        620.0,
+        635.0,
+        650.0,
+        665.0,
+        680.0,
+        695.0,
+        710.0,
+        725.0,
+        740.0,
+        755.0,
+        770.0,
+        785.0,
+        800.0,
+        815.0,
+        830.0,
+        845.0,
+        860.0,
+        875.0,
+        890.0,
+        920.0,
+        950.0,
+        980.0,
+        1010.0,
+        1040.0,
+        1070.0,
+        1100.0,
+        1130.0,
+        1160.0,
+        1180.0
+      ],
+      "tongue": [
+        1190.0,
+        1210.0,
+        1230.0,
+        1250.0,
+        1270.0,
+        1290.0,
+        1310.0,
+        1330.0,
+        1350.0,
+        1370.0,
+        1390.0,
+        1410.0,
+        1430.0,
+        1450.0,
+        1470.0,
+        1490.0,
+        1510.0,
+        1530.0,
+        1550.0,
+        1570.0,
+        1593.0
+      ]
+    },
+    "all_reviewed_source_seconds": [
+      0,
+      45.0,
+      60,
+      75.0,
+      90.0,
+      105.0,
+      115.0,
+      120,
+      125.0,
+      129.0,
+      140.0,
+      150.0,
+      157.5,
+      165.0,
+      172.5,
+      180.0,
+      187.5,
+      195.0,
+      202.5,
+      210.0,
+      225.0,
+      240.0,
+      255.0,
+      270.0,
+      285.0,
+      300.0,
+      312.0,
+      325.0,
+      344.0,
+      360.0,
+      375.0,
+      390.0,
+      405.0,
+      407.5,
+      420.0,
+      422.5,
+      435.0,
+      437.5,
+      450.0,
+      452.5,
+      465.0,
+      480.0,
+      495.0,
+      510.0,
+      525.0,
+      529.0,
+      540,
+      545.0,
+      560.0,
+      575.0,
+      590.0,
+      600,
+      605.0,
+      620.0,
+      635.0,
+      650.0,
+      660,
+      665.0,
+      680.0,
+      695.0,
+      710.0,
+      720,
+      725.0,
+      740.0,
+      755.0,
+      767.5,
+      770.0,
+      780,
+      782.5,
+      785.0,
+      797.5,
+      800.0,
+      812.5,
+      815.0,
+      830.0,
+      840,
+      845.0,
+      860.0,
+      875.0,
+      890.0,
+      900,
+      920.0,
+      950.0,
+      960,
+      980.0,
+      1010.0,
+      1020,
+      1040.0,
+      1070.0,
+      1080,
+      1100.0,
+      1130.0,
+      1140,
+      1160.0,
+      1180.0,
+      1190.0,
+      1200,
+      1210.0,
+      1230.0,
+      1250.0,
+      1260,
+      1270.0,
+      1290.0,
+      1310.0,
+      1320,
+      1327.5,
+      1330.0,
+      1342.5,
+      1350.0,
+      1357.5,
+      1370.0,
+      1372.5,
+      1380,
+      1390.0,
+      1410.0,
+      1430.0,
+      1440,
+      1450.0,
+      1470.0,
+      1490.0,
+      1500,
+      1510.0,
+      1530.0,
+      1550.0,
+      1560,
+      1570.0,
+      1593.0,
+      1600.0,
+      1620.0,
+      1627.5,
+      1640.0,
+      1642.5,
+      1657.5,
+      1660.0,
+      1672.5,
+      1680.0,
+      1700.0,
+      1720.0,
+      1740.0,
+      1760.0,
+      1780.0,
+      1794
+    ],
+    "overview_frames": 31,
+    "focused_frames": 100,
+    "overview_focus_overlap": 9,
+    "qwen_actual_input_frames": 20,
+    "unique_this_stage": 142,
+    "prior_same_source_overlap": 0,
+    "prior_cumulative": 386,
+    "cumulative_unique_frames": 528,
+    "contact_sheets": 29,
+    "native_UI_actually_opened_seconds": [
+      150,
+      240,
+      785,
+      815,
+      1130,
+      1310,
+      1430,
+      1530,
+      1642.5,
+      1680
+    ],
+    "native_UI_hashes": {
+      "150": "7d7346ee4c54fc8eb79237da2884750392ea3b4c99889ee62c4f7652330195c1",
+      "240": "3879f07d5dc58ed0bbd357c6103a1fe2fff1b8875516079a7b33e5b141a254b4",
+      "785": "53809dd4e9ee8969ac9e77b0484edffdb1fba2fa8a07aedcf13f546a9816d015",
+      "815": "d32bcdbef1b7555c9e4d790984d69772fb9161b0883a994713797bf642266044",
+      "1130": "1414c6228938249fe8354e5caa3df5fa8024a471217d269748d95f29998652c0",
+      "1310": "eb141c27e5875ccd87178cda29a4f1650bd002d68080825074b1014f1331635e",
+      "1430": "0034765dda2935bd3189ab322d98a22f146836ce5099c0258f782482f6092ea4",
+      "1530": "cad928436d944519b7dd3b4c6ba40b2e10d204f489235ab7fa8c304d1bd398f2",
+      "1642.5": "e4fb2666aeef96c4ce12a62e15d26044ce38974172209788a49c1938797bcb7a",
+      "1680": "6b88bda948eb2d87ae492b0a38592d5d30d832649606e1a4609493ab4b96aed1"
+    },
+    "local_frame_hash_index_sha256": "3a38894f3ed6cbf676cbfda77e70077f55c4d964235576b24236f3166f2c8fbf",
+    "raw_local_root": "[local evidence location omitted]",
+    "continuous_full_video_audio_transcript_review": false
+  },
+  "qwen": {
+    "endpoint": "http://127.0.0.1:11436/api/chat",
+    "existing_listener_pid": 22548,
+    "model": "qwen3-vl:4b-instruct",
+    "digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+    "clips": [
+      {
+        "clip": "clip_150_210.mp4",
+        "source_start_seconds": 150,
+        "duration": 60,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "source_sample_seconds": [
+          157.5,
+          172.5,
+          187.5,
+          202.5
+        ],
+        "output": "qwen_150_210.json",
+        "returned_observation_count": 4,
+        "response_sha256": "d9cf8cc26ac9797d70abeb49e79bd7ff0588878b7072817daec90d5195312bf5"
+      },
+      {
+        "clip": "clip_400_460.mp4",
+        "source_start_seconds": 400,
+        "duration": 60,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "source_sample_seconds": [
+          407.5,
+          422.5,
+          437.5,
+          452.5
+        ],
+        "output": "qwen_400_460.json",
+        "returned_observation_count": 4,
+        "response_sha256": "7cd5325f8020c7c0626ba579bcf03a946b2292032ededcc09965241df361a828"
+      },
+      {
+        "clip": "clip_760_820.mp4",
+        "source_start_seconds": 760,
+        "duration": 60,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "source_sample_seconds": [
+          767.5,
+          782.5,
+          797.5,
+          812.5
+        ],
+        "output": "qwen_760_820.json",
+        "returned_observation_count": 4,
+        "response_sha256": "a5cfb8f20741cc7f7d33caedca507ee1046e309554cac235f691d62278bc7e57"
+      },
+      {
+        "clip": "clip_1320_1380.mp4",
+        "source_start_seconds": 1320,
+        "duration": 60,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "source_sample_seconds": [
+          1327.5,
+          1342.5,
+          1357.5,
+          1372.5
+        ],
+        "output": "qwen_1320_1380.json",
+        "returned_observation_count": 4,
+        "response_sha256": "b31012a53e41f843361c96e76bf570794eb9c010e4b8198e9d7b579f45d8be9a"
+      },
+      {
+        "clip": "clip_1620_1680.mp4",
+        "source_start_seconds": 1620,
+        "duration": 60,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "source_sample_seconds": [
+          1627.5,
+          1642.5,
+          1657.5,
+          1672.5
+        ],
+        "output": "qwen_1620_1680.json",
+        "returned_observation_count": 4,
+        "response_sha256": "3c31140901a4db5a3d571ae8c7628c1b248bee01399492487aae1417d8a1e905"
+      }
+    ],
+    "input_frames": 20,
+    "returned_observations": 20,
+    "all_done_stop_local_only": true,
+    "max_side": 640,
+    "num_ctx": 8192,
+    "num_predict": 900,
+    "temperature": 0.1,
+    "installed_scripts_changed": false,
+    "temporary_diagnostic_copy": true,
+    "semantic_accuracy_PASS": false,
+    "corrections": [
+      "teeth/gum group misclassified as mouth wall",
+      "tongue misclassified as mouth wall",
+      "unsupported mouth_wall_pmesh_grp object name excluded",
+      "Spline/Linear claim rejected; actual27:22.5 Soft Select on/Surface/Interpolation None",
+      "selection and detached fragment assertions not evidence of topology"
+    ],
+    "training_success_claim": false
+  },
+  "framelens": {
+    "source_range_seconds": [
+      150,
+      210
+    ],
+    "shot_count": 2,
+    "all_semantic_null": true,
+    "structural_or_rig_QA_claim": false
+  },
+  "observed_keys": {
+    "extrude_node_seconds": 150,
+    "mouthbag_shape_seconds": 240,
+    "whole_dental_Bend_seconds": 785,
+    "Center_Pivot_seconds": 815,
+    "two_dental_rows_seconds": 1130,
+    "separate_tongue_shape_seconds": 1310,
+    "tongue_assignment_context_seconds": 1430,
+    "BodyShape_wall_adjustment_seconds": 1530,
+    "actual_Soft_Selection_UI_seconds": 1642.5,
+    "lip_editing_oblique_seconds": 1680
+  },
+  "existing_asset": {
+    "source_record": "PolyOne_FreePack_Tooth/download-record-20261030.json",
+    "files_rehashed": [
+      {
+        "path": "Original/free_pack_tooth.blend",
+        "bytes": 3066264,
+        "sha256": "4d582e67e9700151be75468faf99ebfdfedca056ca6d67c6204d728377525e61"
+      },
+      {
+        "path": "Original/free_pack_tooth.fbx",
+        "bytes": 836832,
+        "sha256": "08f9d155fd28091e345f6b478ba39a5ea8436bfed564525fa809f4f0b3bb1a67"
+      },
+      {
+        "path": "Original/Fab_Standard_License_page_20261030.txt",
+        "bytes": 33612,
+        "sha256": "c1a8fae72e752b3fc63dec45dff7c5f09498b090c7b7f3170dea1ee1289c1aa2"
+      }
+    ],
+    "internal_mesh_UV_rig_inspection_import_or_Lumi_application": false,
+    "new_download_or_purchase": false
+  },
+  "preservation": {
+    "prior_three_videos_rehashed": [
+      {
+        "file": "SwM19PgSdCM.mp4",
+        "sha256": "259e9f87516007e98cd756883d67db034780f4a19aa03fc74543a8f2c62108f6"
+      },
+      {
+        "file": "DJbU_WfR2Z0.mp4",
+        "sha256": "9e31bfd0d407081c930ec743b1a77b1b35e4743a6fa0eb0b0caef66d2cc43771"
+      },
+      {
+        "file": "XleNIUWoydY.mp4",
+        "sha256": "e52f8930c7de66461be001224e012b18521ff074454af3c60dbd33b29c99050b"
+      }
+    ],
+    "RF_noseE_QA_v021_section": true,
+    "unchanged_existing_manuals": {
+      "docs/FACE_EYELID_VOLUME.md": "0ce0afd20381c3c83005260ad33f20ebbcddd14f830813b26d5c937dc60a022f",
+      "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md": "bf7491e3ea6efdf32d050855869a9e259b4691ef033e7036e36d341cedd56358",
+      "docs/FACE_EYELID_SHAPE_KEYS.md": "d6a1d0f74b7cfc8ea4a4b6e4e61732777a5f2061441caa004190b957d81c7e70"
+    },
+    "v021": "PARTIAL unchanged; original unwelded transitions and7.237mm surface gap"
+  },
+  "diagram": {
+    "original_concept": true,
+    "same_content_PNG_visually_reviewed": true,
+    "SVG_XML_valid": true,
+    "external_resources_script_or_images": false,
+    "anatomy_tutorial_tracing_measured_Lumi_or_native_Guide": false
+  },
+  "execution": {
+    "Blender_access_claim_edit_save_import_rig_motion": false,
+    "Claude_Painter_check": false,
+    "new_install_paid_API_or_VideoReverse": false,
+    "download_this_one_user_authorized_tutorial": true
+  },
+  "limits": [
+    "exact tutorial Maya version and all UI operations",
+    "anatomical palate/throat and exact cavity depth",
+    "all welded boundaries/rear closure/normals/intersections",
+    "tongue root connection",
+    "full motion or lip-sync quality",
+    "current Blender5.2 menu and modeling implementation NOT RUN"
+  ],
+  "validation": {
+    "scope_files": [
+      "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+      "docs/FACE_ORAL_STRUCTURE.md",
+      "docs/assets/face-topology/oral-structure-layout.svg",
+      "reports/VideoLearning/20261031_ORAL_STRUCTURE_REVIEW.md",
+      "reports/VideoLearning/20261031_ORAL_STRUCTURE_VERIFICATION.json"
+    ],
+    "canonical_UTF8_LF": true,
+    "author_review_only": true,
+    "independent_PASS_claim": false,
+    "raw_video_audio_captures_AI_payload_assets_excluded": true,
+    "source_video_ignored_confirmed": true,
+    "relative_links_verified": [
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "FACE_RETOPOLOGY_SECOND_TUTORIAL.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "../reports/VideoLearning/20261031_FACE_LOOP_REVIEW.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "../reports/VideoLearning/20261031_NOSE_CONNECTION_REVIEW.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "assets/face-topology/feature-loop-flow.svg"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "FACE_RETOPOLOGY_SECOND_TUTORIAL.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "assets/face-topology/eyelid-section.svg"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "FACE_EYELID_VOLUME.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "../reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "assets/face-topology/nose-connection-flow.svg"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "FACE_EYELID_SHAPE_KEYS.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "FACE_RETOPOLOGY_SECOND_TUTORIAL.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "FACE_ORAL_STRUCTURE.md"
+      ],
+      [
+        "docs/FACE_ORAL_STRUCTURE.md",
+        "../reports/VideoLearning/20261031_ORAL_STRUCTURE_REVIEW.md"
+      ],
+      [
+        "docs/FACE_ORAL_STRUCTURE.md",
+        "assets/face-topology/oral-structure-layout.svg"
+      ],
+      [
+        "docs/FACE_ORAL_STRUCTURE.md",
+        "../reports/VideoLearning/20261031_ORAL_STRUCTURE_VERIFICATION.json"
+      ],
+      [
+        "reports/VideoLearning/20261031_ORAL_STRUCTURE_REVIEW.md",
+        "../../docs/FACE_ORAL_STRUCTURE.md"
+      ]
+    ]
+  },
+  "original_training_snapshot_files_sha256": {
+    "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md": "0bb7bd2385ecef03f05542921b18059e6c6ef758aec0f060624ab8231e408e9b",
+    "docs/FACE_ORAL_STRUCTURE.md": "8abdaebcedf83fba73e98c68f6e7b252bebcddebaedc2a09279edbfb656fbdbf",
+    "docs/assets/face-topology/oral-structure-layout.svg": "a848c68bae1f8189553efb593ed4b74e588b4dd0c2ac87478f68b0147a8617d9",
+    "reports/VideoLearning/20261031_ORAL_STRUCTURE_REVIEW.md": "f4445b17cfa9ccea7c648315c0e909c290db2b5cbddc7d4c4f022a26447265f8"
+  },
+  "public_export_notice": "Local evidence locations omitted. Original training snapshot hashes and validation describe source-time review; see PUBLIC_MANIFEST.json for hashes of public files."
+}

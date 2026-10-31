@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">Painter 출력에서 Blender 재질까지 채널 의미 보존</title>
+<desc id="desc">기본색과 데이터 맵을 구분하고, Metallic 이미지 알파가 Glossiness인 경우에만 반전해 Roughness로 연결한다. 별도 Roughness는 반전하지 않는다. 교육용 자체 도식이며 Blender Guide나 실제 노드 캡처가 아니다.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#61758d"/></marker><style>text{font-family:'Segoe UI','Malgun Gothic',sans-serif;fill:#172d45;font-size:19px}.title{font-size:29px;font-weight:700}.sub{font-size:16px;fill:#4b6178}.box{fill:white;stroke:#bbcbdc;stroke-width:2}.data{fill:#eaf3fe;stroke:#6492c4;stroke-width:2}.warn{fill:#fff2d7;stroke:#dbab54;stroke-width:2}.wire{fill:none;stroke:#61758d;stroke-width:3;marker-end:url(#arrow)}.small{font-size:16px}.bold{font-weight:700}</style></defs>
+<rect width="1200" height="820" rx="20" fill="#f4f7fb"/>
+<text x="40" y="52" class="title">파일 이름보다 RGB·알파의 실제 의미를 확인</text>
+<text x="40" y="84" class="sub">자체 제작 교육 도식 · 실제 제작/연결 완료 증거 또는 Blender Guide가 아님</text>
+<text x="50" y="132" class="bold">Painter 출력</text><text x="430" y="132" class="bold">Blender에서 해석</text><text x="920" y="132" class="bold">Principled BSDF</text>
+<rect x="40" y="155" width="300" height="75" rx="12" class="box"/><text x="60" y="184">Base Color · RGB</text><text x="60" y="211" class="small">색 이미지의 색공간 유지</text>
+<rect x="410" y="155" width="320" height="75" rx="12" class="box"/><text x="430" y="184">Image Texture</text><text x="430" y="211" class="small">일반적인 sRGB 출력은 sRGB</text>
+<path d="M340 192H410M730 192H900" class="wire"/>
+<rect x="900" y="155" width="260" height="75" rx="12" class="box"/><text x="925" y="198">Base Color</text>
+<rect x="40" y="270" width="300" height="105" rx="12" class="data"/><text x="60" y="302">Metallic 패킹 이미지</text><text x="60" y="331" class="small">RGB = Metallic</text><text x="60" y="358" class="small">Alpha = Glossiness인 예제</text>
+<rect x="410" y="270" width="320" height="65" rx="12" class="data"/><text x="430" y="310">Non-Color · RGB</text>
+<rect x="410" y="355" width="320" height="70" rx="12" class="warn"/><text x="430" y="384">Non-Color · Alpha → 1 − 값</text><text x="430" y="411" class="small">Glossiness일 때만 반전</text>
+<path d="M340 302H410M340 352H375V389H410M730 302H900M730 389H900" class="wire"/>
+<rect x="900" y="270" width="260" height="65" rx="12" class="data"/><text x="925" y="310">Metallic</text>
+<rect x="900" y="355" width="260" height="70" rx="12" class="data"/><text x="925" y="396">Roughness</text>
+<rect x="40" y="460" width="300" height="75" rx="12" class="data"/><text x="60" y="490">별도 Roughness 파일</text><text x="60" y="519" class="small">Glossiness 패킹과 다른 경로</text>
+<rect x="410" y="460" width="320" height="75" rx="12" class="data"/><text x="430" y="490">Non-Color · 반전 없이</text><text x="430" y="519" class="small">위 Glossiness 경로와 택일</text>
+<path d="M340 498H410M730 498H860V410H900" class="wire"/>
+<rect x="40" y="570" width="300" height="90" rx="12" class="data"/><text x="60" y="602">Normal · RGB</text><text x="60" y="633" class="small">UV·OpenGL/DirectX 기록</text>
+<rect x="410" y="570" width="320" height="90" rx="12" class="data"/><text x="430" y="602">Non-Color → Normal Map</text><text x="430" y="633" class="small">동일 UV + 규약 일치</text>
+<path d="M340 615H410M730 615H900" class="wire"/>
+<rect x="900" y="570" width="260" height="90" rx="12" class="data"/><text x="925" y="622">Normal</text>
+<rect x="40" y="700" width="1120" height="80" rx="12" class="warn"/><text x="60" y="731">AO·Height·SSS·Opacity는 별도 목적과 연결 계약을 확인</text><text x="60" y="761" class="small">AO 중복 곱 금지 · 강좌의 수치/4K를 모바일 규격으로 고정하지 않기 · 출력 파일과 경고까지 검사</text>
+</svg>

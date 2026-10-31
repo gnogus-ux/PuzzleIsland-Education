@@ -1,0 +1,186 @@
+{
+  "export_date": "2026-10-31",
+  "public_repository": "gnogus-ux/PuzzleIsland-Education",
+  "manuals": 9,
+  "diagrams": 8,
+  "checked_local_links": 75,
+  "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
+  "export_changes": [
+    "Local absolute evidence paths omitted",
+    "Private project reference links replaced with generic reference guide",
+    "Original verification hash fields marked as source-time snapshots",
+    "Standalone public index added; no source repository Git history copied"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 126,
+      "sha256": "ae7f0732c9363dc3107a86863e134f412aff0e8e036a4548ffd11022e6e3829f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2764,
+      "sha256": "7161d5cbf032353cba4c78983a82deb863d6f25b1b0db13e6df5d6a4b26363c2"
+    },
+    {
+      "path": "docs/FACE_EYELID_SHAPE_KEYS.md",
+      "bytes": 14815,
+      "sha256": "d6a1d0f74b7cfc8ea4a4b6e4e61732777a5f2061441caa004190b957d81c7e70"
+    },
+    {
+      "path": "docs/FACE_EYELID_VOLUME.md",
+      "bytes": 15198,
+      "sha256": "0ce0afd20381c3c83005260ad33f20ebbcddd14f830813b26d5c937dc60a022f"
+    },
+    {
+      "path": "docs/FACE_ORAL_STRUCTURE.md",
+      "bytes": 22011,
+      "sha256": "8abdaebcedf83fba73e98c68f6e7b252bebcddebaedc2a09279edbfb656fbdbf"
+    },
+    {
+      "path": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+      "bytes": 28378,
+      "sha256": "8f4d620a33aea3cf9c478ce7f915013bbcbd30fd2178a5a4320226a6bfd98169"
+    },
+    {
+      "path": "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md",
+      "bytes": 14483,
+      "sha256": "bf7491e3ea6efdf32d050855869a9e259b4691ef033e7036e36d341cedd56358"
+    },
+    {
+      "path": "docs/PAINTER_CHARACTER_WORKFLOW.md",
+      "bytes": 5252,
+      "sha256": "f53cb057c8505d174e80b2a30c3e9f11039a20d6945221f26d772f5c11dada64"
+    },
+    {
+      "path": "docs/PAINTER_SKIN_LAYERS.md",
+      "bytes": 8709,
+      "sha256": "6ed67823d351da99b94c87f0a33bd431de2872db3d3ee7004f33cad277278d9f"
+    },
+    {
+      "path": "docs/PAINTER_STYLIZED_CHARACTER.md",
+      "bytes": 5739,
+      "sha256": "9f71c02f70d77f1f27daa6cefdb889ce5d2c34d718db8d0badd3ad08f4951f7e"
+    },
+    {
+      "path": "docs/PAINTER_TO_BLENDER.md",
+      "bytes": 6400,
+      "sha256": "347cf498aa5a53eaafae9fb3caaee04ee0d6774742757a6c2f2d9422653d30bb"
+    },
+    {
+      "path": "docs/PROJECT_REFERENCE_GUIDE.md",
+      "bytes": 914,
+      "sha256": "3209a9aac07c4f100ece6c00e74cfc14fe185a8175495ef8bbb240ceba710222"
+    },
+    {
+      "path": "docs/assets/face-topology/eyelid-section.svg",
+      "bytes": 3556,
+      "sha256": "023316eb0dc0cc648957b8e7da2f7a3ec9767052ddf322497135ef7a486eb91d"
+    },
+    {
+      "path": "docs/assets/face-topology/eyelid-shape-key-pipeline.svg",
+      "bytes": 8088,
+      "sha256": "2f6deb7dfce24c1c0096229f603f66068be09cb03fdeb744a81c01283ffec3ef"
+    },
+    {
+      "path": "docs/assets/face-topology/eyelid-volume-flow.svg",
+      "bytes": 9571,
+      "sha256": "d6de919ac337ec93e2218038c4dd4348d2f1f6d3d752e5aea04078616fed45cb"
+    },
+    {
+      "path": "docs/assets/face-topology/feature-loop-flow.svg",
+      "bytes": 7775,
+      "sha256": "7d614b8510de82cc697624353ca92bcb20283c20a466ab7efd237e25626906b0"
+    },
+    {
+      "path": "docs/assets/face-topology/nose-connection-flow.svg",
+      "bytes": 8310,
+      "sha256": "dfbd7ef05290aef743feccdd277e4cb50c2d9f00d4489f821346f041bf12a5fb"
+    },
+    {
+      "path": "docs/assets/face-topology/oral-structure-layout.svg",
+      "bytes": 10114,
+      "sha256": "a848c68bae1f8189553efb593ed4b74e588b4dd0c2ac87478f68b0147a8617d9"
+    },
+    {
+      "path": "docs/assets/face-topology/retopo-paired-view-audit.svg",
+      "bytes": 5896,
+      "sha256": "62fb1aa24c95126a562231f34f1c1217d52daaa0b640be1591cf86349140a235"
+    },
+    {
+      "path": "docs/assets/texturing/painter-channel-pipeline.svg",
+      "bytes": 4282,
+      "sha256": "4f9d718640f2bb5659aeb5a972069972f63729d73bf048693cf50407a8d759e8"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_DIKKO2_REVIEW.md",
+      "bytes": 9720,
+      "sha256": "b6a36de2627745a356b76411c119c3b75d3133b7b39d30b0836db700e0e54c90"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_DIKKO2_VERIFICATION.json",
+      "bytes": 18034,
+      "sha256": "4938fa8ec5213af6055364a3b3bef2556ad3cdc067b7a41c264b7a879008dc1e"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md",
+      "bytes": 9567,
+      "sha256": "efc05d0e6825b81acafdeb905fc843283a9ffd669f9a636354ab5da81b0b8d1b"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_EYELID_VOLUME_VERIFICATION.json",
+      "bytes": 22230,
+      "sha256": "d340bdef4bb7eb38a6e7f200766b899a7a36e781fc257af6423ddba795dddd50"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_FACE_LOOP_REVIEW.md",
+      "bytes": 8100,
+      "sha256": "57041f697c923018b04311930cbaf4ddab762d46d3323c91296869b29305961d"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_FACE_LOOP_VERIFICATION.json",
+      "bytes": 5709,
+      "sha256": "6566d1fc06a3909e768eb9e85f05768801095398cd0559d57c982a1dea084ea2"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_LPL_SHAPE_KEYS_REVIEW.md",
+      "bytes": 5155,
+      "sha256": "944e1bf1739a62782f25fbf48141460703eacb84ee1bd002a712039bf471931d"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_LPL_SHAPE_KEYS_VERIFICATION.json",
+      "bytes": 13808,
+      "sha256": "9e874ec1f62acfacb0ad78463f384853a5cc6a2c73d2e55a2ef3a69f2d65032b"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_NOSE_CONNECTION_REVIEW.md",
+      "bytes": 8638,
+      "sha256": "44a8a61d9c464daeb0a996d1a438c095c99e3421d7094dfb9a493177fd9ccef3"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_NOSE_CONNECTION_VERIFICATION.json",
+      "bytes": 15202,
+      "sha256": "f7b35bbc6fd0bad56633d0b5997becbb6dd8ed38609d7a92d4be707d3c210d7c"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_ORAL_STRUCTURE_REVIEW.md",
+      "bytes": 7501,
+      "sha256": "f4445b17cfa9ccea7c648315c0e909c290db2b5cbddc7d4c4f022a26447265f8"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_ORAL_STRUCTURE_VERIFICATION.json",
+      "bytes": 17753,
+      "sha256": "06a14ca874cf0d57a3546ab54d297dc8c5706520c393e2e4922671c9ba547763"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_PAINTER_COURSES_REVIEW.md",
+      "bytes": 7644,
+      "sha256": "57e1042a994265d3e8901a1a4177a2f23f37a1e10a10cc692db323a2b428a6e7"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_PAINTER_COURSES_VERIFICATION.json",
+      "bytes": 39157,
+      "sha256": "8149429eecbbb268eb2b44133dd791c33fcfacecdeae5cfb091aacbb94afc0ac"
+    }
+  ]
+}

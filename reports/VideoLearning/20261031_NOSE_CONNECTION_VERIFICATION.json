@@ -1,0 +1,465 @@
+{
+  "date": "2026-10-31",
+  "scope": "Nose-connection video learning and documentation publication only; no Blender claim/edit/save/rig/animation",
+  "source": {
+    "video": "SwM19PgSdCM.mp4",
+    "url": "https://www.youtube.com/watch?v=SwM19PgSdCM&t=1095s",
+    "sha256_rehashed": "259e9f87516007e98cd756883d67db034780f4a19aa03fc74543a8f2c62108f6"
+  },
+  "review": {
+    "method": "Direct image review of 7 five-second contact sheets plus 1 six-frame Qwen comparison sheet and 6 enlarged original frames; no continuous playback/audio transcription claim",
+    "five_second_frames": 38,
+    "additional_ai_comparison_frames": 6,
+    "unique_this_stage": 44,
+    "overlap_with_first_stage": [
+      1095,
+      1140,
+      1200
+    ],
+    "new_unique_frames": 41,
+    "previous_unique_frames": 77,
+    "cumulative_unique_frames": 118,
+    "source_times_seconds": [
+      1095,
+      1100,
+      1105,
+      1110,
+      1115,
+      1120,
+      1125,
+      1130,
+      1135,
+      1140,
+      1145,
+      1150,
+      1155,
+      1160,
+      1165,
+      1170,
+      1175,
+      1180,
+      1185,
+      1190,
+      1195,
+      1200,
+      1205,
+      1210,
+      1215,
+      1220,
+      1220.417,
+      1225,
+      1230,
+      1231.25,
+      1235,
+      1240,
+      1242.083,
+      1245,
+      1250,
+      1252.917,
+      1255,
+      1260,
+      1263.75,
+      1265,
+      1270,
+      1274.583,
+      1275,
+      1280
+    ],
+    "enlarged_source_times_seconds": [
+      1130,
+      1150,
+      1180,
+      1185,
+      1215,
+      1240
+    ],
+    "sheet_count": 8,
+    "local_raw_root": "[local evidence location omitted]",
+    "frames": [
+      {
+        "source_seconds": 1095,
+        "sha256": "5f7cbd018255be326a184efc02b58a67f4987e1b4e34c2585867234e9cb5e0c5",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1100,
+        "sha256": "11d65ae8fefd1361a4e2f6ebfcea52a656d7e32126ec5d6f63e706a5e3d9b18a",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1105,
+        "sha256": "89c3d3cc05edce319785e80bcd1089183a97e3121ff2a0b41b22b90b0737f94d",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1110,
+        "sha256": "f7c164c030a12b5e3ad98cc509ad960e4052d40f52355aa94cec3319be06ae99",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1115,
+        "sha256": "6402e34e6049ed7b78ef36946dfb0edac81c4a1444c0bc70fca9faf7d3e4acc1",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1120,
+        "sha256": "785eafc0c13c6af6d9ac8ed2e86c3ea2eb1280304504ec51084a01897a57a634",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1125,
+        "sha256": "0a3e42df15c63fe8cca11b0ef4f40094e25b2899c5079634ea5ee69061a11938",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1130,
+        "sha256": "ab43a789e58403bbf968d1f7b69aac95a5057151dd1a9cedd1ce8e410a16fefc",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1135,
+        "sha256": "a494369535aa16df5c3eca97268b7b4313ef68c6e99ded8bafcbf6606edbbcff",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1140,
+        "sha256": "7cb345ab04735daeb50f4f79feb74ebc9750f1254e1de5f0a783f46c486ded91",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1145,
+        "sha256": "38cb0b913faf5da45cf3fba3b59442bfa9f26e4b9675993af6ae81e684440c9f",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1150,
+        "sha256": "a39c84194777f5d2fce7ef03bb3f38565edc4743f8365c143727de76c6f9a44c",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1155,
+        "sha256": "cd93227acc37f62a703ee7303214c5a97f784fe7c41296ea56cd704fc974fbed",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1160,
+        "sha256": "523a42897577645d30154cb9f55f4e5fa70ed4e3b60edaf3f052e5e857907994",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1165,
+        "sha256": "82b8d38591e2887ad3ea1b1fc3039f8de1065aac2c175d324de3c8c637b43815",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1170,
+        "sha256": "af2c24ff79b0e51898bdac5ab2f607d504f11f2e80c1e1bdd52f45886870793b",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1175,
+        "sha256": "717c37f1637633b43cfaa0a70d5168ca9162ff00e5e2e63121726cc2b92c7d47",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1180,
+        "sha256": "8dff0900d1dd47b27dfa3df39df040f7abaef2d20d0ffb5645752b51e769a238",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1185,
+        "sha256": "8f6e8c4edd7fb63f36b55ad78f90e962b2341016760dd209ebea10e26b4469e5",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1190,
+        "sha256": "74c942493ffe46a5b7025263f62688442e98a0cc4cb82a34e27fed199d1b14c3",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1195,
+        "sha256": "e7d2a4a87d7fef690075bcac5ddcc7f94a4ae23141252e50c13016f77400db2a",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1200,
+        "sha256": "321574c96b2c77a52d20fb7421078785496a9a8c6167b7a0f34e4071e6940474",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1205,
+        "sha256": "ad3fc5040705c42ab376ca6587f1f61c5753a9ffbc538a200a1df9dde3197ffc",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1210,
+        "sha256": "352c6cd01e1d38eea404031b4f187e1ffc4f67be7eb399bad77c60ac18fc424e",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1215,
+        "sha256": "622f13a5a3ef674562a3b1c271396c89d9645f5104ef8f1b89638b677f2f6a1a",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1220,
+        "sha256": "b03acb686e3778794b45b5d39517029f213c94802cbe4094b0f4344744b3e670",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1225,
+        "sha256": "89ca23aef96e60d0849b29c4fc38952ab3a71ba889594ca0496f387343728532",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1230,
+        "sha256": "606813e986190e98eb4d3fc4ac2be784ec8659374fbef8b7df18faf9d7214d30",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1235,
+        "sha256": "f2f8a5467fd5db61397e53f487b2ade994508cb98a709d4ff142a8a31581adc1",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1240,
+        "sha256": "cdb3432d3fd385c0edb208aca251d184377e4e2e116cf9222a05ef67dbf3a033",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1245,
+        "sha256": "b9307885ed77daf628394ce26bb0fc02279fea7f7f04257ae76504ba0bb495f2",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1250,
+        "sha256": "92f398f6e380ec7ba427b9e59637d571ad3e2c79f709630e9944819cefb747a6",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1255,
+        "sha256": "bd9019ff8384614744b8de06694346721301413beb213f4d3701e0776b8c61a4",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1260,
+        "sha256": "cbfc7d507a13f35aeebfd5a8d7847f05f3c49cdd6eed0b5b546feb8f7990af4b",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1265,
+        "sha256": "df052b49b4c121bb944b219c7a4d152578868f617645188251709328430a6719",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1270,
+        "sha256": "ea555ab17d08b7210b977766aa4ea22de8fe1959073ca5522a14738a112bbefb",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1275,
+        "sha256": "933157c60c7bd4705c2848a94d36b2f3c180342be63d33bea17a90dcc88d1f44",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1280,
+        "sha256": "ea14d0461c9eea0def40f00669b91e3a8a0ff97e8c16a46fcc9f3ed3cd64ba95",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1220.417,
+        "sha256": "1853242b2d96f104689fe438b0092ad45829b5b989cc7372cd8e112ddd45cf2f",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1231.25,
+        "sha256": "f5078e8014fa8756bba5613721d3d488ed95cb1ecded839012d9c0db95cfefff",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1242.083,
+        "sha256": "1ccae3eecd178848efdd7262f43db92f5e6d4ebd65b5eb7c797b7eb259cabf4a",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1252.917,
+        "sha256": "c42c6f2151e2a90c4a1ec018a2c4d27208d5cc2861ef00a20313c27e51df084f",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1263.75,
+        "sha256": "5ce658d0754ffab5a59df91cae8eaa3bbdced90b78665bae5e929cd6ac27d289",
+        "visually_reviewed": true
+      },
+      {
+        "source_seconds": 1274.583,
+        "sha256": "f8e5731523515f1bdbea9ea7aec3bee39db1dbc59404fa9a0c1b45d8ca119469",
+        "visually_reviewed": true
+      }
+    ]
+  },
+  "qwen": {
+    "existing_endpoint": "http://127.0.0.1:11436/api/chat",
+    "existing_listener_pid": 22548,
+    "model": "qwen3-vl:4b-instruct",
+    "model_digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+    "initial_eight_image_attempt": "HTTP400; error body not preserved, exact cause unconfirmed",
+    "corrective_attempt": "6 samples per clip; all 3 calls succeeded, final output hit600-token length limit",
+    "installed_analyzer_modified": false,
+    "clips": [
+      {
+        "clip": "clip_1095_1155.mp4",
+        "source_start_seconds": 1095,
+        "duration": 60,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "local_only": true,
+        "source_sample_seconds": [
+          1100.0,
+          1110.0,
+          1120.0,
+          1130.0,
+          1140.0,
+          1150.0
+        ],
+        "output": "qwen_1095_1155.json",
+        "done_reason": "stop",
+        "output_tokens": 581,
+        "response_sha256": "eb5353283ac5fcf2275c439594c0ef0679f5d371e80e81a53e6bf99d3eba953b",
+        "semantic_verdict": "Unsupported repeated openness/shape-change claims rejected after direct frame review"
+      },
+      {
+        "clip": "clip_1155_1215.mp4",
+        "source_start_seconds": 1155,
+        "duration": 60,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "local_only": true,
+        "source_sample_seconds": [
+          1160.0,
+          1170.0,
+          1180.0,
+          1190.0,
+          1200.0,
+          1210.0
+        ],
+        "output": "qwen_1155_1215.json",
+        "done_reason": "stop",
+        "output_tokens": 377,
+        "response_sha256": "e0d8a2e81c74e043326f04bc366a05b6116460249bf68686f472987aee64e5c6",
+        "semantic_verdict": "Unsupported repeated openness/shape-change claims rejected after direct frame review"
+      },
+      {
+        "clip": "clip_1215_1280.mp4",
+        "source_start_seconds": 1215,
+        "duration": 65,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "local_only": true,
+        "source_sample_seconds": [
+          1220.417,
+          1231.25,
+          1242.083,
+          1252.917,
+          1263.75,
+          1274.583
+        ],
+        "output": "qwen_1215_1280.json",
+        "done_reason": "length",
+        "output_tokens": 600,
+        "response_sha256": "67f1b8fef3fabe6260102b10307bb4f9bf4c530d3b537fb760d5b21aeba595bd",
+        "semantic_verdict": "Unsupported repeated openness/shape-change claims rejected after direct frame review"
+      }
+    ],
+    "whole_video_understanding_or_topology_validation_claim": false
+  },
+  "framelens": {
+    "input_source_range_seconds": [
+      1095,
+      1155
+    ],
+    "actual_shots": 1,
+    "semantic_fields_null": true,
+    "topology_or_weld_verification_claim": false
+  },
+  "unknown": [
+    "nostril inner-wall depth/end/topology",
+    "exact pole positions and valence",
+    "all vertex/face counts and all-quad confirmation",
+    "actual shared vertices or original-skin weld",
+    "full self-intersection check",
+    "instructor audio and every operation",
+    "Lumi visual improvement or deformation quality"
+  ],
+  "diagram": {
+    "path": "docs/assets/face-topology/nose-connection-flow.svg",
+    "original_concept": true,
+    "tutorial_tracing_or_capture_embedding": false,
+    "execution_ready_mesh_or_native_guide": false,
+    "matching_geometry_png_visually_reviewed": true,
+    "xml_parsed": true,
+    "external_resources_or_scripts": false
+  },
+  "validation": {
+    "relative_links": [
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "../reports/VideoLearning/20261031_FACE_LOOP_REVIEW.md",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "../reports/VideoLearning/20261031_NOSE_CONNECTION_REVIEW.md",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "assets/face-topology/feature-loop-flow.svg",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "assets/face-topology/eyelid-section.svg",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "assets/face-topology/nose-connection-flow.svg",
+        "exists": true
+      },
+      {
+        "from": "reports/VideoLearning/20261031_NOSE_CONNECTION_REVIEW.md",
+        "target": "../../docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "exists": true
+      },
+      {
+        "from": "reports/VideoLearning/20261031_NOSE_CONNECTION_REVIEW.md",
+        "target": "20261031_FACE_LOOP_REVIEW.md",
+        "exists": true
+      },
+      {
+        "from": "reports/VideoLearning/20261031_NOSE_CONNECTION_REVIEW.md",
+        "target": "20261031_NOSE_CONNECTION_VERIFICATION.json",
+        "exists": true
+      }
+    ],
+    "encoding": "UTF-8 canonical LF",
+    "scope_files": [
+      "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+      "docs/assets/face-topology/nose-connection-flow.svg",
+      "reports/VideoLearning/20261031_NOSE_CONNECTION_REVIEW.md",
+      "reports/VideoLearning/20261031_NOSE_CONNECTION_VERIFICATION.json"
+    ],
+    "raw_video_audio_screenshots_excluded": true,
+    "v021_source_weld_and_nose_surface_status": "PARTIAL unchanged",
+    "model_or_server_download_restart": false,
+    "paid_analysis_or_external_api": false,
+    "review_status": "Author direct review; independent review not claimed"
+  },
+  "original_training_snapshot_files_sha256": {
+    "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md": "5888bc95860b2977db343bfec09d3e1ba1721bac399a322137e8b48ae2e05793",
+    "docs/assets/face-topology/nose-connection-flow.svg": "dfbd7ef05290aef743feccdd277e4cb50c2d9f00d4489f821346f041bf12a5fb",
+    "reports/VideoLearning/20261031_NOSE_CONNECTION_REVIEW.md": "e720f1dc6327c6e954a472c0362c2e54e6a048299ff345deffc2018a15b931ef"
+  },
+  "public_export_notice": "Local evidence locations omitted. Original training snapshot hashes and validation describe source-time review; see PUBLIC_MANIFEST.json for hashes of public files."
+}

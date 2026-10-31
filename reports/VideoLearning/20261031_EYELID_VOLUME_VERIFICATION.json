@@ -1,0 +1,687 @@
+{
+  "date": "2026-10-31",
+  "scope": "Eyelid-volume sampled video education, reusable documentation and normal documentation-branch publication only",
+  "blender_claim_edit_save_or_animation": false,
+  "sources": [
+    {
+      "video": "SwM19PgSdCM.mp4",
+      "url": "https://www.youtube.com/watch?v=SwM19PgSdCM&t=2428s",
+      "sha256_rehashed": "259e9f87516007e98cd756883d67db034780f4a19aa03fc74543a8f2c62108f6"
+    },
+    {
+      "video": "XleNIUWoydY.mp4",
+      "url": "https://www.youtube.com/watch?v=XleNIUWoydY&t=90s",
+      "sha256_rehashed": "e52f8930c7de66461be001224e012b18521ff074454af3c60dbd33b29c99050b"
+    }
+  ],
+  "review": {
+    "method": "Direct review: 6 base contact sheets,3 additional sample sheets,10 enlarged Dikko frames,and3 reused LPL single frames; no continuous full-video/audio review claim",
+    "unique_this_stage": 50,
+    "dikko_frames": 47,
+    "lpl_reused_frames": 3,
+    "overlap_with_previous_studies": [
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "seconds": 2428
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "seconds": 2460
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "seconds": 2520
+      },
+      {
+        "video": "XleNIUWoydY.mp4",
+        "seconds": 90
+      },
+      {
+        "video": "XleNIUWoydY.mp4",
+        "seconds": 160
+      },
+      {
+        "video": "XleNIUWoydY.mp4",
+        "seconds": 234
+      }
+    ],
+    "new_unique_frames": 44,
+    "previous_unique_frames": 118,
+    "cumulative_unique_frames": 162,
+    "source_times_seconds": {
+      "SwM19PgSdCM.mp4": [
+        2410,
+        2420,
+        2428,
+        2431,
+        2431.25,
+        2434,
+        2437,
+        2437.75,
+        2440,
+        2443,
+        2444.25,
+        2446,
+        2449,
+        2450.75,
+        2452,
+        2455,
+        2457.25,
+        2458,
+        2460,
+        2461,
+        2463.75,
+        2464,
+        2467,
+        2470,
+        2470.167,
+        2473,
+        2476,
+        2476.5,
+        2479,
+        2482,
+        2482.833,
+        2485,
+        2488,
+        2489.167,
+        2491,
+        2494,
+        2495.5,
+        2497,
+        2500,
+        2501.833,
+        2503,
+        2505,
+        2510,
+        2512,
+        2514,
+        2515,
+        2520
+      ],
+      "XleNIUWoydY.mp4": [
+        90,
+        160,
+        234
+      ]
+    },
+    "enlarged_dikko_times_seconds": [
+      2428,
+      2460,
+      2437,
+      2470,
+      2476,
+      2482,
+      2494,
+      2497,
+      2510,
+      2512
+    ],
+    "local_raw_root": "[local evidence location omitted]",
+    "frames": [
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2410,
+        "sha256": "7503524587ba07dc46d1f0f0ae5ff7aa91bc2bc94ece15f498cb229e04303942",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2420,
+        "sha256": "910924d87f66225d6eac1aacbf2fcd87468daea23c40ce7af7620939b9bd1ac0",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2428,
+        "sha256": "bb177ad8d621a0421f41f48e82b727d5116889daa557bcc32991fb63ee89e952",
+        "reused_existing": true,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2431,
+        "sha256": "754ce6e5158c123fea8df85e94cd5dbdad608b7d02b4d83ba990171ac90be2af",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2434,
+        "sha256": "02c44117f1f0847fa8a95188ec57fca1fe360eef4389190c42d6692d7541b65b",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2437,
+        "sha256": "eec6d32173a115d9851072db7f901b152ca3901c048cac83fa9054c6ed85a109",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2440,
+        "sha256": "4ef6384e7c337cc587e32d3c7a7ae8855a3484856f96fd920913eade95aa1cea",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2443,
+        "sha256": "d1e3821d372aa7eaa8c6ec1296f89f14fce61fb352ccd788c7da7834b33f8afd",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2446,
+        "sha256": "99f782913c60c8a9391d7ea8ebc82e24e341cf9e2ce7a01ab679f52f17d9a250",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2449,
+        "sha256": "96e1ca057b905ca7c2822fc3626e77b4f6564f6bba97d2d5204d6cedd9fe31e6",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2452,
+        "sha256": "013cf1948fef2d88f9794aef8564c751fcb4c1f24216bb9fd505487ebe7d4050",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2455,
+        "sha256": "5e0e4ec7bcf8ae15f965f0c30e8b0aa914e10a6764a10fe63a91683dad8f5b8c",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2458,
+        "sha256": "b368bc9e38a17419b321c478bb2c057038a0003ea8a0263e9e7da785f9c50d7c",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2460,
+        "sha256": "468e87884834e364886c3902048558c174e114c242b42429a29e1d55c9d873b3",
+        "reused_existing": true,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2461,
+        "sha256": "2e496db8cfb4de76ff9dfc1649a7709cafb0c91a8c0b330a00780645575035c5",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2464,
+        "sha256": "3d5b435929c73ff88ee7e0ffd496e8b876fec185d957c2ecbc0ac8eab974a53f",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2467,
+        "sha256": "ad0bb50fc60bf4c64cfd37ff752b757eb99a95802a29fc47a05e79fd3533b8f7",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2470,
+        "sha256": "dd8acd7c9e82e661ffdc9ca401b5fbf8439a4f016ed2cc9c59be8db5383cf5c0",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2473,
+        "sha256": "46e0b36790cf7420f07bb9b2bc389aeb1a770733b6d0edde5bc52758fdb02b93",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2476,
+        "sha256": "b74265688d7e42194ab098d253bf6f869f5457f4a2e11110ff40c3f5b1b47a27",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2479,
+        "sha256": "37513856cc3c2d8e5f3f83f4b62d47e89cbf8c1f909c59f33e512fe86c03fc5c",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2482,
+        "sha256": "65df6f327804e1ae8119f9348d181889e72d021facc5cd67736270835097304c",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2485,
+        "sha256": "d717134f0bf3875a881fe8445752d138548f8b072f12de978fc11e9d65ab2354",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2488,
+        "sha256": "7619589dcad84c39e1e84b5c6302b2d8152104dbc3f8a80e776239e30ea0b4cb",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2491,
+        "sha256": "c105a3a88cf738d5a9f9a429161b7293e2eead7f657128ee6e65f653ccdae03d",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2494,
+        "sha256": "ce3ea5d0dd65e5032130d24a078e026090852a53bf990c06f383e057e75d1b66",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2497,
+        "sha256": "49e5f4429e251e13558b34b484b5514e2cbe7fd7bf5c548ec921c23eda7a30fd",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2500,
+        "sha256": "67e5a9e87e2f6dbf71b699b085803553da7b3596e88620401f99226416b0f232",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2503,
+        "sha256": "cf4abfaaaec9fa7619c0bc8f4d2c81d5749cc95e54a48b2f6ad490a9f4b969b9",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2505,
+        "sha256": "7aa39c6d6c5ae3c030c7adc0fb2f45da3300961dd067ac654eb6d59e1c068479",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2510,
+        "sha256": "eee9527e0de37ae72cd9ffbd05289cda81b7406f7f8478e0bd49afd08d01359a",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2515,
+        "sha256": "fc810e9c47897aa049196c15baf169591299fb43b9f2b943099ee0460ee8bf39",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2520,
+        "sha256": "38830f6f19171164c10e65ea0b56f549ef5a0039838de5260630fb67c0b61f3d",
+        "reused_existing": true,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2431.25,
+        "sha256": "9f902f0271e743fc6564338b57576aba6953a832e18bd4574d1c8ba442893180",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2437.75,
+        "sha256": "cd9ac4bc5230976504162e1c35f016c8cfd34e78cfab6d20b55ea1c12b36b579",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2444.25,
+        "sha256": "5e6174679730efc7dcdecad232386d2b945c887ee0f7dc69d9f75c626a1f2b8f",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2450.75,
+        "sha256": "cc475b6427076522f6ca6dcc53b0bb6d8d3d298ed5e5d10970f6789eaa4c8575",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2457.25,
+        "sha256": "45dc5ecd79d8e00d503d808bbd4fcc952e3e46467174be261a381f655ce437eb",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2463.75,
+        "sha256": "02b69616005fa20269ec47d65a3c4863709d9926db7c15f19f25d9525d78ecf4",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2470.167,
+        "sha256": "6de3303fd4978d3e897f32cc5d625379f44e53134c50f3bf71b67b5027e2992c",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2476.5,
+        "sha256": "f963f865be0196c1ab72b772073f2b4bcb38141e1c737fd4adaf57193d8f8525",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2482.833,
+        "sha256": "cf899edfe0e4d67b56e9f89b1df454d01ec2ed40465b2ba7af9b718872ec7bb7",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2489.167,
+        "sha256": "9f142f3d66862c2278b49c2908f22b10888e46a2fa25e1ff9547f7cfe8ba70b9",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2495.5,
+        "sha256": "ccf84f78326641fb42b6f103b036d2fee1ab21702a5ce5b333a95653d287e1d5",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2501.833,
+        "sha256": "e252553f84294b787f6222526a71ab6e6f9fe7ab7703259d7908b0bbe32c5ad7",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2512,
+        "sha256": "b34386e86d94d9cc56800d6bac51849335bf057fbb2a02a89a93274c8acac802",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "SwM19PgSdCM.mp4",
+        "source_seconds": 2514,
+        "sha256": "0e91c072804dc7d9fcb78733d91ddfa57a635b42256c771035ac6f5812f8fef8",
+        "reused_existing": false,
+        "visually_reviewed": true
+      },
+      {
+        "video": "XleNIUWoydY.mp4",
+        "source_seconds": 90,
+        "sha256": "3ee16a61323fd1926bc83f139840e3265a6ef436332a89a785fdd025a2d2b791",
+        "reused_existing": true,
+        "visually_reviewed": true
+      },
+      {
+        "video": "XleNIUWoydY.mp4",
+        "source_seconds": 160,
+        "sha256": "95bae7b04b71baa7f628a66354da71a793be81c5b2c4671a35b64634c5844702",
+        "reused_existing": true,
+        "visually_reviewed": true
+      },
+      {
+        "video": "XleNIUWoydY.mp4",
+        "source_seconds": 234,
+        "sha256": "ac753494b4c01999462ee229360115bb03ed3ff7c62b5b98b65952b433b69397",
+        "reused_existing": true,
+        "visually_reviewed": true
+      }
+    ]
+  },
+  "direct_observations": {
+    "rim_and_surrounding_rows_seconds": [
+      2428,
+      2440,
+      2467
+    ],
+    "visible_inward_face_strip_seconds": [
+      2470,
+      2476
+    ],
+    "loop_cut_and_slide_panel_seconds": 2482,
+    "eye_visible_in_shaded_preview_seconds": [
+      2495.5,
+      2497,
+      2500
+    ],
+    "half_head_internal_view_transition_seconds": [
+      2505,
+      2510
+    ],
+    "first_confirmed_mouth_edit_view_seconds": 2512,
+    "selected_lip_border_seconds": [
+      2514,
+      2515,
+      2520
+    ],
+    "exact_first_transition_video_frame_or_audio_claim": false
+  },
+  "qwen": {
+    "endpoint": "http://127.0.0.1:11436/api/chat",
+    "existing_listener_pid": 22548,
+    "model": "qwen3-vl:4b-instruct",
+    "digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+    "images_per_clip": 6,
+    "max_image_side": 640,
+    "num_ctx": 8192,
+    "num_predict": 1200,
+    "temperature": 0.1,
+    "installed_script_modified": false,
+    "temporary_diagnostic_copy": true,
+    "prior_HTTP400_cause": "Unconfirmed; not described as an eight-image limit",
+    "clips": [
+      {
+        "clip": "clip_2428_2467.mp4",
+        "source_start_seconds": 2428,
+        "duration": 39,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "source_sample_seconds": [
+          2431.25,
+          2437.75,
+          2444.25,
+          2450.75,
+          2457.25,
+          2463.75
+        ],
+        "output": "qwen_2428_2467.json",
+        "output_tokens": 671,
+        "response_sha256": "6d90d7122938697e63b916e523e56ec00640ae51081b0c0df9f253c2edff6c45",
+        "semantic_result": "Repeated claims of downward movement, dark opening proving incompletion, and continuous thickening rejected after direct frame review"
+      },
+      {
+        "clip": "clip_2467_2505.mp4",
+        "source_start_seconds": 2467,
+        "duration": 38,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "length",
+        "local_only": true,
+        "source_sample_seconds": [
+          2470.167,
+          2476.5,
+          2482.833,
+          2489.167,
+          2495.5,
+          2501.833
+        ],
+        "output": "qwen_2467_2505.json",
+        "output_tokens": 1200,
+        "response_sha256": "b2c2a28e1f54956205e48c839fdb9cda1803c8dfcacebbd91daba38c2a6f1d94",
+        "semantic_result": "Repeated claims of downward movement, dark opening proving incompletion, and continuous thickening rejected after direct frame review"
+      }
+    ],
+    "second_result_limit": "Repeated paragraphs filled1200 tokens and ended with done_reason=length; no further repeated analysis calls",
+    "understanding_or_deformation_success_claim": false
+  },
+  "framelens": {
+    "input_source_range_seconds": [
+      2428,
+      2467
+    ],
+    "actual_shots": 1,
+    "semantic_fields_null": true,
+    "topology_contact_or_weld_verification_claim": false
+  },
+  "diagram": {
+    "path": "docs/assets/face-topology/eyelid-volume-flow.svg",
+    "original_concept": true,
+    "tutorial_tracing_or_capture_embedding": false,
+    "execution_ready_native_guide_or_fixed_mesh_count": false,
+    "same_geometry_png_visually_reviewed": true,
+    "xml_parsed": true,
+    "external_resources_or_scripts": false
+  },
+  "unknown": [
+    "exact source wall thickness and end topology",
+    "exact edge counts and pole valence",
+    "all shared vertices and original-skin weld",
+    "full normals/self-intersection and eye-clearance measurements",
+    "every operation and instructor audio",
+    "actual Lumi shape or blink quality"
+  ],
+  "validation": {
+    "scope_files": [
+      "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+      "docs/FACE_EYELID_VOLUME.md",
+      "docs/assets/face-topology/eyelid-volume-flow.svg",
+      "reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md",
+      "reports/VideoLearning/20261031_EYELID_VOLUME_VERIFICATION.json"
+    ],
+    "encoding": "UTF-8 canonical LF",
+    "nose_E_basic_RF_and_v021_case_preserved": true,
+    "source_weld_and_surface_distance_status": "v021 PARTIAL unchanged; original unwelded, transition unfinished, maximum face-center distance7.237mm",
+    "32_points_7_rings_universal_rule": false,
+    "raw_video_audio_screenshots_AI_payloads_excluded": true,
+    "new_install_download_server_restart_or_paid_API": false,
+    "review_status": "Author direct review; independent PASS not claimed",
+    "relative_links": [
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "../reports/VideoLearning/20261031_FACE_LOOP_REVIEW.md",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "../reports/VideoLearning/20261031_NOSE_CONNECTION_REVIEW.md",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "assets/face-topology/feature-loop-flow.svg",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "assets/face-topology/eyelid-section.svg",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "FACE_EYELID_VOLUME.md",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "../reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "target": "assets/face-topology/nose-connection-flow.svg",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_EYELID_VOLUME.md",
+        "target": "FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_EYELID_VOLUME.md",
+        "target": "../reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_EYELID_VOLUME.md",
+        "target": "assets/face-topology/eyelid-volume-flow.svg",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_EYELID_VOLUME.md",
+        "target": "../reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md",
+        "exists": true
+      },
+      {
+        "from": "docs/FACE_EYELID_VOLUME.md",
+        "target": "../reports/VideoLearning/20261031_EYELID_VOLUME_VERIFICATION.json",
+        "exists": true
+      },
+      {
+        "from": "reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md",
+        "target": "../../docs/FACE_EYELID_VOLUME.md",
+        "exists": true
+      },
+      {
+        "from": "reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md",
+        "target": "../../docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "exists": true
+      },
+      {
+        "from": "reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md",
+        "target": "20261031_EYELID_VOLUME_VERIFICATION.json",
+        "exists": true
+      }
+    ]
+  },
+  "original_training_snapshot_files_sha256": {
+    "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md": "783e5b876cf74e06b5f88349dc9f0b6b98da7c4fb4430a06dba91e42794172ba",
+    "docs/FACE_EYELID_VOLUME.md": "1a56ec225e319d072a9e0c324b54a59f10ebdbade5eb1cbffd67a4381d71dcc9",
+    "docs/assets/face-topology/eyelid-volume-flow.svg": "d6de919ac337ec93e2218038c4dd4348d2f1f6d3d752e5aea04078616fed45cb",
+    "reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md": "f641044618d39760c960252d82548c5d86afe2289edf73b3d076a3e2bb438aa4"
+  },
+  "public_export_notice": "Local evidence locations omitted. Original training snapshot hashes and validation describe source-time review; see PUBLIC_MANIFEST.json for hashes of public files."
+}

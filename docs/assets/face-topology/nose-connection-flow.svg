@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc"><title id="title">Nose connection: flow and inspection zones</title><desc id="desc">Original conceptual diagram. Not a tutorial tracing, measured Lumi anatomy, quad layout or executable mesh guide. Front flow paths and side silhouette with inspection checklist.</desc><rect width="100%" height="100%" fill="#f7f9fc"/>
+<text x="38" y="52" font-family="Arial, sans-serif" font-size="30" fill="#193447">NOSE CONNECTION: PLAN REGIONS, THEN CONNECT BOUNDARIES</text>
+<text x="38" y="87" font-family="Arial, sans-serif" font-size="20" fill="#193447">Flow paths only - not a complete quad mesh, measured anatomy or a Blender Guide</text>
+<text x="45" y="149" font-family="Arial, sans-serif" font-size="24" fill="#193447">A  FRONT / CONNECTION REGIONS</text>
+<polyline points="760.0,125.0 760.0,855.0" fill="none" stroke="#a9b9c6" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="222.0" cy="280.0" rx="105.0" ry="35.0" fill="none" stroke="#a9b9c6" stroke-width="3"/>
+<ellipse cx="222.0" cy="281.0" rx="128.0" ry="59.0" fill="none" stroke="#a9b9c6" stroke-width="2"/>
+<ellipse cx="548.0" cy="280.0" rx="105.0" ry="35.0" fill="none" stroke="#a9b9c6" stroke-width="3"/>
+<ellipse cx="548.0" cy="281.0" rx="128.0" ry="59.0" fill="none" stroke="#a9b9c6" stroke-width="2"/>
+<polyline points="385.0,190.0 385.0,590.0" fill="none" stroke="#b04460" stroke-width="2" stroke-linejoin="round" stroke-dasharray="9 7"/>
+<text x="396" y="202" font-family="Arial, sans-serif" font-size="18" fill="#b04460">X seam</text>
+<polyline points="346.0,330.0 351.9,380.0 351.9,420.0 338.2,455.0" fill="none" stroke="#246eaa" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="336.4,441.1 338.2,455.0 348.9,446.0" fill="none" stroke="#246eaa" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="385.0,330.0 385.0,380.0 385.0,420.0 385.0,455.0" fill="none" stroke="#246eaa" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="378.3,442.7 385.0,455.0 391.7,442.7" fill="none" stroke="#246eaa" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="424.0,330.0 418.1,380.0 418.1,420.0 431.8,455.0" fill="none" stroke="#246eaa" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="421.1,446.0 431.8,455.0 433.6,441.1" fill="none" stroke="#246eaa" stroke-width="4" stroke-linejoin="round"/>
+<text x="77" y="380" font-family="Arial, sans-serif" font-size="21" fill="#246eaa">1  Inner-eye skin</text>
+<polyline points="245.0,384.0 327.0,352.0" fill="none" stroke="#246eaa" stroke-width="2" stroke-linejoin="round"/>
+<text x="78" y="413" font-family="Arial, sans-serif" font-size="21" fill="#246eaa">to bridge</text>
+<polyline points="329.0,351.0 319.0,410.0 288.0,455.0 273.0,492.0 297.0,528.0 344.0,544.0 385.0,550.0 426.0,544.0 473.0,528.0 497.0,492.0 482.0,455.0 451.0,410.0 441.0,351.0" fill="none" stroke="#187f60" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="468.0,480.0 466.4,486.6 461.7,493.0 454.0,498.9 443.7,504.0 431.1,508.3 416.8,511.4 401.2,513.3 385.0,514.0 368.8,513.3 353.2,511.4 338.9,508.3 326.3,504.0 316.0,498.9 308.3,493.0 303.6,486.6 302.0,480.0 303.6,473.4 308.3,467.0 316.0,461.1 326.3,456.0 338.9,451.7 353.2,448.6 368.8,446.7 385.0,446.0 401.2,446.7 416.8,448.6 431.1,451.7 443.7,456.0 454.0,461.1 461.7,467.0 466.4,473.4 468.0,480.0" fill="none" stroke="#187f60" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="494.0,496.0 491.9,504.2 485.7,512.1 475.6,519.3 462.1,525.7 445.6,530.9 426.7,534.8 406.3,537.2 385.0,538.0 363.7,537.2 343.3,534.8 324.4,530.9 307.9,525.7 294.4,519.3 284.3,512.1 278.1,504.2 276.0,496.0 278.1,487.8 284.3,479.9 294.4,472.7 307.9,466.3 324.4,461.1 343.3,457.2 363.7,454.8 385.0,454.0 406.3,454.8 426.7,457.2 445.6,461.1 462.1,466.3 475.6,472.7 485.7,479.9 491.9,487.8 494.0,496.0" fill="none" stroke="#187f60" stroke-width="3" stroke-linejoin="round"/>
+<text x="78" y="622" font-family="Arial, sans-serif" font-size="22" fill="#187f60">2  Tip / sidewall / alar transition</text>
+<polyline points="309.0,365.0 287.0,407.0 245.0,449.0 192.0,486.0 153.0,533.0" fill="none" stroke="#246eaa" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="155.7,519.3 153.0,533.0 166.0,527.8" fill="none" stroke="#246eaa" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="279.0,365.0 257.0,407.0 215.0,449.0 162.0,486.0 123.0,533.0" fill="none" stroke="#246eaa" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="125.7,519.3 123.0,533.0 136.0,527.8" fill="none" stroke="#246eaa" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="461.0,365.0 483.0,407.0 525.0,449.0 578.0,486.0 617.0,533.0" fill="none" stroke="#246eaa" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="604.0,527.8 617.0,533.0 614.3,519.3" fill="none" stroke="#246eaa" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="491.0,365.0 513.0,407.0 555.0,449.0 608.0,486.0 647.0,533.0" fill="none" stroke="#246eaa" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="634.0,527.8 647.0,533.0 644.3,519.3" fill="none" stroke="#246eaa" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="294.0,534.0 311.0,565.0 350.0,586.0 385.0,590.0 420.0,586.0 459.0,565.0 476.0,534.0" fill="none" stroke="#bd6219" stroke-width="4" stroke-linejoin="round"/>
+<text x="78" y="660" font-family="Arial, sans-serif" font-size="22" fill="#bd6219">3  Underside / philtrum boundary</text>
+<text x="80" y="710" font-family="Arial, sans-serif" font-size="20" fill="#193447">Keep eye opening and lip boundary separate.</text>
+<text x="80" y="746" font-family="Arial, sans-serif" font-size="20" fill="#193447">Transition density gradually into the cheek.</text>
+<text x="80" y="782" font-family="Arial, sans-serif" font-size="20" fill="#193447">Count boundary segments before joining patches.</text>
+<text x="80" y="818" font-family="Arial, sans-serif" font-size="20" fill="#193447">A covered surface does not prove a welded mesh.</text>
+<text x="792" y="149" font-family="Arial, sans-serif" font-size="24" fill="#193447">B  SIDE / DEPTH CHECK</text>
+<polyline points="943.0,198.0 935.0,232.0 920.0,275.0 919.0,315.0 930.0,354.0 945.0,384.0 986.0,413.0 1043.0,451.0 1053.0,475.0 1037.0,494.0 1009.0,503.0 978.0,500.0 953.0,515.0 950.0,535.0 976.0,553.0" fill="none" stroke="#187f60" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="1163.0,415.0 1080.0,452.0" fill="none" stroke="#187f60" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="1088.5,440.9 1080.0,452.0 1094.0,453.1" fill="none" stroke="#187f60" stroke-width="3" stroke-linejoin="round"/>
+<text x="1112" y="385" font-family="Arial, sans-serif" font-size="20" fill="#187f60">Tip projection</text>
+<polyline points="1163.0,537.0 996.0,504.0" fill="none" stroke="#bd6219" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="1009.4,499.8 996.0,504.0 1006.8,513.0" fill="none" stroke="#bd6219" stroke-width="3" stroke-linejoin="round"/>
+<text x="1104" y="585" font-family="Arial, sans-serif" font-size="20" fill="#bd6219">Underside turn</text>
+<polyline points="822.0,325.0 913.0,332.0" fill="none" stroke="#246eaa" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="900.2,337.7 913.0,332.0 901.3,324.4" fill="none" stroke="#246eaa" stroke-width="3" stroke-linejoin="round"/>
+<text x="792" y="300" font-family="Arial, sans-serif" font-size="20" fill="#246eaa">Bridge depth</text>
+<text x="792" y="650" font-family="Arial, sans-serif" font-size="20" fill="#193447">Inspect front + oblique + side + underside.</text>
+<text x="792" y="691" font-family="Arial, sans-serif" font-size="20" fill="#193447">Check edge midpoints and face centers too.</text>
+<text x="792" y="732" font-family="Arial, sans-serif" font-size="20" fill="#bd6219">If a nostril opening is required:</text>
+<text x="811" y="768" font-family="Arial, sans-serif" font-size="20" fill="#bd6219">plan rim + inner wall as a separate step.</text>
+<text x="792" y="809" font-family="Arial, sans-serif" font-size="18" fill="#193447">Nostril interior was not verified in the samples.</text>
+<text x="792" y="847" font-family="Arial, sans-serif" font-size="18" fill="#193447">No fixed loop count or pole placement is implied.</text>
+</svg>

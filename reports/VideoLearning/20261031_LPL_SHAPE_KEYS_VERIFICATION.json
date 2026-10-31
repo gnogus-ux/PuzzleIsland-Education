@@ -1,0 +1,560 @@
+{
+  "date": "2026-10-31",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=XleNIUWoydY",
+    "duration_seconds": 846.831746,
+    "sha256_rehashed": "e52f8930c7de66461be001224e012b18521ff074454af3c60dbd33b29c99050b",
+    "redownload": false
+  },
+  "review": {
+    "cohorts_source_seconds": {
+      "drivers": [
+        510.0,
+        520.0,
+        530.0,
+        540.0,
+        550.0,
+        560.0,
+        570.0,
+        580.0,
+        590.0,
+        600.0,
+        610.0,
+        620.0,
+        630.0,
+        640.0,
+        644.0,
+        650.0
+      ],
+      "overview": [
+        0,
+        30,
+        60,
+        90,
+        120,
+        150,
+        180,
+        210,
+        240,
+        270,
+        300,
+        330,
+        360,
+        390,
+        420,
+        450,
+        480,
+        510,
+        540,
+        570,
+        600,
+        630,
+        660,
+        690,
+        720,
+        750,
+        780,
+        810,
+        840,
+        846
+      ],
+      "qwen": [
+        127.5,
+        142.5,
+        157.5,
+        172.5,
+        397.5,
+        412.5,
+        427.5,
+        442.5,
+        527.5,
+        542.5,
+        557.5,
+        572.5,
+        667.5,
+        682.5,
+        697.5,
+        712.5
+      ],
+      "rig_groups": [
+        260.0,
+        265.0,
+        270.0,
+        280.0,
+        290.0,
+        300.0,
+        302.0,
+        310.0,
+        320.0,
+        330.0,
+        336.0,
+        340.0,
+        350.0,
+        360.0,
+        370.0,
+        380.0,
+        390.0,
+        400.0,
+        410.0,
+        420.0,
+        430.0,
+        440.0,
+        450.0,
+        460.0,
+        470.0,
+        480.0,
+        485.0,
+        490.0,
+        500.0,
+        510.0
+      ],
+      "rotation": [
+        650.0,
+        660.0,
+        670.0,
+        680.0,
+        690.0,
+        700.0,
+        710.0,
+        720.0,
+        730.0,
+        740.0,
+        750.0,
+        760.0,
+        770.0,
+        780.0,
+        790.0
+      ],
+      "shape": [
+        40.0,
+        42.0,
+        50.0,
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        130.0,
+        140.0,
+        150.0,
+        160.0,
+        170.0,
+        180.0,
+        190.0,
+        200.0,
+        210.0,
+        220.0,
+        230.0,
+        234.0,
+        240.0
+      ]
+    },
+    "all_reviewed_source_seconds": [
+      0,
+      30,
+      40.0,
+      42.0,
+      50.0,
+      60,
+      70.0,
+      80.0,
+      90,
+      100.0,
+      110.0,
+      120,
+      127.5,
+      130.0,
+      140.0,
+      142.5,
+      150,
+      157.5,
+      160.0,
+      170.0,
+      172.5,
+      180,
+      190.0,
+      200.0,
+      210,
+      220.0,
+      230.0,
+      234.0,
+      240,
+      260.0,
+      265.0,
+      270,
+      280.0,
+      290.0,
+      300,
+      302.0,
+      310.0,
+      320.0,
+      330,
+      336.0,
+      340.0,
+      350.0,
+      360,
+      370.0,
+      380.0,
+      390,
+      397.5,
+      400.0,
+      410.0,
+      412.5,
+      420,
+      427.5,
+      430.0,
+      440.0,
+      442.5,
+      450,
+      460.0,
+      470.0,
+      480,
+      485.0,
+      490.0,
+      500.0,
+      510.0,
+      520.0,
+      527.5,
+      530.0,
+      540.0,
+      542.5,
+      550.0,
+      557.5,
+      560.0,
+      570.0,
+      572.5,
+      580.0,
+      590.0,
+      600.0,
+      610.0,
+      620.0,
+      630.0,
+      640.0,
+      644.0,
+      650.0,
+      660,
+      667.5,
+      670.0,
+      680.0,
+      682.5,
+      690,
+      697.5,
+      700.0,
+      710.0,
+      712.5,
+      720,
+      730.0,
+      740.0,
+      750,
+      760.0,
+      770.0,
+      780,
+      790.0,
+      810,
+      840,
+      846
+    ],
+    "unique_this_stage": 103,
+    "prior_overlap": 6,
+    "reused_prior_seconds": [
+      60,
+      90,
+      160.0,
+      234.0,
+      500.0,
+      644.0
+    ],
+    "new_frames": 97,
+    "prior_cumulative": 289,
+    "cumulative_unique_frames": 386,
+    "contact_sheets": 23,
+    "native_UI_actually_opened_seconds": [
+      500,
+      510,
+      550,
+      560,
+      630,
+      640,
+      670,
+      720,
+      750
+    ],
+    "native_UI_hashes": {
+      "500": "39dafeb89c8ce5a39ab2827b63e43a9b43556dbf0893313c34f16b63f5209b7d",
+      "510": "a090242b2d86ee8ab2c2a8e1b21ec8a744ab6dccb77ec6aa339aeaf4343cbccc",
+      "550": "2726a37293438ea40317594474376915cb74b5db98d9fbeea2dfd18bae76a879",
+      "560": "e592f153ae96c8c436e210c9c96129af3636e150f6c05d0b6bf770776db33575",
+      "630": "fdf85af1a1bf88a84f1c1b36e31a1d2dacd70ea74a2f7957d46ffe61614cb4f1",
+      "640": "3322fc3cca0f195343724eea8b6faf257bd3bf0dcc27d21b044d7a9732b76546",
+      "670": "499231f7af05b39f9526eb69d4cd9eb49b6dd17c7c9713dc055e09c56ef2fdb4",
+      "720": "54e2725a9b15ad47f7d6eea055336d1ff5e384682005722d32b7c03783649789",
+      "750": "f05e7d3df10a25d7f5af08b39e86f6cb44a6d1129d609d4fd48a624656888601"
+    },
+    "local_frame_hash_index_sha256": "dc56f107e4990edbf67334885f0b711b704bbc5827804ff230b1059454e3a116",
+    "raw_local_root": "[local evidence location omitted]",
+    "continuous_full_video_audio_subtitle_review": false
+  },
+  "qwen": {
+    "model": "qwen3-vl:4b-instruct",
+    "digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+    "existing_endpoint": "http://127.0.0.1:11436/api/chat",
+    "clips": [
+      {
+        "clip": "clip_120_180.mp4",
+        "source_start_seconds": 120,
+        "duration": 60,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "source_sample_seconds": [
+          127.5,
+          142.5,
+          157.5,
+          172.5
+        ],
+        "output": "qwen_120_180.json",
+        "returned_observation_count": 1,
+        "response_sha256": "95fcbece570713a622587b1796aaa2a0faef867516d4e1cb50db25435e4527fb"
+      },
+      {
+        "clip": "clip_390_450.mp4",
+        "source_start_seconds": 390,
+        "duration": 60,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "source_sample_seconds": [
+          397.5,
+          412.5,
+          427.5,
+          442.5
+        ],
+        "output": "qwen_390_450.json",
+        "returned_observation_count": 1,
+        "response_sha256": "d0c7ac0391d235323a28853c01c846c57e66ff7a4c666671c2bf5f1132b8c074"
+      },
+      {
+        "clip": "clip_520_580.mp4",
+        "source_start_seconds": 520,
+        "duration": 60,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "source_sample_seconds": [
+          527.5,
+          542.5,
+          557.5,
+          572.5
+        ],
+        "output": "qwen_520_580.json",
+        "returned_observation_count": 1,
+        "response_sha256": "e508be8127169735957774d9b5c4f87ef3d93fbbfdf202a4686099f0ff7f28ee"
+      },
+      {
+        "clip": "clip_660_720.mp4",
+        "source_start_seconds": 660,
+        "duration": 60,
+        "model": "qwen3-vl:4b-instruct",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "source_sample_seconds": [
+          667.5,
+          682.5,
+          697.5,
+          712.5
+        ],
+        "output": "qwen_660_720.json",
+        "returned_observation_count": 4,
+        "response_sha256": "64721d6109b8119fc2bc80dfd1efdb511e64685b5de50e3e551d138919563d58"
+      }
+    ],
+    "requested_frames": 16,
+    "returned_observations": 7,
+    "max_side": 640,
+    "num_ctx": 8192,
+    "num_predict": 900,
+    "temperature": 0.1,
+    "per_frame_instruction_fully_followed": false,
+    "mode_object_collection_confusion_corrected_by_direct_review": true,
+    "actual_filename_overlay_at_697_5_not_hallucination": true,
+    "prior_8image_HTTP400_cause": "unconfirmed",
+    "training_success_claim": false
+  },
+  "framelens": {
+    "source_range_seconds": [
+      120,
+      180
+    ],
+    "shot_count": 1,
+    "semantic_null": true
+  },
+  "diagram": {
+    "original_concept": true,
+    "tutorial_tracing_or_measured_Lumi_or_native_Guide": false,
+    "same_content_PNG_visually_reviewed": true,
+    "SVG_XML_valid": true
+  },
+  "execution": {
+    "Blender_claim_edit_save_keys_bones_drivers_or_motion": false,
+    "Claude_Painter_check": false,
+    "new_install_paid_API_or_VideoReverse": false
+  },
+  "limits": {
+    "final_four_key_group_driver_map": "not fully verified",
+    "intermediate_motion_contact_roll_correction": "not fully verified",
+    "Lumi_v021": "PARTIAL unchanged, original unwelded transitions and 7.237mm gap",
+    "32point_7ring_universal_rule": false,
+    "UI_video": "2.81.16",
+    "project_5_2_execution": "NOT RUN",
+    "official_sources": "5.2 Shape Keys panel plus three explicitly labeled5.0 concept references; official search body, direct open402"
+  },
+  "validation": {
+    "scope_files": [
+      "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+      "docs/FACE_EYELID_VOLUME.md",
+      "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md",
+      "docs/FACE_EYELID_SHAPE_KEYS.md",
+      "docs/assets/face-topology/eyelid-shape-key-pipeline.svg",
+      "reports/VideoLearning/20261031_LPL_SHAPE_KEYS_REVIEW.md",
+      "reports/VideoLearning/20261031_LPL_SHAPE_KEYS_VERIFICATION.json"
+    ],
+    "canonical_UTF8_LF": true,
+    "RF_noseE_QA_v021_preserved": true,
+    "existing_eyelid_and_second_manuals_exact_prefix_preserved": true,
+    "raw_video_audio_AI_payload_excluded": true,
+    "review_status": "Author direct review; independent PASS not claimed",
+    "relative_links_verified": [
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "FACE_RETOPOLOGY_SECOND_TUTORIAL.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "../reports/VideoLearning/20261031_FACE_LOOP_REVIEW.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "../reports/VideoLearning/20261031_NOSE_CONNECTION_REVIEW.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "assets/face-topology/feature-loop-flow.svg"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "FACE_RETOPOLOGY_SECOND_TUTORIAL.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "assets/face-topology/eyelid-section.svg"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "FACE_EYELID_VOLUME.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "../reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "assets/face-topology/nose-connection-flow.svg"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "FACE_EYELID_SHAPE_KEYS.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+        "FACE_RETOPOLOGY_SECOND_TUTORIAL.md"
+      ],
+      [
+        "docs/FACE_EYELID_VOLUME.md",
+        "FACE_RETOPOLOGY_BASIC_LOOPS.md"
+      ],
+      [
+        "docs/FACE_EYELID_VOLUME.md",
+        "../reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md"
+      ],
+      [
+        "docs/FACE_EYELID_VOLUME.md",
+        "assets/face-topology/eyelid-volume-flow.svg"
+      ],
+      [
+        "docs/FACE_EYELID_VOLUME.md",
+        "../reports/VideoLearning/20261031_EYELID_VOLUME_REVIEW.md"
+      ],
+      [
+        "docs/FACE_EYELID_VOLUME.md",
+        "../reports/VideoLearning/20261031_EYELID_VOLUME_VERIFICATION.json"
+      ],
+      [
+        "docs/FACE_EYELID_VOLUME.md",
+        "FACE_RETOPOLOGY_SECOND_TUTORIAL.md"
+      ],
+      [
+        "docs/FACE_EYELID_VOLUME.md",
+        "FACE_EYELID_SHAPE_KEYS.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md",
+        "FACE_RETOPOLOGY_BASIC_LOOPS.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md",
+        "FACE_EYELID_VOLUME.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md",
+        "../reports/VideoLearning/20261031_DIKKO2_VERIFICATION.json"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md",
+        "assets/face-topology/retopo-paired-view-audit.svg"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md",
+        "../reports/VideoLearning/20261031_DIKKO2_REVIEW.md"
+      ],
+      [
+        "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md",
+        "FACE_EYELID_SHAPE_KEYS.md"
+      ],
+      [
+        "docs/FACE_EYELID_SHAPE_KEYS.md",
+        "../reports/VideoLearning/20261031_LPL_SHAPE_KEYS_REVIEW.md"
+      ],
+      [
+        "docs/FACE_EYELID_SHAPE_KEYS.md",
+        "assets/face-topology/eyelid-shape-key-pipeline.svg"
+      ],
+      [
+        "docs/FACE_EYELID_SHAPE_KEYS.md",
+        "FACE_EYELID_VOLUME.md"
+      ],
+      [
+        "docs/FACE_EYELID_SHAPE_KEYS.md",
+        "../reports/VideoLearning/20261031_LPL_SHAPE_KEYS_VERIFICATION.json"
+      ],
+      [
+        "reports/VideoLearning/20261031_LPL_SHAPE_KEYS_REVIEW.md",
+        "../../docs/FACE_EYELID_SHAPE_KEYS.md"
+      ]
+    ]
+  },
+  "original_training_snapshot_files_sha256": {
+    "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md": "4c91d7f4bf57be7d2c73355a17b1abbc48d048f5caf1e785f81cd63dff76c786",
+    "docs/FACE_EYELID_VOLUME.md": "0ce0afd20381c3c83005260ad33f20ebbcddd14f830813b26d5c937dc60a022f",
+    "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md": "bf7491e3ea6efdf32d050855869a9e259b4691ef033e7036e36d341cedd56358",
+    "docs/FACE_EYELID_SHAPE_KEYS.md": "d6a1d0f74b7cfc8ea4a4b6e4e61732777a5f2061441caa004190b957d81c7e70",
+    "docs/assets/face-topology/eyelid-shape-key-pipeline.svg": "2f6deb7dfce24c1c0096229f603f66068be09cb03fdeb744a81c01283ffec3ef",
+    "reports/VideoLearning/20261031_LPL_SHAPE_KEYS_REVIEW.md": "944e1bf1739a62782f25fbf48141460703eacb84ee1bd002a712039bf471931d"
+  },
+  "public_export_notice": "Local evidence locations omitted. Original training snapshot hashes and validation describe source-time review; see PUBLIC_MANIFEST.json for hashes of public files."
+}
