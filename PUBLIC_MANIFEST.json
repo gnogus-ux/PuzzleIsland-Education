@@ -1,16 +1,17 @@
 {
   "export_date": "2026-10-31",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 13,
-  "diagrams": 9,
-  "checked_local_links": 107,
+  "manuals": 17,
+  "diagrams": 10,
+  "checked_local_links": 135,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
   "export_changes": [
     "Local absolute evidence paths omitted",
     "Private project reference links replaced with generic reference guide",
     "Original verification hash fields marked as source-time snapshots",
     "Standalone public index added; no source repository Git history copied",
-    "Hand workflow manuals and original diagram added; private state omitted and hand snapshot hashes explicitly marked"
+    "Hand workflow manuals and original diagram added; private state omitted and hand snapshot hashes explicitly marked",
+    "Body workflow, topology, joint-volume and game-base manuals plus original diagram added; new private paths and project state omitted"
   ],
   "files": [
     {
@@ -20,8 +21,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3233,
-      "sha256": "984a954fb74e0d0ef08be29ecb5b54195e201674b225872650c66d7899c10f35"
+      "bytes": 3786,
+      "sha256": "38cb52f5dfc23b4c6d71e1ba21accac206282c2580ce2508f94dea071e196279"
     },
     {
       "path": "docs/FACE_EYELID_SHAPE_KEYS.md",
@@ -195,8 +196,8 @@
     },
     {
       "path": "docs/HAND_FINGER_WORKFLOW.md",
-      "bytes": 7370,
-      "sha256": "7c4a90fbc96e8a715edfd82cc82bb084d0bf34730726567921c61c7b7ec9eeff"
+      "bytes": 7496,
+      "sha256": "f9796eed1e19149fa9d4dfb2010aadfeaba4b64d67c4d57082d7c6b68d06fad6"
     },
     {
       "path": "docs/HAND_RETOPOLOGY.md",
@@ -217,7 +218,43 @@
       "path": "reports/VideoLearning/20261031_HAND_COURSES_VERIFICATION.json",
       "bytes": 30006,
       "sha256": "dbc01e9f4983964a6f069107754bc0a907b15958ff037c430013f9c2bb6c52ac"
+    },
+    {
+      "path": "docs/BODY_CHARACTER_WORKFLOW.md",
+      "bytes": 8229,
+      "sha256": "9ea1c8c1489544bf29e61bb3ad0404daca790a8c345d521f3d9787e4b5e7532d"
+    },
+    {
+      "path": "docs/BODY_GAME_BASE_MESH.md",
+      "bytes": 9188,
+      "sha256": "631f1d9278fc3b510ed961b3cb1833621f95d67bd3a00c94dee397bc2dabeba4"
+    },
+    {
+      "path": "docs/BODY_JOINT_VOLUME.md",
+      "bytes": 7919,
+      "sha256": "a768bd288f64f9ca350d2e80b00026184f5741dfda714a5ff328a20190b6d455"
+    },
+    {
+      "path": "docs/BODY_RETOPOLOGY.md",
+      "bytes": 10713,
+      "sha256": "6a551c4bc68a63eb46a815db31a2071974545c6daa45824c0baaadd095fb1df3"
+    },
+    {
+      "path": "docs/assets/body-topology/body-loop-deformation.svg",
+      "bytes": 6095,
+      "sha256": "9b76031dd256d4bdd3adda324618dc22bf5dd4590a7211f3928298f9c81332ac"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_BODY_COURSES_REVIEW.md",
+      "bytes": 8796,
+      "sha256": "06c91b71e75bbf1b85b3dcd4e6d6c94415effc77d415e051f3fd94beeec34dbf"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_BODY_COURSES_VERIFICATION.json",
+      "bytes": 37642,
+      "sha256": "41c0ce65eb31e83f8f7e3ad09dbb35d06760e9457afe47bee4adaadbea9b3ace"
     }
   ],
-  "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction"
+  "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
+  "body_training_added": "2026-10-31: Three public courses, 497 unique sampled source times, 96 contact sheets, 30 native UI images and full cleaned automatic caption text; no production app reproduction"
 }

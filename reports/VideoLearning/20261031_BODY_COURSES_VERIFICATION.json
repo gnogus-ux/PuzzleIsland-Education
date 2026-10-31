@@ -1,0 +1,1435 @@
+{
+  "date": "2026-10-31",
+  "status": "DOCUMENTED_WHOLE_FLOW_SAMPLED_VISUAL_AND_AUTO_CAPTION_STUDY",
+  "scope": "Start-to-end outline and detailed samples of all major production stages; not every frame/command, continuous full audio listening, or current app reproduction",
+  "reviewed_contact_sheets": 96,
+  "native_images_reviewed": 30,
+  "native_reviewed_times": {
+    "3WnW_ZFXudk": [
+      345,
+      555,
+      935,
+      1025,
+      1515,
+      1815,
+      2175,
+      2415,
+      3720,
+      4080,
+      4320,
+      4950
+    ],
+    "GxMz4HylQfU": [
+      70,
+      145,
+      385,
+      545,
+      635,
+      695,
+      780,
+      1120
+    ],
+    "TJZ2TutkYnA": [
+      90,
+      350,
+      765,
+      885,
+      1435,
+      2050,
+      2420,
+      2690,
+      3045,
+      3260
+    ]
+  },
+  "unique_source_times": 497,
+  "course_unique_source_times": {
+    "3WnW_ZFXudk": 245,
+    "GxMz4HylQfU": 102,
+    "TJZ2TutkYnA": 150
+  },
+  "historical_unique_frames_before": 1257,
+  "cumulative_unique_source_times": 1754,
+  "cohorts": [
+    {
+      "name": "manifest_3WnW_ZFXudk_arms",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        1390.0,
+        1420.0,
+        1450.0,
+        1480.0,
+        1510.0,
+        1540.0,
+        1570.0,
+        1600.0,
+        1630.0,
+        1660.0,
+        1690.0,
+        1720.0,
+        1750.0,
+        1780.0,
+        1810.0,
+        1840.0,
+        1870.0,
+        1900.0,
+        1930.0,
+        1960.0,
+        1990.0,
+        2020.0
+      ],
+      "sha256": "0fd1f1b243dd1c516da08a64b142306d6fe57b853cfe0130eb7bccbe2de2d7f8"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_butt",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        2050.0,
+        2080.0,
+        2110.0,
+        2140.0,
+        2170.0,
+        2200.0,
+        2230.0,
+        2260.0,
+        2290.0,
+        2320.0
+      ],
+      "sha256": "62f2ab5fc065e9705b930f2bd97ca1310a3a2bb2f19df392ece8926c3a165a3d"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_chest",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        1180.0,
+        1210.0,
+        1240.0,
+        1270.0,
+        1300.0,
+        1330.0,
+        1360.0
+      ],
+      "sha256": "e271ae294937100e4929f33c36a5a04a4cbfbf4512a633ab8a858d8a118e52b1"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_core",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        75.0,
+        105.0,
+        135.0,
+        165.0,
+        195.0,
+        225.0,
+        255.0,
+        285.0,
+        315.0,
+        345.0,
+        375.0
+      ],
+      "sha256": "17553989b1b4abe5466a2f9f4103d51e5b002252a7cd7242cfac8a7573fe11fb"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_hip",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        405.0,
+        435.0,
+        465.0,
+        495.0,
+        525.0,
+        555.0,
+        585.0,
+        615.0
+      ],
+      "sha256": "9116b2885ed8472d610ce979123765b777bdaeee3eb6b09a58db725fe24653ca"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_legs",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        2350.0,
+        2380.0,
+        2410.0,
+        2440.0,
+        2470.0,
+        2500.0,
+        2530.0,
+        2560.0,
+        2590.0,
+        2620.0,
+        2650.0,
+        2680.0
+      ],
+      "sha256": "f7248af73769d696692622b2e94a5d18a807da87f0b82935f5e050724b7a2a45"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_neck",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        3550.0,
+        3580.0,
+        3610.0,
+        3640.0,
+        3670.0,
+        3700.0,
+        3730.0,
+        3760.0,
+        3790.0,
+        3820.0,
+        3850.0,
+        3880.0,
+        3910.0,
+        3940.0,
+        3970.0,
+        4000.0,
+        4030.0,
+        4060.0,
+        4090.0,
+        4120.0,
+        4150.0,
+        4180.0,
+        4210.0,
+        4240.0,
+        4270.0,
+        4300.0,
+        4330.0,
+        4360.0,
+        4390.0,
+        4420.0,
+        4450.0,
+        4480.0
+      ],
+      "sha256": "936ebac013d5d8fa834bacf52040160410d7b39dbba96a2e3edd7476e446ef24"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_overview",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        0.0,
+        90.0,
+        180.0,
+        270.0,
+        360.0,
+        450.0,
+        540.0,
+        630.0,
+        720.0,
+        810.0,
+        900.0,
+        990.0,
+        1080.0,
+        1170.0,
+        1260.0,
+        1350.0,
+        1440.0,
+        1530.0,
+        1620.0,
+        1710.0,
+        1800.0,
+        1890.0,
+        1980.0,
+        2070.0,
+        2160.0,
+        2250.0,
+        2340.0,
+        2430.0,
+        2520.0,
+        2610.0,
+        2700.0,
+        2790.0,
+        2880.0,
+        2970.0,
+        3060.0,
+        3150.0,
+        3240.0,
+        3330.0,
+        3420.0,
+        3510.0,
+        3600.0,
+        3690.0,
+        3780.0,
+        3870.0,
+        3960.0,
+        4050.0,
+        4140.0,
+        4230.0,
+        4320.0,
+        4410.0,
+        4500.0,
+        4590.0,
+        4680.0,
+        4770.0,
+        4860.0,
+        4950.0,
+        5040.0,
+        5130.0,
+        5220.0,
+        5310.0,
+        5400.0,
+        5474.0
+      ],
+      "sha256": "038e06c58ddb501ad7bb6855aedb3f3dbdeda60a64731a789f0905c02c603693"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_qwen",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        907.5,
+        922.5,
+        937.5,
+        952.5,
+        2117.5,
+        2132.5,
+        2147.5,
+        2162.5,
+        4207.5,
+        4222.5,
+        4237.5,
+        4252.5
+      ],
+      "sha256": "7d7881dee3d7e632a8625bcb80aaed0af447a4638678defe059501170af29f43"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_refine",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        4510.0,
+        4555.0,
+        4600.0,
+        4645.0,
+        4690.0,
+        4735.0,
+        4780.0,
+        4825.0,
+        4870.0,
+        4915.0,
+        4960.0,
+        5005.0,
+        5050.0,
+        5095.0,
+        5140.0,
+        5185.0,
+        5230.0,
+        5275.0,
+        5320.0,
+        5365.0,
+        5410.0
+      ],
+      "sha256": "026340d5985f095804686db54df78fd1d94eac6bef7efc4b4744ff571aa4efdd"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_scalp",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        2720.0,
+        2765.0,
+        2810.0,
+        2855.0,
+        2900.0,
+        2945.0,
+        2990.0,
+        3035.0,
+        3080.0,
+        3125.0,
+        3170.0,
+        3215.0,
+        3260.0,
+        3305.0,
+        3350.0,
+        3395.0,
+        3440.0,
+        3485.0,
+        3530.0
+      ],
+      "sha256": "aca742b3c61623a238c7242b9a041b624ce21da8afd0109dce2b66fdf0896778"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_shoulder",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        790.0,
+        820.0,
+        850.0,
+        880.0,
+        910.0,
+        940.0,
+        970.0,
+        1000.0,
+        1030.0,
+        1060.0,
+        1090.0,
+        1120.0,
+        1150.0
+      ],
+      "sha256": "b729d97c8c3191c8c5f63e59376a941440d35c2179c7e692bb8377cc679c3bb5"
+    },
+    {
+      "name": "manifest_3WnW_ZFXudk_torso",
+      "id": "3WnW_ZFXudk",
+      "samples": [
+        635.0,
+        655.0,
+        675.0,
+        695.0,
+        715.0,
+        735.0,
+        755.0,
+        775.0
+      ],
+      "sha256": "919a253183d53da60f70a8c2be9eb3856df74d618aa9752fa8ce880eae1e1b26"
+    },
+    {
+      "name": "manifest_GxMz4HylQfU_butt",
+      "id": "GxMz4HylQfU",
+      "samples": [
+        175.0,
+        205.0,
+        235.0,
+        265.0,
+        295.0,
+        325.0,
+        355.0,
+        385.0,
+        415.0,
+        445.0,
+        475.0,
+        505.0,
+        535.0,
+        565.0,
+        595.0
+      ],
+      "sha256": "efe8597eb1b0b898c2ea099c90b5ba996d1e5f5b00dc416c5f8a9a0f2ad77aa3"
+    },
+    {
+      "name": "manifest_GxMz4HylQfU_chest",
+      "id": "GxMz4HylQfU",
+      "samples": [
+        870.0,
+        890.0,
+        910.0,
+        930.0,
+        950.0,
+        970.0,
+        990.0,
+        1010.0,
+        1030.0
+      ],
+      "sha256": "d077b1d2f97329ef7eab32a467c634b15a13a1885b3a2d439be5e36b23c8442a"
+    },
+    {
+      "name": "manifest_GxMz4HylQfU_elbow",
+      "id": "GxMz4HylQfU",
+      "samples": [
+        605.0,
+        620.0,
+        635.0,
+        650.0,
+        665.0,
+        680.0,
+        695.0,
+        710.0,
+        725.0,
+        740.0
+      ],
+      "sha256": "09e74cba04b3cf843ae3674ddf9ff2c0d03610dc74ebbb1f1135e4c026d8620a"
+    },
+    {
+      "name": "manifest_GxMz4HylQfU_knee",
+      "id": "GxMz4HylQfU",
+      "samples": [
+        750.0,
+        765.0,
+        780.0,
+        795.0,
+        810.0,
+        825.0,
+        840.0,
+        855.0
+      ],
+      "sha256": "a5e86662ff6f47a69bec39c624ea2f2743e2710eb21df649d696c0e5aa1ca477"
+    },
+    {
+      "name": "manifest_GxMz4HylQfU_overview",
+      "id": "GxMz4HylQfU",
+      "samples": [
+        0.0,
+        60.0,
+        120.0,
+        180.0,
+        240.0,
+        300.0,
+        360.0,
+        420.0,
+        480.0,
+        540.0,
+        600.0,
+        660.0,
+        720.0,
+        780.0,
+        840.0,
+        900.0,
+        960.0,
+        1020.0,
+        1080.0,
+        1140.0,
+        1200.0,
+        1260.0,
+        1271.0
+      ],
+      "sha256": "8568bfa38722ee6e628c930a1a3c53689945427789cb1929ea1862b559ca3410"
+    },
+    {
+      "name": "manifest_GxMz4HylQfU_qwen",
+      "id": "GxMz4HylQfU",
+      "samples": [
+        67.5,
+        82.5,
+        97.5,
+        112.5,
+        627.5,
+        642.5,
+        657.5,
+        672.5,
+        767.5,
+        782.5,
+        797.5,
+        812.5,
+        1117.5,
+        1132.5,
+        1147.5,
+        1162.5
+      ],
+      "sha256": "40597024c001e348895fe5e7dcbbdffa14319a6adb629e327f5f07a8eb2302f8"
+    },
+    {
+      "name": "manifest_GxMz4HylQfU_shoulder",
+      "id": "GxMz4HylQfU",
+      "samples": [
+        25.0,
+        40.0,
+        55.0,
+        70.0,
+        85.0,
+        100.0,
+        115.0,
+        130.0,
+        145.0,
+        160.0
+      ],
+      "sha256": "cfaef2dd597bfe619448f0c1409cb138ec818bdbf0c968d36cb23a369122bd39"
+    },
+    {
+      "name": "manifest_GxMz4HylQfU_test",
+      "id": "GxMz4HylQfU",
+      "samples": [
+        1055.0,
+        1075.0,
+        1095.0,
+        1115.0,
+        1135.0,
+        1155.0,
+        1175.0,
+        1195.0,
+        1215.0,
+        1235.0,
+        1255.0
+      ],
+      "sha256": "a8ce27f48ed36f79eef169c7f49f615dbf470435ddf3b219ad0bbc51dffa78c7"
+    },
+    {
+      "name": "manifest_TJZ2TutkYnA_base",
+      "id": "TJZ2TutkYnA",
+      "samples": [
+        845.0,
+        865.0,
+        885.0,
+        905.0,
+        925.0,
+        945.0,
+        965.0,
+        985.0,
+        1005.0
+      ],
+      "sha256": "5e4c9cba3da5d00b3c12b983b4d8637d281e46ba355ff0c789c1c9982b676aef"
+    },
+    {
+      "name": "manifest_TJZ2TutkYnA_feet",
+      "id": "TJZ2TutkYnA",
+      "samples": [
+        2180.0,
+        2210.0,
+        2240.0,
+        2270.0,
+        2300.0,
+        2330.0,
+        2360.0,
+        2390.0,
+        2420.0,
+        2450.0,
+        2480.0,
+        2510.0,
+        2540.0,
+        2570.0,
+        2600.0,
+        2630.0,
+        2660.0,
+        2690.0,
+        2720.0,
+        2750.0,
+        2780.0,
+        2810.0
+      ],
+      "sha256": "6e36fb4f863453e9df6d014cc4354ad94e0db4d66eab0d7836566798a8675908"
+    },
+    {
+      "name": "manifest_TJZ2TutkYnA_final",
+      "id": "TJZ2TutkYnA",
+      "samples": [
+        3150.0,
+        3180.0,
+        3210.0,
+        3240.0,
+        3270.0,
+        3300.0,
+        3330.0
+      ],
+      "sha256": "984140c7e6156c95311e5be3be2b3e09383f822fbb175e672ab3ba471e384457"
+    },
+    {
+      "name": "manifest_TJZ2TutkYnA_fingers",
+      "id": "TJZ2TutkYnA",
+      "samples": [
+        1030.0,
+        1075.0,
+        1120.0,
+        1165.0,
+        1210.0,
+        1255.0,
+        1300.0,
+        1345.0
+      ],
+      "sha256": "3041c87fd6f282d71096bcee7183a9948fd92259cff3f3642e796cbd1a7ddec3"
+    },
+    {
+      "name": "manifest_TJZ2TutkYnA_hand_finish",
+      "id": "TJZ2TutkYnA",
+      "samples": [
+        2830.0,
+        2860.0,
+        2890.0,
+        2920.0,
+        2950.0,
+        2980.0
+      ],
+      "sha256": "23e3fef61ded9bc4fd3aec641829ec9b8da02bd51d45efdba3f4a1a6841de078"
+    },
+    {
+      "name": "manifest_TJZ2TutkYnA_hands",
+      "id": "TJZ2TutkYnA",
+      "samples": [
+        1390.0,
+        1450.0,
+        1510.0,
+        1570.0,
+        1630.0,
+        1690.0,
+        1750.0,
+        1810.0,
+        1870.0,
+        1930.0,
+        1990.0,
+        2050.0,
+        2110.0
+      ],
+      "sha256": "324ac2600b74a488c37f2613b42410f07fad361f4dd55ebc0475ed6cd22bd52e"
+    },
+    {
+      "name": "manifest_TJZ2TutkYnA_joints",
+      "id": "TJZ2TutkYnA",
+      "samples": [
+        3000.0,
+        3015.0,
+        3030.0,
+        3045.0,
+        3060.0,
+        3075.0,
+        3090.0,
+        3105.0,
+        3120.0,
+        3135.0
+      ],
+      "sha256": "11016fe1284e079ce4c9c843fa1b017aa7cd0ec5da362973453dda6373812c00"
+    },
+    {
+      "name": "manifest_TJZ2TutkYnA_overview",
+      "id": "TJZ2TutkYnA",
+      "samples": [
+        0.0,
+        90.0,
+        180.0,
+        270.0,
+        360.0,
+        450.0,
+        540.0,
+        630.0,
+        720.0,
+        810.0,
+        900.0,
+        990.0,
+        1080.0,
+        1170.0,
+        1260.0,
+        1350.0,
+        1440.0,
+        1530.0,
+        1620.0,
+        1710.0,
+        1800.0,
+        1890.0,
+        1980.0,
+        2070.0,
+        2160.0,
+        2250.0,
+        2340.0,
+        2430.0,
+        2520.0,
+        2610.0,
+        2700.0,
+        2790.0,
+        2880.0,
+        2970.0,
+        3060.0,
+        3150.0,
+        3240.0,
+        3330.0,
+        3343.0
+      ],
+      "sha256": "088bfde22880f3c48f92f0957cfbe1e1d7354b2c49055a2be3537e032b0e615d"
+    },
+    {
+      "name": "manifest_TJZ2TutkYnA_plan_refs",
+      "id": "TJZ2TutkYnA",
+      "samples": [
+        50.0,
+        90.0,
+        130.0,
+        170.0,
+        215.0,
+        260.0,
+        305.0,
+        335.0,
+        365.0,
+        395.0
+      ],
+      "sha256": "77eaab2ea647332ad101e87576d651638afb5e766330afce83d4b5e78dcce5f8"
+    },
+    {
+      "name": "manifest_TJZ2TutkYnA_qwen",
+      "id": "TJZ2TutkYnA",
+      "samples": [
+        787.5,
+        802.5,
+        817.5,
+        832.5,
+        2527.5,
+        2542.5,
+        2557.5,
+        2572.5,
+        3027.5,
+        3042.5,
+        3057.5,
+        3072.5
+      ],
+      "sha256": "5231cc749483067c9f17607ee39ad9d7beef7bee523c8729200785b79d73df0d"
+    },
+    {
+      "name": "manifest_TJZ2TutkYnA_template",
+      "id": "TJZ2TutkYnA",
+      "samples": [
+        410.0,
+        440.0,
+        470.0,
+        500.0,
+        530.0,
+        560.0,
+        590.0,
+        620.0,
+        650.0,
+        680.0,
+        710.0,
+        740.0,
+        770.0,
+        800.0,
+        830.0
+      ],
+      "sha256": "8f6a3c204b43d188ecb9c89f7386f8d971805f8ea8cd205370ecc1d5700c274a"
+    }
+  ],
+  "frame_hash_index_sha256": "99168f1d12bbc3c0ee384e011e66be35ecb3ea5d646d184bfc265604e41d6047",
+  "sources": [
+    {
+      "id": "3WnW_ZFXudk",
+      "title": "ULTIMATE Character Modelling - Part 7. Retopo of The Body!",
+      "author": "Dikko",
+      "source": "https://www.youtube.com/watch?v=3WnW_ZFXudk",
+      "source_duration": 5475,
+      "duration": 5474.940227,
+      "bytes": 344355259,
+      "sha256": "8213446d331a3d4995cedebc46eda7e13ec4a6c38d0a8bb57e19267bbc65e46b",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "av1",
+          "width": 1920,
+          "height": 1080,
+          "duration": "5474.900000"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "5474.940227"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro",
+          "end_time": 75
+        },
+        {
+          "start_time": 75,
+          "title": "Core Loops (Chest and Hips)",
+          "end_time": 400
+        },
+        {
+          "start_time": 400,
+          "title": "Bikini Line",
+          "end_time": 625
+        },
+        {
+          "start_time": 625,
+          "title": "Torso",
+          "end_time": 780
+        },
+        {
+          "start_time": 780,
+          "title": "Shoulders",
+          "end_time": 1170
+        },
+        {
+          "start_time": 1170,
+          "title": "Breasts/Chest",
+          "end_time": 1380
+        },
+        {
+          "start_time": 1380,
+          "title": "Arms",
+          "end_time": 2040
+        },
+        {
+          "start_time": 2040,
+          "title": "Butt",
+          "end_time": 2340
+        },
+        {
+          "start_time": 2340,
+          "title": "Legs",
+          "end_time": 2700
+        },
+        {
+          "start_time": 2700,
+          "title": "Scalp",
+          "end_time": 3540
+        },
+        {
+          "start_time": 3540,
+          "title": "Neck",
+          "end_time": 4500
+        },
+        {
+          "start_time": 4500,
+          "title": "Refinements",
+          "end_time": 5475
+        }
+      ],
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "full_audio_listened": false,
+      "caption_text_reviewed": true,
+      "unique_reviewed_source_times": 245
+    },
+    {
+      "id": "GxMz4HylQfU",
+      "title": "Modeling for Animation 03 - Adding Volume to the Body!",
+      "author": "Dikko",
+      "source": "https://www.youtube.com/watch?v=GxMz4HylQfU",
+      "source_duration": 1272,
+      "duration": 1271.617596,
+      "bytes": 78647427,
+      "sha256": "0897fc222f4fc196f69ef302e4be53268203ac74c54b1776b2e476aef9f067c3",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "av1",
+          "width": 1920,
+          "height": 1080,
+          "duration": "1271.560000"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "1271.617596"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Introduction",
+          "end_time": 25
+        },
+        {
+          "start_time": 25,
+          "title": "Fixing the Shoulders",
+          "end_time": 165
+        },
+        {
+          "start_time": 165,
+          "title": "Adding the Butt",
+          "end_time": 602
+        },
+        {
+          "start_time": 602,
+          "title": "Adding Volume to the Elbows",
+          "end_time": 745
+        },
+        {
+          "start_time": 745,
+          "title": "Adding Volume to the Knees",
+          "end_time": 865
+        },
+        {
+          "start_time": 865,
+          "title": "Adding the Breasts",
+          "end_time": 1050
+        },
+        {
+          "start_time": 1050,
+          "title": "Testing the Updated Mesh",
+          "end_time": 1272
+        }
+      ],
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "full_audio_listened": false,
+      "caption_text_reviewed": true,
+      "unique_reviewed_source_times": 102
+    },
+    {
+      "id": "TJZ2TutkYnA",
+      "title": "How to Model a Character Mesh in Blender | Game Character Tutorial #1",
+      "author": "Ironbark Games Studio",
+      "source": "https://www.youtube.com/watch?v=TJZ2TutkYnA",
+      "source_duration": 3344,
+      "duration": 3343.53415,
+      "bytes": 511738879,
+      "sha256": "9943372f3fe800426b8f08d01476aa7b61073df02d170f6d32c7ee604f851a5b",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "av1",
+          "width": 1920,
+          "height": 1080,
+          "duration": "3343.466667"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "3343.534150"
+        }
+      ],
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Introduction",
+          "end_time": 50
+        },
+        {
+          "start_time": 50,
+          "title": "Planning",
+          "end_time": 162
+        },
+        {
+          "start_time": 162,
+          "title": "Adding Reference Images to Blender",
+          "end_time": 335
+        },
+        {
+          "start_time": 335,
+          "title": "Mirroring the Mesh",
+          "end_time": 396
+        },
+        {
+          "start_time": 396,
+          "title": "Following the Template",
+          "end_time": 836
+        },
+        {
+          "start_time": 836,
+          "title": "Shaping the Base Mesh",
+          "end_time": 1020
+        },
+        {
+          "start_time": 1020,
+          "title": "Modelling Fingers",
+          "end_time": 1380
+        },
+        {
+          "start_time": 1380,
+          "title": "Modelling Hands",
+          "end_time": 2172
+        },
+        {
+          "start_time": 2172,
+          "title": "Modelling Feet",
+          "end_time": 2826
+        },
+        {
+          "start_time": 2826,
+          "title": "Hand Topology",
+          "end_time": 2996
+        },
+        {
+          "start_time": 2996,
+          "title": "Elbow and Knee Topology",
+          "end_time": 3141
+        },
+        {
+          "start_time": 3141,
+          "title": "Final Shaping",
+          "end_time": 3297
+        },
+        {
+          "start_time": 3297,
+          "title": "Next Time",
+          "end_time": 3324
+        },
+        {
+          "start_time": 3324,
+          "title": "Outro",
+          "end_time": 3344
+        }
+      ],
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "full_audio_listened": false,
+      "caption_text_reviewed": true,
+      "unique_reviewed_source_times": 150
+    }
+  ],
+  "total_local_source_duration_seconds": 10090.091973,
+  "captions": [
+    {
+      "id": "3WnW_ZFXudk",
+      "vtt_sha256": "50a32970e1c649a205b301fdc0c0040f5abf3eed3565bd563292782319454cb0",
+      "raw_bytes": 676689,
+      "timed_new_text_rows": 1797,
+      "first": 19.52,
+      "last": 5472.6,
+      "read_entire_cleaned_text": true,
+      "type": "YouTube automatic English, not human verified or direct audio listening",
+      "direct_full_audio_listening": false
+    },
+    {
+      "id": "GxMz4HylQfU",
+      "vtt_sha256": "540e7a8a66aa0b71bd9661a595a00632ada5c0b393a7ded9b8efc5ab5eb0ea70",
+      "raw_bytes": 166219,
+      "timed_new_text_rows": 475,
+      "first": 2.24,
+      "last": 1263.039,
+      "read_entire_cleaned_text": true,
+      "type": "YouTube automatic English, not human verified or direct audio listening",
+      "direct_full_audio_listening": false
+    },
+    {
+      "id": "TJZ2TutkYnA",
+      "vtt_sha256": "9b3036bc7db75776150735e096fe0eed2d349e50c44b6a0aa0a8911fac994b84",
+      "raw_bytes": 363218,
+      "timed_new_text_rows": 916,
+      "first": 2.46,
+      "last": 3336.059,
+      "read_entire_cleaned_text": true,
+      "type": "YouTube automatic English, not human verified or direct audio listening",
+      "direct_full_audio_listening": false
+    }
+  ],
+  "caption_limits": "Public automatic en-orig timed-word VTT text de-duplicated and read start to last valid line; not human verified, opening words can be absent; B/Rip typo corrected against visible V and official 5.2 manual",
+  "qwen": {
+    "model_tags": [
+      {
+        "name": "qwen3-vl:4b-instruct",
+        "digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318"
+      }
+    ],
+    "calls": [
+      {
+        "id": "3WnW_ZFXudk",
+        "start": 900,
+        "end": 960,
+        "source_sample_seconds": [
+          907.5,
+          922.5,
+          937.5,
+          952.5
+        ],
+        "output": "qwen_3WnW_ZFXudk_900_960.json",
+        "clip": "clip_3WnW_ZFXudk_900_960.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "8c648a4f641f10b717134cb45477148e01cd35f9c498d5bf71a73718dc8822f0",
+        "clip_sha256": "0bd64f1beb5f5779ae317f56a7aeae55a4f906f854f97bc9e2f8728af77ee491",
+        "observation_count": 4,
+        "requested_schema_valid": true,
+        "role": "Secondary visual cues; all 40 inputs directly reviewed, factual errors corrected"
+      },
+      {
+        "id": "3WnW_ZFXudk",
+        "start": 2110,
+        "end": 2170,
+        "source_sample_seconds": [
+          2117.5,
+          2132.5,
+          2147.5,
+          2162.5
+        ],
+        "output": "qwen_3WnW_ZFXudk_2110_2170.json",
+        "clip": "clip_3WnW_ZFXudk_2110_2170.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "24dd99ac2b4df0b2d094f4ad4c2ff658c4acd174e4b601895ebb5ceb37625cb0",
+        "clip_sha256": "7be95b7ec2d7ef05ba7b02805644513f52b73810cc918a4bb538c4586aa8d2f3",
+        "observation_count": 4,
+        "requested_schema_valid": true,
+        "role": "Secondary visual cues; all 40 inputs directly reviewed, factual errors corrected"
+      },
+      {
+        "id": "3WnW_ZFXudk",
+        "start": 4200,
+        "end": 4260,
+        "source_sample_seconds": [
+          4207.5,
+          4222.5,
+          4237.5,
+          4252.5
+        ],
+        "output": "qwen_3WnW_ZFXudk_4200_4260.json",
+        "clip": "clip_3WnW_ZFXudk_4200_4260.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "16ab97227d9533d8889f23c597ed58052c293897e072fe099e88a64d6095b197",
+        "clip_sha256": "40cdfffb5980ee918f8506ade4acc8bf2260050de923a78780b54430c4eb6fe0",
+        "observation_count": 4,
+        "requested_schema_valid": true,
+        "role": "Secondary visual cues; all 40 inputs directly reviewed, factual errors corrected"
+      },
+      {
+        "id": "GxMz4HylQfU",
+        "start": 60,
+        "end": 120,
+        "source_sample_seconds": [
+          67.5,
+          82.5,
+          97.5,
+          112.5
+        ],
+        "output": "qwen_GxMz4HylQfU_60_120.json",
+        "clip": "clip_GxMz4HylQfU_60_120.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "a313fa1797d69f896ea4f27133e344978a4bce7af71abae47123e94fe4464a3c",
+        "clip_sha256": "76ccf1859b454fa0c3fc11d967541a4d6c65fa944a05c81786b54bda4f451588",
+        "observation_count": 4,
+        "requested_schema_valid": true,
+        "role": "Secondary visual cues; all 40 inputs directly reviewed, factual errors corrected"
+      },
+      {
+        "id": "GxMz4HylQfU",
+        "start": 620,
+        "end": 680,
+        "source_sample_seconds": [
+          627.5,
+          642.5,
+          657.5,
+          672.5
+        ],
+        "output": "qwen_GxMz4HylQfU_620_680.json",
+        "clip": "clip_GxMz4HylQfU_620_680.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "e6307a1ef8734aa08a07355ab42f7d0e75b1b41abefaf18be15febf1dfd574fd",
+        "clip_sha256": "22935e1438f97e2dc541bc54f7ba063ca1bbbdab3cd4a19b764f80c6de675a10",
+        "observation_count": 4,
+        "requested_schema_valid": true,
+        "role": "Secondary visual cues; all 40 inputs directly reviewed, factual errors corrected"
+      },
+      {
+        "id": "GxMz4HylQfU",
+        "start": 760,
+        "end": 820,
+        "source_sample_seconds": [
+          767.5,
+          782.5,
+          797.5,
+          812.5
+        ],
+        "output": "qwen_GxMz4HylQfU_760_820.json",
+        "clip": "clip_GxMz4HylQfU_760_820.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "4a22bb4dbeea4a6a674ca9e383245b17c7df9c74fdf60a1402637a32af469be9",
+        "clip_sha256": "4e46b2537982ce289470822afcd368434e14d89658f956ddd7c5c7520c22886b",
+        "observation_count": 4,
+        "requested_schema_valid": true,
+        "role": "Secondary visual cues; all 40 inputs directly reviewed, factual errors corrected"
+      },
+      {
+        "id": "GxMz4HylQfU",
+        "start": 1110,
+        "end": 1170,
+        "source_sample_seconds": [
+          1117.5,
+          1132.5,
+          1147.5,
+          1162.5
+        ],
+        "output": "qwen_GxMz4HylQfU_1110_1170.json",
+        "clip": "clip_GxMz4HylQfU_1110_1170.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "0baee961fdbba5b7d495b39d2b4f42f07e3efb0fc1b8488ef17fe6af7d18d809",
+        "clip_sha256": "4cd419f1b89a2f9f8bb4ae0b803f11aa27d2d447c0d613c5dc2d400db9cc5ab8",
+        "observation_count": 4,
+        "requested_schema_valid": true,
+        "role": "Secondary visual cues; all 40 inputs directly reviewed, factual errors corrected"
+      },
+      {
+        "id": "TJZ2TutkYnA",
+        "start": 780,
+        "end": 840,
+        "source_sample_seconds": [
+          787.5,
+          802.5,
+          817.5,
+          832.5
+        ],
+        "output": "qwen_TJZ2TutkYnA_780_840.json",
+        "clip": "clip_TJZ2TutkYnA_780_840.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "fa2d2ce735df7caea36e91a7f32329c3d8317387e10c45bceadef6afc8023ab7",
+        "clip_sha256": "0e5b7d32066bc28e18a3fd0d1aac5dc9df0fad2257b91ba1f16c73bdf35c8420",
+        "observation_count": 4,
+        "requested_schema_valid": true,
+        "role": "Secondary visual cues; all 40 inputs directly reviewed, factual errors corrected"
+      },
+      {
+        "id": "TJZ2TutkYnA",
+        "start": 2520,
+        "end": 2580,
+        "source_sample_seconds": [
+          2527.5,
+          2542.5,
+          2557.5,
+          2572.5
+        ],
+        "output": "qwen_TJZ2TutkYnA_2520_2580.json",
+        "clip": "clip_TJZ2TutkYnA_2520_2580.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "d5514714e3b492706df076fbafcb8a4790fbd89db13352255d3563f7e09b90ee",
+        "clip_sha256": "bc8598e1d3b2e7e85824bf76dc76a586c60a179c78bc7810b50f34c12ee09dd2",
+        "observation_count": 4,
+        "requested_schema_valid": true,
+        "role": "Secondary visual cues; all 40 inputs directly reviewed, factual errors corrected"
+      },
+      {
+        "id": "TJZ2TutkYnA",
+        "start": 3020,
+        "end": 3080,
+        "source_sample_seconds": [
+          3027.5,
+          3042.5,
+          3057.5,
+          3072.5
+        ],
+        "output": "qwen_TJZ2TutkYnA_3020_3080.json",
+        "clip": "clip_TJZ2TutkYnA_3020_3080.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "4b9a4996b42bd07cd902990af92c838bee15465d643f4197f386295cb9750801",
+        "clip_sha256": "7d97425cc61413d53f2c38482e474e89b3de52179c51ad21b39f311e5758c915",
+        "observation_count": 4,
+        "requested_schema_valid": true,
+        "role": "Secondary visual cues; all 40 inputs directly reviewed, factual errors corrected"
+      }
+    ],
+    "calls_completed": 10,
+    "requested_schema_valid_calls": 10,
+    "schema_success_is_not_semantic_accuracy": true,
+    "corrections": [
+      "Part7 shoulder 900: bent-arm claim rejected; viewpoint changes over static T-pose",
+      "Part7 butt 2110: source sculpt and retopo overlay conflated; distinguish original and new surface",
+      "Part7 neck 4200: underside low view called high angle; reject direction claim",
+      "Volume shoulder 60: selection location generalized to central torso, actual shoulder boundary",
+      "Volume elbow 620: elbow/arm mistaken for finger or tool handle; reject",
+      "Volume knee 760: actual Edit Mode called Object Mode; reject",
+      "Volume pose 1110: posed meshes recognized; exact mode requires UI, no independent weight-controlled result inferred",
+      "Ironbark torso 780: view rotation called extension into multi-limbed form; reject invented shape evolution",
+      "Ironbark foot 2520: two-toe boot construction unrecognized, no human-foot anatomy inferred",
+      "Ironbark joints 3020: final arm/elbow frame called leg; reject body-part claim"
+    ]
+  },
+  "framelens": [
+    {
+      "id": "3WnW_ZFXudk",
+      "response_sha256": "f72ef32ff4bdb4b622f738c24588f51156e930c19ece39b969232bd2c08c468e",
+      "shots": 1,
+      "semantic_all_null": true,
+      "role": "Shot/numeric metrics only; no workflow semantics obtained"
+    },
+    {
+      "id": "GxMz4HylQfU",
+      "response_sha256": "ce318a826faa7aa3816efeaa1f447ccaaed2b725cc7f041f1444df2f30fcc841",
+      "shots": 1,
+      "semantic_all_null": true,
+      "role": "Shot/numeric metrics only; no workflow semantics obtained"
+    },
+    {
+      "id": "TJZ2TutkYnA",
+      "response_sha256": "f8fbd70fc6d7332ee8f194c8f29cb664e250619662354ed79637bf6caffde99d",
+      "shots": 1,
+      "semantic_all_null": true,
+      "role": "Shot/numeric metrics only; no workflow semantics obtained"
+    }
+  ],
+  "browser": {
+    "tool": "ego-browser",
+    "space": 34,
+    "finished_once": true,
+    "other_spaces_accessed": false,
+    "software_updated": false,
+    "pages_read": "Three creator YouTube pages and five official Blender 5.2 manual pages"
+  },
+  "official_docs_read": [
+    "https://docs.blender.org/manual/en/5.2/modeling/modifiers/deform/shrinkwrap.html",
+    "https://docs.blender.org/manual/en/5.2/modeling/modifiers/generate/mirror.html",
+    "https://docs.blender.org/manual/en/5.2/modeling/meshes/editing/vertex/rip_vertices.html",
+    "https://docs.blender.org/manual/en/5.2/modeling/modifiers/deform/armature.html",
+    "https://docs.blender.org/manual/en/5.2/modeling/modifiers/generate/subdivision_surface.html"
+  ],
+  "download_limits": "Existing yt-dlp/FFmpeg, public video and auto captions only; no new installation, model download, paid API or paid asset access",
+  "not_run": [
+    "Claude/Painter status, connection, testing or restart",
+    "live Blender query, claim, import, mesh/UV/texture/material edits",
+    "live rigging, shape keys, animation, export or render",
+    "Mixamo upload or service test",
+    "engine, Android, LOD, UV, baking or independent production QA"
+  ],
+  "production_state": "No production app or asset accessed or modified; prior project state unchanged",
+  "raw_media_captures_transcripts_and_ai_payload_published": false,
+  "raw_local_evidence_location": "Ignored body-learning-20261031 and VideoTutorials/Body_20261031; absolute machine paths omitted",
+  "file_hashes_scope": "Source training snapshot; public sanitized file hashes belong to PUBLIC_MANIFEST.json",
+  "validation": {
+    "UTF8_LF": true,
+    "relative_links": 33,
+    "scope_files": [
+      "docs/BODY_CHARACTER_WORKFLOW.md",
+      "docs/BODY_RETOPOLOGY.md",
+      "docs/BODY_JOINT_VOLUME.md",
+      "docs/BODY_GAME_BASE_MESH.md",
+      "docs/assets/body-topology/body-loop-deformation.svg",
+      "reports/VideoLearning/20261031_BODY_COURSES_REVIEW.md",
+      "reports/VideoLearning/20261031_BODY_COURSES_VERIFICATION.json",
+      "docs/HAND_FINGER_WORKFLOW.md"
+    ],
+    "existing_manual_only_one_reference_added": true,
+    "protected_files_byte_unchanged": [
+      "docs/FACE_EYELID_SHAPE_KEYS.md",
+      "docs/FACE_EYELID_VOLUME.md",
+      "docs/FACE_ORAL_STRUCTURE.md",
+      "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+      "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md",
+      "docs/HAND_BUILDING.md",
+      "docs/HAND_FINGER_RIGGING.md",
+      "docs/HAND_RETOPOLOGY.md",
+      "docs/PAINTER_CHARACTER_WORKFLOW.md",
+      "docs/PAINTER_SKIN_LAYERS.md",
+      "docs/PAINTER_STYLIZED_CHARACTER.md",
+      "docs/PAINTER_TO_BLENDER.md",
+      "docs/assets/face-topology/eyelid-section.svg",
+      "docs/assets/face-topology/eyelid-shape-key-pipeline.svg",
+      "docs/assets/face-topology/eyelid-volume-flow.svg",
+      "docs/assets/face-topology/feature-loop-flow.svg",
+      "docs/assets/face-topology/nose-connection-flow.svg",
+      "docs/assets/face-topology/oral-structure-layout.svg",
+      "docs/assets/face-topology/retopo-paired-view-audit.svg",
+      "docs/assets/hand-topology/hand-deformation-pipeline.svg",
+      "docs/assets/texturing/painter-channel-pipeline.svg"
+    ],
+    "SVG_XML_valid": true,
+    "SVG_rendered_locally_and_visually_reviewed": true,
+    "raw_evidence_ignored": true,
+    "independent_PASS": false
+  },
+  "original_training_snapshot_files": [
+    {
+      "path": "docs/BODY_CHARACTER_WORKFLOW.md",
+      "bytes": 8245,
+      "sha256": "e6cf306f0ded9d3ae871fa512e3239b5bb3ae8346e5553ddfcc4be4464bf6b4c"
+    },
+    {
+      "path": "docs/BODY_RETOPOLOGY.md",
+      "bytes": 10713,
+      "sha256": "6a551c4bc68a63eb46a815db31a2071974545c6daa45824c0baaadd095fb1df3"
+    },
+    {
+      "path": "docs/BODY_JOINT_VOLUME.md",
+      "bytes": 7919,
+      "sha256": "a768bd288f64f9ca350d2e80b00026184f5741dfda714a5ff328a20190b6d455"
+    },
+    {
+      "path": "docs/BODY_GAME_BASE_MESH.md",
+      "bytes": 9188,
+      "sha256": "631f1d9278fc3b510ed961b3cb1833621f95d67bd3a00c94dee397bc2dabeba4"
+    },
+    {
+      "path": "docs/assets/body-topology/body-loop-deformation.svg",
+      "bytes": 6095,
+      "sha256": "9b76031dd256d4bdd3adda324618dc22bf5dd4590a7211f3928298f9c81332ac"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_BODY_COURSES_REVIEW.md",
+      "bytes": 8892,
+      "sha256": "7eb9a5fa40ff4c07d7c0d8bc9928c2bfc295bca8bf565b038b7703f3ef024a31"
+    },
+    {
+      "path": "docs/HAND_FINGER_WORKFLOW.md",
+      "bytes": 7430,
+      "sha256": "f4eada01bf2a9677785102f9d006162b0581828595be29647279e2be07c1fcc4"
+    }
+  ],
+  "public_export_notice": "Absolute PC paths and private project state omitted. Original training snapshot hashes describe source-time review; current public file hashes are in PUBLIC_MANIFEST.json."
+}

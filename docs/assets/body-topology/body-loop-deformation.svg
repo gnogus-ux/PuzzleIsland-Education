@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" role="img" aria-labelledby="title desc">
+<title id="title">전신 연결과 관절 검수</title>
+<desc id="desc">자체 교육 도식. 왼쪽은 목, 어깨, 골반과 팔다리의 연결 영역, 가운데는 관절 바깥 볼륨과 안쪽 압축 공간, 오른쪽은 가이드에서 기본 상태와 이후 변형 검수로 이어지는 순서다. 실제 캐릭터 토폴로지나 승인 디자인이 아니다.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#34638e"/></marker></defs>
+<style>text{font-family:'Malgun Gothic','Noto Sans KR',sans-serif;fill:#183047} .title{font-size:32px;font-weight:700}.head{font-size:24px;font-weight:700}.body{font-size:18px}.small{font-size:16px}.panel{fill:#fff;stroke:#ccd9e4;stroke-width:2}.wire{fill:none;stroke:#9baebc;stroke-width:2}.neck{fill:none;stroke:#7455be;stroke-width:5}.shoulder{fill:none;stroke:#197f93;stroke-width:5}.hip{fill:none;stroke:#bf7833;stroke-width:5}.line{fill:none;stroke:#34638e;stroke-width:3;marker-end:url(#arrow)}.muted{fill:#526779}</style>
+<rect width="1280" height="900" fill="#edf3f7"/>
+<text x="40" y="57" class="title">전신 연결과 관절 검수</text><text x="40" y="89" class="body muted">주요 흐름 → 필요한 국소 보강 → 같은 조건의 전후 확인</text>
+<rect x="30" y="117" width="450" height="621" rx="18" class="panel"/><rect x="500" y="117" width="360" height="621" rx="18" class="panel"/><rect x="880" y="117" width="370" height="621" rx="18" class="panel"/>
+<text x="53" y="158" class="head">1. 연결 영역을 먼저 정한다</text>
+<g transform="translate(44 176)">
+<path d="M181 15L181 58Q157 68 130 75L20 104L27 134L134 111Q154 124 159 148L165 215Q159 248 147 274L150 347L147 438L185 440L195 354L204 295L213 354L223 440L261 438L258 347L261 274Q249 248 243 215L249 148Q254 124 274 111L381 134L388 104L278 75Q251 68 227 58L227 15" fill="#f2f6f9" stroke="#58778e" stroke-width="3"/>
+<path d="M181 43Q204 51 227 43M176 63Q204 77 232 63" class="neck"/>
+<path d="M135 79Q167 99 157 133M274 79Q242 99 252 133M130 95Q204 124 278 95" class="shoulder"/>
+<path d="M163 221Q204 245 245 221M150 265Q177 254 204 287Q231 254 258 265M153 282Q178 272 194 295M255 282Q230 272 214 295" class="hip"/>
+<path d="M163 151Q204 165 247 151M164 180Q204 191 244 180M167 205Q204 216 242 205M175 139L179 221M194 143L194 232M214 143L214 232M234 139L230 221M155 330L189 333M151 350L187 354M219 333L255 330M221 354L257 350M161 294L161 433M177 297L173 435M231 297L235 435M247 294L247 433" class="wire"/>
+<path d="M62 94L68 123M82 89L90 118M323 89L316 118M343 94L337 123" class="wire"/>
+<path d="M179 353Q167 366 151 353M222 353Q239 366 257 353" fill="none" stroke="#cf4c68" stroke-width="4"/>
+<text x="5" y="47" class="small" fill="#7455be">목–몸통 경계</text><path d="M113 42L175 48" class="line"/>
+<text x="5" y="179" class="small">어깨·겨드랑이</text><path d="M105 173L149 124" class="line"/>
+<text x="6" y="242" class="small">골반·뒤 볼륨</text><path d="M110 236L151 259" class="line"/>
+<text x="8" y="405" class="small">무릎의 국소 전환</text><path d="M133 398L162 361" class="line"/>
+</g>
+<text x="54" y="663" class="small">손목·발목은 실제 경계 순서와 용접 확인</text><text x="54" y="692" class="small muted">선 수·위치는 설명용이며 실제 설계가 아니다.</text>
+<text x="523" y="158" class="head">2. 관절의 두 면을 본다</text>
+<path d="M550 247L687 247Q721 247 741 278L797 388L759 412L704 306Q698 295 683 295L550 295Z" fill="#e6eff5" stroke="#58778e" stroke-width="3"/>
+<path d="M665 248L665 295M685 248L684 295M708 254L697 299M728 268L706 315M747 292L720 337M763 324L736 365" class="wire"/>
+<path d="M678 236Q731 232 762 294" fill="none" stroke="#197f93" stroke-width="5"/>
+<path d="M679 306Q698 305 705 324" fill="none" stroke="#cf4c68" stroke-width="5"/>
+<text x="527" y="211" class="body">바깥: 윤곽·부피를 지지</text><path d="M722 214L731 247" class="line"/>
+<text x="527" y="457" class="body">안쪽: 접힐 공간과 간격</text><path d="M674 429L699 329" class="line"/>
+<text x="526" y="510" class="body">확인할 원인</text><text x="526" y="545" class="body">면 흐름 · 뼈 위치 · 가중치</text><text x="526" y="580" class="body">모디파이어 순서 · 변형 방식</text><text x="526" y="641" class="small muted">그림은 원리 설명이다.</text><text x="526" y="670" class="small muted">특정 루프 수나 포즈 합격을 뜻하지 않는다.</text>
+<text x="904" y="158" class="head">3. 검수 순서를 지킨다</text>
+<rect x="905" y="192" width="320" height="90" rx="12" fill="#e7def7"/><text x="927" y="226" class="body">원본 보존 + 실제 Guide</text><text x="927" y="255" class="small">대상 · 보존 경계 · 목표 · 캡처</text><path d="M1065 290L1065 323" class="line"/>
+<rect x="905" y="334" width="320" height="90" rx="12" fill="#dceef1"/><text x="927" y="368" class="body">기본 상태 solid / wire</text><text x="927" y="397" class="small">형태 · 접합 · 법선 · 가이드 개선</text><path d="M1065 432L1065 465" class="line"/>
+<rect x="905" y="476" width="320" height="90" rx="12" fill="#f8e8d6"/><text x="927" y="510" class="body">후속 승인 범위의 변형 확인</text><text x="927" y="539" class="small">동일 뼈 · 포즈 · 가중치 조건 기록</text><path d="M1065 574L1065 607" class="line"/>
+<rect x="905" y="618" width="320" height="70" rx="12" fill="#e6edf3"/><text x="927" y="660" class="body">UV · 출력 · 엔진 · 기기 별도 검증</text>
+<rect x="30" y="759" width="1220" height="107" rx="15" fill="#dce7ee"/>
+<text x="52" y="795" class="body">교육 도식은 Blender의 실제 Guide 컬렉션과 수정 후보를 대신하지 않는다.</text><text x="52" y="829" class="body">강좌의 예제 체형·외계인 발·폴리곤 목표를 승인 캐릭터의 제작 규칙으로 고정하지 않는다.</text>
+</svg>
