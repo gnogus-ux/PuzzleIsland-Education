@@ -23,13 +23,17 @@ Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕으로 작성한
 | 만화형 캐릭터 채색 | [Stylized 채색](docs/PAINTER_STYLIZED_CHARACTER.md) |
 | 피부 색·거칠기·투과광 | [피부 레이어](docs/PAINTER_SKIN_LAYERS.md) |
 | Painter 텍스처 → Blender | [내보내기와 연결](docs/PAINTER_TO_BLENDER.md) |
+| 손·손가락 전체 흐름·검수 | [손 교육 시작점](docs/HAND_FINGER_WORKFLOW.md) |
+| 손 기본형 모델링 | [손 제작](docs/HAND_BUILDING.md) |
+| 손바닥·관절 면 흐름 | [손 리토폴로지](docs/HAND_RETOPOLOGY.md) |
+| 손가락 컨트롤·가중치 | [손가락 리깅](docs/HAND_FINGER_RIGGING.md) |
 
 자체 도식은 docs/assets/, 강좌별 실제 확인 범위와 오류 교정·미확인 사항은 [reports/VideoLearning](reports/VideoLearning)에 있습니다.
 
 ## 포함 범위
 
-- 2026-10-31 게시 완료된 매뉴얼 9개, 자체 SVG 도식 8개, 학습 보고서와 검증 기록을 포함합니다.
-- 손가락 교육은 진행 중이라 이번 공개본에는 아직 포함하지 않았습니다. 전신 교육자료도 아직 검색 단계입니다.
+- 2026-10-31 게시 완료된 매뉴얼 13개, 자체 SVG 도식 9개, 학습 보고서와 검증 기록을 포함합니다.
+- 손·손가락 세 강좌의 전체 흐름 표본·공개 자동 자막 분석을 추가했습니다. 고유393개 시점과 핵심 UI 확대24장을 확인했으며, 실제 모델 제작·리깅 검증은 수행하지 않았습니다. 전신 교육자료는 아직 검색 단계입니다.
 - 강좌 원본 영상·음성·대량 캡처·외부 에셋·캐릭터 모델·텍스처·AI 요청 데이터는 포함하지 않습니다. 원 강좌의 링크와 제작자 정보는 각 문서에 있습니다.
 - 공개본은 로컬 PC의 증거 파일 경로를 생략했습니다. 검증 JSON의 원본 스냅샷 해시는 교육 당시 자료를 가리키며, 이 공개본 파일 해시는 PUBLIC_MANIFEST.json에서 확인합니다.
 - 문서와 도식의 검토·학습 범위는 실제 모델 제작 성공이나 독립 검수 통과를 보장하지 않습니다. 앱 버전이 다른 조작은 적용 전 확인하세요.

@@ -1,15 +1,16 @@
 {
   "export_date": "2026-10-31",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 9,
-  "diagrams": 8,
-  "checked_local_links": 75,
+  "manuals": 13,
+  "diagrams": 9,
+  "checked_local_links": 107,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
   "export_changes": [
     "Local absolute evidence paths omitted",
     "Private project reference links replaced with generic reference guide",
     "Original verification hash fields marked as source-time snapshots",
-    "Standalone public index added; no source repository Git history copied"
+    "Standalone public index added; no source repository Git history copied",
+    "Hand workflow manuals and original diagram added; private state omitted and hand snapshot hashes explicitly marked"
   ],
   "files": [
     {
@@ -19,8 +20,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2764,
-      "sha256": "7161d5cbf032353cba4c78983a82deb863d6f25b1b0db13e6df5d6a4b26363c2"
+      "bytes": 3233,
+      "sha256": "984a954fb74e0d0ef08be29ecb5b54195e201674b225872650c66d7899c10f35"
     },
     {
       "path": "docs/FACE_EYELID_SHAPE_KEYS.md",
@@ -39,8 +40,8 @@
     },
     {
       "path": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
-      "bytes": 28378,
-      "sha256": "8f4d620a33aea3cf9c478ce7f915013bbcbd30fd2178a5a4320226a6bfd98169"
+      "bytes": 28589,
+      "sha256": "4970a6887b5d8341281e6273079af7bb324237f25de2fa22c728a7a288a909c8"
     },
     {
       "path": "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md",
@@ -181,6 +182,42 @@
       "path": "reports/VideoLearning/20261031_PAINTER_COURSES_VERIFICATION.json",
       "bytes": 39157,
       "sha256": "8149429eecbbb268eb2b44133dd791c33fcfacecdeae5cfb091aacbb94afc0ac"
+    },
+    {
+      "path": "docs/HAND_BUILDING.md",
+      "bytes": 9689,
+      "sha256": "c5ad1e47eaba2274d95cb16b17ae407fedef29789ada3b9efcda17621fc936a1"
+    },
+    {
+      "path": "docs/HAND_FINGER_RIGGING.md",
+      "bytes": 12835,
+      "sha256": "da0316fd298a9664f7bdb328374bd2802a08b4f381dd371751bc3defc915047e"
+    },
+    {
+      "path": "docs/HAND_FINGER_WORKFLOW.md",
+      "bytes": 7370,
+      "sha256": "7c4a90fbc96e8a715edfd82cc82bb084d0bf34730726567921c61c7b7ec9eeff"
+    },
+    {
+      "path": "docs/HAND_RETOPOLOGY.md",
+      "bytes": 7997,
+      "sha256": "e0d3b969c1e0bbdf887d4a39b16b9c57c7f60a965dbe839fd2289f346f1bff20"
+    },
+    {
+      "path": "docs/assets/hand-topology/hand-deformation-pipeline.svg",
+      "bytes": 6353,
+      "sha256": "627841cfba6bc213e9fc5e6d4564adb0a8d9e5d227ee7a44bdd63dfcb920a298"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_HAND_COURSES_REVIEW.md",
+      "bytes": 13878,
+      "sha256": "c12bb1a8f033e23a35e777266acbe7c3343d1a5e3e42c1d130b355fd6a8bf2ee"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_HAND_COURSES_VERIFICATION.json",
+      "bytes": 30006,
+      "sha256": "dbc01e9f4983964a6f069107754bc0a907b15958ff037c430013f9c2bb6c52ac"
     }
-  ]
+  ],
+  "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction"
 }

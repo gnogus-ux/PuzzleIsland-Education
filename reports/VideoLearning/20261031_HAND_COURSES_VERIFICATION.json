@@ -1,0 +1,1130 @@
+{
+  "date": "2026-10-31",
+  "status": "DOCUMENTED_WHOLE_FLOW_SAMPLED_VISUAL_AND_AUTO_CAPTION_STUDY",
+  "scope": "Three public courses; not continuous full audio listening or current app reproduction",
+  "reviewed_contact_sheets": 83,
+  "native_images_reviewed": 24,
+  "native_reviewed_times": {
+    "8R0e0qh5wiU": [
+      310,
+      550,
+      1170,
+      1570,
+      1690,
+      1870
+    ],
+    "zF61xM6fiDw": [
+      495,
+      690,
+      720,
+      870,
+      930,
+      1020
+    ],
+    "NR5q3zsKHew": [
+      255,
+      315,
+      345,
+      435,
+      525,
+      585,
+      1210,
+      1460,
+      1490,
+      1900,
+      2040,
+      2220
+    ]
+  },
+  "unique_source_times": 393,
+  "course_unique_source_times": {
+    "8R0e0qh5wiU": 159,
+    "zF61xM6fiDw": 78,
+    "NR5q3zsKHew": 156
+  },
+  "historical_unique_frames_before": 864,
+  "cumulative_unique_source_times": 1257,
+  "cohorts": [
+    {
+      "name": "manifest_8R0e0qh5wiU_analysis",
+      "id": "8R0e0qh5wiU",
+      "samples": [
+        45.0,
+        65.0,
+        85.0,
+        105.0,
+        125.0,
+        145.0,
+        165.0,
+        185.0,
+        205.0,
+        225.0,
+        245.0
+      ],
+      "sha256": "e0c2fc0dab0dfabe02108a4dc6ba2fb7dda2580c125f98c6d5a07c5c92c02945"
+    },
+    {
+      "name": "manifest_8R0e0qh5wiU_attach",
+      "id": "8R0e0qh5wiU",
+      "samples": [
+        1800.0,
+        1810.0,
+        1820.0,
+        1830.0,
+        1840.0,
+        1850.0,
+        1860.0,
+        1870.0,
+        1880.0,
+        1890.0,
+        1900.0,
+        1910.0,
+        1920.0
+      ],
+      "sha256": "4210e82dd7502970ddacb7610e45773aa738e35aa63c75a6e2738d285a1b3062"
+    },
+    {
+      "name": "manifest_8R0e0qh5wiU_fingers",
+      "id": "8R0e0qh5wiU",
+      "samples": [
+        670.0,
+        690.0,
+        710.0,
+        730.0,
+        750.0,
+        770.0,
+        790.0,
+        810.0,
+        830.0,
+        850.0,
+        870.0,
+        890.0,
+        910.0,
+        930.0,
+        950.0,
+        970.0,
+        990.0,
+        1010.0,
+        1030.0,
+        1050.0,
+        1070.0,
+        1090.0,
+        1110.0,
+        1130.0
+      ],
+      "sha256": "bedfcd53f3eb451e78912d461adb0f4450fc8fd526948da91863154c48051cb3"
+    },
+    {
+      "name": "manifest_8R0e0qh5wiU_mixamo",
+      "id": "8R0e0qh5wiU",
+      "samples": [
+        1930.0,
+        1945.0,
+        1960.0,
+        1975.0,
+        1990.0,
+        2005.0,
+        2020.0
+      ],
+      "sha256": "930af9ffdd2f2c4ff9f25918e5154a1c1ece2244a75a8148e8a1f62efad8c0de"
+    },
+    {
+      "name": "manifest_8R0e0qh5wiU_overview",
+      "id": "8R0e0qh5wiU",
+      "samples": [
+        0.0,
+        60.0,
+        120.0,
+        180.0,
+        240.0,
+        300.0,
+        360.0,
+        420.0,
+        480.0,
+        540.0,
+        600.0,
+        660.0,
+        720.0,
+        780.0,
+        840.0,
+        900.0,
+        960.0,
+        1020.0,
+        1080.0,
+        1140.0,
+        1200.0,
+        1260.0,
+        1320.0,
+        1380.0,
+        1440.0,
+        1500.0,
+        1560.0,
+        1620.0,
+        1680.0,
+        1740.0,
+        1800.0,
+        1860.0,
+        1920.0,
+        1980.0,
+        2036.0
+      ],
+      "sha256": "1852a9e5f8d51f9be3e41c8e65f7c305fc5736efd038a8481220b614c7e1c22e"
+    },
+    {
+      "name": "manifest_8R0e0qh5wiU_palm",
+      "id": "8R0e0qh5wiU",
+      "samples": [
+        270.0,
+        290.0,
+        310.0,
+        330.0,
+        350.0,
+        370.0,
+        390.0,
+        410.0,
+        430.0,
+        450.0,
+        470.0,
+        490.0,
+        510.0,
+        530.0,
+        550.0,
+        570.0,
+        590.0,
+        610.0,
+        630.0,
+        650.0
+      ],
+      "sha256": "1662434747175e3e669014a2075f7c65e5730d9c9bb8c4049e2a613e7548d134"
+    },
+    {
+      "name": "manifest_8R0e0qh5wiU_polish",
+      "id": "8R0e0qh5wiU",
+      "samples": [
+        1740.0,
+        1750.0,
+        1760.0,
+        1770.0,
+        1780.0,
+        1790.0
+      ],
+      "sha256": "475cd336c84ac8ed4f5493ecb5b8db6c44ebec422c1ec6e829ee46bf75b8ae01"
+    },
+    {
+      "name": "manifest_8R0e0qh5wiU_qwen",
+      "id": "8R0e0qh5wiU",
+      "samples": [
+        577.5,
+        592.5,
+        607.5,
+        622.5,
+        1157.5,
+        1172.5,
+        1187.5,
+        1202.5,
+        1637.5,
+        1652.5,
+        1667.5,
+        1682.5
+      ],
+      "sha256": "e08bb76d01a69c4880ae0b05254316fdc243a4cb2473939413b3d38742b618cb"
+    },
+    {
+      "name": "manifest_8R0e0qh5wiU_rigtest",
+      "id": "8R0e0qh5wiU",
+      "samples": [
+        1550.0,
+        1565.0,
+        1580.0,
+        1595.0,
+        1610.0,
+        1625.0,
+        1640.0,
+        1655.0,
+        1670.0,
+        1685.0,
+        1700.0,
+        1715.0,
+        1730.0
+      ],
+      "sha256": "20856d1c83cd001b5ec892db011083341986795d09b51dc8a5a2b44bdb88326f"
+    },
+    {
+      "name": "manifest_8R0e0qh5wiU_thumb",
+      "id": "8R0e0qh5wiU",
+      "samples": [
+        1150.0,
+        1170.0,
+        1190.0,
+        1210.0,
+        1230.0,
+        1250.0,
+        1270.0,
+        1290.0,
+        1310.0,
+        1330.0,
+        1350.0,
+        1370.0,
+        1390.0,
+        1410.0,
+        1430.0,
+        1450.0,
+        1470.0,
+        1490.0,
+        1510.0,
+        1530.0
+      ],
+      "sha256": "93125a88c9bc49162097ff3623357c9286dfaae8d8a42ba131cd2c3644e26452"
+    },
+    {
+      "name": "manifest_NR5q3zsKHew_bind",
+      "id": "NR5q3zsKHew",
+      "samples": [
+        1440.0,
+        1455.0,
+        1470.0,
+        1485.0,
+        1500.0,
+        1515.0,
+        1530.0
+      ],
+      "sha256": "ce45fc419d8aab9300c0e60a2e9a35e764a4e862df8c2da21b7d8fa7e66b24d8"
+    },
+    {
+      "name": "manifest_NR5q3zsKHew_bones",
+      "id": "NR5q3zsKHew",
+      "samples": [
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0
+      ],
+      "sha256": "cb5aadf58ff8117ab5a3a92776f668d18ba54d92197a4c78d28249c574dbcfff"
+    },
+    {
+      "name": "manifest_NR5q3zsKHew_constraints",
+      "id": "NR5q3zsKHew",
+      "samples": [
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0,
+        360.0,
+        375.0,
+        390.0,
+        405.0,
+        420.0,
+        435.0,
+        450.0,
+        465.0,
+        480.0,
+        495.0,
+        510.0,
+        525.0,
+        540.0,
+        555.0,
+        570.0,
+        585.0,
+        600.0,
+        615.0,
+        630.0,
+        645.0,
+        660.0
+      ],
+      "sha256": "bfd2f2d05771195cad57b04a3c8910daf364f0c3fa322839173c7b3c69b6af6a"
+    },
+    {
+      "name": "manifest_NR5q3zsKHew_controls",
+      "id": "NR5q3zsKHew",
+      "samples": [
+        675.0,
+        695.0,
+        715.0,
+        735.0,
+        755.0,
+        775.0,
+        795.0,
+        815.0,
+        835.0,
+        855.0,
+        875.0,
+        895.0,
+        915.0,
+        935.0,
+        955.0,
+        975.0,
+        995.0,
+        1015.0
+      ],
+      "sha256": "da5839bdf0b1e4cd406c4cd4fc3b7874e652694dd31e4995d7d4b8fa7150f8bd"
+    },
+    {
+      "name": "manifest_NR5q3zsKHew_duplicate",
+      "id": "NR5q3zsKHew",
+      "samples": [
+        1040.0,
+        1060.0,
+        1080.0,
+        1100.0,
+        1120.0,
+        1140.0,
+        1160.0,
+        1180.0,
+        1200.0,
+        1220.0,
+        1240.0,
+        1260.0,
+        1280.0,
+        1300.0,
+        1320.0,
+        1340.0,
+        1360.0,
+        1380.0,
+        1400.0,
+        1420.0
+      ],
+      "sha256": "2c631d80124e3a645a1f7e764371e530b3fed4ab87222d01f3d2ef836af97030"
+    },
+    {
+      "name": "manifest_NR5q3zsKHew_final",
+      "id": "NR5q3zsKHew",
+      "samples": [
+        2080.0,
+        2100.0,
+        2120.0,
+        2140.0,
+        2160.0,
+        2180.0,
+        2200.0,
+        2220.0,
+        2240.0,
+        2260.0,
+        2280.0
+      ],
+      "sha256": "2a61270bbdf9e6e4d7ffa5bbe51393c3936842a6c704b0de868cfb9aec0a4297"
+    },
+    {
+      "name": "manifest_NR5q3zsKHew_overview",
+      "id": "NR5q3zsKHew",
+      "samples": [
+        0.0,
+        60.0,
+        120.0,
+        180.0,
+        240.0,
+        300.0,
+        360.0,
+        420.0,
+        480.0,
+        540.0,
+        600.0,
+        660.0,
+        720.0,
+        780.0,
+        840.0,
+        900.0,
+        960.0,
+        1020.0,
+        1080.0,
+        1140.0,
+        1200.0,
+        1260.0,
+        1320.0,
+        1380.0,
+        1440.0,
+        1500.0,
+        1560.0,
+        1620.0,
+        1680.0,
+        1740.0,
+        1800.0,
+        1860.0,
+        1920.0,
+        1980.0,
+        2040.0,
+        2100.0,
+        2160.0,
+        2220.0,
+        2280.0,
+        2284.0
+      ],
+      "sha256": "f09d0a0cf5f9bdf929e74304fd469d32a2e15450e0dec09d665daa970381f888"
+    },
+    {
+      "name": "manifest_NR5q3zsKHew_qwen",
+      "id": "NR5q3zsKHew",
+      "samples": [
+        307.5,
+        322.5,
+        337.5,
+        352.5,
+        487.5,
+        502.5,
+        517.5,
+        532.5,
+        1417.5,
+        1432.5,
+        1447.5,
+        1462.5,
+        1987.5,
+        2002.5,
+        2017.5,
+        2032.5
+      ],
+      "sha256": "645e20eeebcdb797cf3d0ceb5147c68a1526cfa178df0aa5c3f0f053b96c45ae"
+    },
+    {
+      "name": "manifest_NR5q3zsKHew_weights",
+      "id": "NR5q3zsKHew",
+      "samples": [
+        1545.0,
+        1570.0,
+        1595.0,
+        1620.0,
+        1645.0,
+        1670.0,
+        1695.0,
+        1720.0,
+        1745.0,
+        1770.0,
+        1795.0,
+        1820.0,
+        1845.0,
+        1870.0,
+        1895.0,
+        1920.0,
+        1945.0,
+        1970.0,
+        1995.0,
+        2020.0,
+        2045.0,
+        2070.0
+      ],
+      "sha256": "51f9a5cdd2c33a4c07618ca758eb8b2d6228e06795984a7648e47922eb7499fc"
+    },
+    {
+      "name": "manifest_zF61xM6fiDw_design",
+      "id": "zF61xM6fiDw",
+      "samples": [
+        90.0,
+        120.0,
+        150.0,
+        180.0,
+        210.0,
+        240.0,
+        270.0,
+        300.0,
+        330.0,
+        360.0,
+        390.0,
+        420.0,
+        450.0
+      ],
+      "sha256": "13b668fdd2c1797fe4688175cc981780b9c1c351e923c332748e7899f69bbd33"
+    },
+    {
+      "name": "manifest_zF61xM6fiDw_feet_end",
+      "id": "zF61xM6fiDw",
+      "samples": [
+        1125.0,
+        1150.0,
+        1175.0,
+        1200.0,
+        1225.0,
+        1250.0,
+        1275.0,
+        1300.0
+      ],
+      "sha256": "920d0e957512a0c5f8a53579e88b3202991f3fe51f027ca00733fa85a9ff5109"
+    },
+    {
+      "name": "manifest_zF61xM6fiDw_knuckle",
+      "id": "zF61xM6fiDw",
+      "samples": [
+        660.0,
+        675.0,
+        690.0,
+        705.0,
+        720.0,
+        735.0,
+        750.0,
+        765.0,
+        780.0,
+        795.0
+      ],
+      "sha256": "e4edeb778b6200f124e070c8133e7e4d93b971ec39d46bfa9a363f7cd18945d1"
+    },
+    {
+      "name": "manifest_zF61xM6fiDw_motifs",
+      "id": "zF61xM6fiDw",
+      "samples": [
+        810.0,
+        830.0,
+        850.0,
+        870.0,
+        890.0,
+        910.0,
+        930.0,
+        950.0,
+        970.0,
+        990.0,
+        1010.0,
+        1030.0,
+        1050.0,
+        1070.0,
+        1090.0,
+        1110.0
+      ],
+      "sha256": "8033626fade316641decaa261232d854343d2646c3e512ebf69708d84aabcdaa"
+    },
+    {
+      "name": "manifest_zF61xM6fiDw_overview",
+      "id": "zF61xM6fiDw",
+      "samples": [
+        0.0,
+        60.0,
+        120.0,
+        180.0,
+        240.0,
+        300.0,
+        360.0,
+        420.0,
+        480.0,
+        540.0,
+        600.0,
+        660.0,
+        720.0,
+        780.0,
+        840.0,
+        900.0,
+        960.0,
+        1020.0,
+        1080.0,
+        1140.0,
+        1200.0,
+        1260.0,
+        1304.0
+      ],
+      "sha256": "db40a821b0ef6a7a8f540672ef53321a5b538e38e72ab1939b1ecafb25b0a88b"
+    },
+    {
+      "name": "manifest_zF61xM6fiDw_palm",
+      "id": "zF61xM6fiDw",
+      "samples": [
+        465.0,
+        480.0,
+        495.0,
+        510.0,
+        525.0,
+        540.0,
+        555.0,
+        570.0,
+        585.0,
+        600.0,
+        615.0,
+        630.0,
+        645.0
+      ],
+      "sha256": "7af9d804bd9fde204075bfd0c742c00a1d29576c17ac9a09dbd3c439dfe60562"
+    },
+    {
+      "name": "manifest_zF61xM6fiDw_qwen",
+      "id": "zF61xM6fiDw",
+      "samples": [
+        667.5,
+        682.5,
+        697.5,
+        712.5,
+        937.5,
+        952.5,
+        967.5,
+        982.5
+      ],
+      "sha256": "dced505c1929396a80d5553aa9d2c3caa1e828950074bdca7ea23fa8a81cbc55"
+    }
+  ],
+  "frame_hash_index_sha256": "271970ebd6bfb69d53614a98464046efcaaef826f9695e52c4e67e678c178fc4",
+  "sources": [
+    {
+      "id": "8R0e0qh5wiU",
+      "title": "Modeling for Animation 04 - Building the Hands!",
+      "author": "Dikko",
+      "source": "https://www.youtube.com/watch?v=8R0e0qh5wiU",
+      "source_duration": 2037,
+      "duration": 2037.342041,
+      "bytes": 152499450,
+      "sha256": "a730ff5f3afd8169f50d308d0292da841e011b546d0615b9ce0e3c6543220e42",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "av1",
+          "width": 1920,
+          "height": 1080,
+          "duration": "2037.280000"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "2037.342041"
+        }
+      ],
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "full_audio_listened": false,
+      "caption_text_reviewed": true,
+      "unique_reviewed_source_times": 159
+    },
+    {
+      "id": "zF61xM6fiDw",
+      "title": "Best Tips for Retopologising ANY kind of hand!",
+      "author": "Dikko",
+      "source": "https://www.youtube.com/watch?v=zF61xM6fiDw",
+      "source_duration": 1305,
+      "duration": 1304.729252,
+      "bytes": 78133741,
+      "sha256": "33f3b1f7a9f176b3866052b7339c6235a13019c8b1f610a5cb9342cd9d41d534",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "av1",
+          "width": 1920,
+          "height": 1080,
+          "duration": "1304.666667"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "1304.729252"
+        }
+      ],
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "full_audio_listened": false,
+      "caption_text_reviewed": true,
+      "unique_reviewed_source_times": 78
+    },
+    {
+      "id": "NR5q3zsKHew",
+      "title": "CGC Classic: Rigging Fingers (Blender 2.6)",
+      "author": "CG Cookie – Learn Blender",
+      "source": "https://www.youtube.com/watch?v=NR5q3zsKHew",
+      "source_duration": 2285,
+      "duration": 2284.588118,
+      "bytes": 136483507,
+      "sha256": "6ff6f7cc04a766e58e787dcbdfa65ca0aea14af0c67f75f9a1182392841ed100",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "duration": "2284.500000"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "duration": "2284.588118"
+        }
+      ],
+      "rights": "Locally reviewed creator video; no raw media redistribution or asset ownership assumed",
+      "full_audio_listened": false,
+      "caption_text_reviewed": true,
+      "unique_reviewed_source_times": 156
+    }
+  ],
+  "captions": [
+    {
+      "id": "8R0e0qh5wiU",
+      "vtt_sha256": "a8030ffbacbcec865f51074ed4b933c3ef908b4951d29bb8bcdd416fdd886ded",
+      "raw_bytes": 266675,
+      "timed_new_text_rows": 745,
+      "first": 2.6390000000000002,
+      "last": 2029.039,
+      "read_entire_cleaned_text": true,
+      "type": "YouTube automatic English, not human verified or direct audio listening",
+      "direct_full_audio_listening": false
+    },
+    {
+      "id": "NR5q3zsKHew",
+      "vtt_sha256": "d6a76e8c8e76c27761488af42dc90b50c0c2e3cb5e1e3a6717b373cba34c664c",
+      "raw_bytes": 310197,
+      "timed_new_text_rows": 841,
+      "first": 5.75,
+      "last": 2262.82,
+      "read_entire_cleaned_text": true,
+      "type": "YouTube automatic English, not human verified or direct audio listening",
+      "direct_full_audio_listening": false
+    },
+    {
+      "id": "zF61xM6fiDw",
+      "vtt_sha256": "d844f8dc5135c5e2c1110fd2b0f2c620a099b150d274a5395fa686e60fcfafab",
+      "raw_bytes": 184775,
+      "timed_new_text_rows": 521,
+      "first": 10.08,
+      "last": 1301.12,
+      "read_entire_cleaned_text": true,
+      "type": "YouTube automatic English, not human verified or direct audio listening",
+      "direct_full_audio_listening": false
+    }
+  ],
+  "caption_limits": "Public en-orig automatic VTT, de-duplicated timed-word text read start to last valid line; early intro may be omitted; not human verified, exact angles not trusted",
+  "qwen": {
+    "model_tags": [
+      {
+        "name": "qwen3-vl:4b-instruct",
+        "digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318"
+      }
+    ],
+    "calls": [
+      {
+        "id": "8R0e0qh5wiU",
+        "start": 570,
+        "end": 630,
+        "source_sample_seconds": [
+          577.5,
+          592.5,
+          607.5,
+          622.5
+        ],
+        "output": "qwen_8R0e0qh5wiU_570_630.json",
+        "clip": "clip_8R0e0qh5wiU_570_630.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "82fd188b5ea5b73eb96de4980634f3cd72143f356871983ed8c350b2398325b0",
+        "clip_sha256": "445ab9fd8297ec2dc2907ffaf2410bebd0cd42f35cfb0a44b43e2f165a242cd0",
+        "observation_count": 4,
+        "text_observations": 4,
+        "all_have_uncertain_field": false,
+        "role": "secondary visual cue only; manually corrected"
+      },
+      {
+        "id": "8R0e0qh5wiU",
+        "start": 1150,
+        "end": 1210,
+        "source_sample_seconds": [
+          1157.5,
+          1172.5,
+          1187.5,
+          1202.5
+        ],
+        "output": "qwen_8R0e0qh5wiU_1150_1210.json",
+        "clip": "clip_8R0e0qh5wiU_1150_1210.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "1e8a58cb7dcab2d9ccdf2f741ba00a73776117d90f19dd9ec6f84fdd82b95852",
+        "clip_sha256": "2172f9747df7ec1d524e54741fe86b63b4baf6d31dfca80d20c93abeab17140e",
+        "observation_count": 4,
+        "text_observations": 4,
+        "all_have_uncertain_field": false,
+        "role": "secondary visual cue only; manually corrected"
+      },
+      {
+        "id": "8R0e0qh5wiU",
+        "start": 1630,
+        "end": 1690,
+        "source_sample_seconds": [
+          1637.5,
+          1652.5,
+          1667.5,
+          1682.5
+        ],
+        "output": "qwen_8R0e0qh5wiU_1630_1690.json",
+        "clip": "clip_8R0e0qh5wiU_1630_1690.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "519d38eee934bdbbff5b10b28fc5a22600459448d756984dd3afbee64c79dbcd",
+        "clip_sha256": "bebf65d0a49390140ba8e4fddf78881c29812e4e14f7f6e4221f3a42c9660bb8",
+        "observation_count": 4,
+        "text_observations": 4,
+        "all_have_uncertain_field": false,
+        "role": "secondary visual cue only; manually corrected"
+      },
+      {
+        "id": "zF61xM6fiDw",
+        "start": 660,
+        "end": 720,
+        "source_sample_seconds": [
+          667.5,
+          682.5,
+          697.5,
+          712.5
+        ],
+        "output": "qwen_zF61xM6fiDw_660_720.json",
+        "clip": "clip_zF61xM6fiDw_660_720.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "af4f3b5382065387aa48a8a34e70830b487bd10da47c4ca25f36da6c9fe9dd89",
+        "clip_sha256": "6a4a44c78543529c8b4a51c07e4130387e0d22e318a854e026e2075d8a18011b",
+        "observation_count": 4,
+        "text_observations": 4,
+        "all_have_uncertain_field": false,
+        "role": "secondary visual cue only; manually corrected"
+      },
+      {
+        "id": "zF61xM6fiDw",
+        "start": 930,
+        "end": 990,
+        "source_sample_seconds": [
+          937.5,
+          952.5,
+          967.5,
+          982.5
+        ],
+        "output": "qwen_zF61xM6fiDw_930_990.json",
+        "clip": "clip_zF61xM6fiDw_930_990.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "2609f6067359c0a561fb83ca98c734e741deee3fa9265b4948ad1d99b8f590be",
+        "clip_sha256": "e65a4ad9ea2c2ab2cecc4a739b6185dbf00b83721be38db111cc1e36062c4042",
+        "observation_count": 4,
+        "text_observations": 4,
+        "all_have_uncertain_field": false,
+        "role": "secondary visual cue only; manually corrected"
+      },
+      {
+        "id": "NR5q3zsKHew",
+        "start": 300,
+        "end": 360,
+        "source_sample_seconds": [
+          307.5,
+          322.5,
+          337.5,
+          352.5
+        ],
+        "output": "qwen_NR5q3zsKHew_300_360.json",
+        "clip": "clip_NR5q3zsKHew_300_360.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "cc04b371215723485d32223aacdd1abb287bf537fcf67bc0245b1c876ef558a8",
+        "clip_sha256": "c266b721c4a4d7e37b4ddd5e1bd937830a1527ab3839f4c506f666b6e22c71f9",
+        "observation_count": 4,
+        "text_observations": 4,
+        "all_have_uncertain_field": false,
+        "role": "secondary visual cue only; manually corrected"
+      },
+      {
+        "id": "NR5q3zsKHew",
+        "start": 480,
+        "end": 540,
+        "source_sample_seconds": [
+          487.5,
+          502.5,
+          517.5,
+          532.5
+        ],
+        "output": "qwen_NR5q3zsKHew_480_540.json",
+        "clip": "clip_NR5q3zsKHew_480_540.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "30875a64fddb73190166770b56527f07d7c5dde8feb79c4f816df72ae455ac35",
+        "clip_sha256": "1706e880da4b89f0582ce7e8ee0c54aba5c00de55e94578421959638be39fba8",
+        "observation_count": 4,
+        "text_observations": 0,
+        "all_have_uncertain_field": false,
+        "role": "secondary visual cue only; manually corrected"
+      },
+      {
+        "id": "NR5q3zsKHew",
+        "start": 1410,
+        "end": 1470,
+        "source_sample_seconds": [
+          1417.5,
+          1432.5,
+          1447.5,
+          1462.5
+        ],
+        "output": "qwen_NR5q3zsKHew_1410_1470.json",
+        "clip": "clip_NR5q3zsKHew_1410_1470.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "c2265f5ae80d06f4f40f42af11e6d8fba647f32c729067587456e3b31d1e4098",
+        "clip_sha256": "33c442c2fdc5f07ac3c26e50ddb99ed22754c56d469af1f2aef73466dd63d0ec",
+        "observation_count": 4,
+        "text_observations": 4,
+        "all_have_uncertain_field": false,
+        "role": "secondary visual cue only; manually corrected"
+      },
+      {
+        "id": "NR5q3zsKHew",
+        "start": 1980,
+        "end": 2040,
+        "source_sample_seconds": [
+          1987.5,
+          2002.5,
+          2017.5,
+          2032.5
+        ],
+        "output": "qwen_NR5q3zsKHew_1980_2040.json",
+        "clip": "clip_NR5q3zsKHew_1980_2040.mp4",
+        "done": true,
+        "done_reason": "stop",
+        "local_only": true,
+        "response_sha256": "111471ffd16e2cd9be85e7a9dc2fcf2437d009c12a4ebd3230a66e5bb85dea3d",
+        "clip_sha256": "503b11df280aa870a5e840bac11927d7ec4cb85f4b30b4f952835b9c4f5b8042",
+        "observation_count": 4,
+        "text_observations": 4,
+        "all_have_uncertain_field": false,
+        "role": "secondary visual cue only; manually corrected"
+      }
+    ],
+    "calls_completed": 9,
+    "four_observation_arrays": 9,
+    "text_arrays": 8,
+    "boolean_only_arrays_rejected": 1,
+    "fully_requested_schema_calls": 0,
+    "corrections": [
+      "Build 570: view angle mistaken for curled fingers; navigation keys do not prove scaling",
+      "Build 1150: rendered mesh preview called rig/bone; black camera shape called support plane; reject",
+      "Build 1630: visible bones missed, constraint presence invented, mode guessed; read direct frame instead",
+      "Retopo 660: material colors and annotation mistaken for active topology editing; reject",
+      "Retopo 930: extreme close-up called empty viewport; read nearby frames",
+      "CGC 480: visible=true only, no semantic analysis; reject all four",
+      "CGC 1410: custom shapes called influence lines, panels conflated; reject exact field claims",
+      "CGC 1980: weight-paint identification broadly matches, brush/group names require native read; no numerical values accepted",
+      "All calls omit requested uncertain field; no schema-complete analysis or quality PASS claimed"
+    ]
+  },
+  "framelens": [
+    {
+      "id": "8R0e0qh5wiU",
+      "response_sha256": "d57e04d5f7c3222c626b7cee4a1c4d99c643fcf91f396e084c902533c42ec22d",
+      "shots": 1,
+      "semantic_all_null": true,
+      "role": "shot and numeric metrics only; not workflow understanding"
+    },
+    {
+      "id": "NR5q3zsKHew",
+      "response_sha256": "fc4c40bac31ed3a2130ce4589687372d635760cfae0b676c5533b6467ceaf58e",
+      "shots": 1,
+      "semantic_all_null": true,
+      "role": "shot and numeric metrics only; not workflow understanding"
+    },
+    {
+      "id": "zF61xM6fiDw",
+      "response_sha256": "0a0ef5b6fbc29b353e7c4ec3f3f135cf7c4864b6753f300b8f8ed508ffde6fce",
+      "shots": 1,
+      "semantic_all_null": true,
+      "role": "shot and numeric metrics only; not workflow understanding"
+    }
+  ],
+  "browser": {
+    "tool": "ego-browser",
+    "space": 33,
+    "finished_once": true,
+    "other_spaces_accessed": false,
+    "software_updated": false,
+    "pages_read": "Three creator YouTube titles/descriptions plus five official Blender5.2 manual pages"
+  },
+  "official_docs_read": [
+    "https://docs.blender.org/manual/en/5.2/animation/constraints/transform/copy_rotation.html",
+    "https://docs.blender.org/manual/en/5.2/animation/armatures/bones/editing/bone_roll.html",
+    "https://docs.blender.org/manual/en/5.2/animation/armatures/skinning/parenting.html",
+    "https://docs.blender.org/manual/en/5.2/animation/armatures/properties/bone_collections.html",
+    "https://docs.blender.org/manual/en/5.2/animation/armatures/bones/properties/display.html"
+  ],
+  "download_limits": "Existing yt-dlp/FFmpeg only, public video and auto captions, no login/paywall bypass, paid course, new installation, model download or paid API",
+  "not_run": [
+    "Claude/Painter status, connection, testing or restart",
+    "live Blender query, claim, import, mesh/UV/texture/material edits",
+    "live rigging, shape keys, animation, export or render",
+    "Mixamo upload or current service verification",
+    "independent production QA or engine skinning validation"
+  ],
+  "production_state": "No production app or asset accessed or modified; prior project status not changed",
+  "raw_media_captures_transcripts_and_ai_payload_published": false,
+  "raw_local_evidence_location": "Local ignored hand-learning-20261031 and VideoTutorials/Hands_20261031; absolute machine paths omitted",
+  "file_hashes_scope": "Source training snapshot; public sanitized file hashes belong to PUBLIC_MANIFEST.json",
+  "validation": {
+    "UTF8_LF": true,
+    "relative_links": 40,
+    "scope_files": [
+      "docs/HAND_FINGER_WORKFLOW.md",
+      "docs/HAND_BUILDING.md",
+      "docs/HAND_RETOPOLOGY.md",
+      "docs/HAND_FINGER_RIGGING.md",
+      "docs/assets/hand-topology/hand-deformation-pipeline.svg",
+      "reports/VideoLearning/20261031_HAND_COURSES_REVIEW.md",
+      "reports/VideoLearning/20261031_HAND_COURSES_VERIFICATION.json",
+      "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md"
+    ],
+    "existing_manual_only_one_reference_added": true,
+    "protected_manuals_byte_unchanged": [
+      "docs/FACE_ORAL_STRUCTURE.md",
+      "docs/FACE_EYELID_SHAPE_KEYS.md",
+      "docs/FACE_EYELID_VOLUME.md",
+      "docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md",
+      "docs/PAINTER_CHARACTER_WORKFLOW.md",
+      "docs/PAINTER_STYLIZED_CHARACTER.md",
+      "docs/PAINTER_SKIN_LAYERS.md",
+      "docs/PAINTER_TO_BLENDER.md"
+    ],
+    "SVG_XML_valid": true,
+    "SVG_rendered_locally_and_visually_reviewed": true,
+    "raw_evidence_ignored": true,
+    "independent_PASS": false
+  },
+  "original_training_snapshot_files": [
+    {
+      "path": "docs/HAND_FINGER_WORKFLOW.md",
+      "bytes": 7304,
+      "sha256": "b6745ec9b01d26d8a789fd7b32f884873674cfccc29999f3ab3059259d86f0ec"
+    },
+    {
+      "path": "docs/HAND_BUILDING.md",
+      "bytes": 9689,
+      "sha256": "c5ad1e47eaba2274d95cb16b17ae407fedef29789ada3b9efcda17621fc936a1"
+    },
+    {
+      "path": "docs/HAND_RETOPOLOGY.md",
+      "bytes": 7997,
+      "sha256": "e0d3b969c1e0bbdf887d4a39b16b9c57c7f60a965dbe839fd2289f346f1bff20"
+    },
+    {
+      "path": "docs/HAND_FINGER_RIGGING.md",
+      "bytes": 12835,
+      "sha256": "da0316fd298a9664f7bdb328374bd2802a08b4f381dd371751bc3defc915047e"
+    },
+    {
+      "path": "docs/assets/hand-topology/hand-deformation-pipeline.svg",
+      "bytes": 6353,
+      "sha256": "627841cfba6bc213e9fc5e6d4564adb0a8d9e5d227ee7a44bdd63dfcb920a298"
+    },
+    {
+      "path": "reports/VideoLearning/20261031_HAND_COURSES_REVIEW.md",
+      "bytes": 13956,
+      "sha256": "799b815379faad61e98a362aecda9006de299a720b203ff4739b649ea72adfca"
+    },
+    {
+      "path": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+      "bytes": 28589,
+      "sha256": "4970a6887b5d8341281e6273079af7bb324237f25de2fa22c728a7a288a909c8"
+    }
+  ],
+  "public_export_notice": "Local evidence locations and private project state omitted. Original training snapshot hashes describe source-time review; PUBLIC_MANIFEST.json contains current public file hashes."
+}

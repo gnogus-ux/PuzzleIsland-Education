@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040" role="img" aria-labelledby="title desc">
+<title id="title">Hand topology and deformation study pipeline</title>
+<desc id="desc">Original conceptual diagram: palm volumes, finger bend zones, separate control and deform bones, and production verification gates. No tutorial frame or approved character is reproduced.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#506078" stroke-width="1.5"/></marker></defs>
+<rect width="1440" height="1040" fill="#f4f7fc"/>
+<g font-family="Arial, sans-serif" fill="#172843">
+<text x="48" y="60" font-size="32" font-weight="700">HAND: FORM → FLOW → CONTROL → WEIGHTS → CHECK</text>
+<text x="48" y="94" font-size="18">Original teaching schematic · proportions and loop counts are illustrative · no production test performed</text>
+<rect x="40" y="125" width="650" height="540" rx="20" fill="white" stroke="#d5dfed"/>
+<text x="66" y="163" font-size="23" font-weight="700">1 / Palm volumes and motion paths</text>
+<path d="M252 598 L227 506 Q195 463 154 423 Q132 396 149 378 Q165 363 188 385 L229 420 L218 307 Q216 280 236 279 Q257 279 259 306 L268 379 L271 251 Q271 224 291 224 Q313 224 312 252 L315 374 L329 262 Q332 240 352 243 Q371 247 368 269 L357 385 L383 307 Q389 286 407 294 Q424 301 418 320 L385 458 Q372 510 350 539 L343 598 Z" fill="#e8eff8" stroke="#425878" stroke-width="3"/>
+<ellipse cx="239" cy="470" rx="44" ry="61" transform="rotate(-30 239 470)" fill="#66c9b4" opacity=".75"/>
+<ellipse cx="346" cy="476" rx="28" ry="55" transform="rotate(12 346 476)" fill="#f8c669" opacity=".8"/>
+<path d="M268 430 Q294 416 322 432 L321 495 Q292 516 270 485Z" fill="#b7c9ea"/>
+<g stroke="#8a9db8" stroke-width="2" fill="none"><path d="M232 435 Q278 407 363 422"/><path d="M242 459 Q285 434 357 445"/><path d="M255 544 Q293 530 349 544"/><path d="M256 569 L345 569"/><path d="M259 379 L232 386"/><path d="M272 348 L313 348"/><path d="M272 329 L313 329"/><path d="M322 350 L361 354"/><path d="M381 359 L408 368"/></g>
+<path d="M207 468 Q244 414 289 446" stroke="#1c987c" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+<path d="M249 524 Q287 557 339 520" stroke="#d28b24" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+<text x="77" y="242" font-size="18">Thumb base</text><path d="M166 249 L219 419" stroke="#506078" marker-end="url(#arrow)" fill="none"/>
+<text x="442" y="290" font-size="18">Finger webs:</text><text x="442" y="315" font-size="18">room to spread</text><path d="M439 327 L363 403" stroke="#506078" marker-end="url(#arrow)" fill="none"/>
+<text x="434" y="464" font-size="18">Palm hollow</text><path d="M426 470 L321 464" stroke="#506078" marker-end="url(#arrow)" fill="none"/>
+<text x="431" y="539" font-size="18">Outer palm pad</text><path d="M422 537 L369 494" stroke="#506078" marker-end="url(#arrow)" fill="none"/>
+<text x="77" y="634" font-size="17">Preserve silhouette; plan wrist connections before adding density.</text>
+<rect x="716" y="125" width="684" height="255" rx="20" fill="white" stroke="#d5dfed"/>
+<text x="742" y="163" font-size="23" font-weight="700">2 / Bend: outer stretch, inner compression</text>
+<path d="M759 271 L922 271 Q955 271 975 300 L1012 352" stroke="#445e81" stroke-width="42" fill="none" stroke-linecap="round"/>
+<path d="M758 247 L918 247 Q971 246 996 285 L1030 336" stroke="#dd8454" stroke-width="4" fill="none"/>
+<path d="M758 295 L915 295 Q937 294 946 313 L978 360" stroke="#368eac" stroke-width="4" fill="none"/>
+<g stroke="#e6edf8" stroke-width="3"><path d="M887 250 L887 291"/><path d="M914 250 L914 291"/><path d="M938 255 L928 295"/><path d="M959 266 L938 303"/><path d="M977 284 L947 315"/></g>
+<text x="1086" y="240" font-size="18" fill="#b15b2f">Keep outer volume</text><text x="1086" y="277" font-size="18" fill="#22738e">Avoid inner pinching</text><text x="1086" y="323" font-size="17">Axis + weights + topology</text><text x="1086" y="347" font-size="17">must be diagnosed together.</text>
+<rect x="716" y="402" width="684" height="263" rx="20" fill="white" stroke="#d5dfed"/>
+<text x="742" y="440" font-size="23" font-weight="700">3 / Display control ≠ skin deformation</text>
+<rect x="754" y="465" width="210" height="60" rx="12" fill="#e7e2fb" stroke="#907ac2"/><text x="779" y="491" font-size="19">CONTROL bone</text><text x="779" y="515" font-size="16">Deform OFF</text>
+<path d="M973 494 L1050 494" stroke="#506078" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1057" y="484" font-size="18">Copy Rotation</text><text x="1057" y="508" font-size="16">target / spaces / mix / axes</text>
+<g fill="#d8eaf8" stroke="#4b7799" stroke-width="2"><path d="M769 569 L830 545 L859 569 L830 582Z"/><path d="M859 569 L920 545 L949 569 L920 582Z"/><path d="M949 569 L1010 545 L1039 569 L1010 582Z"/></g>
+<text x="1065" y="569" font-size="18">DEFORM chain → weights</text><text x="754" y="626" font-size="17">Custom shapes change display; automatic weights still need checks.</text>
+<rect x="40" y="690" width="1360" height="307" rx="20" fill="#172843"/>
+<g fill="#f4f7fc"><text x="66" y="731" font-size="23" font-weight="700">4 / Production gates — a plan, not a completed test</text>
+<text x="78" y="784" font-size="21">Reference + Guide</text><text x="385" y="784" font-size="21">Separate candidate</text><text x="718" y="784" font-size="21">Same-view comparison</text><text x="1097" y="784" font-size="21">Save + reopen</text>
+<text x="78" y="817" font-size="17">Boundaries / landmarks</text><text x="385" y="817" font-size="17">Preserve original data</text><text x="718" y="817" font-size="17">Solid + wire / neutral + posed</text><text x="1097" y="817" font-size="17">Record remaining issues</text>
+<path d="M289 775 L355 775 M608 775 L686 775 M1008 775 L1065 775" stroke="#92a6c4" stroke-width="2"/>
+<text x="78" y="886" font-size="20">When rigging is authorized: spread → half curl → fist → thumb contact → grip → reset</text>
+<text x="78" y="931" font-size="18">Report PASS / PARTIAL / FAIL / NOT RUN per test. A smooth neutral hand is not proof of finished weights.</text>
+<text x="78" y="967" font-size="17">This SVG is an educational diagram; it does not replace an actual Blender Guide collection.</text></g>
+</g></svg>

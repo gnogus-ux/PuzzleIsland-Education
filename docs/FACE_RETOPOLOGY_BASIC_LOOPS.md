@@ -196,6 +196,7 @@ v021은 실제 RF Strokes에 가이드 곡선을 프로그램 입력해 생성�
 - Dikko, [ULTIMATE Character Modelling - Part 6](https://www.youtube.com/watch?v=DJbU_WfR2Z0) — [후속 흐름 지도·관련 구간 상세 대조](FACE_RETOPOLOGY_SECOND_TUTORIAL.md).90분 전부를 연속·상세 시청했다는 뜻은 아님.
 - Animator Artist Life, [구강구조 목록1번 — Maya 치아·잇몸·혀 강좌](https://www.youtube.com/watch?v=zXQ53eA_-3U) — [구강구조 매뉴얼과 Blender 대응](FACE_ORAL_STRUCTURE.md). 고유142장 표본 학습이며 루미 구강 제작·임포트·리깅은 미실행.
 - [Painter 세 강좌 연결 매뉴얼](PAINTER_CHARACTER_WORKFLOW.md) — 스타일 캐릭터·Adobe 피부 10개 수업·Blender 출력의 고유336개 시점 표본 학습. 실제 루미 텍스처 제작이나 연결 테스트 완료가 아님.
+- [손·손가락 세 강좌 연결 매뉴얼](HAND_FINGER_WORKFLOW.md) — 기본형·면 흐름·리깅과 가중치의 전체 흐름 표본 분석. 실제 캐릭터의 손 수정·변형 검증은 미실행.
 - 공식 [RF 시작](https://docs.retopoflow.com/v3/quick_start.html), [PolyPen](https://docs.retopoflow.com/v3/polypen.html), [Strokes](https://docs.retopoflow.com/v3/strokes.html), [Blender Mirror](https://docs.blender.org/manual/en/5.0/modeling/modifiers/generate/mirror.html).
 
 강좌 영상·음성·화면 캡처는 로컬 검토용으로만 보존했다. Git에는 이 자체 요약, 직접 제작한 SVG와 표본/검증 기록만 게시한다.
