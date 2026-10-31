@@ -1,12 +1,12 @@
-# 캐릭터 아트 교육 매뉴얼
+# 게임 제작 · 캐릭터 아트 교육 매뉴얼
 
-Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕으로 작성한 한국어 재사용 교육자료입니다. 이 저장소는 공개 교육 문서 전용입니다.
+Unity 매치3·Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕으로 작성한 한국어 재사용 교육자료입니다. 이 저장소는 공개 교육 문서 전용입니다.
 
 ## 다른 GPT에서 사용하기
 
 다음 저장소 주소를 전달하고 이렇게 요청하세요.
 
-> README와 해당 주제의 docs 문서, reports/VideoLearning 학습 범위를 읽어줘. 영상에서 직접 확인한 내용·제작 원리·프로젝트 적용 제안·미검증 사항을 구분해줘. 교육 완료를 실제 에셋 제작·리깅 검증 완료로 취급하지 마.
+> README와 해당 주제의 docs 문서, reports/VideoLearning 학습 범위를 읽어줘. 영상에서 직접 확인한 내용·제작 원리·프로젝트 적용 제안·미검증 사항을 구분해줘. 교육 완료를 실제 게임/에셋 제작·엔진/리깅 검증 완료로 취급하지 마.
 
 **전체 링크:** https://github.com/gnogus-ux/PuzzleIsland-Education
 
@@ -31,13 +31,21 @@ Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕으로 작성한
 | 몸통·팔다리·목 면 흐름 | [전신 리토폴로지](docs/BODY_RETOPOLOGY.md) |
 | 어깨·골반·팔꿈치·무릎 볼륨 | [관절 볼륨 보강](docs/BODY_JOINT_VOLUME.md) |
 | 게임용 몸·손발 연결 | [게임 베이스 메시](docs/BODY_GAME_BASE_MESH.md) |
+| 매치3 전체 흐름·출처 | [매치3 교육 시작점](docs/MATCH3_WORKFLOW.md) |
+| 매치3 데이터·좌표·입력 | [보드와 입력](docs/MATCH3_BOARD_INPUT.md) |
+| 제거·낙하·특수·장애물 | [해결 루프](docs/MATCH3_RESOLUTION_SPECIALS.md) |
+| 목표·레벨·저장·시험 | [레벨과 검증](docs/MATCH3_LEVEL_SAVE_QA.md) |
+| 네 자료의 구현·누락 비교 | [자료별 비교](docs/MATCH3_SOURCE_COMPARISON.md) |
+| Taft Unity/C# 실제65편 | [회차별 학습 색인](docs/MATCH3_TAFT_EPISODES.md) |
+| Unity6.3 적용 전 확인 | [호환 대조 목록·공식재확인 미완료](docs/MATCH3_UNITY6_COMPATIBILITY.md) |
 
 자체 도식은 docs/assets/, 강좌별 실제 확인 범위와 오류 교정·미확인 사항은 [reports/VideoLearning](reports/VideoLearning)에 있습니다.
 
 ## 포함 범위
 
-- 2026-10-31 게시 완료된 매뉴얼 17개, 자체 SVG 도식 10개, 학습 보고서와 검증 기록을 포함합니다.
+- 2026-11-01 기준 매뉴얼 24개, 자체 SVG 도식 12개, 학습 보고서와 검증 기록을 포함합니다.
 - 손·손가락 세 강좌의 전체 흐름 표본·공개 자동 자막 분석을 추가했습니다. 고유393개 시점과 핵심 UI 확대24장을 확인했으며, 실제 모델 제작·리깅 검증은 수행하지 않았습니다. 전신 세 강좌도 전체 흐름과 주요 제작 구간을 분석해 추가했습니다. 전신은 고유497개 시점·원본 크기 UI30장을 대조했으며, 실제 캐릭터 변경·변형·엔진 검증은 미실행입니다.
+- 매치3는 Taft Unity/C# 실제65편·Winterbolt1편·git-amend 공개3편(영상69편), Catlike 전체 글/FAQ와 제작자 C#7개를 분석했습니다. 고유2,094시점·472시트·135단독프레임(추출 폭1280)과 전편 정제 자동자막을 대조했습니다. Unity/Android 실행은 하지 않았고 Unity6.3 공식 웹 재대조는 미완료로 표시했습니다.
 - 강좌 원본 영상·음성·대량 캡처·외부 에셋·캐릭터 모델·텍스처·AI 요청 데이터는 포함하지 않습니다. 원 강좌의 링크와 제작자 정보는 각 문서에 있습니다.
 - 공개본은 로컬 PC의 증거 파일 경로를 생략했습니다. 검증 JSON의 원본 스냅샷 해시는 교육 당시 자료를 가리키며, 이 공개본 파일 해시는 PUBLIC_MANIFEST.json에서 확인합니다.
 - 문서와 도식의 검토·학습 범위는 실제 모델 제작 성공이나 독립 검수 통과를 보장하지 않습니다. 앱 버전이 다른 조작은 적용 전 확인하세요.
