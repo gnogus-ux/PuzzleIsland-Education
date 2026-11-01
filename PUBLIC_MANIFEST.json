@@ -3,7 +3,7 @@
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
   "manuals": 46,
   "diagrams": 16,
-  "checked_local_links": 358,
+  "checked_local_links": 360,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
   "export_changes": [
     "Local absolute evidence paths omitted",
@@ -18,7 +18,8 @@
     "Added seven modular-map manuals, two original diagrams, five-course time index and study verification (446 unique sampled points; four complete cleaned automatic-caption texts; one source without captions). Public repository is sole education canonical source, with single-writer and migration rules. No raw media, private assets or new private Git references. Live app and device QA not run.",
     "Added six wallet/photo-to-3D manuals, 12-page and 10-page original-text PDF/DOCX/HTML editions, and sanitized 15-course study evidence. Private product state and local paths omitted; no source media or transcript republished.",
     "Completed canonical library migration audit: all 73 prior Puzzle education paths accounted for; 146 verified duplicate copies removed from two checkouts after remote body/hash checks. Private evidence and production files preserved; only canonical links remain in development docs. Wallet batch and existing 104 manifest entries preserved.",
-    "Added shared installed-tool inventory and preflight policy based on provided local verification evidence; installation/execution/unavailable/held states separated. No new app tests or installation. Existing education and migration entries preserved."
+    "Added shared installed-tool inventory and preflight policy based on provided local verification evidence; installation/execution/unavailable/held states separated. No new app tests or installation. Existing education and migration entries preserved.",
+    "Added explicit manual preflight: inspect library/topic manuals first; request missing topics, insufficient content or version evidence before unapproved learning/production. Already approved study continues without duplicate approval questions. Installation holds preserved."
   ],
   "files": [
     {
@@ -28,8 +29,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10310,
-      "sha256": "72ddd461806672e079841f6fd9dbd342ca6a445649f3d0495652e69ff8410ba0"
+      "bytes": 10653,
+      "sha256": "c8796ca121d7558538e045e6bbaa72cffb106920fca3a6f3c2b84f35e3095bc1"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -403,8 +404,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 3003,
-      "sha256": "2c9b0a3dfec9d11697acc9e2b4c3a81541fbc65d897eee2eaec9b29f658ef38d"
+      "bytes": 3497,
+      "sha256": "6e715c30cac9bf9a6fdf3fa0f79b967304c729c439c6282d47cd38e9e7b05497"
     },
     {
       "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
@@ -558,8 +559,8 @@
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
-      "bytes": 2115,
-      "sha256": "295b13a2dc987af9f7864896c536057f186d63bda22b12c642d3768003f82335"
+      "bytes": 2846,
+      "sha256": "6a64c9d1bb7dcc87675df222fe455bebe61b7270de509cf38c8647d8f69c62da"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
