@@ -1,0 +1,835 @@
+{
+  "courses": [
+    {
+      "id": "SgEbUgA7jVo",
+      "title": "Modular Environment Design with Blender (Resources)",
+      "author": "Curtis Holt",
+      "url": "https://www.youtube.com/watch?v=SgEbUgA7jVo",
+      "duration_seconds": 525,
+      "index_type": "Authored study-stage ranges; creator chapters preserved separately where available",
+      "creator_chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro",
+          "end_time": 28
+        },
+        {
+          "start_time": 28,
+          "title": "Modular Design",
+          "end_time": 203
+        },
+        {
+          "start_time": 203,
+          "title": "Distribution of Details",
+          "end_time": 296
+        },
+        {
+          "start_time": 296,
+          "title": "Immersive realism",
+          "end_time": 339
+        },
+        {
+          "start_time": 339,
+          "title": "Signage",
+          "end_time": 352
+        },
+        {
+          "start_time": 352,
+          "title": "Asymmetry",
+          "end_time": 368
+        },
+        {
+          "start_time": 368,
+          "title": "Story Elements",
+          "end_time": 418
+        },
+        {
+          "start_time": 418,
+          "title": "Post Processing",
+          "end_time": 477
+        },
+        {
+          "start_time": 477,
+          "title": "Outro",
+          "end_time": 525
+        }
+      ],
+      "stages": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 28,
+          "topic": "강좌 범위: 게임 타일 제작 실습과 개념 설명 구별",
+          "url": "https://www.youtube.com/watch?v=SgEbUgA7jVo&t=0s"
+        },
+        {
+          "start_seconds": 28,
+          "end_seconds": 120,
+          "topic": "그리드·2×2×2m 예시·서로 호환되는 접합",
+          "url": "https://www.youtube.com/watch?v=SgEbUgA7jVo&t=28s"
+        },
+        {
+          "start_seconds": 120,
+          "end_seconds": 203,
+          "topic": "중첩 조립·구조/기능/스토리 디테일 구분",
+          "url": "https://www.youtube.com/watch?v=SgEbUgA7jVo&t=120s"
+        },
+        {
+          "start_seconds": 203,
+          "end_seconds": 296,
+          "topic": "크기별 디테일 배분·긴 배관으로 반복 끊기",
+          "url": "https://www.youtube.com/watch?v=SgEbUgA7jVo&t=203s"
+        },
+        {
+          "start_seconds": 296,
+          "end_seconds": 339,
+          "topic": "사실적 표현과 몰입을 구별",
+          "url": "https://www.youtube.com/watch?v=SgEbUgA7jVo&t=296s"
+        },
+        {
+          "start_seconds": 339,
+          "end_seconds": 368,
+          "topic": "표지·비대칭으로 장소 차이",
+          "url": "https://www.youtube.com/watch?v=SgEbUgA7jVo&t=339s"
+        },
+        {
+          "start_seconds": 368,
+          "end_seconds": 418,
+          "topic": "빛과 대비를 이용한 스토리 강조",
+          "url": "https://www.youtube.com/watch?v=SgEbUgA7jVo&t=368s"
+        },
+        {
+          "start_seconds": 418,
+          "end_seconds": 477,
+          "topic": "컴포지터·이미지 보정: 런타임 조명과 별개",
+          "url": "https://www.youtube.com/watch?v=SgEbUgA7jVo&t=418s"
+        },
+        {
+          "start_seconds": 477,
+          "end_seconds": 525,
+          "topic": "정리·외부 리소스 안내: 다운로드하지 않음",
+          "url": "https://www.youtube.com/watch?v=SgEbUgA7jVo&t=477s"
+        }
+      ]
+    },
+    {
+      "id": "DCEvFtrQCNw",
+      "title": "Modular Dungeons in Blender 4.x - Ep. 129",
+      "author": "Imphenzia",
+      "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw",
+      "duration_seconds": 3619,
+      "index_type": "Authored study-stage ranges; creator chapters preserved separately where available",
+      "creator_chapters": [
+        {
+          "start_time": 0,
+          "title": "Welcome back and challenge",
+          "end_time": 105
+        },
+        {
+          "start_time": 105,
+          "title": "Game development update",
+          "end_time": 431
+        },
+        {
+          "start_time": 431,
+          "title": "Discord community and premieres",
+          "end_time": 757
+        },
+        {
+          "start_time": 757,
+          "title": "Dungeon project concept",
+          "end_time": 1137
+        },
+        {
+          "start_time": 1137,
+          "title": "Modeling dungeon assets",
+          "end_time": 1774
+        },
+        {
+          "start_time": 1774,
+          "title": "Asset testing and assembly",
+          "end_time": 2045
+        },
+        {
+          "start_time": 2045,
+          "title": "Advanced asset variations",
+          "end_time": 3020
+        },
+        {
+          "start_time": 3020,
+          "title": "Dungeon scene and wrap up",
+          "end_time": 3619
+        }
+      ],
+      "stages": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 105,
+          "topic": "소개",
+          "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw&t=0s"
+        },
+        {
+          "start_seconds": 105,
+          "end_seconds": 431,
+          "topic": "기존 게임 개발 홍보·진척",
+          "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw&t=105s"
+        },
+        {
+          "start_seconds": 431,
+          "end_seconds": 757,
+          "topic": "커뮤니티 모델 소개",
+          "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw&t=431s"
+        },
+        {
+          "start_seconds": 757,
+          "end_seconds": 1137,
+          "topic": "던전 아이디어·캐릭터 치수·모듈 구상",
+          "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw&t=757s"
+        },
+        {
+          "start_seconds": 1137,
+          "end_seconds": 1774,
+          "topic": "바닥·직선 벽·내외 코너·출입구 템플릿 제작",
+          "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw&t=1137s"
+        },
+        {
+          "start_seconds": 1774,
+          "end_seconds": 2045,
+          "topic": "템플릿 수동 배치·그리드 접합",
+          "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw&t=1774s"
+        },
+        {
+          "start_seconds": 2045,
+          "end_seconds": 2400,
+          "topic": "폐허 벽 변형·접합부 고정·비평면 면 정리",
+          "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw&t=2045s"
+        },
+        {
+          "start_seconds": 2400,
+          "end_seconds": 2800,
+          "topic": "바위 바닥·판자·Knife·팔레트 UV",
+          "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw&t=2400s"
+        },
+        {
+          "start_seconds": 2800,
+          "end_seconds": 3020,
+          "topic": "연결 복제와 독립 복제를 섞어 조립",
+          "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw&t=2800s"
+        },
+        {
+          "start_seconds": 3020,
+          "end_seconds": 3300,
+          "topic": "색·판자 변형·장면 확인",
+          "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw&t=3020s"
+        },
+        {
+          "start_seconds": 3300,
+          "end_seconds": 3619,
+          "topic": "선반·대비·의견 정리: 자동 생성 구현 없음",
+          "url": "https://www.youtube.com/watch?v=DCEvFtrQCNw&t=3300s"
+        }
+      ]
+    },
+    {
+      "id": "V1Xe2EptOOw",
+      "title": "Snowy Assets Part 3 - Modular Houses - Blender 4 Unity 2023 - ep 125",
+      "author": "Imphenzia",
+      "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw",
+      "duration_seconds": 10023,
+      "index_type": "Authored study-stage ranges; creator chapters preserved separately where available",
+      "creator_chapters": [
+        {
+          "start_time": 0,
+          "title": "Introduction and basics",
+          "end_time": 124
+        },
+        {
+          "start_time": 124,
+          "title": "Adding exterior beams",
+          "end_time": 393
+        },
+        {
+          "start_time": 393,
+          "title": "Texturing the main structure",
+          "end_time": 560
+        },
+        {
+          "start_time": 560,
+          "title": "Refining house details",
+          "end_time": 880
+        },
+        {
+          "start_time": 880,
+          "title": "Designing window shutters",
+          "end_time": 1120
+        },
+        {
+          "start_time": 1120,
+          "title": "Placing and duplicating shutters",
+          "end_time": 1310
+        },
+        {
+          "start_time": 1310,
+          "title": "Creating the front door",
+          "end_time": 1588
+        },
+        {
+          "start_time": 1588,
+          "title": "Adding door details",
+          "end_time": 1993
+        },
+        {
+          "start_time": 1993,
+          "title": "Designing a variation module",
+          "end_time": 2235
+        },
+        {
+          "start_time": 2235,
+          "title": "Adding cracks and texture",
+          "end_time": 2602
+        },
+        {
+          "start_time": 2602,
+          "title": "Building the roof structure",
+          "end_time": 2885
+        },
+        {
+          "start_time": 2885,
+          "title": "Stylizing the roof",
+          "end_time": 3143
+        },
+        {
+          "start_time": 3143,
+          "title": "Creating a chimney",
+          "end_time": 3328
+        },
+        {
+          "start_time": 3328,
+          "title": "Assembling modular parts",
+          "end_time": 3505
+        },
+        {
+          "start_time": 3505,
+          "title": "Creating a steep roof",
+          "end_time": 3849
+        },
+        {
+          "start_time": 3849,
+          "title": "Adding a dormer window",
+          "end_time": 4156
+        },
+        {
+          "start_time": 4156,
+          "title": "Finalizing module design",
+          "end_time": 4305
+        },
+        {
+          "start_time": 4305,
+          "title": "Building a balcony",
+          "end_time": 4435
+        },
+        {
+          "start_time": 4435,
+          "title": "Creating a base plate",
+          "end_time": 4583
+        },
+        {
+          "start_time": 4583,
+          "title": "Adding small props",
+          "end_time": 4804
+        },
+        {
+          "start_time": 4804,
+          "title": "Designing the balcony details",
+          "end_time": 5136
+        },
+        {
+          "start_time": 5136,
+          "title": "Completing the balcony",
+          "end_time": 5505
+        },
+        {
+          "start_time": 5505,
+          "title": "Creating a bay window",
+          "end_time": 5733
+        },
+        {
+          "start_time": 5733,
+          "title": "Framing the bay window",
+          "end_time": 6054
+        },
+        {
+          "start_time": 6054,
+          "title": "Assembling the final module",
+          "end_time": 6156
+        },
+        {
+          "start_time": 6156,
+          "title": "Adding snow to assets",
+          "end_time": 6686
+        },
+        {
+          "start_time": 6686,
+          "title": "Export preparation",
+          "end_time": 6923
+        },
+        {
+          "start_time": 6923,
+          "title": "Importing to Unity",
+          "end_time": 7139
+        },
+        {
+          "start_time": 7139,
+          "title": "Configuring snow shader",
+          "end_time": 7411
+        },
+        {
+          "start_time": 7411,
+          "title": "Fixing asset issues",
+          "end_time": 7755
+        },
+        {
+          "start_time": 7755,
+          "title": "Assembling houses in Unity",
+          "end_time": 8292
+        },
+        {
+          "start_time": 8292,
+          "title": "Building the village",
+          "end_time": 9303
+        },
+        {
+          "start_time": 9303,
+          "title": "Placing chimneys",
+          "end_time": 9631
+        },
+        {
+          "start_time": 9631,
+          "title": "Testing the game scene",
+          "end_time": 10023
+        }
+      ],
+      "stages": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 124,
+          "topic": "기존 집 블록·그리드 조건 설명",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=0s"
+        },
+        {
+          "start_seconds": 124,
+          "end_seconds": 393,
+          "topic": "엣지→커브·사각 단면 빔·메시 변환",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=124s"
+        },
+        {
+          "start_seconds": 393,
+          "end_seconds": 560,
+          "topic": "팔레트 재질·중복 정점 정리",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=393s"
+        },
+        {
+          "start_seconds": 560,
+          "end_seconds": 880,
+          "topic": "빔 형태·외곽 보강",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=560s"
+        },
+        {
+          "start_seconds": 880,
+          "end_seconds": 1310,
+          "topic": "덧문 제작·복제·음수 스케일 법선 확인",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=880s"
+        },
+        {
+          "start_seconds": 1310,
+          "end_seconds": 1993,
+          "topic": "문·문틀·나무 디테일·복제 중복 오류",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=1310s"
+        },
+        {
+          "start_seconds": 1993,
+          "end_seconds": 2602,
+          "topic": "변형 벽과 균열: 정적 메시 조건",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=1993s"
+        },
+        {
+          "start_seconds": 2602,
+          "end_seconds": 3143,
+          "topic": "지붕·기와 인상·경계 정리",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=2602s"
+        },
+        {
+          "start_seconds": 3143,
+          "end_seconds": 3505,
+          "topic": "굴뚝·집 조립·기준 피벗",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=3143s"
+        },
+        {
+          "start_seconds": 3505,
+          "end_seconds": 4156,
+          "topic": "급경사 지붕·도머 창 호환",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=3505s"
+        },
+        {
+          "start_seconds": 4156,
+          "end_seconds": 4583,
+          "topic": "최종 모듈·기초·간판·조명",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=4156s"
+        },
+        {
+          "start_seconds": 4583,
+          "end_seconds": 5505,
+          "topic": "발코니·소품·난간 조립",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=4583s"
+        },
+        {
+          "start_seconds": 5505,
+          "end_seconds": 6156,
+          "topic": "돌출 창·창틀·호환 조립",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=5505s"
+        },
+        {
+          "start_seconds": 6156,
+          "end_seconds": 6686,
+          "topic": "눈 생성 부가도구 오류·생성된 오브젝트 확인",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=6156s"
+        },
+        {
+          "start_seconds": 6686,
+          "end_seconds": 6923,
+          "topic": "이름·눈/본체 원점 정리",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=6686s"
+        },
+        {
+          "start_seconds": 6923,
+          "end_seconds": 7139,
+          "topic": "FBX 내보내기·Unity 재질·프리팹",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=6923s"
+        },
+        {
+          "start_seconds": 7139,
+          "end_seconds": 7411,
+          "topic": "맞춤 눈 셰이더·깊이 텍스처 연결",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=7139s"
+        },
+        {
+          "start_seconds": 7411,
+          "end_seconds": 7755,
+          "topic": "원점·오프셋·재수출 오류 수정",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=7411s"
+        },
+        {
+          "start_seconds": 7755,
+          "end_seconds": 8292,
+          "topic": "렌더 텍스처 오류·추가 재수출·미해결 경고",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=7755s"
+        },
+        {
+          "start_seconds": 8292,
+          "end_seconds": 9303,
+          "topic": "층과 지붕을 바꾼 집·마을 조립",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=8292s"
+        },
+        {
+          "start_seconds": 9303,
+          "end_seconds": 9631,
+          "topic": "굴뚝 변형·길이 조절·재임포트",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=9303s"
+        },
+        {
+          "start_seconds": 9631,
+          "end_seconds": 10023,
+          "topic": "Santa Play 시연·발코니 위아래 눈 간섭·남은 문제",
+          "url": "https://www.youtube.com/watch?v=V1Xe2EptOOw&t=9631s"
+        }
+      ]
+    },
+    {
+      "id": "SiEPhqd6rtI",
+      "title": "Unity Tutorial: How to Use - Low Poly Modular Terrain Pack",
+      "author": "LMHPOLY",
+      "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI",
+      "duration_seconds": 1210,
+      "index_type": "Authored study-stage ranges; creator chapters preserved separately where available",
+      "creator_chapters": null,
+      "stages": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 30,
+          "topic": "도입·음악/화면 지시 기반 강좌",
+          "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI&t=0s"
+        },
+        {
+          "start_seconds": 30,
+          "end_seconds": 60,
+          "topic": "예제 Linear 색 공간 안내",
+          "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI&t=30s"
+        },
+        {
+          "start_seconds": 60,
+          "end_seconds": 240,
+          "topic": "CPT 메시 지형·100m 배치 예시·V 정점 스냅",
+          "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI&t=60s"
+        },
+        {
+          "start_seconds": 240,
+          "end_seconds": 330,
+          "topic": "산 모듈을 얹어 변형",
+          "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI&t=240s"
+        },
+        {
+          "start_seconds": 330,
+          "end_seconds": 540,
+          "topic": "64×64 팔레트·이미지 편집·복사 재질",
+          "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI&t=330s"
+        },
+        {
+          "start_seconds": 540,
+          "end_seconds": 660,
+          "topic": "MT LODGroup·LOD0/1/2 전환 시연",
+          "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI&t=540s"
+        },
+        {
+          "start_seconds": 660,
+          "end_seconds": 840,
+          "topic": "MT 공유 재질·다른 이미지·타일링 예시",
+          "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI&t=660s"
+        },
+        {
+          "start_seconds": 840,
+          "end_seconds": 930,
+          "topic": "U 계열 Terrain·높이 편집·TerrainCollider",
+          "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI&t=840s"
+        },
+        {
+          "start_seconds": 930,
+          "end_seconds": 1050,
+          "topic": "TerrainLayer 생성·잔디/바위/눈칠",
+          "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI&t=930s"
+        },
+        {
+          "start_seconds": 1050,
+          "end_seconds": 1140,
+          "topic": "이웃 Terrain·높이/칠 연결 확인",
+          "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI&t=1050s"
+        },
+        {
+          "start_seconds": 1140,
+          "end_seconds": 1210,
+          "topic": "섬·강·절벽·물 데모 소개: 제작 전 과정 아님",
+          "url": "https://www.youtube.com/watch?v=SiEPhqd6rtI&t=1140s"
+        }
+      ]
+    },
+    {
+      "id": "0o-QnNs-stc",
+      "title": "How to design levels with modular asset packs in Unity",
+      "author": "Christina Creates Games",
+      "url": "https://www.youtube.com/watch?v=0o-QnNs-stc",
+      "duration_seconds": 1614,
+      "index_type": "Authored study-stage ranges; creator chapters preserved separately where available",
+      "creator_chapters": [
+        {
+          "start_time": 0,
+          "title": "Level Building in 3D",
+          "end_time": 36
+        },
+        {
+          "start_time": 36,
+          "title": "The modular Synty Samurai Empire Pack",
+          "end_time": 130
+        },
+        {
+          "start_time": 130,
+          "title": "Lots of parts means lots of preparation",
+          "end_time": 335
+        },
+        {
+          "start_time": 335,
+          "title": "Prepare early what you will need a lot of later",
+          "end_time": 384
+        },
+        {
+          "start_time": 384,
+          "title": "Thinking about doors",
+          "end_time": 454
+        },
+        {
+          "start_time": 454,
+          "title": "How to use the snapping grid in Unity",
+          "end_time": 497
+        },
+        {
+          "start_time": 497,
+          "title": "Trusting Pivot points",
+          "end_time": 532
+        },
+        {
+          "start_time": 532,
+          "title": "What about lights?",
+          "end_time": 588
+        },
+        {
+          "start_time": 588,
+          "title": "Keeping your Hierarchy organized",
+          "end_time": 722
+        },
+        {
+          "start_time": 722,
+          "title": "Doing research",
+          "end_time": 873
+        },
+        {
+          "start_time": 873,
+          "title": "The default parent",
+          "end_time": 913
+        },
+        {
+          "start_time": 913,
+          "title": "Making your life easy: Replacing objects",
+          "end_time": 1000
+        },
+        {
+          "start_time": 1000,
+          "title": "Thinking about Navmeshes",
+          "end_time": 1066
+        },
+        {
+          "start_time": 1066,
+          "title": "Cluttering your world",
+          "end_time": 1174
+        },
+        {
+          "start_time": 1174,
+          "title": "The joys of roofs",
+          "end_time": 1306
+        },
+        {
+          "start_time": 1306,
+          "title": "Walls come in different types",
+          "end_time": 1353
+        },
+        {
+          "start_time": 1353,
+          "title": "Trees, rocks and flowers",
+          "end_time": 1460
+        },
+        {
+          "start_time": 1460,
+          "title": "Alternative textures for clutter",
+          "end_time": 1516
+        },
+        {
+          "start_time": 1516,
+          "title": "The humans of the Samurai Empire Pack",
+          "end_time": 1573
+        },
+        {
+          "start_time": 1573,
+          "title": "Don't forget to add vfx!",
+          "end_time": 1614
+        }
+      ],
+      "stages": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 180,
+          "topic": "강좌/제공 에셋 안내·분류 도구 소개",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=0s"
+        },
+        {
+          "start_seconds": 180,
+          "end_seconds": 360,
+          "topic": "소품 분류·선반 채움 프리팹",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=180s"
+        },
+        {
+          "start_seconds": 360,
+          "end_seconds": 454,
+          "topic": "회전/슬라이드 문·상호작용 예제 한계",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=360s"
+        },
+        {
+          "start_seconds": 454,
+          "end_seconds": 497,
+          "topic": "2.5m·1.25m 그리드와 벽 규격",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=454s"
+        },
+        {
+          "start_seconds": 497,
+          "end_seconds": 532,
+          "topic": "설계된 피벗으로 음식/용기 Local 0 조립",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=497s"
+        },
+        {
+          "start_seconds": 532,
+          "end_seconds": 588,
+          "topic": "베이크/동적 조명 구별·조명 상세는 후속",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=532s"
+        },
+        {
+          "start_seconds": 588,
+          "end_seconds": 873,
+          "topic": "집 루트·층·바닥·벽·문 컨테이너",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=588s"
+        },
+        {
+          "start_seconds": 873,
+          "end_seconds": 913,
+          "topic": "Default Parent 설정과 해제",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=873s"
+        },
+        {
+          "start_seconds": 913,
+          "end_seconds": 1000,
+          "topic": "벽 윤곽 복제·Replace Selection 조립",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=913s"
+        },
+        {
+          "start_seconds": 1000,
+          "end_seconds": 1066,
+          "topic": "NavMeshSurface·레이어·문 제외 베이크의 한계",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=1000s"
+        },
+        {
+          "start_seconds": 1066,
+          "end_seconds": 1174,
+          "topic": "소품 목적·통로·회전 변형·층 높이",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=1066s"
+        },
+        {
+          "start_seconds": 1174,
+          "end_seconds": 1306,
+          "topic": "지붕/처마 조합 프리팹·코너 수동 조립",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=1174s"
+        },
+        {
+          "start_seconds": 1306,
+          "end_seconds": 1460,
+          "topic": "재질 대안·레퍼런스·식생 배치",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=1306s"
+        },
+        {
+          "start_seconds": 1460,
+          "end_seconds": 1560,
+          "topic": "자체 재질 교체 스크립트·캐릭터 소품 제한",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=1460s"
+        },
+        {
+          "start_seconds": 1560,
+          "end_seconds": 1614,
+          "topic": "불·물고기 효과와 장면 시연",
+          "url": "https://www.youtube.com/watch?v=0o-QnNs-stc&t=1560s"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "videos": 5,
+    "metadata_duration_seconds": 16991,
+    "unique_reviewed_source_points": 446,
+    "reviewed_contact_sheets": 80,
+    "individually_viewed_frames": 37,
+    "cleaned_auto_caption_rows": 4892,
+    "videos_with_available_cleaned_captions": 4
+  }
+}

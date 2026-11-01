@@ -1,9 +1,9 @@
 {
   "export_date": "2026-11-01",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 33,
-  "diagrams": 14,
-  "checked_local_links": 290,
+  "manuals": 40,
+  "diagrams": 16,
+  "checked_local_links": 333,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
   "export_changes": [
     "Local absolute evidence paths omitted",
@@ -14,7 +14,8 @@
     "Body workflow, topology, joint-volume and game-base manuals plus original diagram added; new private paths and project state omitted",
     "Match3 manuals, all65 Taft index, source comparisons, original engineering diagrams and verification added; no source media/code or new private repository references. Official Unity6.3 web recrosscheck explicitly incomplete.",
     "Added three seamless-texture manuals and five-course local Qwen/FrameLens sampled-visual + automatic-caption study. No source media, private assets or local paths published.",
-    "Added six UV manuals, two original explanatory SVGs, five-course index and sampled-visual/cleaned-auto-caption verification. No raw media, private asset or new private Git reference published; current Blender5.2 UI/API cross-check and app execution explicitly not completed."
+    "Added six UV manuals, two original explanatory SVGs, five-course index and sampled-visual/cleaned-auto-caption verification. No raw media, private asset or new private Git reference published; current Blender5.2 UI/API cross-check and app execution explicitly not completed.",
+    "Added seven modular-map manuals, two original diagrams, five-course time index and study verification (446 unique sampled points; four complete cleaned automatic-caption texts; one source without captions). Public repository is sole education canonical source, with single-writer and migration rules. No raw media, private assets or new private Git references. Live app and device QA not run."
   ],
   "files": [
     {
@@ -24,8 +25,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6492,
-      "sha256": "3c52797c4e5c6ab24d6ecb3184548138493a17c9c4bcd904271140ba4cdfbaa4"
+      "bytes": 7752,
+      "sha256": "eda0102532958628b16fe51aad631cb9aa2403ff59c6e15784f34f1795b163ce"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -396,6 +397,71 @@
       "path": "reports/VideoLearning/20261101_UV_VERIFICATION.json",
       "bytes": 23062,
       "sha256": "78b5a185ef263e59bf5c5b4c904d371bb23671d8a4f08e538cff899a3033700c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2434,
+      "sha256": "97e3f735c631a6d50aedee60c779b31a7ed3c1703af7025a6dd0831735bac8f5"
+    },
+    {
+      "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
+      "bytes": 5309,
+      "sha256": "5c6741de1d8088073db3a9d0b4e8a43d2de41571217918357f62da5f465989c1"
+    },
+    {
+      "path": "docs/MODULAR_MAP_BUILDINGS.md",
+      "bytes": 4961,
+      "sha256": "9ef177baec6fae2932b31f2cbd5fb48eca8a51d66bb4f8264fea4b57d9afeb5b"
+    },
+    {
+      "path": "docs/MODULAR_MAP_COURSE_INDEX.md",
+      "bytes": 12986,
+      "sha256": "f25f326bb0d4d3eecc941bdf57cf3e89f3b261cd973cd46d3b8088a9b1cba9a5"
+    },
+    {
+      "path": "docs/MODULAR_MAP_GRID_KIT.md",
+      "bytes": 4910,
+      "sha256": "999e86cd98390d49bbe62dcbe9a5d3dcf88fe85537d14f2c00451448d208ea55"
+    },
+    {
+      "path": "docs/MODULAR_MAP_PLAYABILITY_QA.md",
+      "bytes": 4642,
+      "sha256": "d01e2ac31c6deba229bb1c51f0e5390f27c9e176d15d3f7ac0665e743daa77c0"
+    },
+    {
+      "path": "docs/MODULAR_MAP_TERRAIN.md",
+      "bytes": 4796,
+      "sha256": "c8da81f825fb9df5055b3d57175ca2e4748cde994f641a4d9b77d2000e4e2098"
+    },
+    {
+      "path": "docs/MODULAR_MAP_WORKFLOW.md",
+      "bytes": 5562,
+      "sha256": "ac83347551220be8a886f1e1ff1e7eb6d37c4e3ee3b3de2d2c931e13abff6f6a"
+    },
+    {
+      "path": "docs/assets/modular-map/connector-contract.svg",
+      "bytes": 2727,
+      "sha256": "21a7c52df30fb9f271179d1ccb374e0b8ec108253f59931587d7b77aaa15f615"
+    },
+    {
+      "path": "docs/assets/modular-map/map-review-pipeline.svg",
+      "bytes": 2949,
+      "sha256": "0cee1b8d36a5f75f7adcb5cf28bc1728ea4c706d9eb420246a4487d92927d16b"
+    },
+    {
+      "path": "reports/VideoLearning/20261101_MODULAR_MAP_COURSE_INDEX.json",
+      "bytes": 26114,
+      "sha256": "86471db57790ee3a2ceab058e46e3a1f066327d206702d3bf63093e182082e34"
+    },
+    {
+      "path": "reports/VideoLearning/20261101_MODULAR_MAP_REVIEW.md",
+      "bytes": 3275,
+      "sha256": "612bfa181cee084f618e7cb4884251b426af423c6c58d0323d25c3ff4f7fad4e"
+    },
+    {
+      "path": "reports/VideoLearning/20261101_MODULAR_MAP_VERIFICATION.json",
+      "bytes": 19982,
+      "sha256": "6ba63bb933009f702592247b19e3051f191dd1c69681e5e9d39d1b085e1c8839"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

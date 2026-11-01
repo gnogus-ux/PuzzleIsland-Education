@@ -1,6 +1,6 @@
-# 게임 제작 · 캐릭터 아트 교육 매뉴얼
+# 공용 3D · 텍스처 · 게임 제작 교육 자료실
 
-Unity 매치3·Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕으로 작성한 한국어 재사용 교육자료입니다. 이 저장소는 공개 교육 문서 전용입니다.
+Unity 매치3·Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕으로 작성한 한국어 재사용 교육자료입니다. 이 저장소는 여러 프로젝트에서 공유하는 공개 교육 정본입니다. 새 매뉴얼은 이곳에서만 편집·게시하고 개발 저장소에는 정본 링크를 남깁니다. [편집·게시 규칙](CONTRIBUTING.md)을 따릅니다.
 
 ## 다른 GPT에서 사용하기
 
@@ -23,6 +23,13 @@ Unity 매치3·Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕�
 | 만화형 캐릭터 채색 | [Stylized 채색](docs/PAINTER_STYLIZED_CHARACTER.md) |
 | 피부 색·거칠기·투과광 | [피부 레이어](docs/PAINTER_SKIN_LAYERS.md) |
 | Painter 텍스처 → Blender | [내보내기와 연결](docs/PAINTER_TO_BLENDER.md) |
+| 모듈러 맵 전체 흐름 | [제작과 검수 시작점](docs/MODULAR_MAP_WORKFLOW.md) |
+| 단위·원점·스냅·직선/코너 | [그리드와 키트](docs/MODULAR_MAP_GRID_KIT.md) |
+| 지형·LOD·절벽·해안 | [지형 연결과 시험](docs/MODULAR_MAP_TERRAIN.md) |
+| 벽·문·지붕·중첩 Prefab | [건물 조립](docs/MODULAR_MAP_BUILDINGS.md) |
+| FBX·UV·재질·콜라이더·모바일 | [Blender→Unity 인계](docs/MODULAR_MAP_BLENDER_UNITY.md) |
+| 배우·카메라·이동·복원 상태 | [플레이 검수 계획](docs/MODULAR_MAP_PLAYABILITY_QA.md) |
+| 지정된 모듈러 맵5강 | [강좌 시간 색인](docs/MODULAR_MAP_COURSE_INDEX.md) |
 | UV 전체 흐름·검수 | [UV 교육 시작점](docs/UV_WORKFLOW.md) |
 | 시임·전개·체커·핀·Relax | [형태별 펼치기](docs/UV_SEAMS_UNWRAP.md) |
 | 얼굴·눈꺼풀·눈·손과 몸 | [캐릭터 UV](docs/UV_CHARACTER.md) |
@@ -52,11 +59,12 @@ Unity 매치3·Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕�
 
 ## 포함 범위
 
-- 2026-11-01 기준 매뉴얼 33개, 자체 SVG 도식 14개, 학습 보고서와 검증 기록을 포함합니다.
+- 2026-11-01 기준 매뉴얼 40개, 자체 SVG 도식 16개, 학습 보고서와 검증 기록을 포함합니다.
 - 손·손가락 세 강좌의 전체 흐름 표본·공개 자동 자막 분석을 추가했습니다. 고유393개 시점과 핵심 UI 확대24장을 확인했으며, 실제 모델 제작·리깅 검증은 수행하지 않았습니다. 전신 세 강좌도 전체 흐름과 주요 제작 구간을 분석해 추가했습니다. 전신은 고유497개 시점·원본 크기 UI30장을 대조했으며, 실제 캐릭터 변경·변형·엔진 검증은 미실행입니다.
 - 매치3는 Taft Unity/C# 실제65편·Winterbolt1편·git-amend 공개3편(영상69편), Catlike 전체 글/FAQ와 제작자 C#7개를 분석했습니다. 고유2,094시점·472시트·135단독프레임(추출 폭1280)과 전편 정제 자동자막을 대조했습니다. Unity/Android 실행은 하지 않았고 Unity6.3 공식 웹 재대조는 미완료로 표시했습니다.
 - 사진 심리스 텍스처 5편은 고유168시점·30시트·원본 UI10장과 정제 자동자막2,299행을 대조했습니다. 로컬 Qwen 10회·FrameLens 핵심300초를 실제 분석했고 AI 오독은 원본으로 교정했습니다. 새 텍스처·Blender/게임 적용은 수행하지 않았습니다.
 - UV5강은 Ryan King Art·CG Boost/Jim Morren·Dikko·Josh/BlenderBros·Huge Menace/Tristan의 지정 원본을 학습했습니다. 고유364시점·66시트·단독33장(추출 폭1280)과 정제 자동자막4,163행 전체를 대조했습니다. 시임·얼굴/눈·밀도·패킹·재질 인계를 문서화했으며 실제 메시/UV·Painter·엔진 변경은 하지 않았습니다. 현행 Blender5.2 메뉴/API 재대조는 미완료입니다.
+- 모듈러 맵 지정5강4:43:11을 고유446시점·80시트·단독37장(1280폭)과 정제 자동자막4개4,892행으로 대조했습니다. LMHPOLY는 자막이 없어 화면 지시문을 표본 확인했습니다. 접합·지형·건물·FBX/Prefab·모바일/이동 검수 계획을 기록했으며 실제 지도/모델/엔진 변경과 기기 검증은 하지 않았습니다.
 - 강좌 원본 영상·음성·대량 캡처·외부 에셋·캐릭터 모델·텍스처·AI 요청 데이터는 포함하지 않습니다. 원 강좌의 링크와 제작자 정보는 각 문서에 있습니다.
 - 공개본은 로컬 PC의 증거 파일 경로를 생략했습니다. 검증 JSON의 원본 스냅샷 해시는 교육 당시 자료를 가리키며, 이 공개본 파일 해시는 PUBLIC_MANIFEST.json에서 확인합니다.
 - 문서와 도식의 검토·학습 범위는 실제 모델 제작 성공이나 독립 검수 통과를 보장하지 않습니다. 앱 버전이 다른 조작은 적용 전 확인하세요.

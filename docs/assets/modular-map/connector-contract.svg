@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650" role="img" aria-labelledby="title desc">
+<title id="title">모듈 접합 경계와 내부 변형</title><desc id="desc">두 모듈의 고정된 접합점은 동일 높이와 폭으로 만나며 장식 변형은 경계 안에서만 허용한다. 계단과 해안은 별도 계약이 필요하다.</desc>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#dbe3ee"/></pattern><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8" fill="#203b58"/></marker></defs>
+<rect width="1120" height="650" fill="#f8fafc"/><g font-family="Malgun Gothic,Arial,sans-serif" fill="#162d48"><text x="42" y="49" font-size="27" font-weight="bold">경계는 고정하고, 내부에서 변형한다</text><text x="42" y="82" font-size="17">교육용 자체 도식 · 실제 맵이나 승인된 아트가 아님</text>
+<rect x="60" y="120" width="1000" height="320" fill="url(#grid)"/>
+<rect x="130" y="180" width="340" height="200" rx="2" fill="#d7e9f8" stroke="#3b7399" stroke-width="3"/><rect x="470" y="180" width="340" height="200" fill="#e0eedb" stroke="#557c48" stroke-width="3"/>
+<path d="M175 225L240 210L275 245L350 215L420 230V330L340 345L290 315L225 340L175 310Z" fill="#93bbd8"/><path d="M520 220L585 238L650 210L750 235V320L690 343L610 320L520 340Z" fill="#a9c597"/>
+<path d="M470 165V395" stroke="#e27729" stroke-width="7"/><circle cx="470" cy="180" r="8" fill="#e27729"/><circle cx="470" cy="380" r="8" fill="#e27729"/>
+<text x="235" y="285" font-size="24">내부 변형 A</text><text x="570" y="285" font-size="24">내부 변형 B</text>
+<path d="M130 420H470" stroke="#203b58" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="230" y="455" font-size="18">동일한 기본 셀 폭</text>
+<path d="M820 180H855M820 380H855M850 180V380" fill="none" stroke="#203b58" stroke-width="2" marker-end="url(#arrow)"/><text x="880" y="275" font-size="18">접합 폭/높이</text><text x="880" y="304" font-size="18">방향도 확인</text>
+<text x="42" y="509" font-size="20" fill="#a54b13">고정: 접합 좌표 · 단면 · 바닥 높이 · 바깥 방향 · 원점 규칙</text><text x="42" y="550" font-size="19">변형: 벽/바위의 내부 윤곽 · 색 · 소품 조합, 통로는 보존</text><text x="42" y="590" font-size="18">시험: 직선 → 90° 코너 → 폐곡선 → 문/높이 전환 → FBX 왕복</text><text x="42" y="622" font-size="16">수치는 프로젝트별로 정한다. 다른 키트의 치수나 경계가 자동 호환되는 것은 아니다.</text></g></svg>
