@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-01",
+  "scope": "Integration reviewer direct reading; source-team full reading recorded separately. Truncated outputs are not counted as full reading.",
+  "runtime_tests": "NOT_RUN",
+  "installs": "NOT_RUN",
+  "production_changes": "NONE",
+  "requested_worker_settings": {
+    "model": "gpt-6.1-sol",
+    "reasoning": "high",
+    "reason": "Multi-step source study and comparison; tool fields passed, runtime internals not independently attested"
+  },
+  "source_reviews": [
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-retopology-uv/SKILL.md",
+      "scope": "full",
+      "total_lines": 61,
+      "sha256": "9aeb9c6ae7331d49439d44f64c01792c97351ed7490006d1eeac4d6ca201803d"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-facial-shapekeys/SKILL.md",
+      "scope": "full",
+      "total_lines": 54,
+      "sha256": "132b7eed328451f9577cfbf06d4a68a6a569a9b8c8621af3311151ca920a5543"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-texture-baking/SKILL.md",
+      "scope": "full",
+      "total_lines": 69,
+      "sha256": "206802dbd95aa4cce88553fde36598e8efd82a9cee819b98fb76b59d72ce50a2"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/genres/puzzle/SKILL.md",
+      "scope": "full",
+      "total_lines": 143,
+      "sha256": "2923586901c4998a5bc5deb2235038e6161e7f927d45b8e8ea6b4c7c7327a384"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/genres/puzzle/references/board-and-resolution.md",
+      "scope": "full",
+      "total_lines": 130,
+      "sha256": "1dca4e19ffd7256b536ec56296abeeef4f2797ab03caa6923a860fd3a48d4699"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/save-systems/SKILL.md",
+      "scope": "full",
+      "total_lines": 191,
+      "sha256": "14bfd8e49c2c7ceead27d22ec6b6ee7a5cfe661386d2f12d8627f6fd701da437"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/initialize-ai-navigation/SKILL.md",
+      "scope": "full",
+      "total_lines": 95,
+      "sha256": "b99fe13e44cea8fa26309854b7d34b3e26264557309caab97d301ad4e60c6c82"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/unity-package-management/SKILL.md",
+      "scope": "lines 1-92",
+      "total_lines": 352,
+      "sha256": "7afcdd2a5b74ec193840c842443087603e936a83b52bada42a30914baa459a68"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-uv-baking/SKILL.md",
+      "scope": "full",
+      "total_lines": 185,
+      "sha256": "5891e74126f44fbc6543260cb3d069bd13bf377a1581a6bc6af1abe04648e0af"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-retopology/SKILL.md",
+      "scope": "selected visible sections; output truncated; full review delegated",
+      "total_lines": 191,
+      "sha256": "bf462aa82b99b0f56e019f20dcc16367ce1205d7c1233b647b93401552d6ff66"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-export/SKILL.md",
+      "scope": "full",
+      "total_lines": 193,
+      "sha256": "0aee5dfecfb0aede8f009e2eb1f42e163563414b85105160b6bfd84eb8713ff6"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-export/references/engines.md",
+      "scope": "lines 1-95",
+      "total_lines": 225,
+      "sha256": "50dd3c1eb5b43fb93caec7bfb081a6216e7b89040eedfa456a9bd53f5194a81b"
+    }
+  ]
+}

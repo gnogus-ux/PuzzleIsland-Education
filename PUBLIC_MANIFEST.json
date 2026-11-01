@@ -1,7 +1,7 @@
 {
   "export_date": "2026-11-01",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 46,
+  "manuals": 50,
   "diagrams": 16,
   "checked_local_links": 367,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
@@ -21,7 +21,8 @@
     "Added shared installed-tool inventory and preflight policy based on provided local verification evidence; installation/execution/unavailable/held states separated. No new app tests or installation. Existing education and migration entries preserved.",
     "Added explicit manual preflight: inspect library/topic manuals first; request missing topics, insufficient content or version evidence before unapproved learning/production. Already approved study continues without duplicate approval questions. Installation holds preserved.",
     "Added reusable work/handoff/review rules distilled from approved collaboration: preserve scope/assets, create actual 3D guides, single ownership and paired visual review, safe quota handoff, honest study evidence, public canonical publishing, approved new-thread acceptance/archive order. Temporary project-specific limits remain local.",
-    "Collected four external upstream repositories as pinned, initialized Git submodules with preserved licenses/NOTICE, provenance and file integrity record. External skills not installed/executed or fully studied; original manual counts unchanged."
+    "Collected four external upstream repositories as pinned, initialized Git submodules with preserved licenses/NOTICE, provenance and file integrity record. External skills not installed/executed or fully studied; original manual counts unchanged.",
+    "Started four-repository document study; published Unity official 35-body study, source review/correction integration, and Claude shared-library instructions. Other assigned study packages remain in progress; no live app tests or installs. Historical collection lock retained."
   ],
   "files": [
     {
@@ -31,8 +32,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11435,
-      "sha256": "0f685418cdfcc2c4eda661460940cbe62e05167ee3682ef958ad8a1ac8a64d45"
+      "bytes": 11745,
+      "sha256": "a02607de1a2b9338a76e6124f896f890fb5e7d749cb9e1e7b46a6b072ff49cb2"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -576,13 +577,53 @@
     },
     {
       "path": "docs/EXTERNAL_LEARNING_SOURCES.md",
-      "bytes": 4327,
-      "sha256": "93c2a91a4eba2f3ddc985ee2d3873f1387f8d38b03311f27fed405b24b038989"
+      "bytes": 4799,
+      "sha256": "5086938a73c7444c31bba0a3bc73141b33177b88ab6b9b74fe414bc0097e1666"
     },
     {
       "path": "external/SOURCES.lock.json",
       "bytes": 2980,
       "sha256": "5963c94fc143a057a5fcee02a28bcd7cdae73b4d2b5c430191c9b1eb34e881c4"
+    },
+    {
+      "path": "docs/EXTERNAL_STUDY_WORKFLOW.md",
+      "bytes": 7685,
+      "sha256": "2c9b8a8ee2f397775495e888b1ae1b99a67c05a68f382b09f90e9f7fbcae8cb4"
+    },
+    {
+      "path": "docs/EXTERNAL_STUDY_CORRECTIONS.md",
+      "bytes": 5402,
+      "sha256": "e971cc11ffa92622d81c6d46b49a9c01ce83c5ff80bbc05e36a1e789d04bc02c"
+    },
+    {
+      "path": "docs/UNITY_OFFICIAL_SKILLS_WORKFLOW.md",
+      "bytes": 22390,
+      "sha256": "b8f8b1c169139345704a96dcc6f9af180894eb511e3aac8b9b1de956acb1f073"
+    },
+    {
+      "path": "docs/UNITY_OFFICIAL_SKILLS_INDEX.md",
+      "bytes": 13291,
+      "sha256": "4a53b00e545f12a4be185e0e0f1454f05cd172f190570c376334219164bc7a59"
+    },
+    {
+      "path": "docs/CLAUDE_RULES_AND_LIBRARY.md",
+      "bytes": 4774,
+      "sha256": "9ef9aa4013234522456d5ea5ec4bc4046bcad04bb113f06bd492cf907e975449"
+    },
+    {
+      "path": "reports/ExternalLearning/20261101_INTEGRATION_REVIEW.json",
+      "bytes": 3641,
+      "sha256": "4f0db2bca373ae8b3bb1c1631f26bb1526f94c90163043c5ff1dfdfc39a810b9"
+    },
+    {
+      "path": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json",
+      "bytes": 47204,
+      "sha256": "99cf7d49671c339a049b57a1c9a69c917c91619a4dd814ae109cfbfc40f09236"
+    },
+    {
+      "path": "reports/ExternalLearning/20261101_EXTERNAL_SKILLS_STUDY.json",
+      "bytes": 733,
+      "sha256": "728739979bc3d5d37da6021acda6da1ad58f7f7bbd11d987fb09b74aa85bc2d3"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -590,7 +631,7 @@
   "seamless_training_added": "2026-11-01: 5 courses; 168 sampled source times, 30 contact sheets, 10 native UI images, 2299 cleaned automatic caption rows; Qwen10 requests/40 images and FrameLens300 source seconds. No model training or production app reproduction.",
   "local_link_check_scope": "185 Markdown inline local file/directory targets; external URLs and anchor fragments excluded. Count is not comparable to historical checkers with different scopes.",
   "tool_reference_documents": 2,
-  "work_reference_documents": 1,
+  "work_reference_documents": 2,
   "external_sources": [
     {
       "path": "external/scenario-skills",
@@ -669,6 +710,10 @@
   ],
   "external_collection_link_check": {
     "first_party_local_targets": 311,
+    "upstream_links_not_checked": true
+  },
+  "external_study_link_check": {
+    "first_party_readme_contributing_docs_local_targets": 303,
     "upstream_links_not_checked": true
   }
 }

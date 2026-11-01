@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-01",
+  "status": "IN_PROGRESS",
+  "target_skill_bodies": 315,
+  "completed_document_packages": {
+    "unity_official": 35
+  },
+  "pending_packages": [
+    "blender_and_scenario_dcc_support",
+    "gamedev",
+    "scenario_services",
+    "scenario_engines"
+  ],
+  "scope": "SKILL main bodies plus selected references; auxiliary files, code execution, videos and live app tests are separate",
+  "runtime_tests": "NOT_RUN",
+  "installs": "NOT_RUN",
+  "source_versions": "external/SOURCES.lock.json",
+  "integration_review": "reports/ExternalLearning/20261101_INTEGRATION_REVIEW.json",
+  "completed_study_records": [
+    "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+  ]
+}

@@ -1,0 +1,1700 @@
+{
+  "schema_version": 1,
+  "date_kst": "2026-11-01",
+  "task": "Unity official 35 SKILL text study",
+  "source_repository": "https://github.com/Unity-Technologies/skills",
+  "source_commit": "089bedebab64e9e75943b19a364c7aec2162a7e7",
+  "source_license": "Unity Companion License; see source LICENSE.md",
+  "source_license_url": "https://github.com/Unity-Technologies/skills/blob/089bedebab64e9e75943b19a364c7aec2162a7e7/LICENSE.md",
+  "study_method": "Direct text reading of entire SKILL bodies in bounded segments; truncated output sections were re-read; selected references only; external instructions treated as data",
+  "counts": {
+    "skill_bodies": 35,
+    "skill_body_bytes": 548532.0,
+    "skill_body_lines": 8006.0,
+    "references_full": 8,
+    "references_partial": 1,
+    "provenance_files": 2,
+    "unread_auxiliary_files": 198
+  },
+  "read_files": [
+    {
+      "path": "skills/2d-pixel-perfect/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 10190,
+      "sha256": "c012f44666bddc436c83a580cdf58d835cfebcec756a64cee3ec4746ca1e2985",
+      "read_ranges": [
+        {
+          "last": 208,
+          "first": 1
+        }
+      ],
+      "total_lines": 208,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/asset-transformer-toolkit/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 2983,
+      "sha256": "79b52b4fc97c01f8707954bf6575e4db9be549aba936285ce4e5a636cc8c7961",
+      "read_ranges": [
+        {
+          "last": 39,
+          "first": 1
+        }
+      ],
+      "total_lines": 39,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/audio-setup-mixers/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 7636,
+      "sha256": "f3931de6ad1a52b4010a469d869cbc69798e65aeade25a3241fd654f6a189249",
+      "read_ranges": [
+        {
+          "last": 127,
+          "first": 1
+        }
+      ],
+      "total_lines": 127,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/build-gtk/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 18341,
+      "sha256": "788102dadbdd11a5e643d767221a501c5fd961709a9adff5d6ec1ff42be784ee",
+      "read_ranges": [
+        {
+          "last": 242,
+          "first": 1
+        }
+      ],
+      "total_lines": 242,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/build-live-game/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 19007,
+      "sha256": "b45e9049efa0f714c89f0d79fff357eb2d00d670f1285e372380a272dae4e683",
+      "read_ranges": [
+        {
+          "last": 255,
+          "first": 1
+        }
+      ],
+      "total_lines": 255,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 8674,
+      "sha256": "a8319c2f698095a83d65aa5a44ccf5e62fa00e27df93b83e36e1075e401f6918",
+      "read_ranges": [
+        {
+          "last": 134,
+          "first": 1
+        }
+      ],
+      "total_lines": 134,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/create-2d-physics/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 10691,
+      "sha256": "99434a45dc58a8cf497ed8e5bd1e4886588d99ec960fdb15f488b79d2cb19839",
+      "read_ranges": [
+        {
+          "last": 128,
+          "first": 1
+        }
+      ],
+      "total_lines": 128,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/create-tile-palette-or-rule-tiles/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 1219,
+      "sha256": "571429cc13d4aa0d623e45bc0690b7780d7c98ff1f16cacc5ddbd081cf832417",
+      "read_ranges": [
+        {
+          "last": 12,
+          "first": 1
+        }
+      ],
+      "total_lines": 12,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/generate-editor-search-query/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 7096,
+      "sha256": "6eee244dbee98f7773df39e6f6edd4de333a334bd92ead127029bbef6eea30d1",
+      "read_ranges": [
+        {
+          "last": 117,
+          "first": 1
+        }
+      ],
+      "total_lines": 117,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 10861,
+      "sha256": "138c58b0e41c44e419fe5976fb95f55072ea38a1ea2415a383ad82f498e8b29c",
+      "read_ranges": [
+        {
+          "last": 157,
+          "first": 1
+        }
+      ],
+      "total_lines": 157,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/initialize-ai-navigation/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 5406,
+      "sha256": "b99fe13e44cea8fa26309854b7d34b3e26264557309caab97d301ad4e60c6c82",
+      "read_ranges": [
+        {
+          "last": 95,
+          "first": 1
+        }
+      ],
+      "total_lines": 95,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 38669,
+      "sha256": "c16a4a2ec706a5bf6ccd90832936d11329230e536e963173d720a937ce3e01c6",
+      "read_ranges": [
+        {
+          "last": 442,
+          "first": 1
+        }
+      ],
+      "total_lines": 442,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/localization/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 26538,
+      "sha256": "5390f83b4947ceb7cb5bbab6702149dfb8182170e06da65261162f8a669c4db6",
+      "read_ranges": [
+        {
+          "last": 347,
+          "first": 1
+        }
+      ],
+      "total_lines": 347,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 18810,
+      "sha256": "3513be1cbbe11c582265f8fe8cefd8f7cf86703ff5e5f7c3fd39d0dfb6b500fc",
+      "read_ranges": [
+        {
+          "last": 351,
+          "first": 1
+        }
+      ],
+      "total_lines": 351,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/migrate-birp-to-urp/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 52919,
+      "sha256": "15725581eb6386aedbc0b3eb1bdd59441cc636e94459bea590f039a9d271d874",
+      "read_ranges": [
+        {
+          "last": 543,
+          "first": 1
+        }
+      ],
+      "total_lines": 543,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/new-unity-project/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 20916,
+      "sha256": "da6357437ab016c8c5c44d9fa6f15739507fd885c917647bec9bbeb04019aa07",
+      "read_ranges": [
+        {
+          "last": 339,
+          "first": 1
+        }
+      ],
+      "total_lines": 339,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/optimize-audio/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 14810,
+      "sha256": "239a87df649e69cf2f79d43f7b233695f91a5882da7ac447c812b92e5b52e3e9",
+      "read_ranges": [
+        {
+          "last": 199,
+          "first": 1
+        }
+      ],
+      "total_lines": 199,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/optimize-text-mesh-pro/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 9749,
+      "sha256": "9f52642c16c06a6f59ab3a60c8e3c250dd27c182cdcc8149cb2aafcdf46e8ccc",
+      "read_ranges": [
+        {
+          "last": 172,
+          "first": 1
+        }
+      ],
+      "total_lines": 172,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/optimize-web/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 39301,
+      "sha256": "3a616d1dd5c3ef7816519f0acd47f1f2acb7d557c024ffa31341af417828ba1e",
+      "read_ranges": [
+        {
+          "last": 530,
+          "first": 1
+        }
+      ],
+      "total_lines": 530,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/physics-3d-collision/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 28452,
+      "sha256": "9fae9f26c04378042632c771b298d889c03bd6355b506043c5fcac32a066a1be",
+      "read_ranges": [
+        {
+          "last": 442,
+          "first": 1
+        }
+      ],
+      "total_lines": 442,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/project-auditor-fixes/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 4626,
+      "sha256": "4d6d6b966b591dadf6447c30883c5f63e01cf733f830791f71b6ae3df8bd166e",
+      "read_ranges": [
+        {
+          "last": 64,
+          "first": 1
+        }
+      ],
+      "total_lines": 64,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/setup-multiplayer-services/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 4674,
+      "sha256": "9852929e10fdf30c747cd261da3f16a19598828c9359b7118127008d8f54f440",
+      "read_ranges": [
+        {
+          "last": 36,
+          "first": 1
+        }
+      ],
+      "total_lines": 36,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/setup-vivox-voice-chat/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 8944,
+      "sha256": "b0d41ff9781b95ce7040307509b45ebb6401963162b85659964b5a8945eaf6c0",
+      "read_ranges": [
+        {
+          "last": 118,
+          "first": 1
+        }
+      ],
+      "total_lines": 118,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/shader-graph-create-custom-node/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 1201,
+      "sha256": "af00b531db752366b1bb9a8f206769b6d30adf3381206cf1076da636c4aef168",
+      "read_ranges": [
+        {
+          "last": 25,
+          "first": 1
+        }
+      ],
+      "total_lines": 25,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/sprite-editor/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 3665,
+      "sha256": "45d0034df28daf7e52026f8234032f8c96d292d3ba332f0457bae7fe2a00f78d",
+      "read_ranges": [
+        {
+          "last": 66,
+          "first": 1
+        }
+      ],
+      "total_lines": 66,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/sprite-segment-3x3grid/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 4999,
+      "sha256": "d73b84909833b37ce3a6496f09d663383412c1d5d98fcbcb77cdce63ec7942b7",
+      "read_ranges": [
+        {
+          "last": 136,
+          "first": 1
+        }
+      ],
+      "total_lines": 136,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/ui/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 6897,
+      "sha256": "9c6441c5bbbba6aef5732d4df923ab92911987baff43f0667a5eed89562c0e3e",
+      "read_ranges": [
+        {
+          "last": 142,
+          "first": 1
+        }
+      ],
+      "total_lines": 142,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/ui-imgui/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 6686,
+      "sha256": "1d22a185059a5c8edeaebd0ebbe717bb1ddc0cc7d685b2d5826164df4b3223e1",
+      "read_ranges": [
+        {
+          "last": 180,
+          "first": 1
+        }
+      ],
+      "total_lines": 180,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/ui-ugui/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 12787,
+      "sha256": "566c1dd86c5179ae254fb9d3eebfa7277e794f222806724dc26f66b98db232c5",
+      "read_ranges": [
+        {
+          "last": 276,
+          "first": 1
+        }
+      ],
+      "total_lines": 276,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/ui-uitk/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 11277,
+      "sha256": "8dc4ee6f4d76ee0b92832511f3d0f36684b21c9a1ff0a1564956bb085023caae",
+      "read_ranges": [
+        {
+          "last": 229,
+          "first": 1
+        }
+      ],
+      "total_lines": 229,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/unity-cli/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 67806,
+      "sha256": "00fcfcdeccb5ea7c6e44acb5008a635cf2c363a78a3f7a1132751a70b312b381",
+      "read_ranges": [
+        {
+          "last": 711,
+          "first": 1
+        }
+      ],
+      "total_lines": 711,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/unity-package-management/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 16746,
+      "sha256": "7afcdd2a5b74ec193840c842443087603e936a83b52bada42a30914baa459a68",
+      "read_ranges": [
+        {
+          "last": 352,
+          "first": 1
+        }
+      ],
+      "total_lines": 352,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/unity-pipeline/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 19924,
+      "sha256": "e122db0bd6dc59bbcc41ce69d0ecf480b51f331a76339a4a4f6fe82b697adba5",
+      "read_ranges": [
+        {
+          "last": 335,
+          "first": 1
+        }
+      ],
+      "total_lines": 335,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/urp-postprocessing/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 11459,
+      "sha256": "141535ade0eaf632b2ac222fb3b97e5cf8f41365b70e3d85f0d5398385e88cff",
+      "read_ranges": [
+        {
+          "last": 188,
+          "first": 1
+        }
+      ],
+      "total_lines": 188,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/validate-urp-render-graph-renderer-feature/SKILL.md",
+      "kind": "SKILL_BODY",
+      "bytes": 14573,
+      "sha256": "4f14d97398768c22bf14ef6751eaa4230f06a538cc9c84cf478e3a0d0f0c2f96",
+      "read_ranges": [
+        {
+          "last": 269,
+          "first": 1
+        }
+      ],
+      "total_lines": 269,
+      "status": "FULL_BODY_READ"
+    },
+    {
+      "path": "skills/unity-package-management/references/select-packages.md",
+      "kind": "REFERENCE",
+      "bytes": 7296,
+      "sha256": "392c396c8a4d99f19180adb984b5f115b424fd9cc5e12737adda9d1e1a94a772",
+      "total_lines": 126,
+      "read_ranges": [
+        {
+          "last": 126,
+          "first": 1
+        }
+      ],
+      "status": "FULL_READ",
+      "unread_ranges": null
+    },
+    {
+      "path": "skills/craft-game-floors/references/art-direction.md",
+      "kind": "REFERENCE",
+      "bytes": 6685,
+      "sha256": "2b00229134ca2c614d79322f231a0043697f54f69775fffd51a94f045683d336",
+      "total_lines": 85,
+      "read_ranges": [
+        {
+          "last": 85,
+          "first": 1
+        }
+      ],
+      "status": "FULL_READ",
+      "unread_ranges": null
+    },
+    {
+      "path": "skills/craft-game-floors/references/visual-scorecard.md",
+      "kind": "REFERENCE",
+      "bytes": 6380,
+      "sha256": "abf4c271d5397acc1cc7d7f02ce61e0a727dd68dff62f11fd67ecef2207c98ed",
+      "total_lines": 43,
+      "read_ranges": [
+        {
+          "last": 43,
+          "first": 1
+        }
+      ],
+      "status": "FULL_READ",
+      "unread_ranges": null
+    },
+    {
+      "path": "skills/ui-ugui/references/scrollview-setup.md",
+      "kind": "REFERENCE",
+      "bytes": 1605,
+      "sha256": "3eae7a4976b03d9a6912c2c510f34e86a0292896bdd147b010c3936be84b88d5",
+      "total_lines": 29,
+      "read_ranges": [
+        {
+          "last": 29,
+          "first": 1
+        }
+      ],
+      "status": "FULL_READ",
+      "unread_ranges": null
+    },
+    {
+      "path": "skills/sprite-editor/references/templates.md",
+      "kind": "REFERENCE",
+      "bytes": 2956,
+      "sha256": "34178d3b56ca8a32c24b4e9d28d72bcdf5191c7ad6476aee1f532a6c25afa5eb",
+      "total_lines": 72,
+      "read_ranges": [
+        {
+          "last": 72,
+          "first": 1
+        }
+      ],
+      "status": "FULL_READ",
+      "unread_ranges": null
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/pre-check.md",
+      "kind": "REFERENCE",
+      "bytes": 9004,
+      "sha256": "c95b5974d815a38d16a3cffb5ef398b5997ee1d35b04a07c913a9610b68d1087",
+      "total_lines": 205,
+      "read_ranges": [
+        {
+          "last": 205,
+          "first": 1
+        }
+      ],
+      "status": "FULL_READ",
+      "unread_ranges": null
+    },
+    {
+      "path": "skills/ui-uitk/references/common-issues.md",
+      "kind": "REFERENCE",
+      "bytes": 1308,
+      "sha256": "6c6afc84e2605cb1a839b6455b6390782e45a04a279cc9ea8e7da8a0c6703f9a",
+      "total_lines": 74,
+      "read_ranges": [
+        {
+          "last": 74,
+          "first": 1
+        }
+      ],
+      "status": "FULL_READ",
+      "unread_ranges": null
+    },
+    {
+      "path": "skills/manage-sprite-atlas/references/common-errors.md",
+      "kind": "REFERENCE",
+      "bytes": 5257,
+      "sha256": "73f3e0fee328aafa25b18fe1027ccf0e21e94aa4c369941d4ab8d054f72cfd9f",
+      "total_lines": 123,
+      "read_ranges": [
+        {
+          "last": 123,
+          "first": 1
+        }
+      ],
+      "status": "FULL_READ",
+      "unread_ranges": null
+    },
+    {
+      "path": "skills/initialize-ai-navigation/references/navigation-system.md",
+      "kind": "REFERENCE",
+      "bytes": 35991,
+      "sha256": "51977e977da5a01319332b40c9d84c5f8e7110d06d35db4da0a88b5f55157563",
+      "total_lines": 794,
+      "read_ranges": [
+        {
+          "last": 110,
+          "first": 1
+        }
+      ],
+      "status": "PARTIAL_READ",
+      "unread_ranges": {
+        "last": 794,
+        "first": 111
+      }
+    },
+    {
+      "path": "README.md",
+      "kind": "PROVENANCE",
+      "bytes": 1759,
+      "sha256": "db613d52a31f6fa3ed543498a5cb880908b3e1f009ec8c12846b999e66e1a901",
+      "total_lines": 37,
+      "read_ranges": [
+        {
+          "last": 37,
+          "first": 1
+        }
+      ],
+      "status": "FULL_READ"
+    },
+    {
+      "path": "LICENSE.md",
+      "kind": "PROVENANCE",
+      "bytes": 430,
+      "sha256": "1e5de99da20e3c1fa91d8f3ab3dee745e3637cda0f19d8447c0a83a194a8ae59",
+      "total_lines": 5,
+      "read_ranges": [
+        {
+          "last": 5,
+          "first": 1
+        }
+      ],
+      "status": "FULL_READ"
+    }
+  ],
+  "unread_auxiliary_files": [
+    {
+      "path": "skills/2d-pixel-perfect/references/api-reference.md",
+      "bytes": 4230,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/2d-pixel-perfect/references/camera-setup-builtin.cs",
+      "bytes": 1766,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/2d-pixel-perfect/references/camera-setup-urp.cs",
+      "bytes": 2399,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/2d-pixel-perfect/references/pipeline-detection.cs",
+      "bytes": 2273,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/2d-pixel-perfect/references/sprite-settings.cs",
+      "bytes": 1399,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/asset-transformer-toolkit/SECURITY.md",
+      "bytes": 1283,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/asset-transformer-toolkit/api-docs/rule-api.md",
+      "bytes": 4060,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/asset-transformer-toolkit/api-docs/ruleblock-api.md",
+      "bytes": 1049,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/asset-transformer-toolkit/api-docs/ruleset-api.md",
+      "bytes": 4228,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/asset-transformer-toolkit/references/create-importer.md",
+      "bytes": 6359,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/asset-transformer-toolkit/references/lods.md",
+      "bytes": 3374,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/asset-transformer-toolkit/references/rulesets-and-actions.md",
+      "bytes": 10492,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/audio-setup-mixers/SECURITY.md",
+      "bytes": 1313,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/audio-setup-mixers/references/api.md",
+      "bytes": 8405,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-gtk/references/graph-api.md",
+      "bytes": 15550,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-gtk/references/pitfalls.md",
+      "bytes": 7640,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-gtk/references/runtime-and-visualization.md",
+      "bytes": 8348,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-gtk/references/state-machine-api.md",
+      "bytes": 13605,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/achievements.md",
+      "bytes": 31759,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/apis.md",
+      "bytes": 10898,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/authentication.md",
+      "bytes": 18989,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/battlepass.md",
+      "bytes": 40896,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/blueprints-and-samples.md",
+      "bytes": 6022,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/cloud-code-cloudbehaviours.md",
+      "bytes": 63600,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/cloud-code-modules.md",
+      "bytes": 61019,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/cloud-code.md",
+      "bytes": 3874,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/cloud-save.md",
+      "bytes": 17288,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/deployment.md",
+      "bytes": 10025,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/player-account.md",
+      "bytes": 31642,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/remote-config.md",
+      "bytes": 3480,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/tooling.md",
+      "bytes": 12699,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/build-live-game/references/ugs-cli.md",
+      "bytes": 6730,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/SECURITY.md",
+      "bytes": 1734,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/references/camera-rigs.md",
+      "bytes": 6004,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/references/character-motion.md",
+      "bytes": 4383,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/references/game-audio.md",
+      "bytes": 5075,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/references/game-feel.md",
+      "bytes": 5118,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/references/game-shell.md",
+      "bytes": 5364,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/references/live-floor.md",
+      "bytes": 6754,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/references/placeholder-assets.md",
+      "bytes": 4250,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/references/scene-lighting.md",
+      "bytes": 5052,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/references/toon-shading.md",
+      "bytes": 3526,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/craft-game-floors/references/vfx.md",
+      "bytes": 4537,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-2d-physics/SECURITY.md",
+      "bytes": 1312,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-2d-physics/references/2d-physics-core.md",
+      "bytes": 13319,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-2d-physics/references/legacy-2d-physics.md",
+      "bytes": 2697,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-tile-palette-or-rule-tiles/references/hexagonalruletile.md",
+      "bytes": 4698,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-tile-palette-or-rule-tiles/references/palette-create.md",
+      "bytes": 1154,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-tile-palette-or-rule-tiles/references/ruletile-createempty.md",
+      "bytes": 1708,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-tile-palette-or-rule-tiles/references/ruletile-createfromsegment.md",
+      "bytes": 12863,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-tile-palette-or-rule-tiles/references/ruletile.md",
+      "bytes": 9637,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-tile-palette-or-rule-tiles/scripts/CreatePaletteTemplate.cs",
+      "bytes": 5754,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-tile-palette-or-rule-tiles/scripts/ManualWorkflowExample.cs",
+      "bytes": 2362,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-tile-palette-or-rule-tiles/scripts/RuleTileGenerator.cs",
+      "bytes": 1975,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/create-tile-palette-or-rule-tiles/scripts/TilemapRuleTileCreateFromSegment.cs",
+      "bytes": 10305,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/generate-editor-search-query/SECURITY.md",
+      "bytes": 1795,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/generate-editor-search-query/references/open-search-window.md",
+      "bytes": 2915,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/generate-editor-search-query/references/query-patterns.md",
+      "bytes": 6394,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/api-notes.md",
+      "bytes": 23959,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/codeless-catalog.md",
+      "bytes": 18532,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/convert-adapty.md",
+      "bytes": 14650,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/convert-essentialkit.md",
+      "bytes": 12096,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/convert-revenuecat.md",
+      "bytes": 14498,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/convert-unipay.md",
+      "bytes": 6974,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/migration-v4-to-v5.md",
+      "bytes": 20120,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/path-add-iap-to-new-project.md",
+      "bytes": 9742,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/path-convert-native-google-billing.md",
+      "bytes": 19629,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/path-convert-native-storekit.md",
+      "bytes": 26217,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/path-implement-iap-d2c.md",
+      "bytes": 45506,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/implement-in-app-purchases/references/platform-notes.md",
+      "bytes": 7571,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/CHANGELOG.md",
+      "bytes": 6935,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/README.md",
+      "bytes": 4072,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/banner-api.md",
+      "bytes": 25925,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/best-practices.md",
+      "bytes": 20012,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/dependency-resolution.md",
+      "bytes": 4942,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/ilrd-api.md",
+      "bytes": 13606,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/initialization-api.md",
+      "bytes": 29797,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/interstitial-api.md",
+      "bytes": 25842,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/ios-setup.md",
+      "bytes": 16926,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/migration-sdk-9.md",
+      "bytes": 31090,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/privacy-settings.md",
+      "bytes": 18977,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/rewarded-api.md",
+      "bytes": 27437,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/testing-and-validation.md",
+      "bytes": 10399,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/levelplay-unity-integration/references/troubleshooting.md",
+      "bytes": 5000,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/localization/references/api-notes.md",
+      "bytes": 3318,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/localization/resources/L10nBatchProcessor.cs",
+      "bytes": 10047,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/localization/resources/LocalizedFontAsset.cs",
+      "bytes": 633,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/references/addressables-delivery.md",
+      "bytes": 2782,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/references/api.md",
+      "bytes": 10226,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/references/best-practices.md",
+      "bytes": 6549,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/references/custom-packing.md",
+      "bytes": 5089,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/references/manual-authoring.md",
+      "bytes": 1596,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/authoringvsruntime.cs",
+      "bytes": 6943,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/buildaddressablespostprocess.cs",
+      "bytes": 1944,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/cacheloadedatlases.cs",
+      "bytes": 4309,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/cleanupbatchoperations.cs",
+      "bytes": 4008,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/createandconfiguremasteratlas.cs",
+      "bytes": 2562,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/custompackersetup.cs",
+      "bytes": 3186,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/deprecatedmethods.cs",
+      "bytes": 5179,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/dontmodifywithoutsaving.cs",
+      "bytes": 4126,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/dontpackinruntimebuilds.cs",
+      "bytes": 6474,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/dontscriptspriteatlasineditor.cs",
+      "bytes": 4335,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/editorconfiguration.cs",
+      "bytes": 3427,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/enablespritepacking.cs",
+      "bytes": 6148,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/gridspritepacker.cs",
+      "bytes": 1641,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/handlelatebinding.cs",
+      "bytes": 4699,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/handlenullcases.cs",
+      "bytes": 4168,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/migratev1tov2.cs",
+      "bytes": 11442,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/multipagepacker.cs",
+      "bytes": 2618,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/optimizetexturesettings.cs",
+      "bytes": 6719,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/packerdebugging.cs",
+      "bytes": 5383,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/packtransform.cs",
+      "bytes": 1337,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/platformnames.cs",
+      "bytes": 3870,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/queryspritesefficiently.cs",
+      "bytes": 6623,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/registercallbacks.cs",
+      "bytes": 4886,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/runtimeatlasloader.cs",
+      "bytes": 513,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/runtimespriteaccess.cs",
+      "bytes": 627,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/savespriteatlasasset.cs",
+      "bytes": 3617,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/scriptablepacker.cs",
+      "bytes": 2727,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/setincludeinbuild.cs",
+      "bytes": 5525,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/sizeoptimizedpacker.cs",
+      "bytes": 2884,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/spriteatlaslatebinding.cs",
+      "bytes": 3765,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/spriteatlasprebuildgenerator.cs",
+      "bytes": 8304,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/spritedata.cs",
+      "bytes": 1045,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/spritepack.cs",
+      "bytes": 990,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/texturedata.cs",
+      "bytes": 391,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/updatebuildscripts.cs",
+      "bytes": 12262,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/updatesettingsconfiguration.cs",
+      "bytes": 4660,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/usevariantswisely.cs",
+      "bytes": 6599,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/manage-sprite-atlas/resources/variantatlas.cs",
+      "bytes": 1352,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/migrate-birp-to-urp/SECURITY.md",
+      "bytes": 1314,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/migrate-birp-to-urp/references/capturing-the-editor.md",
+      "bytes": 3096,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/migrate-birp-to-urp/references/complex-shader-situations.md",
+      "bytes": 11608,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/migrate-birp-to-urp/references/custom-shader-triage.md",
+      "bytes": 5953,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/migrate-birp-to-urp/references/implementation-patterns.md",
+      "bytes": 31245,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/migrate-birp-to-urp/references/migration-workflow.md",
+      "bytes": 26710,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/migrate-birp-to-urp/references/quality-settings-map.md",
+      "bytes": 7366,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/new-unity-project/SECURITY.md",
+      "bytes": 2748,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/new-unity-project/references/skill-setup.md",
+      "bytes": 4697,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/optimize-audio/SECURITY.md",
+      "bytes": 1309,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/optimize-audio/resources/audio-import-api.md",
+      "bytes": 6106,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/optimize-audio/resources/platform-settings.md",
+      "bytes": 2006,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/optimize-web/SECURITY.md",
+      "bytes": 1307,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/optimize-web/scripts/toktx-examples.sh",
+      "bytes": 497,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/optimize-web/scripts/WebOptimizer.cs",
+      "bytes": 2759,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/physics-3d-collision/references/troubleshooting.md",
+      "bytes": 768,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/physics-3d-collision/resources/CollisionDebugger.cs",
+      "bytes": 1351,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/setup-multiplayer-services/references/dgs-entrypoint.md",
+      "bytes": 4961,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/setup-multiplayer-services/references/entrypoints.md",
+      "bytes": 11137,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/setup-multiplayer-services/references/examples.md",
+      "bytes": 1682,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/setup-multiplayer-services/references/implementation-fit.md",
+      "bytes": 4683,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/setup-multiplayer-services/references/underlying-services.md",
+      "bytes": 920,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/setup-multiplayer-services/references/workflows-prerequisites.md",
+      "bytes": 3311,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/setup-vivox-voice-chat/references/events-and-participants.md",
+      "bytes": 3873,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/setup-vivox-voice-chat/references/init-and-login.md",
+      "bytes": 3748,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/setup-vivox-voice-chat/references/text-chat.md",
+      "bytes": 3101,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/setup-vivox-voice-chat/references/troubleshooting.md",
+      "bytes": 3554,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/setup-vivox-voice-chat/references/voice-channels.md",
+      "bytes": 4129,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/shader-graph-create-custom-node/resources/all_hints.hlsl",
+      "bytes": 5431,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/SECURITY.md",
+      "bytes": 1308,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/references/api_reference.md",
+      "bytes": 6170,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/references/background.md",
+      "bytes": 4258,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/scripts/AutomaticSliceTexture.cs",
+      "bytes": 2302,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/scripts/GenerateNewSpriteRects.cs",
+      "bytes": 9014,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/scripts/GetTextureSourceImageSize.cs",
+      "bytes": 1376,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/scripts/GetTextureToSlice.cs",
+      "bytes": 2686,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/scripts/GridSliceTexture.cs",
+      "bytes": 2525,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/scripts/IsometricSliceTexture.cs",
+      "bytes": 7103,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/scripts/README.md",
+      "bytes": 4900,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/scripts/SetPivotExample.cs",
+      "bytes": 2585,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-editor/scripts/SpriteToPng.cs",
+      "bytes": 3113,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/sprite-segment-3x3grid/scripts/SpriteGridAnalysis.cs",
+      "bytes": 4856,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/ui-imgui/references/gui-elements.md",
+      "bytes": 3772,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/ui-imgui/references/templates.md",
+      "bytes": 2851,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/ui-uitk/references/custom-elements.md",
+      "bytes": 6507,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/ui-uitk/references/painter2d.md",
+      "bytes": 11078,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/ui-uitk/references/pointermanipulator-guide.md",
+      "bytes": 4256,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/ui-uitk/references/svg-icons.md",
+      "bytes": 4113,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/ui-uitk/references/ui-runtime-binding.md",
+      "bytes": 6383,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/ui-uitk/references/uss-guide.md",
+      "bytes": 2906,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/CHANGELOG.md",
+      "bytes": 90121,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/SECURITY.md",
+      "bytes": 13997,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/auth-license-cloud.md",
+      "bytes": 28395,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/build-run-test.md",
+      "bytes": 58910,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/cloud-automation.md",
+      "bytes": 35984,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/collaboration.md",
+      "bytes": 32479,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/config-hub.md",
+      "bytes": 15303,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/diagnostics-maintenance.md",
+      "bytes": 47695,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/docs-workflow.md",
+      "bytes": 9198,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/editors-install.md",
+      "bytes": 31682,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/integration-advanced.md",
+      "bytes": 98818,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/playmode-verification-loop.md",
+      "bytes": 18894,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/projects-templates.md",
+      "bytes": 101427,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-cli/references/version-control.md",
+      "bytes": 24788,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/unity-pipeline/SECURITY.md",
+      "bytes": 1740,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/urp-postprocessing/SECURITY.md",
+      "bytes": 1313,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/urp-postprocessing/references/code-templates.md",
+      "bytes": 7575,
+      "status": "NOT_READ"
+    },
+    {
+      "path": "skills/urp-postprocessing/references/effect-reference.md",
+      "bytes": 5587,
+      "status": "NOT_READ"
+    }
+  ],
+  "existing_public_manuals_compared": [
+    "docs/MATCH3_WORKFLOW.md",
+    "docs/MATCH3_UNITY6_COMPATIBILITY.md",
+    "docs/MODULAR_MAP_WORKFLOW.md",
+    "docs/MODULAR_MAP_BLENDER_UNITY.md",
+    "docs/MODULAR_MAP_PLAYABILITY_QA.md"
+  ],
+  "interpretation": "Own Korean summary and validation plans; source statements, internal conflicts and unverified claims are separated",
+  "runtime_checks": {
+    "unity_editor": "NOT_RUN",
+    "unity_cli": "NOT_RUN",
+    "unity_pipeline": "NOT_RUN",
+    "package_install_or_update": "NOT_RUN",
+    "services_or_accounts": "NOT_RUN",
+    "payments_or_ads": "NOT_RUN",
+    "blender": "NOT_RUN",
+    "claude_or_painter_query": "NOT_RUN",
+    "engine_tests_or_device_performance": "NOT_RUN",
+    "source_link_web_refresh": "NOT_RUN",
+    "independent_quality_verdict": "NOT_PERFORMED"
+  },
+  "side_effects": "Only local draft study documents and evidence metadata written; no shared canonical repository writes",
+  "publication_status": "INCLUDED_IN_SHARED_DOCUMENT_STUDY",
+  "limitations": [
+    "Auxiliary references/resources/scripts/API files outside recorded ranges were not read",
+    "Fixed source is not a current API compatibility or legal/store-policy certification",
+    "Unity6.3 official-web cross-check remains incomplete",
+    "No skill activation/installation or example-code execution",
+    "No production asset/game/service changes"
+  ],
+  "source_draft_publication_status": "DRAFT_FOR_SINGLE_WRITER"
+}
