@@ -1,0 +1,3746 @@
+{
+  "date_kst": "2026-11-01",
+  "status": "document_study_complete_primary_71",
+  "scope": {
+    "el_blender": 28,
+    "scenario_blender": 15,
+    "scenario_maya": 11,
+    "scenario_zbrush": 9,
+    "scenario_core": 1,
+    "scenario_hidden_support": 7,
+    "total_skills": 71,
+    "root_readmes": 2
+  },
+  "assigned_main_documents": [
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "README.md",
+      "sha256": "a3cdaf639dc92f516c4e0114a11a63f3dadbaa15653eddf8c42f79e1f9d32670",
+      "bytes": 4224,
+      "lines": 81,
+      "characters": 4224,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/README.md",
+      "full_text_read": true,
+      "role": "root_readme",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 81
+        }
+      ],
+      "read_lines": 81
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-addon-development/SKILL.md",
+      "sha256": "71e2181e502b2d6bd6ea3025cba31fbef5fb3b66d75536010793343a36c5ec9d",
+      "bytes": 5056,
+      "lines": 49,
+      "characters": 5054,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-addon-development/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 49
+        }
+      ],
+      "read_lines": 49,
+      "name": "blender-addon-development",
+      "one_line_ko": "애드온 등록/해제·문맥·반복 실행과 버전별 API를 구분한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-animation/SKILL.md",
+      "sha256": "74bfbbf2eb941691f477f14ce3cbb959feaa311e8b5e743bc8c274277dc77a98",
+      "bytes": 7095,
+      "lines": 62,
+      "characters": 7078,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-animation/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 62
+        }
+      ],
+      "read_lines": 62,
+      "name": "blender-animation",
+      "one_line_ko": "포즈·타이밍·접지부터 만들고 실제 재생과 곡선을 함께 검사한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-asset-qa/SKILL.md",
+      "sha256": "968e4435eeba040f0952cc335c8e9e7182e1d7008aa4295f202ddb836fa49ec9",
+      "bytes": 5185,
+      "lines": 59,
+      "characters": 5173,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-asset-qa/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 59
+        }
+      ],
+      "read_lines": 59,
+      "name": "blender-asset-qa",
+      "one_line_ko": "구조·재질·외형 검사와 생략된 검사를 분리하여 보고한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-character-rigging/SKILL.md",
+      "sha256": "f079c155f582dbcbaed0c2a24c86716657095d0d48e7e120144ba1db797b5117",
+      "bytes": 6653,
+      "lines": 55,
+      "characters": 6626,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-character-rigging/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 55
+        }
+      ],
+      "read_lines": 55,
+      "name": "blender-character-rigging",
+      "one_line_ko": "joint fit·변형 골격·가중치·포즈를 생성 성공과 구분한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-clothing/SKILL.md",
+      "sha256": "11f5861183c96a43341238fc069ef321eca2f6bc8e70227c03333f5a5b436dc5",
+      "bytes": 5182,
+      "lines": 47,
+      "characters": 5162,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-clothing/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 47
+        }
+      ],
+      "read_lines": 47,
+      "name": "blender-clothing",
+      "one_line_ko": "몸 사본의 여유·두께·가림 정책과 의상 변형을 별도 설계한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-core/SKILL.md",
+      "sha256": "91588e225931c2df924819d02a7b9ca896568f0e4d458a09364b1611b709527f",
+      "bytes": 7635,
+      "lines": 86,
+      "characters": 7607,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-core/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 86
+        }
+      ],
+      "read_lines": 86,
+      "name": "blender-core",
+      "one_line_ko": "데이터 API·모드·문맥·평가 결과·안전한 참조를 먼저 다룬다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-environment-kits/SKILL.md",
+      "sha256": "d46f6936919f3055f87866f6ecf3e13b3157ae07ea7ff5dbc7148844d3a120b2",
+      "bytes": 5184,
+      "lines": 47,
+      "characters": 5152,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-environment-kits/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 47
+        }
+      ],
+      "read_lines": 47,
+      "name": "blender-environment-kits",
+      "one_line_ko": "단위·피벗·그리드·재사용 부품과 접합 검수로 키트를 만든다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-export-pipelines/SKILL.md",
+      "sha256": "ed22458c62a4e09be4307d70085ff87dc171c7cd703199312474d6fe4f91d092",
+      "bytes": 5094,
+      "lines": 62,
+      "characters": 5089,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-export-pipelines/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 62
+        }
+      ],
+      "read_lines": 62,
+      "name": "blender-export-pipelines",
+      "one_line_ko": "목적별 축·단위·골격·재질 계약을 왕복 비교한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-facial-shapekeys/SKILL.md",
+      "sha256": "132b7eed328451f9577cfbf06d4a68a6a569a9b8c8621af3311151ca920a5543",
+      "bytes": 4875,
+      "lines": 54,
+      "characters": 4865,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-facial-shapekeys/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 54
+        }
+      ],
+      "read_lines": 54,
+      "name": "blender-facial-shapekeys",
+      "one_line_ko": "정점 순서와 실제 delta·표정 조합·대상 export 계약을 확인한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-game-optimization/SKILL.md",
+      "sha256": "15c900a72556e1a638c95ff78e03021601affa315d710bbdb55429247ffd9b96",
+      "bytes": 5978,
+      "lines": 67,
+      "characters": 5898,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-game-optimization/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 67
+        }
+      ],
+      "read_lines": 67,
+      "name": "blender-game-optimization",
+      "one_line_ko": "실루엣·실제 엔진 정점·LOD·재질·culling 비용으로 최적화한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-geometry-nodes/SKILL.md",
+      "sha256": "d058b38738877020565387402f0f689c0812e631876c085f9bcc06cd34cfa4b2",
+      "bytes": 6020,
+      "lines": 59,
+      "characters": 6004,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-geometry-nodes/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 59
+        }
+      ],
+      "read_lines": 59,
+      "name": "blender-geometry-nodes",
+      "one_line_ko": "소켓·필드·instance·평가 결과를 명시하고 node 링크를 검수한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-hair-grooming/SKILL.md",
+      "sha256": "c65d3d88ffca70a00dc654af0a1523636bb5d8d3a3830853b7ccfc30b197107d",
+      "bytes": 5486,
+      "lines": 58,
+      "characters": 5437,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-hair-grooming/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 58
+        }
+      ],
+      "read_lines": 58,
+      "name": "blender-hair-grooming",
+      "one_line_ko": "guide 흐름·clump·분포·관통과 최종 머리 비용을 단계별로 본다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-hardsurface-modeling/SKILL.md",
+      "sha256": "64362339cf0bf4d3fcc1ec025b4f3fef615c0613f12a7ba41eb64becca03f2b8",
+      "bytes": 5641,
+      "lines": 63,
+      "characters": 5608,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-hardsurface-modeling/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 63
+        }
+      ],
+      "read_lines": 63,
+      "name": "blender-hardsurface-modeling",
+      "one_line_ko": "큰 형태와 기능부터 만든 뒤 bevel·normal·하이라이트를 검수한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-lighting-lookdev/SKILL.md",
+      "sha256": "3b4ef98a303f68d0915937156763f8eef2b7997da3fab86a8876693efc06f363",
+      "bytes": 5341,
+      "lines": 52,
+      "characters": 5294,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-lighting-lookdev/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 52
+        }
+      ],
+      "read_lines": 52,
+      "name": "blender-lighting-lookdev",
+      "one_line_ko": "중립 재질·고정 카메라·기준광에서 형태와 재질을 분리한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-pbr-materials/SKILL.md",
+      "sha256": "a067d2268abd75e5336a6ddd3fa9cb3ad16b7b4f492469a52876992bb1c61c01",
+      "bytes": 5929,
+      "lines": 57,
+      "characters": 5899,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-pbr-materials/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 57
+        }
+      ],
+      "read_lines": 57,
+      "name": "blender-pbr-materials",
+      "one_line_ko": "채널·색공간·normal·물성·대상 셰이더의 계약을 기록한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-pipeline-automation/SKILL.md",
+      "sha256": "1a9b4af73856ca95bc0e1a84c0c4331faa22ee82952c6ad36242a0ec7125dc58",
+      "bytes": 4899,
+      "lines": 60,
+      "characters": 4897,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-pipeline-automation/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 60
+        }
+      ],
+      "read_lines": 60,
+      "name": "blender-pipeline-automation",
+      "one_line_ko": "소유 데이터·재실행·로그·버전 저장으로 반복 작업을 관리한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-rendering/SKILL.md",
+      "sha256": "6e98d9533699d754266c6965070ca9e01c37ba6294f4e7bc0ac238cd2912af8b",
+      "bytes": 5599,
+      "lines": 70,
+      "characters": 5591,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-rendering/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 70
+        }
+      ],
+      "read_lines": 70,
+      "name": "blender-rendering",
+      "one_line_ko": "렌더러·색관리·샘플·실제 출력과 시간 예산을 확인한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-retopology-uv/SKILL.md",
+      "sha256": "9aeb9c6ae7331d49439d44f64c01792c97351ed7490006d1eeac4d6ca201803d",
+      "bytes": 5127,
+      "lines": 61,
+      "characters": 5080,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-retopology-uv/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 61
+        }
+      ],
+      "read_lines": 61,
+      "name": "blender-retopology-uv",
+      "one_line_ko": "랜드마크·변형 흐름·시임·밀도를 자동 remesh와 구분한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-scene-setup/SKILL.md",
+      "sha256": "c3d9a7c2ad5b1e642bc1247a01ae1d41942e1b6bf4537f1c4ab4da0f698aef19",
+      "bytes": 5340,
+      "lines": 73,
+      "characters": 5290,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-scene-setup/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 73
+        }
+      ],
+      "read_lines": 73,
+      "name": "blender-scene-setup",
+      "one_line_ko": "단위·피벗·컬렉션·원본/작업/출력 사본을 구분한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-sculpting/SKILL.md",
+      "sha256": "41a2069085a4ea97175f5fa3e2221655d218fd88d7048b27efb6459e670c3c23",
+      "bytes": 5122,
+      "lines": 54,
+      "characters": 5112,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-sculpting/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 54
+        }
+      ],
+      "read_lines": 54,
+      "name": "blender-sculpting",
+      "one_line_ko": "큰 mass를 낮은 해상도에서 정하고 remesh와 detail을 분리한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-simulation/SKILL.md",
+      "sha256": "0eb8fe6d51b36732cc26c32a3ee0d6b89774f5c0f058bdddad387dccd0adad82",
+      "bytes": 5883,
+      "lines": 67,
+      "characters": 5869,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-simulation/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 67
+        }
+      ],
+      "read_lines": 67,
+      "name": "blender-simulation",
+      "one_line_ko": "스케일·범위·충돌·cache를 고정하고 캐시 결과를 검수한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-stylized-npr/SKILL.md",
+      "sha256": "d588af8dfc91ddfea02774b5ad3441ff6c9a6ab690dfa316e491548cebfdae1d",
+      "bytes": 5843,
+      "lines": 62,
+      "characters": 5823,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-stylized-npr/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 62
+        }
+      ],
+      "read_lines": 62,
+      "name": "blender-stylized-npr",
+      "one_line_ko": "toon·custom normal·양식별 음영의 렌더러 의존성을 확인한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-texture-baking/SKILL.md",
+      "sha256": "206802dbd95aa4cce88553fde36598e8efd82a9cee819b98fb76b59d72ce50a2",
+      "bytes": 5713,
+      "lines": 69,
+      "characters": 5704,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-texture-baking/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 69
+        }
+      ],
+      "read_lines": 69,
+      "name": "blender-texture-baking",
+      "one_line_ko": "high/low·삼각화·이미지 target·거리/케이지·저장 결과를 맞춘다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-texturing/SKILL.md",
+      "sha256": "e815ec608f122841acc4575c6f76e5f84daf82d31ea2db10f033ed2f7c75f888",
+      "bytes": 5527,
+      "lines": 56,
+      "characters": 5504,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-texturing/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 56
+        }
+      ],
+      "read_lines": 56,
+      "name": "blender-texturing",
+      "one_line_ko": "고유/반복 텍스처·mask·레이어·출력 채널을 설계한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-time-of-day/SKILL.md",
+      "sha256": "db75a31b6c4f7ab8f146f28c7e8470ce28951c5e9638b68d4b634c621beb3bf1",
+      "bytes": 6715,
+      "lines": 62,
+      "characters": 6684,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-time-of-day/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 62
+        }
+      ],
+      "read_lines": 62,
+      "name": "blender-time-of-day",
+      "one_line_ko": "태양·하늘·노출·분위기의 시간별 일관성을 검수한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-video-editing/SKILL.md",
+      "sha256": "aa38ffc02ade80b6252b7ecb1012622b7e31bb1b86493131d4ae946f8cd2a718",
+      "bytes": 4995,
+      "lines": 49,
+      "characters": 4980,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-video-editing/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 49
+        }
+      ],
+      "read_lines": 49,
+      "name": "blender-video-editing",
+      "one_line_ko": "별도 편집 scene·FPS·음원·cut·인코딩 산출물을 검수한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-weather-fx/SKILL.md",
+      "sha256": "599ba1f27af06e344ac70046940b6ff3c855ed4fda55bb4eaffcf77537f64531",
+      "bytes": 6649,
+      "lines": 64,
+      "characters": 6630,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-weather-fx/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 64
+        }
+      ],
+      "read_lines": 64,
+      "name": "blender-weather-fx",
+      "one_line_ko": "날씨와 안개·젖음·광원 효과를 재질/성능 예산과 연결한다."
+    },
+    {
+      "repo": "blender-skills",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "path": "skills/blender-workflow-recipes/SKILL.md",
+      "sha256": "29aafa615aa4386b2c14265bb993e6127c760aca81597a47659d6a4281dccd42",
+      "bytes": 8226,
+      "lines": 75,
+      "characters": 8173,
+      "url": "https://github.com/EL4CTEO/blender-skills/blob/fb92cfb4cc5a238c22113a6a230b09f535bd0656/skills/blender-workflow-recipes/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 75
+        }
+      ],
+      "read_lines": 75,
+      "name": "blender-workflow-recipes",
+      "one_line_ko": "목적별 제작 단계를 연결하되 개별 검수를 생략하지 않는다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "README.md",
+      "sha256": "dbf35fb3a95a208da99d0555039ebbb297c06551d343e77c96931a781127970a",
+      "bytes": 69800,
+      "lines": 518,
+      "characters": 69800,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/README.md",
+      "full_text_read": true,
+      "role": "root_readme",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 188
+        },
+        {
+          "start": 189,
+          "end": 315
+        },
+        {
+          "start": 316,
+          "end": 420
+        },
+        {
+          "start": 421,
+          "end": 518
+        }
+      ],
+      "read_lines": 518
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": ".agents/skills/pr-handle-comments/SKILL.md",
+      "sha256": "9e1e6c1841b90bd53fb07e9315b7e17cd104bc5c5d77e54a837211d23d7a2132",
+      "bytes": 7412,
+      "lines": 46,
+      "characters": 7412,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/.agents/skills/pr-handle-comments/SKILL.md",
+      "full_text_read": true,
+      "role": "nested_support_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 46
+        }
+      ],
+      "read_lines": 46,
+      "name": "pr-handle-comments",
+      "one_line_ko": "실제 코드 기준으로 모든 review thread를 분류하고 최소 수정·검증을 연결한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": ".agents/skills/pr-squash-message/SKILL.md",
+      "sha256": "74ba0caee4ac3fabe1c173a3ec79a6cce7dd9b82212b978887d5d8298b4042aa",
+      "bytes": 7460,
+      "lines": 37,
+      "characters": 7460,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/.agents/skills/pr-squash-message/SKILL.md",
+      "full_text_read": true,
+      "role": "nested_support_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 37
+        }
+      ],
+      "read_lines": 37,
+      "name": "pr-squash-message",
+      "one_line_ko": "최종 diff의 사용자 영향 중심으로 squash 설명과 공저자를 기록한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": ".agents/skills/pr-summary/SKILL.md",
+      "sha256": "208c150e8479a5bf9301eb55782fb6ab465361a8ac155c8aa63e860160f8ce84",
+      "bytes": 5415,
+      "lines": 25,
+      "characters": 5415,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/.agents/skills/pr-summary/SKILL.md",
+      "full_text_read": true,
+      "role": "nested_support_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 25
+        }
+      ],
+      "read_lines": 25,
+      "name": "pr-summary",
+      "one_line_ko": "최종 diff·기존 템플릿·실제로 실행한 검증으로 PR 설명을 만든다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": ".agents/skills/skill-creator/SKILL.md",
+      "sha256": "e030e7685e26283b4a76f5202aa3ae8516fb41dde799be5ae8ea6393ec009fe9",
+      "bytes": 33653,
+      "lines": 485,
+      "characters": 33472,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/.agents/skills/skill-creator/SKILL.md",
+      "full_text_read": true,
+      "role": "nested_support_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 297
+        },
+        {
+          "start": 298,
+          "end": 485
+        }
+      ],
+      "read_lines": 485,
+      "name": "skill-creator",
+      "one_line_ko": "사례·baseline 비교·trigger 경계·held-out 평가·사람 검토로 지침을 개선한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": ".agents/skills/skill-development/SKILL.md",
+      "sha256": "95bfbd3e579a14096c20f032defbeebf57fda318a014bf5edc2733d94dfbfc8f",
+      "bytes": 23464,
+      "lines": 637,
+      "characters": 23174,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/.agents/skills/skill-development/SKILL.md",
+      "full_text_read": true,
+      "role": "nested_support_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 438
+        },
+        {
+          "start": 439,
+          "end": 637
+        }
+      ],
+      "read_lines": 637,
+      "name": "skill-development",
+      "one_line_ko": "짧은 진입 본문과 참조·예제·유틸리티의 점진적 공개를 설계한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": ".agents/skills/skills-pr-handle/SKILL.md",
+      "sha256": "6572bd48bac623005a976c6791f6393a3f51bf0bb63fabee8eace0903ba9075c",
+      "bytes": 10167,
+      "lines": 219,
+      "characters": 10167,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/.agents/skills/skills-pr-handle/SKILL.md",
+      "full_text_read": true,
+      "role": "nested_support_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 219
+        }
+      ],
+      "read_lines": 219,
+      "name": "skills-pr-handle",
+      "one_line_ko": "fork 격리·diff 발견 규칙·review triage·실기 검증 조건을 결합한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": ".agents/skills/skills-validate/SKILL.md",
+      "sha256": "71f760ee28d691d6b1e3a4243b038170b8ac30e4b0fd86f2d3a9657a21346382",
+      "bytes": 11289,
+      "lines": 213,
+      "characters": 11289,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/.agents/skills/skills-validate/SKILL.md",
+      "full_text_read": true,
+      "role": "nested_support_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 213
+        }
+      ],
+      "read_lines": 213,
+      "name": "skills-validate",
+      "one_line_ko": "실제 목적/함정/예산·fresh context·기계/실기 근거를 분리해 판정한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-animation/SKILL.md",
+      "sha256": "1517d218ed8d8ce4fb1535837d2e10fac05106970658b8cdeb9875f838f40061",
+      "bytes": 21022,
+      "lines": 204,
+      "characters": 21022,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-animation/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 168
+        },
+        {
+          "start": 169,
+          "end": 204
+        }
+      ],
+      "read_lines": 204,
+      "name": "scenario-blender-animation",
+      "one_line_ko": "stepped·body·face·overlap·polish와 화면 공간 검수를 연결한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-blockout/SKILL.md",
+      "sha256": "4fec168953b92fa64273539bfa3280227a7549b734f1251f1b3344d0b88a490c",
+      "bytes": 19177,
+      "lines": 256,
+      "characters": 19177,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-blockout/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 240
+        },
+        {
+          "start": 241,
+          "end": 256
+        }
+      ],
+      "read_lines": 256,
+      "name": "scenario-blender-blockout",
+      "one_line_ko": "영상 생성 가이드의 정체성·동작·카메라 계약을 구분한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-expert/SKILL.md",
+      "sha256": "040d380135f251eddfc9ba76defc439a888d84d7d11b9dee019dad021790bf16",
+      "bytes": 18468,
+      "lines": 190,
+      "characters": 18468,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-expert/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 184
+        },
+        {
+          "start": 185,
+          "end": 190
+        }
+      ],
+      "read_lines": 190,
+      "name": "scenario-blender-expert",
+      "one_line_ko": "live/headless 경로·단계별 수치/시각 검수·5.2 API 함정을 연결한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-export/SKILL.md",
+      "sha256": "0aee5dfecfb0aede8f009e2eb1f42e163563414b85105160b6bfd84eb8713ff6",
+      "bytes": 13753,
+      "lines": 193,
+      "characters": 13753,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-export/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 193
+        }
+      ],
+      "read_lines": 193,
+      "name": "scenario-blender-export",
+      "one_line_ko": "축·root·채널·필수 확장·engine 왕복의 실제 차이를 검사한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-geometry-nodes/SKILL.md",
+      "sha256": "c5a01c6130cc4a1ebf94ae88ed44a0447711267504516b3e6a49fa16a13497e2",
+      "bytes": 16716,
+      "lines": 179,
+      "characters": 16716,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-geometry-nodes/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 179
+        }
+      ],
+      "read_lines": 179,
+      "name": "scenario-blender-geometry-nodes",
+      "one_line_ko": "절차형 geometry의 의도와 field/instance·평가 검수를 설계한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-grease-pencil/SKILL.md",
+      "sha256": "cb5ad3f7f9f58ca20b2fd365b5a67b2c8ae178c387def17efa793665705e63a0",
+      "bytes": 18469,
+      "lines": 203,
+      "characters": 18469,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-grease-pencil/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 195
+        },
+        {
+          "start": 196,
+          "end": 203
+        }
+      ],
+      "read_lines": 203,
+      "name": "scenario-blender-grease-pencil",
+      "one_line_ko": "stroke 대응·fill/구멍·2.5D cutout·버전별 데이터를 구분한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-hair/SKILL.md",
+      "sha256": "8676a6b43059aa7f250fd09867c25947661b48075e5e7d28e771e03105c1c508",
+      "bytes": 19113,
+      "lines": 200,
+      "characters": 19103,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-hair/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 183
+        },
+        {
+          "start": 184,
+          "end": 200
+        }
+      ],
+      "read_lines": 200,
+      "name": "scenario-blender-hair",
+      "one_line_ko": "guide 데이터·UV bind·mask·clump·실제 stroke 가능성을 구분한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-hard-surface/SKILL.md",
+      "sha256": "5ea3ae0ab9e05c50dfc2b6a39b2a66b038c400f8a73b1337673b6b6c1de312fc",
+      "bytes": 18700,
+      "lines": 195,
+      "characters": 18700,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-hard-surface/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 181
+        },
+        {
+          "start": 182,
+          "end": 195
+        }
+      ],
+      "read_lines": 195,
+      "name": "scenario-blender-hard-surface",
+      "one_line_ko": "primary/micro bevel·boolean·normal과 금속 반사로 면을 읽는다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-lighting-rendering/SKILL.md",
+      "sha256": "4d29cc85bd604ed691d54e35a0105be438f33205d450024f6872012750dd8277",
+      "bytes": 20533,
+      "lines": 204,
+      "characters": 20515,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-lighting-rendering/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 172
+        },
+        {
+          "start": 173,
+          "end": 204
+        }
+      ],
+      "read_lines": 204,
+      "name": "scenario-blender-lighting-rendering",
+      "one_line_ko": "초점·값·light group·EEVEE/Cycles 차이와 출력 근거를 검사한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-previs-storyboard/SKILL.md",
+      "sha256": "a67746d8b4df656e9d287ba6d24dfd7415a6669f483318deb40bba24b94ab11b",
+      "bytes": 20354,
+      "lines": 200,
+      "characters": 20354,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-previs-storyboard/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 167
+        },
+        {
+          "start": 168,
+          "end": 200
+        }
+      ],
+      "read_lines": 200,
+      "name": "scenario-blender-previs-storyboard",
+      "one_line_ko": "beat·theatrical/cinematic pass·lens·cut으로 감독 의도를 구체화한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-retopology/SKILL.md",
+      "sha256": "bf462aa82b99b0f56e019f20dcc16367ce1205d7c1233b647b93401552d6ff66",
+      "bytes": 22344,
+      "lines": 191,
+      "characters": 22344,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-retopology/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 153
+        },
+        {
+          "start": 154,
+          "end": 191
+        }
+      ],
+      "read_lines": 191,
+      "name": "scenario-blender-retopology",
+      "one_line_ko": "여섯 층 지도·경계 대응·계획된 flow·cage/평가표면 검수로 진행한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-rigging/SKILL.md",
+      "sha256": "01fc4cc83afd8c94e49e4c3bb16649bda4423c53f276742efd3b45a6ccb0149f",
+      "bytes": 20164,
+      "lines": 219,
+      "characters": 20164,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-rigging/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 186
+        },
+        {
+          "start": 187,
+          "end": 219
+        }
+      ],
+      "read_lines": 219,
+      "name": "scenario-blender-rigging",
+      "one_line_ko": "heat 실제 weights·joint/shape 계약·ROM과 export를 분리한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-sculpting/SKILL.md",
+      "sha256": "5d4ebb08e2ef89dda2a4f0fee5c0f530a1bdc5875fcb27384af112609db921ca",
+      "bytes": 21196,
+      "lines": 183,
+      "characters": 21196,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-sculpting/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 150
+        },
+        {
+          "start": 151,
+          "end": 183
+        }
+      ],
+      "read_lines": 183,
+      "name": "scenario-blender-sculpting",
+      "one_line_ko": "primary mass·평면·reference를 detail보다 먼저 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-texturing-shading/SKILL.md",
+      "sha256": "c622738e3026c0a59bef653996a6a97f0fd09240ae0ae9f659694f4827e5b3b3",
+      "bytes": 16098,
+      "lines": 189,
+      "characters": 16098,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-texturing-shading/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 189
+        }
+      ],
+      "read_lines": 189,
+      "name": "scenario-blender-texturing-shading",
+      "one_line_ko": "map 색공간·요철·재질 원인과 실제 조명 반응을 확인한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/blender/scenario-blender-uv-baking/SKILL.md",
+      "sha256": "5891e74126f44fbc6543260cb3d069bd13bf377a1581a6bc6af1abe04648e0af",
+      "bytes": 17470,
+      "lines": 185,
+      "characters": 17470,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-uv-baking/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 185
+        }
+      ],
+      "read_lines": 185,
+      "name": "scenario-blender-uv-baking",
+      "one_line_ko": "시임·왜곡·밀도·mip와 adaptive 투영의 문제 위치를 검사한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/maya/scenario-maya-animation/SKILL.md",
+      "sha256": "6f5c0f91f426cfb37f36eb807b00b1a8750697b9f2ad410fce00ae9c8ecde47f",
+      "bytes": 18605,
+      "lines": 200,
+      "characters": 18605,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/maya/scenario-maya-animation/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 191
+        },
+        {
+          "start": 192,
+          "end": 200
+        }
+      ],
+      "read_lines": 200,
+      "name": "scenario-maya-animation",
+      "one_line_ko": "beat·stepped→spline·접지·lip sync를 playblast로 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/maya/scenario-maya-deformation/SKILL.md",
+      "sha256": "f06ddca9fc97f3136b0350de3ce619d180449d47e4403334d28e21ea9e5162f3",
+      "bytes": 19982,
+      "lines": 201,
+      "characters": 19982,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/maya/scenario-maya-deformation/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 169
+        },
+        {
+          "start": 170,
+          "end": 201
+        }
+      ],
+      "read_lines": 201,
+      "name": "scenario-maya-deformation",
+      "one_line_ko": "pivot/loop 진단→region/mask→corrective·ROM 순서로 진행한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/maya/scenario-maya-expert/SKILL.md",
+      "sha256": "ded91341fd0b554a337747302b15e984bf880c415c9de01406f699bc0f2c5eef",
+      "bytes": 22511,
+      "lines": 197,
+      "characters": 22511,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/maya/scenario-maya-expert/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 132
+        },
+        {
+          "start": 133,
+          "end": 197
+        }
+      ],
+      "read_lines": 197,
+      "name": "scenario-maya-expert",
+      "one_line_ko": "main thread·mayapy/live·undo·단계 gate를 정의하며 Maya 실기는 미검증이다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/maya/scenario-maya-fx/SKILL.md",
+      "sha256": "c8544b15b43ecc3d9aa8d23abbaf19b9acfa8b0d3c2268f9261921aec8562bb1",
+      "bytes": 21595,
+      "lines": 222,
+      "characters": 21595,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/maya/scenario-maya-fx/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 172
+        },
+        {
+          "start": 173,
+          "end": 222
+        }
+      ],
+      "read_lines": 222,
+      "name": "scenario-maya-fx",
+      "one_line_ko": "solver 단위·pre-roll·proxy·순차 평가·cache를 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/maya/scenario-maya-groom/SKILL.md",
+      "sha256": "9c448c8d7e9427445dc70c36ae394a2942cc5e3b27612f7280ee6c923a8d7f39",
+      "bytes": 20390,
+      "lines": 208,
+      "characters": 20390,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/maya/scenario-maya-groom/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 169
+        },
+        {
+          "start": 170,
+          "end": 208
+        }
+      ],
+      "read_lines": 208,
+      "name": "scenario-maya-groom",
+      "one_line_ko": "flow→guide 연결→clump 계층→shader·cache와 coverage를 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/maya/scenario-maya-lighting-rendering/SKILL.md",
+      "sha256": "121ab6097fc02f861fb39ede776d03c1655c5ee002d25e673f80fdb95f20947a",
+      "bytes": 20628,
+      "lines": 203,
+      "characters": 20611,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/maya/scenario-maya-lighting-rendering/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 162
+        },
+        {
+          "start": 163,
+          "end": 203
+        }
+      ],
+      "read_lines": 203,
+      "name": "scenario-maya-lighting-rendering",
+      "one_line_ko": "story target·solo groups·noise AOV·scene-linear EXR로 납품한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/maya/scenario-maya-lookdev/SKILL.md",
+      "sha256": "172d60d58303365d6c4929d00243e8f6954c252315bbe115a97b7e97d710ad37",
+      "bytes": 20322,
+      "lines": 202,
+      "characters": 20320,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/maya/scenario-maya-lookdev/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 168
+        },
+        {
+          "start": 169,
+          "end": 202
+        }
+      ],
+      "read_lines": 202,
+      "name": "scenario-maya-lookdev",
+      "one_line_ko": "색공간/채널/연결과 OpenPBR 단위·normal/displacement를 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/maya/scenario-maya-modeling/SKILL.md",
+      "sha256": "79113d82568ba84dd8da02070524b1906d5d9073cacef31408f789b09ee1b25d",
+      "bytes": 21187,
+      "lines": 218,
+      "characters": 21182,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/maya/scenario-maya-modeling/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 171
+        },
+        {
+          "start": 172,
+          "end": 218
+        }
+      ],
+      "read_lines": 218,
+      "name": "scenario-maya-modeling",
+      "one_line_ko": "narrowest feature와 목적별 grid·edge holding·highlight를 설계한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/maya/scenario-maya-pipeline-scripting/SKILL.md",
+      "sha256": "ba12cfb71c47b391c29f25ecd1ad030ee683a1dcbd4bd341f60bce461b2e01a0",
+      "bytes": 19033,
+      "lines": 211,
+      "characters": 19032,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/maya/scenario-maya-pipeline-scripting/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 197
+        },
+        {
+          "start": 198,
+          "end": 211
+        }
+      ],
+      "read_lines": 211,
+      "name": "scenario-maya-pipeline-scripting",
+      "one_line_ko": "파일별 process·FBX 전역 상태·로그·clean reimport를 명시한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/maya/scenario-maya-retopology-uv/SKILL.md",
+      "sha256": "eff67b5185f2540b40f565deb885a85ae32859968de4d4b761b8c9917021bace",
+      "bytes": 20713,
+      "lines": 220,
+      "characters": 20709,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/maya/scenario-maya-retopology-uv/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 178
+        },
+        {
+          "start": 179,
+          "end": 220
+        }
+      ],
+      "read_lines": 220,
+      "name": "scenario-maya-retopology-uv",
+      "one_line_ko": "approved template·loop map·proxy bend·카메라/mip 기반 UV를 계획한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/maya/scenario-maya-rigging/SKILL.md",
+      "sha256": "d250efe0968476c031c4c121faad147498bfa03755c66bcc208c3cce1da3ba6f",
+      "bytes": 21220,
+      "lines": 211,
+      "characters": 21220,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/maya/scenario-maya-rigging/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 169
+        },
+        {
+          "start": 170,
+          "end": 211
+        }
+      ],
+      "read_lines": 211,
+      "name": "scenario-maya-rigging",
+      "one_line_ko": "joint orientation·OPM·space/IKFK zero-pop·실제 evaluation을 설계한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/zbrush/scenario-zbrush-automation/SKILL.md",
+      "sha256": "bae5e10def62621311d152cb3b403807f240668fbba46b15a67b987a4c065a7d",
+      "bytes": 19229,
+      "lines": 199,
+      "characters": 19229,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/zbrush/scenario-zbrush-automation/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 184
+        },
+        {
+          "start": 185,
+          "end": 199
+        }
+      ],
+      "read_lines": 199,
+      "name": "scenario-zbrush-automation",
+      "one_line_ko": "파일/단계별 timeout·checkpoint·durable report·hash resume를 설계한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/zbrush/scenario-zbrush-character-creature/SKILL.md",
+      "sha256": "3b9ff63d87925c811258b7c9c2b028899fb29fda7b8c66c3189772ade95c5da8",
+      "bytes": 18786,
+      "lines": 196,
+      "characters": 18786,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/zbrush/scenario-zbrush-character-creature/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 181
+        },
+        {
+          "start": 182,
+          "end": 196
+        }
+      ],
+      "read_lines": 196,
+      "name": "scenario-zbrush-character-creature",
+      "one_line_ko": "해부 mass→secondary→지역별 skin/scale detail·projection nets 순서다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/zbrush/scenario-zbrush-expert/SKILL.md",
+      "sha256": "a91110e38f5b1169055fdb45eab180b8b211fe8354d599e6032634a1ad914e09",
+      "bytes": 21897,
+      "lines": 213,
+      "characters": 21897,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/zbrush/scenario-zbrush-expert/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 153
+        },
+        {
+          "start": 154,
+          "end": 213
+        }
+      ],
+      "read_lines": 213,
+      "name": "scenario-zbrush-expert",
+      "one_line_ko": "main-thread bridge·dialog/undo 제약·단일 소유·실기 증거 범위를 구분한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/zbrush/scenario-zbrush-hard-surface/SKILL.md",
+      "sha256": "c2d92d1236ec6b0d2aa68c637b3293239ac670ddce314ba6cc58e6674740abed",
+      "bytes": 19784,
+      "lines": 212,
+      "characters": 19784,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/zbrush/scenario-zbrush-hard-surface/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 181
+        },
+        {
+          "start": 182,
+          "end": 212
+        }
+      ],
+      "read_lines": 212,
+      "name": "scenario-zbrush-hard-surface",
+      "one_line_ko": "polygroup crease·live cutters·boolean 전후·mirror 방향·metal 검수를 한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/zbrush/scenario-zbrush-paint-render/SKILL.md",
+      "sha256": "6dd54e36a7eadda6965e01f3a58705e001cc911e2955ddb1b9a532ae3e2c776d",
+      "bytes": 18685,
+      "lines": 192,
+      "characters": 18681,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/zbrush/scenario-zbrush-paint-render/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 182
+        },
+        {
+          "start": 183,
+          "end": 192
+        }
+      ],
+      "read_lines": 192,
+      "name": "scenario-zbrush-paint-render",
+      "one_line_ko": "vertex-color 밀도·zone/mask·중립/Flat·BPR/Redshift 차이를 다룬다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/zbrush/scenario-zbrush-pose-print/SKILL.md",
+      "sha256": "819630a2da589ad9d23a226f62cd84a7270b074e031450c91c9f8fb912e41300",
+      "bytes": 20487,
+      "lines": 199,
+      "characters": 20487,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/zbrush/scenario-zbrush-pose-print/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 163
+        },
+        {
+          "start": 164,
+          "end": 199
+        }
+      ],
+      "read_lines": 199,
+      "name": "scenario-zbrush-pose-print",
+      "one_line_ko": "TPose point order·rigid prop·mm scale·벽/배수/키를 검사한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/zbrush/scenario-zbrush-retopology-export/SKILL.md",
+      "sha256": "4f2a00e94be7b408fd545ee67fcc8aa5dd0c3a7a4aa5340533194eb123f19a78",
+      "bytes": 19676,
+      "lines": 231,
+      "characters": 19676,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/zbrush/scenario-zbrush-retopology-export/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 202
+        },
+        {
+          "start": 203,
+          "end": 231
+        }
+      ],
+      "read_lines": 231,
+      "name": "scenario-zbrush-retopology-export",
+      "one_line_ko": "explicit symmetry·retopo→안전 projection→UV/maps→각 SubTool scale 순서다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/zbrush/scenario-zbrush-sculpting/SKILL.md",
+      "sha256": "9ea45e0da5dd951638d05e1301bacabb2cf62036124a801abf3b5ab2994a1c6d",
+      "bytes": 21617,
+      "lines": 216,
+      "characters": 21617,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/zbrush/scenario-zbrush-sculpting/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 169
+        },
+        {
+          "start": 170,
+          "end": 216
+        }
+      ],
+      "read_lines": 216,
+      "name": "scenario-zbrush-sculpting",
+      "one_line_ko": "script pressure 보정·light primary→mid→detail·level discipline을 다룬다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/dcc/zbrush/scenario-zbrush-stylized/SKILL.md",
+      "sha256": "e2d019729f8880bfecf607786880efe630321e6bd1c3bed89e0f5ee927ce7fd1",
+      "bytes": 18018,
+      "lines": 208,
+      "characters": 18018,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/zbrush/scenario-zbrush-stylized/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 207
+        },
+        {
+          "start": 208,
+          "end": 208
+        }
+      ],
+      "read_lines": 208,
+      "name": "scenario-zbrush-stylized",
+      "one_line_ko": "승인 silhouette·명명한 과장·단순 plane·hair chunk 계획을 연결한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario/SKILL.md",
+      "sha256": "54c9d03591847639f786ad3338b0f10c6240459bc72323a96278021db95e5e00",
+      "bytes": 18185,
+      "lines": 251,
+      "characters": 18181,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 249
+        },
+        {
+          "start": 250,
+          "end": 251
+        }
+      ],
+      "read_lines": 251,
+      "name": "scenario",
+      "one_line_ko": "scope→모델 발견→schema→가격→실행→pending wait→시각 확인/정리 순서다."
+    }
+  ],
+  "extra_full_text_reads": [
+    {
+      "repo": "blender-skills",
+      "path": "skills/blender-core/references/api-changes-5x.md",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "sha256": "adc6abbff9aa0d57158805aaabf63cff3088779eb0a957253dfea1247f08bcaa",
+      "bytes": 6666,
+      "lines": 88,
+      "read_lines": 88,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "blender-skills",
+      "path": "skills/blender-export-pipelines/references/unity.md",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "sha256": "6ed7fbaa57f6d8d0bdf87438bfc442bb536465b05459ffebf72b75dfa238d080",
+      "bytes": 2354,
+      "lines": 27,
+      "read_lines": 27,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "blender-skills",
+      "path": "skills/blender-export-pipelines/references/godot-web.md",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "sha256": "a1de232e3abb1622968f7d531dc6d62aa5a5a7b6d4b97e0b18dd16dc52d6ff30",
+      "bytes": 2828,
+      "lines": 21,
+      "read_lines": 21,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "blender-skills",
+      "path": "skills/blender-sculpting/references/forms-and-bake-sources.md",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "sha256": "e55ecdd43201ec1bc530e0a8529c405ea53b94e79bf0dfde8b67d9995f52815e",
+      "bytes": 4455,
+      "lines": 38,
+      "read_lines": 38,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "blender-skills",
+      "path": "skills/blender-pbr-materials/references/pbr-values.md",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "sha256": "d92f53568ea1525c84d68fc7077abfa9cc64a517ac9472fdc18b873784b84d40",
+      "bytes": 2645,
+      "lines": 47,
+      "read_lines": 47,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/dcc/blender/README.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "0a77238a1ae627f84a0ef1b6c841c6059da00d19feaf54dfba9dd16bdbe37f95",
+      "bytes": 8075,
+      "lines": 115,
+      "read_lines": 115,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-expert/references/bpy-reliability.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "2d5ab9c529d541d02f01112a57d94d0c53be2f7bd365459ce24906cdeb997310",
+      "bytes": 25584,
+      "lines": 352,
+      "read_lines": 352,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-rigging/references/face-shapes.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "5eb887e7ae0edd51abb67364ffbbbcba4627046806888c283a444ed9a92896b7",
+      "bytes": 5173,
+      "lines": 95,
+      "read_lines": 95,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-uv-baking/references/procedures.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "6a46f13360c7f480f7ac48d257b81fdb8a80a9a6a9da52d6832a1a140d57dc2b",
+      "bytes": 18395,
+      "lines": 359,
+      "read_lines": 359,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-retopology/references/critique.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "04906aa32dde995b3836d76a583af3f9930b8b2e519af96b750b6a6b07748968",
+      "bytes": 15690,
+      "lines": 98,
+      "read_lines": 98,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/dcc/maya/README.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "ea6f404a6796bc918cd83251ca91db22ca5596b8906e2d133d2e26351c60994a",
+      "bytes": 4689,
+      "lines": 56,
+      "read_lines": 56,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/dcc/zbrush/README.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "444799b3106cd48b0564cc331cf0047465875a6a7e03a6aba3ea24744fc96816",
+      "bytes": 4495,
+      "lines": 57,
+      "read_lines": 57,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/scenario/references/setup.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "ce6bfc21f95f5e75ccdf448aa3d5c65e7b15ec81fa46b445affa404a126fe00b",
+      "bytes": 5950,
+      "lines": 113,
+      "read_lines": 113,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/scenario/references/shared-assets.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "5d27705b8467cae01eced224d93965b85634d1d557ff743c57a32a10d544b6ba",
+      "bytes": 6514,
+      "lines": 91,
+      "read_lines": 91,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    }
+  ],
+  "existing_public_manuals_read": [
+    {
+      "path": "docs/FACE_RETOPOLOGY_BASIC_LOOPS.md",
+      "sha256": "4970a6887b5d8341281e6273079af7bb324237f25de2fa22c728a7a288a909c8",
+      "bytes": 28589,
+      "lines": 202,
+      "full_text_read": true
+    },
+    {
+      "path": "docs/UV_WORKFLOW.md",
+      "sha256": "f43dca8ef939b1173fa476d9455e92ae9dfec020e4c0199083907297f9b908a5",
+      "bytes": 7172,
+      "lines": 57,
+      "full_text_read": true
+    },
+    {
+      "path": "docs/BODY_CHARACTER_WORKFLOW.md",
+      "sha256": "9ea1c8c1489544bf29e61bb3ad0404daca790a8c345d521f3d9787e4b5e7532d",
+      "bytes": 8229,
+      "lines": 78,
+      "full_text_read": true
+    },
+    {
+      "path": "docs/MODULAR_MAP_WORKFLOW.md",
+      "sha256": "ac83347551220be8a886f1e1ff1e7eb6d37c4e3ee3b3de2d2c931e13abff6f6a",
+      "bytes": 5562,
+      "lines": 49,
+      "full_text_read": true
+    }
+  ],
+  "inventory_only_or_other_owner": [
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-2d/SKILL.md",
+      "sha256": "701ec4aa6f7fcd47bbf75e85c0004fd028621c398e61d0c3adcd53a0cd5f7d0c",
+      "bytes": 21682,
+      "lines": 202,
+      "characters": 21676,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-2d/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-3d-world/SKILL.md",
+      "sha256": "f68a8f253b7a5d5f34ab8af5b6a429a1b9e3a5f41b782a238889fab0e5d8dd47",
+      "bytes": 18096,
+      "lines": 206,
+      "characters": 18093,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-3d-world/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-animation/SKILL.md",
+      "sha256": "c595a5dfca822d3a9efe7b9c64492158d3aa2c14efa5a4da4784346e16262469",
+      "bytes": 19140,
+      "lines": 263,
+      "characters": 19140,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-animation/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-architecture/SKILL.md",
+      "sha256": "4709b32d4d9406bc46d263c40c43522c963625acfcf748c50c4457e5a5e67012",
+      "bytes": 20223,
+      "lines": 229,
+      "characters": 20223,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-architecture/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-audio/SKILL.md",
+      "sha256": "b7a72a7dafe999b2b2233682f2086921e9ab546ce5bd2c808ca189d86f6625ed",
+      "bytes": 19259,
+      "lines": 211,
+      "characters": 19259,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-audio/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-expert/SKILL.md",
+      "sha256": "bb50ac8f71232bc25f5139bb214b1b4f453bf30f3f43a1cf03353edf35be1ab4",
+      "bytes": 24189,
+      "lines": 245,
+      "characters": 24189,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-expert/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-gameplay/SKILL.md",
+      "sha256": "e1f2de0c4409adde6fecd7a9de3e616a35a1ba5dffa1c86d77b5dbe2200181e0",
+      "bytes": 20050,
+      "lines": 233,
+      "characters": 20048,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-gameplay/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-multiplayer/SKILL.md",
+      "sha256": "b4b1107e258b95b807c572364a4866f99f097b7ed25d361b0cd1b618bdc28fe9",
+      "bytes": 20924,
+      "lines": 227,
+      "characters": 20924,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-multiplayer/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-performance-export/SKILL.md",
+      "sha256": "df0f317b6bf59df8a07ed1eeb976551cdbe37d65a6835a85ceb4368d0f2376d3",
+      "bytes": 21157,
+      "lines": 259,
+      "characters": 21157,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-performance-export/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-pipeline-automation/SKILL.md",
+      "sha256": "93ab4578a459e764650b1464076965116c64c61dae2862822c23506be198b293",
+      "bytes": 22295,
+      "lines": 234,
+      "characters": 22295,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-pipeline-automation/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-rendering-lighting/SKILL.md",
+      "sha256": "aea315f3f1bac9ebfac86209f26ffa1ef22011db23891c0ae6da8913a6f55248",
+      "bytes": 20092,
+      "lines": 225,
+      "characters": 20091,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-rendering-lighting/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-shaders/SKILL.md",
+      "sha256": "3fe8db01ba6de525ab8f95ff50f2fbcf76342db33627deaf6e78d8ec825813be",
+      "bytes": 20237,
+      "lines": 231,
+      "characters": 20237,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-shaders/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-ui/SKILL.md",
+      "sha256": "ffc735c5be3f2c07c8c78167c01e0e80d6b06b234778d60168a7580e56eec58b",
+      "bytes": 22437,
+      "lines": 224,
+      "characters": 22437,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-ui/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-vfx/SKILL.md",
+      "sha256": "5c213826e569a513282c0c9961b42b2d544495d7393ba1d0ad78435e3ba9d81e",
+      "bytes": 21849,
+      "lines": 235,
+      "characters": 21849,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-vfx/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-animation/SKILL.md",
+      "sha256": "42d7e234ac5730402dc58ebc8cc0fa580ce6257597dd1132c0cc74849bc8a367",
+      "bytes": 18816,
+      "lines": 212,
+      "characters": 18816,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-animation/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-architecture/SKILL.md",
+      "sha256": "da6700178645bb0fc0e52a6bad382a6fd4e94afbb7b1bb2b6a69d5a7b46c395c",
+      "bytes": 21195,
+      "lines": 244,
+      "characters": 21195,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-architecture/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-assets/SKILL.md",
+      "sha256": "f6ca36ca2978d96eb8742964a3ea7b18f26083705b7989ecbf79241076c9ec7a",
+      "bytes": 20051,
+      "lines": 221,
+      "characters": 20051,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-assets/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-data/SKILL.md",
+      "sha256": "6c9582bdc883522b516e493d1c15f8e6c99e6ccfb7e46c83a91886257d05f938",
+      "bytes": 15179,
+      "lines": 212,
+      "characters": 15179,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-data/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-environment/SKILL.md",
+      "sha256": "52154f2b8d3acc3088e8762b79d8b371fdbbbc010efef95389de561c022db69e",
+      "bytes": 21783,
+      "lines": 241,
+      "characters": 21783,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-environment/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-expert/SKILL.md",
+      "sha256": "6020cd6bf5be2c5ed258f558c00ccf5db9fb2cbad327cbe20c971f6cf9c11fae",
+      "bytes": 21034,
+      "lines": 241,
+      "characters": 21034,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-expert/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-gameplay/SKILL.md",
+      "sha256": "c88ecb31032aa66f49301ea1bca81e870c7f5435aac89a17ab46f425938fd457",
+      "bytes": 21022,
+      "lines": 221,
+      "characters": 21022,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-gameplay/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-luau/SKILL.md",
+      "sha256": "a0a2f3b9f2fff0b6ecce25fe0e71b9f19d2afca6910a4cb832d6c13628afbb76",
+      "bytes": 17652,
+      "lines": 224,
+      "characters": 17652,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-luau/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-monetization/SKILL.md",
+      "sha256": "a1288661c447858984c70655091e2c8e58a38406e6de0ba81f3fbb6ab7fd5888",
+      "bytes": 18810,
+      "lines": 241,
+      "characters": 18810,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-monetization/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-networking/SKILL.md",
+      "sha256": "c54005b63056f209b2d4224768f327204b3e264e313fd8a0d26ca286d05e2ceb",
+      "bytes": 18472,
+      "lines": 225,
+      "characters": 18472,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-networking/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-performance/SKILL.md",
+      "sha256": "b88ad572c529fabcfa5493c12806af18fe3aff8e85d1fb5211d64488c6551ffc",
+      "bytes": 18706,
+      "lines": 219,
+      "characters": 18706,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-performance/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-tooling/SKILL.md",
+      "sha256": "93b8cc4e965053e5b304f02672d5d382dd312e79d5ee4b9b73c9137ca8ad4c6f",
+      "bytes": 23480,
+      "lines": 253,
+      "characters": 23480,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-tooling/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-ui/SKILL.md",
+      "sha256": "89b2ad748e9b243857affbbebe2bc60ee5a4d666cb047ce37eef0031bd106681",
+      "bytes": 22186,
+      "lines": 236,
+      "characters": 22186,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-ui/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/roblox/scenario-roblox-vfx-audio/SKILL.md",
+      "sha256": "a76e44eee568fdc3cac008a97a4b864fe01ad18bf982eb3eb97716df20352a93",
+      "bytes": 17070,
+      "lines": 205,
+      "characters": 17070,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/roblox/scenario-roblox-vfx-audio/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-2d/SKILL.md",
+      "sha256": "156a8dfb39552b57fa508e4becd0e8ce0f690f60feb3f18edd13ad01e260ba3c",
+      "bytes": 20075,
+      "lines": 209,
+      "characters": 20075,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-2d/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-animation/SKILL.md",
+      "sha256": "da787e21b5b63cfc1a7fcc51b2fac43ab866230f66471f696cb48c12c7df3439",
+      "bytes": 17134,
+      "lines": 205,
+      "characters": 17134,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-animation/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-architecture/SKILL.md",
+      "sha256": "9d28a133b80b082b8c0782d485bea55585ecf188eded7b5e5ad995109a22d97c",
+      "bytes": 19452,
+      "lines": 221,
+      "characters": 19452,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-architecture/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-expert/SKILL.md",
+      "sha256": "78078f24b8e56efdeba6a5b16e920755162f88ca6b7ceb71b4a3284ad65caf32",
+      "bytes": 21280,
+      "lines": 228,
+      "characters": 21280,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-expert/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-gameplay/SKILL.md",
+      "sha256": "94fbd8c16b67fe9c21d609de1c64cfc1ab38bb9ef74414179b58c5d9be18b076",
+      "bytes": 20171,
+      "lines": 207,
+      "characters": 20171,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-gameplay/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-mobile/SKILL.md",
+      "sha256": "cda84d293fe8486b1aa742a58d639a084ba4abfd6ddc113682a1351c6a2d8f6a",
+      "bytes": 19011,
+      "lines": 212,
+      "characters": 19011,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-mobile/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-performance/SKILL.md",
+      "sha256": "c08d102d29e0af1d9eba95f1812cec8dfbb4fb48d69a71f326f57f0662803f11",
+      "bytes": 20179,
+      "lines": 208,
+      "characters": 20179,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-performance/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-pipeline-automation/SKILL.md",
+      "sha256": "272dfd61dc5382ac8ce58b563bea3011c8e085356c87b807594e7bf8e6eb42dd",
+      "bytes": 20406,
+      "lines": 213,
+      "characters": 20405,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-pipeline-automation/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-rendering-lighting/SKILL.md",
+      "sha256": "60f08706141287db1ad0ad784ec89e1fc5f78b39399a028ec2a38843a4dd4edf",
+      "bytes": 20176,
+      "lines": 197,
+      "characters": 20176,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-rendering-lighting/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-shaders/SKILL.md",
+      "sha256": "c244c57e6d0ece9cd7c2b6b4c075f6112e69cfb573bb5244c82593bc31c5ec57",
+      "bytes": 21020,
+      "lines": 223,
+      "characters": 21019,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-shaders/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-ui/SKILL.md",
+      "sha256": "27ec1e8c5f84be7839e364101e6b9ed240d9d949a02456e1108fde8181570fbc",
+      "bytes": 17768,
+      "lines": 203,
+      "characters": 17764,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-ui/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-vfx/SKILL.md",
+      "sha256": "de2edd8d77942b39c4d78ff21dd1c69bf108279730eefb1ef3ce9adf88d6bbab",
+      "bytes": 18352,
+      "lines": 209,
+      "characters": 18351,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-vfx/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-web/SKILL.md",
+      "sha256": "9a7797a68ec3171eca0cecea5ff0c3b53a30df0af93a08c3ce9b1b7254e64958",
+      "bytes": 16625,
+      "lines": 193,
+      "characters": 16625,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-web/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unity/scenario-unity-world-building/SKILL.md",
+      "sha256": "5216908ef622930366c6c5f0b47b378a3a4304b2bc5e2016706d8fb8d66dd27e",
+      "bytes": 18641,
+      "lines": 203,
+      "characters": 18641,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unity/scenario-unity-world-building/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unreal/scenario-unreal-animation/SKILL.md",
+      "sha256": "787d183d998213b44ab9b8c5c88b2345214198fd8b61728f390129a0b28060ac",
+      "bytes": 21891,
+      "lines": 225,
+      "characters": 21888,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unreal/scenario-unreal-animation/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unreal/scenario-unreal-cinematics/SKILL.md",
+      "sha256": "59bc33370154aa42520f1a2be5f2d9848adeab594b5a5ce28d157b9a92beb73f",
+      "bytes": 20945,
+      "lines": 217,
+      "characters": 20945,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unreal/scenario-unreal-cinematics/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/SKILL.md",
+      "sha256": "c8b7ca197f68a0adc4a52103d28a871a8b2f49a5214a89dc542b205a2cf02491",
+      "bytes": 25893,
+      "lines": 210,
+      "characters": 25892,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unreal/scenario-unreal-expert/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unreal/scenario-unreal-gameplay/SKILL.md",
+      "sha256": "1800efb0b36cc10acf5375e15838b48949237170cf4762076bed18c6ce51a7ba",
+      "bytes": 21080,
+      "lines": 214,
+      "characters": 21073,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unreal/scenario-unreal-gameplay/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unreal/scenario-unreal-lighting-rendering/SKILL.md",
+      "sha256": "c50f86f0dc2145381d1c475118580243a89ebd886555e2885880d5e03322178c",
+      "bytes": 20117,
+      "lines": 214,
+      "characters": 20117,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unreal/scenario-unreal-lighting-rendering/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unreal/scenario-unreal-materials/SKILL.md",
+      "sha256": "5a70b94703cbbf1b1f8ce5d0884e6190e0b868354ddbec74e2f5c71a00c97797",
+      "bytes": 18978,
+      "lines": 209,
+      "characters": 18978,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unreal/scenario-unreal-materials/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unreal/scenario-unreal-performance/SKILL.md",
+      "sha256": "9d763c6eaca98434aeb26a9e37603534f13a47c7f812dadf4387a0ff61f45a28",
+      "bytes": 22056,
+      "lines": 213,
+      "characters": 22056,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unreal/scenario-unreal-performance/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unreal/scenario-unreal-pipeline-automation/SKILL.md",
+      "sha256": "906974c5e9f08da2ac890c55eac36c4a22183daffa494f8c219556cad17f7e15",
+      "bytes": 20618,
+      "lines": 224,
+      "characters": 20618,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unreal/scenario-unreal-pipeline-automation/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unreal/scenario-unreal-vfx/SKILL.md",
+      "sha256": "21e9329f8aa3874a9da6d5413c122d2f4fec38a566a828aa915217e5019b91ff",
+      "bytes": 21071,
+      "lines": 225,
+      "characters": 21070,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unreal/scenario-unreal-vfx/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/unreal/scenario-unreal-world-building/SKILL.md",
+      "sha256": "dce2bff1b399192202ef4787a461a4055100be2b998e13080f3cd56f993a27f2",
+      "bytes": 19594,
+      "lines": 221,
+      "characters": 19594,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/unreal/scenario-unreal-world-building/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-3d/SKILL.md",
+      "sha256": "202f421b9f137caa765357cec2ac3583780903faf84030397691c93101a24bc4",
+      "bytes": 17649,
+      "lines": 245,
+      "characters": 17649,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-3d/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-3d-worlds/SKILL.md",
+      "sha256": "ed2dcffd147e0110585eec91c7bef59faad25e0c7856b71a826adb3f434d0254",
+      "bytes": 6234,
+      "lines": 89,
+      "characters": 6234,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-3d-worlds/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-ace-step/SKILL.md",
+      "sha256": "44d3b1af9953e3137d290717f572d9f67177a6b735b4fa83c50de5696b75dea6",
+      "bytes": 9899,
+      "lines": 124,
+      "characters": 9899,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-ace-step/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-ad-variants/SKILL.md",
+      "sha256": "122ad70ced66f5f6139ab32056e9bd736503a945d0fe6e1d6ba9e0cb2c770368",
+      "bytes": 8737,
+      "lines": 116,
+      "characters": 8737,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-ad-variants/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-admin-analytics/SKILL.md",
+      "sha256": "a9b98a5527f1ba02f55814366033ac38a453318d2d8641641a4f7ed79b1fd132",
+      "bytes": 11848,
+      "lines": 157,
+      "characters": 11848,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-admin-analytics/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-asset-analysis/SKILL.md",
+      "sha256": "fa9acc5d9bbf94722f1808f4e77461b096635802dfdc2729748af40c403e70f2",
+      "bytes": 7565,
+      "lines": 107,
+      "characters": 7565,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-asset-analysis/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-audio/SKILL.md",
+      "sha256": "52153024708b51036690da97ff9b0c2e880f6af2ce9d2ad2c8ee0053d7b15c01",
+      "bytes": 12634,
+      "lines": 169,
+      "characters": 12634,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-audio/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-blender/SKILL.md",
+      "sha256": "7a304995cfa5a2c7d48cb31d74399d30325114447c492b61f921eb9957643ce2",
+      "bytes": 12476,
+      "lines": 148,
+      "characters": 12476,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-blender/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-blender-2d-animation/SKILL.md",
+      "sha256": "7703a5b45302c9295127b249266f175db87c3fd00ba32416fd99ebf633e03493",
+      "bytes": 13107,
+      "lines": 154,
+      "characters": 13107,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-blender-2d-animation/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-brand-kit/SKILL.md",
+      "sha256": "8e2e7a8f94210785aa3e8baa85155fa9a78ebab46fd1b0e2e8128f7f9462a1de",
+      "bytes": 13821,
+      "lines": 128,
+      "characters": 13821,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-brand-kit/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-caption-studio/SKILL.md",
+      "sha256": "4ba70eef8b28043b8d3eba36c51f79447c5f894da644fa8a694fb4cd51fba746",
+      "bytes": 13934,
+      "lines": 158,
+      "characters": 13934,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-caption-studio/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-chatgpt-pet-create/SKILL.md",
+      "sha256": "2e1034efd04803a28d6ff95b15b881fda5ab32e73d26c2dee424e0a3397e6c4a",
+      "bytes": 14790,
+      "lines": 172,
+      "characters": 14790,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-chatgpt-pet-create/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-chatgpt-pet-update/SKILL.md",
+      "sha256": "b90684829162ea300a5aa2568b6bfde94ec825227680f5d554f89c66699422a0",
+      "bytes": 9392,
+      "lines": 116,
+      "characters": 9392,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-chatgpt-pet-update/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-consistency/SKILL.md",
+      "sha256": "d3129ad944cf5fad8932c0c1973d24876e128e4a96e4bae53ab6863e68dab5b9",
+      "bytes": 15140,
+      "lines": 196,
+      "characters": 15140,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-consistency/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-elevenlabs/SKILL.md",
+      "sha256": "5f81744c9f1b89a70d5d0d9add5fd92aec57655a23094f06118652a5b1e609ca",
+      "bytes": 8221,
+      "lines": 111,
+      "characters": 8221,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-elevenlabs/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-fan-cam/SKILL.md",
+      "sha256": "ee59d0ffe877ef757f27282cb4cc49d79da66324f124539059dde45c1ba5a8e2",
+      "bytes": 8794,
+      "lines": 109,
+      "characters": 8794,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-fan-cam/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-formats/SKILL.md",
+      "sha256": "c5e5f18eb46ab212114d907a1ded1c107cf2f4a84dea97c264918edeff91c5b7",
+      "bytes": 6879,
+      "lines": 89,
+      "characters": 6879,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-formats/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-game-assets/SKILL.md",
+      "sha256": "81e7e1d918f0beb7e24bfa54f63a5bb91a3bd717b6837f750cedb3f982f3a707",
+      "bytes": 18138,
+      "lines": 234,
+      "characters": 18138,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-game-assets/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-gemini-image/SKILL.md",
+      "sha256": "23cfd23959d509d4098f517ae37a41d9e5c8639d256c2bf349c3e390b6ba1380",
+      "bytes": 6030,
+      "lines": 87,
+      "characters": 6030,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-gemini-image/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-gemini-omni/SKILL.md",
+      "sha256": "80c20f11e4aaa5628be243fe33b8aa19aac9363944c213e6f6404977148281b5",
+      "bytes": 7531,
+      "lines": 96,
+      "characters": 7531,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-gemini-omni/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-gpt-image/SKILL.md",
+      "sha256": "db6abfbd1390ac2b011aed819b842ffb72ddca11696a0c65d7561c32081e5b00",
+      "bytes": 11200,
+      "lines": 149,
+      "characters": 11200,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-gpt-image/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-grok-imagine-image/SKILL.md",
+      "sha256": "3c7e30ae60a37d8062ba321e6d0d9f99d444c02d1fb847c6dcb72fd5740e2320",
+      "bytes": 6367,
+      "lines": 89,
+      "characters": 6367,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-grok-imagine-image/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-grok-imagine-video/SKILL.md",
+      "sha256": "80d74ec76a7af099e1aa78f16abb540a8c81dcbcbf3f738aba20e47f07153a36",
+      "bytes": 6519,
+      "lines": 92,
+      "characters": 6519,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-grok-imagine-video/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-identity-library/SKILL.md",
+      "sha256": "011ed04f1806c3ae2f6e4bb27a636cd8170b9198935f77d1ba3b89ff8479a94a",
+      "bytes": 8375,
+      "lines": 111,
+      "characters": 8375,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-identity-library/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-ideogram/SKILL.md",
+      "sha256": "1c4098dfa895bc62dbea14be67a03de5627ae8e7fe5943ad45aec1c28bd72d05",
+      "bytes": 10866,
+      "lines": 134,
+      "characters": 10866,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-ideogram/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-image/SKILL.md",
+      "sha256": "6bd2eb1c5f759e6c525f2ea995dca3b06bad942480383d82326e7f2a3f89cf5c",
+      "bytes": 10476,
+      "lines": 138,
+      "characters": 10476,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-image/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-image-editing/SKILL.md",
+      "sha256": "d26eb6f97eded5f3f5d45e9fd803e492bc7bd98314ceaac159c4a84a92c598de",
+      "bytes": 10419,
+      "lines": 137,
+      "characters": 10419,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-image-editing/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-inspiration/SKILL.md",
+      "sha256": "1ee94fb192bd2da44cc793d3b4dae722182b712e1affd229b6b95211e3dc05f0",
+      "bytes": 6603,
+      "lines": 86,
+      "characters": 6603,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-inspiration/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-kinetic-music-video/SKILL.md",
+      "sha256": "6acadaeb5a5bac2b0653cca89fc722505f2656c071ce5509677088d665f5e7b7",
+      "bytes": 17270,
+      "lines": 269,
+      "characters": 17259,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-kinetic-music-video/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-kling/SKILL.md",
+      "sha256": "af2e4b958bbdae76122f5de6b01ab51df4bb55441b6628153217202dd9c84e15",
+      "bytes": 7708,
+      "lines": 106,
+      "characters": 7708,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-kling/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-luma-image/SKILL.md",
+      "sha256": "d6f39915f1cbe1de8ba5ba31d6b1ee4652cd2f269ba8181511f9b83eef45921b",
+      "bytes": 6305,
+      "lines": 86,
+      "characters": 6305,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-luma-image/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-luma-video/SKILL.md",
+      "sha256": "97ea088bfb2254f5c5043e00dae74a8725d1ab19a9da0f92024203a03c65e3bc",
+      "bytes": 6355,
+      "lines": 90,
+      "characters": 6355,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-luma-video/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-mai-image/SKILL.md",
+      "sha256": "6e3d17ee4712d4e090d6f4f7071485326b328d2d9154f517d39c1bff54a3113f",
+      "bytes": 6062,
+      "lines": 89,
+      "characters": 6062,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-mai-image/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-meshy/SKILL.md",
+      "sha256": "3d7ea32ac980f8d2b5e374720c2be469c909e2e6d04c7c553e1d1780e7feeb3a",
+      "bytes": 7373,
+      "lines": 98,
+      "characters": 7373,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-meshy/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-minimax-music/SKILL.md",
+      "sha256": "c97970de7c2cf4bda7364acf546f67b1c8e3a97dd31c2760a7180dd3498f0c87",
+      "bytes": 5705,
+      "lines": 83,
+      "characters": 5705,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-minimax-music/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-minimax-video/SKILL.md",
+      "sha256": "ec90905a729fd2670331d09f707cb1c1cd6663aa2948dd4d1f2a42b9a186d779",
+      "bytes": 10798,
+      "lines": 126,
+      "characters": 10798,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-minimax-video/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-model-comparison/SKILL.md",
+      "sha256": "47fa48cfcaffe27aab092592e878f1da65d65fb926547c086dd9f5d7af350436",
+      "bytes": 10779,
+      "lines": 137,
+      "characters": 10779,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-model-comparison/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-model-training/SKILL.md",
+      "sha256": "7b2eb235416ee95e2e804d650920d93e6250b338221e01d78fa10ea342e047dd",
+      "bytes": 11274,
+      "lines": 150,
+      "characters": 11274,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-model-training/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-moderation/SKILL.md",
+      "sha256": "b904a6975151bd54650e9caafd44190241dad693c348bf8466c90171628e9120",
+      "bytes": 14716,
+      "lines": 162,
+      "characters": 14716,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-moderation/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-motion-loops/SKILL.md",
+      "sha256": "d450593e1dc04040c82d9756e81f390882130298dcd4e291a78491eb8de44c86",
+      "bytes": 11092,
+      "lines": 177,
+      "characters": 11092,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-motion-loops/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-multi-reference/SKILL.md",
+      "sha256": "1fdedaa7366b8b4060786ddeb895de1b103ef56a1a152d1a911d884ea91a6027",
+      "bytes": 10778,
+      "lines": 146,
+      "characters": 10778,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-multi-reference/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-orbit-views/SKILL.md",
+      "sha256": "b480473f443f5f73467d0f109bd8524a44e2aa743e2a288bb10ebbf25935bbef",
+      "bytes": 9368,
+      "lines": 117,
+      "characters": 9368,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-orbit-views/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-patina-retexture/SKILL.md",
+      "sha256": "43a34689246cb71b3c6e36c9ea75273e8df3414d345d0628aac149aa0d6cffdf",
+      "bytes": 14278,
+      "lines": 170,
+      "characters": 14278,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-patina-retexture/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-product-shots/SKILL.md",
+      "sha256": "cb66572378f8aa37105c089686b04a7162e7d02651205063d4021b4e5a24974c",
+      "bytes": 7387,
+      "lines": 84,
+      "characters": 7387,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-product-shots/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-quality-gate/SKILL.md",
+      "sha256": "39fa4bdd69503f84b64ca3f97dd4e6fc844ed5aa6e815c6615fb7c8bf960235f",
+      "bytes": 9874,
+      "lines": 134,
+      "characters": 9874,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-quality-gate/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-reel-recast/SKILL.md",
+      "sha256": "c0addd55096bd756e34b55bba0c574c1e9cb5c4a52488d0c7a8d0017cb257c54",
+      "bytes": 10204,
+      "lines": 130,
+      "characters": 10204,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-reel-recast/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-refine-loop/SKILL.md",
+      "sha256": "76ef1d3c2bf266c4a06dcbdd41e5f0403ac0f0f2614073dc8b6f301d8b93b93e",
+      "bytes": 7507,
+      "lines": 88,
+      "characters": 7507,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-refine-loop/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-report/SKILL.md",
+      "sha256": "a4ee5a0d2851b45a499a52aa29cf4e030732b2a2c36d5265d5cc9b9f3178a138",
+      "bytes": 6119,
+      "lines": 99,
+      "characters": 6119,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-report/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-reve/SKILL.md",
+      "sha256": "48319e66ff30866644565eb377838f5b427359a1d103d79893b52e66387f8cbd",
+      "bytes": 5402,
+      "lines": 84,
+      "characters": 5402,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-reve/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-rodin/SKILL.md",
+      "sha256": "39d341d73d2a2c924bde8f0774a1ddafc4d08aa09ccd9822bc89ca076e8c4a2f",
+      "bytes": 5727,
+      "lines": 86,
+      "characters": 5727,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-rodin/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-runway/SKILL.md",
+      "sha256": "5ffdc6c9ee02c6daa1df234be6d8fec6720ff2f6af293596743a6d74b5f42c08",
+      "bytes": 4800,
+      "lines": 76,
+      "characters": 4800,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-runway/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-seedance/SKILL.md",
+      "sha256": "01c0ed2ea99466ed40b479c15c639635818dd90be533775e7c7236f85cc09758",
+      "bytes": 13434,
+      "lines": 144,
+      "characters": 13434,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-seedance/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-seedance-drafts/SKILL.md",
+      "sha256": "e2baf559eb4dde01619ecb7010a2fd74f0c54d9162295e21c900740887136025",
+      "bytes": 8707,
+      "lines": 103,
+      "characters": 8707,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-seedance-drafts/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-seedance-music-video/SKILL.md",
+      "sha256": "33b4bc0382081d22f1bfa0e17e7842ba1f6ef44e29c8f83b1af319338ef8d86a",
+      "bytes": 7604,
+      "lines": 113,
+      "characters": 7604,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-seedance-music-video/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-seedance-storyboard/SKILL.md",
+      "sha256": "4f12296d2304b70cf61d232548c7b879e50b441b8bbc88adc0dfc7a35a1d8345",
+      "bytes": 11080,
+      "lines": 132,
+      "characters": 11080,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-seedance-storyboard/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-seedream/SKILL.md",
+      "sha256": "9427a2d8a22547b9c7f331610008df88b58b32d138b24be20e50374094229684",
+      "bytes": 8821,
+      "lines": 114,
+      "characters": 8821,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-seedream/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-side-view-game-kit/SKILL.md",
+      "sha256": "e7f7e6ca4009b4098650a3d61a7b4818aaa7ec586d5779bd055cde60413356bc",
+      "bytes": 14785,
+      "lines": 183,
+      "characters": 14785,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-side-view-game-kit/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-skyboxes/SKILL.md",
+      "sha256": "39387327cbb012defbb9a680e930077e2177aba3b86552784f3e81a745b2a480",
+      "bytes": 6400,
+      "lines": 91,
+      "characters": 6400,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-skyboxes/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-sonilo/SKILL.md",
+      "sha256": "bf409e17861f7f356b99d70716465ea14c8d59e761d5f679e9374232eddb3f3b",
+      "bytes": 6417,
+      "lines": 89,
+      "characters": 6417,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-sonilo/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-sparc3d/SKILL.md",
+      "sha256": "fdc79e91f444263c9e7409ecd951163f245e11ab7027dbb121f87d64fcef89a1",
+      "bytes": 5393,
+      "lines": 77,
+      "characters": 5393,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-sparc3d/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-sprite-animation/SKILL.md",
+      "sha256": "acb058316226b8a9935adb41c257436badcd53ce3d779d7a2252b809ac556f15",
+      "bytes": 18014,
+      "lines": 190,
+      "characters": 18014,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-sprite-animation/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-storyboards/SKILL.md",
+      "sha256": "d49ac65f0e925c380c860762cf7c21dc7bdec79f71fbf7c0539548fffe7ab87b",
+      "bytes": 7350,
+      "lines": 93,
+      "characters": 7350,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-storyboards/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-team-admin/SKILL.md",
+      "sha256": "76f223e71e3a13abe27c454f866c922a6c389cfcc2bf89adad35eccee12fcc91",
+      "bytes": 15871,
+      "lines": 192,
+      "characters": 15871,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-team-admin/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-text-overlay/SKILL.md",
+      "sha256": "a9a055bf2db07450ccc7a01dca08611bf15b8a3277f2f4659a09310d5bbad79c",
+      "bytes": 7246,
+      "lines": 116,
+      "characters": 7246,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-text-overlay/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-textures/SKILL.md",
+      "sha256": "753e016d511b799b1cc87f4e700376c6332d09647d16c9919ed56a85b57ef5a2",
+      "bytes": 8326,
+      "lines": 99,
+      "characters": 8326,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-textures/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-thumbnails/SKILL.md",
+      "sha256": "147568aaab7ae742575aabe83536eb370f5e92069d80d892c66ab7e4935c18db",
+      "bytes": 9112,
+      "lines": 121,
+      "characters": 9112,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-thumbnails/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-ugc/SKILL.md",
+      "sha256": "514f860c352a4d1c00db4aeb18a2c0cb85f883145ccf8bf47153851cf3ccc5bc",
+      "bytes": 12600,
+      "lines": 128,
+      "characters": 12600,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-ugc/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-veo/SKILL.md",
+      "sha256": "5974da02e6cb83dba35847fe64dd7a8b9a691f3cb8473c05c860c5522ecb1fc0",
+      "bytes": 5826,
+      "lines": 86,
+      "characters": 5826,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-veo/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-video/SKILL.md",
+      "sha256": "13a61685dee0a7824c7b0e01967198ab08267f73bca92cfb0e85a28ce7d1165a",
+      "bytes": 17548,
+      "lines": 217,
+      "characters": 17548,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-video/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-video-ads/SKILL.md",
+      "sha256": "77295b575bf4932c4e55efa5da87ba810b761b8b0fbf826ae82b7a478da0ba9f",
+      "bytes": 7120,
+      "lines": 84,
+      "characters": 7120,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-video-ads/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-video-assembly/SKILL.md",
+      "sha256": "ed819e56564c4953607e374584aa07ac42fd86b2180d0b245582e0674c08e22a",
+      "bytes": 9614,
+      "lines": 134,
+      "characters": 9614,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-video-assembly/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-video-color-grade/SKILL.md",
+      "sha256": "ee9eec207f7e43ff7181b233f641109f412c6f3a623e0454c83d6a4d72ac0ad5",
+      "bytes": 11526,
+      "lines": 174,
+      "characters": 11525,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-video-color-grade/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-video-editing/SKILL.md",
+      "sha256": "b34e84073d2597f6f66d470ef7c8d83d3ba76a2fdb825e2de99ccd294da4a0f3",
+      "bytes": 10960,
+      "lines": 161,
+      "characters": 10960,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-video-editing/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-video-to-motion/SKILL.md",
+      "sha256": "4cc11bd38b9af6f07dafa602e90860fde80d6b26b500f96af9ff3f5b9bdc1d12",
+      "bytes": 8249,
+      "lines": 113,
+      "characters": 8249,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-video-to-motion/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-vidu/SKILL.md",
+      "sha256": "db77f10e74a6318135b7dbca64550c20066413be35f7846881654620f15e259b",
+      "bytes": 5980,
+      "lines": 90,
+      "characters": 5980,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-vidu/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-walkable-room/SKILL.md",
+      "sha256": "d8aca6346ef5933b04e1a27d0b0ab58eba6274c93fef88bab8db83c3d9327a28",
+      "bytes": 10870,
+      "lines": 136,
+      "characters": 10870,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-walkable-room/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-wan/SKILL.md",
+      "sha256": "266ed4e6e32c496b9f3e1e2d60ed8f2ef77c64d91ad860050a240bcd6fdb791a",
+      "bytes": 6758,
+      "lines": 100,
+      "characters": 6758,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-wan/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-workflow-authoring/SKILL.md",
+      "sha256": "590ce5726fd9b36e7a7edc239dfca07ba04ac20ee313204f60a6826e927c765f",
+      "bytes": 8086,
+      "lines": 109,
+      "characters": 8086,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-workflow-authoring/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/scenario-workflows/SKILL.md",
+      "sha256": "33a8271db4cb2c15ddcb799218dd6f1d6ea339d46816dd44aba493fa6896a8e8",
+      "bytes": 7854,
+      "lines": 110,
+      "characters": 7854,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/scenario-workflows/SKILL.md",
+      "full_text_read": false,
+      "role": "work_skill",
+      "read_line_ranges": [],
+      "read_lines": 0
+    }
+  ],
+  "not_done": [
+    "application_execution",
+    "installation_or_configuration",
+    "source_code_or_test_execution",
+    "MCP_or_service_calls",
+    "paid_generation",
+    "video_playback",
+    "model_training",
+    "Blender_or_user_asset_changes",
+    "public_repository_writes"
+  ],
+  "limits": [
+    "Source author test claims are not local execution evidence.",
+    "All referenced scripts/assets/tests/videos were not reviewed.",
+    "Godot14 is the next separate batch. Unreal10/Unity14/Roblox14/service79 owned elsewhere.",
+    "Root README catalog reading is not reading specialist bodies."
+  ]
+}

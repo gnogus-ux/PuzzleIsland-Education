@@ -1,7 +1,7 @@
 {
   "export_date": "2026-11-01",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 54,
+  "manuals": 66,
   "diagrams": 16,
   "checked_local_links": 367,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
@@ -23,7 +23,8 @@
     "Added reusable work/handoff/review rules distilled from approved collaboration: preserve scope/assets, create actual 3D guides, single ownership and paired visual review, safe quota handoff, honest study evidence, public canonical publishing, approved new-thread acceptance/archive order. Temporary project-specific limits remain local.",
     "Collected four external upstream repositories as pinned, initialized Git submodules with preserved licenses/NOTICE, provenance and file integrity record. External skills not installed/executed or fully studied; original manual counts unchanged.",
     "Started four-repository document study; published Unity official 35-body study, source review/correction integration, and Claude shared-library instructions. Other assigned study packages remain in progress; no live app tests or installs. Historical collection lock retained.",
-    "Added GameDev 78-body and Scenario service 79-body Korean study manuals, per-topic indexes and file/range/hash records. Completed published main-body study count 192/315; other assigned packages in progress. Runtime and installations NOT_RUN."
+    "Added GameDev 78-body and Scenario service 79-body Korean study manuals, per-topic indexes and file/range/hash records. Completed published main-body study count 192/315; other assigned packages in progress. Runtime and installations NOT_RUN.",
+    "Completed all four imported repositories: 315 unique SKILL main bodies, 53431 lines, 4005845 working-tree bytes, seven study packages, full recorded range/hash/inventory coverage with no missing or duplicate bodies. Added 20 Korean educational documents in total, plus Claude shared-library instructions; auxiliary content selectively read, runtime/installs NOT_RUN."
   ],
   "files": [
     {
@@ -33,8 +34,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11745,
-      "sha256": "f9bb7f5db3f5414528756242e76267a422bf59be9bae53f429519414198a77e8"
+      "bytes": 12115,
+      "sha256": "badc8cea8863481e38c6ab3f607a0600620653d17098fe82b448973ffd086552"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -578,8 +579,8 @@
     },
     {
       "path": "docs/EXTERNAL_LEARNING_SOURCES.md",
-      "bytes": 4799,
-      "sha256": "5086938a73c7444c31bba0a3bc73141b33177b88ab6b9b74fe414bc0097e1666"
+      "bytes": 5199,
+      "sha256": "ce1804842f1f207dbddab5711d438a2b76d98274f288672960b6979f5d6159df"
     },
     {
       "path": "external/SOURCES.lock.json",
@@ -588,8 +589,8 @@
     },
     {
       "path": "docs/EXTERNAL_STUDY_WORKFLOW.md",
-      "bytes": 8149,
-      "sha256": "f33f12111551c4e5b064dc47c980136507799ce266cadc7e08404bb4dd342156"
+      "bytes": 9657,
+      "sha256": "07643d944ce4141d77e60c1150c466ce44492893d029696c7ce2824ae8026ce7"
     },
     {
       "path": "docs/EXTERNAL_STUDY_CORRECTIONS.md",
@@ -623,8 +624,8 @@
     },
     {
       "path": "reports/ExternalLearning/20261101_EXTERNAL_SKILLS_STUDY.json",
-      "bytes": 983,
-      "sha256": "c34b7bf3a07c063b1df373252bf455187817d8d150cc14c4c06510ee72ce3123"
+      "bytes": 123026,
+      "sha256": "804f3c30b2201df00e1ee6254caef9c0b6738cba038a903e76ee6b70e17b7cfe"
     },
     {
       "path": "docs/GAMEDEV_SKILLS_WORKFLOW.md",
@@ -655,6 +656,86 @@
       "path": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json",
       "bytes": 71904,
       "sha256": "ccf1f53547fe6c2cf9cbbf1dcc7dd74e0d62dbebeb63dd4e2c4c0ae204516034"
+    },
+    {
+      "path": "docs/SCENARIO_UNITY_ROBLOX_WORKFLOW.md",
+      "bytes": 26332,
+      "sha256": "b5489bf67e47476b9630951b8ae62796692c3ff046dc75d0b7b8b75fc84252a6"
+    },
+    {
+      "path": "docs/SCENARIO_UNITY_ROBLOX_TOPIC_INDEX.md",
+      "bytes": 25859,
+      "sha256": "369c1f7137fb09df3506cbf83af84968ff1848dcfbbec9de89dffedc95b37791"
+    },
+    {
+      "path": "docs/BLENDER_SKILLS_WORKFLOW.md",
+      "bytes": 13856,
+      "sha256": "75f75effc5304ccaae03385a963f573017d3a0f3f1897a0cc903ffcf1c780e55"
+    },
+    {
+      "path": "docs/DCC_MAYA_ZBRUSH_WORKFLOW.md",
+      "bytes": 11644,
+      "sha256": "d7d45fe41d60e949aaa3ee35ec8f386fbd794290a92aa7ecbd41ab83a22adac3"
+    },
+    {
+      "path": "docs/SCENARIO_CORE_SUPPORT_WORKFLOW.md",
+      "bytes": 8075,
+      "sha256": "b2e61816dba59075fc9f6010dde3483d6e6f9f4734891b0a1671a364ad2e2212"
+    },
+    {
+      "path": "docs/EXTERNAL_DCC_SOURCE_COMPARISON.md",
+      "bytes": 5732,
+      "sha256": "3b258ca868de076f6bb0bac3fa6725e3dec7268f6e8a42c2a357a645a60dc9ba"
+    },
+    {
+      "path": "docs/BLENDER_SKILLS_INDEX.md",
+      "bytes": 12207,
+      "sha256": "27c06b92bdaba18983771df3dffaec87cfdbcb18f94c4b03fe5526714cc6d4d9"
+    },
+    {
+      "path": "docs/SCENARIO_DCC_SUPPORT_INDEX.md",
+      "bytes": 8356,
+      "sha256": "f05299f9785af5a3204f588ba8b589e57164bf1630678e37d2ec3be45b4971fb"
+    },
+    {
+      "path": "docs/SCENARIO_UNREAL_SKILLS_WORKFLOW.md",
+      "bytes": 23139,
+      "sha256": "cab98f07f6df49cc5bc4cccd05b5df350c431cfb23800b782f835ac64c211662"
+    },
+    {
+      "path": "docs/SCENARIO_UNREAL_SKILLS_INDEX.md",
+      "bytes": 7406,
+      "sha256": "e5f55fa013249ac035a8250c9120568698666a2d35aaab3b2befb212bb0bf336"
+    },
+    {
+      "path": "docs/GODOT_SKILLS_WORKFLOW.md",
+      "bytes": 19130,
+      "sha256": "35d08a83371e4e37569b104327cf47f0025a4eb03d9b9c2a97663effec43f57e"
+    },
+    {
+      "path": "docs/GODOT_SKILLS_INDEX.md",
+      "bytes": 4956,
+      "sha256": "8e17400df7db9e949e91ddf15fe70168decb232ed15784569165c50a9f8e425c"
+    },
+    {
+      "path": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json",
+      "bytes": 147786,
+      "sha256": "10f507d5c7c3d427087fffb6c27cce4d2d3b9c9d0f4fcf5637a459690775f799"
+    },
+    {
+      "path": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json",
+      "bytes": 214335,
+      "sha256": "bbaea08307e70c2f9dcf7874a06110d2b06475f6abd4c24da7df001e2604f115"
+    },
+    {
+      "path": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json",
+      "bytes": 26388,
+      "sha256": "8557da93a80bd83ff82889db6cc6c23b8186e65f4832fcb428746e49f280274b"
+    },
+    {
+      "path": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json",
+      "bytes": 16122,
+      "sha256": "356cca2900196dcd245ded1a433ae2a1a653b91eec8cac781e6f6a9ec5e8a453"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -744,7 +825,8 @@
     "upstream_links_not_checked": true
   },
   "external_study_link_check": {
-    "first_party_readme_contributing_docs_local_targets": 303,
-    "upstream_links_not_checked": true
+    "first_party_local_targets": 419,
+    "pinned_upstream_file_links_resolved_locally": 204,
+    "external_web_runtime_validation": false
   }
 }

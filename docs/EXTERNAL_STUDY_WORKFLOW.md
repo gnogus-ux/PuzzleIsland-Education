@@ -2,6 +2,8 @@
 
 2026-11-01. 수집한 원문을 문서로 검토하고 기존 교육과 대조한 결과다. 모델 가중치를 훈련하거나 모든 내용을 대화에 영구 기억시킨 작업이 아니다. 이후 담당은 이 문서와 해당 주제 원문을 다시 읽는다. 실제 읽은 파일·구간과 미검토 항목은 학습 기록에 별도로 남긴다. 외부 설치·스크립트·앱 실행과 제품 변경은 수행하지 않았다.
 
+**완료 범위: 4개 저장소의 SKILL 본문 315개와 선별한 부속 문서의 독해·자체 매뉴얼 작성.** 모든 부속 파일·외부 영상·현행 API 검증·실제 제작 시험을 완료한 것은 아니다. [전체 읽기 범위·원문 대조 기록](../reports/ExternalLearning/20261101_EXTERNAL_SKILLS_STUDY.json)을 기준으로 판단한다.
+
 ## 자료별 역할을 나눈다
 
 | 자료 | 재사용할 내용 | 적용 전 남는 확인 |
@@ -18,6 +20,12 @@
 - [Unity 공식 적용·검수 매뉴얼](UNITY_OFFICIAL_SKILLS_WORKFLOW.md) · [35주제 탐색표](UNITY_OFFICIAL_SKILLS_INDEX.md) · [읽기 범위 기록](../reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json)
 - [GameDev 게임 제작 매뉴얼](GAMEDEV_SKILLS_WORKFLOW.md) · [78주제 탐색표](GAMEDEV_SKILLS_TOPIC_INDEX.md) · [읽기 범위 기록](../reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json)
 - [Scenario 서비스 제작·검수 매뉴얼](SCENARIO_SERVICE_SKILLS_WORKFLOW.md) · [79주제 탐색표](SCENARIO_SERVICE_SKILLS_INDEX.md) · [읽기 범위 기록](../reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json)
+- [Scenario Unity·Roblox 매뉴얼](SCENARIO_UNITY_ROBLOX_WORKFLOW.md) · [28주제 탐색표](SCENARIO_UNITY_ROBLOX_TOPIC_INDEX.md) · [읽기 범위 기록](../reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json)
+- [Blender 제작 절차](BLENDER_SKILLS_WORKFLOW.md) · [Blender 색인](BLENDER_SKILLS_INDEX.md)
+- [Maya·ZBrush 절차](DCC_MAYA_ZBRUSH_WORKFLOW.md) · [Scenario 기반·지원 문서](SCENARIO_CORE_SUPPORT_WORKFLOW.md) · [43주제 색인](SCENARIO_DCC_SUPPORT_INDEX.md)
+- [DCC 자료 간 비교](EXTERNAL_DCC_SOURCE_COMPARISON.md) · [Blender·DCC·지원 71개 본문 읽기 기록](../reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json)
+- [Scenario Unreal 제작·검수 매뉴얼](SCENARIO_UNREAL_SKILLS_WORKFLOW.md) · [10주제 색인](SCENARIO_UNREAL_SKILLS_INDEX.md) · [읽기 범위 기록](../reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json)
+- [Scenario Godot 제작·검수 매뉴얼](GODOT_SKILLS_WORKFLOW.md) · [14주제 색인](GODOT_SKILLS_INDEX.md) · [읽기 범위 기록](../reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json)
 - [Claude용 공용 규칙과 자료실 연결](CLAUDE_RULES_AND_LIBRARY.md): 파일 지침·실제 수신·실행 적용을 구분한다.
 
 ## 다음 제작에서 쓰는 순서

@@ -1,0 +1,431 @@
+{
+  "date_kst": "2026-11-01",
+  "status": "document_study_complete_godot14",
+  "source_commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+  "skill_count": 14,
+  "assigned_main_documents": [
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-2d/SKILL.md",
+      "sha256": "701ec4aa6f7fcd47bbf75e85c0004fd028621c398e61d0c3adcd53a0cd5f7d0c",
+      "bytes": 21682,
+      "lines": 202,
+      "characters": 21676,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-2d/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 157
+        },
+        {
+          "start": 158,
+          "end": 202
+        }
+      ],
+      "read_lines": 202,
+      "name": "scenario-godot-2d",
+      "one_line_ko": "픽셀/terrain·실제 tick 이동·카메라 보간·fringe/정렬을 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-3d-world/SKILL.md",
+      "sha256": "f68a8f253b7a5d5f34ab8af5b6a429a1b9e3a5f41b782a238889fab0e5d8dd47",
+      "bytes": 18096,
+      "lines": 206,
+      "characters": 18093,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-3d-world/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 204
+        },
+        {
+          "start": 205,
+          "end": 206
+        }
+      ],
+      "read_lines": 206,
+      "name": "scenario-godot-3d-world",
+      "one_line_ko": "실제 capsule/계단/문·terrain/collision·GLB manifest·streaming을 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-animation/SKILL.md",
+      "sha256": "c595a5dfca822d3a9efe7b9c64492158d3aa2c14efa5a4da4784346e16262469",
+      "bytes": 19140,
+      "lines": 263,
+      "characters": 19140,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-animation/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 246
+        },
+        {
+          "start": 247,
+          "end": 263
+        }
+      ],
+      "read_lines": 263,
+      "name": "scenario-godot-animation",
+      "one_line_ko": "BoneMap/RESET/loop·state/filter·발 속도·root/IK 최종 pose를 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-architecture/SKILL.md",
+      "sha256": "4709b32d4d9406bc46d263c40c43522c963625acfcf748c50c4457e5a5e67012",
+      "bytes": 20223,
+      "lines": 229,
+      "characters": 20223,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-architecture/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 194
+        },
+        {
+          "start": 195,
+          "end": 229
+        }
+      ],
+      "read_lines": 229,
+      "name": "scenario-godot-architecture",
+      "one_line_ko": "독립 scene·공유 정의/개체 상태·안전한 저장·registry/입력 계약을 설계한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-audio/SKILL.md",
+      "sha256": "b7a72a7dafe999b2b2233682f2086921e9ab546ce5bd2c808ca189d86f6625ed",
+      "bytes": 19259,
+      "lines": 211,
+      "characters": 19259,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-audio/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 192
+        },
+        {
+          "start": 193,
+          "end": 211
+        }
+      ],
+      "read_lines": 211,
+      "name": "scenario-godot-audio",
+      "one_line_ko": "bus·voice budget·spatial/전이표·loaded stream과 mix를 검사하고 청취 한계를 남긴다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-expert/SKILL.md",
+      "sha256": "bb50ac8f71232bc25f5139bb214b1b4f453bf30f3f43a1cf03353edf35be1ab4",
+      "bytes": 24189,
+      "lines": 245,
+      "characters": 24189,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-expert/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 181
+        },
+        {
+          "start": 182,
+          "end": 245
+        }
+      ],
+      "read_lines": 245,
+      "name": "scenario-godot-expert",
+      "one_line_ko": "단일 작성자·적절한 channel·결과 envelope/로그·수치+시각 인계의 공통 기반이다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-gameplay/SKILL.md",
+      "sha256": "e1f2de0c4409adde6fecd7a9de3e616a35a1ba5dffa1c86d77b5dbe2200181e0",
+      "bytes": 20050,
+      "lines": 233,
+      "characters": 20048,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-gameplay/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 204
+        },
+        {
+          "start": 205,
+          "end": 233
+        }
+      ],
+      "read_lines": 233,
+      "name": "scenario-godot-gameplay",
+      "one_line_ko": "순수 decision·navigation sync·AI budget·hit/CCD·save/seed validator를 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-multiplayer/SKILL.md",
+      "sha256": "b4b1107e258b95b807c572364a4866f99f097b7ed25d361b0cd1b618bdc28fe9",
+      "bytes": 20924,
+      "lines": 227,
+      "characters": 20924,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-multiplayer/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 189
+        },
+        {
+          "start": 190,
+          "end": 227
+        }
+      ],
+      "read_lines": 227,
+      "name": "scenario-godot-multiplayer",
+      "one_line_ko": "authority/RPC 요청·다중 process·지연/손실·late join·대역폭/서버를 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-performance-export/SKILL.md",
+      "sha256": "df0f317b6bf59df8a07ed1eeb976551cdbe37d65a6835a85ceb4368d0f2376d3",
+      "bytes": 21157,
+      "lines": 259,
+      "characters": 21157,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-performance-export/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 214
+        },
+        {
+          "start": 215,
+          "end": 259
+        }
+      ],
+      "read_lines": 259,
+      "name": "scenario-godot-performance-export",
+      "one_line_ko": "같은 harness의 CPU/GPU·hitch·실제 target·artifact/boot/sign/store 단계를 구분한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-pipeline-automation/SKILL.md",
+      "sha256": "93ab4578a459e764650b1464076965116c64c61dae2862822c23506be198b293",
+      "bytes": 22295,
+      "lines": 234,
+      "characters": 22295,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-pipeline-automation/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 190
+        },
+        {
+          "start": 191,
+          "end": 234
+        }
+      ],
+      "read_lines": 234,
+      "name": "scenario-godot-pipeline-automation",
+      "one_line_ko": "byte/manifest ingest→import/VRAM→audit→시각→재실행→pack/CI를 연결한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-rendering-lighting/SKILL.md",
+      "sha256": "aea315f3f1bac9ebfac86209f26ffa1ef22011db23891c0ae6da8913a6f55248",
+      "bytes": 20092,
+      "lines": 225,
+      "characters": 20091,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-rendering-lighting/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 188
+        },
+        {
+          "start": 189,
+          "end": 225
+        }
+      ],
+      "read_lines": 225,
+      "name": "scenario-godot-rendering-lighting",
+      "one_line_ko": "renderer·GI/UV2·광원/톤맵·fallback·시각/비용 tier를 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-shaders/SKILL.md",
+      "sha256": "3fe8db01ba6de525ab8f95ff50f2fbcf76342db33627deaf6e78d8ec825813be",
+      "bytes": 20237,
+      "lines": 231,
+      "characters": 20237,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-shaders/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 196
+        },
+        {
+          "start": 197,
+          "end": 231
+        }
+      ],
+      "read_lines": 231,
+      "name": "scenario-godot-shaders",
+      "one_line_ko": "renderer별 compile/draw·parameter sweep·space/uniform·compute/RID·baker를 검수한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-ui/SKILL.md",
+      "sha256": "ffc735c5be3f2c07c8c78167c01e0e80d6b06b234778d60168a7580e56eec58b",
+      "bytes": 22437,
+      "lines": 224,
+      "characters": 22437,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-ui/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 178
+        },
+        {
+          "start": 179,
+          "end": 224
+        }
+      ],
+      "read_lines": 224,
+      "name": "scenario-godot-ui",
+      "one_line_ko": "container/Theme/focus·Safe Area/locale/scale matrix·실제 기기 접근성을 검사한다."
+    },
+    {
+      "repo": "scenario-skills",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "path": "skills/game-engines/godot/scenario-godot-vfx/SKILL.md",
+      "sha256": "5c213826e569a513282c0c9961b42b2d544495d7393ba1d0ad78435e3ba9d81e",
+      "bytes": 21849,
+      "lines": 235,
+      "characters": 21849,
+      "url": "https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/game-engines/godot/scenario-godot-vfx/SKILL.md",
+      "full_text_read": true,
+      "role": "work_skill",
+      "read_line_ranges": [
+        {
+          "start": 1,
+          "end": 189
+        },
+        {
+          "start": 190,
+          "end": 235
+        }
+      ],
+      "read_lines": 235,
+      "name": "scenario-godot-vfx",
+      "one_line_ko": "layer timeline·particle silent flags/AABB·tier/overdraw·lifecycle/hit-stop을 검수한다."
+    }
+  ],
+  "extra_full_text_reads": [
+    {
+      "repo": "scenario-skills",
+      "path": "skills/game-engines/godot/README.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "da1a716ed7cddf114ffefea54d88cd33ffb56c09c8e4b2ca7aa2f1afe30fd5be",
+      "bytes": 10693,
+      "lines": 117,
+      "read_lines": 117,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-expert/references/traps.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "7569222ee0112d8ed09d07148ad1aea0491e9949025961cab41a4eab2ea24927",
+      "bytes": 5549,
+      "lines": 76,
+      "read_lines": 76,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-expert/references/critique.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "3f4acf61943778ebe657cb8e53637a6d4afd3df4f3c78453e3207ec3200e7e34",
+      "bytes": 7132,
+      "lines": 69,
+      "read_lines": 69,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    },
+    {
+      "repo": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-performance-export/references/critique.md",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "sha256": "69a74dfd22f9cd126e43f6550b6ad34658e1e9dec716e395a10561419c906af2",
+      "bytes": 5840,
+      "lines": 50,
+      "read_lines": 50,
+      "full_text_read": true,
+      "code_execution": false,
+      "video_playback": false
+    }
+  ],
+  "unread_scope": "All other Godot references/scripts/assets/tests and external videos/pages; no source test execution.",
+  "author_claims": "Source-reported live macOS tests and selected Windows runner checks; not reproduced here. Exceptions and internal contradictions recorded in manual.",
+  "not_done": [
+    "application_execution",
+    "installation_or_configuration",
+    "source_scripts_or_tests",
+    "MCP_or_paid_calls",
+    "video_playback",
+    "model_training",
+    "user_asset_or_project_changes",
+    "public_repository_writes"
+  ],
+  "final_own_total": {
+    "EL_blender": 28,
+    "Scenario_DCC_core_support": 43,
+    "Scenario_Godot": 14,
+    "total_SKILL": 85,
+    "root_README": 2,
+    "extra_full_files": 18,
+    "existing_manuals": 4
+  },
+  "earlier_primary_snapshot": "PRIMARY_READING_VERIFICATION.json intentionally records the earlier primary handoff before Godot was read. Its unread list is historical, not the final Godot status.",
+  "earlier_primary_canonical_record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+}

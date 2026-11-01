@@ -1,18 +1,17 @@
 {
   "date": "2026-11-01",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE_MAIN_BODY_DOCUMENT_STUDY_RUNTIME_NOT_RUN",
   "target_skill_bodies": 315,
   "completed_document_packages": {
     "unity_official": 35,
     "gamedev": 78,
-    "scenario_services": 79
+    "scenario_services": 79,
+    "blender_and_scenario_dcc_support": 71,
+    "scenario_unity_roblox": 28,
+    "scenario_unreal": 10,
+    "scenario_godot": 14
   },
-  "pending_packages": [
-    "blender_and_scenario_dcc_support",
-    "scenario_unity_roblox",
-    "scenario_godot",
-    "scenario_unreal"
-  ],
+  "pending_packages": [],
   "scope": "SKILL main bodies plus selected references; auxiliary files, code execution, videos and live app tests are separate",
   "runtime_tests": "NOT_RUN",
   "installs": "NOT_RUN",
@@ -21,7 +20,2883 @@
   "completed_study_records": [
     "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json",
     "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json",
-    "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json",
+    "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json",
+    "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json",
+    "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json",
+    "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
   ],
-  "completed_body_count": 192
+  "completed_body_count": 315,
+  "coverage_check": {
+    "target_body_count": 315,
+    "read_record_count": 315,
+    "unique_read_bodies": 315,
+    "all_source_hash_bytes_lines_and_full_ranges_match": true,
+    "missing": [],
+    "unknown_records": []
+  },
+  "source_body_records": [
+    {
+      "repository": "unity-skills",
+      "path": "skills/2d-pixel-perfect/SKILL.md",
+      "sha256": "c012f44666bddc436c83a580cdf58d835cfebcec756a64cee3ec4746ca1e2985",
+      "bytes": 10190,
+      "lines": 208,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/asset-transformer-toolkit/SKILL.md",
+      "sha256": "79b52b4fc97c01f8707954bf6575e4db9be549aba936285ce4e5a636cc8c7961",
+      "bytes": 2983,
+      "lines": 39,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/audio-setup-mixers/SKILL.md",
+      "sha256": "f3931de6ad1a52b4010a469d869cbc69798e65aeade25a3241fd654f6a189249",
+      "bytes": 7636,
+      "lines": 127,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/build-gtk/SKILL.md",
+      "sha256": "788102dadbdd11a5e643d767221a501c5fd961709a9adff5d6ec1ff42be784ee",
+      "bytes": 18341,
+      "lines": 242,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/build-live-game/SKILL.md",
+      "sha256": "b45e9049efa0f714c89f0d79fff357eb2d00d670f1285e372380a272dae4e683",
+      "bytes": 19007,
+      "lines": 255,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/craft-game-floors/SKILL.md",
+      "sha256": "a8319c2f698095a83d65aa5a44ccf5e62fa00e27df93b83e36e1075e401f6918",
+      "bytes": 8674,
+      "lines": 134,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/create-2d-physics/SKILL.md",
+      "sha256": "99434a45dc58a8cf497ed8e5bd1e4886588d99ec960fdb15f488b79d2cb19839",
+      "bytes": 10691,
+      "lines": 128,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/create-tile-palette-or-rule-tiles/SKILL.md",
+      "sha256": "571429cc13d4aa0d623e45bc0690b7780d7c98ff1f16cacc5ddbd081cf832417",
+      "bytes": 1219,
+      "lines": 12,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/generate-editor-search-query/SKILL.md",
+      "sha256": "6eee244dbee98f7773df39e6f6edd4de333a334bd92ead127029bbef6eea30d1",
+      "bytes": 7096,
+      "lines": 117,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/implement-in-app-purchases/SKILL.md",
+      "sha256": "138c58b0e41c44e419fe5976fb95f55072ea38a1ea2415a383ad82f498e8b29c",
+      "bytes": 10861,
+      "lines": 157,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/initialize-ai-navigation/SKILL.md",
+      "sha256": "b99fe13e44cea8fa26309854b7d34b3e26264557309caab97d301ad4e60c6c82",
+      "bytes": 5406,
+      "lines": 95,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/levelplay-unity-integration/SKILL.md",
+      "sha256": "c16a4a2ec706a5bf6ccd90832936d11329230e536e963173d720a937ce3e01c6",
+      "bytes": 38669,
+      "lines": 442,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/localization/SKILL.md",
+      "sha256": "5390f83b4947ceb7cb5bbab6702149dfb8182170e06da65261162f8a669c4db6",
+      "bytes": 26538,
+      "lines": 347,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/manage-sprite-atlas/SKILL.md",
+      "sha256": "3513be1cbbe11c582265f8fe8cefd8f7cf86703ff5e5f7c3fd39d0dfb6b500fc",
+      "bytes": 18810,
+      "lines": 351,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/migrate-birp-to-urp/SKILL.md",
+      "sha256": "15725581eb6386aedbc0b3eb1bdd59441cc636e94459bea590f039a9d271d874",
+      "bytes": 52919,
+      "lines": 543,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/new-unity-project/SKILL.md",
+      "sha256": "da6357437ab016c8c5c44d9fa6f15739507fd885c917647bec9bbeb04019aa07",
+      "bytes": 20916,
+      "lines": 339,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/optimize-audio/SKILL.md",
+      "sha256": "239a87df649e69cf2f79d43f7b233695f91a5882da7ac447c812b92e5b52e3e9",
+      "bytes": 14810,
+      "lines": 199,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/optimize-text-mesh-pro/SKILL.md",
+      "sha256": "9f52642c16c06a6f59ab3a60c8e3c250dd27c182cdcc8149cb2aafcdf46e8ccc",
+      "bytes": 9749,
+      "lines": 172,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/optimize-web/SKILL.md",
+      "sha256": "3a616d1dd5c3ef7816519f0acd47f1f2acb7d557c024ffa31341af417828ba1e",
+      "bytes": 39301,
+      "lines": 530,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/physics-3d-collision/SKILL.md",
+      "sha256": "9fae9f26c04378042632c771b298d889c03bd6355b506043c5fcac32a066a1be",
+      "bytes": 28452,
+      "lines": 442,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/project-auditor-fixes/SKILL.md",
+      "sha256": "4d6d6b966b591dadf6447c30883c5f63e01cf733f830791f71b6ae3df8bd166e",
+      "bytes": 4626,
+      "lines": 64,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/setup-multiplayer-services/SKILL.md",
+      "sha256": "9852929e10fdf30c747cd261da3f16a19598828c9359b7118127008d8f54f440",
+      "bytes": 4674,
+      "lines": 36,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/setup-vivox-voice-chat/SKILL.md",
+      "sha256": "b0d41ff9781b95ce7040307509b45ebb6401963162b85659964b5a8945eaf6c0",
+      "bytes": 8944,
+      "lines": 118,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/shader-graph-create-custom-node/SKILL.md",
+      "sha256": "af00b531db752366b1bb9a8f206769b6d30adf3381206cf1076da636c4aef168",
+      "bytes": 1201,
+      "lines": 25,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/sprite-editor/SKILL.md",
+      "sha256": "45d0034df28daf7e52026f8234032f8c96d292d3ba332f0457bae7fe2a00f78d",
+      "bytes": 3665,
+      "lines": 66,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/sprite-segment-3x3grid/SKILL.md",
+      "sha256": "d73b84909833b37ce3a6496f09d663383412c1d5d98fcbcb77cdce63ec7942b7",
+      "bytes": 4999,
+      "lines": 136,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/ui/SKILL.md",
+      "sha256": "9c6441c5bbbba6aef5732d4df923ab92911987baff43f0667a5eed89562c0e3e",
+      "bytes": 6897,
+      "lines": 142,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/ui-imgui/SKILL.md",
+      "sha256": "1d22a185059a5c8edeaebd0ebbe717bb1ddc0cc7d685b2d5826164df4b3223e1",
+      "bytes": 6686,
+      "lines": 180,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/ui-ugui/SKILL.md",
+      "sha256": "566c1dd86c5179ae254fb9d3eebfa7277e794f222806724dc26f66b98db232c5",
+      "bytes": 12787,
+      "lines": 276,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/ui-uitk/SKILL.md",
+      "sha256": "8dc4ee6f4d76ee0b92832511f3d0f36684b21c9a1ff0a1564956bb085023caae",
+      "bytes": 11277,
+      "lines": 229,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/unity-cli/SKILL.md",
+      "sha256": "00fcfcdeccb5ea7c6e44acb5008a635cf2c363a78a3f7a1132751a70b312b381",
+      "bytes": 67806,
+      "lines": 711,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/unity-package-management/SKILL.md",
+      "sha256": "7afcdd2a5b74ec193840c842443087603e936a83b52bada42a30914baa459a68",
+      "bytes": 16746,
+      "lines": 352,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/unity-pipeline/SKILL.md",
+      "sha256": "e122db0bd6dc59bbcc41ce69d0ecf480b51f331a76339a4a4f6fe82b697adba5",
+      "bytes": 19924,
+      "lines": 335,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/urp-postprocessing/SKILL.md",
+      "sha256": "141535ade0eaf632b2ac222fb3b97e5cf8f41365b70e3d85f0d5398385e88cff",
+      "bytes": 11459,
+      "lines": 188,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "unity-skills",
+      "path": "skills/validate-urp-render-graph-renderer-feature/SKILL.md",
+      "sha256": "4f14d97398768c22bf14ef6751eaa4230f06a538cc9c84cf478e3a0d0f0c2f96",
+      "bytes": 14573,
+      "lines": 269,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "router/SKILL.md",
+      "sha256": "bf41c3ebc0db5e893135f166771b6fd43cbda07c7fa5bfff5e5dcbbef101d3e7",
+      "bytes": 18959,
+      "lines": 266,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/SKILL.md",
+      "sha256": "2eb3dc95a34c780952ffd314d7945e3c47296b08671bfbe79996a88e79365a9e",
+      "bytes": 9412,
+      "lines": 177,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/audio-design/SKILL.md",
+      "sha256": "b537036014f7765712d1035f3da314c8ff898ac492e491c6e82a488d03417db5",
+      "bytes": 9752,
+      "lines": 190,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/camera-systems/SKILL.md",
+      "sha256": "3c590facf57b2110c59d9e245b3078c0d4c20ebbfe723507914575c4cb36f9ee",
+      "bytes": 9413,
+      "lines": 163,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/create-game-assets/SKILL.md",
+      "sha256": "c7c6da3d7bd528ff79934ac7556097cca4288fb321449d5acfa8e45fbba88b20",
+      "bytes": 8289,
+      "lines": 137,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/dialogue-systems/SKILL.md",
+      "sha256": "d1d8017c461df157a870723d530ee2cd9c9606c775992e3802a84a528a3a7279",
+      "bytes": 8101,
+      "lines": 182,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/game-ai/SKILL.md",
+      "sha256": "34d199045a44226ce6ed0cc7e3f4e0b29d862fe12033a5f4a65c155acf81a2e3",
+      "bytes": 8494,
+      "lines": 179,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/game-feel/SKILL.md",
+      "sha256": "67900d0e41630914e1a45b55aced3321550f87b26d34e439d3952dd803e9c842",
+      "bytes": 9694,
+      "lines": 174,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/game-ui-ux/SKILL.md",
+      "sha256": "8916cd1da6df6e53cf316e9024657c5c178f7e7750e79eeea93bfd44cf9acd54",
+      "bytes": 10257,
+      "lines": 167,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/input-systems/SKILL.md",
+      "sha256": "70112718392e1e0a62cd335a5fe8c6272128e18728b1e40c6f8a75001bbef9b4",
+      "bytes": 11124,
+      "lines": 211,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/level-design/SKILL.md",
+      "sha256": "51e8368cc1a78faae3467ee73ec03c7c7aae7e45991639a09441832aca9694d2",
+      "bytes": 9076,
+      "lines": 169,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/performance-optimization/SKILL.md",
+      "sha256": "9c68d80b13943b246b0e1b8c35747ab4de700d3deb1ce2a0d3f65eba1b8da731",
+      "bytes": 10457,
+      "lines": 172,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/physics-tuning/SKILL.md",
+      "sha256": "b0ff90eb85509cfa3ca9e27f989b637160903479e57daa2011be9101cbd4913c",
+      "bytes": 8872,
+      "lines": 164,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/procedural-gen/SKILL.md",
+      "sha256": "6a58c287b7c656a63912f7a5ca32a96be274ba7d9525c7b9670235356403583b",
+      "bytes": 8803,
+      "lines": 173,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/save-systems/SKILL.md",
+      "sha256": "14bfd8e49c2c7ceead27d22ec6b6ee7a5cfe661386d2f12d8627f6fd701da437",
+      "bytes": 9432,
+      "lines": 191,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/disciplines/shader-programming/SKILL.md",
+      "sha256": "0c6f870c73b8ede7d01bdc8d5c66045cc0ded80293bc28962d72d763daa33485",
+      "bytes": 8530,
+      "lines": 170,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/ebitengine/ebitengine-game/SKILL.md",
+      "sha256": "fdbb3f6cb791f70becf00f8bedf8b302a1d8e5e02c4a824906b6bd4fca5831ab",
+      "bytes": 12423,
+      "lines": 213,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/genres/card-game/SKILL.md",
+      "sha256": "55cb3ab85d2ab66f787eddb2001805e641d70a7822b8a9f7f174b9174d5eea02",
+      "bytes": 7231,
+      "lines": 138,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/genres/fps-shooter/SKILL.md",
+      "sha256": "eb74c6f841f65dee5a44feb07c9f082c667c34b516d260e6787365f76b9ac64d",
+      "bytes": 6834,
+      "lines": 123,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/genres/platformer/SKILL.md",
+      "sha256": "1d5c688c33a9ca4562070878b84c88cc687681dcfea842c121d25a0620f74cba",
+      "bytes": 8351,
+      "lines": 153,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/genres/puzzle/SKILL.md",
+      "sha256": "2923586901c4998a5bc5deb2235038e6161e7f927d45b8e8ea6b4c7c7327a384",
+      "bytes": 7398,
+      "lines": 143,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/genres/roguelike/SKILL.md",
+      "sha256": "52e1d3ce27ac16ed84da23c9588d2456a8cbb0938d35ca3b13d5b396e65a0332",
+      "bytes": 8148,
+      "lines": 142,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/genres/rpg/SKILL.md",
+      "sha256": "370d9b73048f8760576595bdb14924f14f8fe48e2c17853a4e5c87d3b24877c5",
+      "bytes": 7220,
+      "lines": 141,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/genres/survival-crafting/SKILL.md",
+      "sha256": "174e15b32251a31feab0c1edf81240d6327eba974ae78f2a1e0e9f16f93a3420",
+      "bytes": 8004,
+      "lines": 148,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/genres/tower-defense/SKILL.md",
+      "sha256": "09f6f329e7178ff853b4a4dc0ef148f121fc5296c2a942585fdfe1b3cc502d8c",
+      "bytes": 7025,
+      "lines": 124,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/genres/visual-novel/SKILL.md",
+      "sha256": "c777292dd2032f6eec2eb0e75afaa3303a399e4f6caa0d01499b81af127c2d87",
+      "bytes": 8383,
+      "lines": 153,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-2d-movement/SKILL.md",
+      "sha256": "33c8ba750530ee12bb71ea49fd077db495dc7ae6b1e1076786c5fb9661c74502",
+      "bytes": 6431,
+      "lines": 154,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-3d-essentials/SKILL.md",
+      "sha256": "34cefc1451b6f1ccac3cd60e8f8b4ec453af1e834d6466bd7c1e8506e2bbc556",
+      "bytes": 6093,
+      "lines": 140,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-animation/SKILL.md",
+      "sha256": "92007692a8956c31bded0552c804c49c10efc8c0cff9444ef026605db279f40c",
+      "bytes": 6117,
+      "lines": 130,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-audio/SKILL.md",
+      "sha256": "720da9054685670c09787b69ea893e4cddc292860ebf4d601605f9102f09926a",
+      "bytes": 5668,
+      "lines": 125,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-csharp/SKILL.md",
+      "sha256": "8d62d7e94020608bcf253c19d3f227b14088563a801fa7a11b6d1449221a0725",
+      "bytes": 6949,
+      "lines": 172,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-export/SKILL.md",
+      "sha256": "095177a5322056fbf8949b38213717c9e6f5b1f92e080fd40851a50a56afbe46",
+      "bytes": 6150,
+      "lines": 129,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-gdscript/SKILL.md",
+      "sha256": "a46809d73f9071cdc211f444726b60139519cb8cea776444fb05bc44655cbab4",
+      "bytes": 5858,
+      "lines": 135,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-gdscript-headless-testing/SKILL.md",
+      "sha256": "22f5403f3d27e6ad11ccc975fac6107f5a08de4b1f640b5cf58d6e02c47ee5c7",
+      "bytes": 10067,
+      "lines": 201,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-multiplayer/SKILL.md",
+      "sha256": "62bdf9fa9dfb89f546c4ce1c25c9192cca6875dab016addd703d4a324d439083",
+      "bytes": 7697,
+      "lines": 167,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-nodes-scenes/SKILL.md",
+      "sha256": "03cb03554281e0e424a4127607c6799d6f05f27d273bf1c55ba2de164c5f5b2c",
+      "bytes": 6753,
+      "lines": 136,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-physics/SKILL.md",
+      "sha256": "61a90d986b667c71547fc555f61d8df487732ba868d4612d6411ae8c04eaed72",
+      "bytes": 9113,
+      "lines": 177,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-resources/SKILL.md",
+      "sha256": "3bd20b0230943ce4822552488c85fc6e9014f553e1ee1bff5470ba39789844d8",
+      "bytes": 5590,
+      "lines": 126,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-shaders/SKILL.md",
+      "sha256": "18494fa2491b87cbe5c84c2c8922fbab2e22da8bc6196a00c070b2fa6192d1cd",
+      "bytes": 6056,
+      "lines": 148,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-signals-groups/SKILL.md",
+      "sha256": "0892fd50b91f93a6dc5f7750587fa51d1389cd334d4039bfa2c8fb9720b39868",
+      "bytes": 5452,
+      "lines": 134,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-tilemap/SKILL.md",
+      "sha256": "021b561343b79f6606ed178b307ad85120588bf1e608319144b4b15df2e6ff6d",
+      "bytes": 6218,
+      "lines": 134,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/godot/godot-ui-control/SKILL.md",
+      "sha256": "e2e05419a2e902448992050ceae1e45013b7c9d1eb54371b6fdd1b3214154bad",
+      "bytes": 6329,
+      "lines": 131,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/bevy-ecs/SKILL.md",
+      "sha256": "b34e88dcdfc5b4e385487e70a17b47b4fad9a7547938fc76bc2d23cd0d9dc11d",
+      "bytes": 10428,
+      "lines": 232,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/defold-core/SKILL.md",
+      "sha256": "d5a27593e3fa2c786501076c359ce082ea56cc6e9c98066a2805c6ade78fc41e",
+      "bytes": 13188,
+      "lines": 265,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/love2d-core/SKILL.md",
+      "sha256": "32601d08ba09afa80ef5dee8dbdf40bf31bd97b165177b5243196b6ea2182c71",
+      "bytes": 6912,
+      "lines": 150,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/pygame-core/SKILL.md",
+      "sha256": "908ff45097ab34da9fa734cf0d6095361b8910524a3e145d4daff8420f92a343",
+      "bytes": 8016,
+      "lines": 192,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/roblox-characters/SKILL.md",
+      "sha256": "12349b54046cec0aec4e441f5a1f7d7517bbe3e622497b7916a8e4a2a93e9bb1",
+      "bytes": 9194,
+      "lines": 168,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/roblox-datastores/SKILL.md",
+      "sha256": "19d59117873bc1cb758c221514b9995c91731672ac68e974a6e582b023e90aa1",
+      "bytes": 9225,
+      "lines": 211,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/roblox-luau/SKILL.md",
+      "sha256": "13cd9260eab1e7672fb27691600f68d4b65114064fff4f69f15261a258f3f6df",
+      "bytes": 9846,
+      "lines": 212,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/roblox-networking/SKILL.md",
+      "sha256": "e71b671d160fa85ace13075cf4b920d0dd565d96513ae0acaa79b00b3d837440",
+      "bytes": 12690,
+      "lines": 213,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/roblox-physics/SKILL.md",
+      "sha256": "2d16e2a9bb6c7aa40b0df0a546a85ba861abab83457ce384deff97c4d5a7e745",
+      "bytes": 8906,
+      "lines": 160,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/roblox-simulator-economy/SKILL.md",
+      "sha256": "2879ce1c168ff9ab6b5c357a1b69d9e9a6393b1a210da3c7d9726add33028836",
+      "bytes": 12040,
+      "lines": 198,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/roblox-studio-workflow/SKILL.md",
+      "sha256": "c58a8188db279f5499332e6a670f1240fbc38687988fcc9410d6c699af19fd38",
+      "bytes": 11275,
+      "lines": 183,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/other-engines/roblox-ui/SKILL.md",
+      "sha256": "ed177f5e06c6414a11cfaaeb6e6a0ead645a884b87901eeada3b389175a8635b",
+      "bytes": 12906,
+      "lines": 254,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unity/unity-animation/SKILL.md",
+      "sha256": "dcb5f95b8ccf8ffdd7be4d4443a2b72aec2031fda5da5b8603bfced5b7870ad2",
+      "bytes": 6351,
+      "lines": 131,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unity/unity-build-pipeline/SKILL.md",
+      "sha256": "b32c708ecfc53a7d3a34f771b296ab03349faec15e1dd9e1e79f196fe26282ee",
+      "bytes": 8320,
+      "lines": 169,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unity/unity-csharp-scripting/SKILL.md",
+      "sha256": "a729afd3f73eb8c92841ef60c2c3aac16be4264706af5caaf6f83635a59cd57d",
+      "bytes": 8083,
+      "lines": 159,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unity/unity-input-system/SKILL.md",
+      "sha256": "8327b121793429b9b4d47813d81170fefa5e401de0020bcb05e026fab0a0c5ed",
+      "bytes": 8144,
+      "lines": 180,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unity/unity-navmesh/SKILL.md",
+      "sha256": "e5c5788a9869fe53a4ce596f60489e8942f765cfdd471d723c7a036c41e43157",
+      "bytes": 8259,
+      "lines": 165,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unity/unity-physics/SKILL.md",
+      "sha256": "e69d408d84a8706813553356d5b9ec49665489dc51689d8b9a0f1c5fbd71646e",
+      "bytes": 10571,
+      "lines": 189,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unity/unity-scriptableobjects/SKILL.md",
+      "sha256": "5be71efab64b8f1e299f521083bb93a863d231add03c45038b576a317e4f828b",
+      "bytes": 6750,
+      "lines": 143,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unity/unity-tilemap-2d/SKILL.md",
+      "sha256": "72dc9d553e2e6a831ee286d196c881a128f2e515851c848d9ceb78364065890d",
+      "bytes": 6781,
+      "lines": 131,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unreal/unreal-behavior-trees/SKILL.md",
+      "sha256": "bb8a490dd3400a7e895243a000876519e28688dfb9805e1227577e69adc59229",
+      "bytes": 6600,
+      "lines": 125,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unreal/unreal-blueprints/SKILL.md",
+      "sha256": "96e3cec8fba81a3d845b9e404d6ff8d025cc26c4622a88d36778d5da6cf9350e",
+      "bytes": 6206,
+      "lines": 124,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unreal/unreal-cpp-gameplay/SKILL.md",
+      "sha256": "e737ee0d2ba69cbdeb50d10190595eb83848b0b571a93b088b08d426598e38d5",
+      "bytes": 6549,
+      "lines": 150,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unreal/unreal-enhanced-input/SKILL.md",
+      "sha256": "f74e82daf48faf94f72f7d16a7b383e5247855dc1c1c68a1bd98fca983c79bad",
+      "bytes": 6784,
+      "lines": 133,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unreal/unreal-niagara/SKILL.md",
+      "sha256": "dfc686f43b5742830ab507aa110fdf00f315151a85d89b2a3a9692082c799246",
+      "bytes": 6482,
+      "lines": 128,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/unreal/unreal-packaging/SKILL.md",
+      "sha256": "da853ea07267c6bc98b80bffbcd7b91cbd175eafe151b9887cc5d153c91702d5",
+      "bytes": 7143,
+      "lines": 129,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/web-engines/phaser-arcade-physics/SKILL.md",
+      "sha256": "7de2d1bab06517b39cb2bb4d386ae540abaa5a4e57e42f74abea34e79a52d80d",
+      "bytes": 8388,
+      "lines": 194,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/web-engines/phaser-core/SKILL.md",
+      "sha256": "889febef63e0c6f11a46f1cc58d11af0dabd63c33ae19c203fc136a928114ebf",
+      "bytes": 9684,
+      "lines": 204,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/web-engines/pixijs-rendering/SKILL.md",
+      "sha256": "7ee0879e02bf239f62770c0d3b3a1db4649e8d84d087fede3659646f469ba0ab",
+      "bytes": 10207,
+      "lines": 225,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/web-engines/threejs-gltf-loading/SKILL.md",
+      "sha256": "2f1402981f10cc3942eeaf79f10f7a953da4a06b76790bcd9c904a7fcea51c61",
+      "bytes": 8742,
+      "lines": 202,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/web-engines/threejs-materials-lighting/SKILL.md",
+      "sha256": "f49abc7e7384600fbe2c084748e327d4d87c028eadcae80e16e00e17de027d7d",
+      "bytes": 8090,
+      "lines": 178,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/web-engines/threejs-scene-setup/SKILL.md",
+      "sha256": "f6194a390d6a05fd9990db17bcd75e4b2a963c79ce0dff8289dd8deb6e139047",
+      "bytes": 10706,
+      "lines": 231,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/workflows/game-jam/SKILL.md",
+      "sha256": "ba3fd961e683dda3d50002fe556b95120d246c4b3849f1200628e1b04c06e7f0",
+      "bytes": 9073,
+      "lines": 156,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/workflows/itch-publish/SKILL.md",
+      "sha256": "906d14fefbc3ef1da60ce96be5cb27aa328bcd3c33449f8a7779a2a67c74cfff",
+      "bytes": 9228,
+      "lines": 162,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/workflows/prototype-fast/SKILL.md",
+      "sha256": "35491f7f6c1e94a535098fd40c678369ea94f60905f6f8803b30496f7954881e",
+      "bytes": 6143,
+      "lines": 119,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "gamedev-agent-skills",
+      "path": "skills/workflows/steam-publish/SKILL.md",
+      "sha256": "f3526feceeb5a034102770abe7956f8a1c128def4d10727331ec6e482042111c",
+      "bytes": 14506,
+      "lines": 247,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-3d/SKILL.md",
+      "sha256": "202f421b9f137caa765357cec2ac3583780903faf84030397691c93101a24bc4",
+      "bytes": 17649,
+      "lines": 245,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-3d-worlds/SKILL.md",
+      "sha256": "ed2dcffd147e0110585eec91c7bef59faad25e0c7856b71a826adb3f434d0254",
+      "bytes": 6234,
+      "lines": 89,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-ace-step/SKILL.md",
+      "sha256": "44d3b1af9953e3137d290717f572d9f67177a6b735b4fa83c50de5696b75dea6",
+      "bytes": 9899,
+      "lines": 124,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-ad-variants/SKILL.md",
+      "sha256": "122ad70ced66f5f6139ab32056e9bd736503a945d0fe6e1d6ba9e0cb2c770368",
+      "bytes": 8737,
+      "lines": 116,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-admin-analytics/SKILL.md",
+      "sha256": "a9b98a5527f1ba02f55814366033ac38a453318d2d8641641a4f7ed79b1fd132",
+      "bytes": 11848,
+      "lines": 157,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-asset-analysis/SKILL.md",
+      "sha256": "fa9acc5d9bbf94722f1808f4e77461b096635802dfdc2729748af40c403e70f2",
+      "bytes": 7565,
+      "lines": 107,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-audio/SKILL.md",
+      "sha256": "52153024708b51036690da97ff9b0c2e880f6af2ce9d2ad2c8ee0053d7b15c01",
+      "bytes": 12634,
+      "lines": 169,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-blender/SKILL.md",
+      "sha256": "7a304995cfa5a2c7d48cb31d74399d30325114447c492b61f921eb9957643ce2",
+      "bytes": 12476,
+      "lines": 148,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-blender-2d-animation/SKILL.md",
+      "sha256": "7703a5b45302c9295127b249266f175db87c3fd00ba32416fd99ebf633e03493",
+      "bytes": 13107,
+      "lines": 154,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-brand-kit/SKILL.md",
+      "sha256": "8e2e7a8f94210785aa3e8baa85155fa9a78ebab46fd1b0e2e8128f7f9462a1de",
+      "bytes": 13821,
+      "lines": 128,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-caption-studio/SKILL.md",
+      "sha256": "4ba70eef8b28043b8d3eba36c51f79447c5f894da644fa8a694fb4cd51fba746",
+      "bytes": 13934,
+      "lines": 158,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-chatgpt-pet-create/SKILL.md",
+      "sha256": "2e1034efd04803a28d6ff95b15b881fda5ab32e73d26c2dee424e0a3397e6c4a",
+      "bytes": 14790,
+      "lines": 172,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-chatgpt-pet-update/SKILL.md",
+      "sha256": "b90684829162ea300a5aa2568b6bfde94ec825227680f5d554f89c66699422a0",
+      "bytes": 9392,
+      "lines": 116,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-consistency/SKILL.md",
+      "sha256": "d3129ad944cf5fad8932c0c1973d24876e128e4a96e4bae53ab6863e68dab5b9",
+      "bytes": 15140,
+      "lines": 196,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-elevenlabs/SKILL.md",
+      "sha256": "5f81744c9f1b89a70d5d0d9add5fd92aec57655a23094f06118652a5b1e609ca",
+      "bytes": 8221,
+      "lines": 111,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-fan-cam/SKILL.md",
+      "sha256": "ee59d0ffe877ef757f27282cb4cc49d79da66324f124539059dde45c1ba5a8e2",
+      "bytes": 8794,
+      "lines": 109,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-formats/SKILL.md",
+      "sha256": "c5e5f18eb46ab212114d907a1ded1c107cf2f4a84dea97c264918edeff91c5b7",
+      "bytes": 6879,
+      "lines": 89,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-game-assets/SKILL.md",
+      "sha256": "81e7e1d918f0beb7e24bfa54f63a5bb91a3bd717b6837f750cedb3f982f3a707",
+      "bytes": 18138,
+      "lines": 234,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-gemini-image/SKILL.md",
+      "sha256": "23cfd23959d509d4098f517ae37a41d9e5c8639d256c2bf349c3e390b6ba1380",
+      "bytes": 6030,
+      "lines": 87,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-gemini-omni/SKILL.md",
+      "sha256": "80c20f11e4aaa5628be243fe33b8aa19aac9363944c213e6f6404977148281b5",
+      "bytes": 7531,
+      "lines": 96,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-gpt-image/SKILL.md",
+      "sha256": "db6abfbd1390ac2b011aed819b842ffb72ddca11696a0c65d7561c32081e5b00",
+      "bytes": 11200,
+      "lines": 149,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-grok-imagine-image/SKILL.md",
+      "sha256": "3c7e30ae60a37d8062ba321e6d0d9f99d444c02d1fb847c6dcb72fd5740e2320",
+      "bytes": 6367,
+      "lines": 89,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-grok-imagine-video/SKILL.md",
+      "sha256": "80d74ec76a7af099e1aa78f16abb540a8c81dcbcbf3f738aba20e47f07153a36",
+      "bytes": 6519,
+      "lines": 92,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-identity-library/SKILL.md",
+      "sha256": "011ed04f1806c3ae2f6e4bb27a636cd8170b9198935f77d1ba3b89ff8479a94a",
+      "bytes": 8375,
+      "lines": 111,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-ideogram/SKILL.md",
+      "sha256": "1c4098dfa895bc62dbea14be67a03de5627ae8e7fe5943ad45aec1c28bd72d05",
+      "bytes": 10866,
+      "lines": 134,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-image/SKILL.md",
+      "sha256": "6bd2eb1c5f759e6c525f2ea995dca3b06bad942480383d82326e7f2a3f89cf5c",
+      "bytes": 10476,
+      "lines": 138,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-image-editing/SKILL.md",
+      "sha256": "d26eb6f97eded5f3f5d45e9fd803e492bc7bd98314ceaac159c4a84a92c598de",
+      "bytes": 10419,
+      "lines": 137,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-inspiration/SKILL.md",
+      "sha256": "1ee94fb192bd2da44cc793d3b4dae722182b712e1affd229b6b95211e3dc05f0",
+      "bytes": 6603,
+      "lines": 86,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-kinetic-music-video/SKILL.md",
+      "sha256": "6acadaeb5a5bac2b0653cca89fc722505f2656c071ce5509677088d665f5e7b7",
+      "bytes": 17270,
+      "lines": 269,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-kling/SKILL.md",
+      "sha256": "af2e4b958bbdae76122f5de6b01ab51df4bb55441b6628153217202dd9c84e15",
+      "bytes": 7708,
+      "lines": 106,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-luma-image/SKILL.md",
+      "sha256": "d6f39915f1cbe1de8ba5ba31d6b1ee4652cd2f269ba8181511f9b83eef45921b",
+      "bytes": 6305,
+      "lines": 86,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-luma-video/SKILL.md",
+      "sha256": "97ea088bfb2254f5c5043e00dae74a8725d1ab19a9da0f92024203a03c65e3bc",
+      "bytes": 6355,
+      "lines": 90,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-mai-image/SKILL.md",
+      "sha256": "6e3d17ee4712d4e090d6f4f7071485326b328d2d9154f517d39c1bff54a3113f",
+      "bytes": 6062,
+      "lines": 89,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-meshy/SKILL.md",
+      "sha256": "3d7ea32ac980f8d2b5e374720c2be469c909e2e6d04c7c553e1d1780e7feeb3a",
+      "bytes": 7373,
+      "lines": 98,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-minimax-music/SKILL.md",
+      "sha256": "c97970de7c2cf4bda7364acf546f67b1c8e3a97dd31c2760a7180dd3498f0c87",
+      "bytes": 5705,
+      "lines": 83,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-minimax-video/SKILL.md",
+      "sha256": "ec90905a729fd2670331d09f707cb1c1cd6663aa2948dd4d1f2a42b9a186d779",
+      "bytes": 10798,
+      "lines": 126,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-model-comparison/SKILL.md",
+      "sha256": "47fa48cfcaffe27aab092592e878f1da65d65fb926547c086dd9f5d7af350436",
+      "bytes": 10779,
+      "lines": 137,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-model-training/SKILL.md",
+      "sha256": "7b2eb235416ee95e2e804d650920d93e6250b338221e01d78fa10ea342e047dd",
+      "bytes": 11274,
+      "lines": 150,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-moderation/SKILL.md",
+      "sha256": "b904a6975151bd54650e9caafd44190241dad693c348bf8466c90171628e9120",
+      "bytes": 14716,
+      "lines": 162,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-motion-loops/SKILL.md",
+      "sha256": "d450593e1dc04040c82d9756e81f390882130298dcd4e291a78491eb8de44c86",
+      "bytes": 11092,
+      "lines": 177,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-multi-reference/SKILL.md",
+      "sha256": "1fdedaa7366b8b4060786ddeb895de1b103ef56a1a152d1a911d884ea91a6027",
+      "bytes": 10778,
+      "lines": 146,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-orbit-views/SKILL.md",
+      "sha256": "b480473f443f5f73467d0f109bd8524a44e2aa743e2a288bb10ebbf25935bbef",
+      "bytes": 9368,
+      "lines": 117,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-patina-retexture/SKILL.md",
+      "sha256": "43a34689246cb71b3c6e36c9ea75273e8df3414d345d0628aac149aa0d6cffdf",
+      "bytes": 14278,
+      "lines": 170,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-product-shots/SKILL.md",
+      "sha256": "cb66572378f8aa37105c089686b04a7162e7d02651205063d4021b4e5a24974c",
+      "bytes": 7387,
+      "lines": 84,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-quality-gate/SKILL.md",
+      "sha256": "39fa4bdd69503f84b64ca3f97dd4e6fc844ed5aa6e815c6615fb7c8bf960235f",
+      "bytes": 9874,
+      "lines": 134,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-reel-recast/SKILL.md",
+      "sha256": "c0addd55096bd756e34b55bba0c574c1e9cb5c4a52488d0c7a8d0017cb257c54",
+      "bytes": 10204,
+      "lines": 130,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-refine-loop/SKILL.md",
+      "sha256": "76ef1d3c2bf266c4a06dcbdd41e5f0403ac0f0f2614073dc8b6f301d8b93b93e",
+      "bytes": 7507,
+      "lines": 88,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-report/SKILL.md",
+      "sha256": "a4ee5a0d2851b45a499a52aa29cf4e030732b2a2c36d5265d5cc9b9f3178a138",
+      "bytes": 6119,
+      "lines": 99,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-reve/SKILL.md",
+      "sha256": "48319e66ff30866644565eb377838f5b427359a1d103d79893b52e66387f8cbd",
+      "bytes": 5402,
+      "lines": 84,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-rodin/SKILL.md",
+      "sha256": "39d341d73d2a2c924bde8f0774a1ddafc4d08aa09ccd9822bc89ca076e8c4a2f",
+      "bytes": 5727,
+      "lines": 86,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-runway/SKILL.md",
+      "sha256": "5ffdc6c9ee02c6daa1df234be6d8fec6720ff2f6af293596743a6d74b5f42c08",
+      "bytes": 4800,
+      "lines": 76,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-seedance/SKILL.md",
+      "sha256": "01c0ed2ea99466ed40b479c15c639635818dd90be533775e7c7236f85cc09758",
+      "bytes": 13434,
+      "lines": 144,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-seedance-drafts/SKILL.md",
+      "sha256": "e2baf559eb4dde01619ecb7010a2fd74f0c54d9162295e21c900740887136025",
+      "bytes": 8707,
+      "lines": 103,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-seedance-music-video/SKILL.md",
+      "sha256": "33b4bc0382081d22f1bfa0e17e7842ba1f6ef44e29c8f83b1af319338ef8d86a",
+      "bytes": 7604,
+      "lines": 113,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-seedance-storyboard/SKILL.md",
+      "sha256": "4f12296d2304b70cf61d232548c7b879e50b441b8bbc88adc0dfc7a35a1d8345",
+      "bytes": 11080,
+      "lines": 132,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-seedream/SKILL.md",
+      "sha256": "9427a2d8a22547b9c7f331610008df88b58b32d138b24be20e50374094229684",
+      "bytes": 8821,
+      "lines": 114,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-side-view-game-kit/SKILL.md",
+      "sha256": "e7f7e6ca4009b4098650a3d61a7b4818aaa7ec586d5779bd055cde60413356bc",
+      "bytes": 14785,
+      "lines": 183,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-skyboxes/SKILL.md",
+      "sha256": "39387327cbb012defbb9a680e930077e2177aba3b86552784f3e81a745b2a480",
+      "bytes": 6400,
+      "lines": 91,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-sonilo/SKILL.md",
+      "sha256": "bf409e17861f7f356b99d70716465ea14c8d59e761d5f679e9374232eddb3f3b",
+      "bytes": 6417,
+      "lines": 89,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-sparc3d/SKILL.md",
+      "sha256": "fdc79e91f444263c9e7409ecd951163f245e11ab7027dbb121f87d64fcef89a1",
+      "bytes": 5393,
+      "lines": 77,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-sprite-animation/SKILL.md",
+      "sha256": "acb058316226b8a9935adb41c257436badcd53ce3d779d7a2252b809ac556f15",
+      "bytes": 18014,
+      "lines": 190,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-storyboards/SKILL.md",
+      "sha256": "d49ac65f0e925c380c860762cf7c21dc7bdec79f71fbf7c0539548fffe7ab87b",
+      "bytes": 7350,
+      "lines": 93,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-team-admin/SKILL.md",
+      "sha256": "76f223e71e3a13abe27c454f866c922a6c389cfcc2bf89adad35eccee12fcc91",
+      "bytes": 15871,
+      "lines": 192,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-text-overlay/SKILL.md",
+      "sha256": "a9a055bf2db07450ccc7a01dca08611bf15b8a3277f2f4659a09310d5bbad79c",
+      "bytes": 7246,
+      "lines": 116,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-textures/SKILL.md",
+      "sha256": "753e016d511b799b1cc87f4e700376c6332d09647d16c9919ed56a85b57ef5a2",
+      "bytes": 8326,
+      "lines": 99,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-thumbnails/SKILL.md",
+      "sha256": "147568aaab7ae742575aabe83536eb370f5e92069d80d892c66ab7e4935c18db",
+      "bytes": 9112,
+      "lines": 121,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-ugc/SKILL.md",
+      "sha256": "514f860c352a4d1c00db4aeb18a2c0cb85f883145ccf8bf47153851cf3ccc5bc",
+      "bytes": 12600,
+      "lines": 128,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-veo/SKILL.md",
+      "sha256": "5974da02e6cb83dba35847fe64dd7a8b9a691f3cb8473c05c860c5522ecb1fc0",
+      "bytes": 5826,
+      "lines": 86,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-video/SKILL.md",
+      "sha256": "13a61685dee0a7824c7b0e01967198ab08267f73bca92cfb0e85a28ce7d1165a",
+      "bytes": 17548,
+      "lines": 217,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-video-ads/SKILL.md",
+      "sha256": "77295b575bf4932c4e55efa5da87ba810b761b8b0fbf826ae82b7a478da0ba9f",
+      "bytes": 7120,
+      "lines": 84,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-video-assembly/SKILL.md",
+      "sha256": "ed819e56564c4953607e374584aa07ac42fd86b2180d0b245582e0674c08e22a",
+      "bytes": 9614,
+      "lines": 134,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-video-color-grade/SKILL.md",
+      "sha256": "ee9eec207f7e43ff7181b233f641109f412c6f3a623e0454c83d6a4d72ac0ad5",
+      "bytes": 11526,
+      "lines": 174,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-video-editing/SKILL.md",
+      "sha256": "b34e84073d2597f6f66d470ef7c8d83d3ba76a2fdb825e2de99ccd294da4a0f3",
+      "bytes": 10960,
+      "lines": 161,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-video-to-motion/SKILL.md",
+      "sha256": "4cc11bd38b9af6f07dafa602e90860fde80d6b26b500f96af9ff3f5b9bdc1d12",
+      "bytes": 8249,
+      "lines": 113,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-vidu/SKILL.md",
+      "sha256": "db77f10e74a6318135b7dbca64550c20066413be35f7846881654620f15e259b",
+      "bytes": 5980,
+      "lines": 90,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-walkable-room/SKILL.md",
+      "sha256": "d8aca6346ef5933b04e1a27d0b0ab58eba6274c93fef88bab8db83c3d9327a28",
+      "bytes": 10870,
+      "lines": 136,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-wan/SKILL.md",
+      "sha256": "266ed4e6e32c496b9f3e1e2d60ed8f2ef77c64d91ad860050a240bcd6fdb791a",
+      "bytes": 6758,
+      "lines": 100,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-workflow-authoring/SKILL.md",
+      "sha256": "590ce5726fd9b36e7a7edc239dfca07ba04ac20ee313204f60a6826e927c765f",
+      "bytes": 8086,
+      "lines": 109,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario-workflows/SKILL.md",
+      "sha256": "33a8271db4cb2c15ddcb799218dd6f1d6ea339d46816dd44aba493fa6896a8e8",
+      "bytes": 7854,
+      "lines": 110,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-addon-development/SKILL.md",
+      "sha256": "71e2181e502b2d6bd6ea3025cba31fbef5fb3b66d75536010793343a36c5ec9d",
+      "bytes": 5056,
+      "lines": 49,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-animation/SKILL.md",
+      "sha256": "74bfbbf2eb941691f477f14ce3cbb959feaa311e8b5e743bc8c274277dc77a98",
+      "bytes": 7095,
+      "lines": 62,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-asset-qa/SKILL.md",
+      "sha256": "968e4435eeba040f0952cc335c8e9e7182e1d7008aa4295f202ddb836fa49ec9",
+      "bytes": 5185,
+      "lines": 59,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-character-rigging/SKILL.md",
+      "sha256": "f079c155f582dbcbaed0c2a24c86716657095d0d48e7e120144ba1db797b5117",
+      "bytes": 6653,
+      "lines": 55,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-clothing/SKILL.md",
+      "sha256": "11f5861183c96a43341238fc069ef321eca2f6bc8e70227c03333f5a5b436dc5",
+      "bytes": 5182,
+      "lines": 47,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-core/SKILL.md",
+      "sha256": "91588e225931c2df924819d02a7b9ca896568f0e4d458a09364b1611b709527f",
+      "bytes": 7635,
+      "lines": 86,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-environment-kits/SKILL.md",
+      "sha256": "d46f6936919f3055f87866f6ecf3e13b3157ae07ea7ff5dbc7148844d3a120b2",
+      "bytes": 5184,
+      "lines": 47,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-export-pipelines/SKILL.md",
+      "sha256": "ed22458c62a4e09be4307d70085ff87dc171c7cd703199312474d6fe4f91d092",
+      "bytes": 5094,
+      "lines": 62,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-facial-shapekeys/SKILL.md",
+      "sha256": "132b7eed328451f9577cfbf06d4a68a6a569a9b8c8621af3311151ca920a5543",
+      "bytes": 4875,
+      "lines": 54,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-game-optimization/SKILL.md",
+      "sha256": "15c900a72556e1a638c95ff78e03021601affa315d710bbdb55429247ffd9b96",
+      "bytes": 5978,
+      "lines": 67,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-geometry-nodes/SKILL.md",
+      "sha256": "d058b38738877020565387402f0f689c0812e631876c085f9bcc06cd34cfa4b2",
+      "bytes": 6020,
+      "lines": 59,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-hair-grooming/SKILL.md",
+      "sha256": "c65d3d88ffca70a00dc654af0a1523636bb5d8d3a3830853b7ccfc30b197107d",
+      "bytes": 5486,
+      "lines": 58,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-hardsurface-modeling/SKILL.md",
+      "sha256": "64362339cf0bf4d3fcc1ec025b4f3fef615c0613f12a7ba41eb64becca03f2b8",
+      "bytes": 5641,
+      "lines": 63,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-lighting-lookdev/SKILL.md",
+      "sha256": "3b4ef98a303f68d0915937156763f8eef2b7997da3fab86a8876693efc06f363",
+      "bytes": 5341,
+      "lines": 52,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-pbr-materials/SKILL.md",
+      "sha256": "a067d2268abd75e5336a6ddd3fa9cb3ad16b7b4f492469a52876992bb1c61c01",
+      "bytes": 5929,
+      "lines": 57,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-pipeline-automation/SKILL.md",
+      "sha256": "1a9b4af73856ca95bc0e1a84c0c4331faa22ee82952c6ad36242a0ec7125dc58",
+      "bytes": 4899,
+      "lines": 60,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-rendering/SKILL.md",
+      "sha256": "6e98d9533699d754266c6965070ca9e01c37ba6294f4e7bc0ac238cd2912af8b",
+      "bytes": 5599,
+      "lines": 70,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-retopology-uv/SKILL.md",
+      "sha256": "9aeb9c6ae7331d49439d44f64c01792c97351ed7490006d1eeac4d6ca201803d",
+      "bytes": 5127,
+      "lines": 61,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-scene-setup/SKILL.md",
+      "sha256": "c3d9a7c2ad5b1e642bc1247a01ae1d41942e1b6bf4537f1c4ab4da0f698aef19",
+      "bytes": 5340,
+      "lines": 73,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-sculpting/SKILL.md",
+      "sha256": "41a2069085a4ea97175f5fa3e2221655d218fd88d7048b27efb6459e670c3c23",
+      "bytes": 5122,
+      "lines": 54,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-simulation/SKILL.md",
+      "sha256": "0eb8fe6d51b36732cc26c32a3ee0d6b89774f5c0f058bdddad387dccd0adad82",
+      "bytes": 5883,
+      "lines": 67,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-stylized-npr/SKILL.md",
+      "sha256": "d588af8dfc91ddfea02774b5ad3441ff6c9a6ab690dfa316e491548cebfdae1d",
+      "bytes": 5843,
+      "lines": 62,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-texture-baking/SKILL.md",
+      "sha256": "206802dbd95aa4cce88553fde36598e8efd82a9cee819b98fb76b59d72ce50a2",
+      "bytes": 5713,
+      "lines": 69,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-texturing/SKILL.md",
+      "sha256": "e815ec608f122841acc4575c6f76e5f84daf82d31ea2db10f033ed2f7c75f888",
+      "bytes": 5527,
+      "lines": 56,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-time-of-day/SKILL.md",
+      "sha256": "db75a31b6c4f7ab8f146f28c7e8470ce28951c5e9638b68d4b634c621beb3bf1",
+      "bytes": 6715,
+      "lines": 62,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-video-editing/SKILL.md",
+      "sha256": "aa38ffc02ade80b6252b7ecb1012622b7e31bb1b86493131d4ae946f8cd2a718",
+      "bytes": 4995,
+      "lines": 49,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-weather-fx/SKILL.md",
+      "sha256": "599ba1f27af06e344ac70046940b6ff3c855ed4fda55bb4eaffcf77537f64531",
+      "bytes": 6649,
+      "lines": 64,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "blender-skills",
+      "path": "skills/blender-workflow-recipes/SKILL.md",
+      "sha256": "29aafa615aa4386b2c14265bb993e6127c760aca81597a47659d6a4281dccd42",
+      "bytes": 8226,
+      "lines": 75,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": ".agents/skills/pr-handle-comments/SKILL.md",
+      "sha256": "9e1e6c1841b90bd53fb07e9315b7e17cd104bc5c5d77e54a837211d23d7a2132",
+      "bytes": 7412,
+      "lines": 46,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": ".agents/skills/pr-squash-message/SKILL.md",
+      "sha256": "74ba0caee4ac3fabe1c173a3ec79a6cce7dd9b82212b978887d5d8298b4042aa",
+      "bytes": 7460,
+      "lines": 37,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": ".agents/skills/pr-summary/SKILL.md",
+      "sha256": "208c150e8479a5bf9301eb55782fb6ab465361a8ac155c8aa63e860160f8ce84",
+      "bytes": 5415,
+      "lines": 25,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": ".agents/skills/skill-creator/SKILL.md",
+      "sha256": "e030e7685e26283b4a76f5202aa3ae8516fb41dde799be5ae8ea6393ec009fe9",
+      "bytes": 33653,
+      "lines": 485,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": ".agents/skills/skill-development/SKILL.md",
+      "sha256": "95bfbd3e579a14096c20f032defbeebf57fda318a014bf5edc2733d94dfbfc8f",
+      "bytes": 23464,
+      "lines": 637,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": ".agents/skills/skills-pr-handle/SKILL.md",
+      "sha256": "6572bd48bac623005a976c6791f6393a3f51bf0bb63fabee8eace0903ba9075c",
+      "bytes": 10167,
+      "lines": 219,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": ".agents/skills/skills-validate/SKILL.md",
+      "sha256": "71f760ee28d691d6b1e3a4243b038170b8ac30e4b0fd86f2d3a9657a21346382",
+      "bytes": 11289,
+      "lines": 213,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-animation/SKILL.md",
+      "sha256": "1517d218ed8d8ce4fb1535837d2e10fac05106970658b8cdeb9875f838f40061",
+      "bytes": 21022,
+      "lines": 204,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-blockout/SKILL.md",
+      "sha256": "4fec168953b92fa64273539bfa3280227a7549b734f1251f1b3344d0b88a490c",
+      "bytes": 19177,
+      "lines": 256,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-expert/SKILL.md",
+      "sha256": "040d380135f251eddfc9ba76defc439a888d84d7d11b9dee019dad021790bf16",
+      "bytes": 18468,
+      "lines": 190,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-export/SKILL.md",
+      "sha256": "0aee5dfecfb0aede8f009e2eb1f42e163563414b85105160b6bfd84eb8713ff6",
+      "bytes": 13753,
+      "lines": 193,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-geometry-nodes/SKILL.md",
+      "sha256": "c5a01c6130cc4a1ebf94ae88ed44a0447711267504516b3e6a49fa16a13497e2",
+      "bytes": 16716,
+      "lines": 179,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-grease-pencil/SKILL.md",
+      "sha256": "cb5ad3f7f9f58ca20b2fd365b5a67b2c8ae178c387def17efa793665705e63a0",
+      "bytes": 18469,
+      "lines": 203,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-hair/SKILL.md",
+      "sha256": "8676a6b43059aa7f250fd09867c25947661b48075e5e7d28e771e03105c1c508",
+      "bytes": 19113,
+      "lines": 200,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-hard-surface/SKILL.md",
+      "sha256": "5ea3ae0ab9e05c50dfc2b6a39b2a66b038c400f8a73b1337673b6b6c1de312fc",
+      "bytes": 18700,
+      "lines": 195,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-lighting-rendering/SKILL.md",
+      "sha256": "4d29cc85bd604ed691d54e35a0105be438f33205d450024f6872012750dd8277",
+      "bytes": 20533,
+      "lines": 204,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-previs-storyboard/SKILL.md",
+      "sha256": "a67746d8b4df656e9d287ba6d24dfd7415a6669f483318deb40bba24b94ab11b",
+      "bytes": 20354,
+      "lines": 200,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-retopology/SKILL.md",
+      "sha256": "bf462aa82b99b0f56e019f20dcc16367ce1205d7c1233b647b93401552d6ff66",
+      "bytes": 22344,
+      "lines": 191,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-rigging/SKILL.md",
+      "sha256": "01fc4cc83afd8c94e49e4c3bb16649bda4423c53f276742efd3b45a6ccb0149f",
+      "bytes": 20164,
+      "lines": 219,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-sculpting/SKILL.md",
+      "sha256": "5d4ebb08e2ef89dda2a4f0fee5c0f530a1bdc5875fcb27384af112609db921ca",
+      "bytes": 21196,
+      "lines": 183,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-texturing-shading/SKILL.md",
+      "sha256": "c622738e3026c0a59bef653996a6a97f0fd09240ae0ae9f659694f4827e5b3b3",
+      "bytes": 16098,
+      "lines": 189,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/blender/scenario-blender-uv-baking/SKILL.md",
+      "sha256": "5891e74126f44fbc6543260cb3d069bd13bf377a1581a6bc6af1abe04648e0af",
+      "bytes": 17470,
+      "lines": 185,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/maya/scenario-maya-animation/SKILL.md",
+      "sha256": "6f5c0f91f426cfb37f36eb807b00b1a8750697b9f2ad410fce00ae9c8ecde47f",
+      "bytes": 18605,
+      "lines": 200,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/maya/scenario-maya-deformation/SKILL.md",
+      "sha256": "f06ddca9fc97f3136b0350de3ce619d180449d47e4403334d28e21ea9e5162f3",
+      "bytes": 19982,
+      "lines": 201,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/maya/scenario-maya-expert/SKILL.md",
+      "sha256": "ded91341fd0b554a337747302b15e984bf880c415c9de01406f699bc0f2c5eef",
+      "bytes": 22511,
+      "lines": 197,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/maya/scenario-maya-fx/SKILL.md",
+      "sha256": "c8544b15b43ecc3d9aa8d23abbaf19b9acfa8b0d3c2268f9261921aec8562bb1",
+      "bytes": 21595,
+      "lines": 222,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/maya/scenario-maya-groom/SKILL.md",
+      "sha256": "9c448c8d7e9427445dc70c36ae394a2942cc5e3b27612f7280ee6c923a8d7f39",
+      "bytes": 20390,
+      "lines": 208,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/maya/scenario-maya-lighting-rendering/SKILL.md",
+      "sha256": "121ab6097fc02f861fb39ede776d03c1655c5ee002d25e673f80fdb95f20947a",
+      "bytes": 20628,
+      "lines": 203,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/maya/scenario-maya-lookdev/SKILL.md",
+      "sha256": "172d60d58303365d6c4929d00243e8f6954c252315bbe115a97b7e97d710ad37",
+      "bytes": 20322,
+      "lines": 202,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/maya/scenario-maya-modeling/SKILL.md",
+      "sha256": "79113d82568ba84dd8da02070524b1906d5d9073cacef31408f789b09ee1b25d",
+      "bytes": 21187,
+      "lines": 218,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/maya/scenario-maya-pipeline-scripting/SKILL.md",
+      "sha256": "ba12cfb71c47b391c29f25ecd1ad030ee683a1dcbd4bd341f60bce461b2e01a0",
+      "bytes": 19033,
+      "lines": 211,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/maya/scenario-maya-retopology-uv/SKILL.md",
+      "sha256": "eff67b5185f2540b40f565deb885a85ae32859968de4d4b761b8c9917021bace",
+      "bytes": 20713,
+      "lines": 220,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/maya/scenario-maya-rigging/SKILL.md",
+      "sha256": "d250efe0968476c031c4c121faad147498bfa03755c66bcc208c3cce1da3ba6f",
+      "bytes": 21220,
+      "lines": 211,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/zbrush/scenario-zbrush-automation/SKILL.md",
+      "sha256": "bae5e10def62621311d152cb3b403807f240668fbba46b15a67b987a4c065a7d",
+      "bytes": 19229,
+      "lines": 199,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/zbrush/scenario-zbrush-character-creature/SKILL.md",
+      "sha256": "3b9ff63d87925c811258b7c9c2b028899fb29fda7b8c66c3189772ade95c5da8",
+      "bytes": 18786,
+      "lines": 196,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/zbrush/scenario-zbrush-expert/SKILL.md",
+      "sha256": "a91110e38f5b1169055fdb45eab180b8b211fe8354d599e6032634a1ad914e09",
+      "bytes": 21897,
+      "lines": 213,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/zbrush/scenario-zbrush-hard-surface/SKILL.md",
+      "sha256": "c2d92d1236ec6b0d2aa68c637b3293239ac670ddce314ba6cc58e6674740abed",
+      "bytes": 19784,
+      "lines": 212,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/zbrush/scenario-zbrush-paint-render/SKILL.md",
+      "sha256": "6dd54e36a7eadda6965e01f3a58705e001cc911e2955ddb1b9a532ae3e2c776d",
+      "bytes": 18685,
+      "lines": 192,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/zbrush/scenario-zbrush-pose-print/SKILL.md",
+      "sha256": "819630a2da589ad9d23a226f62cd84a7270b074e031450c91c9f8fb912e41300",
+      "bytes": 20487,
+      "lines": 199,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/zbrush/scenario-zbrush-retopology-export/SKILL.md",
+      "sha256": "4f2a00e94be7b408fd545ee67fcc8aa5dd0c3a7a4aa5340533194eb123f19a78",
+      "bytes": 19676,
+      "lines": 231,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/zbrush/scenario-zbrush-sculpting/SKILL.md",
+      "sha256": "9ea45e0da5dd951638d05e1301bacabb2cf62036124a801abf3b5ab2994a1c6d",
+      "bytes": 21617,
+      "lines": 216,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/dcc/zbrush/scenario-zbrush-stylized/SKILL.md",
+      "sha256": "e2d019729f8880bfecf607786880efe630321e6bd1c3bed89e0f5ee927ce7fd1",
+      "bytes": 18018,
+      "lines": 208,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/scenario/SKILL.md",
+      "sha256": "54c9d03591847639f786ad3338b0f10c6240459bc72323a96278021db95e5e00",
+      "bytes": 18185,
+      "lines": 251,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-animation/SKILL.md",
+      "sha256": "42d7e234ac5730402dc58ebc8cc0fa580ce6257597dd1132c0cc74849bc8a367",
+      "bytes": 18816,
+      "lines": 212,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-architecture/SKILL.md",
+      "sha256": "da6700178645bb0fc0e52a6bad382a6fd4e94afbb7b1bb2b6a69d5a7b46c395c",
+      "bytes": 21195,
+      "lines": 244,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-assets/SKILL.md",
+      "sha256": "f6ca36ca2978d96eb8742964a3ea7b18f26083705b7989ecbf79241076c9ec7a",
+      "bytes": 20051,
+      "lines": 221,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-data/SKILL.md",
+      "sha256": "6c9582bdc883522b516e493d1c15f8e6c99e6ccfb7e46c83a91886257d05f938",
+      "bytes": 15179,
+      "lines": 212,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-environment/SKILL.md",
+      "sha256": "52154f2b8d3acc3088e8762b79d8b371fdbbbc010efef95389de561c022db69e",
+      "bytes": 21783,
+      "lines": 241,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-expert/SKILL.md",
+      "sha256": "6020cd6bf5be2c5ed258f558c00ccf5db9fb2cbad327cbe20c971f6cf9c11fae",
+      "bytes": 21034,
+      "lines": 241,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-gameplay/SKILL.md",
+      "sha256": "c88ecb31032aa66f49301ea1bca81e870c7f5435aac89a17ab46f425938fd457",
+      "bytes": 21022,
+      "lines": 221,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-luau/SKILL.md",
+      "sha256": "a0a2f3b9f2fff0b6ecce25fe0e71b9f19d2afca6910a4cb832d6c13628afbb76",
+      "bytes": 17652,
+      "lines": 224,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-monetization/SKILL.md",
+      "sha256": "a1288661c447858984c70655091e2c8e58a38406e6de0ba81f3fbb6ab7fd5888",
+      "bytes": 18810,
+      "lines": 241,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-networking/SKILL.md",
+      "sha256": "c54005b63056f209b2d4224768f327204b3e264e313fd8a0d26ca286d05e2ceb",
+      "bytes": 18472,
+      "lines": 225,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-performance/SKILL.md",
+      "sha256": "b88ad572c529fabcfa5493c12806af18fe3aff8e85d1fb5211d64488c6551ffc",
+      "bytes": 18706,
+      "lines": 219,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-tooling/SKILL.md",
+      "sha256": "93b8cc4e965053e5b304f02672d5d382dd312e79d5ee4b9b73c9137ca8ad4c6f",
+      "bytes": 23480,
+      "lines": 253,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-ui/SKILL.md",
+      "sha256": "89b2ad748e9b243857affbbebe2bc60ee5a4d666cb047ce37eef0031bd106681",
+      "bytes": 22186,
+      "lines": 236,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/roblox/scenario-roblox-vfx-audio/SKILL.md",
+      "sha256": "a76e44eee568fdc3cac008a97a4b864fe01ad18bf982eb3eb97716df20352a93",
+      "bytes": 17070,
+      "lines": 205,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-2d/SKILL.md",
+      "sha256": "156a8dfb39552b57fa508e4becd0e8ce0f690f60feb3f18edd13ad01e260ba3c",
+      "bytes": 20075,
+      "lines": 209,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-animation/SKILL.md",
+      "sha256": "da787e21b5b63cfc1a7fcc51b2fac43ab866230f66471f696cb48c12c7df3439",
+      "bytes": 17134,
+      "lines": 205,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-architecture/SKILL.md",
+      "sha256": "9d28a133b80b082b8c0782d485bea55585ecf188eded7b5e5ad995109a22d97c",
+      "bytes": 19452,
+      "lines": 221,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-expert/SKILL.md",
+      "sha256": "78078f24b8e56efdeba6a5b16e920755162f88ca6b7ceb71b4a3284ad65caf32",
+      "bytes": 21280,
+      "lines": 228,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-gameplay/SKILL.md",
+      "sha256": "94fbd8c16b67fe9c21d609de1c64cfc1ab38bb9ef74414179b58c5d9be18b076",
+      "bytes": 20171,
+      "lines": 207,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-mobile/SKILL.md",
+      "sha256": "cda84d293fe8486b1aa742a58d639a084ba4abfd6ddc113682a1351c6a2d8f6a",
+      "bytes": 19011,
+      "lines": 212,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-performance/SKILL.md",
+      "sha256": "c08d102d29e0af1d9eba95f1812cec8dfbb4fb48d69a71f326f57f0662803f11",
+      "bytes": 20179,
+      "lines": 208,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-pipeline-automation/SKILL.md",
+      "sha256": "272dfd61dc5382ac8ce58b563bea3011c8e085356c87b807594e7bf8e6eb42dd",
+      "bytes": 20406,
+      "lines": 213,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-rendering-lighting/SKILL.md",
+      "sha256": "60f08706141287db1ad0ad784ec89e1fc5f78b39399a028ec2a38843a4dd4edf",
+      "bytes": 20176,
+      "lines": 197,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-shaders/SKILL.md",
+      "sha256": "c244c57e6d0ece9cd7c2b6b4c075f6112e69cfb573bb5244c82593bc31c5ec57",
+      "bytes": 21020,
+      "lines": 223,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-ui/SKILL.md",
+      "sha256": "27ec1e8c5f84be7839e364101e6b9ed240d9d949a02456e1108fde8181570fbc",
+      "bytes": 17768,
+      "lines": 203,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-vfx/SKILL.md",
+      "sha256": "de2edd8d77942b39c4d78ff21dd1c69bf108279730eefb1ef3ce9adf88d6bbab",
+      "bytes": 18352,
+      "lines": 209,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-web/SKILL.md",
+      "sha256": "9a7797a68ec3171eca0cecea5ff0c3b53a30df0af93a08c3ce9b1b7254e64958",
+      "bytes": 16625,
+      "lines": 193,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unity/scenario-unity-world-building/SKILL.md",
+      "sha256": "5216908ef622930366c6c5f0b47b378a3a4304b2bc5e2016706d8fb8d66dd27e",
+      "bytes": 18641,
+      "lines": 203,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNITY_ROBLOX_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unreal/scenario-unreal-animation/SKILL.md",
+      "sha256": "787d183d998213b44ab9b8c5c88b2345214198fd8b61728f390129a0b28060ac",
+      "bytes": 21891,
+      "lines": 225,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unreal/scenario-unreal-cinematics/SKILL.md",
+      "sha256": "59bc33370154aa42520f1a2be5f2d9848adeab594b5a5ce28d157b9a92beb73f",
+      "bytes": 20945,
+      "lines": 217,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/SKILL.md",
+      "sha256": "c8b7ca197f68a0adc4a52103d28a871a8b2f49a5214a89dc542b205a2cf02491",
+      "bytes": 25893,
+      "lines": 210,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unreal/scenario-unreal-gameplay/SKILL.md",
+      "sha256": "1800efb0b36cc10acf5375e15838b48949237170cf4762076bed18c6ce51a7ba",
+      "bytes": 21080,
+      "lines": 214,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unreal/scenario-unreal-lighting-rendering/SKILL.md",
+      "sha256": "c50f86f0dc2145381d1c475118580243a89ebd886555e2885880d5e03322178c",
+      "bytes": 20117,
+      "lines": 214,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unreal/scenario-unreal-materials/SKILL.md",
+      "sha256": "5a70b94703cbbf1b1f8ce5d0884e6190e0b868354ddbec74e2f5c71a00c97797",
+      "bytes": 18978,
+      "lines": 209,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unreal/scenario-unreal-performance/SKILL.md",
+      "sha256": "9d763c6eaca98434aeb26a9e37603534f13a47c7f812dadf4387a0ff61f45a28",
+      "bytes": 22056,
+      "lines": 213,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unreal/scenario-unreal-pipeline-automation/SKILL.md",
+      "sha256": "906974c5e9f08da2ac890c55eac36c4a22183daffa494f8c219556cad17f7e15",
+      "bytes": 20618,
+      "lines": 224,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unreal/scenario-unreal-vfx/SKILL.md",
+      "sha256": "21e9329f8aa3874a9da6d5413c122d2f4fec38a566a828aa915217e5019b91ff",
+      "bytes": 21071,
+      "lines": 225,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/unreal/scenario-unreal-world-building/SKILL.md",
+      "sha256": "dce2bff1b399192202ef4787a461a4055100be2b998e13080f3cd56f993a27f2",
+      "bytes": 19594,
+      "lines": 221,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-2d/SKILL.md",
+      "sha256": "701ec4aa6f7fcd47bbf75e85c0004fd028621c398e61d0c3adcd53a0cd5f7d0c",
+      "bytes": 21682,
+      "lines": 202,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-3d-world/SKILL.md",
+      "sha256": "f68a8f253b7a5d5f34ab8af5b6a429a1b9e3a5f41b782a238889fab0e5d8dd47",
+      "bytes": 18096,
+      "lines": 206,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-animation/SKILL.md",
+      "sha256": "c595a5dfca822d3a9efe7b9c64492158d3aa2c14efa5a4da4784346e16262469",
+      "bytes": 19140,
+      "lines": 263,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-architecture/SKILL.md",
+      "sha256": "4709b32d4d9406bc46d263c40c43522c963625acfcf748c50c4457e5a5e67012",
+      "bytes": 20223,
+      "lines": 229,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-audio/SKILL.md",
+      "sha256": "b7a72a7dafe999b2b2233682f2086921e9ab546ce5bd2c808ca189d86f6625ed",
+      "bytes": 19259,
+      "lines": 211,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-expert/SKILL.md",
+      "sha256": "bb50ac8f71232bc25f5139bb214b1b4f453bf30f3f43a1cf03353edf35be1ab4",
+      "bytes": 24189,
+      "lines": 245,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-gameplay/SKILL.md",
+      "sha256": "e1f2de0c4409adde6fecd7a9de3e616a35a1ba5dffa1c86d77b5dbe2200181e0",
+      "bytes": 20050,
+      "lines": 233,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-multiplayer/SKILL.md",
+      "sha256": "b4b1107e258b95b807c572364a4866f99f097b7ed25d361b0cd1b618bdc28fe9",
+      "bytes": 20924,
+      "lines": 227,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-performance-export/SKILL.md",
+      "sha256": "df0f317b6bf59df8a07ed1eeb976551cdbe37d65a6835a85ceb4368d0f2376d3",
+      "bytes": 21157,
+      "lines": 259,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-pipeline-automation/SKILL.md",
+      "sha256": "93ab4578a459e764650b1464076965116c64c61dae2862822c23506be198b293",
+      "bytes": 22295,
+      "lines": 234,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-rendering-lighting/SKILL.md",
+      "sha256": "aea315f3f1bac9ebfac86209f26ffa1ef22011db23891c0ae6da8913a6f55248",
+      "bytes": 20092,
+      "lines": 225,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-shaders/SKILL.md",
+      "sha256": "3fe8db01ba6de525ab8f95ff50f2fbcf76342db33627deaf6e78d8ec825813be",
+      "bytes": 20237,
+      "lines": 231,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-ui/SKILL.md",
+      "sha256": "ffc735c5be3f2c07c8c78167c01e0e80d6b06b234778d60168a7580e56eec58b",
+      "bytes": 22437,
+      "lines": 224,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    },
+    {
+      "repository": "scenario-skills",
+      "path": "skills/game-engines/godot/scenario-godot-vfx/SKILL.md",
+      "sha256": "5c213826e569a513282c0c9961b42b2d544495d7393ba1d0ad78435e3ba9d81e",
+      "bytes": 21849,
+      "lines": 235,
+      "full_body_read_range_verified": true,
+      "record": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json"
+    }
+  ],
+  "verification_scope": "Document inventory, recorded full read ranges, local source byte hashes, line counts, canonical links; not correctness proof of external APIs or production runtime",
+  "source_body_lines": 53431,
+  "source_body_bytes": 4005845,
+  "new_educational_documents": 20,
+  "new_educational_document_paths": [
+    "docs/EXTERNAL_STUDY_WORKFLOW.md",
+    "docs/EXTERNAL_STUDY_CORRECTIONS.md",
+    "docs/UNITY_OFFICIAL_SKILLS_WORKFLOW.md",
+    "docs/UNITY_OFFICIAL_SKILLS_INDEX.md",
+    "docs/GAMEDEV_SKILLS_WORKFLOW.md",
+    "docs/GAMEDEV_SKILLS_TOPIC_INDEX.md",
+    "docs/SCENARIO_SERVICE_SKILLS_WORKFLOW.md",
+    "docs/SCENARIO_SERVICE_SKILLS_INDEX.md",
+    "docs/SCENARIO_UNITY_ROBLOX_WORKFLOW.md",
+    "docs/SCENARIO_UNITY_ROBLOX_TOPIC_INDEX.md",
+    "docs/BLENDER_SKILLS_WORKFLOW.md",
+    "docs/DCC_MAYA_ZBRUSH_WORKFLOW.md",
+    "docs/SCENARIO_CORE_SUPPORT_WORKFLOW.md",
+    "docs/EXTERNAL_DCC_SOURCE_COMPARISON.md",
+    "docs/BLENDER_SKILLS_INDEX.md",
+    "docs/SCENARIO_DCC_SUPPORT_INDEX.md",
+    "docs/SCENARIO_UNREAL_SKILLS_WORKFLOW.md",
+    "docs/SCENARIO_UNREAL_SKILLS_INDEX.md",
+    "docs/GODOT_SKILLS_WORKFLOW.md",
+    "docs/GODOT_SKILLS_INDEX.md"
+  ],
+  "hash_scope": "SHA256 of imported local working-tree bytes as recorded during reading; upstream commits/trees identify canonical Git snapshots independently of checkout line endings."
 }

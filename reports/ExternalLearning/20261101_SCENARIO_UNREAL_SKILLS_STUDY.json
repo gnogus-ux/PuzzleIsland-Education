@@ -1,0 +1,707 @@
+{
+  "schema_version": 1,
+  "date_kst": "2026-11-01",
+  "status": "COMPLETE_DOCUMENT_STUDY_10_BODIES_RUNTIME_NOT_RUN",
+  "source_repository": "https://github.com/scenario-labs/skills",
+  "source_commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+  "source_license": "MIT",
+  "scope": "skills/game-engines/unreal/**/SKILL.md only; excludes root79/main/other engine families",
+  "body_files_total": 10,
+  "body_files_read": 10,
+  "body_files_unread": 0,
+  "body_bytes": 212243,
+  "body_lines": 2172,
+  "files": [
+    {
+      "name": "scenario-unreal-animation",
+      "path": "skills/game-engines/unreal/scenario-unreal-animation/SKILL.md",
+      "bytes": 21891,
+      "lines": 225,
+      "sha256": "787d183d998213b44ab9b8c5c88b2345214198fd8b61728f390129a0b28060ac",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 225
+        }
+      ]
+    },
+    {
+      "name": "scenario-unreal-cinematics",
+      "path": "skills/game-engines/unreal/scenario-unreal-cinematics/SKILL.md",
+      "bytes": 20945,
+      "lines": 217,
+      "sha256": "59bc33370154aa42520f1a2be5f2d9848adeab594b5a5ce28d157b9a92beb73f",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 217
+        }
+      ]
+    },
+    {
+      "name": "scenario-unreal-expert",
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/SKILL.md",
+      "bytes": 25893,
+      "lines": 210,
+      "sha256": "c8b7ca197f68a0adc4a52103d28a871a8b2f49a5214a89dc542b205a2cf02491",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 210
+        }
+      ]
+    },
+    {
+      "name": "scenario-unreal-gameplay",
+      "path": "skills/game-engines/unreal/scenario-unreal-gameplay/SKILL.md",
+      "bytes": 21080,
+      "lines": 214,
+      "sha256": "1800efb0b36cc10acf5375e15838b48949237170cf4762076bed18c6ce51a7ba",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 214
+        }
+      ]
+    },
+    {
+      "name": "scenario-unreal-lighting-rendering",
+      "path": "skills/game-engines/unreal/scenario-unreal-lighting-rendering/SKILL.md",
+      "bytes": 20117,
+      "lines": 214,
+      "sha256": "c50f86f0dc2145381d1c475118580243a89ebd886555e2885880d5e03322178c",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 214
+        }
+      ]
+    },
+    {
+      "name": "scenario-unreal-materials",
+      "path": "skills/game-engines/unreal/scenario-unreal-materials/SKILL.md",
+      "bytes": 18978,
+      "lines": 209,
+      "sha256": "5a70b94703cbbf1b1f8ce5d0884e6190e0b868354ddbec74e2f5c71a00c97797",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 209
+        }
+      ]
+    },
+    {
+      "name": "scenario-unreal-performance",
+      "path": "skills/game-engines/unreal/scenario-unreal-performance/SKILL.md",
+      "bytes": 22056,
+      "lines": 213,
+      "sha256": "9d763c6eaca98434aeb26a9e37603534f13a47c7f812dadf4387a0ff61f45a28",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 213
+        }
+      ]
+    },
+    {
+      "name": "scenario-unreal-pipeline-automation",
+      "path": "skills/game-engines/unreal/scenario-unreal-pipeline-automation/SKILL.md",
+      "bytes": 20618,
+      "lines": 224,
+      "sha256": "906974c5e9f08da2ac890c55eac36c4a22183daffa494f8c219556cad17f7e15",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 224
+        }
+      ]
+    },
+    {
+      "name": "scenario-unreal-vfx",
+      "path": "skills/game-engines/unreal/scenario-unreal-vfx/SKILL.md",
+      "bytes": 21071,
+      "lines": 225,
+      "sha256": "21e9329f8aa3874a9da6d5413c122d2f4fec38a566a828aa915217e5019b91ff",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 225
+        }
+      ]
+    },
+    {
+      "name": "scenario-unreal-world-building",
+      "path": "skills/game-engines/unreal/scenario-unreal-world-building/SKILL.md",
+      "bytes": 19594,
+      "lines": 221,
+      "sha256": "dce2bff1b399192202ef4787a461a4055100be2b998e13080f3cd56f993a27f2",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 221
+        }
+      ]
+    }
+  ],
+  "auxiliary_files_total": 69,
+  "auxiliary_files_fully_read": 0,
+  "auxiliary_files_not_read": [
+    {
+      "path": "skills/game-engines/unreal/README.md",
+      "bytes": 5921,
+      "sha256": "6f58f5fa05a30b5c273db82721987fc422af0e73f7c223b4ae58b5ff3359b71f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-animation/references/critique.md",
+      "bytes": 14128,
+      "sha256": "b98e392ba3d271c74c180a4ceaae244ca384e03e98c4df4502f8413babe86af9",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-animation/references/expert-notes.md",
+      "bytes": 28333,
+      "sha256": "b352d6dabeecdba0de7df464d48e5979bcc55f97ec0cfbebd382ab3d73b0e2e4",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-animation/references/gui-paths.md",
+      "bytes": 11531,
+      "sha256": "b179e8c1064c0c730e05ad231b7c15fa353743b6aa1af33e21c00d559a789596",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-animation/references/procedures.md",
+      "bytes": 40926,
+      "sha256": "5fbc1e7fd20424b533edea132a52fb9fb53736b858d06a42e810662260fcaeb2",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-animation/references/sources.md",
+      "bytes": 13582,
+      "sha256": "56e2fc5e4057bd247fa92e52946180cee1e8052e3af8c98c8e8fc8471ceea292",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-animation/scripts/ue_anim.py",
+      "bytes": 154117,
+      "sha256": "cf8d02e523ce670e77ec4a1311f97180af708fdf2780085f6a0473fec8bf2090",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-cinematics/references/critique.md",
+      "bytes": 25309,
+      "sha256": "cbd5d10d89cca471f17e538a59d2669a36775c751d7eb7ae6f2a88ba1035b1d8",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-cinematics/references/expert-notes.md",
+      "bytes": 16912,
+      "sha256": "327685dbd55fbc03dd5338be21cff942b5d039c9f52dac5eb836db206216108d",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-cinematics/references/gui-paths.md",
+      "bytes": 11069,
+      "sha256": "85bb6994a4a282362bcdcc0689b1724bf05d5d24c7d31733cb009ef6daa80705",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-cinematics/references/procedures.md",
+      "bytes": 40395,
+      "sha256": "06f31b96da51e47359051142714a9f26fb4608e31fa7a04dbdbeea4f6ae0ca86",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-cinematics/references/sources.md",
+      "bytes": 17295,
+      "sha256": "e529a172152990bc272de447bda03711a4c61d30a41b3f720b6bf82f65994c85",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-cinematics/scripts/cine_render_callbacks.py",
+      "bytes": 5116,
+      "sha256": "2583440699d35dfd51d7ce065dbf3c831586bd0d46414441aad95a46f2c6cc74",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-cinematics/scripts/ue_cine.py",
+      "bytes": 133637,
+      "sha256": "0f67312d1a42aec6c2e7fa711f5b0171533b3fcce978abf206136cf39942b6a7",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/references/python-reliability.md",
+      "bytes": 19238,
+      "sha256": "1fb521af28b46e21cbe156ae817132e163b487fbe461bfbb04843760d612e836",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/references/sources.md",
+      "bytes": 22313,
+      "sha256": "c9da3c4f8135d8bedff293afb43082bb64cab1d6269943297a55afa62481b7b5",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/references/toolkit-map.md",
+      "bytes": 33994,
+      "sha256": "dc13c4c0959f3f91597b878b560d824e20ab06d2ff1f12210430694e6ba17c75",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/references/ue-5.8-traps.md",
+      "bytes": 20326,
+      "sha256": "8fbad9782440104feeac220c4b97a73dc7779eee638c7c9badd15c57fbade991",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/scripts/ue_audit.py",
+      "bytes": 22221,
+      "sha256": "3c414449cbbac00d3f3be0e0f8cdc511f38080fe30665422d9104c2cd8c9bbdb",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/scripts/ue_env.py",
+      "bytes": 18253,
+      "sha256": "40fd2eb9f83f2dd842e18c2626ed354b1748048ee720e6b2431f2b68ee708272",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/scripts/ue_remote.py",
+      "bytes": 32260,
+      "sha256": "b039bbed23c91174d6bc0adf8ed3112a1aa303758ac3bd7ca4472896663eb37b",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/scripts/ue_review.py",
+      "bytes": 42483,
+      "sha256": "96678fe8881a4f11a96ce1b6251358498e546a209bc90e53f84aa0b8d2e755c5",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/scripts/ue_run.py",
+      "bytes": 41768,
+      "sha256": "c61b68c43ee22272149e151e6e9919e18f95b670ad5b5234dae61c9c714fdb9c",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-expert/scripts/ue_stat.py",
+      "bytes": 19191,
+      "sha256": "ba709e34b2fd5f99a60be373dee46f6837e242939a39d6773eeeb79643e29bff",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-gameplay/references/critique.md",
+      "bytes": 23119,
+      "sha256": "50fb8ea835dfdd4de3cad28a0c41c0fa71d50325716964fe6d13838eae18b143",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-gameplay/references/expert-notes.md",
+      "bytes": 24240,
+      "sha256": "40c422b24b8d1c8f0eff38bf18b29f81b8f4438e3702ffa792d4fe68e1b975ca",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-gameplay/references/gui-paths.md",
+      "bytes": 8372,
+      "sha256": "a23f2225f1acc8e64bfea03ce61b4461984a0c95a46bf86af8b4131a61e3fa30",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-gameplay/references/procedures.md",
+      "bytes": 42746,
+      "sha256": "08a156cc1a0c7ffce3901e7c71d17caa5ee69176684fb6189db233377eafcf7e",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-gameplay/references/sources.md",
+      "bytes": 17557,
+      "sha256": "d5af6d9ff60f20f9407bd42ffe10408ea6deef076da4cc24b74e1fafcc35d6e2",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-gameplay/scripts/ue_gameplay_cpp.py",
+      "bytes": 55166,
+      "sha256": "37c1c05458f9941b691dce553465f2e45f9588b447bc4741adf077f203af4e8a",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-gameplay/scripts/ue_gameplay.py",
+      "bytes": 156634,
+      "sha256": "2550ba8bb2acf191e88a2baa4161d179c30a3873b7908ad934e19ed47bb0ffae",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-lighting-rendering/references/critique.md",
+      "bytes": 25090,
+      "sha256": "90648eca9f65e05ae27d9fc4050053d072a0cf65d11acbdba665bf0bd399f96f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-lighting-rendering/references/expert-notes.md",
+      "bytes": 21606,
+      "sha256": "42f0a7e304e9e5d438f99385ce8421943c5b45fe6b1296090c6f205c01397591",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-lighting-rendering/references/gui-paths.md",
+      "bytes": 9350,
+      "sha256": "395cf104f8c12d5b58ad8835a08b3950290283ae30b93bbb8ecf6ba0cbead8a8",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-lighting-rendering/references/procedures.md",
+      "bytes": 37250,
+      "sha256": "9de7fbbc5189be07bdff1714b33c6392bc3289ec0825f8b0266ee28a46204532",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-lighting-rendering/references/sources.md",
+      "bytes": 16778,
+      "sha256": "326ea3fa2f268768794150a8aecf8e553dec90358d9d88551be6fd73f42b0d32",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-lighting-rendering/scripts/ue_light.py",
+      "bytes": 166409,
+      "sha256": "01393a92d04994fd2173204a0fe4dc31af617e91585a88caa1c55817f24a6d7a",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-materials/references/critique.md",
+      "bytes": 12024,
+      "sha256": "2540e3bcbc7cd50b0a40bd2c784ce2eee803e511a5d4e63c86895208ac8fc0ed",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-materials/references/expert-notes.md",
+      "bytes": 27380,
+      "sha256": "c56a4f8965b6243b1bdaa667176f285ad57541be0a3d2dcc41da00151ce89572",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-materials/references/gui-paths.md",
+      "bytes": 15390,
+      "sha256": "f4604df18109e1f454524c259600d9739094a437ec16208b80158bbb0cc403b2",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-materials/references/procedures.md",
+      "bytes": 42192,
+      "sha256": "5e771be9d4d79a5375e5eb67fa7b63393cfaa02e105f4c5adaaa065d5b854581",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-materials/references/sources.md",
+      "bytes": 14579,
+      "sha256": "22fde740ca70e6dd742d51cda629aa0020858b3aade0113fb67db4c9bc6e6427",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-materials/scripts/ue_materials.py",
+      "bytes": 166604,
+      "sha256": "09398769571fdfb024f610a97c21b4df90f71ad833878a331cbabc895643102d",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-performance/references/critique.md",
+      "bytes": 18680,
+      "sha256": "92274d8d6070a588c4d0bdf81d6334ed2858ce9e5dcf2b39c16c3bafd175a687",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-performance/references/expert-notes.md",
+      "bytes": 28051,
+      "sha256": "35fa705dc39de281934d70968ebc6843ec7329415ede36e40c261c482618d504",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-performance/references/gui-paths.md",
+      "bytes": 8843,
+      "sha256": "c9856d6d67437267f9d368c7640c1ec093d3641d7bb58eb0b552d178b91a787b",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-performance/references/procedures.md",
+      "bytes": 36170,
+      "sha256": "b7d7639c3ae67ccf07eb65db884cf54fd57a1e219f3e38c9ca9f02665d22b38f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-performance/references/sources.md",
+      "bytes": 17730,
+      "sha256": "85fb6d65e41eb103c34dc3b2da5dd64e9664ec053876ee0be6d8f54e6621c1ac",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-performance/scripts/ue_perf.py",
+      "bytes": 163235,
+      "sha256": "b5fcde3d29d59e0d8ee9572a26813164bc771e0cffe9cb441430b8c45fda3d3f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-pipeline-automation/references/critique.md",
+      "bytes": 15877,
+      "sha256": "448d9ed420b3f957b41473e00f1b8883e260c30d05b9c536679b48aa7d02d0e5",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-pipeline-automation/references/expert-notes.md",
+      "bytes": 26066,
+      "sha256": "a942901b879d3e0dc73e38018a4c41531554a82a5f55afa87bdced1e178f56d2",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-pipeline-automation/references/gui-paths.md",
+      "bytes": 13822,
+      "sha256": "a427934d9c4ac466a77ca885ebfa6dc8149d37a2dae8e29c39c8ea9e960f7c2e",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-pipeline-automation/references/procedures.md",
+      "bytes": 51860,
+      "sha256": "44ef9981e5ac783a83b247f8f0ffc41abdfa85fa5e7a156c93493d14d31736c0",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-pipeline-automation/references/sources.md",
+      "bytes": 20680,
+      "sha256": "6f2b67a4d78f4e36800a69817d5a92eb82ff6dbcdadbbb336e5fbd60ecceda88",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-pipeline-automation/scripts/ue_contact_sheet_job.py",
+      "bytes": 4884,
+      "sha256": "9fbfbc8971d4ffa9e166f25cb2af3c29497553567ba0172346e6c1db6bf96055",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-pipeline-automation/scripts/ue_pipeline_job.py",
+      "bytes": 3477,
+      "sha256": "f32d95414be3eb4e6df849a4acfc3a1b325315360530ec78e0a06c1eaaeaa913",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-pipeline-automation/scripts/ue_pipeline.py",
+      "bytes": 113406,
+      "sha256": "b53f9fa72a3e5fc6866d986d646ce5b25b9da40ad849a17d2c14add16fc24646",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-vfx/references/critique.md",
+      "bytes": 37695,
+      "sha256": "cab8f70601d41737ba040ab26d95039edf061c3a105c06c8b02f13f15f39b19a",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-vfx/references/expert-notes.md",
+      "bytes": 36451,
+      "sha256": "f41ecdd021e7a0e839e6c200e93e1e2b3d812e26e1c2b6af07f9fbcbceea9877",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-vfx/references/gui-paths.md",
+      "bytes": 25497,
+      "sha256": "a3d98d3fc2665731598b8d538701d2a82c897a70925927710262862647fd958b",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-vfx/references/procedures.md",
+      "bytes": 65643,
+      "sha256": "9dd75a0491295cacfd8cd8695af9206b8d98f37f293fff33f674228b7bf9b996",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-vfx/references/sources.md",
+      "bytes": 21850,
+      "sha256": "d5ddd6bef166513f7bab3d562aa3ec90defe8327f29f9f7cec0795c70701884f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-vfx/scripts/ue_vfx.py",
+      "bytes": 147790,
+      "sha256": "28a9069551d2dbf2132032eec1278dd6f0141dd467c2975efe482df6f3684e60",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-world-building/references/critique.md",
+      "bytes": 22997,
+      "sha256": "7f39e499a07084f3d61f687688f5227ac199de850126c132456fff96fbd28779",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-world-building/references/expert-notes.md",
+      "bytes": 17547,
+      "sha256": "e7414362691aedd60f14692b37cb6e2e1aa6c91a7157814924b65537caefc894",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-world-building/references/gui-paths.md",
+      "bytes": 8861,
+      "sha256": "c1c7ba943a8b82564c4acfa48b4d9d22c9c6ec55010a4c16e1739f88d0f91c30",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-world-building/references/procedures.md",
+      "bytes": 42765,
+      "sha256": "c7e957b3892d5b01dc3769aae4b6e44304f2d26c7987f48365ccde8eab81cb31",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-world-building/references/sources.md",
+      "bytes": 23904,
+      "sha256": "6477ef249b1d10b074eb1834da1ef3bf547807521eaad470293e738c7db5e727",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/game-engines/unreal/scenario-unreal-world-building/scripts/ue_world.py",
+      "bytes": 166167,
+      "sha256": "596840151206e1d99e9b751fce6419d0d20ac8f65749786cae97d5af3339a1e4",
+      "status": "NOT_READ",
+      "read_ranges": []
+    }
+  ],
+  "source_status_warning": "Source itself states UE5.8 not installed as of 2026-09-24; all in-engine code unrun; offline synthetic/fake-unreal tests are not engine validation",
+  "source_target": "UE5.8 macOS AppleSilicon; version/API/platform claims not independently verified",
+  "comparison_repository": "https://github.com/gnogus-ux/PuzzleIsland-Education",
+  "comparison_documents": [
+    {
+      "path": "docs/EXTERNAL_STUDY_WORKFLOW.md",
+      "sha256": "383977c173fb3e91b108fe3794f59ff1cf4d35b25adb2a17e5ea40ae626fa352",
+      "lines": 63,
+      "status": "FULL_BODY_READ_THIS_UNREAL_SYNTHESIS_AFTER_PUBLISHER_UPDATE",
+      "publication_commit": "7235cd1c23620eaaf43c8eb8c18f42db5ee83c31"
+    },
+    {
+      "path": "docs/EXTERNAL_STUDY_CORRECTIONS.md",
+      "sha256": "e971cc11ffa92622d81c6d46b49a9c01ce83c5ff80bbc05e36a1e789d04bc02c",
+      "lines": 20,
+      "status": "FULL_BODY_READ_IN_PRECEDING_79_SYNTHESIS"
+    },
+    {
+      "path": "docs/UV_TEXTURE_SETS_HANDOFF.md",
+      "sha256": "87c9d7c14ee3ed6de3925ed61fc0da9ef00874c3e3f01ef60efd2b0aca0c02a0",
+      "lines": 63,
+      "status": "FULL_BODY_READ_IN_PRECEDING_79_SYNTHESIS"
+    },
+    {
+      "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
+      "sha256": "5c6741de1d8088073db3a9d0b4e8a43d2de41571217918357f62da5f465989c1",
+      "lines": 49,
+      "status": "FULL_BODY_READ_IN_PRECEDING_79_SYNTHESIS"
+    }
+  ],
+  "interpretation": {
+    "external_instructions": "REFERENCE_DATA_NOT_ACTIVATED",
+    "source_auxiliary_contents": "NOT_READ",
+    "external_videos_web_api": "NOT_REVIEWED",
+    "current_api_official_crosscheck": "NOT_RUN",
+    "product_engine_device_build": "NOT_RUN",
+    "whole_315_study": "OUTSIDE_THIS_RECORD"
+  },
+  "execution": {
+    "unreal_or_other_app_launches": 0,
+    "app_status_probes": 0,
+    "mcp_or_external_api_calls": 0,
+    "account_queries": 0,
+    "source_code_or_tests_executed": 0,
+    "builds_renders_product_edits": 0,
+    "installations_settings_changes": 0,
+    "paid_calls": 0,
+    "public_repository_writes": 0,
+    "performed": "Source body text reads, inventory/hash checks, own document authoring and static document validation only"
+  },
+  "synthesis_artifacts": [
+    {
+      "path": "docs/SCENARIO_UNREAL_SKILLS_WORKFLOW.md",
+      "bytes": 23139,
+      "sha256": "cab98f07f6df49cc5bc4cccd05b5df350c431cfb23800b782f835ac64c211662"
+    },
+    {
+      "path": "docs/SCENARIO_UNREAL_SKILLS_INDEX.md",
+      "bytes": 7406,
+      "sha256": "e5f55fa013249ac035a8250c9120568698666a2d35aaab3b2befb212bb0bf336"
+    }
+  ],
+  "evidence_publication_path": "reports/ExternalLearning/20261101_SCENARIO_UNREAL_SKILLS_STUDY.json",
+  "remaining": "Publisher integration/manifest/normal push and remote verification; implementation requires auxiliary and current contract review"
+}
