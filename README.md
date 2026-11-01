@@ -10,6 +10,10 @@ Unity 매치3·Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕�
 
 **전체 링크:** https://github.com/gnogus-ux/PuzzleIsland-Education
 
+## 공통 도구와 사전 확인
+
+제작·분석·자동화 도구를 새로 만들거나 설치하기 전에 [사용 프로그램 목록](docs/AVAILABLE_TOOLS.md)과 [도구 확인 공통 규칙](docs/COMMON_TOOL_POLICY.md)을 읽습니다. 설치만 확인된 도구와 실제 실행 가능한 범위를 구별합니다. 필요한 도구가 없거나 미완료·사용 불가·미검증이면 명칭·용도·부족한 점·설치/계정/비용 필요 여부를 사용자에게 요청합니다. 현재 설치·설정은 재개 지시 전까지 보류합니다.
+
 ## 교육자료
 
 | 주제 | 매뉴얼 |

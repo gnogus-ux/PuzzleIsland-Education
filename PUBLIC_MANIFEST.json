@@ -3,7 +3,7 @@
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
   "manuals": 46,
   "diagrams": 16,
-  "checked_local_links": 351,
+  "checked_local_links": 358,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
   "export_changes": [
     "Local absolute evidence paths omitted",
@@ -17,7 +17,8 @@
     "Added six UV manuals, two original explanatory SVGs, five-course index and sampled-visual/cleaned-auto-caption verification. No raw media, private asset or new private Git reference published; current Blender5.2 UI/API cross-check and app execution explicitly not completed.",
     "Added seven modular-map manuals, two original diagrams, five-course time index and study verification (446 unique sampled points; four complete cleaned automatic-caption texts; one source without captions). Public repository is sole education canonical source, with single-writer and migration rules. No raw media, private assets or new private Git references. Live app and device QA not run.",
     "Added six wallet/photo-to-3D manuals, 12-page and 10-page original-text PDF/DOCX/HTML editions, and sanitized 15-course study evidence. Private product state and local paths omitted; no source media or transcript republished.",
-    "Completed canonical library migration audit: all 73 prior Puzzle education paths accounted for; 146 verified duplicate copies removed from two checkouts after remote body/hash checks. Private evidence and production files preserved; only canonical links remain in development docs. Wallet batch and existing 104 manifest entries preserved."
+    "Completed canonical library migration audit: all 73 prior Puzzle education paths accounted for; 146 verified duplicate copies removed from two checkouts after remote body/hash checks. Private evidence and production files preserved; only canonical links remain in development docs. Wallet batch and existing 104 manifest entries preserved.",
+    "Added shared installed-tool inventory and preflight policy based on provided local verification evidence; installation/execution/unavailable/held states separated. No new app tests or installation. Existing education and migration entries preserved."
   ],
   "files": [
     {
@@ -27,8 +28,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9745,
-      "sha256": "6a5b2a5cf558a7bd1313e4952f85ee43fed30b3d2e6e3bda1af1a00feba27d59"
+      "bytes": 10310,
+      "sha256": "72ddd461806672e079841f6fd9dbd342ca6a445649f3d0495652e69ff8410ba0"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -402,8 +403,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 2434,
-      "sha256": "97e3f735c631a6d50aedee60c779b31a7ed3c1703af7025a6dd0831735bac8f5"
+      "bytes": 3003,
+      "sha256": "2c9b0a3dfec9d11697acc9e2b4c3a81541fbc65d897eee2eaec9b29f658ef38d"
     },
     {
       "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
@@ -549,10 +550,21 @@
       "path": "reports/EducationMigration/20261101_PUBLIC_CANONICAL_MIGRATION.md",
       "bytes": 2891,
       "sha256": "e067fc17539ddbe42e8040254ef5ee7fe7f071a1d620d924ca8989f7f09b5ff3"
+    },
+    {
+      "path": "docs/AVAILABLE_TOOLS.md",
+      "bytes": 5809,
+      "sha256": "c9b3222f07dd9ff82bdf936a3b76a972203ee1d74556b6957d8b8b238c236933"
+    },
+    {
+      "path": "docs/COMMON_TOOL_POLICY.md",
+      "bytes": 2115,
+      "sha256": "295b13a2dc987af9f7864896c536057f186d63bda22b12c642d3768003f82335"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
   "body_training_added": "2026-10-31: Three public courses, 497 unique sampled source times, 96 contact sheets, 30 native UI images and full cleaned automatic caption text; no production app reproduction",
   "seamless_training_added": "2026-11-01: 5 courses; 168 sampled source times, 30 contact sheets, 10 native UI images, 2299 cleaned automatic caption rows; Qwen10 requests/40 images and FrameLens300 source seconds. No model training or production app reproduction.",
-  "local_link_check_scope": "185 Markdown inline local file/directory targets; external URLs and anchor fragments excluded. Count is not comparable to historical checkers with different scopes."
+  "local_link_check_scope": "185 Markdown inline local file/directory targets; external URLs and anchor fragments excluded. Count is not comparable to historical checkers with different scopes.",
+  "tool_reference_documents": 2
 }
