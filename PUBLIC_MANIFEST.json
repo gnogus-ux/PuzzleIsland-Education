@@ -3,7 +3,7 @@
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
   "manuals": 46,
   "diagrams": 16,
-  "checked_local_links": 360,
+  "checked_local_links": 367,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
   "export_changes": [
     "Local absolute evidence paths omitted",
@@ -19,7 +19,8 @@
     "Added six wallet/photo-to-3D manuals, 12-page and 10-page original-text PDF/DOCX/HTML editions, and sanitized 15-course study evidence. Private product state and local paths omitted; no source media or transcript republished.",
     "Completed canonical library migration audit: all 73 prior Puzzle education paths accounted for; 146 verified duplicate copies removed from two checkouts after remote body/hash checks. Private evidence and production files preserved; only canonical links remain in development docs. Wallet batch and existing 104 manifest entries preserved.",
     "Added shared installed-tool inventory and preflight policy based on provided local verification evidence; installation/execution/unavailable/held states separated. No new app tests or installation. Existing education and migration entries preserved.",
-    "Added explicit manual preflight: inspect library/topic manuals first; request missing topics, insufficient content or version evidence before unapproved learning/production. Already approved study continues without duplicate approval questions. Installation holds preserved."
+    "Added explicit manual preflight: inspect library/topic manuals first; request missing topics, insufficient content or version evidence before unapproved learning/production. Already approved study continues without duplicate approval questions. Installation holds preserved.",
+    "Added reusable work/handoff/review rules distilled from approved collaboration: preserve scope/assets, create actual 3D guides, single ownership and paired visual review, safe quota handoff, honest study evidence, public canonical publishing, approved new-thread acceptance/archive order. Temporary project-specific limits remain local."
   ],
   "files": [
     {
@@ -29,8 +30,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10653,
-      "sha256": "c8796ca121d7558538e045e6bbaa72cffb106920fca3a6f3c2b84f35e3095bc1"
+      "bytes": 11025,
+      "sha256": "2602aa72c740455590c1342ead0ce8bb4fcbc2b6101aba2e1f8b7bdb641505c4"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -404,8 +405,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 3497,
-      "sha256": "6e715c30cac9bf9a6fdf3fa0f79b967304c729c439c6282d47cd38e9e7b05497"
+      "bytes": 3760,
+      "sha256": "0860d29a9e87847c98b36bd66d950ecee1e4aba0b91771a9f25949b34eb5eab3"
     },
     {
       "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
@@ -559,13 +560,19 @@
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
-      "bytes": 2846,
-      "sha256": "6a64c9d1bb7dcc87675df222fe455bebe61b7270de509cf38c8647d8f69c62da"
+      "bytes": 3107,
+      "sha256": "b02b09f0382630654f6a26dfd9af756be1cfd50e29c6049f754a0dc026d63355"
+    },
+    {
+      "path": "docs/COMMON_WORK_RULES.md",
+      "bytes": 9705,
+      "sha256": "fa63c26ebb056fa02fb5101df428d334f47d55182ab2a57d442e0ad8968bc741"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
   "body_training_added": "2026-10-31: Three public courses, 497 unique sampled source times, 96 contact sheets, 30 native UI images and full cleaned automatic caption text; no production app reproduction",
   "seamless_training_added": "2026-11-01: 5 courses; 168 sampled source times, 30 contact sheets, 10 native UI images, 2299 cleaned automatic caption rows; Qwen10 requests/40 images and FrameLens300 source seconds. No model training or production app reproduction.",
   "local_link_check_scope": "185 Markdown inline local file/directory targets; external URLs and anchor fragments excluded. Count is not comparable to historical checkers with different scopes.",
-  "tool_reference_documents": 2
+  "tool_reference_documents": 2,
+  "work_reference_documents": 1
 }
