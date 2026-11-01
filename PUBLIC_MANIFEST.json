@@ -1,9 +1,9 @@
 {
   "export_date": "2026-11-01",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 27,
-  "diagrams": 12,
-  "checked_local_links": 185,
+  "manuals": 33,
+  "diagrams": 14,
+  "checked_local_links": 290,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
   "export_changes": [
     "Local absolute evidence paths omitted",
@@ -13,7 +13,8 @@
     "Hand workflow manuals and original diagram added; private state omitted and hand snapshot hashes explicitly marked",
     "Body workflow, topology, joint-volume and game-base manuals plus original diagram added; new private paths and project state omitted",
     "Match3 manuals, all65 Taft index, source comparisons, original engineering diagrams and verification added; no source media/code or new private repository references. Official Unity6.3 web recrosscheck explicitly incomplete.",
-    "Added three seamless-texture manuals and five-course local Qwen/FrameLens sampled-visual + automatic-caption study. No source media, private assets or local paths published."
+    "Added three seamless-texture manuals and five-course local Qwen/FrameLens sampled-visual + automatic-caption study. No source media, private assets or local paths published.",
+    "Added six UV manuals, two original explanatory SVGs, five-course index and sampled-visual/cleaned-auto-caption verification. No raw media, private asset or new private Git reference published; current Blender5.2 UI/API cross-check and app execution explicitly not completed."
   ],
   "files": [
     {
@@ -23,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5479,
-      "sha256": "4ffd19a721b7be9cff1100455a7c18c4bc7f94319b60dd9396afee41cbb58648"
+      "bytes": 6492,
+      "sha256": "3c52797c4e5c6ab24d6ecb3184548138493a17c9c4bcd904271140ba4cdfbaa4"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -340,6 +341,61 @@
       "path": "reports/VideoLearning/20261101_SEAMLESS_TEXTURE_VERIFICATION.json",
       "bytes": 22285,
       "sha256": "a86c90dda1e2b53a0223995c4736e4583499ec89765a22254b6831db6239014b"
+    },
+    {
+      "path": "docs/UV_CHARACTER.md",
+      "bytes": 8850,
+      "sha256": "e99694b90c7bbf941548c34e2fa89122f1eb32251d3d4b49824c20de439afb2e"
+    },
+    {
+      "path": "docs/UV_COURSE_INDEX.md",
+      "bytes": 9976,
+      "sha256": "4faba54f37ff33a615c5c4501d2e53d28fad52b7e7843531ffd06427ab27c0e3"
+    },
+    {
+      "path": "docs/UV_SEAMS_UNWRAP.md",
+      "bytes": 7617,
+      "sha256": "a50122e92149ad1ad9f0e09c8c56555e5a198a5b24e142d0808f192ba0ee08b8"
+    },
+    {
+      "path": "docs/UV_TEXEL_DENSITY_PACKING.md",
+      "bytes": 7472,
+      "sha256": "749e738c1784f5034682f2f7990b18cc46cb106dad8011d6ea2450e58beedb27"
+    },
+    {
+      "path": "docs/UV_TEXTURE_SETS_HANDOFF.md",
+      "bytes": 7927,
+      "sha256": "87c9d7c14ee3ed6de3925ed61fc0da9ef00874c3e3f01ef60efd2b0aca0c02a0"
+    },
+    {
+      "path": "docs/UV_WORKFLOW.md",
+      "bytes": 7172,
+      "sha256": "f43dca8ef939b1173fa476d9455e92ae9dfec020e4c0199083907297f9b908a5"
+    },
+    {
+      "path": "docs/assets/uv/density-and-packing.svg",
+      "bytes": 4139,
+      "sha256": "e4782752929fab1baaa1298857e12304a0e40f33aca136aae1a8855d3140c949"
+    },
+    {
+      "path": "docs/assets/uv/seam-and-uv.svg",
+      "bytes": 3853,
+      "sha256": "8f829c09f0ae8d5720c89297ee42637eda4e759559d8be99ea1bad01f3b6ea65"
+    },
+    {
+      "path": "reports/VideoLearning/20261101_UV_COURSE_INDEX.json",
+      "bytes": 25885,
+      "sha256": "001ccc1594ca18ffa4ed31f991ca67963e23c2a07e57cbb1caed0f73ceba0325"
+    },
+    {
+      "path": "reports/VideoLearning/20261101_UV_REVIEW.md",
+      "bytes": 4491,
+      "sha256": "161757b7fb72ee2abf8fe4674834338d23eecf35931908b1f26d70056e1ca5bd"
+    },
+    {
+      "path": "reports/VideoLearning/20261101_UV_VERIFICATION.json",
+      "bytes": 23062,
+      "sha256": "78b5a185ef263e59bf5c5b4c904d371bb23671d8a4f08e538cff899a3033700c"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

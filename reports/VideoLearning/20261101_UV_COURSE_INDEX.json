@@ -1,0 +1,719 @@
+{
+  "date": "2026-11-01",
+  "scope": "Exactly five requested UV courses, not modular-map recommendations",
+  "total_metadata_duration_seconds": 8994,
+  "courses": [
+    {
+      "ordinal": 1,
+      "id": "qa_1LjeWsJg",
+      "title": "UV Unwrapping for Beginners (Blender Tutorial)",
+      "creator": "Ryan King Art",
+      "url": "https://www.youtube.com/watch?v=qa_1LjeWsJg",
+      "duration_seconds": 1936,
+      "stages": [
+        {
+          "approximate_range": "00:00~01:33",
+          "observed_stage": "예제와 UV 개념, 재질 준비",
+          "application_limit": "재질 추가와 UV 생성은 별개"
+        },
+        {
+          "approximate_range": "01:33~05:00",
+          "observed_stage": "Image Texture·기본 UV, 형태 변경과 이미지 대응",
+          "application_limit": "03:00 화면은 아직 연결 전, 이후 연결 흐름과 함께 읽음"
+        },
+        {
+          "approximate_range": "05:00~07:48",
+          "observed_stage": "모델 수정에 따른 UV, 미리보기",
+          "application_limit": "원본 기본 Solid 상태와 Texture 표시 가능성을 혼동하지 않음"
+        },
+        {
+          "approximate_range": "07:48~09:46",
+          "observed_stage": "UV 이동·회전·스케일",
+          "application_limit": "UV 확대는 반복 무늬를 작게 보이게 할 수 있음"
+        },
+        {
+          "approximate_range": "09:46~12:31",
+          "observed_stage": "선택 면 전개와 닫힌 형태의 실패",
+          "application_limit": "시임 없이 닫힌 전체를 정상 전개한다고 기대하지 않음"
+        },
+        {
+          "approximate_range": "12:31~14:21",
+          "observed_stage": "Smart UV Project",
+          "application_limit": "각도 분할과 무늬 단절, 모든 유기 면의 해답 아님"
+        },
+        {
+          "approximate_range": "14:21~17:12",
+          "observed_stage": "Project from View/Bounds",
+          "application_limit": "앞뒤 겹침과 옆면 수축, Bounds로 복구되지 않음"
+        },
+        {
+          "approximate_range": "17:12~22:28",
+          "observed_stage": "상자의 절개 보강, 전개도와 연속 무늬",
+          "application_limit": "시임 표시만으로 기존 UV가 자동 갱신되는지 확인"
+        },
+        {
+          "approximate_range": "22:28~27:07",
+          "observed_stage": "원통 캡과 길이 절개",
+          "application_limit": "캡 둘레만 끊으면 옆면이 잘 안 펴질 수 있음"
+        },
+        {
+          "approximate_range": "27:07~29:15",
+          "observed_stage": "UV Rip으로 섬 나누기",
+          "application_limit": "피부 메시를 물리적으로 찢은 것이 아님"
+        },
+        {
+          "approximate_range": "29:15~32:16",
+          "observed_stage": "비균일 Object Scale, 적용 후 재전개, 마무리",
+          "application_limit": "Apply Scale만으로 이미 칠한 UV가 복원되는 것은 아님"
+        }
+      ],
+      "source_authored_chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro",
+          "end_time": 93
+        },
+        {
+          "start_time": 93,
+          "title": "Add Texture onto Object",
+          "end_time": 229
+        },
+        {
+          "start_time": 229,
+          "title": "Default UV Map on Objects",
+          "end_time": 300
+        },
+        {
+          "start_time": 300,
+          "title": "Object Editing Effects the UV Map",
+          "end_time": 371
+        },
+        {
+          "start_time": 371,
+          "title": "Preview the UV Maps",
+          "end_time": 468
+        },
+        {
+          "start_time": 468,
+          "title": "Editing the UV Maps",
+          "end_time": 586
+        },
+        {
+          "start_time": 586,
+          "title": "UV Unwrapping the Mesh",
+          "end_time": 751
+        },
+        {
+          "start_time": 751,
+          "title": "Smart UV Project",
+          "end_time": 861
+        },
+        {
+          "start_time": 861,
+          "title": "Project From View",
+          "end_time": 1032
+        },
+        {
+          "start_time": 1032,
+          "title": "Adding Seams (UV Map a Cube)",
+          "end_time": 1348
+        },
+        {
+          "start_time": 1348,
+          "title": "Adding Seams (UV Map a Cylinder)",
+          "end_time": 1627
+        },
+        {
+          "start_time": 1627,
+          "title": "Ripping the Faces",
+          "end_time": 1755
+        },
+        {
+          "start_time": 1755,
+          "title": "Applying Objects Scale",
+          "end_time": 1881
+        },
+        {
+          "start_time": 1881,
+          "title": "Closing",
+          "end_time": 1936
+        }
+      ],
+      "review_summary": {
+        "ui": "3.2.0 visible in source",
+        "observations": [
+          "Image Texture assignment and pre-existing primitive UVs are separate.",
+          "Smart UV splits by angle; view projection overlaps front/back and collapses edge-on faces.",
+          "Cube requires connected cuts; cylinder uses cap rings and longitudinal seam.",
+          "UV Rip changes UV connectivity, not skin mesh connectivity.",
+          "Nonuniform object scale example is applied then re-unwrapped; not an unconditional instruction for rigged assets."
+        ],
+        "limits": [
+          "No detailed organic character/baking/game performance demonstration.",
+          "Newer video in description was not substituted for the requested original."
+        ]
+      }
+    },
+    {
+      "ordinal": 2,
+      "id": "JwkgVckqGw4",
+      "title": "UV Unwrapping in Blender (Full Beginner Tutorial) #b3d",
+      "creator": "CG Boost",
+      "url": "https://www.youtube.com/watch?v=JwkgVckqGw4",
+      "duration_seconds": 3616,
+      "stages": [
+        {
+          "approximate_range": "00:00~06:53",
+          "observed_stage": "UV 목적, 변형과 좌표, 표면-이미지 대응",
+          "application_limit": "모든 절차적 좌표가 항상 잘못된다는 일반화 금지"
+        },
+        {
+          "approximate_range": "06:53~11:34",
+          "observed_stage": "Color Grid, Material/Solid Texture 표시, UV 원점",
+          "application_limit": "이미지·Mapping 좌표·실제 재질 연결 구별"
+        },
+        {
+          "approximate_range": "11:34~17:20",
+          "observed_stage": "상자, 시임과 Live Unwrap",
+          "application_limit": "시임을 위한 엣지 선택과 전개 대상 면 선택은 별개"
+        },
+        {
+          "approximate_range": "17:20~19:52",
+          "observed_stage": "원통 캡과 옆면",
+          "application_limit": "시임 양쪽 무늬·밀도도 검사"
+        },
+        {
+          "approximate_range": "19:52~25:32",
+          "observed_stage": "고리, 안/밖 둘레 차이, Stretch, Align/Follow Active Quads",
+          "application_limit": "직사각 UV가 모든 곡면의 무왜곡 해답 아님"
+        },
+        {
+          "approximate_range": "25:32~29:07",
+          "observed_stage": "UV Toolkit, 기본 Average Island Scale/Pack",
+          "application_limit": "추가 기능 설치·최적 성능 동일성을 주장하지 않음"
+        },
+        {
+          "approximate_range": "29:07~32:11",
+          "observed_stage": "구, 쿼드 정렬과 극점, Pin/Unpin",
+          "application_limit": "삼각 극점까지 쿼드 도구로 강제하지 않음"
+        },
+        {
+          "approximate_range": "32:11~37:22",
+          "observed_stage": "조합된 상자·원통·구, 부분 선택과 핀 보강",
+          "application_limit": "접합부 연결을 먼저 이해"
+        },
+        {
+          "approximate_range": "37:22~39:25",
+          "observed_stage": "구멍 있는 단추",
+          "application_limit": "구멍 벽이 앞뒤를 연결, 추가 절개와 숨은 왜곡 판단"
+        },
+        {
+          "approximate_range": "39:25~43:55",
+          "observed_stage": "Suzanne 시임·대칭 선택, 핀으로 입 주변 조정",
+          "application_limit": "대칭 선택이 곧 좌우 UV 겹침을 뜻하지 않음"
+        },
+        {
+          "approximate_range": "43:55~46:43",
+          "observed_stage": "세 전개 방법을 같은 형태에 비교",
+          "application_limit": "Conformal의 해당 예제 열세를 보편적 실패로 일반화하지 않음"
+        },
+        {
+          "approximate_range": "46:43~50:00",
+          "observed_stage": "머리, 눈 안쪽/입 안/귀/턱 아래·목 시임",
+          "application_limit": "보이는 눈·입 가장자리를 무조건 절개하지 않음"
+        },
+        {
+          "approximate_range": "50:00~52:50",
+          "observed_stage": "귀 안쪽과 입 안 절개, 얼굴·목 전개와 패킹",
+          "application_limit": "구강/귀 작은 섬과 주변 밀도도 함께 확인"
+        },
+        {
+          "approximate_range": "52:50~54:18",
+          "observed_stage": "전체 Pin, 중간 루프 Unpin, 눈꺼풀 UV 틈 축소",
+          "application_limit": "3D 눈 감기나 리그 시연이 아님"
+        },
+        {
+          "approximate_range": "54:18~57:35",
+          "observed_stage": "이미 오목한 눈의 뒤 캡/둘레 시임, 홍채 UV 배분",
+          "application_limit": "콘케이브 눈 모델링·광학·회전 검증은 미포함"
+        },
+        {
+          "approximate_range": "57:35~60:16",
+          "observed_stage": "눈 Mirror UV U 반사, 양쪽 타일 영역, 마무리",
+          "application_limit": "공유 스택과 다른 배치, 최종 실제 UV로 확인"
+        }
+      ],
+      "source_authored_chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro",
+          "end_time": 85
+        },
+        {
+          "start_time": 85,
+          "title": "Why do we use UVs",
+          "end_time": 218
+        },
+        {
+          "start_time": 218,
+          "title": "What then are UVs",
+          "end_time": 413
+        },
+        {
+          "start_time": 413,
+          "title": "Scene setup",
+          "end_time": 568
+        },
+        {
+          "start_time": 568,
+          "title": "UV space origin point",
+          "end_time": 694
+        },
+        {
+          "start_time": 694,
+          "title": "Unwrapping a Cube",
+          "end_time": 1040
+        },
+        {
+          "start_time": 1040,
+          "title": "Unwrapping a Cylinder",
+          "end_time": 1192
+        },
+        {
+          "start_time": 1192,
+          "title": "Unwrapping a Torus",
+          "end_time": 1532
+        },
+        {
+          "start_time": 1532,
+          "title": "Useful UV Tools",
+          "end_time": 1747
+        },
+        {
+          "start_time": 1747,
+          "title": "Unwrapping a UVSphere",
+          "end_time": 1931
+        },
+        {
+          "start_time": 1931,
+          "title": "Unwrapping a Weird Cube (Skill Check)",
+          "end_time": 2242
+        },
+        {
+          "start_time": 2242,
+          "title": "Unwrapping a Button",
+          "end_time": 2365
+        },
+        {
+          "start_time": 2365,
+          "title": "Unwrapping Suzanne",
+          "end_time": 2635
+        },
+        {
+          "start_time": 2635,
+          "title": "Unwrap Methods",
+          "end_time": 2803
+        },
+        {
+          "start_time": 2803,
+          "title": "Unwrapping a Character Head",
+          "end_time": 3258
+        },
+        {
+          "start_time": 3258,
+          "title": "Unwrapping Eyes",
+          "end_time": 3455
+        },
+        {
+          "start_time": 3455,
+          "title": "UVs and the Mirror Modifier",
+          "end_time": 3546
+        },
+        {
+          "start_time": 3546,
+          "title": "Outro",
+          "end_time": 3616
+        }
+      ],
+      "review_summary": {
+        "ui": "Exact source Blender version not established",
+        "observations": [
+          "Origin/color-grid setup; Live Unwrap, cylinder/torus/sphere/composite/button examples.",
+          "Angle/Area stretch overlays, active-quad alignment, pins, relative normalization and packing.",
+          "Suzanne and head internal eyelid/mouth/ear/neck cuts; methods compared on the same kind of form.",
+          "53:15 to 54:00 pinned outer UV and unpinned intermediate eyelid loops redistribute UV area; no 3D blink creation.",
+          "Already concave eye is unwrapped, not constructed; rear seam and iris area are adjusted.",
+          "Mirror UV U reflection to the other tile half differs from intentionally shared stacked UV."
+        ],
+        "limits": [
+          "Exact source/current Blender5.2 menu/API compatibility not established.",
+          "No new inverted-concave-eye geometry/optics/rig validation.",
+          "Conformal performance on Suzanne is not a universal rule."
+        ]
+      }
+    },
+    {
+      "ordinal": 3,
+      "id": "ZyRtd8iYBOg",
+      "title": "Texturing Stylised Characters 01 - HOW TO UV UNWRAP LIKE A BOSS",
+      "creator": "Dikko",
+      "url": "https://www.youtube.com/watch?v=ZyRtd8iYBOg",
+      "duration_seconds": 1309,
+      "stages": [
+        {
+          "approximate_range": "00:00~02:00",
+          "observed_stage": "준비·명명·작업 구조와 재단 관점",
+          "application_limit": "강좌 캐릭터 외형을 적용 대상의 기준으로 쓰지 않음"
+        },
+        {
+          "approximate_range": "02:00~04:30",
+          "observed_stage": "몸 옆·팔 아래·다리 안쪽·목과 손목 절개",
+          "application_limit": "의상 경계와 피부 구조를 목적에 맞게 판단"
+        },
+        {
+          "approximate_range": "04:30~06:30",
+          "observed_stage": "손가락 측면을 잇는 시임과 손목",
+          "application_limit": "손가락 뿌리·손바닥·손등 연속성 검사"
+        },
+        {
+          "approximate_range": "06:30~09:00",
+          "observed_stage": "입 안·뒤통수·귀·눈 내부 연결, 초기 왜곡 보강",
+          "application_limit": "숨어 있는 연결이 얼굴 전개를 잡아당길 수 있음"
+        },
+        {
+          "approximate_range": "09:00~12:00",
+          "observed_stage": "전개, 어깨/몸 연결 수정, UV Checker, 얼굴 면적",
+          "application_limit": "얼굴 확대가 주변 섬 예산을 소비함"
+        },
+        {
+          "approximate_range": "12:00~16:30",
+          "observed_stage": "Tiled 이미지, 2048², 1001~1004 배치와 저장",
+          "application_limit": "게임의 필수 UDIM/타일 수가 아님"
+        },
+        {
+          "approximate_range": "16:30~18:30",
+          "observed_stage": "머리카락 띠 정렬, 수염 형태 정리",
+          "application_limit": "UV Squares 추가 기능 예; 이번 교육은 모델 변경 없음"
+        },
+        {
+          "approximate_range": "18:30~20:00",
+          "observed_stage": "입 주변 비례 편집·Relax/Lock Borders, 타일 저장",
+          "application_limit": "UV 조정과 3D 입 모양 변경 구별"
+        },
+        {
+          "approximate_range": "20:00~21:49",
+          "observed_stage": "다른 캐릭터의 더 적은 타일/다른 귀·손 배치 비교",
+          "application_limit": "하나의 정답 시임·타일 배치가 아니라는 근거"
+        }
+      ],
+      "source_authored_chapters": [],
+      "review_summary": {
+        "ui": "Exact source Blender version not established",
+        "observations": [
+          "Body side, underarm, inner leg, wrist and finger-side seam planning.",
+          "Eye interior/mouth/ear/shoulder/crotch connections cause first-pass distortions and are corrected.",
+          "Checker from UV coordinates; increased facial allocation; tiled2048 images and1001–1004 workflow.",
+          "18:30 mouth UV proportional edit and19:00 Relax with Lock Borders; no3D mouth redesign.",
+          "Alternate character has different ear/hand layout and fewer tiles."
+        ],
+        "limits": [
+          "UDIM count/resolution is the source example, not mandatory mobile specification.",
+          "Paid UV Squares demonstration does not authorize installation/purchase."
+        ]
+      }
+    },
+    {
+      "ordinal": 4,
+      "id": "j9uEqZxJMbY",
+      "title": "UV Unwrapping in Blender - Essential Strategies & Texture Sets",
+      "creator": "Josh - Blender Bros",
+      "url": "https://www.youtube.com/watch?v=j9uEqZxJMbY",
+      "duration_seconds": 1013,
+      "stages": [
+        {
+          "approximate_range": "00:00~03:00",
+          "observed_stage": "부품/재질별 이미지 예산, Conformal 예",
+          "application_limit": "재질 추가가 UV 레이어 자동 생성이라는 뜻 아님"
+        },
+        {
+          "approximate_range": "03:00~05:30",
+          "observed_stage": "Mirror 적용/겹침, 대칭 무늬와 중앙 띠",
+          "application_limit": "승인 캐릭터에 임의 중앙 띠를 추가하라는 지시 아님"
+        },
+        {
+          "approximate_range": "05:30~08:30",
+          "observed_stage": "정규화·패킹, UVPackmaster2/UV Squares",
+          "application_limit": "추가 기능을 설치하거나 구매하지 않음"
+        },
+        {
+          "approximate_range": "08:30~12:00",
+          "observed_stage": "여러 재질에 각각 4096² 체커, Join의 영향",
+          "application_limit": "여러 4K와 여러 재질은 모바일 기본 사양 아님"
+        },
+        {
+          "approximate_range": "12:00~15:30",
+          "observed_stage": "Zen UV 밀도 Get/Set, 가장 낮은 부품에 맞추기",
+          "application_limit": "13:45 표시 1108.22px/m, 빈 공간이 남아도 기준 유지"
+        },
+        {
+          "approximate_range": "15:30~16:53",
+          "observed_stage": "정리와 전체 비교",
+          "application_limit": "저장/체커 확인을 엔진 비용·베이크 통과로 확대하지 않음"
+        }
+      ],
+      "source_authored_chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro",
+          "end_time": 16
+        },
+        {
+          "start_time": 16,
+          "title": "Unwrapping Example",
+          "end_time": 47
+        },
+        {
+          "start_time": 47,
+          "title": "Different Texture Sets",
+          "end_time": 107
+        },
+        {
+          "start_time": 107,
+          "title": "Joining UVs",
+          "end_time": 200
+        },
+        {
+          "start_time": 200,
+          "title": "Mirroring",
+          "end_time": 463
+        },
+        {
+          "start_time": 463,
+          "title": "Multiple Texture Sets",
+          "end_time": 765
+        },
+        {
+          "start_time": 765,
+          "title": "How to Get Textual Density",
+          "end_time": 935
+        },
+        {
+          "start_time": 935,
+          "title": "Conclusion",
+          "end_time": 1013
+        }
+      ],
+      "review_summary": {
+        "ui": "2.92.0 visible in source",
+        "observations": [
+          "Door parts with different material/image budgets; Conformal visible at2:30.",
+          "Mirror overlap reuses image area and can create butterfly patterns.",
+          "UVPackmaster2 normalization/packing and Zen UV density tools are source add-ons.",
+          "Separate4096 grids per material and matching density to the coarsest set leave intentional empty area.",
+          "13:45 source UI shows1108.22px/m."
+        ],
+        "limits": [
+          "Material addition does not automatically create a new UV-map layer.",
+          "Joining objects does not automatically atlas images or guarantee draw-call reduction.",
+          "No mobile texture budget or bake success measured."
+        ]
+      }
+    },
+    {
+      "ordinal": 5,
+      "id": "sR1sAWWT2x8",
+      "title": "Texel Density Masterclass — For Rendering & Real-time Graphics (Games)",
+      "creator": "Huge Menace",
+      "url": "https://www.youtube.com/watch?v=sR1sAWWT2x8",
+      "duration_seconds": 1120,
+      "stages": [
+        {
+          "approximate_range": "00:00~03:30",
+          "observed_stage": "정의, 월드 길이와 픽셀의 관계",
+          "application_limit": "px/cm와 px/m 단위 구분"
+        },
+        {
+          "approximate_range": "03:30~06:30",
+          "observed_stage": "점 그리드, 이미지 크기·UV 스케일·원본 선명도 비교",
+          "application_limit": "같은 TD라도 시각 선명도가 같지 않음"
+        },
+        {
+          "approximate_range": "06:30~10:00",
+          "observed_stage": "한 기둥 내 서로 다른 밀도, Average Island Scale",
+          "application_limit": "상대 정규화와 절대 목표를 구별"
+        },
+        {
+          "approximate_range": "10:00~13:30",
+          "observed_stage": "카메라·가시성에 따른 예산, 사례 숫자",
+          "application_limit": "보이지 않는 면 삭제나 캐릭터 비율 변경 승인 아님"
+        },
+        {
+          "approximate_range": "13:30~14:30",
+          "observed_stage": "4K 중 2048 영역/1m 면적 계산",
+          "application_limit": "화면은 20.48px/cm, 자동자막 오인식 교정"
+        },
+        {
+          "approximate_range": "14:30~16:30",
+          "observed_stage": "근/중/원거리 구역과 목표, 이미지 크기 선택",
+          "application_limit": "예제 10.24/5.12/2.56을 프로젝트 확정 값으로 쓰지 않음"
+        },
+        {
+          "approximate_range": "16:30~18:40",
+          "observed_stage": "strict/soft TD·아틀라스·크기·비정사각 배치 비교",
+          "application_limit": "특정 점유율이 보편 합격선은 아님. 17:45 비정사각 예는 63%"
+        }
+      ],
+      "source_authored_chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro",
+          "end_time": 14
+        },
+        {
+          "start_time": 14,
+          "title": "Table of contents",
+          "end_time": 44
+        },
+        {
+          "start_time": 44,
+          "title": "What is texel density",
+          "end_time": 135
+        },
+        {
+          "start_time": 135,
+          "title": "Using a visual analogy",
+          "end_time": 194
+        },
+        {
+          "start_time": 194,
+          "title": "Affecting TD with texture size",
+          "end_time": 247
+        },
+        {
+          "start_time": 247,
+          "title": "Affecting TD with surface area",
+          "end_time": 270
+        },
+        {
+          "start_time": 270,
+          "title": "Affecting TD with UV scaling",
+          "end_time": 305
+        },
+        {
+          "start_time": 305,
+          "title": "A common misconception",
+          "end_time": 388
+        },
+        {
+          "start_time": 388,
+          "title": "Texel density vs visual fidelity analogy",
+          "end_time": 438
+        },
+        {
+          "start_time": 438,
+          "title": "Why care about texel density",
+          "end_time": 455
+        },
+        {
+          "start_time": 455,
+          "title": "Single object context",
+          "end_time": 581
+        },
+        {
+          "start_time": 581,
+          "title": "Choosing not to have consistent TD on a single object",
+          "end_time": 616
+        },
+        {
+          "start_time": 616,
+          "title": "Multi-object context",
+          "end_time": 665
+        },
+        {
+          "start_time": 665,
+          "title": "Up and down sampling",
+          "end_time": 736
+        },
+        {
+          "start_time": 736,
+          "title": "How to select the right texel density",
+          "end_time": 747
+        },
+        {
+          "start_time": 747,
+          "title": "First-person context",
+          "end_time": 775
+        },
+        {
+          "start_time": 775,
+          "title": "Third-person context",
+          "end_time": 783
+        },
+        {
+          "start_time": 783,
+          "title": "Top-down/strategy context",
+          "end_time": 800
+        },
+        {
+          "start_time": 800,
+          "title": "One method to work out target texel density",
+          "end_time": 863
+        },
+        {
+          "start_time": 863,
+          "title": "A demonstration in Blender",
+          "end_time": 973
+        },
+        {
+          "start_time": 973,
+          "title": "Various UV packing methods",
+          "end_time": 986
+        },
+        {
+          "start_time": 986,
+          "title": "Strict TD adherence",
+          "end_time": 1004
+        },
+        {
+          "start_time": 1004,
+          "title": "Soft TD adherence",
+          "end_time": 1026
+        },
+        {
+          "start_time": 1026,
+          "title": "Texture atlasing",
+          "end_time": 1038
+        },
+        {
+          "start_time": 1038,
+          "title": "Object scale/surface area",
+          "end_time": 1061
+        },
+        {
+          "start_time": 1061,
+          "title": "Non-square packing",
+          "end_time": 1106
+        },
+        {
+          "start_time": 1106,
+          "title": "Outro",
+          "end_time": 1120
+        }
+      ],
+      "review_summary": {
+        "ui": "4.1.0 visible in source",
+        "observations": [
+          "World texel density versus camera screen footprint and original texture fidelity.",
+          "Three density bands in a pillar, relative Average Island Scale, visibility/camera-aware allocation.",
+          "14:00 visual2048×2048 over100×100cm example is20.48px/cm; ASR248/2.48 is wrong.",
+          "Late alternatives compare strict/soft TD, atlas, object size and non-square images;17:45 non-square slide is63%coverage."
+        ],
+        "limits": [
+          "Length and area scaling must not be conflated; manual adds dimensional derivation.",
+          "Example TD/coverage values are not universal acceptance thresholds.",
+          "No authorization to resize or delete approved character geometry."
+        ]
+      }
+    }
+  ]
+}

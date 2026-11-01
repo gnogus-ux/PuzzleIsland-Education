@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="820" viewBox="0 0 1360 820" role="img" aria-labelledby="title desc">
+  <title id="title">시임을 표시해도 피부 메시가 잘리는 것은 아니다</title>
+  <desc id="desc">자체 교육 도식. 원통의 캡 둘레와 뒤쪽 길이 시임을 표시하면 UV는 두 원과 스트립으로 펼칠 수 있다. 3D 표면과 UV 코너의 연결은 구별한다.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10" fill="none" stroke="#43d6c0" stroke-width="2"/></marker></defs>
+  <rect width="1360" height="820" fill="#101b2a"/>
+  <g font-family="Malgun Gothic, sans-serif" fill="#edf3fb">
+    <text x="48" y="61" font-size="32" font-weight="700">시임은 전개 위치 · UV 분리는 3D 표면 분리와 다르다</text>
+    <text x="48" y="99" font-size="20" fill="#b8c9dc">원통 원리의 단순화 도식 — 실제 모델의 시임·UV를 검사한 결과가 아님</text>
+    <rect x="42" y="129" width="525" height="486" rx="18" fill="#1a2a40"/>
+    <rect x="697" y="129" width="620" height="486" rx="18" fill="#1a2a40"/>
+    <text x="69" y="172" font-size="26" font-weight="700">3D 표면 · 형태와 정점은 보존</text>
+    <path d="M169 277 L169 466 C169 514 429 514 429 466 L429 277" fill="#3e6681" stroke="#b8c9dc" stroke-width="3"/>
+    <ellipse cx="299" cy="277" rx="130" ry="43" fill="#5b89a3" stroke="#ffb362" stroke-width="5"/>
+    <path d="M169 466 C169 514 429 514 429 466" fill="none" stroke="#ffb362" stroke-width="5"/>
+    <path d="M205 306 L205 487 M250 318 L250 500 M299 320 L299 501 M349 316 L349 496 M395 305 L395 487" stroke="#94c6da" stroke-width="2"/>
+    <path d="M169 348 C169 397 429 397 429 348 M169 409 C169 456 429 456 429 409" fill="none" stroke="#94c6da" stroke-width="2"/>
+    <path d="M299 234 L299 423" stroke="#ffb362" stroke-width="5" stroke-dasharray="10 7"/>
+    <path d="M310 382 L478 354" stroke="#ffb362" stroke-width="2"/>
+    <text x="79" y="553" font-size="20" fill="#ffca91">주황: 위·아래 둘레 + 뒤쪽 길이 시임</text>
+    <text x="79" y="586" font-size="19" fill="#b8c9dc">점선은 숨은 뒤쪽 절개 위치를 설명한 표시</text>
+    <path d="M590 361 L668 361" stroke="#43d6c0" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="580" y="321" font-size="21" fill="#43d6c0">Unwrap</text>
+    <text x="725" y="172" font-size="26" font-weight="700">UV · 이미지에서 읽는 위치</text>
+    <rect x="741" y="213" width="538" height="313" fill="#102135" stroke="#7994af" stroke-width="2"/>
+    <rect x="771" y="245" width="316" height="237" rx="2" fill="#3d7188" stroke="#ffb362" stroke-width="4"/>
+    <path d="M823 245V482 M875 245V482 M929 245V482 M981 245V482 M1034 245V482 M771 304H1087 M771 363H1087 M771 423H1087" stroke="#9acfe0" stroke-width="2"/>
+    <circle cx="1180" cy="292" r="58" fill="#5b89a3" stroke="#ffb362" stroke-width="4"/>
+    <circle cx="1180" cy="431" r="58" fill="#5b89a3" stroke="#ffb362" stroke-width="4"/>
+    <text x="803" y="564" font-size="21">옆면 스트립 + 캡 두 장</text>
+    <text x="725" y="596" font-size="19" fill="#b8c9dc">시임 양쪽 UV 코너는 다른 좌표를 가질 수 있다</text>
+    <rect x="42" y="645" width="1275" height="133" rx="16" fill="#23384c"/>
+    <text x="69" y="683" font-size="23" font-weight="700">검사 순서: 형태 왜곡 → 방향·반전 → 상대 밀도 → 경계 무늬</text>
+    <text x="69" y="719" font-size="20">Mark Seam 표시만으로 기존 UV가 바뀌는지 확인한다. 재전개는 기존 텍스처 대응을 바꿀 수 있다.</text>
+    <text x="69" y="753" font-size="20" fill="#b8c9dc">원리 재구성: Ryan King Art 22:28 이후 · CG Boost 17:20 이후. 원 강좌 캡처를 사용하지 않음.</text>
+  </g>
+</svg>

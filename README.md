@@ -23,6 +23,12 @@ Unity 매치3·Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕�
 | 만화형 캐릭터 채색 | [Stylized 채색](docs/PAINTER_STYLIZED_CHARACTER.md) |
 | 피부 색·거칠기·투과광 | [피부 레이어](docs/PAINTER_SKIN_LAYERS.md) |
 | Painter 텍스처 → Blender | [내보내기와 연결](docs/PAINTER_TO_BLENDER.md) |
+| UV 전체 흐름·검수 | [UV 교육 시작점](docs/UV_WORKFLOW.md) |
+| 시임·전개·체커·핀·Relax | [형태별 펼치기](docs/UV_SEAMS_UNWRAP.md) |
+| 얼굴·눈꺼풀·눈·손과 몸 | [캐릭터 UV](docs/UV_CHARACTER.md) |
+| 밀도 계산·정규화·패킹·간격 | [텍셀 밀도와 배치](docs/UV_TEXEL_DENSITY_PACKING.md) |
+| 재질·Texture Set·UDIM·아틀라스·출력 | [텍스처 구성과 인계](docs/UV_TEXTURE_SETS_HANDOFF.md) |
+| 지정된 UV 5강 시간 색인 | [강좌별 확인과 설명 대조](docs/UV_COURSE_INDEX.md) |
 | 사진 심리스 텍스처 5강 | [제작 순서와 강좌별 핵심](docs/SEAMLESS_TEXTURE_WORKFLOW.md) |
 | 가죽 높이·범프·실제 변위 | [높이 맵과 Blender](docs/SEAMLESS_TEXTURE_HEIGHT_MAPS.md) |
 | 이음선·반복 띠·출력 검수 | [심리스 검수](docs/SEAMLESS_TEXTURE_QA.md) |
@@ -46,10 +52,11 @@ Unity 매치3·Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕�
 
 ## 포함 범위
 
-- 2026-11-01 기준 매뉴얼 27개, 자체 SVG 도식 12개, 학습 보고서와 검증 기록을 포함합니다.
+- 2026-11-01 기준 매뉴얼 33개, 자체 SVG 도식 14개, 학습 보고서와 검증 기록을 포함합니다.
 - 손·손가락 세 강좌의 전체 흐름 표본·공개 자동 자막 분석을 추가했습니다. 고유393개 시점과 핵심 UI 확대24장을 확인했으며, 실제 모델 제작·리깅 검증은 수행하지 않았습니다. 전신 세 강좌도 전체 흐름과 주요 제작 구간을 분석해 추가했습니다. 전신은 고유497개 시점·원본 크기 UI30장을 대조했으며, 실제 캐릭터 변경·변형·엔진 검증은 미실행입니다.
 - 매치3는 Taft Unity/C# 실제65편·Winterbolt1편·git-amend 공개3편(영상69편), Catlike 전체 글/FAQ와 제작자 C#7개를 분석했습니다. 고유2,094시점·472시트·135단독프레임(추출 폭1280)과 전편 정제 자동자막을 대조했습니다. Unity/Android 실행은 하지 않았고 Unity6.3 공식 웹 재대조는 미완료로 표시했습니다.
 - 사진 심리스 텍스처 5편은 고유168시점·30시트·원본 UI10장과 정제 자동자막2,299행을 대조했습니다. 로컬 Qwen 10회·FrameLens 핵심300초를 실제 분석했고 AI 오독은 원본으로 교정했습니다. 새 텍스처·Blender/게임 적용은 수행하지 않았습니다.
+- UV5강은 Ryan King Art·CG Boost/Jim Morren·Dikko·Josh/BlenderBros·Huge Menace/Tristan의 지정 원본을 학습했습니다. 고유364시점·66시트·단독33장(추출 폭1280)과 정제 자동자막4,163행 전체를 대조했습니다. 시임·얼굴/눈·밀도·패킹·재질 인계를 문서화했으며 실제 메시/UV·Painter·엔진 변경은 하지 않았습니다. 현행 Blender5.2 메뉴/API 재대조는 미완료입니다.
 - 강좌 원본 영상·음성·대량 캡처·외부 에셋·캐릭터 모델·텍스처·AI 요청 데이터는 포함하지 않습니다. 원 강좌의 링크와 제작자 정보는 각 문서에 있습니다.
 - 공개본은 로컬 PC의 증거 파일 경로를 생략했습니다. 검증 JSON의 원본 스냅샷 해시는 교육 당시 자료를 가리키며, 이 공개본 파일 해시는 PUBLIC_MANIFEST.json에서 확인합니다.
 - 문서와 도식의 검토·학습 범위는 실제 모델 제작 성공이나 독립 검수 통과를 보장하지 않습니다. 앱 버전이 다른 조작은 적용 전 확인하세요.

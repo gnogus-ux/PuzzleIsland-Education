@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="880" viewBox="0 0 1360 880" role="img" aria-labelledby="title desc">
+  <title id="title">텍셀 밀도를 먼저 정하고 간격을 보존하며 패킹한다</title>
+  <desc id="desc">자체 교육 도식. 이미지 길이 두 배와 픽셀 수 네 배를 구분하고 상대 정규화, 우선 영역, 실제 픽셀 간격, 최종 카메라 검사 순서를 설명한다.</desc>
+  <defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#54d6c4" stroke-width="2"/></marker></defs>
+  <rect width="1360" height="880" fill="#101b2a"/>
+  <g font-family="Malgun Gothic, sans-serif" fill="#edf3fb">
+    <text x="44" y="59" font-size="32" font-weight="700">밀도는 길이 기준 · 빈 공간보다 가시부 품질과 간격을 먼저</text>
+    <text x="44" y="98" font-size="21" fill="#b8c9dc">교육용 계산 예시 — 실제 캐릭터·모바일의 확정 사양이 아님</text>
+    <rect x="40" y="129" width="610" height="266" rx="16" fill="#1b2d43"/>
+    <rect x="679" y="129" width="640" height="266" rx="16" fill="#1b2d43"/>
+    <text x="63" y="169" font-size="25" font-weight="700">2048² 전체를 쓰는 1m × 1m 평면</text>
+    <text x="63" y="215" font-size="24" fill="#54d6c4">2048 px/m = 20.48 px/cm</text>
+    <text x="63" y="260" font-size="21">TD = N × √(UV 면적 / 월드 표면적)</text>
+    <text x="63" y="302" font-size="20" fill="#b8c9dc">면적 평균이므로 방향별 늘어짐은 따로 검사</text>
+    <text x="63" y="347" font-size="20">이미지 길이 2배 → 밀도 2배 · 픽셀 수 4배</text>
+    <text x="704" y="169" font-size="25" font-weight="700">간격의 픽셀 환산과 축소</text>
+    <text x="704" y="215" font-size="23" fill="#ffbf79">8 / 2048 = 0.00390625 UV 거리</text>
+    <text x="704" y="260" font-size="21">2048의 8px 간격 → 256에서는 1px</text>
+    <text x="704" y="302" font-size="20" fill="#b8c9dc">UV 간격·베이크 확장·필터링은 다른 단계</text>
+    <text x="704" y="347" font-size="20">도구 Margin 입력값은 최종 결과로 측정</text>
+    <g font-size="23" font-weight="700">
+      <rect x="41" y="439" width="283" height="127" rx="16" fill="#25495b"/>
+      <text x="63" y="478">1. 기준을 고정</text>
+      <text x="63" y="520" font-size="20" font-weight="400">단위·W×H·카메라 크기</text>
+      <path d="M332 503H371" stroke="#54d6c4" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="381" y="439" width="285" height="127" rx="16" fill="#25495b"/>
+      <text x="402" y="478">2. 상대 크기와 예외</text>
+      <text x="402" y="520" font-size="20" font-weight="400">정규화·얼굴 우선·스택</text>
+      <path d="M674 503H713" stroke="#54d6c4" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="723" y="439" width="285" height="127" rx="16" fill="#25495b"/>
+      <text x="744" y="478">3. 조건을 지켜 배치</text>
+      <text x="744" y="520" font-size="20" font-weight="400">회전·고정 크기·픽셀 간격</text>
+      <path d="M1016 503H1055" stroke="#54d6c4" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="1065" y="439" width="254" height="127" rx="16" fill="#25495b"/>
+      <text x="1086" y="478">4. 다시 검사</text>
+      <text x="1086" y="520" font-size="20" font-weight="400">밀도·체커·실제 축소</text>
+    </g>
+    <rect x="40" y="605" width="1279" height="225" rx="16" fill="#1b2d43"/>
+    <text x="64" y="647" font-size="25" font-weight="700">빈 공간의 대안은 조건을 비교해서 선택</text>
+    <text x="64" y="692" font-size="22">목표 밀도 유지  ·  허용 범위 내 확대  ·  여러 자산 아틀라스  ·  비정사각 이미지</text>
+    <text x="64" y="736" font-size="20" fill="#ffbf79">같은 밀도 ≠ 같은 선명도. 좋은 점유율 ≠ 왜곡·베이크·기기 검증 통과.</text>
+    <text x="64" y="782" font-size="20" fill="#b8c9dc">Huge Menace·Josh·CG Boost의 개념을 재구성한 자체 도식. 도구 실행 결과가 아님.</text>
+  </g>
+</svg>
