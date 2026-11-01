@@ -16,6 +16,8 @@
 ## 주제별 학습 문서
 
 - [Unity 공식 적용·검수 매뉴얼](UNITY_OFFICIAL_SKILLS_WORKFLOW.md) · [35주제 탐색표](UNITY_OFFICIAL_SKILLS_INDEX.md) · [읽기 범위 기록](../reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json)
+- [GameDev 게임 제작 매뉴얼](GAMEDEV_SKILLS_WORKFLOW.md) · [78주제 탐색표](GAMEDEV_SKILLS_TOPIC_INDEX.md) · [읽기 범위 기록](../reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json)
+- [Scenario 서비스 제작·검수 매뉴얼](SCENARIO_SERVICE_SKILLS_WORKFLOW.md) · [79주제 탐색표](SCENARIO_SERVICE_SKILLS_INDEX.md) · [읽기 범위 기록](../reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json)
 - [Claude용 공용 규칙과 자료실 연결](CLAUDE_RULES_AND_LIBRARY.md): 파일 지침·실제 수신·실행 적용을 구분한다.
 
 ## 다음 제작에서 쓰는 순서

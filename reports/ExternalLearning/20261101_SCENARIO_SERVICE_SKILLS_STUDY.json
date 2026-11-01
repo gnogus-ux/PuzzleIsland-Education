@@ -1,0 +1,2296 @@
+{
+  "schema_version": 1,
+  "date_kst": "2026-11-01",
+  "status": "COMPLETE_DOCUMENT_STUDY_79_BODIES_RUNTIME_NOT_RUN",
+  "source_repository": "https://github.com/scenario-labs/skills",
+  "source_commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+  "source_license": "MIT",
+  "scope": "skills/scenario-*/SKILL.md at root only; excludes skills/scenario/SKILL.md and dcc/game-engines family directories",
+  "body_files_total": 79,
+  "body_files_read": 79,
+  "body_files_unread": 0,
+  "all_body_bytes": 772076,
+  "all_body_lines": 10027,
+  "files": [
+    {
+      "name": "scenario-3d",
+      "path": "skills/scenario-3d/SKILL.md",
+      "bytes": 17649,
+      "lines": 245,
+      "sha256": "202f421b9f137caa765357cec2ac3583780903faf84030397691c93101a24bc4",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 245
+        }
+      ]
+    },
+    {
+      "name": "scenario-3d-worlds",
+      "path": "skills/scenario-3d-worlds/SKILL.md",
+      "bytes": 6234,
+      "lines": 89,
+      "sha256": "ed2dcffd147e0110585eec91c7bef59faad25e0c7856b71a826adb3f434d0254",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 89
+        }
+      ]
+    },
+    {
+      "name": "scenario-ace-step",
+      "path": "skills/scenario-ace-step/SKILL.md",
+      "bytes": 9899,
+      "lines": 124,
+      "sha256": "44d3b1af9953e3137d290717f572d9f67177a6b735b4fa83c50de5696b75dea6",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 124
+        }
+      ]
+    },
+    {
+      "name": "scenario-ad-variants",
+      "path": "skills/scenario-ad-variants/SKILL.md",
+      "bytes": 8737,
+      "lines": 116,
+      "sha256": "122ad70ced66f5f6139ab32056e9bd736503a945d0fe6e1d6ba9e0cb2c770368",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 116
+        }
+      ]
+    },
+    {
+      "name": "scenario-admin-analytics",
+      "path": "skills/scenario-admin-analytics/SKILL.md",
+      "bytes": 11848,
+      "lines": 157,
+      "sha256": "a9b98a5527f1ba02f55814366033ac38a453318d2d8641641a4f7ed79b1fd132",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 157
+        }
+      ]
+    },
+    {
+      "name": "scenario-asset-analysis",
+      "path": "skills/scenario-asset-analysis/SKILL.md",
+      "bytes": 7565,
+      "lines": 107,
+      "sha256": "fa9acc5d9bbf94722f1808f4e77461b096635802dfdc2729748af40c403e70f2",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 107
+        }
+      ]
+    },
+    {
+      "name": "scenario-audio",
+      "path": "skills/scenario-audio/SKILL.md",
+      "bytes": 12634,
+      "lines": 169,
+      "sha256": "52153024708b51036690da97ff9b0c2e880f6af2ce9d2ad2c8ee0053d7b15c01",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 169
+        }
+      ]
+    },
+    {
+      "name": "scenario-blender",
+      "path": "skills/scenario-blender/SKILL.md",
+      "bytes": 12476,
+      "lines": 148,
+      "sha256": "7a304995cfa5a2c7d48cb31d74399d30325114447c492b61f921eb9957643ce2",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 148
+        }
+      ]
+    },
+    {
+      "name": "scenario-blender-2d-animation",
+      "path": "skills/scenario-blender-2d-animation/SKILL.md",
+      "bytes": 13107,
+      "lines": 154,
+      "sha256": "7703a5b45302c9295127b249266f175db87c3fd00ba32416fd99ebf633e03493",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 154
+        }
+      ]
+    },
+    {
+      "name": "scenario-brand-kit",
+      "path": "skills/scenario-brand-kit/SKILL.md",
+      "bytes": 13821,
+      "lines": 128,
+      "sha256": "8e2e7a8f94210785aa3e8baa85155fa9a78ebab46fd1b0e2e8128f7f9462a1de",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 128
+        }
+      ]
+    },
+    {
+      "name": "scenario-caption-studio",
+      "path": "skills/scenario-caption-studio/SKILL.md",
+      "bytes": 13934,
+      "lines": 158,
+      "sha256": "4ba70eef8b28043b8d3eba36c51f79447c5f894da644fa8a694fb4cd51fba746",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 158
+        }
+      ]
+    },
+    {
+      "name": "scenario-chatgpt-pet-create",
+      "path": "skills/scenario-chatgpt-pet-create/SKILL.md",
+      "bytes": 14790,
+      "lines": 172,
+      "sha256": "2e1034efd04803a28d6ff95b15b881fda5ab32e73d26c2dee424e0a3397e6c4a",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 172
+        }
+      ]
+    },
+    {
+      "name": "scenario-chatgpt-pet-update",
+      "path": "skills/scenario-chatgpt-pet-update/SKILL.md",
+      "bytes": 9392,
+      "lines": 116,
+      "sha256": "b90684829162ea300a5aa2568b6bfde94ec825227680f5d554f89c66699422a0",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 116
+        }
+      ]
+    },
+    {
+      "name": "scenario-consistency",
+      "path": "skills/scenario-consistency/SKILL.md",
+      "bytes": 15140,
+      "lines": 196,
+      "sha256": "d3129ad944cf5fad8932c0c1973d24876e128e4a96e4bae53ab6863e68dab5b9",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 196
+        }
+      ]
+    },
+    {
+      "name": "scenario-elevenlabs",
+      "path": "skills/scenario-elevenlabs/SKILL.md",
+      "bytes": 8221,
+      "lines": 111,
+      "sha256": "5f81744c9f1b89a70d5d0d9add5fd92aec57655a23094f06118652a5b1e609ca",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 111
+        }
+      ]
+    },
+    {
+      "name": "scenario-fan-cam",
+      "path": "skills/scenario-fan-cam/SKILL.md",
+      "bytes": 8794,
+      "lines": 109,
+      "sha256": "ee59d0ffe877ef757f27282cb4cc49d79da66324f124539059dde45c1ba5a8e2",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 109
+        }
+      ]
+    },
+    {
+      "name": "scenario-formats",
+      "path": "skills/scenario-formats/SKILL.md",
+      "bytes": 6879,
+      "lines": 89,
+      "sha256": "c5e5f18eb46ab212114d907a1ded1c107cf2f4a84dea97c264918edeff91c5b7",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 89
+        }
+      ]
+    },
+    {
+      "name": "scenario-game-assets",
+      "path": "skills/scenario-game-assets/SKILL.md",
+      "bytes": 18138,
+      "lines": 234,
+      "sha256": "81e7e1d918f0beb7e24bfa54f63a5bb91a3bd717b6837f750cedb3f982f3a707",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 234
+        }
+      ]
+    },
+    {
+      "name": "scenario-gemini-image",
+      "path": "skills/scenario-gemini-image/SKILL.md",
+      "bytes": 6030,
+      "lines": 87,
+      "sha256": "23cfd23959d509d4098f517ae37a41d9e5c8639d256c2bf349c3e390b6ba1380",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 87
+        }
+      ]
+    },
+    {
+      "name": "scenario-gemini-omni",
+      "path": "skills/scenario-gemini-omni/SKILL.md",
+      "bytes": 7531,
+      "lines": 96,
+      "sha256": "80c20f11e4aaa5628be243fe33b8aa19aac9363944c213e6f6404977148281b5",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 96
+        }
+      ]
+    },
+    {
+      "name": "scenario-gpt-image",
+      "path": "skills/scenario-gpt-image/SKILL.md",
+      "bytes": 11200,
+      "lines": 149,
+      "sha256": "db6abfbd1390ac2b011aed819b842ffb72ddca11696a0c65d7561c32081e5b00",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 149
+        }
+      ]
+    },
+    {
+      "name": "scenario-grok-imagine-image",
+      "path": "skills/scenario-grok-imagine-image/SKILL.md",
+      "bytes": 6367,
+      "lines": 89,
+      "sha256": "3c7e30ae60a37d8062ba321e6d0d9f99d444c02d1fb847c6dcb72fd5740e2320",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 89
+        }
+      ]
+    },
+    {
+      "name": "scenario-grok-imagine-video",
+      "path": "skills/scenario-grok-imagine-video/SKILL.md",
+      "bytes": 6519,
+      "lines": 92,
+      "sha256": "80d74ec76a7af099e1aa78f16abb540a8c81dcbcbf3f738aba20e47f07153a36",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 92
+        }
+      ]
+    },
+    {
+      "name": "scenario-identity-library",
+      "path": "skills/scenario-identity-library/SKILL.md",
+      "bytes": 8375,
+      "lines": 111,
+      "sha256": "011ed04f1806c3ae2f6e4bb27a636cd8170b9198935f77d1ba3b89ff8479a94a",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 111
+        }
+      ]
+    },
+    {
+      "name": "scenario-ideogram",
+      "path": "skills/scenario-ideogram/SKILL.md",
+      "bytes": 10866,
+      "lines": 134,
+      "sha256": "1c4098dfa895bc62dbea14be67a03de5627ae8e7fe5943ad45aec1c28bd72d05",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 134
+        }
+      ]
+    },
+    {
+      "name": "scenario-image",
+      "path": "skills/scenario-image/SKILL.md",
+      "bytes": 10476,
+      "lines": 138,
+      "sha256": "6bd2eb1c5f759e6c525f2ea995dca3b06bad942480383d82326e7f2a3f89cf5c",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 138
+        }
+      ]
+    },
+    {
+      "name": "scenario-image-editing",
+      "path": "skills/scenario-image-editing/SKILL.md",
+      "bytes": 10419,
+      "lines": 137,
+      "sha256": "d26eb6f97eded5f3f5d45e9fd803e492bc7bd98314ceaac159c4a84a92c598de",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 137
+        }
+      ]
+    },
+    {
+      "name": "scenario-inspiration",
+      "path": "skills/scenario-inspiration/SKILL.md",
+      "bytes": 6603,
+      "lines": 86,
+      "sha256": "1ee94fb192bd2da44cc793d3b4dae722182b712e1affd229b6b95211e3dc05f0",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 86
+        }
+      ]
+    },
+    {
+      "name": "scenario-kinetic-music-video",
+      "path": "skills/scenario-kinetic-music-video/SKILL.md",
+      "bytes": 17270,
+      "lines": 269,
+      "sha256": "6acadaeb5a5bac2b0653cca89fc722505f2656c071ce5509677088d665f5e7b7",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 269
+        }
+      ]
+    },
+    {
+      "name": "scenario-kling",
+      "path": "skills/scenario-kling/SKILL.md",
+      "bytes": 7708,
+      "lines": 106,
+      "sha256": "af2e4b958bbdae76122f5de6b01ab51df4bb55441b6628153217202dd9c84e15",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 106
+        }
+      ]
+    },
+    {
+      "name": "scenario-luma-image",
+      "path": "skills/scenario-luma-image/SKILL.md",
+      "bytes": 6305,
+      "lines": 86,
+      "sha256": "d6f39915f1cbe1de8ba5ba31d6b1ee4652cd2f269ba8181511f9b83eef45921b",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 86
+        }
+      ]
+    },
+    {
+      "name": "scenario-luma-video",
+      "path": "skills/scenario-luma-video/SKILL.md",
+      "bytes": 6355,
+      "lines": 90,
+      "sha256": "97ea088bfb2254f5c5043e00dae74a8725d1ab19a9da0f92024203a03c65e3bc",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 90
+        }
+      ]
+    },
+    {
+      "name": "scenario-mai-image",
+      "path": "skills/scenario-mai-image/SKILL.md",
+      "bytes": 6062,
+      "lines": 89,
+      "sha256": "6e3d17ee4712d4e090d6f4f7071485326b328d2d9154f517d39c1bff54a3113f",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 89
+        }
+      ]
+    },
+    {
+      "name": "scenario-meshy",
+      "path": "skills/scenario-meshy/SKILL.md",
+      "bytes": 7373,
+      "lines": 98,
+      "sha256": "3d7ea32ac980f8d2b5e374720c2be469c909e2e6d04c7c553e1d1780e7feeb3a",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 98
+        }
+      ]
+    },
+    {
+      "name": "scenario-minimax-music",
+      "path": "skills/scenario-minimax-music/SKILL.md",
+      "bytes": 5705,
+      "lines": 83,
+      "sha256": "c97970de7c2cf4bda7364acf546f67b1c8e3a97dd31c2760a7180dd3498f0c87",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 83
+        }
+      ]
+    },
+    {
+      "name": "scenario-minimax-video",
+      "path": "skills/scenario-minimax-video/SKILL.md",
+      "bytes": 10798,
+      "lines": 126,
+      "sha256": "ec90905a729fd2670331d09f707cb1c1cd6663aa2948dd4d1f2a42b9a186d779",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 126
+        }
+      ]
+    },
+    {
+      "name": "scenario-model-comparison",
+      "path": "skills/scenario-model-comparison/SKILL.md",
+      "bytes": 10779,
+      "lines": 137,
+      "sha256": "47fa48cfcaffe27aab092592e878f1da65d65fb926547c086dd9f5d7af350436",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 137
+        }
+      ]
+    },
+    {
+      "name": "scenario-model-training",
+      "path": "skills/scenario-model-training/SKILL.md",
+      "bytes": 11274,
+      "lines": 150,
+      "sha256": "7b2eb235416ee95e2e804d650920d93e6250b338221e01d78fa10ea342e047dd",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 150
+        }
+      ]
+    },
+    {
+      "name": "scenario-moderation",
+      "path": "skills/scenario-moderation/SKILL.md",
+      "bytes": 14716,
+      "lines": 162,
+      "sha256": "b904a6975151bd54650e9caafd44190241dad693c348bf8466c90171628e9120",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 162
+        }
+      ]
+    },
+    {
+      "name": "scenario-motion-loops",
+      "path": "skills/scenario-motion-loops/SKILL.md",
+      "bytes": 11092,
+      "lines": 177,
+      "sha256": "d450593e1dc04040c82d9756e81f390882130298dcd4e291a78491eb8de44c86",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 177
+        }
+      ]
+    },
+    {
+      "name": "scenario-multi-reference",
+      "path": "skills/scenario-multi-reference/SKILL.md",
+      "bytes": 10778,
+      "lines": 146,
+      "sha256": "1fdedaa7366b8b4060786ddeb895de1b103ef56a1a152d1a911d884ea91a6027",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 146
+        }
+      ]
+    },
+    {
+      "name": "scenario-orbit-views",
+      "path": "skills/scenario-orbit-views/SKILL.md",
+      "bytes": 9368,
+      "lines": 117,
+      "sha256": "b480473f443f5f73467d0f109bd8524a44e2aa743e2a288bb10ebbf25935bbef",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 117
+        }
+      ]
+    },
+    {
+      "name": "scenario-patina-retexture",
+      "path": "skills/scenario-patina-retexture/SKILL.md",
+      "bytes": 14278,
+      "lines": 170,
+      "sha256": "43a34689246cb71b3c6e36c9ea75273e8df3414d345d0628aac149aa0d6cffdf",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 170
+        }
+      ]
+    },
+    {
+      "name": "scenario-product-shots",
+      "path": "skills/scenario-product-shots/SKILL.md",
+      "bytes": 7387,
+      "lines": 84,
+      "sha256": "cb66572378f8aa37105c089686b04a7162e7d02651205063d4021b4e5a24974c",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 84
+        }
+      ]
+    },
+    {
+      "name": "scenario-quality-gate",
+      "path": "skills/scenario-quality-gate/SKILL.md",
+      "bytes": 9874,
+      "lines": 134,
+      "sha256": "39fa4bdd69503f84b64ca3f97dd4e6fc844ed5aa6e815c6615fb7c8bf960235f",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 134
+        }
+      ]
+    },
+    {
+      "name": "scenario-reel-recast",
+      "path": "skills/scenario-reel-recast/SKILL.md",
+      "bytes": 10204,
+      "lines": 130,
+      "sha256": "c0addd55096bd756e34b55bba0c574c1e9cb5c4a52488d0c7a8d0017cb257c54",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 130
+        }
+      ]
+    },
+    {
+      "name": "scenario-refine-loop",
+      "path": "skills/scenario-refine-loop/SKILL.md",
+      "bytes": 7507,
+      "lines": 88,
+      "sha256": "76ef1d3c2bf266c4a06dcbdd41e5f0403ac0f0f2614073dc8b6f301d8b93b93e",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 88
+        }
+      ]
+    },
+    {
+      "name": "scenario-report",
+      "path": "skills/scenario-report/SKILL.md",
+      "bytes": 6119,
+      "lines": 99,
+      "sha256": "a4ee5a0d2851b45a499a52aa29cf4e030732b2a2c36d5265d5cc9b9f3178a138",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 99
+        }
+      ]
+    },
+    {
+      "name": "scenario-reve",
+      "path": "skills/scenario-reve/SKILL.md",
+      "bytes": 5402,
+      "lines": 84,
+      "sha256": "48319e66ff30866644565eb377838f5b427359a1d103d79893b52e66387f8cbd",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 84
+        }
+      ]
+    },
+    {
+      "name": "scenario-rodin",
+      "path": "skills/scenario-rodin/SKILL.md",
+      "bytes": 5727,
+      "lines": 86,
+      "sha256": "39d341d73d2a2c924bde8f0774a1ddafc4d08aa09ccd9822bc89ca076e8c4a2f",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 86
+        }
+      ]
+    },
+    {
+      "name": "scenario-runway",
+      "path": "skills/scenario-runway/SKILL.md",
+      "bytes": 4800,
+      "lines": 76,
+      "sha256": "5ffdc6c9ee02c6daa1df234be6d8fec6720ff2f6af293596743a6d74b5f42c08",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 76
+        }
+      ]
+    },
+    {
+      "name": "scenario-seedance",
+      "path": "skills/scenario-seedance/SKILL.md",
+      "bytes": 13434,
+      "lines": 144,
+      "sha256": "01c0ed2ea99466ed40b479c15c639635818dd90be533775e7c7236f85cc09758",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 144
+        }
+      ]
+    },
+    {
+      "name": "scenario-seedance-drafts",
+      "path": "skills/scenario-seedance-drafts/SKILL.md",
+      "bytes": 8707,
+      "lines": 103,
+      "sha256": "e2baf559eb4dde01619ecb7010a2fd74f0c54d9162295e21c900740887136025",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 103
+        }
+      ]
+    },
+    {
+      "name": "scenario-seedance-music-video",
+      "path": "skills/scenario-seedance-music-video/SKILL.md",
+      "bytes": 7604,
+      "lines": 113,
+      "sha256": "33b4bc0382081d22f1bfa0e17e7842ba1f6ef44e29c8f83b1af319338ef8d86a",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 113
+        }
+      ]
+    },
+    {
+      "name": "scenario-seedance-storyboard",
+      "path": "skills/scenario-seedance-storyboard/SKILL.md",
+      "bytes": 11080,
+      "lines": 132,
+      "sha256": "4f12296d2304b70cf61d232548c7b879e50b441b8bbc88adc0dfc7a35a1d8345",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 132
+        }
+      ]
+    },
+    {
+      "name": "scenario-seedream",
+      "path": "skills/scenario-seedream/SKILL.md",
+      "bytes": 8821,
+      "lines": 114,
+      "sha256": "9427a2d8a22547b9c7f331610008df88b58b32d138b24be20e50374094229684",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 114
+        }
+      ]
+    },
+    {
+      "name": "scenario-side-view-game-kit",
+      "path": "skills/scenario-side-view-game-kit/SKILL.md",
+      "bytes": 14785,
+      "lines": 183,
+      "sha256": "e7f7e6ca4009b4098650a3d61a7b4818aaa7ec586d5779bd055cde60413356bc",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 183
+        }
+      ]
+    },
+    {
+      "name": "scenario-skyboxes",
+      "path": "skills/scenario-skyboxes/SKILL.md",
+      "bytes": 6400,
+      "lines": 91,
+      "sha256": "39387327cbb012defbb9a680e930077e2177aba3b86552784f3e81a745b2a480",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 91
+        }
+      ]
+    },
+    {
+      "name": "scenario-sonilo",
+      "path": "skills/scenario-sonilo/SKILL.md",
+      "bytes": 6417,
+      "lines": 89,
+      "sha256": "bf409e17861f7f356b99d70716465ea14c8d59e761d5f679e9374232eddb3f3b",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 89
+        }
+      ]
+    },
+    {
+      "name": "scenario-sparc3d",
+      "path": "skills/scenario-sparc3d/SKILL.md",
+      "bytes": 5393,
+      "lines": 77,
+      "sha256": "fdc79e91f444263c9e7409ecd951163f245e11ab7027dbb121f87d64fcef89a1",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 77
+        }
+      ]
+    },
+    {
+      "name": "scenario-sprite-animation",
+      "path": "skills/scenario-sprite-animation/SKILL.md",
+      "bytes": 18014,
+      "lines": 190,
+      "sha256": "acb058316226b8a9935adb41c257436badcd53ce3d779d7a2252b809ac556f15",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 190
+        }
+      ]
+    },
+    {
+      "name": "scenario-storyboards",
+      "path": "skills/scenario-storyboards/SKILL.md",
+      "bytes": 7350,
+      "lines": 93,
+      "sha256": "d49ac65f0e925c380c860762cf7c21dc7bdec79f71fbf7c0539548fffe7ab87b",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 93
+        }
+      ]
+    },
+    {
+      "name": "scenario-team-admin",
+      "path": "skills/scenario-team-admin/SKILL.md",
+      "bytes": 15871,
+      "lines": 192,
+      "sha256": "76f223e71e3a13abe27c454f866c922a6c389cfcc2bf89adad35eccee12fcc91",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 192
+        }
+      ]
+    },
+    {
+      "name": "scenario-text-overlay",
+      "path": "skills/scenario-text-overlay/SKILL.md",
+      "bytes": 7246,
+      "lines": 116,
+      "sha256": "a9a055bf2db07450ccc7a01dca08611bf15b8a3277f2f4659a09310d5bbad79c",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 116
+        }
+      ]
+    },
+    {
+      "name": "scenario-textures",
+      "path": "skills/scenario-textures/SKILL.md",
+      "bytes": 8326,
+      "lines": 99,
+      "sha256": "753e016d511b799b1cc87f4e700376c6332d09647d16c9919ed56a85b57ef5a2",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 99
+        }
+      ]
+    },
+    {
+      "name": "scenario-thumbnails",
+      "path": "skills/scenario-thumbnails/SKILL.md",
+      "bytes": 9112,
+      "lines": 121,
+      "sha256": "147568aaab7ae742575aabe83536eb370f5e92069d80d892c66ab7e4935c18db",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 121
+        }
+      ]
+    },
+    {
+      "name": "scenario-ugc",
+      "path": "skills/scenario-ugc/SKILL.md",
+      "bytes": 12600,
+      "lines": 128,
+      "sha256": "514f860c352a4d1c00db4aeb18a2c0cb85f883145ccf8bf47153851cf3ccc5bc",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 128
+        }
+      ]
+    },
+    {
+      "name": "scenario-veo",
+      "path": "skills/scenario-veo/SKILL.md",
+      "bytes": 5826,
+      "lines": 86,
+      "sha256": "5974da02e6cb83dba35847fe64dd7a8b9a691f3cb8473c05c860c5522ecb1fc0",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 86
+        }
+      ]
+    },
+    {
+      "name": "scenario-video",
+      "path": "skills/scenario-video/SKILL.md",
+      "bytes": 17548,
+      "lines": 217,
+      "sha256": "13a61685dee0a7824c7b0e01967198ab08267f73bca92cfb0e85a28ce7d1165a",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 217
+        }
+      ]
+    },
+    {
+      "name": "scenario-video-ads",
+      "path": "skills/scenario-video-ads/SKILL.md",
+      "bytes": 7120,
+      "lines": 84,
+      "sha256": "77295b575bf4932c4e55efa5da87ba810b761b8b0fbf826ae82b7a478da0ba9f",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 84
+        }
+      ]
+    },
+    {
+      "name": "scenario-video-assembly",
+      "path": "skills/scenario-video-assembly/SKILL.md",
+      "bytes": 9614,
+      "lines": 134,
+      "sha256": "ed819e56564c4953607e374584aa07ac42fd86b2180d0b245582e0674c08e22a",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 134
+        }
+      ]
+    },
+    {
+      "name": "scenario-video-color-grade",
+      "path": "skills/scenario-video-color-grade/SKILL.md",
+      "bytes": 11526,
+      "lines": 174,
+      "sha256": "ee9eec207f7e43ff7181b233f641109f412c6f3a623e0454c83d6a4d72ac0ad5",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 174
+        }
+      ]
+    },
+    {
+      "name": "scenario-video-editing",
+      "path": "skills/scenario-video-editing/SKILL.md",
+      "bytes": 10960,
+      "lines": 161,
+      "sha256": "b34e84073d2597f6f66d470ef7c8d83d3ba76a2fdb825e2de99ccd294da4a0f3",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 161
+        }
+      ]
+    },
+    {
+      "name": "scenario-video-to-motion",
+      "path": "skills/scenario-video-to-motion/SKILL.md",
+      "bytes": 8249,
+      "lines": 113,
+      "sha256": "4cc11bd38b9af6f07dafa602e90860fde80d6b26b500f96af9ff3f5b9bdc1d12",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 113
+        }
+      ]
+    },
+    {
+      "name": "scenario-vidu",
+      "path": "skills/scenario-vidu/SKILL.md",
+      "bytes": 5980,
+      "lines": 90,
+      "sha256": "db77f10e74a6318135b7dbca64550c20066413be35f7846881654620f15e259b",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 90
+        }
+      ]
+    },
+    {
+      "name": "scenario-walkable-room",
+      "path": "skills/scenario-walkable-room/SKILL.md",
+      "bytes": 10870,
+      "lines": 136,
+      "sha256": "d8aca6346ef5933b04e1a27d0b0ab58eba6274c93fef88bab8db83c3d9327a28",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 136
+        }
+      ]
+    },
+    {
+      "name": "scenario-wan",
+      "path": "skills/scenario-wan/SKILL.md",
+      "bytes": 6758,
+      "lines": 100,
+      "sha256": "266ed4e6e32c496b9f3e1e2d60ed8f2ef77c64d91ad860050a240bcd6fdb791a",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 100
+        }
+      ]
+    },
+    {
+      "name": "scenario-workflow-authoring",
+      "path": "skills/scenario-workflow-authoring/SKILL.md",
+      "bytes": 8086,
+      "lines": 109,
+      "sha256": "590ce5726fd9b36e7a7edc239dfca07ba04ac20ee313204f60a6826e927c765f",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 109
+        }
+      ]
+    },
+    {
+      "name": "scenario-workflows",
+      "path": "skills/scenario-workflows/SKILL.md",
+      "bytes": 7854,
+      "lines": 110,
+      "sha256": "33a8271db4cb2c15ddcb799218dd6f1d6ea339d46816dd44aba493fa6896a8e8",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 110
+        }
+      ]
+    }
+  ],
+  "source_hash_validation": {
+    "checked": 79,
+    "mismatches": [],
+    "result": "PASS"
+  },
+  "auxiliary_root_documents": [
+    {
+      "path": "LICENSE",
+      "bytes": 1091,
+      "lines": 21,
+      "sha256": "ea5f22aa3d095ffd8ee97eb52b630d6cc9e04611058f11c65b0c10c5dae18e70",
+      "status": "FULL_BODY_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 21
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "bytes": 69800,
+      "lines": 518,
+      "sha256": "dbf35fb3a95a208da99d0555039ebbb297c06551d343e77c96931a781127970a",
+      "status": "PARTIAL_READ",
+      "read_ranges": [
+        {
+          "first": 1,
+          "last": 110
+        }
+      ]
+    }
+  ],
+  "auxiliary_files_total": 151,
+  "auxiliary_files_fully_read": 0,
+  "auxiliary_files_not_read": [
+    {
+      "path": "skills/scenario-admin-analytics/README.md",
+      "bytes": 2639,
+      "sha256": "76e6945c129bee316f36e61226b9b4db58b60d3bca06a2bc6034fbcfda6db2bd",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-admin-analytics/references.md",
+      "bytes": 7382,
+      "sha256": "f6a5f71ca65ec1bdb69647dfbd91e889d1ce2df40f3fa0bd8c0278565aa5f6b1",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-admin-analytics/assets/dashboard.html",
+      "bytes": 21827,
+      "sha256": "f3414968db8fa35f960a5cccba526c043b0e6c5d8d7e796d63470d82b66e3d4c",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-admin-analytics/scripts/analytics.py",
+      "bytes": 33057,
+      "sha256": "bd38f98ab97f4779ee72b59d201cba77b0d5e9033d2be8f3c8969150f49e50b6",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-blender-2d-animation/README.md",
+      "bytes": 3555,
+      "sha256": "0c390832063c08a49996db406489f6921726c013174d22b5c401d384200c6363",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-blender-2d-animation/examples/config.json",
+      "bytes": 447,
+      "sha256": "681c2e122d3b423d6b6be078ea16f4082238f95f0770f0ce809e0dfe4b22ec94",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-blender-2d-animation/references/checks.md",
+      "bytes": 2759,
+      "sha256": "8cc3d330685cebfc38e2293f855eb8cba61e1919676fca16ab17b057d17c5002",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-blender-2d-animation/references/pipeline.md",
+      "bytes": 7321,
+      "sha256": "9cf268be435711f1c3bf9cd202f9158565ce10ee9c636d1abc58a19ad4ffe082",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-blender-2d-animation/references/prompts.md",
+      "bytes": 7302,
+      "sha256": "6d740a664b1457ca1f2e7247715a6f7af103309cf9d395cfb6be8156de591607",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-blender-2d-animation/scripts/build_scene.py",
+      "bytes": 29227,
+      "sha256": "5afec3176daffb4305a2688d64ba81b9107320cde3e232e0330b0b93fa27d8fb",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-blender-2d-animation/scripts/measure_set.py",
+      "bytes": 3564,
+      "sha256": "91b2b969ddc55971dba937cf3fb591abd3066e9c5986ff80aa54c7910727451f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-blender-2d-animation/scripts/prep_assets.py",
+      "bytes": 8029,
+      "sha256": "6fcefc55783accb7efba0e3b01a542e39e0094fea5180396030d43122ab40fb2",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-blender-2d-animation/scripts/reframe_stills.py",
+      "bytes": 5034,
+      "sha256": "845eed024da30c3987340df9a64209f76d2c7936b81042710b008f6ea51eaa66",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-blender-2d-animation/scripts/run_loop.py",
+      "bytes": 7884,
+      "sha256": "585ec386fe106639d40d5ce0a9ee3f5cd9b592dab9840756b1d5a3f0a1b49264",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-blender-2d-animation/scripts/trace_hulls.py",
+      "bytes": 3090,
+      "sha256": "cd6d117080e7b233bff70b0a2eb8f77d2309efe65e5cd1fd435046d9eb8be898",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-chatgpt-pet-create/README.md",
+      "bytes": 6908,
+      "sha256": "dac7f28f99ba8bc4f36e5e98dcacd4e9f317802d88417e9b69e173e9384782fd",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-chatgpt-pet-create/references/sheet-contract.md",
+      "bytes": 6569,
+      "sha256": "7c0ae83f705dc32c0ad89d904894fd8d0649f930116fcd36ca2522e959bb4627",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-chatgpt-pet-create/scripts/pet_build.py",
+      "bytes": 13665,
+      "sha256": "667e87b4e40a96bddb3808935f5765c65938160f1570c72d0bb1b9d4e297d745",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-chatgpt-pet-create/scripts/pet_check.py",
+      "bytes": 13732,
+      "sha256": "1cb3ec6a35d36d491dea7d35adb340a8ecad3f7cd632a2842734a81d03e0a3a9",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-chatgpt-pet-create/scripts/pet_common.py",
+      "bytes": 10813,
+      "sha256": "0841f36c5e921fd37803024b12d688700abd71314f0875a701fc4c7794d8a6a5",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-chatgpt-pet-create/scripts/pet_frames.py",
+      "bytes": 11238,
+      "sha256": "540750f55f3238fc4238c37837504c4ea1dcfe1adeff92c1accb8c6a7653be08",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-chatgpt-pet-create/scripts/pet_package.py",
+      "bytes": 5473,
+      "sha256": "d65a0eb6f714ba32268ad9a7e2392597ec6e1be4e3ce963f0aa436ade8b48167",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-chatgpt-pet-create/scripts/pet_prepare.py",
+      "bytes": 24135,
+      "sha256": "bf0400a3d44bbe1bfcf14e66413d419d226d1ca93d5535b235d8c770450e9885",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-chatgpt-pet-create/scripts/pet_preview.py",
+      "bytes": 8547,
+      "sha256": "e12706c3c45c31d866a9a21483f019b005e46d9ad130b93d37f6adba445f8a49",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-chatgpt-pet-update/README.md",
+      "bytes": 2110,
+      "sha256": "a98b421f87be80fa8d0307198e4934f7d108f96fdf29f0d2e8c0a3d096b5a9f9",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-formats/references/placement-specs.md",
+      "bytes": 11522,
+      "sha256": "321b57d074efd0bb924a3adc57ad86692a870646076fdce31047871fb2cac70a",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-game-assets/isometric-templates.json",
+      "bytes": 5481,
+      "sha256": "4999c6df3d4b881be24480495ba110dbe9564a9e58876207bc6dbdfcfa45b540",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-game-assets/isometric-templates.md",
+      "bytes": 3764,
+      "sha256": "56291452cbf1a6b470023dbd7cf311bdec9b6d6374c569c3aa406adbe69c29bb",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-game-assets/README.md",
+      "bytes": 1186,
+      "sha256": "fc9535414067dc99bae4c9e32f2dcd42bc900cd16f1e72532a5ab33880e39383",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-game-assets/scripts/build_isometric_templates.py",
+      "bytes": 4630,
+      "sha256": "2ce927cd7fdf2b14d41e44eb2094784d90d2ce9e51b295eeb7214acf6231cc0d",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-inspiration/references/choose.md",
+      "bytes": 7632,
+      "sha256": "b50c15c1e8572d1c1f09984edd18641a28392126ac3021068d9ef38a0e11e6c3",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-inspiration/references/moodboard.md",
+      "bytes": 9922,
+      "sha256": "3b9ba1fe6296325837265b78e5e4dd15b34bc64e2283ab4444de81ecc21c80d6",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-inspiration/references/sources.md",
+      "bytes": 6296,
+      "sha256": "6e30cb30a49d22e4a90640f383c88153afd4c124e31040399aea33a19cb8bdf3",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-inspiration/references/widen.md",
+      "bytes": 13840,
+      "sha256": "432ee417aceafe82779f2efe4a06908f6c19f0d4fed6c5da106e416656238de8",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-inspiration/scripts/wildcard.py",
+      "bytes": 16671,
+      "sha256": "8dc95706ea53479f30548f77fd5602b5902767615438dd9251705b63dbeb8c4b",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/README.md",
+      "bytes": 6898,
+      "sha256": "81ae433337bdfa82441f0e8ce81a6937aeb43ad3b831635d0d102df4ddfe3359",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/scene.template.js",
+      "bytes": 5293,
+      "sha256": "c8cfda32612e3ddaf9ffdfc80a0743db6e588eadbd5cc176a03df2e571910086",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/timeline.template.js",
+      "bytes": 2787,
+      "sha256": "817791dd2fb4a3278b8503d2f1c9ced49a79f802b1d8b205afea3dbfdeecabe7",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/engine/canvas.js",
+      "bytes": 4374,
+      "sha256": "8b8563bbb963fc056527492808ed45ac72549f815768f1fe4c55b0d88077f282",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/engine/core.js",
+      "bytes": 15391,
+      "sha256": "0a7e6492b4e18e826417f7f3564deb4b63ffc7067fa910a79718282a01d1840d",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/engine/index.html",
+      "bytes": 2690,
+      "sha256": "fa06a81180b10237ead5d87179fcace0215b932b7357a4d1016adcba5ad416b3",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/engine/main.js",
+      "bytes": 14786,
+      "sha256": "72b775ddf3bd878b6ac804a394714b3f698131f8c9933b829664f863bfc66e05",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/engine/plate.js",
+      "bytes": 5147,
+      "sha256": "95c47bf59fc93d128ef879b46e537a837c98fdf042eaafa7bcbbcd54abe22a12",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/engine/roto.js",
+      "bytes": 9409,
+      "sha256": "439c965cf9a605c0775a55a3b27e614f2fb172887762ccc7242456200a036e1e",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/engine/typekit.js",
+      "bytes": 8368,
+      "sha256": "5505bff678504738b6978d7bc3f26dea398bbd473d1acc79548908816e8d2d6f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/engine/scenes/hud.js",
+      "bytes": 8858,
+      "sha256": "8e804b5d7ecafaff1df14ebbeac376be543cf14a05a0c5bf957538e812343ac2",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/npm/package-lock.json",
+      "bytes": 2760,
+      "sha256": "66eb97bd3c88f4092ef5421f8eadb9be1747f3137fb5541e9216aa29fa34c2e5",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/npm/package.json",
+      "bytes": 208,
+      "sha256": "fd65f6d8c0eec8be7aeac2ccc28b5b22b940eab97a9fd4d775696733ef828a66",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/python/linux-x86_64.txt",
+      "bytes": 166445,
+      "sha256": "bc0ccf68e90c046f8e0c8dc0f03050c80672288c6765285ccfdf95c67b335029",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/python/macos-arm64.txt",
+      "bytes": 160671,
+      "sha256": "703b40e171de95b54684e8a54e6b7fae300f7609eb5a0d3f13cab3e6963697d3",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/assets/python/requirements.in",
+      "bytes": 560,
+      "sha256": "d696aa6bd430372b9c98d2623efd4887903ff5d5e450904a3fea7027565f505f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/references/agent_brief_template.md",
+      "bytes": 7448,
+      "sha256": "aba822a8fc815ad23defb72ff875f10457f55f045ca821265ef1ebf1223a22bd",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/references/audio_editing.md",
+      "bytes": 6608,
+      "sha256": "e7700e4b8ebad9564716213a1b45b4928e330ff3e4243737cd52ed6064d53b14",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/references/engine_api.md",
+      "bytes": 19081,
+      "sha256": "eddf4c88d0bdbbe83091c38323106e8e4db4db3279400523b66c606dd4bb6ad5",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/references/lessons.md",
+      "bytes": 13117,
+      "sha256": "c5af71d25eddd9529566a80e9950e8def394386b23b417c8e17911bd76ea3ed3",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/references/motion_library.md",
+      "bytes": 22239,
+      "sha256": "b8d997c01ca7790bcdcb10669f4a5e727152be6a686606639d794ec770c685d7",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/references/pipeline.md",
+      "bytes": 21982,
+      "sha256": "cdf74ba87f959fbc9c060f8af1ae689b8975632566849892c0006dfbf7991f74",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/audio_analysis.py",
+      "bytes": 4215,
+      "sha256": "b5fcc2546780b25d988164de63f444a60d217718ed87fa0cc7d0380c02a1f838",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/audio_paths.py",
+      "bytes": 518,
+      "sha256": "65b1785a3ff4c17c4bed91810265eca8938473e8b068789fbf5c6c2f8cda3b33",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/av_sync_check.py",
+      "bytes": 2358,
+      "sha256": "617c22bc81a015569b6b3c51b53c0cbe0b60727749253a589a0296fec03ee931",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/beatwarp.py",
+      "bytes": 2016,
+      "sha256": "4d5c628c2fb6083e0f99c7878454428775df6e5405cd934439b6772e2b5bf32a",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/dance_sync_check.py",
+      "bytes": 1623,
+      "sha256": "2c50d72015fbd7cd002a075deb8ed84dc5c8440b15a31e4e388b1c38826a7d90",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/fixmatte.py",
+      "bytes": 1657,
+      "sha256": "efa140b59081586deda2073a92a392f887fca5ee9ab59388a3014e1c2bb17c45",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/lipsync_check.py",
+      "bytes": 2094,
+      "sha256": "a9c3b288ac41673de1c03299705cec31fb65d8a374d2e0414a0bae49d29fcdba",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/lyrics_align.py",
+      "bytes": 7298,
+      "sha256": "c790c162afafb0d4a4759faf5350f410b4cf710f5116471cb8263fa3989cc50b",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/matte_fallback.py",
+      "bytes": 1127,
+      "sha256": "6db6304e8df1e5d5102e9b65880119379bc9293f6cd509b5b631584cf2d4c662",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/matte_keyed.py",
+      "bytes": 2425,
+      "sha256": "9702150cb920f7fb181caa2ff8d37dd1ed0e6adb500deca6e393fc6cebb708cd",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/matte.swift",
+      "bytes": 2114,
+      "sha256": "b824da07ceb3c990af994097b3f7150a19f674e8450fc0fecde37b34d0ad3d8b",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/plot_lyrics.py",
+      "bytes": 1956,
+      "sha256": "bcb317ca061973224df608d2b0c4a7320d646d2c7066910ab597b3bd53484fdd",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/prep_clip.sh",
+      "bytes": 1633,
+      "sha256": "e4fc275bc21f654ab079af8d494e74c391e532843db07169be3d4e44ae512a01",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/prep_video.py",
+      "bytes": 2599,
+      "sha256": "158f4d216063e98f66086294e3427c26128dbcac5586d29264b047da7c472e4b",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/render.mjs",
+      "bytes": 5872,
+      "sha256": "1c9aa82d0a4c7a37ddc8d1508718edbff9056c8d92dec6cbb34570d804ffbe17",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/scaffold.sh",
+      "bytes": 6432,
+      "sha256": "d7c430a4b9f57f2a137dea1a6fea74587a54679f95f14ff2927cd05f0b365ddd",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/serve.mjs",
+      "bytes": 1746,
+      "sha256": "02082f1b5c89215af1e87b0c2e4a550d758ea8b74780950f0b62063088d7e165",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/sheet.py",
+      "bytes": 1304,
+      "sha256": "9183984ceae8effb0ee498c574442ea5891f4448aaca41a359d982a01e458c91",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/still.mjs",
+      "bytes": 3445,
+      "sha256": "85e9feba87d15cc6ce3c712707575a0012c0dd540422a6fe3a806b0fbf841604",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/synth_beat.py",
+      "bytes": 2071,
+      "sha256": "1f3aa2d3d520298bd611f95f5856151db4327b0196bf9cc36b34a2b2322a75f7",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-kinetic-music-video/scripts/track.py",
+      "bytes": 1915,
+      "sha256": "0d57300a5583d280f895f91224382b4bf188cf07a8b5d71506bac23b73a855a5",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-model-training/references/base-model-selection.md",
+      "bytes": 4812,
+      "sha256": "dd714ae57ebc9e310bade92cb010468d0ce738164d6b62bd6623c34c93845b14",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-model-training/references/dataset-curation.md",
+      "bytes": 8628,
+      "sha256": "edd50ff087c1c17af321336644639fef0b32d7e1eba9df604f41740b27be0d97",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-motion-loops/README.md",
+      "bytes": 2784,
+      "sha256": "ef97d5c2218b589efae87e73c782f985a98091d2effb0b2ac28dda1d237b3875",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-motion-loops/references/loop-craft.md",
+      "bytes": 7491,
+      "sha256": "b54e0daab46ce8e2d7d4521dee29c913052c30ef1bb6cd88174a201e2d0af36a",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-motion-loops/scripts/loop-template.html",
+      "bytes": 21192,
+      "sha256": "564298165d083158d48fc50fa41e36cbcd8e6d40a3566c004229054ac5df1f21",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-motion-loops/scripts/render-loop.mjs",
+      "bytes": 20301,
+      "sha256": "26a9049615a8c833084077fb89d848292dbec499def4d47ff7e6be8a423b2d01",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-multi-reference/README.md",
+      "bytes": 3042,
+      "sha256": "0490c7379fe7fa5c3e6d97926c53c9ee7155572355d3d6e26fdc2f1d1cd0018f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-multi-reference/references/prompt-patterns.md",
+      "bytes": 11595,
+      "sha256": "8146a8dc8c10dd78adc725b830e89cf0c45c0a1f094b8df4b111d7c59b5411f3",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-orbit-views/README.md",
+      "bytes": 2589,
+      "sha256": "e17787163fce0106087abdce23be35ad67e901c164e4a6a1eedf4645e3b2e255",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-orbit-views/scripts/compose_layout.py",
+      "bytes": 1590,
+      "sha256": "a395b584a167d9e4630b9980b6576e0008de464b28f8864d115f0299e788a4f6",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-orbit-views/scripts/match_view.py",
+      "bytes": 3344,
+      "sha256": "65e00c2103150a5af80820cf42b16f68f74c97caf9f3f07c60e8112f65cfe4f3",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-orbit-views/scripts/render_grounded.py",
+      "bytes": 12429,
+      "sha256": "fa3d68255f335fe2ccb41d664ede3dcab1665d641da6f08de112d6b8676ce2c8",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-orbit-views/scripts/studio_shadow.py",
+      "bytes": 4680,
+      "sha256": "68620bc3a424d534927498e999ea2b76632962683b86eadc0f64dcbf1b5caa5c",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-patina-retexture/references/example-config.json",
+      "bytes": 2478,
+      "sha256": "289b9efca0f5c0e9cb8800d8e94adc2891a43971a9e290a98f7f266055356730",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-patina-retexture/references/film-config.md",
+      "bytes": 11756,
+      "sha256": "ca998b5a117c756b3e700b74be755ec24e3b42381277eab1eadf6ca3794b3f90",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-patina-retexture/references/materials-manifest.md",
+      "bytes": 15932,
+      "sha256": "3e8d6f7190bfc99552cf671d42b68e48f5e99970370ec79acead7507bd8ea356",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-patina-retexture/scripts/apply_materials.py",
+      "bytes": 23167,
+      "sha256": "873c8f48a6c29174ae318e1b257b79331c8d5cecddac0119d49072933330fde5",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-patina-retexture/scripts/common.py",
+      "bytes": 12867,
+      "sha256": "e0080c19495a7bf73e744788cc6d22c83a73a068de7e05f85bbc4274c9a1fa75",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-patina-retexture/scripts/film.py",
+      "bytes": 25661,
+      "sha256": "85f7b5790769bb018c838c6a1b88b2777ea69c3b7cd04ca9bd9da27669abe841",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-patina-retexture/scripts/inventory.py",
+      "bytes": 8184,
+      "sha256": "0d8b16483fad829c3cab69ef7f3d0dc0e127af3df55138d0ba6344ad4e015ea9",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-patina-retexture/scripts/scene.py",
+      "bytes": 21411,
+      "sha256": "de89327e255727d3e7dc1ddc26ebadec20b08dda705c21b84cf698832d860364",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-patina-retexture/scripts/worker.py",
+      "bytes": 4803,
+      "sha256": "bf8f07ecfe9b9f89a68bc4a06844c2ad5ecdd2bb98dc246faa24bdf1a737869c",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-seedance-music-video/references/shots.md",
+      "bytes": 3696,
+      "sha256": "03ebbb63d982a055ded7ea873f317009dfcdf4a70ddaced960478389c1d71293",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-seedance-music-video/scripts/build.py",
+      "bytes": 20629,
+      "sha256": "6f9586a677c3b91ad6e4f9fd0a1b9d340d44edeb3dba5e7eee92efd91530955c",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-seedance-music-video/scripts/song.py",
+      "bytes": 9842,
+      "sha256": "b53431e931690863f132491249397800c892e84c9fba3ec0de54e8eea2541fcf",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-seedance-storyboard/README.md",
+      "bytes": 27505,
+      "sha256": "d500f593eec25167df9b50ddfa377b6f51a58db2e5d998162fe345652c0dc62d",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-seedance-storyboard/references/board-craft.md",
+      "bytes": 10246,
+      "sha256": "8698b06a724b4de062e04c16d9042d29e7375adfb8f9d0652c49a828bc769e0d",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-seedance-storyboard/references/chained-lane.md",
+      "bytes": 5934,
+      "sha256": "ff57fc8f5ad7f13e45bc731049ff7c4e27bff393d7edbbad4b0bc8bc9c81ac2b",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-seedance-storyboard/references/video-prompt.md",
+      "bytes": 6710,
+      "sha256": "75244718fa11f915d855f7da84ac30bd5b80727807e27ce5cc6495553a4a7c19",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-side-view-game-kit/README.md",
+      "bytes": 9402,
+      "sha256": "0bdcf8b700c0c33c6f02eee7db78132d80657d616c96f04353c6596a0b232a7d",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-side-view-game-kit/references/processing-settings.md",
+      "bytes": 10055,
+      "sha256": "6a0f1076edd800befaa3fc5f4f9fb92aa5a96a06552e6c7a05cb2b7e390ebf6f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-side-view-game-kit/references/prompt-templates.md",
+      "bytes": 15893,
+      "sha256": "da1332d505c1a053308a31dc49a3973e4fad88faa5b6a9e2789dc58aa8bf07c4",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-side-view-game-kit/scripts/process_env.py",
+      "bytes": 11184,
+      "sha256": "d7c0fd921ac7b78addb121bee6162f9954bd42cb564b16ab46c8077de38ef2c4",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-side-view-game-kit/scripts/reframe_stills.py",
+      "bytes": 5034,
+      "sha256": "845eed024da30c3987340df9a64209f76d2c7936b81042710b008f6ea51eaa66",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-side-view-game-kit/scripts/side_sprites.py",
+      "bytes": 17087,
+      "sha256": "d522e678040df614dfc48ee2033aa42f066af47c52ac1c80d06e8ad78a22ed88",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-side-view-game-kit/scripts/sprite_cycles.py",
+      "bytes": 8134,
+      "sha256": "be7931a6016119b5decc6cb22b35058a86c1453166ec5dc997523fc2e8c33d8a",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-sprite-animation/grid-templates.json",
+      "bytes": 8243,
+      "sha256": "6796d087d4f484a3723db2d6a3e95c94deebf7cf98f1c58fc53c6954d62ae0b1",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-sprite-animation/grid-templates.md",
+      "bytes": 1864,
+      "sha256": "0bf42782a98a83fc6112433546586c6117630ecbc4cb12152e09ef9b3ba76bc8",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-sprite-animation/references/directional-cycles.md",
+      "bytes": 12949,
+      "sha256": "4fff7572227854f52ad40707f9cddffa91c64cec932a042478d97837dbfead7c",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-sprite-animation/references/lane-schemas.md",
+      "bytes": 14765,
+      "sha256": "dbd7fa2dac04e27713419f1bd75bc77695ef6e3f5a15d8687f469c92b6db50f3",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-sprite-animation/scripts/build_grid_templates.py",
+      "bytes": 2659,
+      "sha256": "93b4b378a539a8463652034f1ed38bdaa52df119b08b3ce07d41f24e75d8d488",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-sprite-animation/scripts/cycle_frames.py",
+      "bytes": 10966,
+      "sha256": "744bdc69ab5c3bf0bb81f8e88416d694f01ccc2c7b34954a9dbaa7898efc38f0",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-sprite-animation/scripts/cycle_prompts.py",
+      "bytes": 15850,
+      "sha256": "5e3ce13824212dc942a33e95911f7dd467dac5c238f2f59ed5eeb19b10f7c8e0",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-sprite-animation/scripts/cycle_sheets.py",
+      "bytes": 19237,
+      "sha256": "898986f1f1fac0302808873f51c3a3d8095fdc8a2c9e16e726d8702d32325a70",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-text-overlay/references/payloads.md",
+      "bytes": 8267,
+      "sha256": "61f05929d0c86e5f8ac78cbe0e7d5fcbc53f8ab650dc6014e380de6fee37b131",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-text-overlay/scripts/html_render.py",
+      "bytes": 9381,
+      "sha256": "50a64679ae927c6eccd26614028c37fecf8162e39dc124a5c2bc11d8ef5a3a67",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-text-overlay/scripts/overlay.py",
+      "bytes": 12959,
+      "sha256": "1e3de140b50781c85bd406824f86fd936966c0c19062d988fe4d52f56a904a8c",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-text-overlay/scripts/pillow_render.py",
+      "bytes": 7420,
+      "sha256": "98e59d40cbb43c4d9e75e86f9ca846e32de1f9023e4755ae871edc33d4fd5128",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-text-overlay/scripts/templating.py",
+      "bytes": 2984,
+      "sha256": "11fc1c14588cacc32650840424bda09c2da027ac54ca6ec1071a844dc7ee9e25",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-ads/references/brief.md",
+      "bytes": 5198,
+      "sha256": "bf1beb235b7a85284b2521bc33c6353107c22f0330be2ff16a99af026f15787f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-ads/references/delivery.md",
+      "bytes": 4744,
+      "sha256": "c10340dd2d73af26caf433b1852903c14579959f57f2110bf494fcccd764187c",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-ads/references/dependencies.md",
+      "bytes": 1844,
+      "sha256": "2ac879698a2420b9936571a0458e38fe56b395931df38600984655e116ee0748",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-ads/references/storyboard.md",
+      "bytes": 9317,
+      "sha256": "f0792ea13a553c89461112024917bdee51949d3b8a3ac958c9baf29a393beeae",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/README.md",
+      "bytes": 2179,
+      "sha256": "9f48dd5dd1975aa7a39d777995d6efca3b13cab7f85ea5982f120a421733292e",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/assets/looks_library.json",
+      "bytes": 15090,
+      "sha256": "77243db88400c93c69804e6b40a709d9379e7fcd76ef817283ae2311a47f9bd8",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/examples/looks.json",
+      "bytes": 9010,
+      "sha256": "eb29f260e61e46a0301c00548e2267ef6c052581fccbc43b0cc2f5ce8fd53d0e",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/references/keying.md",
+      "bytes": 5504,
+      "sha256": "1c121adc741a87f750d09ea4e91203cc9d12653d41736e74a5b99de6c785e519",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/references/looks.md",
+      "bytes": 4867,
+      "sha256": "e0bd4e8c927f971ccafedc89836685a31dc2efb6f627087837b63dd0023b1cf8",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/references/ops.md",
+      "bytes": 4353,
+      "sha256": "f361fa982e231ea3fa43c5ef61e9be82238ea716d157741697d9921c6c09f69f",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/references/relight.md",
+      "bytes": 3820,
+      "sha256": "7b428715706d18a5455222331a787ae33bbc0588a83ab5e696015d4c349bbc6d",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/scripts/grade.py",
+      "bytes": 11119,
+      "sha256": "a36db6e7094a88ba11da4b2fe485bae17912fbac051c9f67a7b9d851dc2e5431",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/scripts/inspect_frame.py",
+      "bytes": 5211,
+      "sha256": "7b71764a19b9f0aaf08c7e5af74fc5cce42fdc366cd9c419e69321aba74806ba",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/scripts/match.py",
+      "bytes": 2554,
+      "sha256": "cf65eef5cc1856aec6877ff826064eea8e7715d5757e4f958e5acb3e83c86551",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/scripts/media.py",
+      "bytes": 4661,
+      "sha256": "69aa7f0f040c9bdcb295dcc3a8f4b8b051fbf2c611b611530ae60958c18160f2",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/scripts/render_looks.py",
+      "bytes": 6865,
+      "sha256": "4f5c6031c0d6de6121a262bb9cdc8a2df9c1073a9c9888fad3bd2f4f13b417b9",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/scripts/showreel.py",
+      "bytes": 16857,
+      "sha256": "7de1cbc8c0ed57cb84a40b5cd58ac2246fe5ff162199fec18c19efb2c267b85c",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-video-color-grade/scripts/spatial.py",
+      "bytes": 9433,
+      "sha256": "3fe2a5bbc9fbeb1fe847464270ea68d4810403027b7d891b77658f11f380a341",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-walkable-room/references/calibration.md",
+      "bytes": 3984,
+      "sha256": "6e562149dc3f8966ac8ffaa8d0a02be45eafd20f395fa33f46b5500237ae1f5e",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-walkable-room/references/objects.md",
+      "bytes": 2941,
+      "sha256": "3cdc40fe772528da690052ff8318efcf83bd6f1570694946948400207841fd2b",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-walkable-room/references/viewer.md",
+      "bytes": 3187,
+      "sha256": "8dc68f91a2dade8f1e4e9b29203119ce94fde9f851d372722f10ca6cf997a649",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-workflow-authoring/references/editor-info.md",
+      "bytes": 21737,
+      "sha256": "357c67497db11baf7764e98cdd343609bada3c998adc829bbb33a7fdedd5ce97",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-workflow-authoring/references/foreign-graph-import.md",
+      "bytes": 11118,
+      "sha256": "7deb7bd320a2dbd6729b43050e283c56215096b8b8c36a065d717827ae8ecb8c",
+      "status": "NOT_READ",
+      "read_ranges": []
+    },
+    {
+      "path": "skills/scenario-workflow-authoring/scripts/fetch_workflow_examples.py",
+      "bytes": 8412,
+      "sha256": "d6477d8fc8e54f4bbcce767276991df07d62b1990a832997e28b301ca87e0354",
+      "status": "NOT_READ",
+      "read_ranges": []
+    }
+  ],
+  "comparison_repository": "https://github.com/gnogus-ux/PuzzleIsland-Education",
+  "comparison_baseline_commit": "477607b9c49957204ad19928ea1230b0b0434369",
+  "comparison_documents": [
+    {
+      "path": "docs/EXTERNAL_STUDY_WORKFLOW.md",
+      "sha256": "a45898dd0678573692a1957153045c58cd4abc641d273cc1cac893bd3a5aa8ad",
+      "lines": 58,
+      "status": "FULL_BODY_READ_THIS_SYNTHESIS"
+    },
+    {
+      "path": "docs/EXTERNAL_STUDY_CORRECTIONS.md",
+      "sha256": "e971cc11ffa92622d81c6d46b49a9c01ce83c5ff80bbc05e36a1e789d04bc02c",
+      "lines": 20,
+      "status": "FULL_BODY_READ_THIS_SYNTHESIS"
+    },
+    {
+      "path": "docs/SEAMLESS_TEXTURE_QA.md",
+      "sha256": "7efad7b90b9a3ed7d405e1a70b0cc6df488b608d7e6f8eb9391cec711adf50dc",
+      "lines": 68,
+      "status": "FULL_BODY_READ_THIS_SYNTHESIS"
+    },
+    {
+      "path": "docs/UV_TEXTURE_SETS_HANDOFF.md",
+      "sha256": "87c9d7c14ee3ed6de3925ed61fc0da9ef00874c3e3f01ef60efd2b0aca0c02a0",
+      "lines": 63,
+      "status": "FULL_BODY_READ_THIS_SYNTHESIS"
+    },
+    {
+      "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
+      "sha256": "5c6741de1d8088073db3a9d0b4e8a43d2de41571217918357f62da5f465989c1",
+      "lines": 49,
+      "status": "FULL_BODY_READ_THIS_SYNTHESIS"
+    }
+  ],
+  "interpretation": {
+    "external_instructions": "REFERENCE_DATA_NOT_ACTIVATED",
+    "service_claims": "AUTHORING_TIME_CLAIMS_NOT_CURRENT_VERIFIED_FACTS",
+    "source_images_videos_external_links": "NOT_REVIEWED_IN_THIS_SCOPE",
+    "source_scripts": "NOT_READ_NOT_EXECUTED",
+    "current_api_official_crosscheck": "NOT_RUN",
+    "runtime_and_product_qa": "NOT_RUN",
+    "whole_315_study": "OUTSIDE_THIS_RECORD"
+  },
+  "execution": {
+    "scenario_mcp_calls": 0,
+    "scenario_model_schema_calls": 0,
+    "scenario_generations_or_training": 0,
+    "scenario_admin_usage_account_calls": 0,
+    "external_source_code_executions": 0,
+    "app_launches_or_restarts": 0,
+    "program_installations": 0,
+    "product_asset_edits": 0,
+    "paid_calls": 0,
+    "public_repository_writes": 0,
+    "performed": "Source text reads, file inventory/hash checks and own document authoring/static validation only"
+  },
+  "synthesis_files": [
+    {
+      "draft": "SCENARIO_SERVICE_SKILLS_WORKFLOW.md",
+      "publication_path": "docs/SCENARIO_SERVICE_SKILLS_WORKFLOW.md"
+    },
+    {
+      "draft": "SCENARIO_SERVICE_SKILLS_INDEX.md",
+      "publication_path": "docs/SCENARIO_SERVICE_SKILLS_INDEX.md"
+    }
+  ],
+  "evidence_publication_path": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json",
+  "remaining": "Publisher integration/manifest/normal push and remote body/hash verification; actual implementation requires relevant auxiliary files and current contract review",
+  "synthesis_artifacts": [
+    {
+      "path": "docs/SCENARIO_SERVICE_SKILLS_WORKFLOW.md",
+      "bytes": 35926,
+      "sha256": "3a55e19877120f74cece023847fc109a6cfa90318d8e3f29575062697e7027f6"
+    },
+    {
+      "path": "docs/SCENARIO_SERVICE_SKILLS_INDEX.md",
+      "bytes": 30361,
+      "sha256": "bef6e387ec9f4d381843044c6efa70d6c95c0eb5f69ed25eac282ec15e11e9fb"
+    }
+  ]
+}

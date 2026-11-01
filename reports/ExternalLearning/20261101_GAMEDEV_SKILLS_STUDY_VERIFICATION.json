@@ -1,0 +1,2479 @@
+{
+  "schema_version": 1,
+  "study_date": "2026-11-01",
+  "language": "ko",
+  "status": "DOCUMENT_STUDY_COMPLETE_HANDS_ON_NOT_RUN",
+  "source": {
+    "repository": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+    "license": "Apache-2.0",
+    "attribution": "Abhishek Barali and contributors",
+    "hash_scope": "SHA-256 of actual local imported working-tree file bytes; line ranges count UTF-8-sig decoded splitlines; not Git blob IDs; CRLF may differ from canonical Git bytes"
+  },
+  "scope": {
+    "skill_files": 78,
+    "router": 1,
+    "task_skills": 77,
+    "skill_lines": 13114,
+    "skill_bytes": 668639,
+    "supplementary_full_read": 14,
+    "existing_public_documents_full_read": 8,
+    "all_skill_bodies_read": true,
+    "all_references_read": false
+  },
+  "skills": [
+    {
+      "index": 0,
+      "path": "router/SKILL.md",
+      "bytes": 18959,
+      "sha256": "bf41c3ebc0db5e893135f166771b6fd43cbda07c7fa5bfff5e5dcbbef101d3e7",
+      "lines": 266,
+      "read_ranges": [
+        [
+          1,
+          266
+        ]
+      ]
+    },
+    {
+      "index": 1,
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/SKILL.md",
+      "bytes": 9412,
+      "sha256": "2eb3dc95a34c780952ffd314d7945e3c47296b08671bfbe79996a88e79365a9e",
+      "lines": 177,
+      "read_ranges": [
+        [
+          1,
+          177
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "path": "skills/disciplines/audio-design/SKILL.md",
+      "bytes": 9752,
+      "sha256": "b537036014f7765712d1035f3da314c8ff898ac492e491c6e82a488d03417db5",
+      "lines": 190,
+      "read_ranges": [
+        [
+          1,
+          190
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "path": "skills/disciplines/camera-systems/SKILL.md",
+      "bytes": 9413,
+      "sha256": "3c590facf57b2110c59d9e245b3078c0d4c20ebbfe723507914575c4cb36f9ee",
+      "lines": 163,
+      "read_ranges": [
+        [
+          1,
+          163
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "path": "skills/disciplines/create-game-assets/SKILL.md",
+      "bytes": 8289,
+      "sha256": "c7c6da3d7bd528ff79934ac7556097cca4288fb321449d5acfa8e45fbba88b20",
+      "lines": 137,
+      "read_ranges": [
+        [
+          1,
+          137
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "path": "skills/disciplines/dialogue-systems/SKILL.md",
+      "bytes": 8101,
+      "sha256": "d1d8017c461df157a870723d530ee2cd9c9606c775992e3802a84a528a3a7279",
+      "lines": 182,
+      "read_ranges": [
+        [
+          1,
+          182
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "path": "skills/disciplines/game-ai/SKILL.md",
+      "bytes": 8494,
+      "sha256": "34d199045a44226ce6ed0cc7e3f4e0b29d862fe12033a5f4a65c155acf81a2e3",
+      "lines": 179,
+      "read_ranges": [
+        [
+          1,
+          179
+        ]
+      ]
+    },
+    {
+      "index": 7,
+      "path": "skills/disciplines/game-feel/SKILL.md",
+      "bytes": 9694,
+      "sha256": "67900d0e41630914e1a45b55aced3321550f87b26d34e439d3952dd803e9c842",
+      "lines": 174,
+      "read_ranges": [
+        [
+          1,
+          174
+        ]
+      ]
+    },
+    {
+      "index": 8,
+      "path": "skills/disciplines/game-ui-ux/SKILL.md",
+      "bytes": 10257,
+      "sha256": "8916cd1da6df6e53cf316e9024657c5c178f7e7750e79eeea93bfd44cf9acd54",
+      "lines": 167,
+      "read_ranges": [
+        [
+          1,
+          167
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "path": "skills/disciplines/input-systems/SKILL.md",
+      "bytes": 11124,
+      "sha256": "70112718392e1e0a62cd335a5fe8c6272128e18728b1e40c6f8a75001bbef9b4",
+      "lines": 211,
+      "read_ranges": [
+        [
+          1,
+          211
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "path": "skills/disciplines/level-design/SKILL.md",
+      "bytes": 9076,
+      "sha256": "51e8368cc1a78faae3467ee73ec03c7c7aae7e45991639a09441832aca9694d2",
+      "lines": 169,
+      "read_ranges": [
+        [
+          1,
+          169
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "path": "skills/disciplines/performance-optimization/SKILL.md",
+      "bytes": 10457,
+      "sha256": "9c68d80b13943b246b0e1b8c35747ab4de700d3deb1ce2a0d3f65eba1b8da731",
+      "lines": 172,
+      "read_ranges": [
+        [
+          1,
+          172
+        ]
+      ]
+    },
+    {
+      "index": 12,
+      "path": "skills/disciplines/physics-tuning/SKILL.md",
+      "bytes": 8872,
+      "sha256": "b0ff90eb85509cfa3ca9e27f989b637160903479e57daa2011be9101cbd4913c",
+      "lines": 164,
+      "read_ranges": [
+        [
+          1,
+          164
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "path": "skills/disciplines/procedural-gen/SKILL.md",
+      "bytes": 8803,
+      "sha256": "6a58c287b7c656a63912f7a5ca32a96be274ba7d9525c7b9670235356403583b",
+      "lines": 173,
+      "read_ranges": [
+        [
+          1,
+          173
+        ]
+      ]
+    },
+    {
+      "index": 14,
+      "path": "skills/disciplines/save-systems/SKILL.md",
+      "bytes": 9432,
+      "sha256": "14bfd8e49c2c7ceead27d22ec6b6ee7a5cfe661386d2f12d8627f6fd701da437",
+      "lines": 191,
+      "read_ranges": [
+        [
+          1,
+          191
+        ]
+      ]
+    },
+    {
+      "index": 15,
+      "path": "skills/disciplines/shader-programming/SKILL.md",
+      "bytes": 8530,
+      "sha256": "0c6f870c73b8ede7d01bdc8d5c66045cc0ded80293bc28962d72d763daa33485",
+      "lines": 170,
+      "read_ranges": [
+        [
+          1,
+          170
+        ]
+      ]
+    },
+    {
+      "index": 16,
+      "path": "skills/ebitengine/ebitengine-game/SKILL.md",
+      "bytes": 12423,
+      "sha256": "fdbb3f6cb791f70becf00f8bedf8b302a1d8e5e02c4a824906b6bd4fca5831ab",
+      "lines": 213,
+      "read_ranges": [
+        [
+          1,
+          213
+        ]
+      ]
+    },
+    {
+      "index": 17,
+      "path": "skills/genres/card-game/SKILL.md",
+      "bytes": 7231,
+      "sha256": "55cb3ab85d2ab66f787eddb2001805e641d70a7822b8a9f7f174b9174d5eea02",
+      "lines": 138,
+      "read_ranges": [
+        [
+          1,
+          138
+        ]
+      ]
+    },
+    {
+      "index": 18,
+      "path": "skills/genres/fps-shooter/SKILL.md",
+      "bytes": 6834,
+      "sha256": "eb74c6f841f65dee5a44feb07c9f082c667c34b516d260e6787365f76b9ac64d",
+      "lines": 123,
+      "read_ranges": [
+        [
+          1,
+          123
+        ]
+      ]
+    },
+    {
+      "index": 19,
+      "path": "skills/genres/platformer/SKILL.md",
+      "bytes": 8351,
+      "sha256": "1d5c688c33a9ca4562070878b84c88cc687681dcfea842c121d25a0620f74cba",
+      "lines": 153,
+      "read_ranges": [
+        [
+          1,
+          153
+        ]
+      ]
+    },
+    {
+      "index": 20,
+      "path": "skills/genres/puzzle/SKILL.md",
+      "bytes": 7398,
+      "sha256": "2923586901c4998a5bc5deb2235038e6161e7f927d45b8e8ea6b4c7c7327a384",
+      "lines": 143,
+      "read_ranges": [
+        [
+          1,
+          143
+        ]
+      ]
+    },
+    {
+      "index": 21,
+      "path": "skills/genres/roguelike/SKILL.md",
+      "bytes": 8148,
+      "sha256": "52e1d3ce27ac16ed84da23c9588d2456a8cbb0938d35ca3b13d5b396e65a0332",
+      "lines": 142,
+      "read_ranges": [
+        [
+          1,
+          142
+        ]
+      ]
+    },
+    {
+      "index": 22,
+      "path": "skills/genres/rpg/SKILL.md",
+      "bytes": 7220,
+      "sha256": "370d9b73048f8760576595bdb14924f14f8fe48e2c17853a4e5c87d3b24877c5",
+      "lines": 141,
+      "read_ranges": [
+        [
+          1,
+          141
+        ]
+      ]
+    },
+    {
+      "index": 23,
+      "path": "skills/genres/survival-crafting/SKILL.md",
+      "bytes": 8004,
+      "sha256": "174e15b32251a31feab0c1edf81240d6327eba974ae78f2a1e0e9f16f93a3420",
+      "lines": 148,
+      "read_ranges": [
+        [
+          1,
+          148
+        ]
+      ]
+    },
+    {
+      "index": 24,
+      "path": "skills/genres/tower-defense/SKILL.md",
+      "bytes": 7025,
+      "sha256": "09f6f329e7178ff853b4a4dc0ef148f121fc5296c2a942585fdfe1b3cc502d8c",
+      "lines": 124,
+      "read_ranges": [
+        [
+          1,
+          124
+        ]
+      ]
+    },
+    {
+      "index": 25,
+      "path": "skills/genres/visual-novel/SKILL.md",
+      "bytes": 8383,
+      "sha256": "c777292dd2032f6eec2eb0e75afaa3303a399e4f6caa0d01499b81af127c2d87",
+      "lines": 153,
+      "read_ranges": [
+        [
+          1,
+          153
+        ]
+      ]
+    },
+    {
+      "index": 26,
+      "path": "skills/godot/godot-2d-movement/SKILL.md",
+      "bytes": 6431,
+      "sha256": "33c8ba750530ee12bb71ea49fd077db495dc7ae6b1e1076786c5fb9661c74502",
+      "lines": 154,
+      "read_ranges": [
+        [
+          1,
+          154
+        ]
+      ]
+    },
+    {
+      "index": 27,
+      "path": "skills/godot/godot-3d-essentials/SKILL.md",
+      "bytes": 6093,
+      "sha256": "34cefc1451b6f1ccac3cd60e8f8b4ec453af1e834d6466bd7c1e8506e2bbc556",
+      "lines": 140,
+      "read_ranges": [
+        [
+          1,
+          140
+        ]
+      ]
+    },
+    {
+      "index": 28,
+      "path": "skills/godot/godot-animation/SKILL.md",
+      "bytes": 6117,
+      "sha256": "92007692a8956c31bded0552c804c49c10efc8c0cff9444ef026605db279f40c",
+      "lines": 130,
+      "read_ranges": [
+        [
+          1,
+          130
+        ]
+      ]
+    },
+    {
+      "index": 29,
+      "path": "skills/godot/godot-audio/SKILL.md",
+      "bytes": 5668,
+      "sha256": "720da9054685670c09787b69ea893e4cddc292860ebf4d601605f9102f09926a",
+      "lines": 125,
+      "read_ranges": [
+        [
+          1,
+          125
+        ]
+      ]
+    },
+    {
+      "index": 30,
+      "path": "skills/godot/godot-csharp/SKILL.md",
+      "bytes": 6949,
+      "sha256": "8d62d7e94020608bcf253c19d3f227b14088563a801fa7a11b6d1449221a0725",
+      "lines": 172,
+      "read_ranges": [
+        [
+          1,
+          172
+        ]
+      ]
+    },
+    {
+      "index": 31,
+      "path": "skills/godot/godot-export/SKILL.md",
+      "bytes": 6150,
+      "sha256": "095177a5322056fbf8949b38213717c9e6f5b1f92e080fd40851a50a56afbe46",
+      "lines": 129,
+      "read_ranges": [
+        [
+          1,
+          129
+        ]
+      ]
+    },
+    {
+      "index": 32,
+      "path": "skills/godot/godot-gdscript/SKILL.md",
+      "bytes": 5858,
+      "sha256": "a46809d73f9071cdc211f444726b60139519cb8cea776444fb05bc44655cbab4",
+      "lines": 135,
+      "read_ranges": [
+        [
+          1,
+          135
+        ]
+      ]
+    },
+    {
+      "index": 33,
+      "path": "skills/godot/godot-gdscript-headless-testing/SKILL.md",
+      "bytes": 10067,
+      "sha256": "22f5403f3d27e6ad11ccc975fac6107f5a08de4b1f640b5cf58d6e02c47ee5c7",
+      "lines": 201,
+      "read_ranges": [
+        [
+          1,
+          201
+        ]
+      ]
+    },
+    {
+      "index": 34,
+      "path": "skills/godot/godot-multiplayer/SKILL.md",
+      "bytes": 7697,
+      "sha256": "62bdf9fa9dfb89f546c4ce1c25c9192cca6875dab016addd703d4a324d439083",
+      "lines": 167,
+      "read_ranges": [
+        [
+          1,
+          167
+        ]
+      ]
+    },
+    {
+      "index": 35,
+      "path": "skills/godot/godot-nodes-scenes/SKILL.md",
+      "bytes": 6753,
+      "sha256": "03cb03554281e0e424a4127607c6799d6f05f27d273bf1c55ba2de164c5f5b2c",
+      "lines": 136,
+      "read_ranges": [
+        [
+          1,
+          136
+        ]
+      ]
+    },
+    {
+      "index": 36,
+      "path": "skills/godot/godot-physics/SKILL.md",
+      "bytes": 9113,
+      "sha256": "61a90d986b667c71547fc555f61d8df487732ba868d4612d6411ae8c04eaed72",
+      "lines": 177,
+      "read_ranges": [
+        [
+          1,
+          177
+        ]
+      ]
+    },
+    {
+      "index": 37,
+      "path": "skills/godot/godot-resources/SKILL.md",
+      "bytes": 5590,
+      "sha256": "3bd20b0230943ce4822552488c85fc6e9014f553e1ee1bff5470ba39789844d8",
+      "lines": 126,
+      "read_ranges": [
+        [
+          1,
+          126
+        ]
+      ]
+    },
+    {
+      "index": 38,
+      "path": "skills/godot/godot-shaders/SKILL.md",
+      "bytes": 6056,
+      "sha256": "18494fa2491b87cbe5c84c2c8922fbab2e22da8bc6196a00c070b2fa6192d1cd",
+      "lines": 148,
+      "read_ranges": [
+        [
+          1,
+          148
+        ]
+      ]
+    },
+    {
+      "index": 39,
+      "path": "skills/godot/godot-signals-groups/SKILL.md",
+      "bytes": 5452,
+      "sha256": "0892fd50b91f93a6dc5f7750587fa51d1389cd334d4039bfa2c8fb9720b39868",
+      "lines": 134,
+      "read_ranges": [
+        [
+          1,
+          134
+        ]
+      ]
+    },
+    {
+      "index": 40,
+      "path": "skills/godot/godot-tilemap/SKILL.md",
+      "bytes": 6218,
+      "sha256": "021b561343b79f6606ed178b307ad85120588bf1e608319144b4b15df2e6ff6d",
+      "lines": 134,
+      "read_ranges": [
+        [
+          1,
+          134
+        ]
+      ]
+    },
+    {
+      "index": 41,
+      "path": "skills/godot/godot-ui-control/SKILL.md",
+      "bytes": 6329,
+      "sha256": "e2e05419a2e902448992050ceae1e45013b7c9d1eb54371b6fdd1b3214154bad",
+      "lines": 131,
+      "read_ranges": [
+        [
+          1,
+          131
+        ]
+      ]
+    },
+    {
+      "index": 42,
+      "path": "skills/other-engines/bevy-ecs/SKILL.md",
+      "bytes": 10428,
+      "sha256": "b34e88dcdfc5b4e385487e70a17b47b4fad9a7547938fc76bc2d23cd0d9dc11d",
+      "lines": 232,
+      "read_ranges": [
+        [
+          1,
+          232
+        ]
+      ]
+    },
+    {
+      "index": 43,
+      "path": "skills/other-engines/defold-core/SKILL.md",
+      "bytes": 13188,
+      "sha256": "d5a27593e3fa2c786501076c359ce082ea56cc6e9c98066a2805c6ade78fc41e",
+      "lines": 265,
+      "read_ranges": [
+        [
+          1,
+          265
+        ]
+      ]
+    },
+    {
+      "index": 44,
+      "path": "skills/other-engines/love2d-core/SKILL.md",
+      "bytes": 6912,
+      "sha256": "32601d08ba09afa80ef5dee8dbdf40bf31bd97b165177b5243196b6ea2182c71",
+      "lines": 150,
+      "read_ranges": [
+        [
+          1,
+          150
+        ]
+      ]
+    },
+    {
+      "index": 45,
+      "path": "skills/other-engines/pygame-core/SKILL.md",
+      "bytes": 8016,
+      "sha256": "908ff45097ab34da9fa734cf0d6095361b8910524a3e145d4daff8420f92a343",
+      "lines": 192,
+      "read_ranges": [
+        [
+          1,
+          192
+        ]
+      ]
+    },
+    {
+      "index": 46,
+      "path": "skills/other-engines/roblox-characters/SKILL.md",
+      "bytes": 9194,
+      "sha256": "12349b54046cec0aec4e441f5a1f7d7517bbe3e622497b7916a8e4a2a93e9bb1",
+      "lines": 168,
+      "read_ranges": [
+        [
+          1,
+          168
+        ]
+      ]
+    },
+    {
+      "index": 47,
+      "path": "skills/other-engines/roblox-datastores/SKILL.md",
+      "bytes": 9225,
+      "sha256": "19d59117873bc1cb758c221514b9995c91731672ac68e974a6e582b023e90aa1",
+      "lines": 211,
+      "read_ranges": [
+        [
+          1,
+          211
+        ]
+      ]
+    },
+    {
+      "index": 48,
+      "path": "skills/other-engines/roblox-luau/SKILL.md",
+      "bytes": 9846,
+      "sha256": "13cd9260eab1e7672fb27691600f68d4b65114064fff4f69f15261a258f3f6df",
+      "lines": 212,
+      "read_ranges": [
+        [
+          1,
+          212
+        ]
+      ]
+    },
+    {
+      "index": 49,
+      "path": "skills/other-engines/roblox-networking/SKILL.md",
+      "bytes": 12690,
+      "sha256": "e71b671d160fa85ace13075cf4b920d0dd565d96513ae0acaa79b00b3d837440",
+      "lines": 213,
+      "read_ranges": [
+        [
+          1,
+          213
+        ]
+      ]
+    },
+    {
+      "index": 50,
+      "path": "skills/other-engines/roblox-physics/SKILL.md",
+      "bytes": 8906,
+      "sha256": "2d16e2a9bb6c7aa40b0df0a546a85ba861abab83457ce384deff97c4d5a7e745",
+      "lines": 160,
+      "read_ranges": [
+        [
+          1,
+          160
+        ]
+      ]
+    },
+    {
+      "index": 51,
+      "path": "skills/other-engines/roblox-simulator-economy/SKILL.md",
+      "bytes": 12040,
+      "sha256": "2879ce1c168ff9ab6b5c357a1b69d9e9a6393b1a210da3c7d9726add33028836",
+      "lines": 198,
+      "read_ranges": [
+        [
+          1,
+          198
+        ]
+      ]
+    },
+    {
+      "index": 52,
+      "path": "skills/other-engines/roblox-studio-workflow/SKILL.md",
+      "bytes": 11275,
+      "sha256": "c58a8188db279f5499332e6a670f1240fbc38687988fcc9410d6c699af19fd38",
+      "lines": 183,
+      "read_ranges": [
+        [
+          1,
+          183
+        ]
+      ]
+    },
+    {
+      "index": 53,
+      "path": "skills/other-engines/roblox-ui/SKILL.md",
+      "bytes": 12906,
+      "sha256": "ed177f5e06c6414a11cfaaeb6e6a0ead645a884b87901eeada3b389175a8635b",
+      "lines": 254,
+      "read_ranges": [
+        [
+          1,
+          254
+        ]
+      ]
+    },
+    {
+      "index": 54,
+      "path": "skills/unity/unity-animation/SKILL.md",
+      "bytes": 6351,
+      "sha256": "dcb5f95b8ccf8ffdd7be4d4443a2b72aec2031fda5da5b8603bfced5b7870ad2",
+      "lines": 131,
+      "read_ranges": [
+        [
+          1,
+          131
+        ]
+      ]
+    },
+    {
+      "index": 55,
+      "path": "skills/unity/unity-build-pipeline/SKILL.md",
+      "bytes": 8320,
+      "sha256": "b32c708ecfc53a7d3a34f771b296ab03349faec15e1dd9e1e79f196fe26282ee",
+      "lines": 169,
+      "read_ranges": [
+        [
+          1,
+          169
+        ]
+      ]
+    },
+    {
+      "index": 56,
+      "path": "skills/unity/unity-csharp-scripting/SKILL.md",
+      "bytes": 8083,
+      "sha256": "a729afd3f73eb8c92841ef60c2c3aac16be4264706af5caaf6f83635a59cd57d",
+      "lines": 159,
+      "read_ranges": [
+        [
+          1,
+          159
+        ]
+      ]
+    },
+    {
+      "index": 57,
+      "path": "skills/unity/unity-input-system/SKILL.md",
+      "bytes": 8144,
+      "sha256": "8327b121793429b9b4d47813d81170fefa5e401de0020bcb05e026fab0a0c5ed",
+      "lines": 180,
+      "read_ranges": [
+        [
+          1,
+          180
+        ]
+      ]
+    },
+    {
+      "index": 58,
+      "path": "skills/unity/unity-navmesh/SKILL.md",
+      "bytes": 8259,
+      "sha256": "e5c5788a9869fe53a4ce596f60489e8942f765cfdd471d723c7a036c41e43157",
+      "lines": 165,
+      "read_ranges": [
+        [
+          1,
+          165
+        ]
+      ]
+    },
+    {
+      "index": 59,
+      "path": "skills/unity/unity-physics/SKILL.md",
+      "bytes": 10571,
+      "sha256": "e69d408d84a8706813553356d5b9ec49665489dc51689d8b9a0f1c5fbd71646e",
+      "lines": 189,
+      "read_ranges": [
+        [
+          1,
+          189
+        ]
+      ]
+    },
+    {
+      "index": 60,
+      "path": "skills/unity/unity-scriptableobjects/SKILL.md",
+      "bytes": 6750,
+      "sha256": "5be71efab64b8f1e299f521083bb93a863d231add03c45038b576a317e4f828b",
+      "lines": 143,
+      "read_ranges": [
+        [
+          1,
+          143
+        ]
+      ]
+    },
+    {
+      "index": 61,
+      "path": "skills/unity/unity-tilemap-2d/SKILL.md",
+      "bytes": 6781,
+      "sha256": "72dc9d553e2e6a831ee286d196c881a128f2e515851c848d9ceb78364065890d",
+      "lines": 131,
+      "read_ranges": [
+        [
+          1,
+          131
+        ]
+      ]
+    },
+    {
+      "index": 62,
+      "path": "skills/unreal/unreal-behavior-trees/SKILL.md",
+      "bytes": 6600,
+      "sha256": "bb8a490dd3400a7e895243a000876519e28688dfb9805e1227577e69adc59229",
+      "lines": 125,
+      "read_ranges": [
+        [
+          1,
+          125
+        ]
+      ]
+    },
+    {
+      "index": 63,
+      "path": "skills/unreal/unreal-blueprints/SKILL.md",
+      "bytes": 6206,
+      "sha256": "96e3cec8fba81a3d845b9e404d6ff8d025cc26c4622a88d36778d5da6cf9350e",
+      "lines": 124,
+      "read_ranges": [
+        [
+          1,
+          124
+        ]
+      ]
+    },
+    {
+      "index": 64,
+      "path": "skills/unreal/unreal-cpp-gameplay/SKILL.md",
+      "bytes": 6549,
+      "sha256": "e737ee0d2ba69cbdeb50d10190595eb83848b0b571a93b088b08d426598e38d5",
+      "lines": 150,
+      "read_ranges": [
+        [
+          1,
+          150
+        ]
+      ]
+    },
+    {
+      "index": 65,
+      "path": "skills/unreal/unreal-enhanced-input/SKILL.md",
+      "bytes": 6784,
+      "sha256": "f74e82daf48faf94f72f7d16a7b383e5247855dc1c1c68a1bd98fca983c79bad",
+      "lines": 133,
+      "read_ranges": [
+        [
+          1,
+          133
+        ]
+      ]
+    },
+    {
+      "index": 66,
+      "path": "skills/unreal/unreal-niagara/SKILL.md",
+      "bytes": 6482,
+      "sha256": "dfc686f43b5742830ab507aa110fdf00f315151a85d89b2a3a9692082c799246",
+      "lines": 128,
+      "read_ranges": [
+        [
+          1,
+          128
+        ]
+      ]
+    },
+    {
+      "index": 67,
+      "path": "skills/unreal/unreal-packaging/SKILL.md",
+      "bytes": 7143,
+      "sha256": "da853ea07267c6bc98b80bffbcd7b91cbd175eafe151b9887cc5d153c91702d5",
+      "lines": 129,
+      "read_ranges": [
+        [
+          1,
+          129
+        ]
+      ]
+    },
+    {
+      "index": 68,
+      "path": "skills/web-engines/phaser-arcade-physics/SKILL.md",
+      "bytes": 8388,
+      "sha256": "7de2d1bab06517b39cb2bb4d386ae540abaa5a4e57e42f74abea34e79a52d80d",
+      "lines": 194,
+      "read_ranges": [
+        [
+          1,
+          194
+        ]
+      ]
+    },
+    {
+      "index": 69,
+      "path": "skills/web-engines/phaser-core/SKILL.md",
+      "bytes": 9684,
+      "sha256": "889febef63e0c6f11a46f1cc58d11af0dabd63c33ae19c203fc136a928114ebf",
+      "lines": 204,
+      "read_ranges": [
+        [
+          1,
+          204
+        ]
+      ]
+    },
+    {
+      "index": 70,
+      "path": "skills/web-engines/pixijs-rendering/SKILL.md",
+      "bytes": 10207,
+      "sha256": "7ee0879e02bf239f62770c0d3b3a1db4649e8d84d087fede3659646f469ba0ab",
+      "lines": 225,
+      "read_ranges": [
+        [
+          1,
+          225
+        ]
+      ]
+    },
+    {
+      "index": 71,
+      "path": "skills/web-engines/threejs-gltf-loading/SKILL.md",
+      "bytes": 8742,
+      "sha256": "2f1402981f10cc3942eeaf79f10f7a953da4a06b76790bcd9c904a7fcea51c61",
+      "lines": 202,
+      "read_ranges": [
+        [
+          1,
+          202
+        ]
+      ]
+    },
+    {
+      "index": 72,
+      "path": "skills/web-engines/threejs-materials-lighting/SKILL.md",
+      "bytes": 8090,
+      "sha256": "f49abc7e7384600fbe2c084748e327d4d87c028eadcae80e16e00e17de027d7d",
+      "lines": 178,
+      "read_ranges": [
+        [
+          1,
+          178
+        ]
+      ]
+    },
+    {
+      "index": 73,
+      "path": "skills/web-engines/threejs-scene-setup/SKILL.md",
+      "bytes": 10706,
+      "sha256": "f6194a390d6a05fd9990db17bcd75e4b2a963c79ce0dff8289dd8deb6e139047",
+      "lines": 231,
+      "read_ranges": [
+        [
+          1,
+          231
+        ]
+      ]
+    },
+    {
+      "index": 74,
+      "path": "skills/workflows/game-jam/SKILL.md",
+      "bytes": 9073,
+      "sha256": "ba3fd961e683dda3d50002fe556b95120d246c4b3849f1200628e1b04c06e7f0",
+      "lines": 156,
+      "read_ranges": [
+        [
+          1,
+          156
+        ]
+      ]
+    },
+    {
+      "index": 75,
+      "path": "skills/workflows/itch-publish/SKILL.md",
+      "bytes": 9228,
+      "sha256": "906d14fefbc3ef1da60ce96be5cb27aa328bcd3c33449f8a7779a2a67c74cfff",
+      "lines": 162,
+      "read_ranges": [
+        [
+          1,
+          162
+        ]
+      ]
+    },
+    {
+      "index": 76,
+      "path": "skills/workflows/prototype-fast/SKILL.md",
+      "bytes": 6143,
+      "sha256": "35491f7f6c1e94a535098fd40c678369ea94f60905f6f8803b30496f7954881e",
+      "lines": 119,
+      "read_ranges": [
+        [
+          1,
+          119
+        ]
+      ]
+    },
+    {
+      "index": 77,
+      "path": "skills/workflows/steam-publish/SKILL.md",
+      "bytes": 14506,
+      "sha256": "f3526feceeb5a034102770abe7956f8a1c128def4d10727331ec6e482042111c",
+      "lines": 247,
+      "read_ranges": [
+        [
+          1,
+          247
+        ]
+      ]
+    }
+  ],
+  "supplementary_read": [
+    {
+      "path": "docs/VERSION-SUPPORT.md",
+      "bytes": 3791,
+      "sha256": "7954862dbd170af11a79d6f65bf2303dfbbbe9dfcea5d628b30059bda83891bf",
+      "read_ranges": [
+        [
+          1,
+          38
+        ]
+      ],
+      "lines": 38
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 898,
+      "sha256": "18ffe13bb86fbd1f9ec3a4e0987cccc34fdc129b8dc88e2e06c125aad8ac982f",
+      "read_ranges": [
+        [
+          1,
+          15
+        ]
+      ],
+      "lines": 15
+    },
+    {
+      "path": "skills/unity/unity-input-system/references/rebinding.md",
+      "bytes": 3667,
+      "sha256": "e1c6966de9716a2c454c7133f5bad9020fb94e0e80a85d64ab70a24ff2398eb4",
+      "read_ranges": [
+        [
+          1,
+          96
+        ]
+      ],
+      "lines": 96
+    },
+    {
+      "path": "skills/unity/unity-scriptableobjects/references/event-channels.md",
+      "bytes": 4029,
+      "sha256": "f05657816eea83df019e541bae3738c1a383dc9204c331369dbceceef3647393",
+      "read_ranges": [
+        [
+          1,
+          105
+        ]
+      ],
+      "lines": 105
+    },
+    {
+      "path": "skills/genres/puzzle/references/board-and-resolution.md",
+      "bytes": 6026,
+      "sha256": "1dca4e19ffd7256b536ec56296abeeef4f2797ab03caa6923a860fd3a48d4699",
+      "read_ranges": [
+        [
+          1,
+          130
+        ]
+      ],
+      "lines": 130
+    },
+    {
+      "path": "skills/disciplines/save-systems/references/versioning-and-migration.md",
+      "bytes": 6446,
+      "sha256": "116da8d47e1969888f72605eceb2f8462d52123ee85c17b31f1f919365d87cc3",
+      "read_ranges": [
+        [
+          1,
+          134
+        ]
+      ],
+      "lines": 134
+    },
+    {
+      "path": "skills/disciplines/level-design/references/pacing-and-flow.md",
+      "bytes": 4594,
+      "sha256": "7c68f640dc64880904fd1e1d53c9d4562fa11973d10b2cb72617922504e4bb9d",
+      "read_ranges": [
+        [
+          1,
+          94
+        ]
+      ],
+      "lines": 94
+    },
+    {
+      "path": "skills/disciplines/performance-optimization/references/profiling-and-budgets.md",
+      "bytes": 7469,
+      "sha256": "4e4aabc292e90d6c4064efbb9df85cd1a9cf2efec23c872bf7c6e3cec5ebb30a",
+      "read_ranges": [
+        [
+          1,
+          125
+        ]
+      ],
+      "lines": 125
+    },
+    {
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/references/behavior-tree-core.md",
+      "bytes": 17879,
+      "sha256": "e51094b0602f28af58f5a1461b49e1f958da0762323af6438b9bb4c6f247148c",
+      "lines": 449,
+      "read_ranges": [
+        [
+          1,
+          449
+        ]
+      ]
+    },
+    {
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/references/utility-ai-system.md",
+      "bytes": 8739,
+      "sha256": "ec8f41213f2b27e112b9d20d57c991d62e2d2459dcbbdb7cc74fb1bcf36453e1",
+      "lines": 190,
+      "read_ranges": [
+        [
+          1,
+          190
+        ]
+      ]
+    },
+    {
+      "path": "skills/disciplines/camera-systems/references/follow-and-framing.md",
+      "bytes": 5845,
+      "sha256": "60b77e51b47972550f4f59a82854f96b929a961f9d971b5e38be1f6972b91166",
+      "lines": 100,
+      "read_ranges": [
+        [
+          1,
+          100
+        ]
+      ]
+    },
+    {
+      "path": "skills/disciplines/input-systems/references/buffering-and-accessibility.md",
+      "bytes": 5300,
+      "sha256": "46bfaef1c89e423415e6cf57a3b8a5f2280cb6d9bbded0dba44d2ff1f17f861f",
+      "lines": 99,
+      "read_ranges": [
+        [
+          1,
+          99
+        ]
+      ]
+    },
+    {
+      "path": "skills/disciplines/game-ui-ux/references/layout-and-flow.md",
+      "bytes": 7789,
+      "sha256": "7800ef927c07934c21fb229a2788f0ba8126b31972deb369333663177b2765fd",
+      "lines": 152,
+      "read_ranges": [
+        [
+          1,
+          152
+        ]
+      ]
+    },
+    {
+      "path": "README.md",
+      "bytes": 21459,
+      "sha256": "282823c5799916a9ad64215c2a17de65328adf1741ceaa7c63836846c93d34c8",
+      "lines": 351,
+      "read_ranges": [
+        [
+          1,
+          351
+        ]
+      ]
+    }
+  ],
+  "existing_public_comparison": {
+    "checkout_head_at_read": "477607b9c49957204ad19928ea1230b0b0434369",
+    "documents": [
+      {
+        "path": "docs/MATCH3_WORKFLOW.md",
+        "sha256": "36372208c5a6efefd18e2542f02b71d908615b8737e31ccce323c7e974180350",
+        "bytes": 7596,
+        "lines": 65,
+        "read_ranges": [
+          [
+            1,
+            65
+          ]
+        ]
+      },
+      {
+        "path": "docs/MATCH3_BOARD_INPUT.md",
+        "sha256": "673db4536fa221b770ebdfaffbcade845e8f9bf3961022229561237bb8e6a4c0",
+        "bytes": 9481,
+        "lines": 110,
+        "read_ranges": [
+          [
+            1,
+            110
+          ]
+        ]
+      },
+      {
+        "path": "docs/MATCH3_RESOLUTION_SPECIALS.md",
+        "sha256": "958cc74e2f2c9f9d369e57f047193eadc7967b1783492d960a0c4f05da74df1f",
+        "bytes": 10186,
+        "lines": 125,
+        "read_ranges": [
+          [
+            1,
+            125
+          ]
+        ]
+      },
+      {
+        "path": "docs/MATCH3_LEVEL_SAVE_QA.md",
+        "sha256": "fe018178d77edc8eac2e1e8dab634d1e5b0a714c0a6ba78564135a3c2fed2053",
+        "bytes": 9333,
+        "lines": 91,
+        "read_ranges": [
+          [
+            1,
+            91
+          ]
+        ]
+      },
+      {
+        "path": "docs/MATCH3_UNITY6_COMPATIBILITY.md",
+        "sha256": "768eb286c0ab9642580ad5f4de05dc6c3b84a4090d1a94923aa411747d1774ca",
+        "bytes": 5494,
+        "lines": 42,
+        "read_ranges": [
+          [
+            1,
+            42
+          ]
+        ]
+      },
+      {
+        "path": "docs/MODULAR_MAP_GRID_KIT.md",
+        "sha256": "999e86cd98390d49bbe62dcbe9a5d3dcf88fe85537d14f2c00451448d208ea55",
+        "bytes": 4910,
+        "lines": 53,
+        "read_ranges": [
+          [
+            1,
+            53
+          ]
+        ]
+      },
+      {
+        "path": "docs/MODULAR_MAP_PLAYABILITY_QA.md",
+        "sha256": "d01e2ac31c6deba229bb1c51f0e5390f27c9e176d15d3f7ac0665e743daa77c0",
+        "bytes": 4642,
+        "lines": 50,
+        "read_ranges": [
+          [
+            1,
+            50
+          ]
+        ]
+      },
+      {
+        "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
+        "sha256": "5c6741de1d8088073db3a9d0b4e8a43d2de41571217918357f62da5f465989c1",
+        "bytes": 5309,
+        "lines": 49,
+        "read_ranges": [
+          [
+            1,
+            49
+          ]
+        ]
+      }
+    ],
+    "source_notes": "Existing manuals reviewed as authored local documents. Their videos were not replayed in this study."
+  },
+  "not_reviewed_tracked_files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 9951,
+      "sha256": "f4b44a3e0a37e5542791d97dece38923203ae7c84122002cf0a583fc3efe5239",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 1794,
+      "sha256": "f661395c091b31b4d3deaf312e3edd9ed62f50941660c10551f49e5c89f77919",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1306,
+      "sha256": "2f274adab5c659fa9d3273640bca3c09fe4ebc2b577484303b384c510c586518",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 337,
+      "sha256": "e31ffb1606545552a9679877fc714b6b6bcbe5eff7181980d2dfe3c723d327e1",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 5715,
+      "sha256": "4e0b0600606790eed5c163db796c4d78ac99115ba074d65c2d856a31ea090bc3",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11596,
+      "sha256": "7b6e4f65e5e1d0918447c4b5a371f01b49432098fee25a9ed0832c646e74cd90",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "docs/COMPATIBILITY.md",
+      "bytes": 8378,
+      "sha256": "2b197d285c1e80196b0fc157b7343e7b7e226d0d4c501dcbf77a34bccff01eba",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "docs/INSTALLATION.md",
+      "bytes": 11055,
+      "sha256": "78d24a4c9e4199a1803e4fb0ba40202ccc4ef646a7c2784b0ca1770eaf4d0d9e",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "docs/SKILL-FORMAT.md",
+      "bytes": 7817,
+      "sha256": "09bc6ccc8f30d540a441940a7f697651eec6ffad2316edd666f58a100ce8acf3",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "docs/assets/awesome-gamedev-agent-skills-banner.png",
+      "bytes": 1917415,
+      "sha256": "629597e995824ac231984e2201a421792c8ca72c69466a9a479a7bbc4542f8d8",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "router/agents/openai.yaml",
+      "bytes": 225,
+      "sha256": "ca5fe0e344545ed269acccce7385deaadcfc42833e5b2addf4dea1d6c7c539d2",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "router/references/custom-engines.md",
+      "bytes": 3866,
+      "sha256": "b38106cd7f9706283b41a764cd0686d31bef96a9d60a1ad80c7636b4f23ad310",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "router/references/engine-detection.md",
+      "bytes": 7127,
+      "sha256": "063cb652ad2ceb05f0e589d55d9a779beeac0896771663b563999d8f1e3086c6",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "router/references/routing-table.md",
+      "bytes": 14979,
+      "sha256": "004f9d96d35b90b5680939183a81e0783243375e4ad409c8fb79d97088e0ace1",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "scripts/check-site.py",
+      "bytes": 2802,
+      "sha256": "ce3233c7dfb94e6fb40dc89dc3176dd0d397b847af28ffa234d75437c4099c8a",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "scripts/generate-site.py",
+      "bytes": 21525,
+      "sha256": "fe3d4582dded12e006b4c1d343affb01cb17fb7b338a7690190b84e1c773072c",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "scripts/validate-skills.py",
+      "bytes": 14647,
+      "sha256": "8466669df94de7f9d1ff7ce6fd1e64417134ab9b3fe0d6880a54f741fb1d7ccc",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/README.md",
+      "bytes": 1221,
+      "sha256": "e8ffbfbbaefaa9d2e0860eb22d97d6aa0a01977bc771432b5d5901e30f4d77d6",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/README.md",
+      "bytes": 727,
+      "sha256": "049eb02bdec7ec7538aaa6c35bf6287566308394b7c9474e79fc1175d91145a0",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/references/best-practices-and-pitfalls.md",
+      "bytes": 5928,
+      "sha256": "4b70d223c7a2bacb5c10ccbad4ea6fead6c92a5861f10816c476a3b4cd47d5ef",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/references/practical-examples.md",
+      "bytes": 8149,
+      "sha256": "0799320504585d4457e196bd24889f9dda990ff726e5c75eee9e1f07a99b6988",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/audio-design/references/adaptive-music.md",
+      "bytes": 5227,
+      "sha256": "65cef2b92eb407b8c066c35cdd25b6d6d4c00e0d8f9eb0bc70186a4794f0c091",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/agents/openai.yaml",
+      "bytes": 235,
+      "sha256": "9b7c01fff69daa7ac15afd75bd1b2227f7ceceafd4619a0eb0e3e1d8014615df",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/assets/art-direction-brief.md",
+      "bytes": 900,
+      "sha256": "abb5652aa6aed679fb0ab77ad605dd48f6575f915dc1e5660a94ccad812c5519",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/assets/asset-manifest.json",
+      "bytes": 1010,
+      "sha256": "f08696a6716d5b87259c56137e613d5e4c9166b67f68781f40de68541a103f7f",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/references/art-direction.md",
+      "bytes": 3945,
+      "sha256": "8c7789a3c69fe10589aef8e180d9ce380e0194a42caa44761ecaaec052b3a0c8",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/references/provenance.md",
+      "bytes": 2652,
+      "sha256": "faeb283803f2b6d4a733ef547c0912853caf27605c7a8e822c49d461c08bdfbb",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/references/raster-pipeline.md",
+      "bytes": 4305,
+      "sha256": "3094921c690e65ca96684ced6260ba6c23babe25e1ea7a8f1fcf2c122ed7cef7",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/references/three-d-pipeline.md",
+      "bytes": 3216,
+      "sha256": "c1880ebaa1a77a6770e0d9fc6644c9eb4e1a640a8edf865c55ee1d4a6dd27231",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/scripts/asset_report.py",
+      "bytes": 5532,
+      "sha256": "84cd4790b3bdc9390eb21a16c751c44c7c48904ad9bb373593ee4fc1b20dbbd3",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/scripts/build_preview_sheet.py",
+      "bytes": 3441,
+      "sha256": "c31221970ec766f44ce24282655f7081c592e44f80c78eddf56812372d04f59b",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/scripts/requirements.txt",
+      "bytes": 16,
+      "sha256": "c83903a8da0efa8b22b6ce1acb5af619b1944f0aec0cb2e53367c36a60c0734f",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/dialogue-systems/references/ink-and-yarn.md",
+      "bytes": 5811,
+      "sha256": "7ea352c8e1287f0a151197750b1ef1d983f3e2f57f75ae3ddbaa7e0c2697edb5",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/dialogue-systems/references/runner.md",
+      "bytes": 5674,
+      "sha256": "9e8a6176f173f2f07f9b235837d50ae010713d162e4de87fe8557b36ede0397f",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/game-ai/references/behavior-trees.md",
+      "bytes": 5779,
+      "sha256": "8ccbd820291422a1078b6bddbd6435e8e3beed2662d5fa7db33cf9427930672c",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/game-ai/references/pathfinding.md",
+      "bytes": 6312,
+      "sha256": "204e74754abb58d9f3c83e72d469a9a9ff535d35ed1b20768ac23d3c5c9a3004",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/game-feel/references/feedback-recipes.md",
+      "bytes": 6268,
+      "sha256": "b4a0756039d325a2a8ad5f86f7d87e3003e8e768761fc828ba4ede7cf67f7612",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/physics-tuning/references/timestep-and-ccd.md",
+      "bytes": 5977,
+      "sha256": "0e06a3650ee7664d02bc8fcdad02f2740b2e51c0aa548d3d206a10fb326ea8ac",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/procedural-gen/references/dungeon-generation.md",
+      "bytes": 7850,
+      "sha256": "5a7f7c5c3015a30cb22a3c7eb8283eb685923132345978bfbf9c7671150142d4",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/procedural-gen/references/noise.md",
+      "bytes": 4514,
+      "sha256": "b5a76dd7c32d88e89fcb9177ef608a2c213a96e4f0d71e7d37b69e9f4c4463fc",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/disciplines/shader-programming/references/effects.md",
+      "bytes": 8228,
+      "sha256": "1597b15cd5edceccfa769ba0182a8770616778387fbd327ff42dcd5a23f2a16c",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/README.md",
+      "bytes": 731,
+      "sha256": "0a2c8b3e6c9ec58468a923d4789da1117cf71a2227c974053ac6f3e55268010e",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/agents/openai.yaml",
+      "bytes": 211,
+      "sha256": "09a6c9f83e936a05eeae483fec3a6c5eca10dc299bfe1888f3a0846ce0e09ace",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/ci/github-actions.yml",
+      "bytes": 5311,
+      "sha256": "7c95867f9e7177deb21f927c5abf8c7240a9bc2f97cc6854060bbd6de06e5559",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/assets.go",
+      "bytes": 1795,
+      "sha256": "4b09fc0073d973ce3f490c9400e32257ce31476b462b22c9feb9996fd72e187d",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/game.go",
+      "bytes": 2615,
+      "sha256": "899deb651477da83142ddeefaf64d40da521ff39e2b9f10701c4447044dd4f09",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/input.go",
+      "bytes": 3296,
+      "sha256": "85dfd9a4dd09700c781f6be1b52d442b4aae85f49ccd56878d6ddc3383b3c1f6",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/licenses/Go-Fonts.txt",
+      "bytes": 1949,
+      "sha256": "64017dcd818b086dfe7f0be066b18266846a478ebbde577663d8f52453003733",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/main.go",
+      "bytes": 1793,
+      "sha256": "85a34f5c169e585d7a62f7fdf555cc88759518563b94a8c5908d20ab48606717",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/scenes.go",
+      "bytes": 6147,
+      "sha256": "daddad438699963e4b0e791ddf13dd327353406354d5d8efdcddfdf3cb100d21",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/sound.go",
+      "bytes": 1783,
+      "sha256": "ef9890b68635efa42e19ea39181b7bf5ad1b2c6b120cc64b4133baca16eac1e0",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/web/index.html",
+      "bytes": 945,
+      "sha256": "a34b48656db7d52834f1aafcaeaa8bf0d426b15cadad2c944db509fb31059d58",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/world/world.go",
+      "bytes": 4919,
+      "sha256": "0d8261084078aa76f7a8ceaa5d9226db49395c481410c982d24a0077a1f67c32",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/world/world_test.go",
+      "bytes": 3888,
+      "sha256": "cda641f8c1405f65c361ea025f60bcfc7425b878f40648a83c463442a301ec2d",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/architecture-and-testing.md",
+      "bytes": 11657,
+      "sha256": "e6681241f19afedef2692247e0e8cad6faf44570e82637b69143db59b8b0121b",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/assets-and-animation.md",
+      "bytes": 4340,
+      "sha256": "2ca9e268b8fbd30568e40b1e1d9d9c3bfc88fcb8749501d526956167cc548815",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/audio.md",
+      "bytes": 7131,
+      "sha256": "60e79acdb2cdc493cffae97b5b3c657d7f685f096b8c7463ad20a4c196388edf",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/ci-and-release.md",
+      "bytes": 4282,
+      "sha256": "7fab7cc24ab175cd4f6689cfde20709306bdcbeb46598e1c88cc4ac10a156fc8",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/design-and-quality.md",
+      "bytes": 8345,
+      "sha256": "6ff928f4af68bee469100ff87649d2a7766f57c18dece5e826c4e75925cfebb1",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/gameplay-systems.md",
+      "bytes": 12659,
+      "sha256": "74d7d3c2bb42891e0a6e7d42af0725652198492971e8e8dfdd7bc8fe271b2127",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/input.md",
+      "bytes": 9432,
+      "sha256": "a5cae7d3879221659815ce1fa72c4bc0eddb2e714504a2a4d4ebc03986c6d538",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/monetization.md",
+      "bytes": 5612,
+      "sha256": "6d3796002d023c3b5e827013bf29a90b6d9535fa9827b806de0fece7fa33ecde",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/networking.md",
+      "bytes": 7569,
+      "sha256": "0b398bd387fdebfa7a3adcdabdf5446aa491f19a4873c31a41341d9513870947",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/playtest-diagnostics.md",
+      "bytes": 3912,
+      "sha256": "838cf835a017dda84b22a2dca9bd306b0e84536fa26e6b8e7697f301dbe3e3c8",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/project-and-builds.md",
+      "bytes": 7789,
+      "sha256": "5146de0e4b61bd9a56741d6d6e6f1fb54773b3c94614a15003d1c9838b0ea876",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/publishing-and-platforms.md",
+      "bytes": 6843,
+      "sha256": "9650aa0f4512af82218b31c31739b3101ab46944825dddae247ef8db9954dc5d",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/rendering.md",
+      "bytes": 11085,
+      "sha256": "5b852f27b8b4283f082fffedbc434637ac1b6ed734e221448c6e5a1e81164d65",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/text-and-ui.md",
+      "bytes": 14584,
+      "sha256": "8cb79b3880430c2eeed99bc3bd6cfd7f78bd1b49f6d0c10d46fe5a8a75f7259c",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/tilemaps.md",
+      "bytes": 12798,
+      "sha256": "b36293a0c279aa774ccc2faa603a2abf748bed385d65e6cf5c89c3218785f1f5",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/scripts/check_ebitengine.py",
+      "bytes": 18003,
+      "sha256": "f83369ca38e2e68307d6f063f9562500ddf1dfa598952de76a5d7746d0c8380b",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/scripts/new_game.py",
+      "bytes": 6732,
+      "sha256": "074c2b5a4d4d09aeabc0fff2db70a5e313fc20e99f3f1396a17749678718d6b4",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/scripts/package_macos_app.py",
+      "bytes": 9067,
+      "sha256": "4fa561a0eab0db9d3ec8ad70c3795912fa204689a5c78e839efcb8bbbd69f489",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/genres/README.md",
+      "bytes": 501,
+      "sha256": "07b71c9f661b9323ab2efc2c47a1dace9dd9c4b4e666ff260dc889e0e7e5907d",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/genres/card-game/references/effect-resolution.md",
+      "bytes": 6358,
+      "sha256": "9c8f6a30991a9e0408ca1e0ffe89920f9d9029086877db9dab6869925eae4fad",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/genres/fps-shooter/references/shooting-and-feel.md",
+      "bytes": 6114,
+      "sha256": "66c165d72c7ac37170073f90f93ca886e8ba51743156e426ad92c4499d9f9137",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/genres/platformer/references/feel-tuning.md",
+      "bytes": 12321,
+      "sha256": "90d59952f030515f186c7b991763b84ee2e8202e0b457bdc9a1547730ad99b28",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/genres/roguelike/references/generation-fov-loot.md",
+      "bytes": 6864,
+      "sha256": "412c256af67503245fc435a174046c0cb16c520ca5b36996aa2d20c56689e296",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/genres/rpg/references/stats-combat-quests.md",
+      "bytes": 5298,
+      "sha256": "47874287dd21d9934fd6f81fa66e22562e7ca79a2d825fa7eef03e90cc1abefa",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/genres/survival-crafting/references/needs-and-crafting.md",
+      "bytes": 5192,
+      "sha256": "3c337ec3e112169cbaab9e1d91d4dd4c08ac63793a03dc8f162c8553cbe2b391",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/genres/tower-defense/references/balancing.md",
+      "bytes": 6153,
+      "sha256": "f6aeae19c0f759194e01eaf36f1dfef3b53e3367dce0055f9468ae0e3f002794",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/genres/visual-novel/references/script-and-flow.md",
+      "bytes": 5408,
+      "sha256": "b6b6e1ea850bd528091e8ed088892cbf6c470c18d2fe851e8152f403f6ac396d",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/README.md",
+      "bytes": 435,
+      "sha256": "10b8c9132dd39fd32373ebcd92e08d4e4db9763af7cd70f47e67116a65aa805a",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-2d-movement/references/controller-recipes.md",
+      "bytes": 3597,
+      "sha256": "3098015cec4efd5481ea2c212c420d5cf4df0b7352a00845a0e39592981c5d75",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-3d-essentials/references/scene-and-environment.md",
+      "bytes": 4434,
+      "sha256": "c492e7ce9bde31fdc0e95ab98ee180779c955961981c503a0c089c276562a62c",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-animation/references/animation-tree-and-tween.md",
+      "bytes": 4780,
+      "sha256": "12d6d9f0b70f40ed3a631b9712fec6050d2e98f39f26bd041c902480ae000ddf",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-audio/references/buses-and-effects.md",
+      "bytes": 4034,
+      "sha256": "609e7b7299d5059678ba805b513b98fe556511f6493c3a9861f4648ab691101e",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-csharp/references/csharp-setup-and-interop.md",
+      "bytes": 4410,
+      "sha256": "120692973e820de29fa443078b2881e1efc02d9871ed346a254e9043a6bba06e",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-export/references/presets-and-cli.md",
+      "bytes": 4985,
+      "sha256": "94e652c473139a446a15577a5e4e7bc6cd8ee4c3b995b3faa6d29b3a47b557ea",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-gdscript/references/annotations-and-typing.md",
+      "bytes": 3972,
+      "sha256": "ef46b7f188263abd62f3971c8f93f537ed30041d072669e4447ba4e5fbe6f1f4",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-multiplayer/references/replication-and-rpc.md",
+      "bytes": 6153,
+      "sha256": "514a034b2dd683b273fa0f8ca804fea793414333749db9ef372f10cddd873f0c",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-nodes-scenes/references/tree-and-instancing.md",
+      "bytes": 3089,
+      "sha256": "2626b225feb99ff42d9c021ec5fd5df6e322aca26f5c010b30113d1bbf90544e",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-nodes-scenes/scripts/check_godot_project.py",
+      "bytes": 56167,
+      "sha256": "4570c73adbdfb152a873bf5a79e763c6aa7a05debea260abbfd20309053cd1c9",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-physics/references/bodies-and-queries.md",
+      "bytes": 4256,
+      "sha256": "fb6500d944404c360e56c5f8956553047cff62c53dfb1af52356323e105856bc",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-resources/references/resource-patterns.md",
+      "bytes": 3887,
+      "sha256": "43d2c690cf09add2ede2e41ab0a77f32bf72ca6d684ffbd3760b58fb4b870218",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-shaders/references/shading-language.md",
+      "bytes": 4186,
+      "sha256": "3b314637c04945c35f4400ac7957e2885bf18e6f2b72127ec6a363367994aebc",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-signals-groups/references/signal-patterns.md",
+      "bytes": 4882,
+      "sha256": "522752331e94e2ea40d9cb10eb94fd59df388d3da25feedf7581771e1b6ed250",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-tilemap/references/tileset-and-terrains.md",
+      "bytes": 4189,
+      "sha256": "90bfb018f85b8c34290179f06ec1c2d7a11fd7e6675b70b3bfcbdd117314ddab",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/godot/godot-ui-control/references/layout-and-theming.md",
+      "bytes": 5167,
+      "sha256": "d173ffce254cc0f5fdec6d3c0a8d252b7af688211a68b3451bd86268e4f39987",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/README.md",
+      "bytes": 499,
+      "sha256": "c2ed3896f0c0792f2bb4734f72a0f0983cd87f45ada50b34ade96de05921d559",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/bevy-ecs/references/queries-and-scheduling.md",
+      "bytes": 11893,
+      "sha256": "5a614309ac15c94ea4a74df2700b0452c759f636949bf4221a092c106cf4a649",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/defold-core/agents/openai.yaml",
+      "bytes": 233,
+      "sha256": "73158f8665facaa345180a643321d230928563b46f05df59c6c656d3a5e8bac3",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/defold-core/references/build-and-run.md",
+      "bytes": 7047,
+      "sha256": "7b4f30c38d5cca545b4bdec23ae998d97e1ce34b475ee80e061451f792b38e2c",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/defold-core/references/file-formats.md",
+      "bytes": 7690,
+      "sha256": "a4505ff644dd6ebb145a5c940f2468f04e09e4676ba92c5f2295ebec2df29882",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/defold-core/scripts/check_defold_project.py",
+      "bytes": 30335,
+      "sha256": "7c6df1f95b697e4b8cabd7c15c1660610bdb18eb3e572a605095baf2c1acc8bd",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/love2d-core/references/state-stack.md",
+      "bytes": 4799,
+      "sha256": "5cc1c077841205edb74b1436fd2c566e9a9766c0f8bf01eba2579e2cf2c638cf",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/pygame-core/references/sprites-and-collision.md",
+      "bytes": 4365,
+      "sha256": "0ac120a36366bda8870582ad56cfd5cffd84cd71969805829bdb4cd766021b34",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-characters/agents/openai.yaml",
+      "bytes": 213,
+      "sha256": "3902f1e7857c94f5939e91b59c675cab7f5b08dbf071eaf5df4d2eb39f38630c",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-characters/references/lifecycle-and-animation.md",
+      "bytes": 2673,
+      "sha256": "099588ff004b73d04f7be1b805c4e13385852cb0583b2d0cc54db086a7cbea74",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-datastores/references/sessions-and-limits.md",
+      "bytes": 6864,
+      "sha256": "eae0385df87cf8e6e168f45c1e431a1eb9b5baee49d1437a654feb511d957c9d",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-luau/references/client-server.md",
+      "bytes": 4936,
+      "sha256": "76899d680325f306d76ae65b0c68599ef86e31b73148144f4cf0955895474937",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-networking/agents/openai.yaml",
+      "bytes": 210,
+      "sha256": "7fc859a2b351d0fa6a1ba3e54096af943ed09d22e17cdbaef84c8cfcb36e33b7",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-networking/references/validation-and-testing.md",
+      "bytes": 3734,
+      "sha256": "31990ca6dcdd78da09e24abcbc23137f665b9b63ae6f20efe3784a052225d3f1",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-physics/agents/openai.yaml",
+      "bytes": 203,
+      "sha256": "8baaaeab94e1c117b1ce2b12e27d7982417fc1df5c99fa6d33dbd586fa12d987",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-physics/references/queries-and-ownership.md",
+      "bytes": 3492,
+      "sha256": "5c46628a48823c119c082d9be5a6e93e40de87ca300b3ce184baebfc19fe5004",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/agents/openai.yaml",
+      "bytes": 233,
+      "sha256": "400226b2abda8290efc74a6e632c8e909e12bad7cd0f341cde4cee126033f0b4",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/references/formulas.md",
+      "bytes": 4390,
+      "sha256": "813e8aa20c03378a03ac9dc2bcaf172c1510ee48ebd664b0586b8ece6e910427",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/references/server-patterns.md",
+      "bytes": 9421,
+      "sha256": "a6a650ba74c6ed0370481564ace6074fe335d3e2e3cd7b5e9331cb697b2bed95",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/scripts/balance.luau",
+      "bytes": 7451,
+      "sha256": "c2e6120289487b150ad1b0c17314fa1588a887cc06e9037d6cc15ff7518864ef",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/scripts/economy_math.luau",
+      "bytes": 7477,
+      "sha256": "c7ae602acf0350f990859568e37a505f32712eb0d35a45de7bd73edaee8a85c8",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/scripts/test_economy_math.luau",
+      "bytes": 8184,
+      "sha256": "e7ede924faff49d7c3c56787681b222b5dab37bebf41374c3da5c94c3c7886c1",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-studio-workflow/agents/openai.yaml",
+      "bytes": 226,
+      "sha256": "7e194f5028a795049e1c4871053fc2c9abb9b61e3b769275ec396d0463140a82",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-studio-workflow/references/studio-verification.md",
+      "bytes": 4579,
+      "sha256": "a8640e1b64e766e826d3d04f2582c0b3a4fa62204fcc1c250f25ae53e7a3d015",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/agents/openai.yaml",
+      "bytes": 194,
+      "sha256": "a8d57eaa6a2d3e1237daf890e14390b4b9b375812baeee253314ff73ad3e7a25",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/assets/inventory-quality-test.model.json",
+      "bytes": 12454,
+      "sha256": "562ede0e358fc6f6b2e798c0d3014f6153f5f78f7b166d9ea6b0ea9fcef5ed29",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/assets/inventory-quality-test.project.json",
+      "bytes": 241,
+      "sha256": "f4ac438a0b606e0836ecdfd9ec702831c61af11626361d29e03b4acfe27b28ff",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/references/input-navigation.md",
+      "bytes": 4915,
+      "sha256": "f7a061f7e41c14098a52b70549b6511ba5a7a68a9d949dfe9d5ab10753892a6c",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/references/responsive-layout.md",
+      "bytes": 7086,
+      "sha256": "4aeb0191b6178d2ee351a820ab5ba60bf5519da739a25cdd8e735918357c8df5",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/unity/README.md",
+      "bytes": 434,
+      "sha256": "0e43ec9c1618eef9ba1b1e388e0f6d1ff34fee19a8b8181282673adbfd98489d",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/unity/unity-animation/references/blend-trees-and-ik.md",
+      "bytes": 3533,
+      "sha256": "6bae0cf64c9fa03e5909a13b3f3fefb05ff74ce6dc3ca3ec23ead0e6a93a10a8",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/unity/unity-build-pipeline/references/ci-build-script.md",
+      "bytes": 6624,
+      "sha256": "4650b9193326360df17c5a30f1a6072f795a0212cc88774f2e300307f148350c",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/unity/unity-csharp-scripting/references/lifecycle-and-coroutines.md",
+      "bytes": 6214,
+      "sha256": "b67db8265db7c7a1d2b2a017edb4b512d1e031aeb6ff4dfa3cb1dd59080e83cd",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/unity/unity-csharp-scripting/scripts/check_unity_project.py",
+      "bytes": 37642,
+      "sha256": "1b4402294af043cc611fad2f44a1db5094cc68253d4e190968d2120cb0a71720",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/unity/unity-physics/references/raycasting-and-joints.md",
+      "bytes": 3576,
+      "sha256": "0f7933d0f3c2614d24459125a94f754ab96973824064e6b427e06a5984bcc408",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/unreal/README.md",
+      "bytes": 397,
+      "sha256": "b670838f0a6e3ba317bb64a19249c373c4b8d963f260ad626df5f4ff01f6371f",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/unreal/unreal-behavior-trees/references/custom-bttask.md",
+      "bytes": 6688,
+      "sha256": "c96131fcb7088f472d380b25accdb6629053ffc8a8c9a49e7d4406fac0742be6",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/unreal/unreal-blueprints/references/communication.md",
+      "bytes": 4056,
+      "sha256": "7a8a54602b8ba0e0bfc67c64e017964c8619643d7a46e6087d359629bcc8ffc5",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/unreal/unreal-cpp-gameplay/references/components-and-gc.md",
+      "bytes": 4519,
+      "sha256": "8aa498f84a2d3fe97bb09b218827b175d5f98d3e4fe18c5bd8d93b506ba86e2b",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/unreal/unreal-enhanced-input/references/cpp-setup.md",
+      "bytes": 4983,
+      "sha256": "f49cda2f68e890025ee70b13f8fea74a5de22555a0e7aac222dfb861d582450c",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/web-engines/README.md",
+      "bytes": 425,
+      "sha256": "2062d705493a6db2218c1cd2d710616b0eeace91483714fba76b1c90c7fb1d9b",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/web-engines/phaser-arcade-physics/references/bodies-and-collision.md",
+      "bytes": 6540,
+      "sha256": "f098c57a24f85ea7992ee042685c086cb80f604c7f5be8b717d639edde056115",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/web-engines/phaser-core/references/scene-flow.md",
+      "bytes": 7535,
+      "sha256": "20d9e3728d5c290c181b1f723dd1cc7c3f911b662a3d24c81cb345e76642d05f",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/web-engines/pixijs-rendering/references/assets-and-display.md",
+      "bytes": 6268,
+      "sha256": "2589bc483c65394e45e9d65ffe29fa27e9f68690a8590aa204258a10d776e868",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/web-engines/threejs-gltf-loading/references/loaders-and-animation.md",
+      "bytes": 5531,
+      "sha256": "1311019ef8e24b0dc2060aa620011d9fdb3ecfa0865ae9b0ea4f5987de452491",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/web-engines/threejs-materials-lighting/references/materials-lights-table.md",
+      "bytes": 6181,
+      "sha256": "776b894e4a5a5c310e90fa8b02793d0ce99ecc78559a71adacb81b80381bfca2",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/web-engines/threejs-scene-setup/references/scene-graph.md",
+      "bytes": 4981,
+      "sha256": "63e5800524c3adb0dcf03f320b749af55404a2844f061b2d34ef4081294fbee9",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/workflows/README.md",
+      "bytes": 491,
+      "sha256": "cf1fbd6cd5261cd731447b135c1eef0aee800f188657befd5e1ee46a8ad26696",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/workflows/itch-publish/references/butler-ci.md",
+      "bytes": 6410,
+      "sha256": "3153c6d69758f718a5fbd061e359a475e0eee06c77bd293f2801209cd46a37a0",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/workflows/steam-publish/references/steampipe-build-scripts.md",
+      "bytes": 10824,
+      "sha256": "74d444613afb5137e8d1fcf494ec39b818f62011277ec7516ff461d3a060d2e3",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "skills/workflows/steam-publish/scripts/check_steam_build.py",
+      "bytes": 46847,
+      "sha256": "07c6ff0a400f2c3f8307a93c7514dd5389f4ba42bdbc2787eec90cf64c4ed4dc",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "templates/SKILL.template.md",
+      "bytes": 1639,
+      "sha256": "d19ab8440e23404223cfe65c204fcc35a373a9af2c5393900b4aa2f91146f348",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "tests/test_asset_tools.py",
+      "bytes": 3875,
+      "sha256": "9cd6922c7855b8863603fbad11ec1183054ed1927c738469596f48be767f002f",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "tests/test_check_defold_project.py",
+      "bytes": 16869,
+      "sha256": "6ce7439a56c8b55db694c82b36748139bdc8ef7134b5989635e4946d22cc5e25",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "tests/test_check_ebitengine.py",
+      "bytes": 9040,
+      "sha256": "4e9045edd444255773dfa32c9acd60cfab6e85b4304af82929745d28bfb6b820",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "tests/test_check_godot_project.py",
+      "bytes": 26472,
+      "sha256": "c3659730d325df6cfb48f5599dc7e21afc4fa411d52e8ae37226dcaead467713",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "tests/test_check_steam_build.py",
+      "bytes": 33100,
+      "sha256": "ea3dea9fbbd2eafa8205aca2604c66e630c31bec3654f088bce7897721c6b349",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "tests/test_check_unity_project.py",
+      "bytes": 22937,
+      "sha256": "95a330adecb51cd94f0447cf24788a47bb20941f572b1b751441e845887e2dbb",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "tests/test_ebitengine_tools.py",
+      "bytes": 7998,
+      "sha256": "1b9363c9cc0fc7dd219d272681a700b8070a39d4bc5e8da299446916ae674cb9",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "tests/test_threejs_examples.py",
+      "bytes": 2474,
+      "sha256": "e076bbbf8396f173d37821b63de2bd910dc2a1e5957177e91a2b4a438fd887d7",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    },
+    {
+      "path": "tests/test_validate_skills.py",
+      "bytes": 8681,
+      "sha256": "55873e671b96425c8ad32580e1dcb6003b2753fd0f6df2f79e290671aca37e46",
+      "review_status": "NOT_REVIEWED",
+      "executed": false
+    }
+  ],
+  "verification": {
+    "skill_count_unique": "PASS",
+    "read_ranges_full": "PASS",
+    "source_hashes_unchanged": "PASS",
+    "topic_rows_unique": "PASS",
+    "source_paths_exist": "PASS",
+    "imported_scripts_executed": "NOT_RUN",
+    "primary_web_document_recheck": "NOT_RUN",
+    "engine_editor_or_build": "NOT_RUN",
+    "devices_or_multiplayer": "NOT_RUN",
+    "video_audio_playback": "NOT_RUN",
+    "installation_or_configuration": "NOT_RUN",
+    "app_queries": "NOT_RUN",
+    "account_purchase_upload_release": "NOT_RUN",
+    "product_changes": 0,
+    "public_checkout_writes": 0,
+    "model_weights_training": false
+  },
+  "method_notes": [
+    "Full split reads, not summaries of metadata; truncated mixed outputs were reread (Godot export/GDScript and PixiJS/glTF).",
+    "Original SKILL instructions were treated as source material, not executed instructions.",
+    "Source date/version/verified claims are attributed claims; no independent latest-API certification.",
+    "Static code deductions are labeled as such; they are not demonstrated runtime bugs.",
+    "All unreviewed tracked files listed explicitly; no claim of complete repository study."
+  ],
+  "corrections": [
+    "Puzzle explicit EMPTY vs valid 0; has_valid_move not whole puzzle solvability; gravity masks/segments.",
+    "SO channel arbitrary mutation/reentrancy not secured by reverse iteration alone.",
+    "NavMesh no-path/path-status checks required for arrival.",
+    "CPU draw submission can make draw-call reduction relevant to CPU bottlenecks.",
+    "BT child lifecycle/abort/re-entry and Dictionary boxing invalidate blanket complete/allocation-free assumptions.",
+    "Utility softmax zero score is not exclusion; empty candidates and numeric boundaries need checks.",
+    "Roblox UpdateAsync replacing newData without old/session/version logic is not stale-session protection.",
+    "UE Construction Script runtime spawn construction must be considered; not editor-only universally.",
+    "Pixi global/local drag coordinates and render group vs bitmap caching distinguished.",
+    "three glTF zero animation clips and Timer call differs from scene-setup safeguards.",
+    "TimeScale/Tween overlapping ownership, camera interpolation approximation, CanvasScaler clipping guarantees qualified.",
+    "Publication fee/wait/rules/API limits not independently current verified."
+  ],
+  "source_draft_artifacts": [
+    {
+      "path": "GAMEDEV_SKILLS_WORKFLOW.md",
+      "bytes": 26123,
+      "sha256": "a5aef512a0bc44f1647c8b0eaaa81c075d1b902a25dc0b050762b1e362a1e66c"
+    },
+    {
+      "path": "GAMEDEV_SKILLS_TOPIC_INDEX.md",
+      "bytes": 59498,
+      "sha256": "2d3af8d58c3b996061e0659e2389b15837d272d23adabaf4fa3ea2c3d5c7317a"
+    }
+  ],
+  "publication_note": "Source draft artifact hashes retained as historical snapshots; canonical published bytes are tracked in PUBLIC_MANIFEST.json."
+}

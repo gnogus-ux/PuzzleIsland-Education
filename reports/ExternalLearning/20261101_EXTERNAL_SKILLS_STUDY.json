@@ -3,13 +3,15 @@
   "status": "IN_PROGRESS",
   "target_skill_bodies": 315,
   "completed_document_packages": {
-    "unity_official": 35
+    "unity_official": 35,
+    "gamedev": 78,
+    "scenario_services": 79
   },
   "pending_packages": [
     "blender_and_scenario_dcc_support",
-    "gamedev",
-    "scenario_services",
-    "scenario_engines"
+    "scenario_unity_roblox",
+    "scenario_godot",
+    "scenario_unreal"
   ],
   "scope": "SKILL main bodies plus selected references; auxiliary files, code execution, videos and live app tests are separate",
   "runtime_tests": "NOT_RUN",
@@ -17,6 +19,9 @@
   "source_versions": "external/SOURCES.lock.json",
   "integration_review": "reports/ExternalLearning/20261101_INTEGRATION_REVIEW.json",
   "completed_study_records": [
-    "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json"
-  ]
+    "reports/ExternalLearning/20261101_UNITY_OFFICIAL_SKILLS_STUDY.json",
+    "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json",
+    "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json"
+  ],
+  "completed_body_count": 192
 }

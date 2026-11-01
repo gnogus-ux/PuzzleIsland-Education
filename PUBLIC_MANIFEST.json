@@ -1,7 +1,7 @@
 {
   "export_date": "2026-11-01",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 50,
+  "manuals": 54,
   "diagrams": 16,
   "checked_local_links": 367,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
@@ -22,7 +22,8 @@
     "Added explicit manual preflight: inspect library/topic manuals first; request missing topics, insufficient content or version evidence before unapproved learning/production. Already approved study continues without duplicate approval questions. Installation holds preserved.",
     "Added reusable work/handoff/review rules distilled from approved collaboration: preserve scope/assets, create actual 3D guides, single ownership and paired visual review, safe quota handoff, honest study evidence, public canonical publishing, approved new-thread acceptance/archive order. Temporary project-specific limits remain local.",
     "Collected four external upstream repositories as pinned, initialized Git submodules with preserved licenses/NOTICE, provenance and file integrity record. External skills not installed/executed or fully studied; original manual counts unchanged.",
-    "Started four-repository document study; published Unity official 35-body study, source review/correction integration, and Claude shared-library instructions. Other assigned study packages remain in progress; no live app tests or installs. Historical collection lock retained."
+    "Started four-repository document study; published Unity official 35-body study, source review/correction integration, and Claude shared-library instructions. Other assigned study packages remain in progress; no live app tests or installs. Historical collection lock retained.",
+    "Added GameDev 78-body and Scenario service 79-body Korean study manuals, per-topic indexes and file/range/hash records. Completed published main-body study count 192/315; other assigned packages in progress. Runtime and installations NOT_RUN."
   ],
   "files": [
     {
@@ -33,7 +34,7 @@
     {
       "path": "README.md",
       "bytes": 11745,
-      "sha256": "a02607de1a2b9338a76e6124f896f890fb5e7d749cb9e1e7b46a6b072ff49cb2"
+      "sha256": "f9bb7f5db3f5414528756242e76267a422bf59be9bae53f429519414198a77e8"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -587,8 +588,8 @@
     },
     {
       "path": "docs/EXTERNAL_STUDY_WORKFLOW.md",
-      "bytes": 7685,
-      "sha256": "2c9b8a8ee2f397775495e888b1ae1b99a67c05a68f382b09f90e9f7fbcae8cb4"
+      "bytes": 8149,
+      "sha256": "f33f12111551c4e5b064dc47c980136507799ce266cadc7e08404bb4dd342156"
     },
     {
       "path": "docs/EXTERNAL_STUDY_CORRECTIONS.md",
@@ -622,8 +623,38 @@
     },
     {
       "path": "reports/ExternalLearning/20261101_EXTERNAL_SKILLS_STUDY.json",
-      "bytes": 733,
-      "sha256": "728739979bc3d5d37da6021acda6da1ad58f7f7bbd11d987fb09b74aa85bc2d3"
+      "bytes": 983,
+      "sha256": "c34b7bf3a07c063b1df373252bf455187817d8d150cc14c4c06510ee72ce3123"
+    },
+    {
+      "path": "docs/GAMEDEV_SKILLS_WORKFLOW.md",
+      "bytes": 26402,
+      "sha256": "21c6a5a41f3fbb458c4c1b3656140cca1b5cbcb9b659e459147a4aff24925835"
+    },
+    {
+      "path": "docs/GAMEDEV_SKILLS_TOPIC_INDEX.md",
+      "bytes": 59498,
+      "sha256": "2d3af8d58c3b996061e0659e2389b15837d272d23adabaf4fa3ea2c3d5c7317a"
+    },
+    {
+      "path": "docs/SCENARIO_SERVICE_SKILLS_WORKFLOW.md",
+      "bytes": 35926,
+      "sha256": "3a55e19877120f74cece023847fc109a6cfa90318d8e3f29575062697e7027f6"
+    },
+    {
+      "path": "docs/SCENARIO_SERVICE_SKILLS_INDEX.md",
+      "bytes": 30361,
+      "sha256": "bef6e387ec9f4d381843044c6efa70d6c95c0eb5f69ed25eac282ec15e11e9fb"
+    },
+    {
+      "path": "reports/ExternalLearning/20261101_GAMEDEV_SKILLS_STUDY_VERIFICATION.json",
+      "bytes": 76034,
+      "sha256": "3c31105f64d0926a092f1bb0e10349cd258918c7494bff344be8ce8e705fec84"
+    },
+    {
+      "path": "reports/ExternalLearning/20261101_SCENARIO_SERVICE_SKILLS_STUDY.json",
+      "bytes": 71904,
+      "sha256": "ccf1f53547fe6c2cf9cbbf1dcc7dd74e0d62dbebeb63dd4e2c4c0ae204516034"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
