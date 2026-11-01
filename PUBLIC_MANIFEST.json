@@ -3,7 +3,7 @@
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
   "manuals": 46,
   "diagrams": 16,
-  "checked_local_links": 282,
+  "checked_local_links": 351,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
   "export_changes": [
     "Local absolute evidence paths omitted",
@@ -16,7 +16,8 @@
     "Added three seamless-texture manuals and five-course local Qwen/FrameLens sampled-visual + automatic-caption study. No source media, private assets or local paths published.",
     "Added six UV manuals, two original explanatory SVGs, five-course index and sampled-visual/cleaned-auto-caption verification. No raw media, private asset or new private Git reference published; current Blender5.2 UI/API cross-check and app execution explicitly not completed.",
     "Added seven modular-map manuals, two original diagrams, five-course time index and study verification (446 unique sampled points; four complete cleaned automatic-caption texts; one source without captions). Public repository is sole education canonical source, with single-writer and migration rules. No raw media, private assets or new private Git references. Live app and device QA not run.",
-    "Added six wallet/photo-to-3D manuals, 12-page and 10-page original-text PDF/DOCX/HTML editions, and sanitized 15-course study evidence. Private product state and local paths omitted; no source media or transcript republished."
+    "Added six wallet/photo-to-3D manuals, 12-page and 10-page original-text PDF/DOCX/HTML editions, and sanitized 15-course study evidence. Private product state and local paths omitted; no source media or transcript republished.",
+    "Completed canonical library migration audit: all 73 prior Puzzle education paths accounted for; 146 verified duplicate copies removed from two checkouts after remote body/hash checks. Private evidence and production files preserved; only canonical links remain in development docs. Wallet batch and existing 104 manifest entries preserved."
   ],
   "files": [
     {
@@ -26,8 +27,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9489,
-      "sha256": "135d175fa64cdff2ac3b82ed78db56cda0dcd4728f5543ce677482fcbae59465"
+      "bytes": 9745,
+      "sha256": "6a5b2a5cf558a7bd1313e4952f85ee43fed30b3d2e6e3bda1af1a00feba27d59"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -538,6 +539,16 @@
       "path": ".gitattributes",
       "bytes": 27,
       "sha256": "235e4c290690a9ce8bc3300d67be40d6f3f157f54766ebdeb4fa1f589773704c"
+    },
+    {
+      "path": "reports/EducationMigration/20261101_PUBLIC_CANONICAL_MIGRATION.json",
+      "bytes": 64219,
+      "sha256": "9025300353f678ee96da04f9ba3c857dce93a41d5f3aee55ca27be0520167b43"
+    },
+    {
+      "path": "reports/EducationMigration/20261101_PUBLIC_CANONICAL_MIGRATION.md",
+      "bytes": 2891,
+      "sha256": "e067fc17539ddbe42e8040254ef5ee7fe7f071a1d620d924ca8989f7f09b5ff3"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
