@@ -1,0 +1,254 @@
+{
+  "date": "2026-11-01",
+  "status": "EDUCATIONAL_ANALYSIS_COMPLETE",
+  "scope": "Video analysis and project documentation, not model-weight training or Blender implementation. Semantic review uses sampled frames and available transcripts, not continuous every-frame viewing.",
+  "stats": {
+    "video_count": 10,
+    "source_duration_seconds": 5210.348466666666,
+    "direct_sample_frames": 308,
+    "reviewed_sheets": 57,
+    "native_rechecks": 8,
+    "instructional_caption_videos": 6,
+    "instructional_caption_rows": 1265,
+    "excluded_music_caption_rows": 7,
+    "qwen_requests": 10,
+    "qwen_sample_frames": 40,
+    "framelens_full_timeline_videos": 10,
+    "framelens_detected_shots": 102
+  },
+  "sources": [
+    {
+      "key": "M1",
+      "id": "xkWrT79HkTI",
+      "url": "https://www.youtube.com/watch?v=xkWrT79HkTI",
+      "title": "Blender 3D Wallet Model - Quick and Easy Modeling Tutorial",
+      "author": "Alper Güzeler",
+      "duration_seconds": 609.4666666666667,
+      "direct_sample_frames": 23,
+      "direct_reviewed_sheets": 4,
+      "native_rechecks": [],
+      "caption_rows": 0,
+      "caption_use": "unavailable; visual only",
+      "qwen_review": "raw response reviewed; unsupported operations and numbers rejected; see analysis manual correction table",
+      "framelens_proxy_scope": "full duration, 640px width, 2fps, no audio",
+      "framelens_shots": 9
+    },
+    {
+      "key": "M2",
+      "id": "2w6d4JSK3mw",
+      "url": "https://www.youtube.com/watch?v=2w6d4JSK3mw",
+      "title": "speed modeling a wallet in blender 2.8 part 1",
+      "author": "blendereverything",
+      "duration_seconds": 563.4333333333333,
+      "direct_sample_frames": 21,
+      "direct_reviewed_sheets": 4,
+      "native_rechecks": [
+        480
+      ],
+      "caption_rows": 0,
+      "caption_use": "unavailable; visual only",
+      "qwen_review": "raw response reviewed; unsupported operations and numbers rejected; see analysis manual correction table",
+      "framelens_proxy_scope": "full duration, 640px width, 2fps, no audio",
+      "framelens_shots": 28
+    },
+    {
+      "key": "M3",
+      "id": "-mn100riec4",
+      "url": "https://www.youtube.com/watch?v=-mn100riec4",
+      "title": "Part 1# Minimalist Women's Wallet Design with Blender in Just 10 Minutes",
+      "author": "Lexa Yosh",
+      "duration_seconds": 540.54,
+      "direct_sample_frames": 20,
+      "direct_reviewed_sheets": 4,
+      "native_rechecks": [
+        60
+      ],
+      "caption_rows": 0,
+      "caption_use": "unavailable; visual only",
+      "qwen_review": "raw response reviewed; unsupported operations and numbers rejected; see analysis manual correction table",
+      "framelens_proxy_scope": "full duration, 640px width, 2fps, no audio",
+      "framelens_shots": 6
+    },
+    {
+      "key": "M4",
+      "id": "jVgxGea8mE8",
+      "url": "https://www.youtube.com/watch?v=jVgxGea8mE8",
+      "title": "Blender Cloth Filter - Wallet",
+      "author": "Dnsr Design",
+      "duration_seconds": 243.53333333333333,
+      "direct_sample_frames": 19,
+      "direct_reviewed_sheets": 4,
+      "native_rechecks": [
+        180
+      ],
+      "caption_rows": 7,
+      "caption_use": "music only; excluded from instructional evidence",
+      "qwen_review": "raw response reviewed; unsupported operations and numbers rejected; see analysis manual correction table",
+      "framelens_proxy_scope": "full duration, 640px width, 2fps, no audio",
+      "framelens_shots": 4
+    },
+    {
+      "key": "M5",
+      "id": "LxRl6K-S5T4",
+      "url": "https://www.youtube.com/watch?v=LxRl6K-S5T4",
+      "title": "Tutorial: Quick Stitches In Blender 3.0",
+      "author": "PIXXO 3D",
+      "duration_seconds": 484.0,
+      "direct_sample_frames": 19,
+      "direct_reviewed_sheets": 4,
+      "native_rechecks": [
+        420
+      ],
+      "caption_rows": 241,
+      "caption_use": "read and cross-checked against visual evidence",
+      "qwen_review": "raw response reviewed; unsupported operations and numbers rejected; see analysis manual correction table",
+      "framelens_proxy_scope": "full duration, 640px width, 2fps, no audio",
+      "framelens_shots": 6
+    },
+    {
+      "key": "D1",
+      "id": "KH_o4KcsVyA",
+      "url": "https://www.youtube.com/watch?v=KH_o4KcsVyA",
+      "title": "Normal map, bump map and displacement map explained in 4 minutes",
+      "author": "Reawote",
+      "duration_seconds": 238.12,
+      "direct_sample_frames": 26,
+      "direct_reviewed_sheets": 5,
+      "native_rechecks": [],
+      "caption_rows": 102,
+      "caption_use": "read and cross-checked against visual evidence",
+      "qwen_review": "raw response reviewed; unsupported operations and numbers rejected; see analysis manual correction table",
+      "framelens_proxy_scope": "full duration, 640px width, 2fps, no audio",
+      "framelens_shots": 7
+    },
+    {
+      "key": "D2",
+      "id": "DOn4G9HVo2M",
+      "url": "https://www.youtube.com/watch?v=DOn4G9HVo2M",
+      "title": "Blender Bump map Tutorial - Blender Realistic Texturing Series #1 (Blender bump mapping)",
+      "author": "CG Infinite",
+      "duration_seconds": 405.5384666666667,
+      "direct_sample_frames": 30,
+      "direct_reviewed_sheets": 5,
+      "native_rechecks": [
+        360
+      ],
+      "caption_rows": 182,
+      "caption_use": "read and cross-checked against visual evidence",
+      "qwen_review": "raw response reviewed; unsupported operations and numbers rejected; see analysis manual correction table",
+      "framelens_proxy_scope": "full duration, 640px width, 2fps, no audio",
+      "framelens_shots": 12
+    },
+    {
+      "key": "D3",
+      "id": "4yfNK1PG4Pk",
+      "url": "https://www.youtube.com/watch?v=4yfNK1PG4Pk",
+      "title": "The ONLY BUMP and DISPLACEMENT Guide YOU Need! - Blender Texture Basics",
+      "author": "Blender Inferno",
+      "duration_seconds": 738.45,
+      "direct_sample_frames": 45,
+      "direct_reviewed_sheets": 8,
+      "native_rechecks": [
+        450
+      ],
+      "caption_rows": 135,
+      "caption_use": "read and cross-checked against visual evidence",
+      "qwen_review": "raw response reviewed; unsupported operations and numbers rejected; see analysis manual correction table",
+      "framelens_proxy_scope": "full duration, 640px width, 2fps, no audio",
+      "framelens_shots": 14
+    },
+    {
+      "key": "D4",
+      "id": "GItohAbyzCM",
+      "url": "https://www.youtube.com/watch?v=GItohAbyzCM",
+      "title": "FREE TOOL For Creating PBR Material Maps from Photos - Materialize!",
+      "author": "The Rendering Essentials",
+      "duration_seconds": 611.0333333333333,
+      "direct_sample_frames": 37,
+      "direct_reviewed_sheets": 7,
+      "native_rechecks": [
+        330
+      ],
+      "caption_rows": 291,
+      "caption_use": "read and cross-checked against visual evidence",
+      "qwen_review": "raw response reviewed; unsupported operations and numbers rejected; see analysis manual correction table",
+      "framelens_proxy_scope": "full duration, 640px width, 2fps, no audio",
+      "framelens_shots": 12
+    },
+    {
+      "key": "D5",
+      "id": "kvJuC8Wj_lQ",
+      "url": "https://www.youtube.com/watch?v=kvJuC8Wj_lQ",
+      "title": "Create Texture Maps   Generate PBRs with Materialize",
+      "author": "Class Outside",
+      "duration_seconds": 776.2333333333333,
+      "direct_sample_frames": 68,
+      "direct_reviewed_sheets": 12,
+      "native_rechecks": [
+        658
+      ],
+      "caption_rows": 314,
+      "caption_use": "read and cross-checked against visual evidence",
+      "qwen_review": "raw response reviewed; unsupported operations and numbers rejected; see analysis manual correction table",
+      "framelens_proxy_scope": "full duration, 640px width, 2fps, no audio",
+      "framelens_shots": 4
+    }
+  ],
+  "official_docs": [
+    {
+      "title": "Array (Legacy) Modifier - Blender 5.2 LTS Manual",
+      "url": "https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/array_legacy.html"
+    },
+    {
+      "title": "Array Modifier - Blender 5.2 LTS Manual",
+      "url": "https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/array.html"
+    },
+    {
+      "title": "Bump Node - Blender 5.2 LTS Manual",
+      "url": "https://docs.blender.org/manual/en/latest/render/shader_nodes/displacement/bump.html"
+    },
+    {
+      "title": "Cloth Filter - Blender 5.2 LTS Manual",
+      "url": "https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/cloth_filter.html"
+    },
+    {
+      "title": "Curve Modifier - Blender 5.2 LTS Manual",
+      "url": "https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/curve.html"
+    },
+    {
+      "title": "Displace Modifier - Blender 5.2 LTS Manual",
+      "url": "https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/displace.html"
+    },
+    {
+      "title": "Displacement Node - Blender 5.2 LTS Manual",
+      "url": "https://docs.blender.org/manual/en/latest/render/shader_nodes/displacement/displacement.html"
+    },
+    {
+      "title": "Displacement - Blender 5.2 LTS Manual",
+      "url": "https://docs.blender.org/manual/en/latest/render/materials/components/displacement.html"
+    },
+    {
+      "title": "Image Texture Node - Blender 5.2 LTS Manual",
+      "url": "https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/image.html"
+    },
+    {
+      "title": "Normal Map Node - Blender 5.2 LTS Manual",
+      "url": "https://docs.blender.org/manual/en/latest/render/shader_nodes/displacement/normal_map.html"
+    },
+    {
+      "title": "Solidify Modifier - Blender 5.2 LTS Manual",
+      "url": "https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/solidify.html"
+    }
+  ],
+  "limits": [
+    "Sampled semantic review and available full captions; not continuous every-frame viewing.",
+    "Local AI output was cross-checked and corrected; metrics alone do not establish software actions.",
+    "No model-weight training, product modeling or new asset creation performed in these studies.",
+    "Source media, full transcripts, private product records and local evidence paths are excluded."
+  ],
+  "manuals": [
+    "docs/WALLET_MODELING.md",
+    "docs/WALLET_SURFACE_MAPS.md",
+    "docs/WALLET_COURSE_ANALYSIS.md"
+  ]
+}

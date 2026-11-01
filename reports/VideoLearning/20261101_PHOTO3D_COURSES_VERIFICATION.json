@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-01",
+  "status": "EDUCATIONAL_ANALYSIS_COMPLETE",
+  "scope": "Full cleaned captions and sampled visual review; not every original frame continuously watched, not model-weight training or actual wallet reconstruction.",
+  "stats": {
+    "video_count": 5,
+    "source_duration_seconds": 6092.0601166666665,
+    "direct_sample_frames": 145,
+    "reviewed_sheets": 28,
+    "native_rechecks": 7,
+    "caption_videos": 5,
+    "caption_rows": 2742,
+    "qwen_requests": 10,
+    "qwen_sample_frames": 40,
+    "framelens_full_timeline_videos": 5,
+    "framelens_detected_shots": 79
+  },
+  "sources": [
+    {
+      "key": "P1",
+      "id": "k4NTf0hMjtY",
+      "url": "https://www.youtube.com/watch?v=k4NTf0hMjtY",
+      "title": "How to 3D Photoscan Easy and Free!",
+      "author": "CG Geek",
+      "duration_seconds": 2089.116666666667,
+      "direct_sample_frames": 43,
+      "direct_reviewed_sheets": 8,
+      "native_rechecks": [
+        900
+      ],
+      "caption_rows": 1009,
+      "caption_review": "full cleaned English captions read and cross-checked with sampled visual evidence",
+      "qwen_review": "all raw responses reviewed; incorrect timestamps, UI state and unsupported actions rejected; see manual correction table",
+      "framelens_scope": "full timeline, width 640, 1 fps, no audio; shot/motion/image metrics, not semantic tool recognition",
+      "framelens_shots": 20
+    },
+    {
+      "key": "P2",
+      "id": "r5dJRac02j0",
+      "url": "https://www.youtube.com/watch?v=r5dJRac02j0",
+      "title": "Photogrammetry Beginner's Tutorial with Reality Capture",
+      "author": "David Fletcher",
+      "duration_seconds": 1565.2970666666668,
+      "direct_sample_frames": 27,
+      "direct_reviewed_sheets": 5,
+      "native_rechecks": [
+        1260
+      ],
+      "caption_rows": 725,
+      "caption_review": "full cleaned English captions read and cross-checked with sampled visual evidence",
+      "qwen_review": "all raw responses reviewed; incorrect timestamps, UI state and unsupported actions rejected; see manual correction table",
+      "framelens_scope": "full timeline, width 640, 1 fps, no audio; shot/motion/image metrics, not semantic tool recognition",
+      "framelens_shots": 13
+    },
+    {
+      "key": "P3",
+      "id": "3mLBL7T-zgs",
+      "url": "https://www.youtube.com/watch?v=3mLBL7T-zgs",
+      "title": "How to 3D Scan All Sides of Objects - RealityCapture",
+      "author": "William Faucher",
+      "duration_seconds": 1473.3552166666666,
+      "direct_sample_frames": 31,
+      "direct_reviewed_sheets": 6,
+      "native_rechecks": [
+        450,
+        810
+      ],
+      "caption_rows": 659,
+      "caption_review": "full cleaned English captions read and cross-checked with sampled visual evidence",
+      "qwen_review": "all raw responses reviewed; incorrect timestamps, UI state and unsupported actions rejected; see manual correction table",
+      "framelens_scope": "full timeline, width 640, 1 fps, no audio; shot/motion/image metrics, not semantic tool recognition",
+      "framelens_shots": 34
+    },
+    {
+      "key": "P4",
+      "id": "BImnzs-rR_k",
+      "url": "https://www.youtube.com/watch?v=BImnzs-rR_k",
+      "title": "How to 3D Scan Small & Detailed Objects — Photogrammetry Tips for Beginners | Polycam",
+      "author": "Polycam",
+      "duration_seconds": 205.7,
+      "direct_sample_frames": 19,
+      "direct_reviewed_sheets": 4,
+      "native_rechecks": [
+        180
+      ],
+      "caption_rows": 72,
+      "caption_review": "full cleaned English captions read and cross-checked with sampled visual evidence",
+      "qwen_review": "all raw responses reviewed; incorrect timestamps, UI state and unsupported actions rejected; see manual correction table",
+      "framelens_scope": "full timeline, width 640, 1 fps, no audio; shot/motion/image metrics, not semantic tool recognition",
+      "framelens_shots": 2
+    },
+    {
+      "key": "P5",
+      "id": "F7PDYoemJvM",
+      "url": "https://www.youtube.com/watch?v=F7PDYoemJvM",
+      "title": "Create Realistic 3D Models from Photos Using Blender & FSpy",
+      "author": "Alden Peters",
+      "duration_seconds": 758.5911666666666,
+      "direct_sample_frames": 25,
+      "direct_reviewed_sheets": 5,
+      "native_rechecks": [
+        45,
+        675
+      ],
+      "caption_rows": 277,
+      "caption_review": "full cleaned English captions read and cross-checked with sampled visual evidence",
+      "qwen_review": "all raw responses reviewed; incorrect timestamps, UI state and unsupported actions rejected; see manual correction table",
+      "framelens_scope": "full timeline, width 640, 1 fps, no audio; shot/motion/image metrics, not semantic tool recognition",
+      "framelens_shots": 10
+    }
+  ],
+  "official_docs": [
+    {
+      "title": "fSpy | Basics",
+      "url": "https://fspy.io/basics/"
+    },
+    {
+      "title": "fSpy | Tutorial",
+      "url": "https://fspy.io/tutorial/"
+    },
+    {
+      "title": "Capturing — Meshroom v2023.1.0 documentation",
+      "url": "https://meshroom-manual.readthedocs.io/en/latest/capturing/capturing.html"
+    },
+    {
+      "title": "How to Use Object Mode – Polycam Help Center",
+      "url": "https://learn.poly.cam/hc/en-us/articles/27425185907348-How-to-Use-Object-Mode"
+    },
+    {
+      "title": "How to Create Photogrammetry and Gaussian splats from Existing Images and Videos on Mobile and Web – Polycam Help Center",
+      "url": "https://learn.poly.cam/hc/en-us/articles/30549121659412-How-to-Create-Photogrammetry-and-Gaussian-splats-from-Existing-Images-and-Videos-on-Mobile-and-Web"
+    },
+    {
+      "title": "How to Take Photographs - RealityScan Help",
+      "url": "https://rshelp.capturingreality.com/en-US/tutorials/takingpictures.htm"
+    },
+    {
+      "title": "Control Points - RealityScan Help",
+      "url": "https://rshelp.capturingreality.com/en-US/tools/controlpoints.htm"
+    },
+    {
+      "title": "Scaling a Scene - RealityScan Help",
+      "url": "https://rshelp.capturingreality.com/en-US/tutorials/scaling.htm"
+    }
+  ],
+  "limits": [
+    "Sampled semantic review and available full captions; not continuous every-frame viewing.",
+    "Local AI output was cross-checked and corrected; metrics alone do not establish software actions.",
+    "No model-weight training, product modeling or new asset creation performed in these studies.",
+    "Source media, full transcripts, private product records and local evidence paths are excluded."
+  ],
+  "manuals": [
+    "docs/PHOTO3D_CAPTURE_RECONSTRUCTION.md",
+    "docs/PHOTO3D_WALLET_APPLICATION.md",
+    "docs/PHOTO3D_COURSE_ANALYSIS.md"
+  ]
+}

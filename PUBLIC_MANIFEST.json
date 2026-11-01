@@ -1,9 +1,9 @@
 {
   "export_date": "2026-11-01",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 40,
+  "manuals": 46,
   "diagrams": 16,
-  "checked_local_links": 333,
+  "checked_local_links": 282,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
   "export_changes": [
     "Local absolute evidence paths omitted",
@@ -15,7 +15,8 @@
     "Match3 manuals, all65 Taft index, source comparisons, original engineering diagrams and verification added; no source media/code or new private repository references. Official Unity6.3 web recrosscheck explicitly incomplete.",
     "Added three seamless-texture manuals and five-course local Qwen/FrameLens sampled-visual + automatic-caption study. No source media, private assets or local paths published.",
     "Added six UV manuals, two original explanatory SVGs, five-course index and sampled-visual/cleaned-auto-caption verification. No raw media, private asset or new private Git reference published; current Blender5.2 UI/API cross-check and app execution explicitly not completed.",
-    "Added seven modular-map manuals, two original diagrams, five-course time index and study verification (446 unique sampled points; four complete cleaned automatic-caption texts; one source without captions). Public repository is sole education canonical source, with single-writer and migration rules. No raw media, private assets or new private Git references. Live app and device QA not run."
+    "Added seven modular-map manuals, two original diagrams, five-course time index and study verification (446 unique sampled points; four complete cleaned automatic-caption texts; one source without captions). Public repository is sole education canonical source, with single-writer and migration rules. No raw media, private assets or new private Git references. Live app and device QA not run.",
+    "Added six wallet/photo-to-3D manuals, 12-page and 10-page original-text PDF/DOCX/HTML editions, and sanitized 15-course study evidence. Private product state and local paths omitted; no source media or transcript republished."
   ],
   "files": [
     {
@@ -25,8 +26,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7752,
-      "sha256": "eda0102532958628b16fe51aad631cb9aa2403ff59c6e15784f34f1795b163ce"
+      "bytes": 9580,
+      "sha256": "38af98dc5d4d30d4bf6128dda7a73c2bef9f1fd2fca445f09339d0700d7fee04"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -462,6 +463,81 @@
       "path": "reports/VideoLearning/20261101_MODULAR_MAP_VERIFICATION.json",
       "bytes": 19982,
       "sha256": "6ba63bb933009f702592247b19e3051f191dd1c69681e5e9d39d1b085e1c8839"
+    },
+    {
+      "path": "docs/PHOTO3D_CAPTURE_RECONSTRUCTION.md",
+      "bytes": 11872,
+      "sha256": "adc6225953ac4a1f8e85c170f4a57b7f21c32a0d9690718164a36417fc167f1a"
+    },
+    {
+      "path": "docs/PHOTO3D_COURSE_ANALYSIS.md",
+      "bytes": 13215,
+      "sha256": "1a9b6842376b5b837e202def3c458019c746753eff839f205099b434a0a243b4"
+    },
+    {
+      "path": "docs/PHOTO3D_WALLET_APPLICATION.md",
+      "bytes": 10560,
+      "sha256": "35a12a9ed39b1108624023b408606cf6b5029124345c74674b89073e6fc15487"
+    },
+    {
+      "path": "docs/WALLET_COURSE_ANALYSIS.md",
+      "bytes": 15443,
+      "sha256": "c7397a99250100bc37128e1dd0215cc7c07d75a7550a6e8c775c00b11f5dd529"
+    },
+    {
+      "path": "docs/WALLET_MODELING.md",
+      "bytes": 10922,
+      "sha256": "144c70ed4dc227ab09059628a3d419539fb533ad34dcdf44034bef57c50a9884"
+    },
+    {
+      "path": "docs/WALLET_SURFACE_MAPS.md",
+      "bytes": 13507,
+      "sha256": "0b011450d7514b78759abc11431fcb54202fe3c427bd7393918fb1f76dedf317"
+    },
+    {
+      "path": "docs/downloads/wallet-modeling-and-surface-manual.docx",
+      "bytes": 54504,
+      "sha256": "d2d779351d852217b7f3e1d63b1f966e0887ba50bb8571cce191247dfcf6ff57"
+    },
+    {
+      "path": "docs/downloads/wallet-modeling-and-surface-manual.html",
+      "bytes": 48357,
+      "sha256": "2cd5512493d4ea2536fcf25568c4d6d2df490e17a4f41210407cbbdee20199d7"
+    },
+    {
+      "path": "docs/downloads/wallet-modeling-and-surface-manual.pdf",
+      "bytes": 259421,
+      "sha256": "84cf869650fe7464b92858cc4d0727c01bc7471b675d268154f23562a1876149"
+    },
+    {
+      "path": "docs/downloads/wallet-photo-to-3d-manual.docx",
+      "bytes": 53146,
+      "sha256": "5a744b41e51585ff30f4d7b1c13a12d863b899d5ff5c705fd7fe5397fc011283"
+    },
+    {
+      "path": "docs/downloads/wallet-photo-to-3d-manual.html",
+      "bytes": 43482,
+      "sha256": "c9108fb903369a028b6c07000e4ce089264d4a3e6b23de43e7429015f575f816"
+    },
+    {
+      "path": "docs/downloads/wallet-photo-to-3d-manual.pdf",
+      "bytes": 250110,
+      "sha256": "594f7ef47272428930b063038feff6b17dcf8f92e6be1dbe19ecc89a8a3f1268"
+    },
+    {
+      "path": "reports/VideoLearning/20261101_PHOTO3D_COURSES_VERIFICATION.json",
+      "bytes": 6796,
+      "sha256": "51bc14e3d852525256ad20cf08051e12456513c8cb0315ddcbbd4650be5cb1f0"
+    },
+    {
+      "path": "reports/VideoLearning/20261101_WALLET_COURSES_VERIFICATION.json",
+      "bytes": 10523,
+      "sha256": "da86d04516ab61111db51a5bfe2c3064b25e2e0daf962cc4e969bde209013f33"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 29,
+      "sha256": "35110345331dfc154397ee23fc47e9f170435973bfe293c3e6fcc1d980ecd57a"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

@@ -57,9 +57,28 @@ Unity 매치3·Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕�
 
 자체 도식은 docs/assets/, 강좌별 실제 확인 범위와 오류 교정·미확인 사항은 [reports/VideoLearning](reports/VideoLearning)에 있습니다.
 
+## 지갑·가죽·사진 기반 3D 교육
+
+모델링·표면 맵 10강과 사진→3D 5강을 분석한 한국어 적용 매뉴얼입니다. 예시 치수는 제품의 실측값으로 바꾸며, 교육 완료와 실제 제품 제작·스캔 검증은 구분합니다.
+
+| 주제 | 정본 문서 |
+|---|---|
+| 외피·척추·포켓·봉제·접힘 검수 | [지갑 모델링](docs/WALLET_MODELING.md) |
+| 사진 높이·범프·노멀·실제 변위 | [가죽 표면 맵](docs/WALLET_SURFACE_MAPS.md) |
+| 모델링5강·표면맵5강 근거·오류 교정 | [10강 분석](docs/WALLET_COURSE_ANALYSIS.md) |
+| 촬영·정렬·표면 복원·앞뒤 결합 | [사진→3D 촬영과 복원](docs/PHOTO3D_CAPTURE_RECONSTRUCTION.md) |
+| 실측 스케일·Blender 정리·fSpy | [지갑에 적용](docs/PHOTO3D_WALLET_APPLICATION.md) |
+| 사진→3D 5강 시간 색인·해석 교정 | [5강 분석](docs/PHOTO3D_COURSE_ANALYSIS.md) |
+
+- 모델링·표면 맵: [PDF](docs/downloads/wallet-modeling-and-surface-manual.pdf) · [편집용 Word](docs/downloads/wallet-modeling-and-surface-manual.docx) · [HTML 원본](docs/downloads/wallet-modeling-and-surface-manual.html)
+- 사진→3D: [PDF](docs/downloads/wallet-photo-to-3d-manual.pdf) · [편집용 Word](docs/downloads/wallet-photo-to-3d-manual.docx) · [HTML 원본](docs/downloads/wallet-photo-to-3d-manual.html)
+- [모델링·표면 맵 분석 범위](reports/VideoLearning/20261101_WALLET_COURSES_VERIFICATION.json) · [사진→3D 분석 범위](reports/VideoLearning/20261101_PHOTO3D_COURSES_VERIFICATION.json)
+
+원영상·전문 자막·강좌 캡처·제품사진·모델·개인 PC 경로는 포함하지 않습니다. PDF는 자체 작성한 문장과 표로 구성했습니다.
+
 ## 포함 범위
 
-- 2026-11-01 기준 매뉴얼 40개, 자체 SVG 도식 16개, 학습 보고서와 검증 기록을 포함합니다.
+- 2026-11-01 기준 매뉴얼 46개, 자체 SVG 도식 16개, 학습 보고서와 검증 기록을 포함합니다.
 - 손·손가락 세 강좌의 전체 흐름 표본·공개 자동 자막 분석을 추가했습니다. 고유393개 시점과 핵심 UI 확대24장을 확인했으며, 실제 모델 제작·리깅 검증은 수행하지 않았습니다. 전신 세 강좌도 전체 흐름과 주요 제작 구간을 분석해 추가했습니다. 전신은 고유497개 시점·원본 크기 UI30장을 대조했으며, 실제 캐릭터 변경·변형·엔진 검증은 미실행입니다.
 - 매치3는 Taft Unity/C# 실제65편·Winterbolt1편·git-amend 공개3편(영상69편), Catlike 전체 글/FAQ와 제작자 C#7개를 분석했습니다. 고유2,094시점·472시트·135단독프레임(추출 폭1280)과 전편 정제 자동자막을 대조했습니다. Unity/Android 실행은 하지 않았고 Unity6.3 공식 웹 재대조는 미완료로 표시했습니다.
 - 사진 심리스 텍스처 5편은 고유168시점·30시트·원본 UI10장과 정제 자동자막2,299행을 대조했습니다. 로컬 Qwen 10회·FrameLens 핵심300초를 실제 분석했고 AI 오독은 원본으로 교정했습니다. 새 텍스처·Blender/게임 적용은 수행하지 않았습니다.
