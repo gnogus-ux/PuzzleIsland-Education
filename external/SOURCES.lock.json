@@ -1,0 +1,81 @@
+{
+  "collected_date": "2026-11-01",
+  "storage": "Pinned upstream Git submodules; no upstream code execution or skill installation",
+  "content_hash_scope": "SHA256 of sorted git ls-files paths plus SHA256 of local working-tree bytes, joined with LF; Git commit/tree identifies canonical upstream objects independently of checkout line endings",
+  "sources": [
+    {
+      "path": "external/scenario-skills",
+      "url": "https://github.com/scenario-labs/skills.git",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "tree": "49858c4c4f6f0ffdcc0c6a07d8add4049d5f0bd0",
+      "license": "MIT",
+      "license_files": [
+        ".agents/skills/skill-creator/LICENSE.txt",
+        "LICENSE"
+      ],
+      "tracked_files": 1863,
+      "skill_documents": 174,
+      "working_tree_file_list_sha256": "ba32f252aa90e430bc17f6b367d4b08aa76afe7314346c6d6f7472a72fdbc34e",
+      "clean": true,
+      "downloaded": true,
+      "installed": false,
+      "executed": false,
+      "fully_studied": false
+    },
+    {
+      "path": "external/blender-skills",
+      "url": "https://github.com/EL4CTEO/blender-skills.git",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "tree": "9b0d2fc9a2f4063c915e34c17d1136cfb08259e8",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "tracked_files": 190,
+      "skill_documents": 28,
+      "working_tree_file_list_sha256": "b5d4a5a4c515436e89b16d4d73607b6b6592b03d34132220a5fc958dbdd0dca9",
+      "clean": true,
+      "downloaded": true,
+      "installed": false,
+      "executed": false,
+      "fully_studied": false
+    },
+    {
+      "path": "external/unity-skills",
+      "url": "https://github.com/Unity-Technologies/skills.git",
+      "commit": "089bedebab64e9e75943b19a364c7aec2162a7e7",
+      "tree": "718ab5839fd82e2f48c9af07aba888107e676fd4",
+      "license": "Unity Companion License",
+      "license_files": [
+        "LICENSE.md"
+      ],
+      "tracked_files": 249,
+      "skill_documents": 35,
+      "working_tree_file_list_sha256": "7340a996d49761d667052daa777ed7174553f2a070a030f7bad17fb68820072d",
+      "clean": true,
+      "downloaded": true,
+      "installed": false,
+      "executed": false,
+      "fully_studied": false
+    },
+    {
+      "path": "external/gamedev-agent-skills",
+      "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills.git",
+      "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "tree": "f5bfef698dd7c0701222d02d9df88d6ac6ab2043",
+      "license": "Apache-2.0",
+      "license_files": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "tracked_files": 251,
+      "skill_documents": 78,
+      "working_tree_file_list_sha256": "8f83e671104550ccc4d3db24218ae9240c8edce92f7fb41a9a53ced7230306d0",
+      "clean": true,
+      "downloaded": true,
+      "installed": false,
+      "executed": false,
+      "fully_studied": false
+    }
+  ]
+}

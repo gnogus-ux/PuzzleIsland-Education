@@ -1,0 +1,12 @@
+[submodule "external/scenario-skills"]
+	path = external/scenario-skills
+	url = https://github.com/scenario-labs/skills.git
+[submodule "external/blender-skills"]
+	path = external/blender-skills
+	url = https://github.com/EL4CTEO/blender-skills.git
+[submodule "external/unity-skills"]
+	path = external/unity-skills
+	url = https://github.com/Unity-Technologies/skills.git
+[submodule "external/gamedev-agent-skills"]
+	path = external/gamedev-agent-skills
+	url = https://github.com/gamedev-skills/awesome-gamedev-agent-skills.git

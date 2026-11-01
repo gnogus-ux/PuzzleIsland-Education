@@ -20,7 +20,8 @@
     "Completed canonical library migration audit: all 73 prior Puzzle education paths accounted for; 146 verified duplicate copies removed from two checkouts after remote body/hash checks. Private evidence and production files preserved; only canonical links remain in development docs. Wallet batch and existing 104 manifest entries preserved.",
     "Added shared installed-tool inventory and preflight policy based on provided local verification evidence; installation/execution/unavailable/held states separated. No new app tests or installation. Existing education and migration entries preserved.",
     "Added explicit manual preflight: inspect library/topic manuals first; request missing topics, insufficient content or version evidence before unapproved learning/production. Already approved study continues without duplicate approval questions. Installation holds preserved.",
-    "Added reusable work/handoff/review rules distilled from approved collaboration: preserve scope/assets, create actual 3D guides, single ownership and paired visual review, safe quota handoff, honest study evidence, public canonical publishing, approved new-thread acceptance/archive order. Temporary project-specific limits remain local."
+    "Added reusable work/handoff/review rules distilled from approved collaboration: preserve scope/assets, create actual 3D guides, single ownership and paired visual review, safe quota handoff, honest study evidence, public canonical publishing, approved new-thread acceptance/archive order. Temporary project-specific limits remain local.",
+    "Collected four external upstream repositories as pinned, initialized Git submodules with preserved licenses/NOTICE, provenance and file integrity record. External skills not installed/executed or fully studied; original manual counts unchanged."
   ],
   "files": [
     {
@@ -30,8 +31,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11025,
-      "sha256": "2602aa72c740455590c1342ead0ce8bb4fcbc2b6101aba2e1f8b7bdb641505c4"
+      "bytes": 11435,
+      "sha256": "0f685418cdfcc2c4eda661460940cbe62e05167ee3682ef958ad8a1ac8a64d45"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -567,6 +568,21 @@
       "path": "docs/COMMON_WORK_RULES.md",
       "bytes": 9705,
       "sha256": "fa63c26ebb056fa02fb5101df428d334f47d55182ab2a57d442e0ad8968bc741"
+    },
+    {
+      "path": ".gitmodules",
+      "bytes": 524,
+      "sha256": "b28d67fc35f80b25cfc5e5eeebfc55ae696f5a806aa0034761d3f7cf5c7e6ebd"
+    },
+    {
+      "path": "docs/EXTERNAL_LEARNING_SOURCES.md",
+      "bytes": 4327,
+      "sha256": "93c2a91a4eba2f3ddc985ee2d3873f1387f8d38b03311f27fed405b24b038989"
+    },
+    {
+      "path": "external/SOURCES.lock.json",
+      "bytes": 2980,
+      "sha256": "5963c94fc143a057a5fcee02a28bcd7cdae73b4d2b5c430191c9b1eb34e881c4"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -574,5 +590,85 @@
   "seamless_training_added": "2026-11-01: 5 courses; 168 sampled source times, 30 contact sheets, 10 native UI images, 2299 cleaned automatic caption rows; Qwen10 requests/40 images and FrameLens300 source seconds. No model training or production app reproduction.",
   "local_link_check_scope": "185 Markdown inline local file/directory targets; external URLs and anchor fragments excluded. Count is not comparable to historical checkers with different scopes.",
   "tool_reference_documents": 2,
-  "work_reference_documents": 1
+  "work_reference_documents": 1,
+  "external_sources": [
+    {
+      "path": "external/scenario-skills",
+      "url": "https://github.com/scenario-labs/skills.git",
+      "commit": "7f4b801c7248d51b093ec365aceb114bd06139e6",
+      "tree": "49858c4c4f6f0ffdcc0c6a07d8add4049d5f0bd0",
+      "license": "MIT",
+      "license_files": [
+        ".agents/skills/skill-creator/LICENSE.txt",
+        "LICENSE"
+      ],
+      "tracked_files": 1863,
+      "skill_documents": 174,
+      "working_tree_file_list_sha256": "ba32f252aa90e430bc17f6b367d4b08aa76afe7314346c6d6f7472a72fdbc34e",
+      "clean": true,
+      "downloaded": true,
+      "installed": false,
+      "executed": false,
+      "fully_studied": false
+    },
+    {
+      "path": "external/blender-skills",
+      "url": "https://github.com/EL4CTEO/blender-skills.git",
+      "commit": "fb92cfb4cc5a238c22113a6a230b09f535bd0656",
+      "tree": "9b0d2fc9a2f4063c915e34c17d1136cfb08259e8",
+      "license": "MIT",
+      "license_files": [
+        "LICENSE"
+      ],
+      "tracked_files": 190,
+      "skill_documents": 28,
+      "working_tree_file_list_sha256": "b5d4a5a4c515436e89b16d4d73607b6b6592b03d34132220a5fc958dbdd0dca9",
+      "clean": true,
+      "downloaded": true,
+      "installed": false,
+      "executed": false,
+      "fully_studied": false
+    },
+    {
+      "path": "external/unity-skills",
+      "url": "https://github.com/Unity-Technologies/skills.git",
+      "commit": "089bedebab64e9e75943b19a364c7aec2162a7e7",
+      "tree": "718ab5839fd82e2f48c9af07aba888107e676fd4",
+      "license": "Unity Companion License",
+      "license_files": [
+        "LICENSE.md"
+      ],
+      "tracked_files": 249,
+      "skill_documents": 35,
+      "working_tree_file_list_sha256": "7340a996d49761d667052daa777ed7174553f2a070a030f7bad17fb68820072d",
+      "clean": true,
+      "downloaded": true,
+      "installed": false,
+      "executed": false,
+      "fully_studied": false
+    },
+    {
+      "path": "external/gamedev-agent-skills",
+      "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills.git",
+      "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9",
+      "tree": "f5bfef698dd7c0701222d02d9df88d6ac6ab2043",
+      "license": "Apache-2.0",
+      "license_files": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "tracked_files": 251,
+      "skill_documents": 78,
+      "working_tree_file_list_sha256": "8f83e671104550ccc4d3db24218ae9240c8edce92f7fb41a9a53ced7230306d0",
+      "clean": true,
+      "downloaded": true,
+      "installed": false,
+      "executed": false,
+      "fully_studied": false
+    }
+  ],
+  "external_collection_link_check": {
+    "first_party_local_targets": 311,
+    "upstream_links_not_checked": true
+  }
 }
