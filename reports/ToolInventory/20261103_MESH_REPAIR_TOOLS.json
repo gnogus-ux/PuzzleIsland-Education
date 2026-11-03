@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-03",
+  "name": "Mesh Repair Tools",
+  "version": "4.0.2",
+  "module": "bl_ext.blender_org.mesh_repair_tools",
+  "official_source": "https://extensions.blender.org/add-ons/mesh-repair-tools/",
+  "official_archive_sha256": "4d7221841bcc5fb23a26835dbfd9b2a87ce2ddcb29215d1f715329a924008fc7",
+  "license": "GPL-3.0-or-later",
+  "minimum_blender": "4.2.0",
+  "verified_blender": "5.2.2 LTS",
+  "installed": true,
+  "saved_enabled": true,
+  "isolated_process_load": "PASS",
+  "limited_gui_feature": {
+    "operator": "object.fix_mesh_global",
+    "mode": "merge-only; triangulation/quad conversion/fill holes/normal repair/intersection/noise removal disabled",
+    "disposable_duplicate_vertices_before": 5,
+    "after": 4,
+    "result": "FINISHED"
+  },
+  "background_operator": "NOT_SUPPORTED: wm.redraw_timer requires a window. Do not claim background operator success.",
+  "limits": "Only merge-only configuration tested; other repair/remesh/normal operations are unverified. Default merge tolerance is 0.0001 Blender units, so physical scale must be considered. Do not run blanket repair over intended pocket/slot openings.",
+  "preservation": "Existing saved enabled entries retained; preferences backup preserved privately. Existing user windows not accessed or restarted. No purchase, login or third-party source modification."
+}
