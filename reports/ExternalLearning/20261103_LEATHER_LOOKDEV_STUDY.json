@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-03",
+  "author_role": "Codex",
+  "purpose": "Close reported manual gaps for coated leather appearance, area-light reflections and denoising diagnosis; Claude performs existing-manual-based production, not new education.",
+  "search_topics": ["Blender5.2 Principled Coat Specular Tint", "Blender5.2 Area Light Normalize size radiant power", "Open Image Denoise RT auxiliary normal albedo cleanAux"],
+  "sources": [
+    {"title":"Principled BSDF","creator":"Blender Foundation","url":"https://docs.blender.org/manual/en/5.2/render/shader_nodes/shader/principled.html","version":"5.2 LTS manual","http_status":200,"downloaded_html_bytes":489531,"downloaded_html_sha256":"99bd4fc6934b12729ba313e187161e7a2cff63c78aa45e1cbdc13a5d46d7f216","actually_read_sections":["Specular","Coat"]},
+    {"title":"Light Objects","creator":"Blender Foundation","url":"https://docs.blender.org/manual/en/5.2/render/lights/light_object.html","version":"5.2 LTS manual","http_status":200,"downloaded_html_bytes":473900,"downloaded_html_sha256":"4d952ab3633fc3f6fca48db776f7cb1899a6cf94b29e8a692924fa6a753c2b4b","actually_read_sections":["Common Settings","Area Light","Power of Lights"]},
+    {"title":"Open Image Denoise API","creator":"Intel Corporation","url":"https://www.openimagedenoise.org/documentation.html","version":"Official API document retrieved on the stated date; bundled Blender library version not verified","http_status":200,"downloaded_html_bytes":139875,"downloaded_html_sha256":"da57d4055920975d1116a8acd5c0bd05127535761e68f904247f240841ceae80","actually_read_sections":["RT","Auxiliary Feature Images","Albedos","Normals","Quality"]}
+  ],
+  "cross_checked_corrections": ["Dielectric Specular Tint is artistic control; do not label a warm tint measured leather optics", "Coat Weight is not coating thickness; intermediate visual-fit values are not measured coverage", "Area-light same power does not prove identical surface irradiance; inspect Normalize and geometry", "Planar reflection-width estimate is not a universal rough-surface or curved-product formula", "An OIDN OFF preview does not by itself establish that the denoiser generated coherent grain", "Do not infer Blender internal cleanAux/prefilter implementation from generic OIDN API options"],
+  "canonical_manual":"docs/LEATHER_LOOKDEV_AND_DENOISE.md",
+  "study_status":"THREE_DISTINCT_PRIMARY_DOCUMENTS_RELEVANT_SECTIONS_READ_AND_COMPARED",
+  "limits":["No whole-course or linked-page coverage claim","No newly executed app or product validation as part of this document study","No exact bundled OIDN version or internal flag mapping verified","No private product/reference images, local paths, raw source HTML or wholesale third-party document text published"],
+  "runtime_validation":"SEPARATE_FROM_DOCUMENT_STUDY"
+}

@@ -34,7 +34,8 @@
     "2026-11-03: Require manual-first PBR, lighting and rendering work with approved-reference targets, neutral and individual-light checks, fixed color/camera comparisons and honest visual acceptance; example values remain context dependent.",
     "2026-11-03: Always inspect current task reference sources at start, stage transitions, post-handoff work and review; distinguish approval/version and compare real results.",
     "2026-11-03: Prohibit ungrounded production before reading the applicable manual; missing manuals require a user information request, study of three distinct relevant educational sources, and manual authoring before production.",
-    "2026-11-03: Claude must read shared rules and existing manuals but report education gaps to Codex; new three-source study and manual authoring are assigned to Codex, not Claude."
+    "2026-11-03: Claude must read shared rules and existing manuals but report education gaps to Codex; new three-source study and manual authoring are assigned to Codex, not Claude.",
+    "2026-11-03: Codex studied three distinct official documents on Principled coat/specular, area lights/Normalize and OIDN feature inputs; published a leather lookdev and denoising review manual with scope and unverified runtime limits. No private product or raw sources published."
   ],
   "files": [
     {
@@ -44,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14319,
-      "sha256": "c81d07676cdcc580e048d0f06101362c3afde118cc60f370e691bf2999002be7"
+      "bytes": 14661,
+      "sha256": "2c2e662f5f3803331d20e6cd15c44ae21dd04b3d9125a5466a46ed361df890c2"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -766,6 +767,16 @@
       "path": "reports/ToolInventory/20261103_UNIV_UV_VALIDATION.json",
       "bytes": 4004,
       "sha256": "ef704c1d1a18855ed01bc2719a8270e5683864fbe07d6bacf1418f92bac51f7b"
+    },
+    {
+      "path": "docs/LEATHER_LOOKDEV_AND_DENOISE.md",
+      "bytes": 6993,
+      "sha256": "e2ecfbe1202531a6258a6e1c15d5c6bd662b46a4678b53e76dbf49da9b8a5f9d"
+    },
+    {
+      "path": "reports/ExternalLearning/20261103_LEATHER_LOOKDEV_STUDY.json",
+      "bytes": 2804,
+      "sha256": "7751080f047318d3b365df9959be3f2c1e0e1ff1a269c853e1dce7d7b89cca69"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
