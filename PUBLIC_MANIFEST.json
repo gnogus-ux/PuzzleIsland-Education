@@ -32,7 +32,8 @@
     "2026-11-03: Handoff receivers must read current shared/project rules and record acknowledgment before dependent work; delivery alone is not acceptance.",
     "2026-11-03: Always search relevant manuals before each new task or stage, including same-chat transitions and post-handoff work; record applicable sources and gaps.",
     "2026-11-03: Require manual-first PBR, lighting and rendering work with approved-reference targets, neutral and individual-light checks, fixed color/camera comparisons and honest visual acceptance; example values remain context dependent.",
-    "2026-11-03: Always inspect current task reference sources at start, stage transitions, post-handoff work and review; distinguish approval/version and compare real results."
+    "2026-11-03: Always inspect current task reference sources at start, stage transitions, post-handoff work and review; distinguish approval/version and compare real results.",
+    "2026-11-03: Prohibit ungrounded production before reading the applicable manual; missing manuals require a user information request, study of three distinct relevant educational sources, and manual authoring before production."
   ],
   "files": [
     {
@@ -42,8 +43,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13754,
-      "sha256": "6de1c391363d8c585a1c39448f08f2a9bfbcb054b9ada7c8064c14831aa5d631"
+      "bytes": 13860,
+      "sha256": "89c30520a0056fed81986410b372aee3a2916f9ff9bdf1027b318dfef34bc0fa"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -417,8 +418,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 5555,
-      "sha256": "a8e52cd5211f88e7d2cc435fbfc00e113c2663d5a2dfdc5f79ee5f8926910733"
+      "bytes": 5727,
+      "sha256": "c4ff810baedb66fe38a2c31db89b041d635396b786eef7beb9627dec494a04b1"
     },
     {
       "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
@@ -572,13 +573,13 @@
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
-      "bytes": 6918,
-      "sha256": "d4da3446365fc2ac9772482f8d472ce6fb9768398c0c0798c03bf821db9a0ab1"
+      "bytes": 10027,
+      "sha256": "99fe69fa31627abd1be56825703bf27ea5cf21872d2cf1e2199fad2c82943e65"
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 16407,
-      "sha256": "91be737703b32aff31fbe7eb9085899b431635189bdc24d633aba5b349e2d848"
+      "bytes": 16922,
+      "sha256": "0a423d86151046830f932a7f3484202ec3789d55b9e8bda0b84b56b8bbe8b5d4"
     },
     {
       "path": ".gitmodules",
