@@ -33,7 +33,8 @@
     "2026-11-03: Always search relevant manuals before each new task or stage, including same-chat transitions and post-handoff work; record applicable sources and gaps.",
     "2026-11-03: Require manual-first PBR, lighting and rendering work with approved-reference targets, neutral and individual-light checks, fixed color/camera comparisons and honest visual acceptance; example values remain context dependent.",
     "2026-11-03: Always inspect current task reference sources at start, stage transitions, post-handoff work and review; distinguish approval/version and compare real results.",
-    "2026-11-03: Prohibit ungrounded production before reading the applicable manual; missing manuals require a user information request, study of three distinct relevant educational sources, and manual authoring before production."
+    "2026-11-03: Prohibit ungrounded production before reading the applicable manual; missing manuals require a user information request, study of three distinct relevant educational sources, and manual authoring before production.",
+    "2026-11-03: Claude must read shared rules and existing manuals but report education gaps to Codex; new three-source study and manual authoring are assigned to Codex, not Claude."
   ],
   "files": [
     {
@@ -43,8 +44,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13860,
-      "sha256": "89c30520a0056fed81986410b372aee3a2916f9ff9bdf1027b318dfef34bc0fa"
+      "bytes": 14319,
+      "sha256": "c81d07676cdcc580e048d0f06101362c3afde118cc60f370e691bf2999002be7"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -418,8 +419,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 5727,
-      "sha256": "c4ff810baedb66fe38a2c31db89b041d635396b786eef7beb9627dec494a04b1"
+      "bytes": 6243,
+      "sha256": "8278d575483b001f7cc6237a996f78c4a29f2406fa07f439667c27a9c0adbc07"
     },
     {
       "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
@@ -573,13 +574,13 @@
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
-      "bytes": 10027,
-      "sha256": "99fe69fa31627abd1be56825703bf27ea5cf21872d2cf1e2199fad2c82943e65"
+      "bytes": 10635,
+      "sha256": "0ac9e64f3030ccc1f97ea4594dd52f253294951b6b2840002535147da0902380"
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 16922,
-      "sha256": "0a423d86151046830f932a7f3484202ec3789d55b9e8bda0b84b56b8bbe8b5d4"
+      "bytes": 18414,
+      "sha256": "adff9aec75e78b036b43009e5c6876e3ac78c71393e4b925f58b6fab648e355a"
     },
     {
       "path": ".gitmodules",
@@ -618,8 +619,8 @@
     },
     {
       "path": "docs/CLAUDE_RULES_AND_LIBRARY.md",
-      "bytes": 4774,
-      "sha256": "9ef9aa4013234522456d5ea5ec4bc4046bcad04bb113f06bd492cf907e975449"
+      "bytes": 5555,
+      "sha256": "aa3b7f1b6a316b7feb585cad9e7c87c3ecdb656ad174b0008e2117dd4edfd292"
     },
     {
       "path": "reports/ExternalLearning/20261101_INTEGRATION_REVIEW.json",
