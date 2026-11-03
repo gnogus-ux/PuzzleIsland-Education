@@ -1,0 +1,426 @@
+{
+  "date": "2026-11-03",
+  "blender": "5.2.2 LTS",
+  "scope": "Installed metadata and last-saved enabled settings only; current unsaved UI state and feature execution not inspected. No user add-on registration, services, installation or preference writes.",
+  "counts": {
+    "total": 32,
+    "user_installed": 19,
+    "bundled": 13,
+    "saved_enabled": 28
+  },
+  "missing_enabled_modules": [],
+  "entries": [
+    {
+      "name": "ARKit Blendshape Helper",
+      "module": "bl_ext.blender_org.arkit_blendshape_tools",
+      "version": "0.7.5",
+      "category": "extension:blender_org",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "ARKit 표정 셰이프키 보조",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Auto Mirror",
+      "module": "bl_ext.blender_org.auto_mirror",
+      "version": "2.5.4",
+      "category": "extension:blender_org",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "대칭 절단·미러 모델링",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Corrective Shape Keys",
+      "module": "bl_ext.blender_org.corrective_shape_keys",
+      "version": "1.0.0",
+      "category": "extension:blender_org",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "포즈 보정 셰이프키",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "EasyWeight",
+      "module": "bl_ext.blender_org.easyweight",
+      "version": "1.1.3",
+      "category": "extension:blender_org",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "웨이트 페인팅 보조",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "LoopTools",
+      "module": "bl_ext.blender_org.looptools",
+      "version": "4.7.7",
+      "category": "extension:blender_org",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "루프·원형·평탄화 등 메시 정리",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Mio3 Copy Weight",
+      "module": "bl_ext.blender_org.mio3_copy_weight",
+      "version": "1.1.0",
+      "category": "extension:blender_org",
+      "saved_enabled": true,
+      "minimum_blender": "5.0.0",
+      "maximum_blender": null,
+      "purpose_ko": "오브젝트 간 정점 웨이트 복사",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Mio3 Flex",
+      "module": "bl_ext.blender_org.mio3_flex",
+      "version": "1.0.4",
+      "category": "extension:blender_org",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "경로를 이용한 완만한 메시 변형",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Mio3 UV",
+      "module": "bl_ext.blender_org.mio3_uv",
+      "version": "2.2.0",
+      "category": "extension:blender_org",
+      "saved_enabled": true,
+      "minimum_blender": "5.0.0",
+      "maximum_blender": null,
+      "purpose_ko": "UV 편집 보조",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Ucupaint",
+      "module": "bl_ext.blender_org.ucupaint",
+      "version": "3.0.0",
+      "category": "extension:blender_org",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "Eevee/Cycles 레이어 페인팅",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Vertex Overlap",
+      "module": "bl_ext.blender_org.vertex_overlap",
+      "version": "1.1.0",
+      "category": "extension:blender_org",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "중복 정점 표시",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Blender MCP",
+      "module": "bl_ext.user_default.blender_mcp",
+      "version": "1.19.0",
+      "category": "extension:user_default",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "MCP 클라이언트와 Blender 연결",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Higgsfield",
+      "module": "bl_ext.user_default.higgsfield_blender",
+      "version": "1.5.60",
+      "category": "extension:user_default",
+      "saved_enabled": true,
+      "minimum_blender": "5.1.0",
+      "maximum_blender": null,
+      "purpose_ko": "Blender 내 Higgsfield 미디어 연동",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "QRemeshify",
+      "module": "bl_ext.user_default.qremeshify",
+      "version": "1.1.0",
+      "category": "extension:user_default",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "쿼드 리메시",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "RetopoFlow 3",
+      "module": "bl_ext.user_default.retopoflow",
+      "version": "3.4.11",
+      "category": "extension:user_default",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "리토폴로지 도구",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "UniV",
+      "module": "bl_ext.user_default.univ",
+      "version": "4.0.0",
+      "category": "extension:user_default",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "UV 편집·정리",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "UV Mechanic",
+      "module": "bl_ext.user_default.uv_mechanic",
+      "version": "1.0.0",
+      "category": "extension:user_default",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "UV 정렬·겹침·밀도 보조",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Zeeks Auto UV Unwrap",
+      "module": "bl_ext.user_default.zeeks_auto_uv_unwrap",
+      "version": "2.0.0",
+      "category": "extension:user_default",
+      "saved_enabled": true,
+      "minimum_blender": "4.2.0",
+      "maximum_blender": null,
+      "purpose_ko": "자동 UV·시임 보조",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Tripo Bridge",
+      "module": "Tripo3d_Blender_Bridge",
+      "version": "1.0.34",
+      "category": "legacy-user",
+      "saved_enabled": true,
+      "minimum_blender": [
+        4,
+        1,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "Tripo AI 생성 서비스 연결",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Tripo 3D",
+      "module": "tripo_local",
+      "version": "0.7.7",
+      "category": "legacy-user",
+      "saved_enabled": true,
+      "minimum_blender": [
+        3,
+        0,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "Tripo AI 생성 서비스 연결",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Blender Extensions",
+      "module": "bl_pkg",
+      "version": "0.0.1",
+      "category": "bundled",
+      "saved_enabled": true,
+      "minimum_blender": [
+        4,
+        0,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "확장 저장소 관리",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Cycles Render Engine",
+      "module": "cycles",
+      "version": null,
+      "category": "bundled",
+      "saved_enabled": true,
+      "minimum_blender": [
+        2,
+        80,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "Cycles 렌더 엔진",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Hydra Storm render engine",
+      "module": "hydra_storm",
+      "version": "1.0.0",
+      "category": "bundled",
+      "saved_enabled": false,
+      "minimum_blender": [
+        4,
+        0,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "Hydra Storm 렌더 엔진",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "BioVision Motion Capture (BVH) format",
+      "module": "io_anim_bvh",
+      "version": "1.0.1",
+      "category": "bundled",
+      "saved_enabled": true,
+      "minimum_blender": [
+        2,
+        81,
+        6
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "BVH 모션 입출력",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Scalable Vector Graphics (SVG) 1.1 format",
+      "module": "io_curve_svg",
+      "version": null,
+      "category": "bundled",
+      "saved_enabled": true,
+      "minimum_blender": [
+        2,
+        80,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "SVG 커브 가져오기",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "UV Layout",
+      "module": "io_mesh_uv_layout",
+      "version": "1.2.0",
+      "category": "bundled",
+      "saved_enabled": true,
+      "minimum_blender": [
+        3,
+        0,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "UV 레이아웃 내보내기",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "FBX format",
+      "module": "io_scene_fbx",
+      "version": "5.15.0",
+      "category": "bundled",
+      "saved_enabled": true,
+      "minimum_blender": [
+        5,
+        0,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "FBX 입출력",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "glTF 2.0 format",
+      "module": "io_scene_gltf2",
+      "version": "5.2.40",
+      "category": "bundled",
+      "saved_enabled": true,
+      "minimum_blender": [
+        5,
+        2,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "glTF 입출력",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Node Wrangler",
+      "module": "node_wrangler",
+      "version": "4.1.0",
+      "category": "bundled",
+      "saved_enabled": false,
+      "minimum_blender": [
+        5,
+        0,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "노드 편집 보조",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Pose Library",
+      "module": "pose_library",
+      "version": "2.0",
+      "category": "bundled",
+      "saved_enabled": true,
+      "minimum_blender": [
+        3,
+        0,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "포즈 자산 관리",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Rigify",
+      "module": "rigify",
+      "version": "0.6.10",
+      "category": "bundled",
+      "saved_enabled": true,
+      "minimum_blender": [
+        4,
+        0,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "자동 리깅 도구",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "Manage UI translations",
+      "module": "ui_translate",
+      "version": "2.1.0",
+      "category": "bundled",
+      "saved_enabled": false,
+      "minimum_blender": [
+        4,
+        2,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "UI 번역 관리",
+      "feature_execution_this_audit": "NOT_RUN"
+    },
+    {
+      "name": "VR Scene Inspection",
+      "module": "viewport_vr_preview",
+      "version": "0.11.2",
+      "category": "bundled",
+      "saved_enabled": false,
+      "minimum_blender": [
+        3,
+        2,
+        0
+      ],
+      "maximum_blender": null,
+      "purpose_ko": "VR 장면 미리보기",
+      "feature_execution_this_audit": "NOT_RUN"
+    }
+  ]
+}

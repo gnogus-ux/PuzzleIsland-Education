@@ -25,7 +25,8 @@
     "Started four-repository document study; published Unity official 35-body study, source review/correction integration, and Claude shared-library instructions. Other assigned study packages remain in progress; no live app tests or installs. Historical collection lock retained.",
     "Added GameDev 78-body and Scenario service 79-body Korean study manuals, per-topic indexes and file/range/hash records. Completed published main-body study count 192/315; other assigned packages in progress. Runtime and installations NOT_RUN.",
     "Completed all four imported repositories: 315 unique SKILL main bodies, 53431 lines, 4005845 working-tree bytes, seven study packages, full recorded range/hash/inventory coverage with no missing or duplicate bodies. Added 20 Korean educational documents in total, plus Claude shared-library instructions; auxiliary content selectively read, runtime/installs NOT_RUN.",
-    "Corrected public file manifest to hash canonical Git blob bytes, eliminating Windows checkout CRLF versus committed LF differences. File order and historical source-study hash semantics preserved; publication rules now state the byte scope explicitly."
+    "Corrected public file manifest to hash canonical Git blob bytes, eliminating Windows checkout CRLF versus committed LF differences. File order and historical source-study hash semantics preserved; publication rules now state the byte scope explicitly.",
+    "2026-11-03: Added installed Blender add-on inventory (19 user, 13 bundled; 28 saved enabled), metadata/saved-setting scope and execution limits; shared preflight and standing authorization to install/enable required Blender add-ons without repeated approval, preserving paid-purchase/authentication and unrelated-app restrictions."
   ],
   "files": [
     {
@@ -35,8 +36,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12008,
-      "sha256": "fb193d83ad774392f9634efb7a1e7eb428026dbc2da34a26de10f5d8013bb84c"
+      "bytes": 12481,
+      "sha256": "b04cef0b25c54bc500a54e4af0c3f327b13f50b118cb2d417daef3d908a04ee2"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -410,8 +411,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 4083,
-      "sha256": "8a5fe5e9f8648f7d19b69f3737dcc07fd1cad5ec5a689040940cc5d9d518e8c0"
+      "bytes": 4556,
+      "sha256": "44fdb347342de2e951761ee87f7b466cf8a80748d7d9e83af4087810e9ab9d6b"
     },
     {
       "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
@@ -560,18 +561,18 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 9097,
-      "sha256": "b766655a1a744dba52dc991911f395fac6e0231a6dd2008d6f4f45ab362f202e"
+      "bytes": 9821,
+      "sha256": "27ec710f8c581fb027b0ec0783815c3709257a885648c3b6a3ed2b9ff95d64c0"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
-      "bytes": 3107,
-      "sha256": "b02b09f0382630654f6a26dfd9af756be1cfd50e29c6049f754a0dc026d63355"
+      "bytes": 5535,
+      "sha256": "c74e955bacecd13e59b5a94db9dc9f1067c157c4e7d413377ccd31571dc01eac"
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 9705,
-      "sha256": "fa63c26ebb056fa02fb5101df428d334f47d55182ab2a57d442e0ad8968bc741"
+      "bytes": 10275,
+      "sha256": "ebcde26fe15529bf4f972aeac29d074ccc62e13d32a53729d7dda0e1d66bd979"
     },
     {
       "path": ".gitmodules",
@@ -737,6 +738,16 @@
       "path": "reports/ExternalLearning/20261101_GODOT_READING_VERIFICATION.json",
       "bytes": 15691,
       "sha256": "283df8506debd9f0b207a807f8204ed17b7e534cb48d1d7428b60ac8210bd627"
+    },
+    {
+      "path": "docs/BLENDER_ADDONS.md",
+      "bytes": 6228,
+      "sha256": "1546ebc7e8c4489f447aad57fba31772fd0e17900a81ae78362929f655714ae7"
+    },
+    {
+      "path": "reports/ToolInventory/20261103_BLENDER_ADDONS.json",
+      "bytes": 11913,
+      "sha256": "b524f8b9f7948712eb8a726237d006a677778ccc2b449dfcc158a217892a2b2c"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
