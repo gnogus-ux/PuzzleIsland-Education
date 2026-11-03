@@ -89,6 +89,7 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 | 주제 | 정본 문서 |
 |---|---|
 | 외피·척추·포켓·봉제·접힘 검수 | [지갑 모델링](docs/WALLET_MODELING.md) |
+| 추가 내피·봉제 구속·외피 여유분의 펼침 볼륨 | [겹 구조와 외피 볼륨](docs/WALLET_LAYERED_SHELL_VOLUME.md) |
 | 사진 높이·범프·노멀·실제 변위 | [가죽 표면 맵](docs/WALLET_SURFACE_MAPS.md) |
 | 모델링5강·표면맵5강 근거·오류 교정 | [10강 분석](docs/WALLET_COURSE_ANALYSIS.md) |
 | 촬영·정렬·표면 복원·앞뒤 결합 | [사진→3D 촬영과 복원](docs/PHOTO3D_CAPTURE_RECONSTRUCTION.md) |

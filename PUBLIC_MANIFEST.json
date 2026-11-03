@@ -35,7 +35,8 @@
     "2026-11-03: Always inspect current task reference sources at start, stage transitions, post-handoff work and review; distinguish approval/version and compare real results.",
     "2026-11-03: Prohibit ungrounded production before reading the applicable manual; missing manuals require a user information request, study of three distinct relevant educational sources, and manual authoring before production.",
     "2026-11-03: Claude must read shared rules and existing manuals but report education gaps to Codex; new three-source study and manual authoring are assigned to Codex, not Claude.",
-    "2026-11-03: Codex studied three distinct official documents on Principled coat/specular, area lights/Normalize and OIDN feature inputs; published a leather lookdev and denoising review manual with scope and unverified runtime limits. No private product or raw sources published."
+    "2026-11-03: Codex studied three distinct official documents on Principled coat/specular, area lights/Normalize and OIDN feature inputs; published a leather lookdev and denoising review manual with scope and unverified runtime limits. No private product or raw sources published.",
+    "2026-11-04: Codex read three distinct Blender5.2 official articles and authored a layered-wallet lining, seam-boundary and slack exterior-volume guide. Controlled shape-key authoring is distinguished from unrun cloth simulation and product validation. No private assets or raw sources published."
   ],
   "files": [
     {
@@ -45,8 +46,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14661,
-      "sha256": "2c2e662f5f3803331d20e6cd15c44ae21dd04b3d9125a5466a46ed361df890c2"
+      "bytes": 14798,
+      "sha256": "ca464c10a6506c34f9b852275a67cd06c63d02fe1e35c1254d719ed0c464c623"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -505,8 +506,8 @@
     },
     {
       "path": "docs/WALLET_MODELING.md",
-      "bytes": 10834,
-      "sha256": "1da3867f66b1f6522f0c6b22b94afa76ac52b040eb059bb3bcecc90bb15ca6e7"
+      "bytes": 11151,
+      "sha256": "38acdf9220204754627756938ce8eb71fca6b38f0e494b8bba8bb47eaee12e25"
     },
     {
       "path": "docs/WALLET_SURFACE_MAPS.md",
@@ -777,6 +778,16 @@
       "path": "reports/ExternalLearning/20261103_LEATHER_LOOKDEV_STUDY.json",
       "bytes": 2804,
       "sha256": "7751080f047318d3b365df9959be3f2c1e0e1ff1a269c853e1dce7d7b89cca69"
+    },
+    {
+      "path": "docs/WALLET_LAYERED_SHELL_VOLUME.md",
+      "bytes": 9650,
+      "sha256": "7c3a79238ddeafb16a11d56edd528dd05ef0c714ce78a69c88719ec87cdd73c8"
+    },
+    {
+      "path": "reports/ExternalLearning/20261104_LAYERED_WALLET_STUDY.json",
+      "bytes": 2826,
+      "sha256": "f4eba523c41f1e7c1e572d2bc47dad0f2477d0f510619827e422b514466086f8"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

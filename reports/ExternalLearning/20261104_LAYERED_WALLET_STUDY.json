@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-04",
+  "author": "Codex",
+  "topic": "Layered wallet lining, seam constraints and slack exterior volume across folding states",
+  "target_version": "Blender5.2 official documentation; local product runtime separate",
+  "sources": [
+    {"title":"Cloth Shape","author":"Blender Foundation","url":"https://docs.blender.org/manual/en/5.2/physics/cloth/settings/shape.html","actual_read":"Full returned article body: Pin Group, stiffness, Sewing, Max Sewing Force, Shrinking Factor, Dynamic Mesh, Rest Shape Key","returned_characters":2856,"truncated":false},
+    {"title":"Cloth Physical Properties","author":"Blender Foundation","url":"https://docs.blender.org/manual/en/5.2/physics/cloth/settings/physical_properties.html","actual_read":"Full returned article body: mass, viscosity, bending model, stiffness/damping, Internal Springs, Pressure/volume and limitations","returned_characters":4808,"truncated":false},
+    {"title":"Shape Keys Panel","author":"Blender Foundation","url":"https://docs.blender.org/manual/en/5.2/animation/shape_keys/shape_keys_panel.html","actual_read":"Full returned article body: shape key controls/specials, topology matching, relative/reference/vertex group, absolute interpolation/time","returned_characters":6950,"truncated":false}
+  ],
+  "retrieval":"Official Blender documentation connector with explicit5.2, no language/version fallback, article bodies read directly by Codex; search snippets not counted as study",
+  "failed_locator":"animation/shape_keys/relative_shape_keys.html returned404; resolved actual panel article through documentation search, no failed page counted",
+  "cross_checks":["Pinning binds boundary targets; sewing uses loose mesh edges pulling vertices; separate visible stitch objects do not automatically simulate sewing","Adding a lining layer does not alone prescribe slack, curvature or length preservation","Pressure is a soft shell/fluid model and not direct proof for loose layered leather volume","Relative shape keys offer controlled authoring and masks, but interpolation does not guarantee metric length, contact or collision","Dynamic Mesh recalculates rest shape; Rest Shape Key is mutually exclusive"],
+  "application_status":"Reusable construction and review plan written; no product simulation or deformation success claimed by this learning record",
+  "local_test":"NOT_RUN_BY_THIS_STUDY",
+  "Claude_new_education":false,
+  "limitations":["No physical leather measurements, specimen testing or exact wallet tutorial was studied","Layer arrangement and angle-dependent volume are an application proposal requiring actual Guide and product checks","No implicit release of project simulation/playback/bake/collision restrictions","No raw source media/full external article text/private product assets or local paths published"]
+}
