@@ -29,7 +29,8 @@
     "2026-11-03: Added installed Blender add-on inventory (19 user, 13 bundled; 28 saved enabled), metadata/saved-setting scope and execution limits; shared preflight and standing authorization to install/enable required Blender add-ons without repeated approval, preserving paid-purchase/authentication and unrelated-app restrictions.",
     "2026-11-03: Mesh Repair Tools4.0.2 official install, saved activation and limited duplicate-merge GUI verification; background redraw limitation and physical-scale caution recorded. Latest inventory totals33, saved active29; original metadata snapshot preserved.",
     "2026-11-03: Existing UniV4.0.0 limited four-set UV packing validation; native density fallback, edge warning refinement, dependency preservation recorded.",
-    "2026-11-03: Handoff receivers must read current shared/project rules and record acknowledgment before dependent work; delivery alone is not acceptance."
+    "2026-11-03: Handoff receivers must read current shared/project rules and record acknowledgment before dependent work; delivery alone is not acceptance.",
+    "2026-11-03: Always search relevant manuals before each new task or stage, including same-chat transitions and post-handoff work; record applicable sources and gaps."
   ],
   "files": [
     {
@@ -39,8 +40,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12860,
-      "sha256": "aba598801672e4726650891b1431410377690e081bfdf70dae6cfee69b2fdd32"
+      "bytes": 13241,
+      "sha256": "3f08539fe1f6ee65e1875f042da865b9e056f67f6ac38fe2c388b70e679cd8f5"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -414,8 +415,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 4958,
-      "sha256": "15873190da00d3fa9d5d1c12041cece5d7573f1ca94864a7e15f2b20b34d57f6"
+      "bytes": 5240,
+      "sha256": "a3fa2b8886aa48edbb375ab50bfbf5a29f2e17fc3bb314d23c5d93b00c64dcba"
     },
     {
       "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
@@ -569,13 +570,13 @@
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
-      "bytes": 5535,
-      "sha256": "c74e955bacecd13e59b5a94db9dc9f1067c157c4e7d413377ccd31571dc01eac"
+      "bytes": 6918,
+      "sha256": "d4da3446365fc2ac9772482f8d472ce6fb9768398c0c0798c03bf821db9a0ab1"
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 12086,
-      "sha256": "f62adad113bbfca13f1931a37e03bca21533396f0fa893afb18974c598d75ade"
+      "bytes": 12544,
+      "sha256": "789a8a837b044a9bbee82aa2e4ca1b0ba9ec12b24e111753da5bfa0ed05c44e0"
     },
     {
       "path": ".gitmodules",
