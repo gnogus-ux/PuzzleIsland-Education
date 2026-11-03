@@ -32,6 +32,7 @@ Unity 매치3·Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕�
 
 | 주제 | 매뉴얼 |
 |---|---|
+| PBR·광택·재질·조명·렌더 적용 | [Blender 제작 절차](docs/BLENDER_SKILLS_WORKFLOW.md) · [PBR·룩디벨롭·렌더 색인](docs/BLENDER_SKILLS_INDEX.md) |
 | 얼굴 기본 루프·눈–코 연결 | [기본 루프 배치](docs/FACE_RETOPOLOGY_BASIC_LOOPS.md) |
 | 상세 얼굴 토폴로지 | [2번 강좌 보강](docs/FACE_RETOPOLOGY_SECOND_TUTORIAL.md) |
 | 눈꺼풀 두께·안쪽 면 | [눈꺼풀 볼륨](docs/FACE_EYELID_VOLUME.md) |
