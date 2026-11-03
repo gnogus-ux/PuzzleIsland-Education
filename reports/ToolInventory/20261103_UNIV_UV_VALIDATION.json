@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-03",
+  "addon": "UniV",
+  "version": "4.0.0",
+  "official_source": "https://github.com/Oxicid/UniV",
+  "license": "GPL-3.0-or-later",
+  "verified_blender": "5.2.2 LTS",
+  "existing_install": true,
+  "existing_saved_enabled": true,
+  "additional_install": false,
+  "installed_total": 33,
+  "saved_enabled_total": 29,
+  "actual_features": [
+    "AABB packing, EXEC path, native backend, rotation disabled; four independent texture sets: 8192,8192,1024,2048 square",
+    "UNIV_OT_Check_Overlap completed for all four sets",
+    "Disposable two-layer mesh test confirmed the active new UV was packed and original UV retained"
+  ],
+  "supporting_native_features": [
+    "Average Islands Scale for leather density in the intermediate unwrap",
+    "UV Layout PNG export",
+    "Analytic thread tube UV: longitudinal arc length and circumference, independent end caps"
+  ],
+  "results": {
+    "Exterior": {
+      "resolution": 8192,
+      "islands": 250,
+      "bbox_min_gap_px": 31.9990234375,
+      "texel_px_per_mm": 24.398143612502256,
+      "native_overlap_edge_warnings": 41,
+      "strict_overlap": {
+        "positive_area_overlap_pairs": 0,
+        "overlap_area_px2": 0.0,
+        "area_tolerance_px2": 0.0001,
+        "native_flagged_triangles_checked": 58
+      }
+    },
+    "Interior": {
+      "resolution": 8192,
+      "islands": 336,
+      "bbox_min_gap_px": 31.9989013671875,
+      "texel_px_per_mm": 16.667177914724544,
+      "native_overlap_edge_warnings": 182,
+      "strict_overlap": {
+        "positive_area_overlap_pairs": 0,
+        "overlap_area_px2": 0.0,
+        "area_tolerance_px2": 0.0001,
+        "native_flagged_triangles_checked": 215
+      }
+    },
+    "NeedleHoles": {
+      "resolution": 1024,
+      "islands": 3377,
+      "bbox_min_gap_px": 3.99554443359375,
+      "texel_px_per_mm": 32.660514013438565,
+      "native_overlap_edge_warnings": 0,
+      "strict_overlap": {
+        "positive_area_overlap_pairs": 0,
+        "overlap_area_px2": 0.0,
+        "area_tolerance_px2": 0.0001,
+        "native_flagged_triangles_checked": 0
+      }
+    },
+    "Thread": {
+      "resolution": 2048,
+      "islands": 1632,
+      "bbox_min_gap_px": 7.98638916015625,
+      "texel_px_per_mm": 66.09871809499194,
+      "native_overlap_edge_warnings": 0,
+      "strict_overlap": {
+        "positive_area_overlap_pairs": 0,
+        "overlap_area_px2": 0.0,
+        "area_tolerance_px2": 0.0001,
+        "native_flagged_triangles_checked": 0
+      }
+    }
+  },
+  "overlap_scope": "Within each texture set. Native edge warnings can include boundary/rounding contacts. Flagged triangles were refined against atlas triangles by positive-area clipping with 0.0001 pixel-square tolerance. Cross-island AABB overlaps also zero. This is not an exact zero-tolerance all-pairs proof.",
+  "preservation": "Final four-set pass preserved all 14 targeted meshes vertex/edge/loop/face geometry hashes and existing UV layers relative to the intermediate unwrap. Earlier guide-authorized triangulation of selected Boolean/warped polygons preserved vertex positions and editable source. Material assignment was updated for the four texture sets; original snapshots retained.",
+  "limitations": "UniV Normalize was tested on a disposable cube, but its near-zero-area tolerance skipped sub-millimetre product islands. Native Average Islands Scale was used in production. No blanket feature, paid backend, baking, painting, external application, animation, collision, or physics validation. BaseColor outputs are flat existing-material-color paint targets, not completed grain/fiber textures.",
+  "factory_extension_dependencies": "Factory add-on loading may synchronize shared extension wheels against a reduced enabled list. Preserve saved enabled entries before loading required extensions. Dependencies affected during testing were restored from existing local wheel archives through Blender management; preferences file hash unchanged. No unrelated add-on registration or service calls."
+}

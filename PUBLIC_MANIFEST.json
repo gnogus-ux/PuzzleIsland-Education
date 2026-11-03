@@ -27,7 +27,8 @@
     "Completed all four imported repositories: 315 unique SKILL main bodies, 53431 lines, 4005845 working-tree bytes, seven study packages, full recorded range/hash/inventory coverage with no missing or duplicate bodies. Added 20 Korean educational documents in total, plus Claude shared-library instructions; auxiliary content selectively read, runtime/installs NOT_RUN.",
     "Corrected public file manifest to hash canonical Git blob bytes, eliminating Windows checkout CRLF versus committed LF differences. File order and historical source-study hash semantics preserved; publication rules now state the byte scope explicitly.",
     "2026-11-03: Added installed Blender add-on inventory (19 user, 13 bundled; 28 saved enabled), metadata/saved-setting scope and execution limits; shared preflight and standing authorization to install/enable required Blender add-ons without repeated approval, preserving paid-purchase/authentication and unrelated-app restrictions.",
-    "2026-11-03: Mesh Repair Tools4.0.2 official install, saved activation and limited duplicate-merge GUI verification; background redraw limitation and physical-scale caution recorded. Latest inventory totals33, saved active29; original metadata snapshot preserved."
+    "2026-11-03: Mesh Repair Tools4.0.2 official install, saved activation and limited duplicate-merge GUI verification; background redraw limitation and physical-scale caution recorded. Latest inventory totals33, saved active29; original metadata snapshot preserved.",
+    "2026-11-03: Existing UniV4.0.0 limited four-set UV packing validation; native density fallback, edge warning refinement, dependency preservation recorded."
   ],
   "files": [
     {
@@ -562,8 +563,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 10242,
-      "sha256": "fcefa6bf99e904e471bf21b60187271bd0bfc87818d37b873ad6bed00d7a9aa2"
+      "bytes": 10631,
+      "sha256": "985b7d858f5aad14ddc698ce263ff12f84f33bdef735b6485a8e463290945809"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -742,8 +743,8 @@
     },
     {
       "path": "docs/BLENDER_ADDONS.md",
-      "bytes": 7846,
-      "sha256": "08b98554e510e10be92ea66a743de6b73545447ab810715115813cb1a29703cd"
+      "bytes": 9473,
+      "sha256": "76ebe2abb77768d808f21f8f95a7d5c1d50222f329b641ee996da88ec0ff3b74"
     },
     {
       "path": "reports/ToolInventory/20261103_BLENDER_ADDONS.json",
@@ -754,6 +755,11 @@
       "path": "reports/ToolInventory/20261103_MESH_REPAIR_TOOLS.json",
       "bytes": 1352,
       "sha256": "ea8b2e8898b0fdd5b0bed7fbace6646da6d31374ad3d371a997451f5db375726"
+    },
+    {
+      "path": "reports/ToolInventory/20261103_UNIV_UV_VALIDATION.json",
+      "bytes": 4004,
+      "sha256": "ef704c1d1a18855ed01bc2719a8270e5683864fbe07d6bacf1418f92bac51f7b"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
