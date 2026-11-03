@@ -28,7 +28,8 @@
     "Corrected public file manifest to hash canonical Git blob bytes, eliminating Windows checkout CRLF versus committed LF differences. File order and historical source-study hash semantics preserved; publication rules now state the byte scope explicitly.",
     "2026-11-03: Added installed Blender add-on inventory (19 user, 13 bundled; 28 saved enabled), metadata/saved-setting scope and execution limits; shared preflight and standing authorization to install/enable required Blender add-ons without repeated approval, preserving paid-purchase/authentication and unrelated-app restrictions.",
     "2026-11-03: Mesh Repair Tools4.0.2 official install, saved activation and limited duplicate-merge GUI verification; background redraw limitation and physical-scale caution recorded. Latest inventory totals33, saved active29; original metadata snapshot preserved.",
-    "2026-11-03: Existing UniV4.0.0 limited four-set UV packing validation; native density fallback, edge warning refinement, dependency preservation recorded."
+    "2026-11-03: Existing UniV4.0.0 limited four-set UV packing validation; native density fallback, edge warning refinement, dependency preservation recorded.",
+    "2026-11-03: Handoff receivers must read current shared/project rules and record acknowledgment before dependent work; delivery alone is not acceptance."
   ],
   "files": [
     {
@@ -38,8 +39,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12481,
-      "sha256": "b04cef0b25c54bc500a54e4af0c3f327b13f50b118cb2d417daef3d908a04ee2"
+      "bytes": 12860,
+      "sha256": "aba598801672e4726650891b1431410377690e081bfdf70dae6cfee69b2fdd32"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -413,8 +414,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 4556,
-      "sha256": "44fdb347342de2e951761ee87f7b466cf8a80748d7d9e83af4087810e9ab9d6b"
+      "bytes": 4958,
+      "sha256": "15873190da00d3fa9d5d1c12041cece5d7573f1ca94864a7e15f2b20b34d57f6"
     },
     {
       "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
@@ -573,8 +574,8 @@
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 10275,
-      "sha256": "ebcde26fe15529bf4f972aeac29d074ccc62e13d32a53729d7dda0e1d66bd979"
+      "bytes": 12086,
+      "sha256": "f62adad113bbfca13f1931a37e03bca21533396f0fa893afb18974c598d75ade"
     },
     {
       "path": ".gitmodules",
