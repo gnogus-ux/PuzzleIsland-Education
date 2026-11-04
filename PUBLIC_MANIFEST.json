@@ -38,7 +38,8 @@
     "2026-11-03: Codex studied three distinct official documents on Principled coat/specular, area lights/Normalize and OIDN feature inputs; published a leather lookdev and denoising review manual with scope and unverified runtime limits. No private product or raw sources published.",
     "2026-11-04: Codex read three distinct Blender5.2 official articles and authored a layered-wallet lining, seam-boundary and slack exterior-volume guide. Controlled shape-key authoring is distinguished from unrun cloth simulation and product validation. No private assets or raw sources published.",
     "2026-11-04: Codex read seven distinct official Blender5.2 documents and added broad panel curvature, pocket baseline lowering, reference-aware relative-key residuals, paired highlight review and native driver residual-knot/six-angle verification guidance. Functions are application proposals; live Blender/product tests NOT_RUN. Unrelated unpublished files excluded.",
-    "2026-11-04: Record four selectively adapted Euraika studio skills and limited validation; preserve existing rules, models, permissions and project structure."
+    "2026-11-04: Record four selectively adapted Euraika studio skills and limited validation; preserve existing rules, models, permissions and project structure.",
+    "2026-11-04: Added user-authorized Chili3D local installation and reusable three-source official manual; WASM/UI, reference geometry, CD reopen and STEP output verified. Private products/paths excluded; manufacturing, STEP reimport, AI API and paid Pro remain unverified."
   ],
   "files": [
     {
@@ -48,8 +49,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15077,
-      "sha256": "c30dd93faad9460f29d9d5060a247ba85b6bdd89186fbe5f491a87be63c4a867"
+      "bytes": 15194,
+      "sha256": "9527501390a443164527e4da2ed9cee12457024edaa231c853bbf7afd0069083"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -573,8 +574,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 11460,
-      "sha256": "169b240d0c21f19921478369017f43cb5dda2e2fd841494678c6469968386fc8"
+      "bytes": 11978,
+      "sha256": "cea97148fc2bcb33903502ed7c3efafeaf544be9fade0ec12ac7123b3dffd9cf"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -810,6 +811,16 @@
       "path": "reports/ToolInventory/20261104_EURAIKA_SELECTIVE.json",
       "bytes": 4662,
       "sha256": "fb73e29d44ca008b9fe23286d07722c6c7595c57352ff582faed246cb1b9159a"
+    },
+    {
+      "path": "docs/CHILI3D_LOCAL_CAD.md",
+      "bytes": 7346,
+      "sha256": "d961e418478aa0764ff70c98873bd218f6f69a4c23ff5657e5c9cbf0235b46cf"
+    },
+    {
+      "path": "reports/ToolInventory/20261104_CHILI3D_LOCAL.json",
+      "bytes": 1425,
+      "sha256": "2ea96f4e7e6b6a9b7ac7a297d8a4f4a11744f4923c0b190ae22f3af889e8e67b"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

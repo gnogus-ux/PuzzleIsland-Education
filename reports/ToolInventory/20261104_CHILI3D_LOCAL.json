@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "program": "Chili3D",
+  "app_version": "0.8.0",
+  "document_version": "0.7.1",
+  "source": "https://github.com/xiangechen/chili3d",
+  "source_commit": "4600206f9b354421f4de288e853efcde926da080",
+  "authorization": "Explicit user request to install in an independent project and apply to the current wallet",
+  "environment": {
+    "node": "24.22.0",
+    "npm": "11.19.1",
+    "browser": "ego-browser",
+    "network_binding": "loopback only"
+  },
+  "verified": [
+    "npm ci completed",
+    "local compilation and TypeScript check passed",
+    "WASM initialization and application UI displayed",
+    "nine read-only reference sections and one boundary node created",
+    "CD save and reload retained ten valid CAD shapes",
+    "actual CAD vertices compared with evaluated source coordinates",
+    "STEP file produced"
+  ],
+  "not_verified": [
+    "STEP reimport in another CAD",
+    "whole product collision or watertightness",
+    "manufacturing tolerances",
+    "AI provider API",
+    "paid Pro features"
+  ],
+  "preserved": [
+    "original Blender file hash unchanged",
+    "other active Blender scene not claimed",
+    "no global settings changed",
+    "no new Blender add-ons installed"
+  ],
+  "local_source_change": "Removed default Clarity session analytics from local HTML; not a full network isolation claim",
+  "private_assets_published": false,
+  "manual": "docs/CHILI3D_LOCAL_CAD.md"
+}
