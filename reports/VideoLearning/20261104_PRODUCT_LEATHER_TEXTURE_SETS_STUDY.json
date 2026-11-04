@@ -1,0 +1,17 @@
+{
+ "date":"2026-11-04",
+ "author":"Codex",
+ "kind":"Three official documentation bodies actually read; not video viewing",
+ "topic":"Per-piece unique4K leather for product close-up video",
+ "sources":[
+  {"url":"https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/interface/preferences/layer-resolution","updated":"2026-04-07","read":"All body paragraphs on document/input layer resolution and performance"},
+  {"url":"https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/filters/tools/upscale","updated":"2026-04-07","read":"Description, Advanced filter, Parameters and How to: all body paragraphs"},
+  {"url":"https://docs.blender.org/manual/en/5.2/render/cycles/baking.html","read":"Setup through Margin Size: all body paragraphs, including bake passes, active target, tangent/object space and cage/output"}
+ ],
+ "crosscheck":"Output resolution, source physical extent and source observed detail are separate. AI Upscale invents detail, not measurements. A copied RGB tangent normal cannot be assumed correct after UV-basis changes; native tangent bake and target UV must correspond.",
+ "correction":"Adobe Upscale example says4098; not adopted as a4K output dimension. Actual PNG header must verify4096.",
+ "adopted":"Separate source SSA; observe layer resolution and source aspect; each part4096 target with preserved oldUVs; temporary bake material; unlit channel transfers, tangent-normal verification and actual displacement/protected-boundary measurement",
+ "runtime_at_study":"NOT_RUN for new per-piece4K bake and Sampler Upscale. Prior photo2K and isolated coupon tests are separate evidence.",
+ "limits":["No claim to restore unobserved photo pixels","No material-scale measurement from DPI","No game-budget assumption for product filming","No private media or paths published"],
+ "manual":"docs/PRODUCT_LEATHER_UNIQUE_TEXTURE_SETS.md"
+}
