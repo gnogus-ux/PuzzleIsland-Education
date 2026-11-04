@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-04",
+  "program": "Tailscale",
+  "version": "1.104.5",
+  "official_installer": "https://pkgs.tailscale.com/stable/tailscale-setup-latest.exe",
+  "installer_sha256": "99f6f9c94b0624cb4921c2c9c94c35f7fc365a827a9b76d5096e596281730d50",
+  "authenticode_status": "Valid",
+  "signer": "Tailscale Inc.",
+  "installation_exit_code": 0,
+  "restart_required": false,
+  "authorization": "Explicit user choice to proceed with PC installation and Android use; administrator approval and account login completed directly by user",
+  "verified": [
+    "Installed CLI version 1.104.5",
+    "PC BackendState Running",
+    "Online Android peer",
+    "Chili3D loopback service with exact assigned remote hostname accepted",
+    "Unexpected HTTP Host rejected with 403"
+  ],
+  "pending": [
+    "User HTTPS enablement consent",
+    "Tailscale Serve activation",
+    "HTTPS asset/app check",
+    "External Android cellular access and full-model performance"
+  ],
+  "serve_configuration_empty": true,
+  "public_funnel_used": false,
+  "manual_firewall_or_router_opening": false,
+  "paid_purchase": false,
+  "private_account_device_or_login_urls_published": false,
+  "manual": "docs/CHILI3D_LOCAL_CAD.md"
+}
