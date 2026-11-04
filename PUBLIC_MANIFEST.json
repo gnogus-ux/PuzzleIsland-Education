@@ -52,7 +52,8 @@
     "2026-11-04: Three official Sampler resolution/Upscale and Blender5.2 bake documents studied for per-piece unique product-video leather textures. Physical coverage, reconstructed detail, tangent destination UV and live displacement checks separated. New runtime not claimed at publication; private sources excluded.",
     "2026-11-05: Record limited native Sampler/Upscale and32per-piece4K Cycles bakes, rejected bbox-only atlas scaling, UniV repack, raw16bit/normal/UV/actual guarded displacement/save-reopen QA. Preserve remaining closeup/motion/approval limits; no private media or paths.",
     "2026-11-05: Add three-source Adobe document study for thread/edge finish, distinguish cloth/quilt generators from physical stitches and geometric bevels. No product media or private paths.",
-    "2026-11-05: Read three primary Adobe paint/relief/varnish documents; clarify failed library load and microfinish candidate parameters; no runtime success claim."
+    "2026-11-05: Read three primary Adobe paint/relief/varnish documents; clarify failed library load and microfinish candidate parameters; no runtime success claim.",
+    "2026-11-05: Record limited native Sampler6.0.2 cloth/paint4K export, saved project recovery and Blender5.2 DirectX convention readback; distinguish stored height from applied displacement and still-image QA from final video approval."
   ],
   "files": [
     {
@@ -587,8 +588,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 14903,
-      "sha256": "ee6076fa09af2ad17c6c5e146e72fe769c32364a74be132bda9fdb21723f8987"
+      "bytes": 15518,
+      "sha256": "abd3015cec640bce57a8a0f4ae186a075c6882183ab983be682bdff163dd7de3"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -897,8 +898,8 @@
     },
     {
       "path": "docs/SAMPLER_THREAD_EDGE_FINISH.md",
-      "bytes": 7512,
-      "sha256": "add05e4f929c1e6284da478cd53636ee1b786a360b3fc2dfd29808495d8cc161"
+      "bytes": 10231,
+      "sha256": "7e6670c22df2113134f7e8a7167095c75ee9cadeeb8e7b9fa48e1d680be7aa9f"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

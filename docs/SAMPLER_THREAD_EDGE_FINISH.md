@@ -47,3 +47,17 @@ UI 언어, 현재 라이브러리 에셋 및 출력 채널은 실행 시 다시 
 - [Varnish](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/filters/wear-and-finish/varnish): 거칠기로 광택을 조절하고 두께가 커지면 아래 결이 완화된다. 현재 UI의 Coat And Varnish와 이름이 다르므로 동일 매개변수라고 단정하지 않는다.
 
 세 문서 최종 표시는 모두 2026-04-07이다. Paint의 낮은 Grain 후보로 먼저 검수하고 실제 UV의 mm 환산과 접사 반사를 본 뒤 정한다. 사진에서 정확한 도막 물성을 역산했다고 주장하지 않는다.
+
+## 제한된 실제 실행 확인 — Sampler 6.0.2 / Blender 5.2.2
+
+별도 SSA에서 Cloth Weave와 Coating 출발점에 Paint 필터를 사용한 두 재질을 실제 생성·저장하고 4096² OpenPBR PNG로 출력했다. 실은 경사 폭을 0으로 두고 위사의 섬유 영역을 길이 UV에 대응했다. 도막은 비금속·Peeling 0·Grain 0.1 후보를 사용했다. 라이브러리의 Brushed Paint 항목은 로드 성공을 확인하지 못했으므로 사용했다고 기록하지 않는다.
+
+색 선택창에서 HEX를 입력한 뒤 Return만 누르면 값이 바뀐 것처럼 보여도 Escape로 창을 닫을 때 취소될 수 있었다. 창 밖을 눌러 확정한 뒤 다시 열어 HEX와 미리보기를 대조했다. Qt 입력 직후 접근성 텍스트가 이전 상태를 반환하는 경우가 있어 새 화면과 최종 출력 파일을 함께 확인했다.
+
+실 출력은 Base Color/Normal이 16비트 RGBA, Height가 16비트 회색, Roughness/Metalness가 8비트였다. 도막은 Base Color/Roughness가 8비트, Normal 16비트 RGBA, Height 16비트였다. 출력 템플릿이 채널마다 다른 비트를 사용할 수 있으므로 전체를 일괄 16비트라고 부르지 않는다. 파일 헤더와 값 범위를 별도로 검사했다. 일반 이미지 라이브러리가 RGB 16비트를 8비트 배열로 읽을 때 그 배열 통계로 원본 정밀도를 주장하지 않는다.
+
+Sampler의 Preferences에서 원본 노멀 규약이 DirectX임을 직접 확인했다. Blender 5.2.2의 Normal Map 노드 실제 스키마에는 convention=DIRECTX가 있어 원본을 변환 없이 해석했다. 다른 Blender 버전에도 이 속성이 있다고 가정하지 않는다. 원본 DX 파일의 이름만 GL로 바꾸는 방식은 사용하지 않는다.
+
+실·도막 Base Color/Roughness/Normal을 별도 새 재질과 새 UV로 연결하고 기존 UV·가죽 재질·가죽 Displace를 보존했다. 새 Height는 출력·보관했으나 실·도막의 실제 변위로 연결하지 않았다. 기존 가죽의 실제 변위와 새 재질의 노멀 표현을 구별한다. 섬유 주기와 도막 결의 mm 환산은 접사 검수용 가정이며 실측이 아니다.
+
+실행 중 Sampler가 종료된 뒤 기존 실행 파일을 다시 열어 저장 SSA의 두 재질을 복구하고 Paint 필터 적용·출력을 확인했다. 종료 원인은 확정하지 않았다. 이 기록은 해당 프로젝트 재열기와 제한 기능 확인이며 모든 필터의 안정성 검증은 아니다. Blender 정지 Cycles 접사와 실제 구멍 진입 위치의 전수 검사는 수행했으나, 제품 영상의 전체 동작·시간적 반짝임·최종 외관 승인은 별도다.

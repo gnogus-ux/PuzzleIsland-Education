@@ -18,6 +18,8 @@
 
 ## 최근 실행 근거가 있는 도구
 
+2026-11-05 추가 확인: Sampler 6.0.2에서 별도 Cloth Weave·Coating/Paint 두 재질의 SSA 저장과 4K OpenPBR 18채널 출력을 확인했다. 앱 종료 후 기존 실행 파일 재실행·저장 SSA 복구도 이번에는 확인했으며 종료 원인은 미확정이다. Blender 5.2.2에서는 DX 노멀의 실제 convention 속성·새 UV·별도 재질 연결과 정지 Cycles 접사를 검수했다. Height 출력 보관과 실제 변위 연결은 구별한다. [마감 매뉴얼](SAMPLER_THREAD_EDGE_FINISH.md)의 제한된 실행 절을 따른다. 아래 이전 기록은 당시 검증 범위다.
+
 | 프로그램 | 버전·구성 | 용도 | 확인 근거와 범위 |
 |---|---|---|---|
 | Chili3D | 0.8.0 로컬 소스 설치 / 문서 0.7.1 | 제품 치수·단면의 CAD 검토 | 2026-11-04 개별 설치·사용 승인으로 독립 폴더에 공식 소스 설치. 의존성 설치·컴파일/형식 검사·ego-browser WASM/UI 실행·검토용 선 형상 10개 저장/재열기·STEP 출력 확인. Blender 원본 보존. AI API·유료 Pro·STEP 재수입·제조 검증은 미실행. 후속 전체 참고 메시 문서 표시·IndexedDB 저장/재열기·앱 좌표/삼각 인덱스 해시 일치 확인. 원래 PBR·UV·리그·정밀 CAD 이력 이관은 제외. [매뉴얼](CHILI3D_LOCAL_CAD.md) · [제한 검증 기록](../reports/ToolInventory/20261104_CHILI3D_LOCAL.json) |
