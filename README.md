@@ -83,6 +83,8 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 ## 지갑·가죽·사진 기반 3D 교육
 
+봉제실 섬유결·엣지코트·실과 바늘구멍 정렬은 [Sampler 봉제실·엣지 마감](docs/SAMPLER_THREAD_EDGE_FINISH.md)을 함께 확인합니다. 형상 라운딩과 표면 맵, 문서 학습과 실제 제작을 구별합니다.
+
 설치된 Sampler에서 사진 표본을 분리하고 맵을 생성·출력할 때는 [Sampler 사진 PBR 절차](docs/SAMPLER_PHOTO_PBR.md)와 [공식 문서 4개 학습 범위](reports/VideoLearning/20261104_SAMPLER_DOCUMENT_STUDY.json)를 확인합니다. 문서 학습과 앱 실기 검증은 구분합니다.
 
 상품 접사·영상에서 작은 가죽 타일의 반복을 줄이고 부품마다 고유 맵을 구성할 때는 [상품 가죽 고유 텍스처 세트](docs/PRODUCT_LEATHER_UNIQUE_TEXTURE_SETS.md)를 확인합니다. 레이어 해상도·AI Upscale·목적 UV와 접선 노멀 베이크, 원본 관측과 재구성 세부를 구별합니다.
