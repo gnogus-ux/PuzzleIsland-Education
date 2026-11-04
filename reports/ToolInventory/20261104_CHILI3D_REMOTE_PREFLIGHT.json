@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-04",
+  "purpose": "Private external mobile access to the local Chili3D project",
+  "status": "PREPARED_AWAITING_INSTALLATION_METHOD_SELECTION",
+  "existing_programs_checked": [
+    "Tailscale",
+    "cloudflared",
+    "ngrok"
+  ],
+  "existing_programs_found": false,
+  "selected_network_change_applied": false,
+  "firewall_or_router_changed": false,
+  "tailscale_installed": false,
+  "user_login_completed": false,
+  "serve_enabled": false,
+  "external_phone_tested": false,
+  "AI_API_configured": false,
+  "paid_calls": 0,
+  "official_sources_read": [
+    "https://tailscale.com/docs/install/windows",
+    "https://tailscale.com/docs/install/android",
+    "https://tailscale.com/docs/features/tailscale-serve",
+    "https://tailscale.com/docs/reference/tailscale-cli/serve"
+  ],
+  "manual": "docs/CHILI3D_LOCAL_CAD.md"
+}
