@@ -40,11 +40,18 @@
 
 ## 설치는 확인했지만 용도별 실행 확인이 필요한 도구
 
+2026-11-04 사용자 Adobe 설치 확인 요청으로 등록 정보와 해당 실행 파일을 대조했다. 아래 새 Adobe 항목은 설치 확인이며 앱 실행·로그인·라이선스·사진 맵 생성 검증은 수행하지 않았다. [조회 범위](../reports/ToolInventory/20261104_ADOBE_INSTALLED.json).
+
 | 프로그램 | 설치 정보 | 사용 전 확인 |
 |---|---|---|
 | Tailscale / Serve | 1.104.5 공식 유효 서명 설치, CLI/기기 연결 및 비공개 HTTPS 프록시 활성 | 2026-11-04 사용자 직접 관리자 승인·PC/Android 로그인·HTTPS 동의 완료. 온라인 Android 피어, Serve 배경 연결, 실제 HTTPS 모바일 화면/문서 200 및 임의 Host 403 확인. 휴대폰 이동통신에서 실제 모델 표시·성능은 확인 요청 중. [설치·연결 기록](../reports/ToolInventory/20261104_TAILSCALE_INSTALL.json) · [접속 매뉴얼](CHILI3D_LOCAL_CAD.md#외부-휴대폰-접속의-준비와-승인-경계) |
 | Unity Editor | 확인한 기본 설치 폴더 6000.6.7f1 | 프로젝트가 요구하는 정확한 Editor/URP/빌드 모듈과 일치하는지 확인. 과거 프로젝트 기록의 6000.3.27f1과 혼동 금지. 현재 Editor 실행은 미검증 |
 | GIMP | 3.0.8.2 | 이미지 편집. 설치 기록 확인, 이번 작업에서 앱 실행/플러그인 검사 안 함 |
+| Adobe Substance 3D Sampler | 6.0.2 | 설치 등록·실행 파일 버전 일치. [공식 Image to Material](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/filters/tools/image-to-material)은 사진에서 높이·노멀·거칠기 생성과 색의 그림자·반사광 제거를 설명함. 해당 PC의 앱 실행·계정·실제 결과는 미검증 |
+| Adobe Substance 3D Designer | 16.0.4 | 설치 등록·실행 파일 버전 일치. 재질 그래프·맵 제작 도구이며 이번 실행/기능 검증 없음 |
+| Adobe Photoshop 2026 | 등록 27.8.0.13 / 실행 파일 27.8 | 사진 표본·복구·심리스 편집용 설치 확인. 기존 Beta 설치 기록과 구별하며 실행·계정·플러그인 미점검 |
+| Adobe Substance 3D Modeler | 등록 1.22.7 / 실행 파일 1.22.7.1239 | 설치 파일 확인. 이번 모델링 기능/실행 검증 없음 |
+| Adobe Substance 3D Stager | 3.1.8 | 설치 등록·실행 파일 버전 일치. 이번 배치·렌더 기능/실행 검증 없음 |
 | Photoshop Beta | 28.0.0.3709 | 이미지 편집. 설치 기록 확인, 실행·로그인·라이선스 상태 미점검 |
 | AnythingLLM | 1.17.0 | LLM 클라이언트·문서/도구 연결. 현재 제공자·잔액·연결 상태 미점검 |
 | Ollama | 0.40.8 | 로컬 모델 실행. Qwen 전용 모델 저장소·포트와 기본 설치를 구별. 기본 모델 목록이 비어 있어도 전용 모델 부재로 단정하지 않음 |

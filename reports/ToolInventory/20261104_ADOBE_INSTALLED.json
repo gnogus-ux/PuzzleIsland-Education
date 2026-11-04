@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-04",
+  "request": "Find already installed Adobe applications",
+  "scope": "Windows application uninstall registry plus exact product executable file metadata. No app launched/activated, no account/license/subscription check, no mapgeneration.",
+  "apps": [
+    {
+      "name": "Adobe Substance 3D Sampler",
+      "registered_version": "6.0.2",
+      "executable_product_version": "6.0.2",
+      "exe_bytes": 137071080
+    },
+    {
+      "name": "Adobe Substance 3D Designer",
+      "registered_version": "16.0.4",
+      "executable_product_version": "16.0.4",
+      "exe_bytes": 112079328
+    },
+    {
+      "name": "Adobe Photoshop 2026",
+      "registered_version": "27.8.0.13",
+      "executable_product_version": "27.8",
+      "exe_bytes": 269727216
+    },
+    {
+      "name": "Adobe Substance 3D Modeler",
+      "registered_version": "1.22.7",
+      "executable_product_version": "1.22.7.1239+29a5702a",
+      "exe_bytes": 35085304
+    },
+    {
+      "name": "Adobe Substance 3D Stager",
+      "registered_version": "3.1.8",
+      "executable_product_version": "3.1.8",
+      "exe_bytes": 79067640
+    }
+  ],
+  "relevant_feature": {
+    "source": "https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/filters/tools/image-to-material",
+    "read": "Official ImageToMaterial AI Powered/B2M paragraphs",
+    "documentation_claim": "AI Powered makes Normal/Height/Roughness and removes shadows/highlights from albedo; B2M is procedural. Documentation capability not this PC execution verification."
+  },
+  "preservation": "No app/setting/install/payment change. Unrelated restricted application state was not queried. No private absolutepaths, registrydump or user assets published."
+}

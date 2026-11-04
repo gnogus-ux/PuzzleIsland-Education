@@ -45,7 +45,8 @@
     "2026-11-04: User-approved Tailscale1.104.5 signed installation and direct administrator/login stages completed; online Android peer and strict local Host checks verified. HTTPS consent, Serve activation and external phone test remain pending; private identities/URLs excluded.",
     "2026-11-04: Direct user HTTPS consent completed; private Tailscale Serve background proxy and valid HTTPS page/document responses verified. External Android model display/performance awaits user confirmation; private domain/device/consent URLs excluded.",
     "2026-11-04: Reproduced and corrected local HMR/lazy-compilation startup conflict, prevented automatic mobile AI overlay, verified HTTPS app/assembly and simulated viewport plus five UI tests. Actual Android first retry still Loading; fresh Chrome retest pending, explicitly PARTIAL.",
-    "2026-11-04: Added photo-to-leather Materialize workflow after actual targeted re-review of three original tutorials,43sampledframes/12sheets/adjacent automaticcaptions. Height/normal confirmation, smoothness inversion, seamless/bitdepth/physicalscale limits. Production not started atstudy publication. No source media, userphotos or privatepaths included."
+    "2026-11-04: Added photo-to-leather Materialize workflow after actual targeted re-review of three original tutorials,43sampledframes/12sheets/adjacent automaticcaptions. Height/normal confirmation, smoothness inversion, seamless/bitdepth/physicalscale limits. Production not started atstudy publication. No source media, userphotos or privatepaths included.",
+    "2026-11-04: User-requested Adobe installation lookup verified Sampler6.0.2,Designer16.0.4,Photoshop2026,Modeler1.22.7,Stager3.1.8 by registry and exactexecutablemetadata. No app/account/license/photomapexecution verified; privatepaths omitted."
   ],
   "files": [
     {
@@ -580,8 +581,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 12739,
-      "sha256": "0440777baf17a3ae6127468b2e26beadb4f26d35d56a84fdd52de6ba885ade8e"
+      "bytes": 14082,
+      "sha256": "93e2416e1a1c9c9dc296d4a6491186562ba884c0b515dd9906c3b338a6b69ef0"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -852,6 +853,11 @@
       "path": "reports/VideoLearning/20261104_PHOTO_LEATHER_MATERIALIZE_STUDY.json",
       "bytes": 3794,
       "sha256": "29decf5608788fa48bb0a0d826a4b8d1f7d5f2c5e1f0e455ddcdeadb66f01799"
+    },
+    {
+      "path": "reports/ToolInventory/20261104_ADOBE_INSTALLED.json",
+      "bytes": 1725,
+      "sha256": "02eabe63199771ef9ee70a08794abbaac8585b8d162a7426a2ed08a2b559ed35"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
