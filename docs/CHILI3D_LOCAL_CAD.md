@@ -50,3 +50,15 @@ Chili3D는 브라우저에서 실행하는 CAD다. .blend 편집기나 Blender �
 명시 승인된 독립 로컬 설치에서 의존성 설치, 앱 컴파일/형식 검사, ego-browser의 WASM 초기화·표시, 검토용 선 형상 생성, .cd 저장/재열기 및 STEP 출력을 실행했다. 재열기 후 10개 노드의 CAD 형상 검사를 통과했다. 실제 꼭짓점 범위를 대조했다.
 
 이 결과는 Blender 원본 수정·전체 제품 폐합/충돌·물리 시뮬레이션·제조 공차 검증·AI API 연결·유료 Pro 기능 검증을 포함하지 않는다. STEP 출력 성공과 다른 CAD의 재수입 검증도 구별한다. 현재 실기는 STEP 재수입까지 확인하지 않았다. 개별 제품 자료·개인 경로는 공용 매뉴얼에 게시하지 않는다.
+
+## 전체 제품을 참고 메시로 표시하는 별도 경로
+
+단면 검토와 전체 제품 표시는 목적이 다르다. 큰 삼각 메시를 OCCT의 개별 B-rep 면으로 변환하면 비용이 커질 수 있다. 고정 버전의 기본 MeshNode 문서 구조를 사용하면 원래 삼각 형상을 참고 메시로 표시할 수 있다. 정밀 CAD 솔리드·스케치 특징 이력이 생기는 경로는 아니다.
+
+이 경로를 위해 같은 고정 커밋의 공식 소스 세 묶음을 실제 검토했다: [MeshNode와 옵션](https://github.com/xiangechen/chili3d/blob/4600206f9b354421f4de288e853efcde926da080/packages/core/src/model/meshNode.ts), [Mesh와 TypedArray 필드](https://github.com/xiangechen/chili3d/blob/4600206f9b354421f4de288e853efcde926da080/packages/core/src/shape/meshData.ts), [직렬화·역직렬화](https://github.com/xiangechen/chili3d/blob/4600206f9b354421f4de288e853efcde926da080/packages/core/src/serialize/serializer.ts). 노드 트리의 parentId와 재료 목록은 modelManager.ts/node.ts, 실제 표시 조건은 threeVisualObject.ts의 MeshNode 처리와 대조했다. 일반 사용자용 안정적 교환 API라는 보장은 없으므로 버전을 고정하고 작은 시험 문서를 먼저 열어 필드 호환을 확인한다.
+
+평가된 좌표·삼각 인덱스·법선을 독립 문서에 기록하고 부품 이름·개수·삼각 수·단위·실제 꼭짓점 범위를 대조한다. 원래 메시를 줄이거나 형상을 변경하지 않는다. 원본 보존, 고정 자세, 좌표 정밀도, 재질/UV/리그 손실을 명시한다. 단순 검토 재료를 원래 PBR 재현으로 표시하지 않는다. 큰 문서는 파일 크기·메모리·열기/저장 제한을 실제 시험하고, 브라우저 저장이 성공하지 않으면 디스크 파일과 검증 범위를 구분해 남긴다.
+
+후속 제한 실기에서 작은 시험 부품을 먼저 열어 호환을 확인한 뒤 전체 부품의 참고 메시 문서를 열고 IndexedDB에 저장·재열기했다. 실제 앱 메모리의 Float32 좌표와 Uint32 삼각 인덱스 바이트 해시가 이관 자료와 모두 일치했다. 면 수를 줄이지 않은 형상 보존의 근거이며 원본 PBR·UV·리그나 CAD 솔리드 기능의 재현 검증은 아니다.
+
+Windows 개발 서버는 큰 파일을 복사하는 동안 정적 파일 감시가 EBUSY로 종료될 수 있었다. 이 로컬 구성에서는 Rspack의 정적 파일 watch를 끄고 .cd를 Copy 플러그인과 코드 감시 대상에서 제외해 보완했다. 문서는 loopback 정적 파일로 제공한다. 실행 바로가기는 저장된 문서 ID를 먼저 열고 없을 때만 디스크 기준 파일을 읽어 저장하므로, 매번 초기 파일을 다시 열어 사용자의 저장 내용을 덮어쓰지 않도록 한다.

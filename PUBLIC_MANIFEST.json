@@ -39,7 +39,8 @@
     "2026-11-04: Codex read three distinct Blender5.2 official articles and authored a layered-wallet lining, seam-boundary and slack exterior-volume guide. Controlled shape-key authoring is distinguished from unrun cloth simulation and product validation. No private assets or raw sources published.",
     "2026-11-04: Codex read seven distinct official Blender5.2 documents and added broad panel curvature, pocket baseline lowering, reference-aware relative-key residuals, paired highlight review and native driver residual-knot/six-angle verification guidance. Functions are application proposals; live Blender/product tests NOT_RUN. Unrelated unpublished files excluded.",
     "2026-11-04: Record four selectively adapted Euraika studio skills and limited validation; preserve existing rules, models, permissions and project structure.",
-    "2026-11-04: Added user-authorized Chili3D local installation and reusable three-source official manual; WASM/UI, reference geometry, CD reopen and STEP output verified. Private products/paths excluded; manufacturing, STEP reimport, AI API and paid Pro remain unverified."
+    "2026-11-04: Added user-authorized Chili3D local installation and reusable three-source official manual; WASM/UI, reference geometry, CD reopen and STEP output verified. Private products/paths excluded; manufacturing, STEP reimport, AI API and paid Pro remain unverified.",
+    "2026-11-04: Chili3D native reference-mesh whole-assembly path verified against official serialization sources; application geometry hashes, IndexedDB save/reopen and Windows large-file watch fix recorded. Private model data excluded."
   ],
   "files": [
     {
@@ -574,8 +575,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 11978,
-      "sha256": "cea97148fc2bcb33903502ed7c3efafeaf544be9fade0ec12ac7123b3dffd9cf"
+      "bytes": 12159,
+      "sha256": "a93f6b5e20a1242ce6167375f8bfab7275baaf2bde4aae2429574f2ba931e392"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -814,13 +815,13 @@
     },
     {
       "path": "docs/CHILI3D_LOCAL_CAD.md",
-      "bytes": 7346,
-      "sha256": "d961e418478aa0764ff70c98873bd218f6f69a4c23ff5657e5c9cbf0235b46cf"
+      "bytes": 10179,
+      "sha256": "7c12abe85e5181f556143af5b884473a1a9d0c80df240710974c3ef739562b7b"
     },
     {
       "path": "reports/ToolInventory/20261104_CHILI3D_LOCAL.json",
-      "bytes": 1425,
-      "sha256": "2ea96f4e7e6b6a9b7ac7a297d8a4f4a11744f4923c0b190ae22f3af889e8e67b"
+      "bytes": 2019,
+      "sha256": "6585b66795682f67f35751b20f7e9984f95c3cf55d6e2ad01050a0bc13839a65"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

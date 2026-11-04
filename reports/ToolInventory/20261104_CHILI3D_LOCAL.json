@@ -19,7 +19,10 @@
     "nine read-only reference sections and one boundary node created",
     "CD save and reload retained ten valid CAD shapes",
     "actual CAD vertices compared with evaluated source coordinates",
-    "STEP file produced"
+    "STEP file produced",
+    "Native MeshNode whole-assembly reference document displayed without reducing triangle counts",
+    "Actual application typed-array position and triangle-index hashes match exported data",
+    "Whole assembly saved to IndexedDB and reopened with identical hashes"
   ],
   "not_verified": [
     "STEP reimport in another CAD",
@@ -36,5 +39,7 @@
   ],
   "local_source_change": "Removed default Clarity session analytics from local HTML; not a full network isolation claim",
   "private_assets_published": false,
-  "manual": "docs/CHILI3D_LOCAL_CAD.md"
+  "manual": "docs/CHILI3D_LOCAL_CAD.md",
+  "local_runtime_fix": "Disabled static watch and excluded CD files from Copy/code watch after Windows EBUSY on a large local document; loopback server restarted and type check passed",
+  "limits": "Whole assembly is a fixed-pose reference mesh; original Blender PBR, UV, rig and parametric CAD history are not transferred"
 }
