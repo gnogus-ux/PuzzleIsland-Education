@@ -47,6 +47,8 @@ M2의 [06:30~08:30](https://www.youtube.com/watch?v=2w6d4JSK3mw&t=390)에서는 
 
 포켓이 납작해지는 문제는 먼저 면 배치·지지 루프·두께·변형 가중치에서 찾는다. 가죽 범프를 강하게 해서 포켓 형태를 복구하려 하지 않는다.
 
+포켓의 기존 볼록 형상과 입구를 보존하며 절대 높이를 낮추거나 패널 곡면을 넓게 분배할 때는 [곡면과 포켓 높이 조정](WALLET_BROAD_CURVATURE_AND_POCKET_HEIGHT.md)을 따른다. 전체 Z 압축·모든 키값 반감과 내부 기준면 이동을 구별한다.
+
 ## 5. 봉제선을 만드는 절차
 
 M5에서는 Suzanne의 엣지를 복제·분리해 커브로 바꾸고, 작은 실 조각을 Array와 Curve로 배치한 뒤 두께와 둥근 단면을 조정한다. [02:30](https://www.youtube.com/watch?v=LxRl6K-S5T4&t=150), [04:30~07:00](https://www.youtube.com/watch?v=LxRl6K-S5T4&t=270) 화면을 참고한다.

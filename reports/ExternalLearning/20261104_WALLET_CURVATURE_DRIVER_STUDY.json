@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-04",
+  "author": "Codex",
+  "purpose": "Reusable guidance for broad seam-bounded panel curvature, lowering a pocket baseline while retaining its interior profile, relative-key addition and native driver F-Curve verification",
+  "preflight_commit": "92f34023f85baf028d29f09001b63d96e1057637",
+  "preflight": {
+    "repository_instructions": ["README.md", "CONTRIBUTING.md", "docs/COMMON_WORK_RULES.md", "docs/COMMON_TOOL_POLICY.md", "docs/AVAILABLE_TOOLS.md", "docs/BLENDER_ADDONS.md"],
+    "root_AGENTS_md": "No root AGENTS.md found; current user-provided AGENTS instructions applied",
+    "manual_search_terms": ["curve", "slack", "shape", "volume", "manifest"],
+    "manuals_read": ["docs/WALLET_LAYERED_SHELL_VOLUME.md", "docs/WALLET_MODELING.md", "docs/LEATHER_LOOKDEV_AND_DENOISE.md"],
+    "gaps": ["Independent amplitude and broad curvature distribution", "Pocket interior translation versus flattening and fixed-boundary incompatibility", "Additive relative-key residual with explicit reference and coordinate systems", "Spatial C1/C2 continuity and narrow-transition reflection risk", "Residual driver points and actual native values at six angles"],
+    "private_reference": "Authorized marked product reference image directly viewed; only generalized requirements used, no image, asset or local path published",
+    "scope": "Manual authoring and public repository publication only; no live Blender, existing GUI, Painter or product mutation"
+  },
+  "retrieval": "Existing ego-browser CLI and one task space; official versioned pages navigated and article text read directly. Manual search page queried with driver F-Curve shape keys; snippets were discovery only, not counted as study.",
+  "sources": [
+    {
+      "title": "Shape Keys Panel",
+      "creator": "Blender Foundation",
+      "url": "https://docs.blender.org/manual/en/5.2/animation/shape_keys/shape_keys_panel.html",
+      "version": "5.2 LTS Manual; page footer observed Last updated on 2026-11-03",
+      "actually_read": "Full article text including controls/specials, Relative To snapshot subtraction, Value, Vertex Group, Basis operations, relative and absolute options",
+      "application": "Reference-aware additive displacement formula, masks, avoid applying or deleting existing keys"
+    },
+    {
+      "title": "Drivers Panel",
+      "creator": "Blender Foundation",
+      "url": "https://docs.blender.org/manual/en/5.2/animation/drivers/drivers_panel.html",
+      "version": "5.2 LTS Manual",
+      "actually_read": "Full article text: built-in types, Driver Value, variables, Single Property, RNA path/fallback, transform spaces, rotation modes, expressions and simple expressions",
+      "application": "AVERAGE with one SINGLE_PROP variable; explicit ID/path/angle unit and distinction from Transform Channel",
+      "excluded": "Unrelated matrix indexing tip not used to define chart conversion or production code"
+    },
+    {
+      "title": "F-Curve Properties",
+      "creator": "Blender Foundation",
+      "url": "https://docs.blender.org/manual/en/5.2/editors/graph_editor/fcurves/properties.html",
+      "version": "5.2 LTS Manual",
+      "actually_read": "Full article text: path/index, handle smoothing, Continuous Acceleration, interpolation/easing, key coordinates, Automatic/Auto Clamped/Vector/Aligned/Free handles",
+      "application": "Record all knots and handles, distinguish Linear slope changes and Bezier overshoot, inspect intermediate angles"
+    },
+    {
+      "title": "Drivers Introduction",
+      "creator": "Blender Foundation",
+      "url": "https://docs.blender.org/manual/en/5.2/animation/drivers/introduction.html",
+      "version": "5.2 LTS Manual",
+      "actually_read": "Full article text: driver configuration followed by F-Curve mapping, graph axes, identity default, native built-ins and simple versus Python expressions",
+      "application": "Compare input variable, configuration output, curve output and final native key value separately"
+    },
+    {
+      "title": "Light Objects",
+      "creator": "Blender Foundation",
+      "url": "https://docs.blender.org/manual/en/5.2/render/lights/light_object.html",
+      "version": "5.2 LTS Manual",
+      "actually_read": "Full article text: Common Settings/Normalize, point/spot/area/sun settings, area shape and dimensions, Power of Lights",
+      "application": "Fixed camera and light geometry/size/power/Normalize in paired curvature-highlight comparisons"
+    },
+    {
+      "title": "Shape Keys Workflow",
+      "creator": "Blender Foundation",
+      "url": "https://docs.blender.org/manual/en/5.2/animation/shape_keys/workflow.html",
+      "version": "5.2 LTS Manual",
+      "actually_read": "Full article text: topology and vertex positions, Basis copy versus shape from mix, relative-key isolation/blending and absolute workflow",
+      "application": "Preserve topology and avoid double-adding an existing mixed shape"
+    },
+    {
+      "title": "FCurve API",
+      "creator": "Blender Foundation",
+      "url": "https://docs.blender.org/api/5.2/bpy.types.FCurve.html",
+      "version": "5.2 Python API",
+      "actually_read": "Bounded excerpts around keyframe_points, modifiers, sampled_points, evaluate(frame), update(), and adjacent method declarations; not whole API page",
+      "application": "Record editable knots and curve modifiers; distinguish curve evaluation and handle update from full dependency evaluation"
+    }
+  ],
+  "cross_checked_corrections": [
+    "Driver configuration output is followed by an F-Curve; AVERAGE plus SINGLE_PROP does not alone prove final identity mapping",
+    "Residual (1,1) is a failure mode to inspect, not a claim that every Blender creation path always creates that knot",
+    "Driver graph X is configuration output, not animation frame; API argument names do not establish angle units",
+    "Relative key snapshots subtract their own Relative To reference and add to the mix; copying a mixed target can duplicate existing Depth/Mouth/slack displacement",
+    "Panel labels New Combined while Workflow says New Shape from Mix; versioned documents themselves do not justify blindly automating either menu label",
+    "C2 spatial boundary continuity does not guarantee an acceptable highlight, and F-Curve temporal/input interpolation is a separate continuity question",
+    "Preserving UV values does not preserve surface metric or texture density after deformation",
+    "Interior rigid translation and fixed boundary require a deforming transition; global rigid translation cannot satisfy both",
+    "Interior profile preservation is not physical closed-volume, material-length or pocket-capacity preservation"
+  ],
+  "own_design_and_derivation": {
+    "status": "Application proposals, not formulas recommended by Blender for wallets",
+    "items": ["Quintic clamped transition with endpoint first/second derivatives zero", "Separable rectangular shoulders with independent amplitude, shoulder widths and central curvature parameter", "Constant-direction interior pocket translation with boundary mask", "Reference-aware residual correction shape key", "Transition derivative scaling d/w and d/w^2"],
+    "validation_scope": "Endpoint derivative algebra and qualitative geometric reasoning only; no Blender numerical or physical validation"
+  },
+  "study_status": "SEVEN_DISTINCT_OFFICIAL_DOCUMENTS_RELEVANT_CONTENT_READ_AND_CROSS_CHECKED",
+  "canonical_manual": "docs/WALLET_BROAD_CURVATURE_AND_POCKET_HEIGHT.md",
+  "native_angle_test": {"angles_degrees": [0, 1, 2.5, 5, 90, 180], "status": "PROCEDURE_ONLY_NOT_RUN"},
+  "runtime_validation": "NOT_RUN",
+  "Claude_new_education": false,
+  "limitations": [
+    "No Blender process, scene, add-on or preference inspection/modification in this study",
+    "No product fix, Guide creation, playback, simulation, bake, whole collision/topology inspection or render executed",
+    "No universal millimeter, mask-width, shape-key or angle-curve acceptance values",
+    "No exact local runtime API/menu compatibility success claimed from documentation alone",
+    "No private product files, reference image, personal paths, credentials or wholesale external text published"
+  ]
+}
