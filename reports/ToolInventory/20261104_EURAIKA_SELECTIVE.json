@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-04",
+  "source_repo": "Euraika-Labs/Codex-Code-Game-Studios",
+  "source_commit": "9a182e29f8d9b46394851830ba27213fbe4da950",
+  "license": "MIT / Copyright (c) 2026 Donchitos",
+  "approval": "User selected Euraika and useful rules only; existing agreed rules must remain unchanged.",
+  "installation": "Four modified, namespaced skills; not the entire upstream studio.",
+  "skills": [
+    {
+      "name": "euraika-stage",
+      "structural_validation": "Skill is valid!",
+      "files": [
+        {
+          "path": "agents\\openai.yaml",
+          "sha256": "eda333d95eec81eecca669a7b43faea33f23f9c80c977c1406579a5766d49356",
+          "bytes": 234
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "6ecc068715c0edffc4bc21e5dca450803e0a45af145f72221da23d14e7588359",
+          "bytes": 1066
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "dfacda7906a7b71a81088fb3aee8edfe7e13ea1c9c89c94ab7af65dca996472e",
+          "bytes": 2737
+        }
+      ]
+    },
+    {
+      "name": "euraika-task",
+      "structural_validation": "Skill is valid!",
+      "files": [
+        {
+          "path": "agents\\openai.yaml",
+          "sha256": "55787a9a968308604030111ab34023ce88aa91dc12c29b07b8a191ddc6afa712",
+          "bytes": 232
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "6ecc068715c0edffc4bc21e5dca450803e0a45af145f72221da23d14e7588359",
+          "bytes": 1066
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "cfa7a52852fb0ab37573c19cbbede61d3c116508e7399ca4fb94311983d121ef",
+          "bytes": 3765
+        }
+      ]
+    },
+    {
+      "name": "euraika-review",
+      "structural_validation": "Skill is valid!",
+      "files": [
+        {
+          "path": "agents\\openai.yaml",
+          "sha256": "12eb3392305a26ebdb6e7405e1e9be71a43d1535edaf754d899fa11939544f46",
+          "bytes": 237
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "6ecc068715c0edffc4bc21e5dca450803e0a45af145f72221da23d14e7588359",
+          "bytes": 1066
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "d05cff2296cb78816806971be15c77c9201529a0b0988b5b08250899fbc64167",
+          "bytes": 2979
+        }
+      ]
+    },
+    {
+      "name": "euraika-triage",
+      "structural_validation": "Skill is valid!",
+      "files": [
+        {
+          "path": "agents\\openai.yaml",
+          "sha256": "9dbc034392ae7d522532297071ae299b12316a811b80fee21594e9e4580b8e7b",
+          "bytes": 236
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "6ecc068715c0edffc4bc21e5dca450803e0a45af145f72221da23d14e7588359",
+          "bytes": 1066
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "ee711d3caa2e0a0168b1da337144415196263381c228b8690fff35fd32420f62",
+          "bytes": 2907
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "protected_files": 8,
+    "sha256_unchanged": true,
+    "existing_project_rules_and_global_settings_unchanged": true
+  },
+  "selected": [
+    "Evidence-based stage readiness",
+    "Bounded task goal/scope/dependencies/acceptance",
+    "Code correctness/architecture/regression/testability review",
+    "Bug impact versus urgency and regression tracking"
+  ],
+  "excluded": [
+    "Replacing AGENTS/README or existing common rules",
+    "Fixed models/reasoning and permission/sandbox settings",
+    "Per-file approval repetition",
+    "Automatic delegation, new thread or messaging authorization",
+    "Full bootstrap, hooks, 50-agent install",
+    "New mandatory src/production/docs or TR/ADR templates",
+    "Fixed method lengths/complexity and file-count stage heuristics",
+    "Steam workflows outside Android project scope"
+  ],
+  "source_reading": [
+    "README and global-install guide",
+    "coordination-rules and director-gates",
+    "project-stage-detect, dev-story, code-review, bug-triage complete bodies",
+    "MIT license and relevant bootstrap/config/agent excerpts"
+  ],
+  "validation": {
+    "skill_creator_quick_validate": 4,
+    "relative_links_and_licenses_checked": true,
+    "installed_file_hashes_checked": true,
+    "author_stage_walkthrough": "Existing project docs and actual relevant artifacts were checked. Source presence is not proof of running the game. No application mutation.",
+    "independent_review": false,
+    "runtime_auto_discovery": "Not observed this turn; expected available next turn",
+    "game_editor_device_execution": "NOT_RUN",
+    "full_upstream_hooks_agents": "NOT_INSTALLED_NOT_RUN",
+    "validator_dependency": "PyYAML6.0.3 isolated to this run; no global Python or permission/model configuration change"
+  }
+}

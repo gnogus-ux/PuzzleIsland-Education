@@ -1,5 +1,9 @@
 # 공통 사용 프로그램 목록
 
+## Euraika 선택 기능 설치 — 2026-11-04
+
+사용자 개별 지시로 [Euraika 고정 원본](https://github.com/Euraika-Labs/Codex-Code-Game-Studios/tree/9a182e29f8d9b46394851830ba27213fbe4da950)에서 진행 상태·작업 수행·코드 검수·버그 분류를 수정한 보조 스킬4개를 새 이름으로 설치했다. 기존 공통/프로젝트 규칙·모델·권한 설정은 보존하고 전체 bootstrap·원본 hooks·50개 에이전트 일괄 설치는 하지 않았다. 네 스킬 구조·링크·보호 파일8개 해시와 문서/산출물 상태 확인을 검증했다. 실제 자동 선택·게임 제작·Unity/기기·원본 hooks 런타임 검증과 구별한다. [도입 매뉴얼](EURAIKA_SELECTIVE_STUDIO.md) · [제한된 검증 기록](../reports/ToolInventory/20261104_EURAIKA_SELECTIVE.json).
+
 2026-11-01 확인. 여러 프로젝트가 공유하는 PC 환경의 도구 목록이다. 설치 유무, 실제 실행 근거, 남은 조건을 구별한다. 다른 PC에도 같은 프로그램이 설치되어 있다고 가정하지 않는다. [도구 확인 공통 규칙](COMMON_TOOL_POLICY.md)을 먼저 따른다.
 
 이 목록은 확인 담당이 제공한 설치/실행 근거를 정리한 문서다. 사용자 개별 재개 지시로 Stable Fast 3D의 모델 다운로드/CPU 생성, RealityScan의 공식 설치/첫 작업 화면, Materialize 기존 설치의 정상 작업 UI를 확인했다. 다른 도구의 설치 보류·조회 금지는 그대로 유지한다.

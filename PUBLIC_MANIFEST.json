@@ -37,7 +37,8 @@
     "2026-11-03: Claude must read shared rules and existing manuals but report education gaps to Codex; new three-source study and manual authoring are assigned to Codex, not Claude.",
     "2026-11-03: Codex studied three distinct official documents on Principled coat/specular, area lights/Normalize and OIDN feature inputs; published a leather lookdev and denoising review manual with scope and unverified runtime limits. No private product or raw sources published.",
     "2026-11-04: Codex read three distinct Blender5.2 official articles and authored a layered-wallet lining, seam-boundary and slack exterior-volume guide. Controlled shape-key authoring is distinguished from unrun cloth simulation and product validation. No private assets or raw sources published.",
-    "2026-11-04: Codex read seven distinct official Blender5.2 documents and added broad panel curvature, pocket baseline lowering, reference-aware relative-key residuals, paired highlight review and native driver residual-knot/six-angle verification guidance. Functions are application proposals; live Blender/product tests NOT_RUN. Unrelated unpublished files excluded."
+    "2026-11-04: Codex read seven distinct official Blender5.2 documents and added broad panel curvature, pocket baseline lowering, reference-aware relative-key residuals, paired highlight review and native driver residual-knot/six-angle verification guidance. Functions are application proposals; live Blender/product tests NOT_RUN. Unrelated unpublished files excluded.",
+    "2026-11-04: Record four selectively adapted Euraika studio skills and limited validation; preserve existing rules, models, permissions and project structure."
   ],
   "files": [
     {
@@ -572,8 +573,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 10631,
-      "sha256": "985b7d858f5aad14ddc698ce263ff12f84f33bdef735b6485a8e463290945809"
+      "bytes": 11460,
+      "sha256": "169b240d0c21f19921478369017f43cb5dda2e2fd841494678c6469968386fc8"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -799,6 +800,16 @@
       "path": "reports/ExternalLearning/20261104_WALLET_CURVATURE_DRIVER_STUDY.json",
       "bytes": 8186,
       "sha256": "cbd49c8057fc0864bc73d18b44ad4257f218600241fc369e95b1d2100f1f5f98"
+    },
+    {
+      "path": "docs/EURAIKA_SELECTIVE_STUDIO.md",
+      "bytes": 5968,
+      "sha256": "45fd9fe1bef2768e79e1b53ac3c4952b39d71bafd4e972310e18653d7858ad27"
+    },
+    {
+      "path": "reports/ToolInventory/20261104_EURAIKA_SELECTIVE.json",
+      "bytes": 4662,
+      "sha256": "fb73e29d44ca008b9fe23286d07722c6c7595c57352ff582faed246cb1b9159a"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
