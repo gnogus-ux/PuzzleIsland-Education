@@ -12,7 +12,19 @@
     {"semantic":"normal","pixels":[2048,2048],"png_bit_depth":16},
     {"semantic":"height","pixels":[2048,2048],"png_bit_depth":16}
   ],
-  "candidate_limitations": ["small source sample enlarged; no new measured detail", "fine detail softened", "tile seams not qualified", "normal convention and height polarity not yet qualified in target renderer", "metric size and displacement not measured", "not applied to production model", "full application restart not tested"],
+  "candidate_limitations_at_initial_export": ["small source sample enlarged; no new measured detail", "fine detail softened", "tile seams not qualified", "normal convention and height polarity not yet qualified in target renderer", "metric size and displacement not measured", "not applied to production model", "full application restart not tested"],
+  "followup_tiling_and_coupon": {
+    "separate_candidate": true,
+    "actual_filter": "Make It Tile above final Image to Material; Tiling filter studied but not executed",
+    "observed_filter_values": {"threshold":0.86,"smoothness":0.2,"contrast":0.97,"color_equalizer":20,"height_matching":"Minimum"},
+    "normal_export": {"original_preference":"DirectX","actual_export":"OpenGL","restored_preference":"DirectX"},
+    "output_png_bits": {"base_color":8,"base_metalness":8,"height":16,"normal":16,"specular_roughness":16},
+    "QA": "3x3 base/height and offset four-channel sheets actually viewed; hard tile boundaries reduced, patch density variation remains. Numeric edge metrics are diagnostic, not a quality percentage.",
+    "blender": "5.2.2 LTS; native Cycles and existing MCP add-on; no new installation",
+    "coupon": {"size_mm":[32,32],"tile_size_assumed_mm":16,"repeat":[2,2],"evaluated_Z_mm":[-0.03999999910593033,0.03999999910593033],"cycles_samples":128,"left_and_right_macro_outputs_actually_viewed":true,"normal_strength":1,"IOR":1.46,"specular_IOR_level":0.6,"coat_weight":0.02},
+    "path_validation": "Save As initially remapped relative images to an old directory; corrected after establishing destination, reloaded images and saved; dependency audit missing=0.",
+    "limits": ["physical grain scale assumed, not measured", "about 400px source crop enlarged to 2048", "some softened or wavy microdetail remains", "coupon is not product acceptance", "no full Sampler restart test"]
+  },
   "no_new_installation_payment_or_authentication_automation": true,
   "no_private_media_or_paths_published": true
 }

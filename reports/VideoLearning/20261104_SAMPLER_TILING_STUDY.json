@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-04",
+  "author": "Codex",
+  "kind": "official documentation study, not video viewing",
+  "purpose": "Qualify photo-derived PBR tiling and normal export before Blender application",
+  "sources": [
+    {"url":"https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/filters/tools/make-it-tile","updated":"2026-04-07","actually_read":"extracted body lines 9-56","observed":"Patch overlays and boundary controls; Height Matching changes height, not normal or AO"},
+    {"url":"https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/filters/tools/tiling","updated":"2026-04-07","actually_read":"extracted body lines 10-76","observed":"Overlap transforms and channel edges; residual defects can require local correction"},
+    {"url":"https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/interface/preferences/normal-format","updated":"2026-04-07","actually_read":"extracted body lines 4-24","observed":"Internal DirectX default; preference controls bitmap import and export convention"}
+  ],
+  "cross_check": "Make It Tile and Tiling are distinct algorithms. Height matching does not imply normal recomputation. DirectX/OpenGL is separate from raised-versus-recessed height polarity.",
+  "adopted": "Separate SSA; inspect all aligned channels in repeat and offset views; observe and restore normal preference; verify actual evaluated displacement and lighting in target renderer",
+  "runtime_separate": "Make It Tile, OpenGL export and isolated Blender coupon were subsequently executed; documentation alone was not treated as runtime success",
+  "unverified": ["all materials and app versions", "measured physical grain scale", "perfect recovery of clipped source reflections", "Tiling filter runtime; only Make It Tile was used"],
+  "no_private_media_or_paths": true
+}
