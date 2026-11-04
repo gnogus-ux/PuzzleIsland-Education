@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-04",
+  "app": "Adobe Substance 3D Sampler",
+  "version_observed_in_UI": "6.0.2",
+  "manual": "docs/SAMPLER_PHOTO_PBR.md",
+  "control": "Existing approved computer-use connection recovered after user reopened the desktop client; exact root cause of earlier kernel-assets error unconfirmed",
+  "actual_runtime": ["existing app selected and restored from minimized state", "reference photo imported", "Crop handles selected a clean leather sample", "new Image to Material AI Powered above Crop with Leather and Shiny", "separate SSA project saved", "open command on saved SSA returned to visible material; no full application restart", "five OpenPBR PNG channels exported", "all exported maps opened and visually inspected", "PNG headers and full image decode checked"],
+  "channels": [
+    {"semantic":"base_color","pixels":[2048,2048],"png_bit_depth":8},
+    {"semantic":"base_metalness","pixels":[2048,2048],"png_bit_depth":8,"all_zero":true},
+    {"semantic":"specular_roughness","pixels":[2048,2048],"png_bit_depth":8},
+    {"semantic":"normal","pixels":[2048,2048],"png_bit_depth":16},
+    {"semantic":"height","pixels":[2048,2048],"png_bit_depth":16}
+  ],
+  "candidate_limitations": ["small source sample enlarged; no new measured detail", "fine detail softened", "tile seams not qualified", "normal convention and height polarity not yet qualified in target renderer", "metric size and displacement not measured", "not applied to production model", "full application restart not tested"],
+  "no_new_installation_payment_or_authentication_automation": true,
+  "no_private_media_or_paths_published": true
+}

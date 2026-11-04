@@ -46,7 +46,8 @@
     "2026-11-04: Direct user HTTPS consent completed; private Tailscale Serve background proxy and valid HTTPS page/document responses verified. External Android model display/performance awaits user confirmation; private domain/device/consent URLs excluded.",
     "2026-11-04: Reproduced and corrected local HMR/lazy-compilation startup conflict, prevented automatic mobile AI overlay, verified HTTPS app/assembly and simulated viewport plus five UI tests. Actual Android first retry still Loading; fresh Chrome retest pending, explicitly PARTIAL.",
     "2026-11-04: Added photo-to-leather Materialize workflow after actual targeted re-review of three original tutorials,43sampledframes/12sheets/adjacent automaticcaptions. Height/normal confirmation, smoothness inversion, seamless/bitdepth/physicalscale limits. Production not started atstudy publication. No source media, userphotos or privatepaths included.",
-    "2026-11-04: User-requested Adobe installation lookup verified Sampler6.0.2,Designer16.0.4,Photoshop2026,Modeler1.22.7,Stager3.1.8 by registry and exactexecutablemetadata. No app/account/license/photomapexecution verified; privatepaths omitted."
+    "2026-11-04: User-requested Adobe installation lookup verified Sampler6.0.2,Designer16.0.4,Photoshop2026,Modeler1.22.7,Stager3.1.8 by registry and exactexecutablemetadata. No app/account/license/photomapexecution verified; privatepaths omitted.",
+    "Added Sampler photo-PBR manual from four official document bodies and limited 6.0.2 GUI import/crop/AI/map-export evidence. Runtime recovery observed after desktop restart; exact kernel root cause unconfirmed. Product media and private paths omitted. Metric displacement, seamless and production application unverified."
   ],
   "files": [
     {
@@ -56,8 +57,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15551,
-      "sha256": "9b0a52b3c52c4cfd0aec3094c14de21d1572318343477727abd0fd334f350b9c"
+      "bytes": 15866,
+      "sha256": "81eeb1eadcb9e96794e52901fa4a14bdbbc4f536e950df54b5fc491797461118"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -581,8 +582,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 14082,
-      "sha256": "93e2416e1a1c9c9dc296d4a6491186562ba884c0b515dd9906c3b338a6b69ef0"
+      "bytes": 14482,
+      "sha256": "bdd6c39e0732fd8c1e643a66040b4e8fdd63bcaafc58697d8067354f3966031c"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -858,6 +859,21 @@
       "path": "reports/ToolInventory/20261104_ADOBE_INSTALLED.json",
       "bytes": 1725,
       "sha256": "02eabe63199771ef9ee70a08794abbaac8585b8d162a7426a2ed08a2b559ed35"
+    },
+    {
+      "path": "docs/SAMPLER_PHOTO_PBR.md",
+      "bytes": 7358,
+      "sha256": "c39b08501b7af9777b3b21d9d391911b80df2c0474bd4445e6078b792781bb5d"
+    },
+    {
+      "path": "reports/ToolInventory/20261104_SAMPLER_RUNTIME.json",
+      "bytes": 1631,
+      "sha256": "6895d94993c900e80a6660072a98cdf4fe3e78357a9c3172a0e3b786cc1d165e"
+    },
+    {
+      "path": "reports/VideoLearning/20261104_SAMPLER_DOCUMENT_STUDY.json",
+      "bytes": 1745,
+      "sha256": "726d314f0936c7dfe4dd629b17d8647335ac9ba3ca45710fbd67b28c8e677fec"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

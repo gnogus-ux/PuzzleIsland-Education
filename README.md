@@ -83,6 +83,8 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 ## 지갑·가죽·사진 기반 3D 교육
 
+설치된 Sampler에서 사진 표본을 분리하고 맵을 생성·출력할 때는 [Sampler 사진 PBR 절차](docs/SAMPLER_PHOTO_PBR.md)와 [공식 문서 4개 학습 범위](reports/VideoLearning/20261104_SAMPLER_DOCUMENT_STUDY.json)를 확인합니다. 문서 학습과 앱 실기 검증은 구분합니다.
+
 사진에서 가죽 PBR 맵을 만드는 작업은 [Materialize 제작 순서·출력 검수](docs/PHOTO_LEATHER_MATERIALIZE_WORKFLOW.md)와 [실제 3강좌 재검토 범위](reports/VideoLearning/20261104_PHOTO_LEATHER_MATERIALIZE_STUDY.json)를 먼저 확인합니다. 사진의 명암과 실측 높이, 미리보기와 실제 변위를 구분합니다.
 
 추가 검수: [매끈한 코팅 가죽·면광원 반사·미세 요철과 디노이즈](docs/LEATHER_LOOKDEV_AND_DENOISE.md) — 공식 자료3개의 해당 절을 Codex가 직접 읽고 대조한 절차 보강이며 [실제 학습 범위](reports/ExternalLearning/20261103_LEATHER_LOOKDEV_STUDY.json)와 실기 검증을 구분합니다.

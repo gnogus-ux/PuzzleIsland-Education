@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-04",
+  "type": "official_document_body_study_not_video_viewing",
+  "author_role": "Codex",
+  "application_observed": "Substance 3D Sampler 6.0.2 Korean home screen",
+  "manual": "docs/SAMPLER_PHOTO_PBR.md",
+  "sources": [
+    {"title":"Quick Actions","author":"Adobe","url":"https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/features-and-workflows/quick-actions","updated":"2026-04-16","read_extracted_lines":"6-91"},
+    {"title":"Image To Material","author":"Adobe","url":"https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/filters/tools/image-to-material","updated":"2026-04-07","read_extracted_lines":"6-37"},
+    {"title":"Export Window","author":"Adobe","url":"https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/getting-started/export/export-window","updated":"2026-04-16","read_extracted_lines":"15-75"},
+    {"title":"Crop tool","author":"Adobe","url":"https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/filters/tools/crop-tool","updated":"2026-04-07","read_extracted_lines":"7-91"}
+  ],
+  "crosschecks": ["Image-to-Material differs from importing existing texture maps", "Crop applies to image/scan when present below it and must precede conversion for clean samples", "Estimated height is not metric measurement; output bit depth is a separate property", "OpenPBR and ASM affect channel names; inspect actual output", "Adobe Capture subscription note not generalized to desktop runtime"],
+  "unverified_at_manual_preparation": ["actual image processing and export", "project reopen", "height polarity and tile seams", "metric material properties", "all hardware and versions"],
+  "no_raw_source_media_or_private_paths_published": true
+}
