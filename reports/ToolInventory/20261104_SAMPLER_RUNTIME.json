@@ -4,27 +4,174 @@
   "version_observed_in_UI": "6.0.2",
   "manual": "docs/SAMPLER_PHOTO_PBR.md",
   "control": "Existing approved computer-use connection recovered after user reopened the desktop client; exact root cause of earlier kernel-assets error unconfirmed",
-  "actual_runtime": ["existing app selected and restored from minimized state", "reference photo imported", "Crop handles selected a clean leather sample", "new Image to Material AI Powered above Crop with Leather and Shiny", "separate SSA project saved", "open command on saved SSA returned to visible material; no full application restart", "five OpenPBR PNG channels exported", "all exported maps opened and visually inspected", "PNG headers and full image decode checked"],
-  "channels": [
-    {"semantic":"base_color","pixels":[2048,2048],"png_bit_depth":8},
-    {"semantic":"base_metalness","pixels":[2048,2048],"png_bit_depth":8,"all_zero":true},
-    {"semantic":"specular_roughness","pixels":[2048,2048],"png_bit_depth":8},
-    {"semantic":"normal","pixels":[2048,2048],"png_bit_depth":16},
-    {"semantic":"height","pixels":[2048,2048],"png_bit_depth":16}
+  "actual_runtime": [
+    "existing app selected and restored from minimized state",
+    "reference photo imported",
+    "Crop handles selected a clean leather sample",
+    "new Image to Material AI Powered above Crop with Leather and Shiny",
+    "separate SSA project saved",
+    "open command on saved SSA returned to visible material; no full application restart",
+    "five OpenPBR PNG channels exported",
+    "all exported maps opened and visually inspected",
+    "PNG headers and full image decode checked"
   ],
-  "candidate_limitations_at_initial_export": ["small source sample enlarged; no new measured detail", "fine detail softened", "tile seams not qualified", "normal convention and height polarity not yet qualified in target renderer", "metric size and displacement not measured", "not applied to production model", "full application restart not tested"],
+  "channels": [
+    {
+      "semantic": "base_color",
+      "pixels": [
+        2048,
+        2048
+      ],
+      "png_bit_depth": 8
+    },
+    {
+      "semantic": "base_metalness",
+      "pixels": [
+        2048,
+        2048
+      ],
+      "png_bit_depth": 8,
+      "all_zero": true
+    },
+    {
+      "semantic": "specular_roughness",
+      "pixels": [
+        2048,
+        2048
+      ],
+      "png_bit_depth": 8
+    },
+    {
+      "semantic": "normal",
+      "pixels": [
+        2048,
+        2048
+      ],
+      "png_bit_depth": 16
+    },
+    {
+      "semantic": "height",
+      "pixels": [
+        2048,
+        2048
+      ],
+      "png_bit_depth": 16
+    }
+  ],
+  "candidate_limitations_at_initial_export": [
+    "small source sample enlarged; no new measured detail",
+    "fine detail softened",
+    "tile seams not qualified",
+    "normal convention and height polarity not yet qualified in target renderer",
+    "metric size and displacement not measured",
+    "not applied to production model",
+    "full application restart not tested"
+  ],
   "followup_tiling_and_coupon": {
     "separate_candidate": true,
     "actual_filter": "Make It Tile above final Image to Material; Tiling filter studied but not executed",
-    "observed_filter_values": {"threshold":0.86,"smoothness":0.2,"contrast":0.97,"color_equalizer":20,"height_matching":"Minimum"},
-    "normal_export": {"original_preference":"DirectX","actual_export":"OpenGL","restored_preference":"DirectX"},
-    "output_png_bits": {"base_color":8,"base_metalness":8,"height":16,"normal":16,"specular_roughness":16},
+    "observed_filter_values": {
+      "threshold": 0.86,
+      "smoothness": 0.2,
+      "contrast": 0.97,
+      "color_equalizer": 20,
+      "height_matching": "Minimum"
+    },
+    "normal_export": {
+      "original_preference": "DirectX",
+      "actual_export": "OpenGL",
+      "restored_preference": "DirectX"
+    },
+    "output_png_bits": {
+      "base_color": 8,
+      "base_metalness": 8,
+      "height": 16,
+      "normal": 16,
+      "specular_roughness": 16
+    },
     "QA": "3x3 base/height and offset four-channel sheets actually viewed; hard tile boundaries reduced, patch density variation remains. Numeric edge metrics are diagnostic, not a quality percentage.",
     "blender": "5.2.2 LTS; native Cycles and existing MCP add-on; no new installation",
-    "coupon": {"size_mm":[32,32],"tile_size_assumed_mm":16,"repeat":[2,2],"evaluated_Z_mm":[-0.03999999910593033,0.03999999910593033],"cycles_samples":128,"left_and_right_macro_outputs_actually_viewed":true,"normal_strength":1,"IOR":1.46,"specular_IOR_level":0.6,"coat_weight":0.02},
+    "coupon": {
+      "size_mm": [
+        32,
+        32
+      ],
+      "tile_size_assumed_mm": 16,
+      "repeat": [
+        2,
+        2
+      ],
+      "evaluated_Z_mm": [
+        -0.03999999910593033,
+        0.03999999910593033
+      ],
+      "cycles_samples": 128,
+      "left_and_right_macro_outputs_actually_viewed": true,
+      "normal_strength": 1,
+      "IOR": 1.46,
+      "specular_IOR_level": 0.6,
+      "coat_weight": 0.02
+    },
     "path_validation": "Save As initially remapped relative images to an old directory; corrected after establishing destination, reloaded images and saved; dependency audit missing=0.",
-    "limits": ["physical grain scale assumed, not measured", "about 400px source crop enlarged to 2048", "some softened or wavy microdetail remains", "coupon is not product acceptance", "no full Sampler restart test"]
+    "limits": [
+      "physical grain scale assumed, not measured",
+      "about 400px source crop enlarged to 2048",
+      "some softened or wavy microdetail remains",
+      "coupon is not product acceptance",
+      "no full Sampler restart test"
+    ]
   },
   "no_new_installation_payment_or_authentication_automation": true,
-  "no_private_media_or_paths_published": true
+  "no_private_media_or_paths_published": true,
+  "followup_unique_per_piece_20261105": {
+    "manual": "docs/PRODUCT_LEATHER_UNIQUE_TEXTURE_SETS.md",
+    "purpose": "product advertising/video material, not a game optimization exercise",
+    "source": "user closeup-reference reconstruction; generated wide input1536x1024; assumed180x120mm, not measured scan",
+    "sampler_actual": "6.0.2 Image to Material AI Leather/Shiny + Equalize + Upscale4x; observed8192x4096 layer output; separate SSA saved, five4096-square PNGs exported",
+    "source_output_bits": {
+      "base_color": 8,
+      "base_metalness": 8,
+      "roughness": 8,
+      "normal_DirectX": 16,
+      "height": 16
+    },
+    "blender": "5.2.2 LTS, existing native Cycles/MCP/UniV4.0.0; no new installation",
+    "per_piece_output": {
+      "pieces": 8,
+      "channels_per_piece": [
+        "Base sRGB8bit",
+        "Rough NonColor16bit",
+        "Height NonColor16bit",
+        "NormalGL NonColor16bit"
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "genuine_native_bakes": 32,
+      "all32_reopened_header_hash_and_connection_checked": true
+    },
+    "first_candidate_rejected": "bbox-only normalization of an old shared atlas left major pieces around8-9px/mm; preserved test candidate",
+    "guide_v02": "Actual separate proxy guide and eight UV layout images; native Average Island Scale + UniV native AABB EXEC, rotation off, padding32px; production new UV only replaced after code handoff; original UVs/source projection untouched",
+    "major_piece_mean_density_px_per_mm": [
+      24.322,
+      23.511,
+      23.245,
+      37.192
+    ],
+    "UV_QA": "Each piece eligible UVs within0..1; cross-island AABBs disjoint and gap>=31.5px; no claim of exhaustive within-island self-fold proof",
+    "normal_QA": "DX source gradient correlations approximately-0.863 X/-0.869 image-down Y; destination tangent native bake explicitly POS_X/POS_Y/POS_Z OpenGL; displacement disabled on bake proxies",
+    "height_QA": "Neutral unused UV background and8px dilation; v02 had no all-zero data pixels; reopened height ranges within source range. First trial raw16bit height roundtrip maxerror7.69e-6. Actual8 evaluated off/on displacement checks within±0.04mm;14624 guard-zero samples unchanged.",
+    "preserved": "all original raw geometry, old UVs, masks/rig/drivers, old material graphs, boxes/exterior/thread/edgecoat/lights; original and rejected candidates retained",
+    "actual_visual_review": "same camera and lighting Cycles256 front/oblique/slot closeup/macro, gray Solid and actual evaluated wire before/after directly viewed by Codex",
+    "save_reopen": "separate candidate saved and actual same-file reopen; raw preservation/new UV/material connections rechecked, clean saved state",
+    "remaining_limits": [
+      "reconstructed/upscaled fine detail remains soft in some closeup areas",
+      "coarse displacement grid on some pieces retained",
+      "source physical extent assumed, not measured",
+      "user final appearance approval and complete advertising video/motion flicker validation not performed",
+      "inherited shader frame membership11 verified; all Node Editor visual bounds not verified",
+      "Sampler full application restart not tested"
+    ]
+  }
 }
