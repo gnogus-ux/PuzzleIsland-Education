@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-04",
+  "status": "PARTIAL_ANDROID_FRESH_CHROME_RETEST_PENDING",
+  "initial_evidence": "User Android screenshot showing Loading; desktop new HTTPS origin reproduced app not ready despite HTTP200 JS/WASM",
+  "identified_regression": "Local dev configuration disabled HMR while Rspack CLI default lazy import compilation remained enabled",
+  "source_versions": {
+    "chili3d": "0.8.0",
+    "rspack_cli": "2.0.3",
+    "rspack_core": "2.0.3"
+  },
+  "changes": [
+    "Explicit root lazyCompilation false and owned server restart",
+    "Do not auto-open AI panel at existing mobile breakpoint <=680px",
+    "Versioned mobile opening link"
+  ],
+  "verified": [
+    "New HTTPS origin app ready",
+    "No lazy-compilation proxy resources",
+    "Full existing reference assembly loaded",
+    "393x851 simulated viewport visually reviewed",
+    "TypeScript check passed",
+    "Existing editor sidebar tests 5/5 passed"
+  ],
+  "remaining": "Actual Android first retry still reported Loading; user asked to close existing in-app browser and reopen fresh Chrome",
+  "physical_android_pass": false,
+  "model_or_browser_storage_reset": false,
+  "AI_API_calls": 0,
+  "manual": "docs/CHILI3D_LOCAL_CAD.md"
+}

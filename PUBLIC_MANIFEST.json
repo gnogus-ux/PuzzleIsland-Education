@@ -43,7 +43,8 @@
     "2026-11-04: Chili3D native reference-mesh whole-assembly path verified against official serialization sources; application geometry hashes, IndexedDB save/reopen and Windows large-file watch fix recorded. Private model data excluded.",
     "2026-11-04: Added official-source external mobile access and natural-language AI usage preflight. Tailscale installation/method choice and direct login remain pending; no firewall/router/tunnel/AI configuration or external phone test performed.",
     "2026-11-04: User-approved Tailscale1.104.5 signed installation and direct administrator/login stages completed; online Android peer and strict local Host checks verified. HTTPS consent, Serve activation and external phone test remain pending; private identities/URLs excluded.",
-    "2026-11-04: Direct user HTTPS consent completed; private Tailscale Serve background proxy and valid HTTPS page/document responses verified. External Android model display/performance awaits user confirmation; private domain/device/consent URLs excluded."
+    "2026-11-04: Direct user HTTPS consent completed; private Tailscale Serve background proxy and valid HTTPS page/document responses verified. External Android model display/performance awaits user confirmation; private domain/device/consent URLs excluded.",
+    "2026-11-04: Reproduced and corrected local HMR/lazy-compilation startup conflict, prevented automatic mobile AI overlay, verified HTTPS app/assembly and simulated viewport plus five UI tests. Actual Android first retry still Loading; fresh Chrome retest pending, explicitly PARTIAL."
   ],
   "files": [
     {
@@ -818,8 +819,8 @@
     },
     {
       "path": "docs/CHILI3D_LOCAL_CAD.md",
-      "bytes": 16348,
-      "sha256": "f07c5ab4b4dd29ad9d8f2f2f8d49c8d18db2078c37a2de3ac640ef7eeb4f7f55"
+      "bytes": 18862,
+      "sha256": "ea9e306321303034b343317be6c3bfa99667c03858c4988669351c1b445a8cf8"
     },
     {
       "path": "reports/ToolInventory/20261104_CHILI3D_LOCAL.json",
@@ -835,6 +836,11 @@
       "path": "reports/ToolInventory/20261104_TAILSCALE_INSTALL.json",
       "bytes": 1347,
       "sha256": "e572ea0a2677288270698f8db587ddf9a4ddad946e6495b0e88f842356dd9497"
+    },
+    {
+      "path": "reports/ToolInventory/20261104_CHILI3D_MOBILE_STARTUP.json",
+      "bytes": 1211,
+      "sha256": "cce4685f321e644179b40cd4322978ef2a3242fe1b41b2da310cae22430477c0"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
