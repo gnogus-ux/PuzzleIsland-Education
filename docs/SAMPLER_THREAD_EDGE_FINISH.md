@@ -37,3 +37,13 @@ Quilt Stitch는 바탕 재질 위에 봉제·이음·퀼팅·도색 패턴을 �
 | [Material creation presets](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/interface/tools-and-widgets/material-creation-presets) — 2026-04-16 | 새 재질 작성·프리셋 범주·해상도·모델·채널·base fill. Coating/Fuzz와 일반 Base 출발점 구별 |
 
 UI 언어, 현재 라이브러리 에셋 및 출력 채널은 실행 시 다시 확인한다. 전용 실 생성기의 존재, 사진 한 장의 정확한 물성 추정, 렌더러 간 전체 자동 호환은 이 문서로 검증되지 않는다. 교육은 Codex가 작성하고 Claude는 기존 문서를 읽어 제작에 적용한다.
+
+## 도막 미세결 추가 학습 — 2026-11-05
+
+기존 Brushed Paint 라이브러리 항목의 로드가 확인되지 않아, 적용 성공으로 기록하지 않았다. 다음 Adobe 공식 본문 3개를 별도로 읽어 기본 도막에서 시작하는 방법을 보강했다. 문서 열람 범위는 각 페이지 설명·전체 매개변수이며 영상 실습이나 제품 적용 성공을 뜻하지 않는다.
+
+- [Paint](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/filters/wear-and-finish/paint): 색·거칠기·두께와 Grain/Grain Size로 도막 결을 조절한다. 새 제품은 Peel을 0으로 두고 금속 효과를 추가하지 않는다. Normal/Height 채널 및 강도를 따로 확인한다.
+- [Surface Relief](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/filters/generators/surface-relief): 입력 결의 진폭·대비·반전·타일과 노멀/높이 혼합을 구별한다. 낮은 진폭의 표면 불균일 대안이며 엣지 베벨을 대신하지 않는다.
+- [Varnish](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/filters/wear-and-finish/varnish): 거칠기로 광택을 조절하고 두께가 커지면 아래 결이 완화된다. 현재 UI의 Coat And Varnish와 이름이 다르므로 동일 매개변수라고 단정하지 않는다.
+
+세 문서 최종 표시는 모두 2026-04-07이다. Paint의 낮은 Grain 후보로 먼저 검수하고 실제 UV의 mm 환산과 접사 반사를 본 뒤 정한다. 사진에서 정확한 도막 물성을 역산했다고 주장하지 않는다.
