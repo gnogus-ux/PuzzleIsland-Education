@@ -14,18 +14,21 @@
     "PC BackendState Running",
     "Online Android peer",
     "Chili3D loopback service with exact assigned remote hostname accepted",
-    "Unexpected HTTP Host rejected with 403"
+    "Unexpected HTTP Host rejected with 403",
+    "User HTTPS consent completed",
+    "Serve background HTTPS reverse proxy enabled",
+    "Valid HTTPS mobile page HTTP200",
+    "Valid HTTPS whole-document HEAD HTTP200"
   ],
   "pending": [
-    "User HTTPS enablement consent",
-    "Tailscale Serve activation",
-    "HTTPS asset/app check",
-    "External Android cellular access and full-model performance"
+    "External Android cellular model display and performance confirmation"
   ],
-  "serve_configuration_empty": true,
+  "serve_configuration_empty": false,
   "public_funnel_used": false,
   "manual_firewall_or_router_opening": false,
   "paid_purchase": false,
   "private_account_device_or_login_urls_published": false,
-  "manual": "docs/CHILI3D_LOCAL_CAD.md"
+  "manual": "docs/CHILI3D_LOCAL_CAD.md",
+  "serve_enabled": true,
+  "HTTPS_consent_completed": true
 }

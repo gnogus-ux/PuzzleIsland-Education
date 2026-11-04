@@ -42,7 +42,7 @@
 
 | 프로그램 | 설치 정보 | 사용 전 확인 |
 |---|---|---|
-| Tailscale / Serve | 1.104.5 공식 유효 서명 설치, CLI 버전/PC Running 및 온라인 Android 피어 확인 | 2026-11-04 사용자 개별 설치 승인과 사용자 직접 관리자 승인/계정 로그인 완료. HTTPS 사용 동의 대기이며 Serve 설정은 아직 비어 있음. 휴대폰 외부 접속·HTTPS 경유 실기는 미확인. [설치 기록](../reports/ToolInventory/20261104_TAILSCALE_INSTALL.json) · [접속 매뉴얼](CHILI3D_LOCAL_CAD.md#외부-휴대폰-접속의-준비와-승인-경계) |
+| Tailscale / Serve | 1.104.5 공식 유효 서명 설치, CLI/기기 연결 및 비공개 HTTPS 프록시 활성 | 2026-11-04 사용자 직접 관리자 승인·PC/Android 로그인·HTTPS 동의 완료. 온라인 Android 피어, Serve 배경 연결, 실제 HTTPS 모바일 화면/문서 200 및 임의 Host 403 확인. 휴대폰 이동통신에서 실제 모델 표시·성능은 확인 요청 중. [설치·연결 기록](../reports/ToolInventory/20261104_TAILSCALE_INSTALL.json) · [접속 매뉴얼](CHILI3D_LOCAL_CAD.md#외부-휴대폰-접속의-준비와-승인-경계) |
 | Unity Editor | 확인한 기본 설치 폴더 6000.6.7f1 | 프로젝트가 요구하는 정확한 Editor/URP/빌드 모듈과 일치하는지 확인. 과거 프로젝트 기록의 6000.3.27f1과 혼동 금지. 현재 Editor 실행은 미검증 |
 | GIMP | 3.0.8.2 | 이미지 편집. 설치 기록 확인, 이번 작업에서 앱 실행/플러그인 검사 안 함 |
 | Photoshop Beta | 28.0.0.3709 | 이미지 편집. 설치 기록 확인, 실행·로그인·라이선스 상태 미점검 |
