@@ -38,6 +38,8 @@ D2의 [02:20~03:30](https://www.youtube.com/watch?v=DOn4G9HVo2M&t=140)는 흑백
 
 ## 4. Materialize를 이용하는 선택 경로
 
+실제 작업 전 [사진 표본·조명/심리스·Materialize 조작·출력 검수 매뉴얼](PHOTO_LEATHER_MATERIALIZE_WORKFLOW.md)을 함께 적용한다. 2026-11-04 서로 다른 강좌3편의 실제43시점과 자동자막을 다시 대조한 보강이며 새 사진 맵 생성·실기 성공과 구분한다.
+
 D4의 원리는 Diffuse 사진 → Height 생성 → Height 확정 → Normal 생성 → 전체 재질 미리보기 → 저장이다. D5는 여기에 Metallic·Smoothness·AO와 Blender 연결을 더한다. [D4 Height와 Normal](https://www.youtube.com/watch?v=GItohAbyzCM&t=180), [D5 Blender 연결](https://www.youtube.com/watch?v=kvJuC8Wj_lQ&t=570)
 
 | 순서 | 작업 | 현재 가죽에서 확인할 것 |

@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-04",
+  "author_role": "Codex education; Claude not tasked with new study",
+  "status": "THREE_COURSE_TARGETED_VISUAL_CAPTION_REVIEW_AND_MANUAL_COMPLETE_PRODUCTION_NOT_STARTED",
+  "method": "43 selected actual video frames at1280width,12contact sheets plus2sameframe single UI views, adjacent cleaned automatic captions and existing manuals. Not continuous fullvideo/audio.",
+  "courses": [
+    {
+      "id": "GItohAbyzCM",
+      "author": "The Rendering Essentials",
+      "title": "FREE TOOL For Creating PBR Material Maps from Photos - Materialize!",
+      "url": "https://www.youtube.com/watch?v=GItohAbyzCM",
+      "duration_s": 611,
+      "sampled_seconds": [
+        105,
+        140,
+        160,
+        190,
+        225,
+        250,
+        290,
+        320,
+        355,
+        380,
+        420,
+        470,
+        510,
+        545
+      ],
+      "video_sha256": "61b75bb20d5f4e0a1c37ee05a3615ad86d939b81a4b3d2c41534fc17ea4fda62",
+      "observed": "Diffuse open; Height frequency sliders/Details/Final Contrast/Set; Normal settings/Set;AO;FullMaterial parallax and sphere; project andmap output."
+    },
+    {
+      "id": "kvJuC8Wj_lQ",
+      "author": "Class Outside",
+      "title": "Create Texture Maps - Generate PBRs with Materialize",
+      "url": "https://www.youtube.com/watch?v=kvJuC8Wj_lQ",
+      "duration_s": 776,
+      "sampled_seconds": [
+        120,
+        148,
+        165,
+        185,
+        210,
+        300,
+        340,
+        365,
+        400,
+        450,
+        475,
+        510,
+        550,
+        630,
+        658,
+        720,
+        745
+      ],
+      "video_sha256": "72e110b48a4f1c60f8995b8ca429c9109a97cf791d02a32b6fa90a108cd255f1",
+      "observed": "Height confirmation, Normal, Smoothnesspanel,AO,PNGSaveProject/outputfiles,NodeWrangler,InverttoRoughness,normalshadingvsactualheight."
+    },
+    {
+      "id": "9_36YihB8I4",
+      "author": "PiXimperfect",
+      "title": "Turn Any Texture Into Seamless Pattern in Photoshop!",
+      "url": "https://www.youtube.com/watch?v=9_36YihB8I4",
+      "duration_s": 737,
+      "sampled_seconds": [
+        75,
+        95,
+        140,
+        180,
+        210,
+        250,
+        300,
+        355,
+        380,
+        420,
+        455,
+        495
+      ],
+      "video_sha256": "c7129b5fe1ecc275405d7eb5473327e5ffc3b840e28a3cdeb2d4e2b80906d5ad",
+      "observed": "WrapAround Offset; failedconnection vs generatedfillresolution; localrepair;recheck;SoftLightFlow1%lowfreqlightingrepair;Colorlayer."
+    }
+  ],
+  "corrections": [
+    "SmoothnessandRoughnessnot interchangeable; actualInvertat658s used.",
+    "NormalisRGBsurfaceorientation; previewparallaxnotactualmeshdisplacement.",
+    "D5axe metal/wood example doesnotjustify metallic for leather.",
+    "S1Photoshop/paidplugin capabilities not assumed in MaterializeorPhotoCraft.",
+    "8bit source or savedPNG doesnotprove16bitheight;sourceinformationandcontainerdepth separate.",
+    "34sample or UIzoomnotphysicalgrainmm."
+  ],
+  "manuals_read": [
+    "AVAILABLE_TOOLS",
+    "COMMON_TOOL_POLICY",
+    "COMMON_WORK_RULES",
+    "SEAMLESS_TEXTURE_WORKFLOW",
+    "SEAMLESS_TEXTURE_HEIGHT_MAPS",
+    "SEAMLESS_TEXTURE_QA",
+    "WALLET_SURFACE_MAPS",
+    "WALLET_COURSE_ANALYSIS"
+  ],
+  "runtime_scope": "Existing Materialize1.78 installation/normalUI record only. No newphotomapload/generation/save/reopen or liveBlenderchange during education.",
+  "web_access": "OfficialMaterialize tutorials index read. DirectYouTubeD4D5web fetch failed; existing local video/caption sources were actually reviewed. S1YouTubepage accessible but no transcript; localoriginal used.",
+  "public_media": "No user photos/video frames/transcript/absoluteprivatepath published.",
+  "manual": "docs/PHOTO_LEATHER_MATERIALIZE_WORKFLOW.md"
+}

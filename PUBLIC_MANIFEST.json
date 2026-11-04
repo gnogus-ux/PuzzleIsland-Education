@@ -44,7 +44,8 @@
     "2026-11-04: Added official-source external mobile access and natural-language AI usage preflight. Tailscale installation/method choice and direct login remain pending; no firewall/router/tunnel/AI configuration or external phone test performed.",
     "2026-11-04: User-approved Tailscale1.104.5 signed installation and direct administrator/login stages completed; online Android peer and strict local Host checks verified. HTTPS consent, Serve activation and external phone test remain pending; private identities/URLs excluded.",
     "2026-11-04: Direct user HTTPS consent completed; private Tailscale Serve background proxy and valid HTTPS page/document responses verified. External Android model display/performance awaits user confirmation; private domain/device/consent URLs excluded.",
-    "2026-11-04: Reproduced and corrected local HMR/lazy-compilation startup conflict, prevented automatic mobile AI overlay, verified HTTPS app/assembly and simulated viewport plus five UI tests. Actual Android first retry still Loading; fresh Chrome retest pending, explicitly PARTIAL."
+    "2026-11-04: Reproduced and corrected local HMR/lazy-compilation startup conflict, prevented automatic mobile AI overlay, verified HTTPS app/assembly and simulated viewport plus five UI tests. Actual Android first retry still Loading; fresh Chrome retest pending, explicitly PARTIAL.",
+    "2026-11-04: Added photo-to-leather Materialize workflow after actual targeted re-review of three original tutorials,43sampledframes/12sheets/adjacent automaticcaptions. Height/normal confirmation, smoothness inversion, seamless/bitdepth/physicalscale limits. Production not started atstudy publication. No source media, userphotos or privatepaths included."
   ],
   "files": [
     {
@@ -54,8 +55,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15194,
-      "sha256": "9527501390a443164527e4da2ed9cee12457024edaa231c853bbf7afd0069083"
+      "bytes": 15551,
+      "sha256": "9b0a52b3c52c4cfd0aec3094c14de21d1572318343477727abd0fd334f350b9c"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -519,8 +520,8 @@
     },
     {
       "path": "docs/WALLET_SURFACE_MAPS.md",
-      "bytes": 13381,
-      "sha256": "9f6db9fff5bf8941ee43df458206be16360c9dbef142dc4ab4afad7c4cf4961c"
+      "bytes": 13699,
+      "sha256": "556107ceea8ff26de34e8ec8ed845450866b043e9406dbbaa1b230888ad43392"
     },
     {
       "path": "docs/downloads/wallet-modeling-and-surface-manual.docx",
@@ -841,6 +842,16 @@
       "path": "reports/ToolInventory/20261104_CHILI3D_MOBILE_STARTUP.json",
       "bytes": 1211,
       "sha256": "cce4685f321e644179b40cd4322978ef2a3242fe1b41b2da310cae22430477c0"
+    },
+    {
+      "path": "docs/PHOTO_LEATHER_MATERIALIZE_WORKFLOW.md",
+      "bytes": 11323,
+      "sha256": "f1edc41a0a727cc6ea1a81f5895778e84443806c56d4161beb0894c468676fc8"
+    },
+    {
+      "path": "reports/VideoLearning/20261104_PHOTO_LEATHER_MATERIALIZE_STUDY.json",
+      "bytes": 3794,
+      "sha256": "29decf5608788fa48bb0a0d826a4b8d1f7d5f2c5e1f0e455ddcdeadb66f01799"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
