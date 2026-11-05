@@ -1,7 +1,7 @@
 {
   "export_date": "2026-11-01",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 68,
+  "manuals": 69,
   "diagrams": 16,
   "checked_local_links": 367,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
@@ -58,7 +58,8 @@
     "2026-11-05: Codex read ten distinct official Marvelous Designer documents and added a reusable wallet pattern/sewing/thickness/OBJ workflow. MD9 process metadata only; current-document version gaps and all product runtime tests explicitly NOT_RUN. No private assets or paths published.",
     "2026-11-05: Supplemented Marvelous wallet manual with three creator/official videos: 109 directly reviewed source-frame timestamps and two complete provided English auto-caption tracks. CLO/MD9.5/2025.1 differences, seam versus topstitch, scale and Tex/mm corrections recorded. No continuous playback/audio or product runtime validation claimed; no source media/captions/private assets published.",
     "2026-11-05: Added layered-wallet leather-thickness and reinforcement selection from seven creator/supplier bodies plus category comparison. Salpa/Texon/Velodon roles, total edge stack and splitting tolerances separated. No private product measurements/assets or material/runtime/manufacture validation published.",
-    "2026-11-05: Added cowhide-cardholder craft workflow from four videos by three creators: 127 sampled visual points and four provided Korean automatic-caption tracks. Kit assembly, cutting/skiving/gluing/final trimming/punching, saddle stitch, edge rubbing and reinforcement-pattern concepts separated. No continuous-watch, physical-build, card-fit or native-app claim; no private product/source media published."
+    "2026-11-05: Added cowhide-cardholder craft workflow from four videos by three creators: 127 sampled visual points and four provided Korean automatic-caption tracks. Kit assembly, cutting/skiving/gluing/final trimming/punching, saddle stitch, edge rubbing and reinforcement-pattern concepts separated. No continuous-watch, physical-build, card-fit or native-app claim; no private product/source media published.",
+    "2026-11-05: Added dedicated leather edge-paint process, drying distinctions and folding-path cross-check from five manufacturer/maker web bodies and three videos (70 sampled visual points, three provided English ASR tracks). Primer versus colored-coat demonstration, historical drying examples, inaccessible sources and short-flex versus durability limits recorded. Private product constraints omitted; no physical/native-app validation claimed."
   ],
   "files": [
     {
@@ -68,8 +69,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 17611,
-      "sha256": "f2e6dfd0d05cad6a5df1483a8ce354e45e56924533aba42ff945e7c1da4bb074"
+      "bytes": 18054,
+      "sha256": "32fe15139805be306f3e433490d7eb519d0375cc7222e2807b2f3d294a022537"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -803,8 +804,8 @@
     },
     {
       "path": "docs/WALLET_LAYERED_SHELL_VOLUME.md",
-      "bytes": 14922,
-      "sha256": "f07da3bfc5ab9f2d18f9ef47ee4a253ee705dd8ec2da5f40f45e42e6a3981b9d"
+      "bytes": 17532,
+      "sha256": "140d29058278d6679c65c335aba9b4bfffb8a97f9a9187a3a1a77c7f3862c0fc"
     },
     {
       "path": "reports/ExternalLearning/20261104_LAYERED_WALLET_STUDY.json",
@@ -928,13 +929,23 @@
     },
     {
       "path": "docs/COWHIDE_CARDHOLDER_CRAFT_WORKFLOW.md",
-      "bytes": 13339,
-      "sha256": "faf2bf9c7cd4a52cfb4f6f80a835733e6e4b8d0c48f0c0f4566f995c55a76671"
+      "bytes": 13666,
+      "sha256": "0078b747dcb3a7c833a0059cfbd3c933ac4feef02e8c1df122274e81597af7f6"
     },
     {
       "path": "reports/VideoLearning/20261105_COWHIDE_CARDHOLDER_STUDY.json",
       "bytes": 13368,
       "sha256": "82e4a2c0fca0bf88a7d6508b9c1c83aa96119134e8c9771945e8cd9d44ab703d"
+    },
+    {
+      "path": "docs/LEATHER_EDGE_PAINT_PROCESS.md",
+      "bytes": 8774,
+      "sha256": "f4ad4f8ab19a392f445c8ab9cd31c1d13ffd87a973de99064a773aefc7cac223"
+    },
+    {
+      "path": "reports/VideoLearning/20261105_EDGE_PAINT_FOLD_STUDY.json",
+      "bytes": 10648,
+      "sha256": "991bb59fe790d87d8f7e0b420bed8ff807c5c9ea71d10115df7310c85e119608"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

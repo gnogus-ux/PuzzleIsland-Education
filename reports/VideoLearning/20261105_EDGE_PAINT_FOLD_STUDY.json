@@ -1,0 +1,272 @@
+{
+  "date": "2026-11-05",
+  "author": "Codex",
+  "status": "DOCUMENT_AND_SAMPLED_VIDEO_STUDY_COMPLETE_NO_MATERIAL_OR_NATIVE_RUNTIME",
+  "preflight": {
+    "terms": [
+      "edge paint",
+      "basecoat",
+      "drying",
+      "sanding",
+      "fold allowance",
+      "reinforcement end"
+    ],
+    "prior_manuals": [
+      "docs/COWHIDE_CARDHOLDER_CRAFT_WORKFLOW.md",
+      "docs/SAMPLER_THREAD_EDGE_FINISH.md",
+      "docs/WALLET_LAYERED_SHELL_VOLUME.md"
+    ],
+    "gap": "Previous craft study showed rubbing edge treatment but not a dedicated edge-paint system. Central folding path and panel-length difference required a maker-source cross-check."
+  },
+  "web_bodies_read": [
+    {
+      "id": "quality",
+      "title": "How to Get High Quality Leather Edge - Giardini Academy",
+      "creator": "Giardini Academy",
+      "url": "https://www.leatheredgepaint.com/how-to-get-high-quality-leather-edge",
+      "accessed": "2026-11-05",
+      "read_scope": "Main step-by-step body before the contact/download form",
+      "finding": "Basecoat first, dry, light sanding, color coat, dry and light finishing."
+    },
+    {
+      "id": "drying",
+      "title": "The Drying Time (Part I) : How long does paint need to dry?",
+      "creator": "Giardini / Enrico Giardini",
+      "url": "https://blog.leatheredgepaint.com/how-long-a-leather-edge-paint-need-for-drying",
+      "accessed": "2026-11-05",
+      "read_scope": "Main article body, dated2017-06-12; environmental effects, inter-operation and complete drying/packaging distinction",
+      "finding": "30–35minute room-temperature example differs from up-to48hour drying/packaging discussion; not a current SKU-specific TDS."
+    },
+    {
+      "id": "comparepaint",
+      "title": "Choosing the Perfect Leather Edge Paint: A Comparison of Dense, Basic, and DULL",
+      "creator": "Giardini / Rachele Micucci",
+      "url": "https://blog.leatheredgepaint.com/choosing-the-perfect-leather-edge-paint-a-comparison-of-dense-basic-and-dull",
+      "accessed": "2026-11-05",
+      "read_scope": "Main2024-02-08 article sections comparing Dense, Basic and DULL",
+      "finding": "Product family selection changes primer and finishing conditions; thin-edge DULL exception not universal."
+    },
+    {
+      "id": "foldmaker",
+      "title": "How to Make Your Own Leather Bifold Wallet – Weaver Leather Supply",
+      "creator": "Weaver Leather Supply",
+      "url": "https://www.weaverleathersupply.com/pages/how-to-make-your-own-leather-bifold-wallet",
+      "accessed": "2026-11-05",
+      "read_scope": "Tutorial text; especially sections1–3 pattern/cutting/folding,8 gluing and10 burnishing; product sales not applied",
+      "finding": "Inside panel smaller than outside body; aligned ends allow exterior slack for bending/contents."
+    },
+    {
+      "id": "makesupply",
+      "title": "Make A Leather Bi-Fold Wallet - Free PDF Template - Build Along Tutorial | MAKESUPPLY",
+      "creator": "MAKESUPPLY",
+      "url": "https://projects.makesupply.co/templates/make-a-leather-bi-fold-wallet-free-pdf-template-build-along-tutorial/",
+      "accessed": "2026-11-05",
+      "read_scope": "Main tutorial overview, leather selection, edge-finishing/material notes and pattern-use conditions",
+      "finding": "Leather selection changes edge finishing; thick unskived construction may create fit issues. Linked private video not studied."
+    }
+  ],
+  "videos": [
+    {
+      "id": "B1OADwetCeE",
+      "title": "Dense Edge Paint",
+      "creator": "Leather Edge Paint",
+      "url": "https://www.youtube.com/watch?v=B1OADwetCeE",
+      "upload_date": "20180703",
+      "duration_sec": 93,
+      "visual_review": {
+        "unique_timepoints": 10,
+        "times_sec": [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90
+        ],
+        "overview_interval_sec": 10,
+        "detail_times_sec": []
+      },
+      "captions": {
+        "track": "en-orig",
+        "type": "YouTube automatic speech recognition",
+        "provided_nonempty_events_read": 35,
+        "first_event_start_sec": 0.0,
+        "last_event_start_sec": 87.869,
+        "scope": "All provided nonempty text read; no claim that music/silence is transcribed or last event start equals end coverage."
+      },
+      "scope": "Manufacturer product explanation; 01:05–01:28 captions describe Basecoat Dense plus Dense colored coat.",
+      "limits": "Not a continuous hands-on application or independent durability test."
+    },
+    {
+      "id": "DGkTeK2wnOI",
+      "title": "Basecoat Dense",
+      "creator": "Leather Edge Paint",
+      "url": "https://www.youtube.com/watch?v=DGkTeK2wnOI",
+      "upload_date": "20180703",
+      "duration_sec": 128,
+      "visual_review": {
+        "unique_timepoints": 13,
+        "times_sec": [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110,
+          120
+        ],
+        "overview_interval_sec": 10,
+        "detail_times_sec": []
+      },
+      "captions": {
+        "track": "en-orig",
+        "type": "YouTube automatic speech recognition",
+        "provided_nonempty_events_read": 43,
+        "first_event_start_sec": 0.0,
+        "last_event_start_sec": 119.52,
+        "scope": "All provided nonempty text read; no claim that music/silence is transcribed or last event start equals end coverage."
+      },
+      "scope": "Manufacturer explains first-layer purpose, multilayer seams, whitish-to-semitransparent appearance, light finishing and oily-leather adhesion limits. Bottle at01:10 and edge insert at01:30 seen.",
+      "limits": "Mostly explanation; no quantitative adhesion/bending experiment."
+    },
+    {
+      "id": "wD5vJ1Hs3FA",
+      "title": "Leatherwork diy - Get perfect edges with Giardini edge paint",
+      "creator": "Good Old Company",
+      "url": "https://www.youtube.com/watch?v=wD5vJ1Hs3FA",
+      "upload_date": "20190424",
+      "duration_sec": 2507,
+      "visual_review": {
+        "unique_timepoints": 47,
+        "times_sec": [
+          0,
+          60,
+          120,
+          180,
+          240,
+          300,
+          360,
+          420,
+          480,
+          540,
+          600,
+          660,
+          720,
+          780,
+          840,
+          900,
+          960,
+          1020,
+          1080,
+          1140,
+          1177,
+          1200,
+          1260,
+          1320,
+          1380,
+          1440,
+          1460,
+          1500,
+          1560,
+          1620,
+          1680,
+          1740,
+          1775,
+          1800,
+          1860,
+          1920,
+          1980,
+          2009,
+          2040,
+          2067,
+          2100,
+          2160,
+          2220,
+          2280,
+          2340,
+          2400,
+          2460
+        ],
+        "overview_interval_sec": 60,
+        "detail_times_sec": [
+          1177,
+          1460,
+          1775,
+          2009,
+          2067
+        ]
+      },
+      "captions": {
+        "track": "en-orig",
+        "type": "YouTube automatic speech recognition",
+        "provided_nonempty_events_read": 562,
+        "first_event_start_sec": 0.26,
+        "last_event_start_sec": 2496.33,
+        "scope": "All provided nonempty text read; no claim that music/silence is transcribed or last event start equals end coverage."
+      },
+      "scope": "Creator demonstration of prepared edges, roller application, defect inspection, heat-method discussion and short flexing.",
+      "observations": [
+        {
+          "times": "17:00–20:00 overview;19:37 detail",
+          "finding": "Edge preparation and roller application. Captioned warning about rapid rolling/bubbles."
+        },
+        {
+          "times": "22:00–25:00 overview;24:20 detail",
+          "finding": "Sanding/edge-gap inspection and color application; avoid excessive side overflow."
+        },
+        {
+          "times": "27:00–31:00 overview;29:35 detail",
+          "finding": "Heat-tool discussion, not copied as a default heating recipe. 450°C in ASR refers to tool maximum, not measured treatment temperature."
+        },
+        {
+          "times": "33:00 / 34:00 overview;33:29 / 34:27 detail",
+          "finding": "Short flexing of edge-coated sample; no independent cycle-count/lifetime measurement."
+        }
+      ],
+      "limits": "Creator says he had not tried separate basecoat in captions around19:07 and23:19. His colored-coat demonstration is not misreported as primer application. Personal dilution/storage/heat advice not generalized."
+    }
+  ],
+  "unique_visual_points": 70,
+  "automatic_caption_tracks_read": 3,
+  "continuous_watch": false,
+  "audio_listening": false,
+  "cross_review": [
+    "Manufacturer instructions take priority over copying the maker demonstration as an identical basecoat process.",
+    "Creator explicitly had not tested separate primer; distinguish his colored-coat method from manufacturer primer advice.",
+    "Product family, substrate oiliness and layer condition affect application; no universal sanding grit or coat count.",
+    "2017 drying article is historical general guidance, not a current product TDS or universal curing guarantee.",
+    "450°C tool maximum is not a working temperature; heat treatment omitted from baseline procedure.",
+    "Short flexing is not an independent repeated-bend/wear test.",
+    "A mismatched descriptive paragraph on Basecoat Dense Academy page was not adopted as primer specification.",
+    "Weaver fold allowance idea concerns actual inner/outer path difference, not exterior bulge height.",
+    "Own circular-arc formula deltaL=theta*d is an ideal geometric explanation, not a calibrated pattern allowance."
+  ],
+  "access_limits": [
+    {
+      "source": "Giardini high-quality-edge HubSpot embedded video",
+      "result": "Standalone player says external viewing unavailable. Not watched, not bypassed. Manufacturer YouTube explanation and separate maker demonstration used instead."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Pbr43KbOCEQ",
+      "result": "Private video linked by MAKESUPPLY; not watched or bypassed. Web text only counted."
+    }
+  ],
+  "not_run": [
+    "Purchase/contact/form submission",
+    "Current SKU technical data sheet confirmation",
+    "Physical coating, cure, bending or wear test",
+    "Current MD/Blender operations",
+    "Card fit test"
+  ],
+  "public_scope": "Generic process only. No private product dimensions, reference images, local paths, original media/transcripts/captures or source bodies redistributed."
+}
