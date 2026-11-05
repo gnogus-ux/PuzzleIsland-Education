@@ -95,6 +95,8 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 패턴 기반으로 겹 가죽 지갑을 다시 구성할 때는 [Marvelous Designer 재단·봉제 절차](docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md)를 먼저 읽습니다. 공식 문서 10개에 이어 [영상 3편의 화면 109시점·공식 2편 영어 자동 자막 대조](reports/VideoLearning/20261105_MARVELOUS_WALLET_VIDEO_STUDY.json)를 보강했습니다. 열린 입구·봉제 방향·층·메시 밀도·겉실 단위와 CLO/MD9.5/2025.1의 차이를 다루며 실제 MD9 제작·시뮬레이션 검증과 구분합니다.
 
+추가 공식 문서 5개와 별도 MD9 쿠폰에서 확인한 [실제 Name·곡선 저장/재열기 절차](docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md#11-md9-패턴-이름곡선의-제한-실기-근거)를 반영했습니다. 정확 Q 제어점·2D 절대 수치 배치는 미검증으로 유지합니다.
+
 봉제실 섬유결·엣지코트·실과 바늘구멍 정렬은 [Sampler 봉제실·엣지 마감](docs/SAMPLER_THREAD_EDGE_FINISH.md)을 함께 확인합니다. 형상 라운딩과 표면 맵, 문서 학습과 실제 제작을 구별합니다.
 
 설치된 Sampler에서 사진 표본을 분리하고 맵을 생성·출력할 때는 [Sampler 사진 PBR 절차](docs/SAMPLER_PHOTO_PBR.md)와 [공식 문서 4개 학습 범위](reports/VideoLearning/20261104_SAMPLER_DOCUMENT_STUDY.json)를 확인합니다. 문서 학습과 앱 실기 검증은 구분합니다.

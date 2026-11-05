@@ -63,7 +63,8 @@
     "2026-11-05: Updated MD9 tool inventory with actual target-window selection, minimized-window recovery, screenshot and menu-input verification. Legacy custom accessibility and current-layout coordinate correction are distinguished from an MD MCP connection or product/API execution. No private paths, assets, window identifiers or screenshots published.",
     "Added Windows pure-cache relocation and MSIX readback/rollback guidance from official documents; appended limited MD9 native coupon execution evidence. Runtime relocation and full product validation not claimed.",
     "2026-11-05: Added shared prevention of repeated approvals: preserve existing authorized scope, preflight actual per-thread workspace/output permissions, distinguish defaults from runtime and session grants, preserve required direct-user controls and independent work. No application security setting changed.",
-    "2026-11-05: Added bounded read-only preservation and transport-failure handling: explicit fields/data batches, remote-state UNKNOWN distinct from request return, tool-specific minimal recovery, no duplicate execution/forced takeover/restart, honest incomplete artifacts and independent work. No live application recovery or security change claimed."
+    "2026-11-05: Added bounded read-only preservation and transport-failure handling: explicit fields/data batches, remote-state UNKNOWN distinct from request return, tool-specific minimal recovery, no duplicate execution/forced takeover/restart, honest incomplete artifacts and independent work. No live application recovery or security change claimed.",
+    "2026-11-06: Integrated five official MD sources and author-verified isolated coupon Name/general-curve save-reopen evidence; exact quadratic Bezier and absolute 2D placement remain unverified. Private paths, products and source screenshots omitted."
   ],
   "files": [
     {
@@ -73,8 +74,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 19136,
-      "sha256": "b9300f4db5e3e70928efdb1bf379c65c3f606121454f18b8aabaa33031dd3d75"
+      "bytes": 19443,
+      "sha256": "637f57bdeb48c56acef1170199e06af6ea7d26f433423c4fbb407ac5475fa78b"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -598,8 +599,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 18491,
-      "sha256": "bd4c82eb27b1b568efa5955ccf291aeca7e805b45ef51930187b50441ade4605"
+      "bytes": 19046,
+      "sha256": "33553a1d75373ff35cf973e68f02115f4e57adef808c2de27c3878167aac935a"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -913,8 +914,8 @@
     },
     {
       "path": "docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md",
-      "bytes": 19681,
-      "sha256": "b0d521f7a8486c30b05186fb570481f9f7c5394e2680b2c7a20c59926363f280"
+      "bytes": 25118,
+      "sha256": "06db6b1f49b044dd0dde5318186434e424fea84d01399517cc6b9ec96681faa2"
     },
     {
       "path": "reports/ExternalLearning/20261105_MARVELOUS_WALLET_STUDY.json",
@@ -1070,5 +1071,14 @@
     "local_link_occurrences_checked": 117,
     "new_heading_anchors_checked": 2,
     "scope": "Changed Markdown links/UTF8/new headings and canonical Git blob file hashes; prior library totals preserved."
+  },
+  "md9_name_curve_update": {
+    "date": "2026-11-06",
+    "official_articles_read": 5,
+    "name_save_reopen": "AUTHOR_VERIFIED_RECEIVED",
+    "general_curve_persistence": "AUTHOR_VERIFIED_RECEIVED",
+    "exact_Q": "UNVERIFIED",
+    "absolute_2D_position": "UNVERIFIED",
+    "private_assets_published": false
   }
 }
