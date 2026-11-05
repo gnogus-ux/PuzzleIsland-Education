@@ -1,7 +1,7 @@
 {
   "export_date": "2026-11-01",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 69,
+  "manuals": 70,
   "diagrams": 16,
   "checked_local_links": 367,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
@@ -60,7 +60,8 @@
     "2026-11-05: Added layered-wallet leather-thickness and reinforcement selection from seven creator/supplier bodies plus category comparison. Salpa/Texon/Velodon roles, total edge stack and splitting tolerances separated. No private product measurements/assets or material/runtime/manufacture validation published.",
     "2026-11-05: Added cowhide-cardholder craft workflow from four videos by three creators: 127 sampled visual points and four provided Korean automatic-caption tracks. Kit assembly, cutting/skiving/gluing/final trimming/punching, saddle stitch, edge rubbing and reinforcement-pattern concepts separated. No continuous-watch, physical-build, card-fit or native-app claim; no private product/source media published.",
     "2026-11-05: Added dedicated leather edge-paint process, drying distinctions and folding-path cross-check from five manufacturer/maker web bodies and three videos (70 sampled visual points, three provided English ASR tracks). Primer versus colored-coat demonstration, historical drying examples, inaccessible sources and short-flex versus durability limits recorded. Private product constraints omitted; no physical/native-app validation claimed.",
-    "2026-11-05: Updated MD9 tool inventory with actual target-window selection, minimized-window recovery, screenshot and menu-input verification. Legacy custom accessibility and current-layout coordinate correction are distinguished from an MD MCP connection or product/API execution. No private paths, assets, window identifiers or screenshots published."
+    "2026-11-05: Updated MD9 tool inventory with actual target-window selection, minimized-window recovery, screenshot and menu-input verification. Legacy custom accessibility and current-layout coordinate correction are distinguished from an MD MCP connection or product/API execution. No private paths, assets, window identifiers or screenshots published.",
+    "Added Windows pure-cache relocation and MSIX readback/rollback guidance from official documents; appended limited MD9 native coupon execution evidence. Runtime relocation and full product validation not claimed."
   ],
   "files": [
     {
@@ -70,8 +71,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 18054,
-      "sha256": "32fe15139805be306f3e433490d7eb519d0375cc7222e2807b2f3d294a022537"
+      "bytes": 18214,
+      "sha256": "8a6e79343b2db03a7b7898ea0397d9cf0fd86953b85a654f92bb378a24b53a22"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -595,8 +596,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 17122,
-      "sha256": "70d2bb87ef2c1d957c4d2a93210cb8a0b8b65ddd068d4f1738921c347846ee9c"
+      "bytes": 18491,
+      "sha256": "bd4c82eb27b1b568efa5955ccf291aeca7e805b45ef51930187b50441ade4605"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -947,6 +948,11 @@
       "path": "reports/VideoLearning/20261105_EDGE_PAINT_FOLD_STUDY.json",
       "bytes": 10648,
       "sha256": "991bb59fe790d87d8f7e0b420bed8ff807c5c9ea71d10115df7310c85e119608"
+    },
+    {
+      "path": "docs/WINDOWS_APP_CACHE_RELOCATION.md",
+      "bytes": 5658,
+      "sha256": "f30a2b3376550423daf8565d0916f607d7ab798d7ebddffbbd3e78c6f62fb824"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
