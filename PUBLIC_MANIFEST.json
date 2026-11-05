@@ -75,8 +75,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 19787,
-      "sha256": "96e1a9d2dbcad3bd5bc63cabd2723928eb458dc702906204a05b58d61a20c2d1"
+      "bytes": 20342,
+      "sha256": "0f962dd07e59a5dbceb9f787695b166cb1aba19fd193ee0b8b330ed13b9ed633"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -450,8 +450,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 6243,
-      "sha256": "8278d575483b001f7cc6237a996f78c4a29f2406fa07f439667c27a9c0adbc07"
+      "bytes": 6883,
+      "sha256": "52a3af08b28e88826d82ae3c18a6a0d4e5f875d5bc72d25575e2ced848f9dbc3"
     },
     {
       "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
@@ -605,13 +605,13 @@
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
-      "bytes": 15277,
-      "sha256": "dbbdfe42c13d885173e5635bff51bc407ed5fb1ea8928ea3c21e61c87d5142a7"
+      "bytes": 16409,
+      "sha256": "3b2df7cbe4d99f1efac76420e00cf39f9bc036e3852b9d99674fccca80bf0d6a"
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 22429,
-      "sha256": "65354fdab949b4a6b09ba7f6efc89e1d36efcaebc5ff80a33a6e545d94357d1d"
+      "bytes": 25285,
+      "sha256": "6fb3ad823c70d2b9a5b1eff5471162c456552c17d9eae4d3342eb10c55747a55"
     },
     {
       "path": ".gitmodules",
@@ -650,8 +650,8 @@
     },
     {
       "path": "docs/CLAUDE_RULES_AND_LIBRARY.md",
-      "bytes": 5555,
-      "sha256": "aa3b7f1b6a316b7feb585cad9e7c87c3ecdb656ad174b0008e2117dd4edfd292"
+      "bytes": 6361,
+      "sha256": "c94e17c6957f2d7020089c82b0fe9172d6ed63eac4a3bd79287b003fc953ba25"
     },
     {
       "path": "reports/ExternalLearning/20261101_INTEGRATION_REVIEW.json",
