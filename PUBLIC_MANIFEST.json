@@ -61,7 +61,8 @@
     "2026-11-05: Added cowhide-cardholder craft workflow from four videos by three creators: 127 sampled visual points and four provided Korean automatic-caption tracks. Kit assembly, cutting/skiving/gluing/final trimming/punching, saddle stitch, edge rubbing and reinforcement-pattern concepts separated. No continuous-watch, physical-build, card-fit or native-app claim; no private product/source media published.",
     "2026-11-05: Added dedicated leather edge-paint process, drying distinctions and folding-path cross-check from five manufacturer/maker web bodies and three videos (70 sampled visual points, three provided English ASR tracks). Primer versus colored-coat demonstration, historical drying examples, inaccessible sources and short-flex versus durability limits recorded. Private product constraints omitted; no physical/native-app validation claimed.",
     "2026-11-05: Updated MD9 tool inventory with actual target-window selection, minimized-window recovery, screenshot and menu-input verification. Legacy custom accessibility and current-layout coordinate correction are distinguished from an MD MCP connection or product/API execution. No private paths, assets, window identifiers or screenshots published.",
-    "Added Windows pure-cache relocation and MSIX readback/rollback guidance from official documents; appended limited MD9 native coupon execution evidence. Runtime relocation and full product validation not claimed."
+    "Added Windows pure-cache relocation and MSIX readback/rollback guidance from official documents; appended limited MD9 native coupon execution evidence. Runtime relocation and full product validation not claimed.",
+    "2026-11-05: Added shared prevention of repeated approvals: preserve existing authorized scope, preflight actual per-thread workspace/output permissions, distinguish defaults from runtime and session grants, preserve required direct-user controls and independent work. No application security setting changed."
   ],
   "files": [
     {
@@ -71,8 +72,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 18214,
-      "sha256": "8a6e79343b2db03a7b7898ea0397d9cf0fd86953b85a654f92bb378a24b53a22"
+      "bytes": 18684,
+      "sha256": "89083bf2156008ae388ca6cab616fa83d159f273a4194ca6904f6cec2981b94d"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -601,13 +602,13 @@
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
-      "bytes": 10635,
-      "sha256": "0ac9e64f3030ccc1f97ea4594dd52f253294951b6b2840002535147da0902380"
+      "bytes": 13033,
+      "sha256": "c32b1c0e258bb18fc3a8894146c43867319deb76707d50f2f44be45ae50df4c9"
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 18414,
-      "sha256": "adff9aec75e78b036b43009e5c6876e3ac78c71393e4b925f58b6fab648e355a"
+      "bytes": 20358,
+      "sha256": "1317526ba019918f3489e2a442cc9133e4bab4a919aad8c12a1dc6b83a931ce4"
     },
     {
       "path": ".gitmodules",
@@ -1046,5 +1047,16 @@
     "pinned_upstream_file_links_resolved_locally": 204,
     "external_web_runtime_validation": false
   },
-  "file_hash_scope": "Canonical committed Git blob bytes, not platform-transformed checkout bytes. Verify with git show <commit>:<path> or the fixed-commit remote raw content. Historical study/source working-tree hash fields retain their explicitly recorded scope."
+  "file_hash_scope": "Canonical committed Git blob bytes, not platform-transformed checkout bytes. Verify with git show <commit>:<path> or the fixed-commit remote raw content. Historical study/source working-tree hash fields retain their explicitly recorded scope.",
+  "approval_rule_update": {
+    "date": "2026-11-05",
+    "changed_markdown": [
+      "README.md",
+      "docs/COMMON_TOOL_POLICY.md",
+      "docs/COMMON_WORK_RULES.md"
+    ],
+    "local_link_occurrences_checked": 114,
+    "new_cross_document_anchors_checked": 2,
+    "scope": "Changed Markdown targets and new heading anchors; prior whole-library link totals retained. File identity uses canonical staged Git blob bytes."
+  }
 }
