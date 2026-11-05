@@ -171,3 +171,21 @@ Rendering 문서는 Fabric 단위 Thickness와 Pattern 단위 Add'l Thickness-Re
 현지 패턴 속성을 아래 항목까지 읽었으나 2D 절대 X/Y 필드를 찾지 못했다. Arrangement의 Point Name을 좌표 필드로 해석하지 않았다. 공식 문서의 수치 이동 창은 **드래그 중** 우클릭/F1 조건인데, 사용한 자동화 drag는 한 호출 안에 시작·종료해 중간 입력을 삽입할 수 없었다. 따라서 해당 경로의 수치 이동은 미검증이며 MD9 기능 자체가 없다고 단정하지 않는다. 임의 입력 브리지·비공식 파일 편집으로 이 제한을 우회하지 않는다.
 
 판정은 `Name 저장/재열기 PASS`, `일반 곡선 생성/유지 PASS`, `정확 Q UNVERIFIED`, `2D 수치 배치 UNVERIFIED`로 나눈다. 시험 성공을 제품 전체 형상·봉제·가죽 물성·수납 검증으로 확대하지 않는다.
+
+## 12. UV를 가진 OBJ를 편집 가능한 패턴으로 가져오는 후보 경로
+
+2026-11-06 공식 본문3개를 직접 읽고 정리한 **적용 전 학습**이다. MD9에서 실제 가져오기·패턴 생성·곡선 보존·저장/재열기를 검증한 결과가 아니다. 수치 Bézier 입력이 미확보일 때 기존 도구로 만든 기준 형상을 가져올 수 있는지 별도 쿠폰으로 확인하는 경로이며 DXF 지원을 가정하지 않는다.
+
+[3D File (OBJ) Import/Export](https://support.marvelousdesigner.com/hc/en-us/articles/47358223288601-3D-File-OBJ-Import-Export)의 Objective, OBJ Import Detail Settings, Load as Garment 본문을 읽었다. 공식 문서는 `File → Import → OBJ`의 **Load as Garment / Trace 2D Patterns from UV Map**으로 UV 정보를 기반으로 패턴을 생성한다고 설명하며 ver4.2.0 도입 표기를 둔다. 별도 `Import (Add) → OBJ to Garment` 경로도 설명한다. 현행 갱신본의 도입 표기만으로 MD9 현지 옵션과 결과를 보증하지 않는다. Load as Avatar는 원래 아바타 교체 가능성이 있고 Trim은 의상과 충돌하지 않으므로 패턴 생성의 대체 선택으로 쓰지 않는다.
+
+함께 읽은 [Polygon](https://support.marvelousdesigner.com/hc/en-us/articles/47358178952345-Polygon)의 Objective/Location/Operation은 2D Window에서 닫힌 패턴 생성과 길이 입력·Free Curve Point를 구별하는 근거다. [Edit Curve Point](https://support.marvelousdesigner.com/hc/en-us/articles/47358435895065-Edit-Curve-Point)의 Add/Move/Note는 가져온 외곽의 곡선점 편집 및 기존 AI Bézier에 Free Curve Point를 더하면 곡선이 바뀌는 위험의 근거다. 후자의2024 전용 선택 동작은 MD9에 소급하지 않는다. 이번3문서 학습은 영상 학습이나 native 실기를 포함하지 않는다.
+
+제한 시험은 다음 순서로 한다.
+
+1. 실제 Guide/좌표 정본의 단위·평면·방향을 기록하고 원제품과 다른 작은 Thin OBJ 쿠폰을 만든다. 객체와 UV 섬을 일대일 대응하고 찢어진 UV·의도하지 않은 내부 섬·UV 겹침을 배제한다. OBJ와 UV의 축척 관계를 명시한다.
+2. 현재 사용자 문서를 먼저 보존한 뒤 새 시험 문서에서 실제 MD9 OBJ 가져오기 대화상자를 확인한다. Garment와 Trace 옵션이 없으면 다른 종류로 대신 가져와 성공으로 쓰지 않는다. 단위/축/기존문서 대체·추가를 구별한다.
+3. 패턴 수·홀 수·경계·앞뒤·폭/높이와 기준 위치를 실제 2D/3D에서 대조한다. 3D Mesh로만 보이는 상태를 편집 가능한 패턴 생성으로 보고하지 않는다. 불필요한 새 봉제나 분할이 생겼는지도 확인한다.
+4. 별도 ZPRJ 저장/재열기 후 실제 패턴 편집 접근을 확인하고, 기존에 검증된 Thin/mm OBJ 출력으로 경계를 재대조한다. 시뮬레이션·물성 검증은 별도 범위다.
+5. UV 추적은 원래 해석적 곡선의 차수·제어점 보존을 보장하지 않는다. 원래 Q를 표본화한 입력은 **유한 분할 메시 후보**이며 chord 오차·반올림·자동 단순화·재메시 오차를 분리한다. 입력/재출력 경계의 측정 결과와 미검증 범위를 기록하고 새 허용오차를 임의 승인하지 않는다. 개수나 총길이만 맞아도 정확 Q로 통과시키지 않는다.
+
+성공하면 그 실제 현지 근거를 추가한 뒤 본 패턴 인수에 사용한다. 실패하면 마지막 저장본과 특정 미지원 단계만 남기고 원제품을 보존한다. 비공식 native 파일 편집·새 브리지·추가 설치·다른 버전 구매·인증 변경으로 제한을 우회하지 않는다.

@@ -97,6 +97,8 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 추가 공식 문서 5개와 별도 MD9 쿠폰에서 확인한 [실제 Name·곡선 저장/재열기 절차](docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md#11-md9-패턴-이름곡선의-제한-실기-근거)를 반영했습니다. 정확 Q 제어점·2D 절대 수치 배치는 미검증으로 유지합니다.
 
+[UV 기반 OBJ→패턴 후보 경로](docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md#12-uv를-가진-obj를-편집-가능한-패턴으로-가져오는-후보-경로)는 공식3본문을 직접 읽고 작성한 적용 전 절차입니다. MD9 현지 지원·실제 패턴 생성·곡선 보존은 별도 쿠폰 검증 전까지 미확인입니다.
+
 봉제실 섬유결·엣지코트·실과 바늘구멍 정렬은 [Sampler 봉제실·엣지 마감](docs/SAMPLER_THREAD_EDGE_FINISH.md)을 함께 확인합니다. 형상 라운딩과 표면 맵, 문서 학습과 실제 제작을 구별합니다.
 
 설치된 Sampler에서 사진 표본을 분리하고 맵을 생성·출력할 때는 [Sampler 사진 PBR 절차](docs/SAMPLER_PHOTO_PBR.md)와 [공식 문서 4개 학습 범위](reports/VideoLearning/20261104_SAMPLER_DOCUMENT_STUDY.json)를 확인합니다. 문서 학습과 앱 실기 검증은 구분합니다.

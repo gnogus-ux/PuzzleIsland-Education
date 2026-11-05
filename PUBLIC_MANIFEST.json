@@ -64,7 +64,8 @@
     "Added Windows pure-cache relocation and MSIX readback/rollback guidance from official documents; appended limited MD9 native coupon execution evidence. Runtime relocation and full product validation not claimed.",
     "2026-11-05: Added shared prevention of repeated approvals: preserve existing authorized scope, preflight actual per-thread workspace/output permissions, distinguish defaults from runtime and session grants, preserve required direct-user controls and independent work. No application security setting changed.",
     "2026-11-05: Added bounded read-only preservation and transport-failure handling: explicit fields/data batches, remote-state UNKNOWN distinct from request return, tool-specific minimal recovery, no duplicate execution/forced takeover/restart, honest incomplete artifacts and independent work. No live application recovery or security change claimed.",
-    "2026-11-06: Integrated five official MD sources and author-verified isolated coupon Name/general-curve save-reopen evidence; exact quadratic Bezier and absolute 2D placement remain unverified. Private paths, products and source screenshots omitted."
+    "2026-11-06: Integrated five official MD sources and author-verified isolated coupon Name/general-curve save-reopen evidence; exact quadratic Bezier and absolute 2D placement remain unverified. Private paths, products and source screenshots omitted.",
+    "2026-11-06: Read three official bodies and documented OBJ Load as Garment / Trace2D Patterns from UV Map candidate workflow;MD9 live import/pattern/curve fidelity explicitly NOT_RUN. No private data or raw sources published."
   ],
   "files": [
     {
@@ -74,8 +75,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 19443,
-      "sha256": "637f57bdeb48c56acef1170199e06af6ea7d26f433423c4fbb407ac5475fa78b"
+      "bytes": 19787,
+      "sha256": "96e1a9d2dbcad3bd5bc63cabd2723928eb458dc702906204a05b58d61a20c2d1"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -914,8 +915,8 @@
     },
     {
       "path": "docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md",
-      "bytes": 25118,
-      "sha256": "06db6b1f49b044dd0dde5318186434e424fea84d01399517cc6b9ec96681faa2"
+      "bytes": 28850,
+      "sha256": "642c736b27b8153516060460d44b3fd99c810dd13182956ce89b65d57fbba012"
     },
     {
       "path": "reports/ExternalLearning/20261105_MARVELOUS_WALLET_STUDY.json",
@@ -1080,5 +1081,11 @@
     "exact_Q": "UNVERIFIED",
     "absolute_2D_position": "UNVERIFIED",
     "private_assets_published": false
+  },
+  "md_uv_import_study": {
+    "date": "2026-11-06",
+    "official_bodies_read": 3,
+    "runtime_MD9": "NOT_RUN",
+    "scope": "Documented candidate workflow;version-local UI and fidelity pending"
   }
 }
