@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-05",
+  "author": "Codex",
+  "status": "DOCUMENT_STUDY_COMPLETE_RUNTIME_NOT_RUN",
+  "task": "Reusable layered leather wallet pattern, sewing, thickness and export workflow",
+  "preflight": {
+    "search_terms": [
+      "Marvelous",
+      "clo3d",
+      "pattern",
+      "sewing",
+      "leather wallet"
+    ],
+    "existing_manuals": [
+      "docs/WALLET_MODELING.md",
+      "docs/WALLET_LAYERED_SHELL_VOLUME.md"
+    ],
+    "gap": "No Marvelous-specific workflow found in library index/tool list; old app versus current web manuals requires explicit version limits."
+  },
+  "environment_evidence": {
+    "product": "Marvelous Designer 9 Enterprise",
+    "file_product_version": "5, 1, 381, 28577",
+    "scope": "Exact named running process, main window title and executable version metadata only",
+    "new_launch": false,
+    "installation": false,
+    "ui_menu_or_document_observation": false,
+    "license_check": false
+  },
+  "distinct_documents_read": 10,
+  "sources": [
+    {
+      "id": "polygon",
+      "title": "Polygon",
+      "producer": "Marvelous Designer official support",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358178952345-Polygon",
+      "accessed": "2026-11-05",
+      "source_type": "official written manual",
+      "read_scope": "Objective, Location, Operation, Length/Mirror/Axis, Notes",
+      "finding": "Polygon closure and numeric segment length; ver5.1.0 note distinguished from live compatibility.",
+      "runtime": "NOT_RUN"
+    },
+    {
+      "id": "internal",
+      "title": "Internal Polygon/Line",
+      "producer": "Marvelous Designer official support",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358276422297-Internal-Polygon-Line",
+      "accessed": "2026-11-05",
+      "source_type": "official written manual",
+      "read_scope": "Objective, Location, Operation, Length/Position and Notes",
+      "finding": "Internal shapes/lines locate construction features but do not themselves cut openings.",
+      "runtime": "NOT_RUN"
+    },
+    {
+      "id": "hole",
+      "title": "Convert to Hole/Internal Shape",
+      "producer": "Marvelous Designer official support",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358440603161-Convert-to-Hole-Internal-Shape",
+      "accessed": "2026-11-05",
+      "source_type": "official written manual",
+      "read_scope": "Objective, Location, Operation for both conversions",
+      "finding": "Internal shape can become a hole; zero-width slit from a single open line is not established.",
+      "runtime": "NOT_RUN"
+    },
+    {
+      "id": "sewing",
+      "title": "Segment Sewing (2D)",
+      "producer": "Marvelous Designer official support",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358199517209-Segment-Sewing-2D",
+      "accessed": "2026-11-05",
+      "source_type": "official written manual",
+      "read_scope": "Objective, Location, Operation and all Notes",
+      "finding": "Segment pairs and parallel direction notches; crossed directions can reverse a panel; 1-inch warning is not a wallet tolerance.",
+      "runtime": "NOT_RUN"
+    },
+    {
+      "id": "physical",
+      "title": "FABRIC PHYSICAL PROPERTIES: Physical Property Detail Setting",
+      "producer": "Marvelous Designer official support",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358427696025-FABRIC-PHYSICAL-PROPERTIES-Physical-Property-Detail-Setting",
+      "accessed": "2026-11-05",
+      "source_type": "official written manual",
+      "read_scope": "Complete short main body and both numeric input notes",
+      "finding": "Interdependent material settings; slider stages differ from constant input.",
+      "runtime": "NOT_RUN"
+    },
+    {
+      "id": "bending",
+      "title": "FABRIC PHYSICAL PROPERTIES: Adjust Bending-Weft/Warp",
+      "producer": "Marvelous Designer official support",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358432358809-FABRIC-PHYSICAL-PROPERTIES-Adjust-Bending-Weft-Warp",
+      "accessed": "2026-11-05",
+      "source_type": "official written manual",
+      "read_scope": "Objective and Location",
+      "finding": "Bending resistance and independent pattern axes; no target leather calibration.",
+      "runtime": "NOT_RUN"
+    },
+    {
+      "id": "stretch",
+      "title": "FABRIC PHYSICAL PROPERTIES: Adjust Stretch-Weft/Warp, Shear",
+      "producer": "Marvelous Designer official support",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358420149017-FABRIC-PHYSICAL-PROPERTIES-Adjust-Stretch-Weft-Warp-Shear",
+      "accessed": "2026-11-05",
+      "source_type": "official written manual",
+      "read_scope": "Objective and Location",
+      "finding": "Horizontal, vertical and shear resistance are separate from bending.",
+      "runtime": "NOT_RUN"
+    },
+    {
+      "id": "collision",
+      "title": "FABRIC PHYSICAL PROPERTIES: Adjust Collision Thickness",
+      "producer": "Marvelous Designer official support",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358430412441-FABRIC-PHYSICAL-PROPERTIES-Adjust-Collision-Thickness",
+      "accessed": "2026-11-05",
+      "source_type": "official written manual",
+      "read_scope": "Objective, Note, Location, Operation and 2026.1 update",
+      "finding": "Invisible collision spacing differs from display thickness; new direction update excluded from MD9.",
+      "runtime": "NOT_RUN"
+    },
+    {
+      "id": "render-thickness",
+      "title": "FABRIC PHYSICAL PROPERTIES: Adjust Rendering Thickness",
+      "producer": "Marvelous Designer official support",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358450148761-FABRIC-PHYSICAL-PROPERTIES-Adjust-Rendering-Thickness",
+      "accessed": "2026-11-05",
+      "source_type": "official written manual",
+      "read_scope": "Objective, Note, Fabric/Pattern Location and Operation",
+      "finding": "Visible thickness is separate from collision; inspect actual exported section.",
+      "runtime": "NOT_RUN"
+    },
+    {
+      "id": "obj",
+      "title": "3D File (OBJ) Import/Export",
+      "producer": "Marvelous Designer official support",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358223288601-3D-File-OBJ-Import-Export",
+      "accessed": "2026-11-05",
+      "source_type": "official written manual",
+      "read_scope": "OBJ objective/location/import/export tables and Load as Garment/Morph/Trim/Avatar bodies",
+      "finding": "Object separation, weld, thickness, units and UV trace are distinct; 2026-specific option excluded; Trim collision caveat.",
+      "runtime": "NOT_RUN"
+    }
+  ],
+  "cross_review": {
+    "sewing_vs_shape": "Internal lines and simulated seams do not automatically create open slots or visible thread geometry.",
+    "thickness": "Collision spacing and visible rendering thickness differ. Current collision article Operation uses rendering wording; Objective/Location and separate rendering article clarify the distinction.",
+    "version": "Web revisions 2025-2026 are not blanket MD9 compatibility evidence; 2026.0 Turned weld and 2026.1 collision-direction improvement excluded.",
+    "scale": "Existing educational examples and collision defaults are not target wallet measurements or tolerances."
+  },
+  "application": "Manual and private preliminary cutting/assembly plan only. Private product assets and paths omitted.",
+  "not_run": [
+    "Native pattern creation",
+    "MD9 menu compatibility check",
+    "Slot creation",
+    "Sewing and simulation",
+    "Save/reopen",
+    "OBJ round trip",
+    "Physical leather calibration",
+    "Manufacturing verification"
+  ],
+  "manual": "docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md"
+}

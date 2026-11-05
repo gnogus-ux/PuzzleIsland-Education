@@ -1,7 +1,7 @@
 {
   "export_date": "2026-11-01",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 66,
+  "manuals": 67,
   "diagrams": 16,
   "checked_local_links": 367,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
@@ -54,7 +54,8 @@
     "2026-11-05: Add three-source Adobe document study for thread/edge finish, distinguish cloth/quilt generators from physical stitches and geometric bevels. No product media or private paths.",
     "2026-11-05: Read three primary Adobe paint/relief/varnish documents; clarify failed library load and microfinish candidate parameters; no runtime success claim.",
     "2026-11-05: Record limited native Sampler6.0.2 cloth/paint4K export, saved project recovery and Blender5.2 DirectX convention readback; distinguish stored height from applied displacement and still-image QA from final video approval.",
-    "2026-11-05: Read three Blender5.2 primary documents for localized needle-aperture closure, preserving separate thread meshes, existing UV and shape-key contracts. Document study and product runtime success remain distinct."
+    "2026-11-05: Read three Blender5.2 primary documents for localized needle-aperture closure, preserving separate thread meshes, existing UV and shape-key contracts. Document study and product runtime success remain distinct.",
+    "2026-11-05: Codex read ten distinct official Marvelous Designer documents and added a reusable wallet pattern/sewing/thickness/OBJ workflow. MD9 process metadata only; current-document version gaps and all product runtime tests explicitly NOT_RUN. No private assets or paths published."
   ],
   "files": [
     {
@@ -64,8 +65,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 16460,
-      "sha256": "601ba7b0d8e2a93ed3ce970761c7910f9e3137bd1e59fae8487dc128e68d1f2e"
+      "bytes": 16856,
+      "sha256": "176112142449e87bff862a2d9f134c7ccb655548beae167ccb205463b8ca737d"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -589,8 +590,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 15518,
-      "sha256": "abd3015cec640bce57a8a0f4ae186a075c6882183ab983be682bdff163dd7de3"
+      "bytes": 16107,
+      "sha256": "40d6a5d695064abc193ab12d5616fa07fe2a048f1012b8fec242e97b6e083cb8"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -901,6 +902,16 @@
       "path": "docs/SAMPLER_THREAD_EDGE_FINISH.md",
       "bytes": 10231,
       "sha256": "7e6670c22df2113134f7e8a7167095c75ee9cadeeb8e7b9fa48e1d680be7aa9f"
+    },
+    {
+      "path": "docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md",
+      "bytes": 14866,
+      "sha256": "e1eadfa41fa12afb736e702327ca649f664f5f03f017678e90e520e6088a9a4b"
+    },
+    {
+      "path": "reports/ExternalLearning/20261105_MARVELOUS_WALLET_STUDY.json",
+      "bytes": 7774,
+      "sha256": "73ba761cb6042b0d01399041e7a6a3ec8bf4f13b097d61c4523ca4332a436664"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
