@@ -83,6 +83,8 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 ## 지갑·가죽·사진 기반 3D 교육
 
+실제 공예의 재단·입구 선마감·피할·접착 후 본재단·두 바늘 봉제는 [소가죽 카드지갑 제작 매뉴얼](docs/COWHIDE_CARDHOLDER_CRAFT_WORKFLOW.md)을 확인합니다. [강좌4편·화면127시점·한국어 자동 자막 대조](reports/VideoLearning/20261105_COWHIDE_CARDHOLDER_STUDY.json)에서 키트 조립, 직접 재단, 보강재 패턴을 구분했습니다. 실물 제작·수납·MD 실기 검증은 미실행입니다.
+
 패턴 기반으로 겹 가죽 지갑을 다시 구성할 때는 [Marvelous Designer 재단·봉제 절차](docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md)를 먼저 읽습니다. 공식 문서 10개에 이어 [영상 3편의 화면 109시점·공식 2편 영어 자동 자막 대조](reports/VideoLearning/20261105_MARVELOUS_WALLET_VIDEO_STUDY.json)를 보강했습니다. 열린 입구·봉제 방향·층·메시 밀도·겉실 단위와 CLO/MD9.5/2025.1의 차이를 다루며 실제 MD9 제작·시뮬레이션 검증과 구분합니다.
 
 봉제실 섬유결·엣지코트·실과 바늘구멍 정렬은 [Sampler 봉제실·엣지 마감](docs/SAMPLER_THREAD_EDGE_FINISH.md)을 함께 확인합니다. 형상 라운딩과 표면 맵, 문서 학습과 실제 제작을 구별합니다.

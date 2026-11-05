@@ -1,0 +1,394 @@
+{
+  "date": "2026-11-05",
+  "author": "Codex",
+  "status": "SAMPLED_VISUAL_AND_PROVIDED_CAPTION_STUDY_COMPLETE_NO_PRACTICAL_BUILD",
+  "preflight": {
+    "terms": [
+      "cowhide cardholder tutorial",
+      "leather pattern cutting",
+      "edge skiving",
+      "saddle stitch",
+      "reinforcement pattern"
+    ],
+    "prior_manuals": [
+      "docs/WALLET_LAYERED_SHELL_VOLUME.md",
+      "docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md",
+      "docs/SAMPLER_THREAD_EDGE_FINISH.md"
+    ],
+    "gap": "Existing modeling/material references did not provide a directly reviewed practical cardholder cutting, skiving and hand-sewing sequence."
+  },
+  "source_videos": 4,
+  "distinct_creators": 3,
+  "unique_visual_points": 127,
+  "automatic_caption_tracks_read": 4,
+  "continuous_video_watch": false,
+  "audio_listening": false,
+  "sources": [
+    {
+      "id": "SafSlrLeCpg",
+      "title": "비오공방 소가죽 카드지갑 가죽공예 만들기 DIY 가방 키트 취미생활",
+      "creator": "비오공방",
+      "url": "https://www.youtube.com/watch?v=SafSlrLeCpg",
+      "upload_date": "20231029",
+      "duration_sec": 1644,
+      "accessed": "2026-11-05",
+      "visual_review": {
+        "unique_timepoints": 37,
+        "times_sec": [
+          0,
+          45,
+          90,
+          135,
+          180,
+          225,
+          270,
+          315,
+          360,
+          405,
+          450,
+          495,
+          540,
+          585,
+          630,
+          675,
+          720,
+          765,
+          810,
+          855,
+          900,
+          945,
+          990,
+          1035,
+          1080,
+          1125,
+          1170,
+          1215,
+          1260,
+          1305,
+          1350,
+          1395,
+          1440,
+          1485,
+          1530,
+          1575,
+          1620
+        ],
+        "overview_step_sec": 45,
+        "detail_times_sec": [],
+        "continuous_playback": false
+      },
+      "captions": {
+        "track": "ko-orig",
+        "type": "YouTube automatic speech-recognition; not creator-authored transcript",
+        "provided_nonempty_events_read": 191,
+        "first_event_start_sec": 2.08,
+        "last_event_start_sec": 1642.679,
+        "scope": "All provided nonempty text read; music, silence and ASR errors remain; last start is not a guarantee of speech coverage through video end."
+      },
+      "scope": "Precut and prepunched cowhide kit assembly, two side-construction alternatives, thread finish. Cowhide is a creator title claim, not an independent species test.",
+      "observations": [
+        {
+          "time": "00:00 / 00:45",
+          "finding": "Prepared cut panels, punched holes and snap hardware are visible."
+        },
+        {
+          "time": "02:15–09:00 sampled; captions 02:14–09:28",
+          "finding": "Bottom seam and return stitching; clip used for alignment."
+        },
+        {
+          "time": "09:45–20:15 sampled; captions 09:31–20:13",
+          "finding": "First folded side construction; creator distinguishes four-layer corner passage from two-layer passage."
+        },
+        {
+          "time": "21:00–27:00 sampled; captions 20:16–27:22",
+          "finding": "Alternative overlapping side construction and inward thread finish."
+        }
+      ],
+      "limits": [
+        "No raw-hide cutting/skiving/reinforcement study from this kit",
+        "Side fold not assumed to match a different flat wallet"
+      ]
+    },
+    {
+      "id": "zKGS6EU_O5c",
+      "title": "[#EBS평생학교] 2강 봉제 카드 지갑 만들기 1│김재혁의 난생처음 가죽 공예",
+      "creator": "EBS 평생학교",
+      "url": "https://www.youtube.com/watch?v=zKGS6EU_O5c",
+      "upload_date": "20240102",
+      "duration_sec": 817,
+      "accessed": "2026-11-05",
+      "visual_review": {
+        "unique_timepoints": 33,
+        "times_sec": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150,
+          180,
+          210,
+          240,
+          270,
+          300,
+          330,
+          360,
+          390,
+          414,
+          420,
+          450,
+          480,
+          493,
+          510,
+          528,
+          540,
+          570,
+          600,
+          630,
+          660,
+          676,
+          690,
+          720,
+          750,
+          775,
+          780,
+          810
+        ],
+        "overview_step_sec": 30,
+        "detail_times_sec": [
+          414,
+          493,
+          528,
+          676,
+          775
+        ],
+        "continuous_playback": false
+      },
+      "captions": {
+        "track": "ko-orig",
+        "type": "YouTube automatic speech-recognition; not creator-authored transcript",
+        "provided_nonempty_events_read": 259,
+        "first_event_start_sec": 0.14,
+        "last_event_start_sec": 815.959,
+        "scope": "All provided nonempty text read; music, silence and ASR errors remain; last start is not a guarantee of speech coverage through video end."
+      },
+      "scope": "Three-piece stitched cardholder preparation from pattern transfer through punching.",
+      "observations": [
+        {
+          "time": "01:00 / 02:30 / 03:00",
+          "finding": "Two body pieces plus a lower pocket piece are transferred and cut."
+        },
+        {
+          "time": "05:30 / 06:30 / 07:00; captions 04:38–06:40",
+          "finding": "Glue area preparation and pocket-mouth finishing before attachment."
+        },
+        {
+          "time": "08:00 / 08:30 / 08:48",
+          "finding": "Edge skiving demonstration; 08:48 authored on-screen text says 1–1.2mm for this example. Approximate 1.8mm start thickness comes from captions, not independent caliper measurement."
+        },
+        {
+          "time": "10:00 / 11:16 / 11:30",
+          "finding": "Alignment/gluing followed by final common-edge trimming to reduce mismatch."
+        },
+        {
+          "time": "13:00 / 12:55; captions 11:39–13:09",
+          "finding": "Vertical punching and overlapping last/first tooth to maintain spacing."
+        }
+      ],
+      "limits": [
+        "Example thickness not universal or a complete edge-stack target",
+        "No specific hidden-layer or species identification for another product"
+      ]
+    },
+    {
+      "id": "PqCgchzA_r0",
+      "title": "[#EBS평생학교] 3강 봉제 카드 지갑 만들기 2│김재혁의 난생처음 가죽 공예",
+      "creator": "EBS 평생학교",
+      "url": "https://www.youtube.com/watch?v=PqCgchzA_r0",
+      "upload_date": "20240103",
+      "duration_sec": 755,
+      "accessed": "2026-11-05",
+      "visual_review": {
+        "unique_timepoints": 31,
+        "times_sec": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150,
+          180,
+          210,
+          240,
+          270,
+          300,
+          330,
+          360,
+          390,
+          408,
+          420,
+          424,
+          450,
+          453,
+          480,
+          509,
+          510,
+          540,
+          570,
+          600,
+          603,
+          630,
+          660,
+          690,
+          720,
+          750
+        ],
+        "overview_step_sec": 30,
+        "detail_times_sec": [
+          408,
+          424,
+          453,
+          509,
+          603
+        ],
+        "continuous_playback": false
+      },
+      "captions": {
+        "track": "ko-orig",
+        "type": "YouTube automatic speech-recognition; not creator-authored transcript",
+        "provided_nonempty_events_read": 239,
+        "first_event_start_sec": 0.17,
+        "last_event_start_sec": 754.12,
+        "scope": "All provided nonempty text read; music, silence and ASR errors remain; last start is not a guarantee of speech coverage through video end."
+      },
+      "scope": "Two-needle saddle stitch and edge finishing of the prepared EBS cardholder.",
+      "observations": [
+        {
+          "time": "02:30 / 03:00 / 04:00",
+          "finding": "Needles secured to the two ends of a precut length of thread."
+        },
+        {
+          "time": "06:00 / 06:30 / 06:48 / 07:04 / 07:33",
+          "finding": "Equal starting lengths, starting reinforcement, both needles passing the same hole; previously passed thread moved aside."
+        },
+        {
+          "time": "08:29 screen; captions 08:13–08:39",
+          "finding": "Creator explains different front/back slant for the demonstrated sequence. The exact geometry is not independently measured."
+        },
+        {
+          "time": "09:00 / 09:30 / 10:00 / 10:03",
+          "finding": "Thread ends brought behind; thermal finish shown. Generalization to unknown thread material rejected."
+        },
+        {
+          "time": "10:30 / 11:00; captions 10:26–11:25",
+          "finding": "Edge treatment and cloth rubbing. Not a verified multi-coat edge-paint process."
+        }
+      ],
+      "limits": [
+        "No exact product thread diameter, twist count or indentation-depth measurement",
+        "Not every saddle-stitch sequence gives identical front/back appearance"
+      ]
+    },
+    {
+      "id": "J6ls7CFsSVM",
+      "title": "가죽지갑을 고급스럽게 만들기 위해서 필요한 보강재 패턴을 만드는 과정 무료패턴 강좌 | 가죽공예",
+      "creator": "TY LAB",
+      "url": "https://www.youtube.com/watch?v=J6ls7CFsSVM",
+      "upload_date": "20210605",
+      "duration_sec": 297,
+      "accessed": "2026-11-05",
+      "visual_review": {
+        "unique_timepoints": 26,
+        "times_sec": [
+          0,
+          15,
+          30,
+          45,
+          60,
+          75,
+          90,
+          105,
+          109,
+          118,
+          120,
+          126,
+          135,
+          137,
+          150,
+          165,
+          180,
+          195,
+          210,
+          224,
+          225,
+          234,
+          240,
+          255,
+          270,
+          285
+        ],
+        "overview_step_sec": 15,
+        "detail_times_sec": [
+          109,
+          118,
+          126,
+          137,
+          224,
+          234
+        ],
+        "continuous_playback": false
+      },
+      "captions": {
+        "track": "ko-orig",
+        "type": "YouTube automatic speech-recognition; not creator-authored transcript",
+        "provided_nonempty_events_read": 82,
+        "first_event_start_sec": 0.0,
+        "last_event_start_sec": 294.0,
+        "scope": "All provided nonempty text read; music, silence and ASR errors remain; last start is not a guarantee of speech coverage through video end."
+      },
+      "scope": "Reinforcement/lining concepts and layered-pocket pattern changes in a bifold-wallet explanation.",
+      "observations": [
+        {
+          "time": "01:45 / 01:49 / 01:58",
+          "finding": "Authored on-screen terms identify high-expansion foam/insole; sample looks sponge-like. Not identified as Salpa or Texon."
+        },
+        {
+          "time": "02:00 / 02:06 / 02:17 / 02:30",
+          "finding": "Reinforcement inside body boundary and volume example; explanation calls for covering lining. Numeric offset caption and in-progress Illustrator dialog differ, so a universal offset is not inferred."
+        },
+        {
+          "time": "03:00 / 03:15 / 03:30 / 03:44 / 03:54 / 04:00",
+          "finding": "Layer accumulation and punching mismatch motivate sloped pocket side pattern and optional skiving. Planform taper differs from thickness skiving."
+        },
+        {
+          "time": "04:15 / 04:30",
+          "finding": "Additional inner panel and stitching layout concept. Actual product compartments not reconstructed."
+        }
+      ],
+      "limits": [
+        "No end-to-end fabrication in this episode",
+        "No purchase or reproduction of paid pattern",
+        "Unclear ASR numeric/material phrases not treated as verified measurements"
+      ]
+    }
+  ],
+  "cross_review_and_corrections": [
+    "Prepared cowhide kit assembly cannot establish free-pattern cutting or skiving technique.",
+    "EBS episode2 contains transfer, cutting, skiving, gluing, final trimming and punching; no unsupported fold-every-side construction claim is carried forward.",
+    "ASR misrecognitions of leathercraft, skiving, stitching and materials corrected by creator titles and authored on-screen labels where available; uncertain chemistry/numerics omitted.",
+    "The 1–1.2mm EBS edge-skiving example is not a universal completed-edge target.",
+    "TY foam-volume example is not Salpa/Texon identification or an exact bulge-height formula.",
+    "Plane-side taper and thickness skiving are distinct.",
+    "EBS rubbing edge treatment and kit thread-end heating do not constitute a multi-layer edge-paint lesson.",
+    "Saddle-stitch front/back difference is specific to demonstrated sequence; photo-product thread dimensions require separate evidence."
+  ],
+  "application": "New generic craft workflow manual. Private product-specific handoff kept separate.",
+  "not_run": [
+    "Continuous playback or audio listening",
+    "Physical cutting/skiving/sewing/edge finishing",
+    "Card insertion/fit and repeated bending or wear tests",
+    "Purchases or supplier contact",
+    "Native MD/Blender changes or simulation"
+  ],
+  "privacy": "No source video/audio/transcript/capture, private measurements/photos/models or local paths republished."
+}
