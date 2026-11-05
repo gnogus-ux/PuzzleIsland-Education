@@ -59,7 +59,8 @@
     "2026-11-05: Supplemented Marvelous wallet manual with three creator/official videos: 109 directly reviewed source-frame timestamps and two complete provided English auto-caption tracks. CLO/MD9.5/2025.1 differences, seam versus topstitch, scale and Tex/mm corrections recorded. No continuous playback/audio or product runtime validation claimed; no source media/captions/private assets published.",
     "2026-11-05: Added layered-wallet leather-thickness and reinforcement selection from seven creator/supplier bodies plus category comparison. Salpa/Texon/Velodon roles, total edge stack and splitting tolerances separated. No private product measurements/assets or material/runtime/manufacture validation published.",
     "2026-11-05: Added cowhide-cardholder craft workflow from four videos by three creators: 127 sampled visual points and four provided Korean automatic-caption tracks. Kit assembly, cutting/skiving/gluing/final trimming/punching, saddle stitch, edge rubbing and reinforcement-pattern concepts separated. No continuous-watch, physical-build, card-fit or native-app claim; no private product/source media published.",
-    "2026-11-05: Added dedicated leather edge-paint process, drying distinctions and folding-path cross-check from five manufacturer/maker web bodies and three videos (70 sampled visual points, three provided English ASR tracks). Primer versus colored-coat demonstration, historical drying examples, inaccessible sources and short-flex versus durability limits recorded. Private product constraints omitted; no physical/native-app validation claimed."
+    "2026-11-05: Added dedicated leather edge-paint process, drying distinctions and folding-path cross-check from five manufacturer/maker web bodies and three videos (70 sampled visual points, three provided English ASR tracks). Primer versus colored-coat demonstration, historical drying examples, inaccessible sources and short-flex versus durability limits recorded. Private product constraints omitted; no physical/native-app validation claimed.",
+    "2026-11-05: Updated MD9 tool inventory with actual target-window selection, minimized-window recovery, screenshot and menu-input verification. Legacy custom accessibility and current-layout coordinate correction are distinguished from an MD MCP connection or product/API execution. No private paths, assets, window identifiers or screenshots published."
   ],
   "files": [
     {
@@ -594,8 +595,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 16107,
-      "sha256": "40d6a5d695064abc193ab12d5616fa07fe2a048f1012b8fec242e97b6e083cb8"
+      "bytes": 17122,
+      "sha256": "70d2bb87ef2c1d957c4d2a93210cb8a0b8b65ddd068d4f1738921c347846ee9c"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
