@@ -90,3 +90,25 @@ M4의 [02:00](https://www.youtube.com/watch?v=jVgxGea8mE8&t=120)에서는 격자
 대상 버전, 기준 모델, 새 후보 경로, 변경한 파트, 사용한 modifier 순서, 실제 치수, 실밥 간격, 접힘 확인 시점과 남은 결함을 기록한다. 스틸 검수가 끝났다는 기록과 전체 영상 렌더가 끝났다는 기록은 구분한다.
 
 표면 결 작업은 [WALLET_SURFACE_MAPS.md](https://github.com/gnogus-ux/PuzzleIsland-Education/blob/main/docs/WALLET_SURFACE_MAPS.md), 강좌별 근거와 해석 교정은 [WALLET_COURSE_ANALYSIS.md](https://github.com/gnogus-ux/PuzzleIsland-Education/blob/main/docs/WALLET_COURSE_ANALYSIS.md)를 함께 사용한다.
+
+## 9. 봉제실을 보존하며 바늘구멍을 닫는 국소 복원
+
+2026-11-05 공식 Blender 5.2 자료 3개의 필요한 본문을 Codex가 직접 읽어 보강했다. 아래는 문서에 근거한 적용 절차이며 특정 제품의 실기 완료 기록이 아니다. 바늘구멍을 모두 닫으라는 사용자 지시가 있을 때만 적용하며, 카드 슬롯·지폐 입구·층 사이 공간을 함께 메우지 않는다.
+
+1. 현재 파일과 미저장 상태를 보존하고 구멍을 만든 방법부터 조사한다. 구멍 전용 Boolean이면 해당 연산만 비활성화할 수 있다. 이미 적용된 구멍은 벽면의 재질·연결 성분·작은 공간 범위와 기존 제작 기록을 함께 확인한다. 재질명만으로 모든 면을 자동 선택하지 않는다.
+2. 별도 Guide에 대상 구멍의 양쪽 경계, 막을 면 방향, 보존할 실·입구·전체 윤곽을 실제 표시한다. 원본 후보, Guide, 실제 복원 후보를 구분하고 정상 점유 해제 후 담당에게 인계한다.
+3. Object 모드의 독립 BMesh에서 구멍 벽과 경계만 계획한다. 일반적인 관통 구멍은 양쪽 표면 경계가 각각 닫힌 루프를 이룬다. 가장자리에 걸린 구멍·갈라진 경계·기존 비다양체는 별도로 기록한다. 전체 메시의 모든 열린 경계에 일괄 Fill Holes를 실행하지 않는다.
+4. 원래 정점과 shape key 순서를 유지해야 한다면 벽면만 제거하고 경계 루프를 채우는 방식을 먼저 검토한다. `FACES_ONLY`와 정점 삭제는 다른 연산이다. 내부의 무면 엣지를 정리할 때도 보존 정점을 임의 병합·삭제하지 않는다. 잔존 무사용 정점이 있으면 그 보존 이유를 명시한다.
+5. `holes_fill`은 지정 경계에 새 면을 만들고 주변 custom-data를 복사한다. 반환 면과 누락 루프를 반드시 확인한다. 이것만으로 UV·재질·법선·모든 shape key가 자동 보존된다고 주장하지 않는다. 원래 표면과 같은 재질, 올바른 면 방향, 경계 UV의 연속성을 별도로 확인한다. 필요한 경우 새 면에 한정해 삼각화하며 전체 위상을 바꾸지 않는다.
+6. 가죽 두께 방향의 양쪽 표면을 각각 닫고 실 메시·위치·UV·키·재질·모디파이어는 변경하지 않는다. 하부 부품의 구멍 전용 Boolean도 빠뜨리지 않는다. 입구를 만든 다른 Boolean은 유지한다. 표면 노멀만 바꿔 실제 구멍이 사라진 것으로 처리하지 않는다.
+7. 원래 정점 좌표·키·가중치와 변경하지 않은 면의 UV/재질을 대조한다. 새 면에는 가죽 재질을 연결하고 검은 구멍 벽 재질이 노출되지 않는지 본다. 지정 경계의 면 연결과 실제 평가 표면을 검수하고, 동일 solid/wire 전후 및 최종 재질 접사를 확인한다. 저장·재열기·외부 이미지 경로와 영상 전체 동작 검수는 구분한다.
+
+큰 메시에서 구멍마다 native operator를 반복하면 전체 custom-data 갱신 때문에 오래 걸릴 수 있다. 독립 메모리 BMesh의 작은 범위부터 확인하고 결과 파일·상태를 남긴다. 응답 시간 초과는 실행 취소와 같지 않으므로 같은 변경을 즉시 재실행하지 않는다. 원본을 무조건 다시 열거나 실행 중인 프로세스를 종료하지 않는다.
+
+이번 직접 확인한 자료와 범위:
+
+- [Blender 5.2 Manual · Fill](https://docs.blender.org/manual/en/5.2/modeling/meshes/editing/face/fill.html): 본문 전체. 닫힌 선택 엣지 루프의 삼각 채움과 단일 n-gon 채움의 차이.
+- [Blender 5.2 API · BMesh Operators](https://docs.blender.org/api/5.2/bmesh.ops.html): `holes_fill`, `face_attribute_fill`, `edgeloop_fill`, `delete`, `triangulate`, `triangle_fill` 항목. 지정 경계·custom-data·반환 면·삭제 범위. 페이지 전체 학습이 아니며 제목 지정 조회 실패 뒤 본문에서 필요한 항목을 찾아 읽었다.
+- [Blender 5.2 API · BMesh Module](https://docs.blender.org/api/5.2/bmesh.html): 본문 전체. Object/Edit 모드 접근 차이, Python 소유 메모리의 해제, UV·shape key·deform custom-data와 올바른 메시 상태.
+
+세 자료는 서로 다른 공식 문서다. 문서 열람과 실제 제품의 연결·UV·키 보존 성공을 구별한다. 특별한 가장자리 구멍의 복원 방식과 현행 빌드의 결과는 해당 후보에서 별도로 검증한다.

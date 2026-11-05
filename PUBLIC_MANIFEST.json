@@ -53,7 +53,8 @@
     "2026-11-05: Record limited native Sampler/Upscale and32per-piece4K Cycles bakes, rejected bbox-only atlas scaling, UniV repack, raw16bit/normal/UV/actual guarded displacement/save-reopen QA. Preserve remaining closeup/motion/approval limits; no private media or paths.",
     "2026-11-05: Add three-source Adobe document study for thread/edge finish, distinguish cloth/quilt generators from physical stitches and geometric bevels. No product media or private paths.",
     "2026-11-05: Read three primary Adobe paint/relief/varnish documents; clarify failed library load and microfinish candidate parameters; no runtime success claim.",
-    "2026-11-05: Record limited native Sampler6.0.2 cloth/paint4K export, saved project recovery and Blender5.2 DirectX convention readback; distinguish stored height from applied displacement and still-image QA from final video approval."
+    "2026-11-05: Record limited native Sampler6.0.2 cloth/paint4K export, saved project recovery and Blender5.2 DirectX convention readback; distinguish stored height from applied displacement and still-image QA from final video approval.",
+    "2026-11-05: Read three Blender5.2 primary documents for localized needle-aperture closure, preserving separate thread meshes, existing UV and shape-key contracts. Document study and product runtime success remain distinct."
   ],
   "files": [
     {
@@ -523,8 +524,8 @@
     },
     {
       "path": "docs/WALLET_MODELING.md",
-      "bytes": 11454,
-      "sha256": "38b06112eae2ec8bdc19917a29f3e2532fe646b997a6d53131cbed687a32f1d0"
+      "bytes": 15944,
+      "sha256": "9cac43eddb4827d0cae4400877cb78372462387ecf329346a5ebc3d8d5fd0c38"
     },
     {
       "path": "docs/WALLET_SURFACE_MAPS.md",
