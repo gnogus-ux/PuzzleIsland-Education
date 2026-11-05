@@ -73,3 +73,32 @@ Pin Group은 경계 목표를 강하게 잡는 구속이다. Sewing은 한 천 �
 사용자가 승인한 상태의 정지 검수를 우선한다. 수행하지 않은 전체 충돌·위상·물리 시뮬레이션·영상 렌더를 PASS로 쓰지 않는다. 고정 경계 최대 이동, 대표 단면 경로 길이와 층 간격, 목표/실제 윤곽, 보존된 파일·UV·다른 파트를 기록한다.
 
 인계에는 가이드 파일·캡처·대상 오브젝트·영역 정보·보존 경계·새 내피의 연결 역할·각도별 목표·실행한 검수·미검증을 포함한다. 기존 [공통 작업 규칙](COMMON_WORK_RULES.md)과 [가이드 절차](WALLET_MODELING.md)를 따른다. Claude는 기존 매뉴얼을 읽어 제작·검수하며, 새 교육·매뉴얼 보강은 Codex에 알린다.
+
+## 7. 가죽 두께와 내부 보강재를 선정하는 근거
+
+2026-11-05 보강. 공예 교육 본문과 공급처의 제품/서비스 설명을 직접 읽고 대조했다. [출처·열람 범위](../reports/ExternalLearning/20261105_WALLET_LEATHER_REINFORCEMENT_STUDY.json)를 함께 확인한다. 공급처 규격과 자체 설계 제안, 실제 재료 시험을 구분하며 특정 사진의 숨은 재료를 식별했다는 뜻이 아니다.
+
+### 가죽 한 겹의 두께와 완성 단면
+
+[Leathercraft Masterclass의 지갑 두께 설명](https://www.leathercraftmasterclass.com/post/what-thickness-of-leather-should-you-use-for-a-wallet)은 구조와 가죽 종류에 따라 두께가 달라짐을 설명한다. 단순한 베지터블 가죽 지갑에는0.8~1mm 예가 있지만, 얇은 크롬 가죽 부품에는0.3~0.5mm와 별도 보강재의 사례가 있다. 외피0.6mm·중간층0.5mm·내피0.5mm의 조합도 설명용 예시로 제시된다. 이 수치를 모든 지갑의 보편 규격으로 쓰지 않는다.
+
+겹 포켓은 바깥 판·내피·안쪽 포켓뿐 아니라 반대면의 외부 포켓, 입구 말림, 안감과 접착층까지 같은 단면에 겹칠 수 있다. 목표 엣지 두께를 가죽 한 장 또는 엣지코트만의 두께로 설정하지 않는다. 중앙 재료 두께와 가장자리 피할 후 두께도 따로 기록한다.
+
+### 지지용 보강판과 늘어남 방지재
+
+| 재료 | 공급처에서 확인한 규격·설명 | 적용 검토 |
+|---|---|---|
+| **Salpa / Synderme** | [Leatherbox0.4mm](https://www.leatherbox.com/products/salpa-bonded-leather-reinforcement-material-0-4-mm), [Deco Cuir0.4mm부터](https://www.decocuir.com/en/products/morceau-renfort-salpa-synderme-30x40cm). 재생 가죽섬유를 결합한 보강재이며 Deco Cuir는 천연 라텍스와 유연성을 설명한다. | 형태 지지와 유연성을 함께 남길 판의 후보. 실제 상품별 강성은 시편으로 확인한다. |
+| **Texon** | [Deco Cuir 제품](https://www.decocuir.com/en/products/plaque-renfort-texon)에0.45/0.6/0.8mm 등 규격과 셀룰로오스·엘라스토머 조성이 기재되어 있다. [종류 비교](https://www.decocuir.com/en/collections/renfort-texon-cuir-maroquinerie)는 더 뻣뻣한 용도와 뒤집을 때 파손 가능성을 설명한다. | 단단한 평판 지지가 필요한 곳의 대안. 같은 두께의 Salpa와 같은 굽힘 거동으로 취급하지 않는다. 접힘부를 통째로 가로지르는 적용은 검증 전 확정하지 않는다. |
+| **Velodon** | [Rocky Mountain0.2mm](https://www.rmleathersupply.com/products/french-velodon-reinforcement-non-stretch-inner-lining-material-0-2mm-samples), [Leatherbox0.2mm](https://www.leatherbox.com/products/viledon-reinforcement-material). 얇은 늘어남·찢김 저항용 보강재로 설명된다. | 포켓 입구·얇은 가죽의 늘어남을 줄이는 국소 후보. 몸판 형태를 지지할 판과 역할을 구분한다. |
+
+### 선택·두께 배분·시험 순서
+
+1. 사진에 보이는 층과 숨은 설계층을 나눈다. 보강재 이름·두께를 온라인에서 찾았다는 이유로 해당 제품에 실제 사용된 재료라고 확정하지 않는다.
+2. 판의 형태 유지, 포켓의 늘어남 방지, 중앙 접힘의 유연성을 서로 다른 요구로 기록한다. 판 보강재와 얇은 직물 보강재를 무조건 전면 중복 배치하지 않는다.
+3. 재단 경계·입구·중앙 굽힘을 보존한 단면을 작성한다. 목표 엣지가 얇으면 보강재를 어느 경계에서 끝내고 어느 가죽을 피할할지 계획한다. 일괄 Scale 축소로 대신하지 않는다.
+4. 완성 두께 예산은 `겹친 가죽 + 실제 경계까지 오는 보강재/안감 + 접착/마감`으로 계산한다. 카드가 들어가는 빈 틈과 실체 재료 두께는 구별한다. 여유 길이로 생기는 외피 볼록 높이를 가죽 한 장의 두께로 바꾸지 않는다.
+5. 온라인의 명목 두께를 정밀도 보증으로 쓰지 않는다. [Rocky Mountain 피할 서비스](https://www.rmleathersupply.com/pages/splitting)는0.4mm까지 가능하되 대체로0.5mm 미만을 권하지 않으며, 패널±0.2mm·원피±0.3mm 허용 범위를 설명한다. 그보다 얇은 고급 부품의 사례가 존재하는 것과 특정 원피를 그 두께로 안정적으로 가공할 수 있는 것은 다르다.
+6. 실제 제작은 자재를 측정하고 소형 적층 시편의 접착·마감 후 두께와 굽힘을 확인한다. 3D 적용에서는 레이어 실체 두께·표시 두께·충돌 간격을 분리한다. 물성 상수·반복 굽힘·인장·카드 삽입과 마모 시험은 공급처의 두께 정보만으로 검증되지 않는다.
+
+이번 보강은 온라인 본문·사양 학습이다. 자재 구매·피할·접착·강성 계측·실제 지갑 제작·현재 MD/Blender 제품 변경은 미실행이다.

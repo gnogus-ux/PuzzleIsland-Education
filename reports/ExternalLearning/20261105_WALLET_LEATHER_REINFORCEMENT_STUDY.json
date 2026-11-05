@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-05",
+  "author": "Codex",
+  "status": "ONLINE_SOURCE_STUDY_COMPLETE_MATERIAL_RUNTIME_NOT_RUN",
+  "preflight": {
+    "terms": [
+      "wallet leather thickness",
+      "Salpa",
+      "Texon",
+      "Velodon",
+      "lining",
+      "reinforcement"
+    ],
+    "prior_manuals": [
+      "docs/WALLET_MODELING.md",
+      "docs/WALLET_LAYERED_SHELL_VOLUME.md"
+    ],
+    "gap": "Prior layer-shape workflow did not establish leather material thickness or supplier reinforcement options."
+  },
+  "distinct_main_bodies_read": 7,
+  "sources": [
+    {
+      "id": "thickness",
+      "title": "What Thickness Of Leather Should You Use For A Wallet?",
+      "url": "https://www.leathercraftmasterclass.com/post/what-thickness-of-leather-should-you-use-for-a-wallet",
+      "accessed": "2026-11-05",
+      "type": "Creator educational article",
+      "read_scope": "Full teaching body: construction choice, veg-tan, chrome-tan, fine-leather examples; promotion not applied",
+      "finding": "Leather thickness depends on construction; thin chrome-tan0.3-0.5mm examples require reinforcement."
+    },
+    {
+      "id": "salpa04",
+      "title": "Reinforcement & Lining Material – Salpa Bonded Leather 0,4 mm | Leatherbox",
+      "url": "https://www.leatherbox.com/products/salpa-bonded-leather-reinforcement-material-0-4-mm",
+      "accessed": "2026-11-05",
+      "type": "Supplier product/service specification",
+      "read_scope": "Product title, thickness variants, overview and benefits",
+      "finding": "Salpa0.4mm is sold for structure/shape retention."
+    },
+    {
+      "id": "texon",
+      "title": "TEXON reinforcement plate | Leather Decor",
+      "url": "https://www.decocuir.com/en/products/plaque-renfort-texon",
+      "accessed": "2026-11-05",
+      "type": "Supplier product/service specification",
+      "read_scope": "Product variants and description",
+      "finding": "0.45mm upward; cellulose/elastomer composition; stiffening sheet."
+    },
+    {
+      "id": "salpa-deco",
+      "title": "Salpa synderme reinforcement piece - 30x40cm | Leather Deco",
+      "url": "https://www.decocuir.com/en/products/morceau-renfort-salpa-synderme-30x40cm",
+      "accessed": "2026-11-05",
+      "type": "Supplier product/service specification",
+      "read_scope": "Product variants, description and composition",
+      "finding": "0.4mm upward; leather scraps/natural latex; flexible."
+    },
+    {
+      "id": "velodon",
+      "title": "French \"Velodon\" Reinforcement - Non Stretch Inner Lining Material - ( – Rocky Mountain Leather Supply",
+      "url": "https://www.rmleathersupply.com/products/french-velodon-reinforcement-non-stretch-inner-lining-material-0-2mm-samples",
+      "accessed": "2026-11-05",
+      "type": "Supplier product/service specification",
+      "read_scope": "Overview, key features and thickness",
+      "finding": "0.2mm stretch-resistant lining reinforcement, wallet applications."
+    },
+    {
+      "id": "viledon",
+      "title": "Velodon reinforcement material | Leatherbox",
+      "url": "https://www.leatherbox.com/products/viledon-reinforcement-material",
+      "accessed": "2026-11-05",
+      "type": "Supplier product/service specification",
+      "read_scope": "Product title and description",
+      "finding": "Independent supply-page cross-check of0.2mm and stretch/tear role."
+    },
+    {
+      "id": "splitting",
+      "title": "Splitting – Rocky Mountain Leather Supply",
+      "url": "https://www.rmleathersupply.com/pages/splitting",
+      "accessed": "2026-11-05",
+      "type": "Supplier product/service specification",
+      "read_scope": "Service explanation and FAQ on thickness, tolerance and splitting ranges",
+      "finding": "0.4mm capability, generally not recommended below0.5mm; panel±0.2mm and hide±0.3mm tolerances."
+    }
+  ],
+  "additional_category_comparison": {
+    "url": "https://www.decocuir.com/en/collections/renfort-texon-cuir-maroquinerie",
+    "read_scope": "Salpa/Texon comparison and thickness filters",
+    "finding": "Supplier differentiates stiff Texon from flexible Salpa and warns turning Texon can break it."
+  },
+  "cross_review": [
+    "Single leather thickness versus complete edge stack; folded/skived sections are separate.",
+    "Salpa support, Texon stiffening, Velodon stretch control are different functions.",
+    "Thin fine-leathercraft examples do not override a splitter tolerance or minimum recommendation.",
+    "Available thickness does not identify hidden material in reference photos or provide simulation constants."
+  ],
+  "application": "Added generic material-selection section7 to layered-wallet manual; private product proposal stored separately.",
+  "not_run": [
+    "Purchase or supplier contact",
+    "Skiving/gluing",
+    "Physical material/bending/tensile testing",
+    "Current MD/Blender product changes",
+    "Manufacture validation"
+  ],
+  "privacy": "No private product measurements, references, paths or assets; no source body republished."
+}

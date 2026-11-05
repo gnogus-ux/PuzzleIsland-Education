@@ -56,7 +56,8 @@
     "2026-11-05: Record limited native Sampler6.0.2 cloth/paint4K export, saved project recovery and Blender5.2 DirectX convention readback; distinguish stored height from applied displacement and still-image QA from final video approval.",
     "2026-11-05: Read three Blender5.2 primary documents for localized needle-aperture closure, preserving separate thread meshes, existing UV and shape-key contracts. Document study and product runtime success remain distinct.",
     "2026-11-05: Codex read ten distinct official Marvelous Designer documents and added a reusable wallet pattern/sewing/thickness/OBJ workflow. MD9 process metadata only; current-document version gaps and all product runtime tests explicitly NOT_RUN. No private assets or paths published.",
-    "2026-11-05: Supplemented Marvelous wallet manual with three creator/official videos: 109 directly reviewed source-frame timestamps and two complete provided English auto-caption tracks. CLO/MD9.5/2025.1 differences, seam versus topstitch, scale and Tex/mm corrections recorded. No continuous playback/audio or product runtime validation claimed; no source media/captions/private assets published."
+    "2026-11-05: Supplemented Marvelous wallet manual with three creator/official videos: 109 directly reviewed source-frame timestamps and two complete provided English auto-caption tracks. CLO/MD9.5/2025.1 differences, seam versus topstitch, scale and Tex/mm corrections recorded. No continuous playback/audio or product runtime validation claimed; no source media/captions/private assets published.",
+    "2026-11-05: Added layered-wallet leather-thickness and reinforcement selection from seven creator/supplier bodies plus category comparison. Salpa/Texon/Velodon roles, total edge stack and splitting tolerances separated. No private product measurements/assets or material/runtime/manufacture validation published."
   ],
   "files": [
     {
@@ -66,8 +67,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 16999,
-      "sha256": "f7519eab679296603fa5450635a402d4d0fbed2860044496fb6809b1fc829024"
+      "bytes": 17148,
+      "sha256": "2cef3e868ed3930a0378668241f477b3e344784e91d8f2351b8b6d43c22ce591"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -801,8 +802,8 @@
     },
     {
       "path": "docs/WALLET_LAYERED_SHELL_VOLUME.md",
-      "bytes": 9998,
-      "sha256": "aa3d3208cc032f437cb3874bf6cc2d457ddff40a00e2ec3b124969b7f5006faf"
+      "bytes": 14922,
+      "sha256": "f07da3bfc5ab9f2d18f9ef47ee4a253ee705dd8ec2da5f40f45e42e6a3981b9d"
     },
     {
       "path": "reports/ExternalLearning/20261104_LAYERED_WALLET_STUDY.json",
@@ -918,6 +919,11 @@
       "path": "reports/VideoLearning/20261105_MARVELOUS_WALLET_VIDEO_STUDY.json",
       "bytes": 8132,
       "sha256": "0d4263ef1b8bd4e32aa22aa3ca0f1b6964444c0e0131adaad581ea6add25d59c"
+    },
+    {
+      "path": "reports/ExternalLearning/20261105_WALLET_LEATHER_REINFORCEMENT_STUDY.json",
+      "bytes": 4989,
+      "sha256": "8afbc493a0147642b7bb4af64243a655a642c61f467e7b0f806db9b88593d7ae"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
