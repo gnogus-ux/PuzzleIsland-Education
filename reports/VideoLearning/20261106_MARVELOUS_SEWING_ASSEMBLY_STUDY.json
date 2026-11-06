@@ -205,5 +205,183 @@
   "reference_privacy": "Educationauthorviewed4suppliedreferenceswithoutnewmetricmeasurement; noimages/privatepaths/producthandoffdataredistributed",
   "public_content": "Ownreusableexplanations,officialURLs,reviewscopeandlimitationsonly; noofficialfullbody,wholecaptions,videoframesorappcaptures",
   "native_practice_this_study": false,
-  "manual": "docs/MARVELOUS_SEWING_ASSEMBLY.md"
+  "manual": "docs/MARVELOUS_SEWING_ASSEMBLY.md",
+  "physics_readiness_supplement_20261106": {
+    "title": "가죽판 조립 전 물성 장부·프리셋 인수·버전 한계의 문헌 준비",
+    "review_date_KST": "2026-11-06",
+    "valid_official_article_bodies": 12,
+    "confirmed_previous_education_author_rereads": 5,
+    "current_supplement_bodies": 7,
+    "globally_new_source_count": "주장하지 않음;Detail/Stretch는 기존 공용workflow 인용출처",
+    "new_video_audio_caption_or_fullcourse": 0,
+    "native_settings_simulation_or_physical_calibration": false,
+    "method": "교육담당이 공식 문서의 필요한 본문을 직접 읽고 기존 매뉴얼과 대조했다. 게시담당은 보고·인계·초안·출처·준비표·검증·영수증 텍스트를 읽어 일반 설명으로 정리했다. 게시담당의 새 공식12본문 학습·영상 재생·실기로 중복 집계하지 않는다.",
+    "documents": [
+      {
+        "id": "bending",
+        "title": "FABRIC PHYSICAL PROPERTIES: Adjust Bending-Weft/Warp – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358432358809-FABRIC-PHYSICAL-PROPERTIES-Adjust-Bending-Weft-Warp",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": true,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "방향별 굽힘 저항과 신장·전단 저항을 구분"
+      },
+      {
+        "id": "collision",
+        "title": "FABRIC PHYSICAL PROPERTIES: Adjust Collision Thickness – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358430412441-FABRIC-PHYSICAL-PROPERTIES-Adjust-Collision-Thickness",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": true,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "충돌 간격과 표시 두께 구분,Operation의rendering 표현은 제목/목적/위치로 교차 교정"
+      },
+      {
+        "id": "density",
+        "title": "FABRIC PHYSICAL PROPERTIES: Adjust Density/Weight (Ver. 2024.1) – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358460243737-FABRIC-PHYSICAL-PROPERTIES-Adjust-Density-Weight-Ver-2024-1",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": false,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "2024.1 Density→Weight 명칭/단위 변경과 MD9 경계"
+      },
+      {
+        "id": "detail",
+        "title": "FABRIC PHYSICAL PROPERTIES: Physical Property Detail Setting – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358427696025-FABRIC-PHYSICAL-PROPERTIES-Physical-Property-Detail-Setting",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": false,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "slider 단계와 constant 입력 및 상호작용,실물 상수 측정과 구분"
+      },
+      {
+        "id": "friction",
+        "title": "FABRIC PHYSICAL PROPERTIES: Adjust Friction Coefficient – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358444242457-FABRIC-PHYSICAL-PROPERTIES-Adjust-Friction-Coefficient",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": false,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "garment–garment 범위,Avatar/카드 종류별 적용은 실기 미확인"
+      },
+      {
+        "id": "layer",
+        "title": "Use Layer (Drape Additional Garment) – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358288780441-Use-Layer-Drape-Additional-Garment",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": true,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "초기 겹침 순서를 돕는 설정,물리층·접착 아님"
+      },
+      {
+        "id": "pd",
+        "title": "Particle Distance Setting – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358268602777-Particle-Distance-Setting",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": true,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "메시 간격과 계산 조건,잘못된 재단이나 곡선 정확도 해결 보증 아님"
+      },
+      {
+        "id": "preset",
+        "title": "FABRIC PHYSICAL PROPERTIES: Physical Property Preset – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358440962713-FABRIC-PHYSICAL-PROPERTIES-Physical-Property-Preset",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": false,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "세부 물성 묶음의 인수,실측 인증·MD9 특정 가죽 이름/수치 미제공"
+      },
+      {
+        "id": "pressure",
+        "title": "Express Air Pressure – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358312998809-Express-Air-Pressure",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": false,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "공기/패딩 효과,목표 부풀음 높이의 숫자와 동일시하지 않음"
+      },
+      {
+        "id": "rendering",
+        "title": "FABRIC PHYSICAL PROPERTIES: Adjust Rendering Thickness – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358450148761-FABRIC-PHYSICAL-PROPERTIES-Adjust-Rendering-Thickness",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": true,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "Fabric Thickness와 Pattern AddRendering의 표시 범위 구분"
+      },
+      {
+        "id": "simulation-properties",
+        "title": "Simulation Properties – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358125463321-Simulation-Properties",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": false,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "중력/solver/장면 조건,현재 옵션 전체의 MD9 적용 미검증"
+      },
+      {
+        "id": "stretch",
+        "title": "FABRIC PHYSICAL PROPERTIES: Adjust Stretch-Weft/Warp, Shear – Marvelous Designer",
+        "creator": "Marvelous Designer",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358420149017-FABRIC-PHYSICAL-PROPERTIES-Adjust-Stretch-Weft-Warp-Shear",
+        "actual_read_scope": "교육담당이 렌더된 article/main 본문을 직접 읽음",
+        "confirmed_previous_body_reread": false,
+        "MD9_runtime_verified": false,
+        "purpose_and_limit": "방향별 신장·전단 저항,굽힘과 분리"
+      }
+    ],
+    "insufficient_overview_excluded": {
+      "id": "properties-overview",
+      "title": "8. Physical Properties – Marvelous Designer",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358303451289-8-Physical-Properties",
+      "actual_read_scope": "제목·footer/관련링크 수준으로 기능 본문 부족,유효12본문에 미산입",
+      "confirmed_previous_body_reread": false,
+      "MD9_runtime_verified": false,
+      "counted": false
+    },
+    "new_material_or_preset_values_selected": false,
+    "record_separately": [
+      "실물가죽t·피할/확인된 보강/접착",
+      "Fabric 표시Thickness",
+      "Pattern AddRendering",
+      "Pattern AddCollision",
+      "상대offset·native 대상유형",
+      "legacy 표면거리·완성단면"
+    ],
+    "preset_intake_fields": [
+      "정확한 저장 이름",
+      "앱 버전",
+      "Fabric 역할 배정",
+      "상수·단위·변경 전후값",
+      "미확인과 실측 여부"
+    ],
+    "version_limits": [
+      "2024.1 Layer표시 및 Density→Weight 설명을 MD9에 소급하지 않음",
+      "2026.1 충돌/표시방향 개선을 MD9에 소급하지 않음",
+      "현재 Simulation Properties 메뉴·기본값·단위·solver옵션의 MD9 현지 호환 미검증"
+    ],
+    "correction": "Collision Operation의rendering 표현을 제목·목적·위치 및Rendering 문서와 교차해 충돌 설정과 표시 설정으로 구분. 공식 기본 예는 제품 추천값이나 현지 MD9 실측값이 아님.",
+    "not_verified": [
+      "특정 MD9 가죽preset 저장 이름·상수",
+      "미측정 실물 재료 물성·가죽 이방성/적층 거동",
+      "실제 앱 설정·시뮬레이션·완성단면·카드/Avatar별 마찰·동적fit",
+      "삽입/인출·간섭·닫힘·독립제품 QA"
+    ],
+    "no_recipe_claims": [
+      "Pressure 값을 목표 부풀음 높이와 같은 숫자로 정하는 보장 없음",
+      "충돌0/음수·중력제거·임의신장으로 fit을 맞추는 절차 제안 없음",
+      "preset 이름으로 실측 가죽 인증을 주장하지 않음"
+    ],
+    "public_content": "자체 설명·공식URL·열람범위/한계만 게시. 원사진·캡처·프레임·자막/공식본문 전문·제품고유값·개인경로·프로세스정보·인증정보 제외.",
+    "history": "기존 이 JSON의 영상22표본·문서10본문과 당시 재열람/신규 수는 바꾸거나 새 단계에 합산하지 않음."
+  }
 }

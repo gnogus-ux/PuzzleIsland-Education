@@ -69,9 +69,27 @@
 
 [Collision Thickness](https://support.marvelousdesigner.com/hc/en-us/articles/47358430412441-FABRIC-PHYSICAL-PROPERTIES-Adjust-Collision-Thickness)는 충돌 간격, [Rendering Thickness](https://support.marvelousdesigner.com/hc/en-us/articles/47358450148761-FABRIC-PHYSICAL-PROPERTIES-Adjust-Rendering-Thickness)는 보이는 두께로 나누어 읽는다. 충돌 문서의 일부 Operation 표현은 제목·목적·위치와 Rendering 문서를 대조해 구별했다.
 
-Fabric 두께와 Pattern의 추가 표시 두께도 구별한다. 예제 기본값을 재료의 측정값·완성 엣지·실 눌림·국소 볼륨과 같은 숫자로 넣지 않는다. 표시를 바꿨다는 사실만으로 물리 간격이나 완성 단면이 바뀌었다고 하지 않는다. 실제 형상 목표는 별도 Guide와 전후 단면·표면으로 검사한다.
+두께 장부는 아래 항목을 분리한다. 각 항목의 대상 부품/Fabric·단위·설정값 또는 실측값·출처·미확인을 함께 기록한다. 예제 기본값은 제품 추천 수치가 아니다.
+
+| 장부 항목 | 구별할 범위 |
+|---|---|
+| 실물 가죽 t | 실제 재료 두께·피할 상태. 보강재·접착은 확인된 별도 재료로 기록 |
+| Fabric Thickness | Fabric 단위 표시 두께. 실물 t의 측정값이 아님 |
+| Add'l Thickness-Rendering | Pattern별 추가 표시 두께. 임의 합계를 완성 단면으로 보고하지 않음 |
+| Add'l Thickness-Collision | Pattern별 충돌 간격. 표시 두께·재료층 수와 다름 |
+| 상대 물체 offset | 상대측 설정과 실제 native 대상 유형을 확인. 판측 값만으로 접촉을 설명하지 않음 |
+
+legacy 표면 간 거리도 이 장부의 실물 두께나 충돌값으로 대체하지 않는다. Collision 문서 Operation의 `rendering` 표현은 제목·목적·위치가 Collision인 사실과 별도로 대조한다. 표시를 바꾼 것만으로 물리 간격·완성 단면이 검증된 것은 아니며 실제 형상은 Guide와 전후 단면으로 확인한다.
 
 Thin 출력은 완성 두께의 직접 계측 자료가 아니다. 별도 단면·출력 조건이 필요하다. 이번 학습은 새 가죽 물성·절대 두께·허용 공차·봉제 개수를 정하지 않았다.
+
+### 7.1 프리셋·미측정 물성과 시험 기준을 인수한다
+
+[Preset](https://support.marvelousdesigner.com/hc/en-us/articles/47358440962713-FABRIC-PHYSICAL-PROPERTIES-Physical-Property-Preset)은 물성 묶음이며 실측 인증서가 아니다. 확인된 정확한 이름·앱 버전·Fabric 배정·변경 전 상수/단위·변경분을 인수한다. 문서에서 확인되지 않은 MD9 가죽 프리셋 이름이나 값을 만들지 않고 저장값을 모르면 미확인으로 남긴다. [Detail Setting](https://support.marvelousdesigner.com/hc/en-us/articles/47358427696025-FABRIC-PHYSICAL-PROPERTIES-Physical-Property-Detail-Setting)의 slider 단계와 constant 입력도 같은 숫자 체계나 실물 재료 상수 측정으로 해석하지 않는다.
+
+방향별 굽힘 저항과 [신장·전단](https://support.marvelousdesigner.com/hc/en-us/articles/47358420149017-FABRIC-PHYSICAL-PROPERTIES-Adjust-Stretch-Weft-Warp-Shear)은 목적이 다르다. [Friction](https://support.marvelousdesigner.com/hc/en-us/articles/47358444242457-FABRIC-PHYSICAL-PROPERTIES-Adjust-Friction-Coefficient)의 garment–garment 설명은 카드가 Avatar 등 다른 충돌 대상일 때의 마찰·인출 거동까지 검증하지 않는다. [Pressure](https://support.marvelousdesigner.com/hc/en-us/articles/47358312998809-Express-Air-Pressure)는 공기·패딩 효과용으로, 목표 부풀음 높이와 같은 숫자를 넣는 항목이 아니다. [Gravity·solver 조건](https://support.marvelousdesigner.com/hc/en-us/articles/47358125463321-Simulation-Properties)은 장면 기준으로 기록하며 현행 옵션 전체를 MD9 지원 목록으로 소급하지 않는다.
+
+시험은 기존 승인 재단·물성·설정을 보존한 별도 기준 사본에서 배치·봉제 방향·개방·초기 관통을 먼저 확인한다. 한 변수군씩 바꾸고 두께 장부·지지/중력·Layer·PD·전후값·단면/관통·저장·재열기 유지를 남긴다. 충돌을0/음수로 만들거나 중력 제거·임의 신장으로 fit을 맞추지 않는다. 실제 삽입·인출·간섭·닫힘과 독립 QA는 별도 후속 시험이며 이번 문헌 준비가 이를 완료하지 않는다.
 
 ## 8. 버전 제한과 후속 실기 기록
 
@@ -79,6 +97,7 @@ Thin 출력은 완성 두께의 직접 계측 자료가 아니다. 별도 단면
 |---|---|
 | 두 영상의9.5 표기·봉제 영상의MD9 설명 | 정확 build와 모든 메뉴 호환을 새로 인증한 것은 아님 |
 | 2024.1 Layer 표시 | 구버전 실습의 필수 표시 조건으로 요구하지 않음 |
+| 2024.1 Density→Weight 명칭·단위 설명 | 현행 gsm 표기를 MD9의 실제 필드·단위로 자동 대입하지 않음 |
 | 2024.2 CPU/GPU 충돌 일치·옵션 | MD9에서 같은 결과를 보장하지 않음 |
 | 2025.2 즉시 정지 개선 | MD9의 정지·응답 동작에 소급하지 않음 |
 | 2026.1 충돌 방향 개선 | MD9에서 개선이 적용됐다고 하지 않음 |
@@ -94,3 +113,5 @@ Thin 출력은 완성 두께의 직접 계측 자료가 아니다. 별도 단면
 새 배치 시연은19/49/76/143/186/212/275/297/330초를 확인했다.76/212초의 화면 영어 자막2시점은 읽었지만 전체 자막 패널은 본문0행을 반환했다. 봉제 영상도 이번 패널에서 본문0행이어서 전체 자막을 새로 읽었다고 세지 않는다. 과거 전체 자동자막 검토는 [이전 학습 기록](../reports/VideoLearning/20261105_MARVELOUS_WALLET_VIDEO_STUDY.json)의 당시 범위로 유지한다.
 
 영상 사이 모든 프레임·오디오·연속 재생·강좌 전과정·native 봉제/조립/수납은 미확인이다. 공개 자료는 자체 절차·정상 공식 링크·열람 메타데이터뿐이며 사용자 사진·앱 캡처·영상 원프레임·자막/공식본문 전문·비공개 인계자료는 배포하지 않는다. [이번 학습 근거](../reports/VideoLearning/20261106_MARVELOUS_SEWING_ASSEMBLY_STUDY.json)의 중복 집계와 버전 한계를 함께 인수한다.
+
+2026-11-06 별도 물성 준비 보강은 **공식12개 유효 본문=기존5개 재열람+이번7개 보강**이다. 기능 본문이 부족한 Overview1개는 제외했고 새 영상·오디오·자막·전체 강좌·실기/설정은0이다. 보강7개 중 기존 workflow가 이미 인용한 출처도 있어 자료실 전체에 처음 추가된7출처라고 세지 않는다. [단계별 학습 기록](../reports/VideoLearning/20261106_MARVELOUS_SEWING_ASSEMBLY_STUDY.json)에 이전22표본/10본문을 그대로 두고 이 준비의 출처·한계·MD9 미검증을 구분했다.
