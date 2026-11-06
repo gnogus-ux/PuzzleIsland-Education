@@ -97,6 +97,8 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 패턴 기반으로 겹 가죽 지갑을 다시 구성할 때는 [Marvelous Designer 재단·봉제 절차](docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md)를 먼저 읽습니다. 공식 문서 10개에 이어 [영상 3편의 화면 109시점·공식 2편 영어 자동 자막 대조](reports/VideoLearning/20261105_MARVELOUS_WALLET_VIDEO_STUDY.json)를 보강했습니다. 열린 입구·봉제 방향·층·메시 밀도·겉실 단위와 CLO/MD9.5/2025.1의 차이를 다루며 실제 MD9 제작·시뮬레이션 검증과 구분합니다.
 
+[Marvelous Designer 입문 — 선택·점·곡선·입구·출력](docs/MARVELOUS_BASIC_PATTERN_EDITING.md): 공식4영상25표본시점·화면자막12시점/공식문서17개를 대조한 입문 절차입니다. [열람 범위·버전·미검증 기록](reports/VideoLearning/20261106_MARVELOUS_BASIC_SAMPLED_STUDY.json)을 함께 읽고, 기존 영상109시점 학습·MD9실기와 구분합니다. 전체 강좌 완주·native 실습 완료를 뜻하지 않습니다.
+
 추가 공식 문서 5개와 별도 MD9 쿠폰에서 확인한 [실제 Name·곡선 저장/재열기 절차](docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md#11-md9-패턴-이름곡선의-제한-실기-근거)를 반영했습니다. 정확 Q 제어점·2D 절대 수치 배치는 미검증으로 유지합니다.
 
 [UV 기반 OBJ→패턴 후보 경로](docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md#12-uv를-가진-obj를-편집-가능한-패턴으로-가져오는-후보-경로)는 공식3본문을 직접 읽고 작성한 적용 전 절차입니다. MD9 현지 지원·실제 패턴 생성·곡선 보존은 별도 쿠폰 검증 전까지 미확인입니다.

@@ -75,8 +75,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 20342,
-      "sha256": "0f962dd07e59a5dbceb9f787695b166cb1aba19fd193ee0b8b330ed13b9ed633"
+      "bytes": 20816,
+      "sha256": "2208b8374d707291a3ffb70b14c4680d3e0cb5225a52f3ee92b3a4df45a8ef57"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -915,8 +915,8 @@
     },
     {
       "path": "docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md",
-      "bytes": 28850,
-      "sha256": "642c736b27b8153516060460d44b3fd99c810dd13182956ce89b65d57fbba012"
+      "bytes": 30075,
+      "sha256": "819ca40e8674bee429b5033a80b24379a40122462eaed32fa2f74f78169a038c"
     },
     {
       "path": "reports/ExternalLearning/20261105_MARVELOUS_WALLET_STUDY.json",
@@ -957,6 +957,16 @@
       "path": "docs/WINDOWS_APP_CACHE_RELOCATION.md",
       "bytes": 5658,
       "sha256": "f30a2b3376550423daf8565d0916f607d7ab798d7ebddffbbd3e78c6f62fb824"
+    },
+    {
+      "path": "docs/MARVELOUS_BASIC_PATTERN_EDITING.md",
+      "bytes": 13492,
+      "sha256": "0e301823641918e569fb396e74411f6e7f2a74fe3800fe2ad8cd430fe5c0c3cb"
+    },
+    {
+      "path": "reports/VideoLearning/20261106_MARVELOUS_BASIC_SAMPLED_STUDY.json",
+      "bytes": 13593,
+      "sha256": "9ecc18d69234e311b963d21df8d6fe6445be7e58b4fa73e15abf8608c135d904"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1087,5 +1097,11 @@
     "official_bodies_read": 3,
     "runtime_MD9": "NOT_RUN",
     "scope": "Documented candidate workflow;version-local UI and fidelity pending"
+  },
+  "md_basic_sampled_study_20261106": {
+    "manual": "docs/MARVELOUS_BASIC_PATTERN_EDITING.md",
+    "report": "reports/VideoLearning/20261106_MARVELOUS_BASIC_SAMPLED_STUDY.json",
+    "scope": "4officialvideos25sampleframes12burnedcaptiontimestamps17documentbodies; nofullcourseornativepractice",
+    "historical_export_counts": "Priorinitialexportcountsandmetadataretained; notafullinventoryrecount"
   }
 }

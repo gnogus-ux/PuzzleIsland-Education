@@ -1,0 +1,287 @@
+{
+  "title": "MarvelousDesigner입문표본영상·공식문서학습",
+  "review_date_KST": "2026-11-06",
+  "scope": "Official4videos25sampleframes/12on-frameEnglishcaptiontimestamps/17documentbodies; notfullcourse,continuousplayback,audioorMD9nativepractice",
+  "study_method": "교육담당이명시시점의decodedvideo프레임을열어직접확인하고공식문서본문을대조했다.게시담당은교육초안·출처·시점관찰기록·보고를직접읽어공개용절차와범위를정리했으며영상을새로전체재생한것으로세지않는다.",
+  "totals": {
+    "official_videos": 4,
+    "sample_frames": 25,
+    "burned_caption_sample_frames": 12,
+    "whole_caption_tracks": 0,
+    "official_document_bodies": 17
+  },
+  "prior_record": {
+    "path": "reports/VideoLearning/20261105_MARVELOUS_WALLET_VIDEO_STUDY.json",
+    "videos": 3,
+    "visual_timestamps": 109,
+    "automatic_caption_tracks": 2,
+    "treatment": "Existingpartialstudyrecordpreserved; notnewlyrewatchedorcountedasfullbasiccourse"
+  },
+  "videos": [
+    {
+      "title": "Marvelous Designer9.5 Introduction: UI",
+      "creator": "Marvelous Designer",
+      "url": "https://www.youtube.com/watch?v=uizpDJdz7aA",
+      "review_date_KST": "2026-11-06",
+      "sample_seconds": [
+        40,
+        140,
+        260,
+        380,
+        500,
+        620,
+        740
+      ],
+      "burned_English_caption_seconds": [],
+      "version": "9.5 in title; nativeMD9 exact UI compatibility not tested",
+      "audio_listened": false,
+      "continuous_or_full_course": false
+    },
+    {
+      "title": "Marvelous Designer2D Pattern Editing: Create Pattern Tool Group",
+      "creator": "Marvelous Designer",
+      "url": "https://www.youtube.com/watch?v=3pPxqtBGVxY",
+      "review_date_KST": "2026-11-06",
+      "sample_seconds": [
+        30,
+        75,
+        120,
+        180,
+        240,
+        285
+      ],
+      "burned_English_caption_seconds": [
+        30,
+        75,
+        120,
+        180
+      ],
+      "version": "Exact version number not visible; ©2020 UI; embedded by current official Polygon article. Not proof ofMD9.0.",
+      "audio_listened": false,
+      "continuous_or_full_course": false
+    },
+    {
+      "title": "Marvelous Designer2D Pattern Editing: Edit Pattern",
+      "creator": "Marvelous Designer",
+      "url": "https://www.youtube.com/watch?v=yxrx_6QGx8E",
+      "review_date_KST": "2026-11-06",
+      "sample_seconds": [
+        35,
+        80,
+        180,
+        270,
+        375,
+        510,
+        575
+      ],
+      "burned_English_caption_seconds": [
+        35,
+        80,
+        575
+      ],
+      "version": "Exact version number not visible; ©2020 interface. Conceptual relevance,MD9 command behavior not independently tested.",
+      "audio_listened": false,
+      "continuous_or_full_course": false
+    },
+    {
+      "title": "Marvelous Designer2D Pattern Editing: Edit Curve Point",
+      "creator": "Marvelous Designer",
+      "url": "https://www.youtube.com/watch?v=ryejfKAinvs",
+      "review_date_KST": "2026-11-06",
+      "sample_seconds": [
+        22,
+        66,
+        111,
+        155,
+        199
+      ],
+      "burned_English_caption_seconds": [
+        22,
+        66,
+        111,
+        155,
+        199
+      ],
+      "version": "Exact version number not visible; ©2020 interface, current official Edit Curve Point article embeds source.",
+      "audio_listened": false,
+      "continuous_or_full_course": false
+    }
+  ],
+  "documents": [
+    {
+      "title": "Polygon",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358178952345-Polygon",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full Objective/Location/Operation/Notes; numeric length and segment/freecurve point generation",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Edit Curve Point",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358435895065-Edit-Curve-Point",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full Objective/Location/Add/Move/Notes; Bezier→FreeCurve reshaping;2024 selection excluded",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Edit AI Bezier Curve",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358445584537-Edit-AI-Bezier-Curve",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full curvature/one-sidedAlt/segmentconversion/handledeletion; MD10Ctrl excluded",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Convert to Hole/Internal Shape",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358440603161-Convert-to-Hole-Internal-Shape",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full Objective/Location/Operation; internal shape versus hole",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Segment Sewing (2D)",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358199517209-Segment-Sewing-2D",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full Objective/Location/Operation/Notes; direction notches/length warning",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "3D File (OBJ) Import/Export",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358223288601-3D-File-OBJ-Import-Export",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full article body read; Thin/Thick,Unweld/Weld,unit/axes,Avatar/Trim/Garment,UVTrace;2026.0 excluded",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Particle Distance Setting",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358268602777-Particle-Distance-Setting",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full Objective/Location/Operation; average mesh spacing; human-scale examples not copied",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Free Sewing (2D)",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358239854361-Free-Sewing-2D",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full Objective/Location/Operation/Notes; partial path,length,direction",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Trace",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358289149465-Trace",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full pattern/internalshape/lines variants; intersection behavior",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Adjust Collision Thickness",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358430412441-FABRIC-PHYSICAL-PROPERTIES-Adjust-Collision-Thickness",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full article; invisible collision offset; Operation renderingword cross-corrected;2026.1 excluded",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Adjust Rendering Thickness",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358450148761-FABRIC-PHYSICAL-PROPERTIES-Adjust-Rendering-Thickness",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full article; visible only; fabric/pattern fields",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Adjust Bending-Weft/Warp",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358432358809-FABRIC-PHYSICAL-PROPERTIES-Adjust-Bending-Weft-Warp",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full Objective/Location; resistance separate from stretching; no measured leather values",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Flip Normal",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358334132633-Flip-Normal",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full Objective/Location/Operation/Notes; FoldAngle alsoflips",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Use Layer (Drape Additional Garment)",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358288780441-Use-Layer-Drape-Additional-Garment",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full article; simulated ordering/zero afterdrape;2024.1visualization excluded",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Project File (*.ZPrj) Open/Save",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358219651225-Project-File-ZPrj-Open-Save",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full article; preservation/SaveAs/Open;ver12.1NewProject not assumedMD9",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Convert: Curve Points & Segment Points",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358462704665-Convert-Curve-Points-Segment-Points",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full article; point conversion;2024.2MaintainCurve/ConvertOnly excluded",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    },
+    {
+      "title": "Internal Polygon/Line",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358276422297-Internal-Polygon-Line",
+      "review_date_KST": "2026-11-06",
+      "actual_read_scope": "Full Objective/Location/Operation/Notes; closed/open completion/numericPosition",
+      "version": "Current web document contains historical and modern features; not aMD9 runtime compatibility certification"
+    }
+  ],
+  "observations_and_corrections": [
+    "UI/selectiontarget/unitbeforeediting; mm/inarefielddependent",
+    "Distinguishsegmentanchor/freecurvepoint/AIBezierhandleend/meshvertex",
+    "Addingfreecurvepointcanchangecurveandhandledefinition",
+    "DeletePointmeansdifferentthingsdependingonactualselectedobject",
+    "MovingDistanceisnotabsoluteXYZorhandlecoordinate",
+    "Automaticcaptionmisreadingcorrectedagainstactualon-frameEnglishcaptionandselectiondisplay",
+    "Layerisnotthephysicalnumberofmateriallayers; PDisnotexactcurve; Thin isnotfinishedthickness",
+    "CollisionarticleOperationwordingwascomparedwithRenderingarticletoavoidconflation"
+  ],
+  "version_exclusions": {
+    "MD10": "CtrlhandleanglekeepingnotassumedMD9",
+    "2024.2": "MaintainCurve/ConvertOnlynotassumedMD9",
+    "2024.1": "ShowPatternLayervisualizationnotrequiredinMD9",
+    "12.1": "NewProjectpathnotbackported",
+    "2026.0": "WeldTurnednotbackported",
+    "2026.1": "Collisiondirectionimprovementnotbackported"
+  },
+  "not_verified": [
+    "Fullbasiccoursecompletion",
+    "Audioorcontinuousallframeviewing",
+    "Allprovidedcaptiontracks",
+    "Exactversionnumberofthreeoldertoolvideos",
+    "LocalMD9menu/shortcut/featurecompatibilityforallsteps",
+    "MD9nativepracticebythiseducationassignment",
+    "Leatherphysicalcalibration,sewing/simulation/wholeproductacceptance",
+    "Separateproductioncandidateoutcomesnoteducationachievement"
+  ],
+  "publication_exclusions": [
+    "Originalvideo25framesandlargescaleimagecaptures",
+    "Fullcopyrightedofficialdocumentbodies",
+    "Actualapplicationcaptures",
+    "Privatepaths,chatidentifiers,statusledgersorproductmeasurements",
+    "Originalproductphotographs",
+    "Unfinishednumericmovementobservations"
+  ],
+  "native_application_queries_or_practice_this_study": false,
+  "source_media_redistributed": false,
+  "manual": "docs/MARVELOUS_BASIC_PATTERN_EDITING.md"
+}
