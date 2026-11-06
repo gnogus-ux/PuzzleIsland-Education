@@ -383,5 +383,170 @@
     ],
     "public_content": "자체 설명·공식URL·열람범위/한계만 게시. 원사진·캡처·프레임·자막/공식본문 전문·제품고유값·개인경로·프로세스정보·인증정보 제외.",
     "history": "기존 이 JSON의 영상22표본·문서10본문과 당시 재열람/신규 수는 바꾸거나 새 단계에 합산하지 않음."
+  },
+  "bounded_support_readiness_supplement_20261106": {
+    "title": "한정 시뮬레이션의 임시 지지·비활성·복귀·출력 한계 문헌 준비",
+    "review_date_KST": "2026-11-06",
+    "official_pages_reviewed": 10,
+    "OBJ_prior_source_reread": 1,
+    "support_display_pages": 9,
+    "distinct_new_course_count": "주장하지 않음;Create Pin/Pins/Attach 본문 겹침과 OBJ 재열람 구분",
+    "new_video_audio_caption_fullcourse": 0,
+    "native_support_simulation_save_reopen_export_practice": false,
+    "method": "교육담당의 보고·인계·출처/버전·상태표·검증·10영수증과 기존 공용 본문을 대조했다. 게시담당도 같은 공식 기능 절을 교차 확인했다. 이 확인을 독립된 신규10자료나 새 강좌로 합산하지 않는다.",
+    "documents": [
+      {
+        "id": "deactivate-sewing",
+        "title": "Deactivate(Pattern & Sewing)/Activate – Marvelous Designer",
+        "creator": "Marvelous Designer Official Support",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358273409945-Deactivate-Pattern-Sewing-Activate",
+        "education_author_actual_read_scope": "Rendered article/main text including related/footer",
+        "purpose_and_limit": "판과 연결 Sewing Lines의 비활성/재활성;영향 관계 readback",
+        "prior_source_reread": false,
+        "content_overlap": null,
+        "MD9_native_verified": false
+      },
+      {
+        "id": "deactivate",
+        "title": "Deactivate (Pattern Only)/Activate – Marvelous Designer",
+        "creator": "Marvelous Designer Official Support",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358262829849-Deactivate-Pattern-Only-Activate",
+        "education_author_actual_read_scope": "Rendered article/main text including related/footer",
+        "purpose_and_limit": "Pattern Only 계산/충돌 제외;연결 Sewing 효과를 Pattern & Sewing과 동일시하지 않음",
+        "prior_source_reread": false,
+        "content_overlap": null,
+        "MD9_native_verified": false
+      },
+      {
+        "id": "display",
+        "title": "3D Window Display Icons – Marvelous Designer",
+        "creator": "Marvelous Designer Official Support",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358200025497-3D-Window-Display-Icons",
+        "education_author_actual_read_scope": "Rendered Objective/Location/Operation/notes; footer metadata not a functional source",
+        "purpose_and_limit": "Garment/Pins 표시 기능이며 계산 제외·구속 제거의 증거 아님",
+        "prior_source_reread": false,
+        "content_overlap": null,
+        "MD9_native_verified": false
+      },
+      {
+        "id": "freeze",
+        "title": "Freeze/Unfreeze – Marvelous Designer",
+        "creator": "Marvelous Designer Official Support",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358315135897-Freeze-Unfreeze",
+        "education_author_actual_read_scope": "Rendered article/main text including related/footer",
+        "purpose_and_limit": "고정된 판도 충돌에 남음;Unfreeze와 실제 영향 확인",
+        "prior_source_reread": false,
+        "content_overlap": null,
+        "MD9_native_verified": false
+      },
+      {
+        "id": "obj",
+        "title": "3D File (OBJ) Import/Export – Marvelous Designer",
+        "creator": "Marvelous Designer Official Support",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358223288601-3D-File-OBJ-Import-Export",
+        "education_author_actual_read_scope": "Objective/Location/Operation/options/import descriptions read; final49footercharacters clipped in console, not claimed read; full rendered text hashed",
+        "purpose_and_limit": "선택·출력 옵션 확인;상태별 자동 포함/제외·플래그 보존 규칙 미확인",
+        "prior_source_reread": true,
+        "content_overlap": null,
+        "MD9_native_verified": false
+      },
+      {
+        "id": "pin-attach",
+        "title": "Attach Pin to/Detach Pin from Avatar – Marvelous Designer",
+        "creator": "Marvelous Designer Official Support",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358452805913-Attach-Pin-to-Detach-Pin-from-Avatar",
+        "education_author_actual_read_scope": "Rendered article/main text including related/footer",
+        "purpose_and_limit": "가장 가까운 Avatar 부분 부착;Detach와 Pin 삭제 구분",
+        "prior_source_reread": false,
+        "content_overlap": "Pins/Create Pin/Attach 본문 겹침은 별도 신규 강좌로 세지 않음",
+        "MD9_native_verified": false
+      },
+      {
+        "id": "pin-create",
+        "title": "Create Pin – Marvelous Designer",
+        "creator": "Marvelous Designer Official Support",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358422800537-Create-Pin",
+        "education_author_actual_read_scope": "Rendered article/main text including related/footer",
+        "purpose_and_limit": "선택 정점·영역에 Pin 생성;실제 선택 범위 확인",
+        "prior_source_reread": false,
+        "content_overlap": "Pins/Create Pin/Attach 본문 겹침은 별도 신규 강좌로 세지 않음",
+        "MD9_native_verified": false
+      },
+      {
+        "id": "pins",
+        "title": "Pins – Marvelous Designer",
+        "creator": "Marvelous Designer Official Support",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358146159769-Pins",
+        "education_author_actual_read_scope": "Rendered article/main text including related/footer",
+        "purpose_and_limit": "생성·삭제 범위와 부착 설명;Create/Attach 중복 및 후대 기능 경계",
+        "prior_source_reread": false,
+        "content_overlap": "Pins/Create Pin/Attach 본문 겹침은 별도 신규 강좌로 세지 않음",
+        "MD9_native_verified": false
+      },
+      {
+        "id": "solidify",
+        "title": "Solidify – Marvelous Designer",
+        "creator": "Marvelous Designer Official Support",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358310357529-Solidify",
+        "education_author_actual_read_scope": "Rendered article/main text including related/footer",
+        "purpose_and_limit": "현재 drape 형상 유지;읽은 본문에 확정 해제법 없음",
+        "prior_source_reread": false,
+        "content_overlap": null,
+        "MD9_native_verified": false
+      },
+      {
+        "id": "strengthen",
+        "title": "Strengthen / Unstrengthen – Marvelous Designer",
+        "creator": "Marvelous Designer Official Support",
+        "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358253657497-Strengthen-Unstrengthen",
+        "education_author_actual_read_scope": "Rendered article/main text including related/footer",
+        "purpose_and_limit": "임시 강성 강화/Unstrengthen;실측 물성/강체 인증 아님",
+        "prior_source_reread": false,
+        "content_overlap": null,
+        "MD9_native_verified": false
+      }
+    ],
+    "reused_prior_material": "기존 배치·단일 선택이 계산범위가 아니라는 경계·Project checkpoint와 물성 장부는 재사용.이전 영상/문서/물성준비 집계는 불변.",
+    "version_limits": {
+      "MD9": "Target product from coordinator; localUI/function/save/export behavior not tested",
+      "MD95": "Prior sampled arrangement/sewing footage not new proof of these support functions",
+      "historical_markers": [
+        "Solidify2.5",
+        "DeactivatePatternSewing2.3",
+        "InternalLinePin4.0"
+      ],
+      "excluded_later": [
+        "Pin duplicate symmetry2024.2",
+        "Pin doubleclick all onpattern2025.2",
+        "StatecolorDisplay2024.1",
+        "OBJWeldTurned2026.0"
+      ],
+      "current": "Mixed2025/2026 official bodies; historical version labels not productMD9 blanket compatibility"
+    },
+    "not_verified": [
+      "각 기능의 MD9 UI·정확 Solidify OFF/해제법",
+      "MD9 Project 저장·재열기 뒤 각 상태·봉제 활성·Pin/부착 유지",
+      "OBJ 상태별 자동 포함/제외·상태 플래그 보존 및 재가져오기 복원",
+      "Pattern Only의 연결 Sewing 효과가 Pattern & Sewing과 동일한지",
+      "숨김·선택만으로 계산/충돌이 제외되는지",
+      "실제 구속복귀 뒤 자유 재료 거동·전체 조립·수납·간섭·닫힘"
+    ],
+    "restoration_record": [
+      "판별 기준/시험/복귀 상태",
+      "연결 봉제 활성",
+      "기존 Pin과 자기 시험 Pin·Avatar 부착",
+      "형상·배치·개방 경계",
+      "저장·재열기 및 실제 출력 대상/옵션/객체·그룹·단위"
+    ],
+    "interpretation_limits": [
+      "Freeze는 고정 충돌체·Deactivate는 계산/충돌 제외로 구분",
+      "Detach는 Pin 삭제가 아님",
+      "Solidify 해제를 모르는 상태에서 기본 시험 도구로 채택하지 않음",
+      "고정 fixture·Pin·강화 아래 성공은 자유 가죽·전체 수납 fit 합격이 아님"
+    ],
+    "new_fixture_design_material_collision_tolerance_values": false,
+    "education_reading_limits": "OBJ 기능 절은 읽었으나 교육담당 최초 console의 마지막 footer49문자는 잘려 footer 전체열람 주장 없음. Display의 언어메뉴가 아니라 영어 기능 절을 적용 근거로 삼음.",
+    "public_content": "자체 기능 요약·정상 공식URL·열람범위와 버전/미검증만.사용자 사진·개인경로·프로세스정보·제품고유설계/치수·원문전문·인증정보 제외.",
+    "history": "기존22영상표본/10문서 및 별도 물성준비12본문 등 모든 이전 필드값은 보존하며 이 단계와 합산하지 않음."
   }
 }

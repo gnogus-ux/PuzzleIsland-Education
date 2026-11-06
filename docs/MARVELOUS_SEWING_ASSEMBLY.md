@@ -65,6 +65,25 @@
 
 마지막 안정 후보를 보존하고 정지 반환·저장 상태를 확인한다. 파일 저장, 앱 응답, 진행 호출 종료와 정상 점유 해제는 별도 증거로 기록한다. 이 학습에서는 실제 시뮬레이션을 수행하지 않았다.
 
+### 6.1 임시 지지 기능과 복귀를 구분한다
+
+임시 지지 기능은 계산·충돌·구속 범위가 다르다. 실제 Guide와 시험 범위에서 대상을 확인한다.
+
+| 기능·공식 출처 | 문헌에서 확인한 효과 | 복귀·주의 |
+|---|---|---|
+| 선택·[표시/숨김](https://support.marvelousdesigner.com/hc/en-us/articles/47358200025497-3D-Window-Display-Icons) | 편집 대상·보이는 상태를 지정 | 선택·숨김만으로 계산·충돌·Pin이 제외된다고 하지 않음 |
+| [Freeze](https://support.marvelousdesigner.com/hc/en-us/articles/47358315135897-Freeze-Unfreeze) | 판을 고정하되 충돌체로 유지 | Unfreeze. 다른 판에 미치는 충돌 영향도 확인 |
+| [Deactivate: Pattern Only](https://support.marvelousdesigner.com/hc/en-us/articles/47358262829849-Deactivate-Pattern-Only-Activate) | 판을 계산·충돌에서 제외 | Activate. 연결 Sewing까지 같은 방식으로 제외된다고 보장하지 않음 |
+| [Deactivate: Pattern & Sewing](https://support.marvelousdesigner.com/hc/en-us/articles/47358273409945-Deactivate-Pattern-Sewing-Activate) | 판과 연결 Sewing Lines를 비활성화 | Activate 후 실제 대상 봉제선의 복귀도 확인 |
+| [Create Pin](https://support.marvelousdesigner.com/hc/en-us/articles/47358422800537-Create-Pin)·[Pins](https://support.marvelousdesigner.com/hc/en-us/articles/47358146159769-Pins) | 선택 메시 정점·영역을 고정 | 기존 사용자 Pin을 보존하고 자기 시험 Pin의 선택·삭제 범위를 확인 |
+| [Attach/Detach Pin](https://support.marvelousdesigner.com/hc/en-us/articles/47358452805913-Attach-Pin-to-Detach-Pin-from-Avatar) | Pin을 가장 가까운 Avatar 부분에 부착 | Detach는 부착 해제이며 Pin 삭제와 별도 |
+| [Strengthen](https://support.marvelousdesigner.com/hc/en-us/articles/47358253657497-Strengthen-Unstrengthen) | 판의 강성을 임시 강화 | Unstrengthen. 측정 물성·강체 고정으로 해석하지 않음 |
+| [Solidify](https://support.marvelousdesigner.com/hc/en-us/articles/47358310357529-Solidify) | Strength에 따라 현재 drape 형상을 유지 | 읽은 본문에 확정 OFF/해제법 없음. 현지 해제 확인 전 기본 시험 수단으로 채택하지 않음 |
+
+판별 기준 상태·시험 상태·연결 봉제 활성·Pin/부착·복귀 확인을 장부에 남긴다. 재활성화 뒤 판·봉제·배치·개방 경계와 임시 구속/강성 잔여를 대조하며, 기준부터 있던 상태를 일괄 해제하지 않는다. 고정 지지체나 임시 강성 아래 얻은 결과는 자유 가죽의 전체 조립·수납 적합을 증명하지 않는다. 이 설명은 특정 판에 적용할 지지 방법·새 물성/충돌값을 정하지 않는다.
+
+일반 Project 저장 설명만으로 이 상태들이 MD9에서 저장·재열기 후 유지된다고 보장하지 않는다. 같은 파일 재열기 뒤 판·봉제 활성·Pin/부착·형상·배치를 실제 readback한다. [OBJ 문서](https://support.marvelousdesigner.com/hc/en-us/articles/47358223288601-3D-File-OBJ-Import-Export)의 선택·Thin/Thick·Weld 옵션도 상태별 자동 포함/제외나 플래그 보존 규칙의 증거가 아니다. 실제 export 선택·옵션·객체/그룹 수·경계·좌표·단위로 범위를 대조하고, OBJ 재가져오기로 임시 상태가 복원된다고 하지 않는다. 이번 보강은 문헌 준비이며 이 저장·출력·해제 동작의 MD9 실기 검증은 미실행이다.
+
 ## 7. 표시·충돌·완성 단면은 다른 측정이다
 
 [Collision Thickness](https://support.marvelousdesigner.com/hc/en-us/articles/47358430412441-FABRIC-PHYSICAL-PROPERTIES-Adjust-Collision-Thickness)는 충돌 간격, [Rendering Thickness](https://support.marvelousdesigner.com/hc/en-us/articles/47358450148761-FABRIC-PHYSICAL-PROPERTIES-Adjust-Rendering-Thickness)는 보이는 두께로 나누어 읽는다. 충돌 문서의 일부 Operation 표현은 제목·목적·위치와 Rendering 문서를 대조해 구별했다.
@@ -101,6 +120,7 @@ Thin 출력은 완성 두께의 직접 계측 자료가 아니다. 별도 단면
 | 2024.2 CPU/GPU 충돌 일치·옵션 | MD9에서 같은 결과를 보장하지 않음 |
 | 2025.2 즉시 정지 개선 | MD9의 정지·응답 동작에 소급하지 않음 |
 | 2026.1 충돌 방향 개선 | MD9에서 개선이 적용됐다고 하지 않음 |
+| Pin 대칭복사2024.2·전체선택2025.2 / 상태색2024.1 / OBJ Weld Turned2026.0 | 후대 설명을 MD9 절차·호환 인증에 소급하지 않음. 역사적 도입 표기만으로 MD9 지원도 확정하지 않음 |
 
 실기 담당은 봉제 생성, 방향·개방 자체 확인, 안정된 조립, 저장·동일 파일 재열기, 수납·간섭·닫힘, 마감·독립 QA를 각각 기록한다. 판 Name·홀·개방 경계·관계 수·방향·물성·메시 조건의 유지와 동일 등록 조건의 출력을 확인한다. 실제 연결표가 없으면 임의 봉제 수를 확정하지 않는다. 교육 설명이나 시연의3D 연결 표시만으로 제품 PASS를 선언하지 않는다.
 
@@ -115,3 +135,5 @@ Thin 출력은 완성 두께의 직접 계측 자료가 아니다. 별도 단면
 영상 사이 모든 프레임·오디오·연속 재생·강좌 전과정·native 봉제/조립/수납은 미확인이다. 공개 자료는 자체 절차·정상 공식 링크·열람 메타데이터뿐이며 사용자 사진·앱 캡처·영상 원프레임·자막/공식본문 전문·비공개 인계자료는 배포하지 않는다. [이번 학습 근거](../reports/VideoLearning/20261106_MARVELOUS_SEWING_ASSEMBLY_STUDY.json)의 중복 집계와 버전 한계를 함께 인수한다.
 
 2026-11-06 별도 물성 준비 보강은 **공식12개 유효 본문=기존5개 재열람+이번7개 보강**이다. 기능 본문이 부족한 Overview1개는 제외했고 새 영상·오디오·자막·전체 강좌·실기/설정은0이다. 보강7개 중 기존 workflow가 이미 인용한 출처도 있어 자료실 전체에 처음 추가된7출처라고 세지 않는다. [단계별 학습 기록](../reports/VideoLearning/20261106_MARVELOUS_SEWING_ASSEMBLY_STUDY.json)에 이전22표본/10본문을 그대로 두고 이 준비의 출처·한계·MD9 미검증을 구분했다.
+
+2026-11-06 별도 지지 기능 준비는 **공식10페이지의 필요한 본문**을 읽었다. OBJ는 기존 출처 재열람이며 Create Pin/Pins/Attach 본문의 겹침을 독립 신규 강좌로 세지 않는다. 새 영상·오디오·자막·전체 강좌·앱 실기는0이다. 게시 단계의 같은 출처 교차 확인도 신규10자료 학습으로 더하지 않는다. [단계별 학습 기록](../reports/VideoLearning/20261106_MARVELOUS_SEWING_ASSEMBLY_STUDY.json)에 이전 집계와 이 보강의 MD9 미검증 범위를 분리했다.
