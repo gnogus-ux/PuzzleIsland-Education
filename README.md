@@ -99,6 +99,8 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 [Marvelous Designer 입문 — 선택·점·곡선·입구·출력](docs/MARVELOUS_BASIC_PATTERN_EDITING.md): 공식4영상25표본시점·화면자막12시점/공식문서17개를 대조한 입문 절차입니다. [열람 범위·버전·미검증 기록](reports/VideoLearning/20261106_MARVELOUS_BASIC_SAMPLED_STUDY.json)을 함께 읽고, 기존 영상109시점 학습·MD9실기와 구분합니다. 전체 강좌 완주·native 실습 완료를 뜻하지 않습니다.
 
+[Marvelous Designer 봉제·조립](docs/MARVELOUS_SEWING_ASSEMBLY.md): 방향·Segment/Free/Reverse/M:N·입구 보존·법선/Layer/배치·시뮬레이션 영향·실제 마감 구분을 다룹니다. [22표본시점·10본문의 열람/재열람 범위](reports/VideoLearning/20261106_MARVELOUS_SEWING_ASSEMBLY_STUDY.json)를 함께 읽으며 전체 자막·강좌 완주·native 봉제/조립/수납 실기와 구별합니다.
+
 추가 공식 문서 5개와 별도 MD9 쿠폰에서 확인한 [실제 Name·곡선 저장/재열기 절차](docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md#11-md9-패턴-이름곡선의-제한-실기-근거)를 반영했습니다. 정확 Q 제어점·2D 절대 수치 배치는 미검증으로 유지합니다.
 
 [UV 기반 OBJ→패턴 후보 경로](docs/MARVELOUS_WALLET_PATTERN_WORKFLOW.md#12-uv를-가진-obj를-편집-가능한-패턴으로-가져오는-후보-경로)는 공식3본문을 직접 읽고 작성한 적용 전 절차입니다. MD9 현지 지원·실제 패턴 생성·곡선 보존은 별도 쿠폰 검증 전까지 미확인입니다.

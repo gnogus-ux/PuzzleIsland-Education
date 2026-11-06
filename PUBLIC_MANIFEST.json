@@ -75,8 +75,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 20816,
-      "sha256": "2208b8374d707291a3ffb70b14c4680d3e0cb5225a52f3ee92b3a4df45a8ef57"
+      "bytes": 21249,
+      "sha256": "ef99a3123c9d2806a80f8a23788e15abe330e6899cc135c09a0ba43cbd3ef1af"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -960,13 +960,23 @@
     },
     {
       "path": "docs/MARVELOUS_BASIC_PATTERN_EDITING.md",
-      "bytes": 13492,
-      "sha256": "0e301823641918e569fb396e74411f6e7f2a74fe3800fe2ad8cd430fe5c0c3cb"
+      "bytes": 14239,
+      "sha256": "16a686e6958dd801451cff18a5c3d6a9f3e64c6c439bd8af67d94e7ae2f2a951"
     },
     {
       "path": "reports/VideoLearning/20261106_MARVELOUS_BASIC_SAMPLED_STUDY.json",
       "bytes": 13593,
       "sha256": "9ecc18d69234e311b963d21df8d6fe6445be7e58b4fa73e15abf8608c135d904"
+    },
+    {
+      "path": "docs/MARVELOUS_SEWING_ASSEMBLY.md",
+      "bytes": 12118,
+      "sha256": "5d8163dd1da9973e08df22bbda03704ebb82f91290ecaa954604614d8f0ac862"
+    },
+    {
+      "path": "reports/VideoLearning/20261106_MARVELOUS_SEWING_ASSEMBLY_STUDY.json",
+      "bytes": 9869,
+      "sha256": "963820a409c558b0892a03b10dd4c6f1969693fe93db84bb83ad207614ef3a74"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1103,5 +1113,11 @@
     "report": "reports/VideoLearning/20261106_MARVELOUS_BASIC_SAMPLED_STUDY.json",
     "scope": "4officialvideos25sampleframes12burnedcaptiontimestamps17documentbodies; nofullcourseornativepractice",
     "historical_export_counts": "Priorinitialexportcountsandmetadataretained; notafullinventoryrecount"
+  },
+  "md_sewing_assembly_study_20261106": {
+    "manual": "docs/MARVELOUS_SEWING_ASSEMBLY.md",
+    "report": "reports/VideoLearning/20261106_MARVELOUS_SEWING_ASSEMBLY_STUDY.json",
+    "scope": "22sampleframesincl9oldtimestamps;1newvideo/1knownvideo;10documentreadsincl6rereads4new;0wholecaptiontracks;nonativepractice",
+    "historical_export_counts": "Priorinitialexportcounts/metadataretained; notfullinventoryrecount"
   }
 }

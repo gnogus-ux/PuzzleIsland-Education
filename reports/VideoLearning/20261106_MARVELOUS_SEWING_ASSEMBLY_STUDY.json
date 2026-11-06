@@ -1,0 +1,209 @@
+{
+  "title": "MarvelousDesigner봉제·조립한정표본학습",
+  "review_date_KST": "2026-11-06",
+  "totals": {
+    "current_stage_video_views": 2,
+    "new_distinct_video_sources": 1,
+    "previously_known_video_revalidated": 1,
+    "current_stage_direct_frame_views": 22,
+    "repeated_previous_sewing_timestamps": 9,
+    "additional_sewing_timestamp_requests": [
+      50,
+      160,
+      200,
+      245
+    ],
+    "new_arrangement_timestamp_requests": [
+      19,
+      49,
+      76,
+      143,
+      186,
+      212,
+      275,
+      297,
+      330
+    ],
+    "whole_caption_tracks_read_this_stage": 0,
+    "burned_caption_frames_read_this_stage": 2,
+    "current_stage_document_reads": 10,
+    "new_distinct_document_sources": 4,
+    "previous_document_bodies_reread": 6
+  },
+  "study_method": "교육담당이명시시점의일시정지decodedframe을직접확인하고공식문서본문을읽어대조했다.게시담당은초안/출처/보고/검증을직접읽어공개용설명을일반화했으며영상전체를다시시청하거나native실기한것으로세지않는다.",
+  "videos": [
+    {
+      "title": "Marvelous Designer Introduction: Sewing",
+      "creator": "Marvelous Designer",
+      "url": "https://www.youtube.com/watch?v=bZR8j70mA0Q",
+      "version": "Description says9.5 and footerVersionusedMD9; no exactbuild",
+      "current_actual_sample_seconds": [
+        50,
+        60,
+        75,
+        90,
+        105,
+        125,
+        140,
+        160,
+        180,
+        200,
+        225,
+        245,
+        270
+      ],
+      "method": "Pauseddecodedvideo→canvasframe→view_image all13directlyviewed; setup/selection/reverse/MN/3Dresult boundedstagecomparison; notcontinuous",
+      "subtitle": "Provider transcript UI expandedbutblank/no rows after15s; wholetrackNOT_READthisstage; audioNOT_LISTENED",
+      "limitations": "No fullvideo/all intermediateframes; source3D seamdisplay notwalletsimulationvalidation",
+      "source_relation": "Previouslyregisteredpublicsewingvideo,revalidatedthisstage"
+    },
+    {
+      "title": "Marvelous Designer9.5 Arrangement, Sewing & Simulation: Basic Pattern Arrangement",
+      "creator": "Marvelous Designer",
+      "url": "https://www.youtube.com/watch?v=eAOYYgn5RK0",
+      "version": "9.5 inactualpage title; exactnativeMD9compatibilitynotcertified",
+      "current_actual_sample_seconds": [
+        19,
+        49,
+        76,
+        143,
+        186,
+        212,
+        275,
+        297,
+        330
+      ],
+      "method": "Samepauseddecodedframecaptureanddirectview_image all9",
+      "burned_caption_seconds_read": [
+        76,
+        212
+      ],
+      "subtitle": "ProviderUI:Englishautomatic,transcriptNoresultsafter5s;0rowsread",
+      "limitations": "Setup andresultframes viewed. No continuousdrapetransition/audio/fulltrack; garment/persondimensions notwalletvalues",
+      "source_relation": "Oneadditionaldistinctarrangementvideo_source"
+    }
+  ],
+  "first_sewing_request_actual_capture_seconds": {
+    "requested": 50,
+    "actual": 50.04864
+  },
+  "documents": [
+    {
+      "title": "Segment Sewing (2D)",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358199517209-Segment-Sewing-2D",
+      "re_read_existing": true,
+      "actual_read_scope": "Full operation/direction/notch/length warning read again",
+      "version": "Currentofficialdocument with historicaltags; MD9native compatibility not testedhere"
+    },
+    {
+      "title": "Free Sewing (2D)",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358239854361-Free-Sewing-2D",
+      "re_read_existing": true,
+      "actual_read_scope": "Full start/end/blue lengthguide/numericlength/direction read again",
+      "version": "Currentofficialdocument with historicaltags; MD9native compatibility not testedhere"
+    },
+    {
+      "title": "Reverse Sewing",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358393261593-Reverse-Sewing",
+      "re_read_existing": false,
+      "actual_read_scope": "Full Objective/Location/Operation; EditSewing selectedline contextmenu,Ctrl+B",
+      "version": "Currentofficialdocument with historicaltags; MD9native compatibility not testedhere"
+    },
+    {
+      "title": "Edit Sewing Line Length",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358392328857-Edit-Sewing-Line-Length",
+      "re_read_existing": false,
+      "actual_read_scope": "Full drag endpoint; moving rightclick distance/total length; no stationaryprecision assumed",
+      "version": "Currentofficialdocument with historicaltags; MD9native compatibility not testedhere"
+    },
+    {
+      "title": "Use Layer (Drape Additional Garment)",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358288780441-Use-Layer-Drape-Additional-Garment",
+      "re_read_existing": true,
+      "actual_read_scope": "Full ordering/neutral0/visualization;2024.1 display excluded",
+      "version": "Currentofficialdocument with historicaltags; MD9native compatibility not testedhere"
+    },
+    {
+      "title": "Flip Normal",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358334132633-Flip-Normal",
+      "re_read_existing": true,
+      "actual_read_scope": "Full selectedpattern/normal flip/FoldAngle ver2.4 sideeffect",
+      "version": "Currentofficialdocument with historicaltags; MD9native compatibility not testedhere"
+    },
+    {
+      "title": "M:N Segment Sewing (2D)",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358238742553-M-N-Segment-Sewing-2D",
+      "re_read_existing": false,
+      "actual_read_scope": "Full M selectionEnter/N selectionEnter/proportionaldivision/Deleteundo/Esc cancel/length difference",
+      "version": "Currentofficialdocument with historicaltags; MD9native compatibility not testedhere"
+    },
+    {
+      "title": "Simulation",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358232630937-Simulation",
+      "re_read_existing": false,
+      "actual_read_scope": "Full gravity/allgarments/Normal/Stable/Fitting/presets/CPU-GPU and2024.2/2025.2 exclusions",
+      "version": "Currentofficialdocument with historicaltags; MD9native compatibility not testedhere"
+    },
+    {
+      "title": "Adjust Collision Thickness",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358430412441-FABRIC-PHYSICAL-PROPERTIES-Adjust-Collision-Thickness",
+      "re_read_existing": true,
+      "actual_read_scope": "Full invisiblecollision/bodydefaults/note;2026.1excluded; renderingword corrected",
+      "version": "Currentofficialdocument with historicaltags; MD9native compatibility not testedhere"
+    },
+    {
+      "title": "Adjust Rendering Thickness",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358450148761-FABRIC-PHYSICAL-PROPERTIES-Adjust-Rendering-Thickness",
+      "re_read_existing": true,
+      "actual_read_scope": "Full visiblethickness/Fabric versusPatternfield/Thickdisplay",
+      "version": "Currentofficialdocument with historicaltags; MD9native compatibility not testedhere"
+    }
+  ],
+  "relation_to_prior_studies": {
+    "prior_video_study": "reports/VideoLearning/20261105_MARVELOUS_WALLET_VIDEO_STUDY.json",
+    "basic_study": "reports/VideoLearning/20261106_MARVELOUS_BASIC_SAMPLED_STUDY.json",
+    "counting": "22currentframeviews=13knownsewingvideo+9newarrangementvideo;9sewingtimestampsrepeatoldspecification;4additionalrequestsare50/160/200/245.Only1newdistinctvideosource.10documentreads=6rereads+4new."
+  },
+  "caption_scope": "Fullprovidertracks0thisstage:sewingpanelblank,arrangementpanelreturnednoresults.Only2burnedcaptionframesat76/212read.Priorfullautomaticcaptionreadingremainshistoricalevidence.",
+  "learning_topics": [
+    "LogicalconnectionversusnativeM/Nsegments/parts/openings/capacity",
+    "SegmentversuspartialFreeSewing",
+    "DirectionalnotchesandReverseSewingversusFlipNormal",
+    "M:Nselectionorder/length/proportionaldistributionandcreationcancel",
+    "Preserveopenmouths/holes/freefolds; nohiddennewlining",
+    "Layer/normals/3Dplacement/gravity/supportversus2Dpattern",
+    "Simulationaffectedgarmentsandstablerestoration",
+    "Collision/Renderingversusphysicalfinishedsection",
+    "Separatecreation/selfcheck/save-reopen/fit/independentQA"
+  ],
+  "version_limits": {
+    "video": "9.5titlesandhistoricalMD9descriptionnotexactbuildcompatibilitycertification",
+    "2024.1": "Layerdisplaynotbackported",
+    "2024.2": "CPU-GPUcollisionagreement/optionsnotbackported",
+    "2025.2": "ImmediateStopimprovementnotbackported",
+    "2026.1": "Collisiondirectionimprovementnotbackported"
+  },
+  "not_verified": [
+    "Fullbasiccoursecompletion/mastery",
+    "Audio,continuousplayback,allintermediateframes",
+    "Wholecaptiontrackreadingthisstage",
+    "ExactlocalMD9menu/shortcut/behaviorforallfeatures",
+    "Nativesewing/assembly/simulation/storagefit/withdrawal/closure",
+    "Finalphysicalthickness/materialvalues/tolerances/seamcount",
+    "Productioncandidateoutcomesarenoteducationachievement"
+  ],
+  "reference_privacy": "Educationauthorviewed4suppliedreferenceswithoutnewmetricmeasurement; noimages/privatepaths/producthandoffdataredistributed",
+  "public_content": "Ownreusableexplanations,officialURLs,reviewscopeandlimitationsonly; noofficialfullbody,wholecaptions,videoframesorappcaptures",
+  "native_practice_this_study": false,
+  "manual": "docs/MARVELOUS_SEWING_ASSEMBLY.md"
+}
