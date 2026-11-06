@@ -1,0 +1,180 @@
+{
+  "title": "Marvelous Designer 내부도형·홀·Trace의 대상과 버전 한계",
+  "review_date_KST": "2026-11-06",
+  "manual": "docs/MARVELOUS_BASIC_PATTERN_EDITING.md",
+  "actual_review": {
+    "official_article_bodies": 8,
+    "new_distinct_document_sources": 7,
+    "existing_Hole_body_reread": 1,
+    "official_video_sources": 1,
+    "direct_video_sample_frames": 10,
+    "burned_caption_sample_frames_read": 7,
+    "whole_video_continuous_playback_audio_or_whole_caption_tracks": false,
+    "native_practice": false
+  },
+  "method": "교육담당이 공식 본문과 지정 시점의 일시정지 영상 표본을 직접 대조했다. 게시담당은 연구 보고·인계문·출처·상태·검증 텍스트를 직접 읽어 일반 교육 설명으로 보강했다. 게시담당의 영상 재시청이나 native 실습으로 중복 집계하지 않는다.",
+  "documents": [
+    {
+      "id": "merge",
+      "title": "Merge",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358449042329-Merge",
+      "actual_read_scope": "교육담당이 Objective/Location/Operation/Notes 본문 전체를 직접 읽음",
+      "re_read_existing": false,
+      "version_evidence": "도입 버전 표기 없음",
+      "educational_scope": "두 Pattern의 외곽 또는 봉제선 기준 결합. 겹친 내부도형의 면적 Union 근거로 쓰지 않음.",
+      "MD9_native_verified": false
+    },
+    {
+      "id": "mergepoints",
+      "title": "Merge Points on Internal Lines",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358466030745-Merge-Points-on-Internal-Lines",
+      "actual_read_scope": "교육담당이 Objective/Location/Operation/Notes 본문 전체를 직접 읽음",
+      "re_read_existing": false,
+      "version_evidence": "도입 버전 표기 없음; 정확한 MD9 메뉴·동작 미시험",
+      "educational_scope": "열린 내부선 끝점 연결·이동·교차 연장. 면적 합집합과 원곡선 무손실 보존을 보증하지 않음.",
+      "MD9_native_verified": false
+    },
+    {
+      "id": "traceinternal",
+      "title": "Trace as / Convert to Internal Shape",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358466227225-Trace-as-Convert-to-Internal-Shape",
+      "actual_read_scope": "교육담당이 Objective/Location/Operation/Notes 본문 전체를 직접 읽음",
+      "re_read_existing": false,
+      "version_evidence": "도입 버전 표기 없음",
+      "educational_scope": "3D Edit Line에서 Baseline/내부선 추적. 2D Trace나 면적 Union과 동일시하지 않음.",
+      "MD9_native_verified": false
+    },
+    {
+      "id": "hole",
+      "title": "Convert to Hole/Internal Shape",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358440603161-Convert-to-Hole-Internal-Shape",
+      "actual_read_scope": "교육담당이 Objective/Location/Operation/Notes 본문 전체를 직접 읽음",
+      "re_read_existing": true,
+      "version_evidence": "2.3 이전 Sync Tool 대체 경로 설명이 있으나 기능이2.3에 도입됐다는 뜻은 아님",
+      "educational_scope": "내부 형상의 Convert to Hole 및 역변환. 정확한 복합 윤곽의 MD9 실기 성공은 별도.",
+      "MD9_native_verified": false
+    },
+    {
+      "id": "divide",
+      "title": "Divide Internal Lines",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358434772121-Divide-Internal-Lines",
+      "actual_read_scope": "교육담당이 Objective/Location/Operation/Notes 본문 전체를 직접 읽음",
+      "re_read_existing": false,
+      "version_evidence": "도입 버전 표기 없음",
+      "educational_scope": "내부점·선을 분리하는 개별 기능. 면적 Union 근거 아님.",
+      "MD9_native_verified": false
+    },
+    {
+      "id": "intersection",
+      "title": "Add Point to Intersection",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358457784729-Add-Point-to-Intersection",
+      "actual_read_scope": "교육담당이 Objective/Location/Operation/Notes 본문 전체를 직접 읽음",
+      "re_read_existing": false,
+      "version_evidence": "도입 버전과 MD9 곡선 교차 정밀도 미확인",
+      "educational_scope": "교차 구간에 점을 추가하는 개별 기능. 불필요한 내부 경계의 면적 제거를 보증하지 않음.",
+      "MD9_native_verified": false
+    },
+    {
+      "id": "ellipse",
+      "title": "Internal Ellipse",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358322923161-Internal-Ellipse",
+      "actual_read_scope": "교육담당이 Objective/Location/Operation/Notes 본문 전체를 직접 읽음",
+      "re_read_existing": false,
+      "version_evidence": "반경/둘레3.2·위치2.5·중심 생성 보조키5.1 표기; 최소 입력·저장 정밀도 미확인",
+      "educational_scope": "내부 타원·원과 지름/반경/둘레·위치 입력. 입력 최솟값·저장 정밀도 미확인.",
+      "MD9_native_verified": false
+    },
+    {
+      "id": "rectangle",
+      "title": "Internal Rectangle Tool",
+      "creator": "Marvelous Designer",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358286525209-Internal-Rectangle-Tool",
+      "actual_read_scope": "교육담당이 Objective/Location/Operation/Notes 본문 전체를 직접 읽음",
+      "re_read_existing": false,
+      "version_evidence": "위치2.5·중심 생성 보조키5.1 표기; 최소 폭 미확인",
+      "educational_scope": "내부 사각형의 폭/높이·위치 입력. 내부도형 Union 기능을 설명하는 근거 아님.",
+      "MD9_native_verified": false
+    }
+  ],
+  "video": {
+    "title": "Marvelous Designer 2D Pattern Editing: Internal Shape Tool Group",
+    "creator": "Marvelous Designer",
+    "url": "https://www.youtube.com/watch?v=qA0kbTTuL7A",
+    "version_evidence": "원본 설명에서 사용 버전 Marvelous Designer9.5 명시; 정확한 MD9.0 빌드 호환 보증 아님",
+    "actual_sample_seconds": [
+      25,
+      60,
+      100,
+      140,
+      180,
+      200,
+      230,
+      250,
+      280,
+      305
+    ],
+    "burned_caption_seconds_read": [
+      25,
+      60,
+      200,
+      230,
+      250,
+      280,
+      305
+    ],
+    "method": "일시정지 decoded frame10개 직접 확인; 연속 재생·오디오·전체 자막 트랙 검토 아님",
+    "scope_limits": [
+      "280/305초는 Dart 시연으로 Boolean Union 또는 Convert to Hole 증거가 아님",
+      "100/180초는 준비 화면",
+      "예제 입력과 곡선점 시연은 정확한 복합 홀·최소 목폭·원호 저장 정밀도의 실기 시험이 아님"
+    ]
+  },
+  "previous_evidence_reused_without_new_full_body_read": [
+    {
+      "title": "Trace (2D)",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358289149465-Trace",
+      "scope": "기존 직접 열람 기록·설명 재사용. 이번 단계 원문 본문 재열람 미완료로8본문 집계에서 제외."
+    },
+    {
+      "title": "Internal Polygon/Line",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358276422297-Internal-Polygon-Line",
+      "scope": "기존 열람 기록·설명 및9.5 영상 표본 대조. 이번 단계 새 본문 열람으로 집계하지 않음."
+    }
+  ],
+  "discovered_not_reviewed": [
+    {
+      "title": "Delete",
+      "url": "https://support.marvelousdesigner.com/hc/en-us/articles/47358279215129-Delete",
+      "scope": "검색 발견만; 본문 미열람, 완성된 복합 윤곽 편집 절차의 근거로 사용하지 않음."
+    }
+  ],
+  "conclusions": [
+    "Merge는 Pattern 결합, Merge Points는 열린 끝점 연결이며 면적 Union과 구별한다.",
+    "Trace 교차점 결합은 겹침 내부 경계를 제거한 면적 Union 보증이 아니다.",
+    "유효한 단일 닫힌 내부 형상의 Convert to Hole라는 문서상 기능과 정확한 복합 홀의 실기 성공을 구분한다.",
+    "MD9의 Boolean Union→CutHole 명령 사슬에 대한 메뉴·도입 버전·대상 지원 근거는 확보하지 못했다. 검색 부재로 기능 부재를 단정하거나 후대 기능이라고 단정하지 않는다."
+  ],
+  "future_authorized_practice_checks": [
+    "분기·자기교차·중복 호·틈 없는 단일 닫힌 체인",
+    "설계된 판과 홀 수에 따른 실제 재료 경계·연결성; 기준선을 홀 경계로 세지 않음",
+    "홀 내부를 채우거나 가로지르는 면·목의 브리지 유무",
+    "목폭·직선도·정해진 중심의 원호·접속점·전체 윤곽; bbox나 원맞춤 하나로 보증하지 않음",
+    "native 곡선과 출력 테셀레이션 오차 구분",
+    "동일 단위·축·등록·배율의 출력 및 저장·재열기 유지"
+  ],
+  "not_verified": [
+    "MD9 현지 메뉴·단축키·정밀도·모든 기능 호환",
+    "겹친 내부도형의 Boolean Union 지원 또는 도입 버전",
+    "개별 Add Point/Divide/Join 기능을 조합한 무손실 복합 윤곽 제작 순서",
+    "정확한 복합 홀 생성·수납·제품 검증",
+    "전체 영상·오디오·전체 자막 학습"
+  ],
+  "public_content": "자체 교육 설명·공식URL·실제 열람 범위·버전 한계만 게시. 원사진·앱캡처·영상프레임·자막/공식본문 전문·개인 경로/식별자·제품 고유값·실제 장애 사건은 포함하지 않음."
+}

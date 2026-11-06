@@ -49,6 +49,10 @@
 
 [Trace](https://support.marvelousdesigner.com/hc/en-us/articles/47358289149465-Trace)는 선·영역을 패턴이나 내부 요소로 옮기는 기능이다. 교차점 결합 여부와 변형되는 대상이 옵션에 따라 달라질 수 있다. OBJ의 UV를 이용한 패턴 추적은 다시 별도의 가져오기 경로이며 원래 해석적 곡선의 차수·제어점을 복원한다는 보증이 아니다. 실패한 가져오기 경로와 다른 기능의 문서상 존재를 섞어 성공으로 보고하지 않는다.
 
+겹친 내부도형의 면적 합집합(Union), 두 Pattern을 합치는 Merge, 열린 내부선 끝점을 잇는 Merge Points는 서로 다르다. Trace의 교차점 결합도 내부 경계를 제거한 면적 Union을 보장하지 않는다. **MD9의 Boolean Union→CutHole 명령 사슬은 이번 조사에서 지원·도입 버전 근거를 확보하지 못했다.** 기능 부재로 단정하거나 최신 문서의 동작을 MD9에 소급하지 않는다.
+
+문서상 유효한 단일 닫힌 Internal Shape의 Convert to Hole 기능과 정확한 복합 홀의 실기 성공은 구분한다. 승인된 별도 시험에서는 분기·자기교차·중복·틈 없는 단일 닫힌 체인, 변환 뒤 실제 재료 경계와 홀을 가로지르는 면의 유무, 원호·목폭·접속점의 실제 출력, 저장·재열기 유지를 확인한다. [보강 학습 근거](../reports/VideoLearning/20261106_MARVELOUS_INTERNAL_SHAPE_HOLE_STUDY.json)는 공식8본문(신규7·재열람1)과9.5 명시 영상10표본의 조사이며 전체 영상·오디오 검토나 MD9 native 실기 완료가 아니다.
+
 ## 5. 봉제 전에 개방 경계와 방향표를 만든다
 
 판 ID·경계 ID·양쪽 시작점·방향·길이·개방 여부를 표로 만든다. [Segment Sewing](https://support.marvelousdesigner.com/hc/en-us/articles/47358199517209-Segment-Sewing-2D)은 구간 연결, [Free Sewing](https://support.marvelousdesigner.com/hc/en-us/articles/47358239854361-Free-Sewing-2D)은 부분 경로 지정이라는 차이로 검토한다. 실제 연결 방향과 시작점은 별도 시험 문서에서 확인한다.

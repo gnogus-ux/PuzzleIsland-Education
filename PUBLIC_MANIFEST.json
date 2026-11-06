@@ -960,8 +960,8 @@
     },
     {
       "path": "docs/MARVELOUS_BASIC_PATTERN_EDITING.md",
-      "bytes": 14239,
-      "sha256": "16a686e6958dd801451cff18a5c3d6a9f3e64c6c439bd8af67d94e7ae2f2a951"
+      "bytes": 15347,
+      "sha256": "fa9658f2f26ff0bb15de97e691cf3a6d9edc7224d4ce028e9716ff64cc648f01"
     },
     {
       "path": "reports/VideoLearning/20261106_MARVELOUS_BASIC_SAMPLED_STUDY.json",
@@ -977,6 +977,11 @@
       "path": "reports/VideoLearning/20261106_MARVELOUS_SEWING_ASSEMBLY_STUDY.json",
       "bytes": 9869,
       "sha256": "963820a409c558b0892a03b10dd4c6f1969693fe93db84bb83ad207614ef3a74"
+    },
+    {
+      "path": "reports/VideoLearning/20261106_MARVELOUS_INTERNAL_SHAPE_HOLE_STUDY.json",
+      "bytes": 9724,
+      "sha256": "a989d35a148ef67bad5874d72a64833ff84309afa3717feb8ad08826d17d1c71"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
