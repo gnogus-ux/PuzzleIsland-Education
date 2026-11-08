@@ -126,6 +126,7 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 | 모델링5강·표면맵5강 근거·오류 교정 | [10강 분석](docs/WALLET_COURSE_ANALYSIS.md) |
 | 촬영·정렬·표면 복원·앞뒤 결합 | [사진→3D 촬영과 복원](docs/PHOTO3D_CAPTURE_RECONSTRUCTION.md) |
 | 실측 스케일·Blender 정리·fSpy | [지갑에 적용](docs/PHOTO3D_WALLET_APPLICATION.md) |
+| 위에서 보이는 엣지·가죽·실 간격, 그림자 방향·기준 높이로 입구 벌어짐 범위 추정 | [엣지와 그림자 기하](docs/WALLET_PLAN_EDGE_AND_SHADOW_OPENING.md) · [공식3문서 학습 범위](reports/ExternalLearning/20261108_WALLET_EDGE_SHADOW_GEOMETRY_STUDY.json) |
 | 사진→3D 5강 시간 색인·해석 교정 | [5강 분석](docs/PHOTO3D_COURSE_ANALYSIS.md) |
 
 - 모델링·표면 맵: [PDF](docs/downloads/wallet-modeling-and-surface-manual.pdf) · [편집용 Word](docs/downloads/wallet-modeling-and-surface-manual.docx) · [HTML 원본](docs/downloads/wallet-modeling-and-surface-manual.html)

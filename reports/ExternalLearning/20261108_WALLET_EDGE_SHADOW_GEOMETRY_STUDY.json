@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-08",
+  "author": "Codex",
+  "topic": "Local edge setback, projected opening and reference-height shadows",
+  "manual": "docs/WALLET_PLAN_EDGE_AND_SHADOW_OPENING.md",
+  "distinct_primary_documents_read": 3,
+  "sources": [
+    {
+      "publisher": "NASA",
+      "url": "https://ntrs.nasa.gov/api/citations/20220013453/downloads/TFAWS-2022-Short%20Course-Environments_Vector_Shading_MERGED.pptx.pdf",
+      "scope": "Slide26 extracted text: local plane, caster height, solar elevation, shadow length and similar triangles.",
+      "correction": "Formula denominator was garbled in extracted text; tangent equation was independently derived from the defined right triangle, not copied from OCR.",
+      "diagram_visually_verified": false
+    },
+    {
+      "publisher": "OpenCV",
+      "version": "4.13.0 documentation",
+      "url": "https://docs.opencv.org/4.13.0/d9/dab/tutorial_homography.html",
+      "scope": "Basic theory and coplanar-point perspective correction. Plane mapping does not recover the depth of raised surfaces."
+    },
+    {
+      "publisher": "OpenCV",
+      "version": "4.13.0 documentation",
+      "url": "https://docs.opencv.org/4.13.0/d9/d0c/group__calib3d.html",
+      "scope": "Introductory pinhole projection, intrinsic/extrinsic parameters, lens distortion and multiple points on one projection ray."
+    }
+  ],
+  "cross_check": [
+    "Projected width requires an explicit scale plane, cross-section, viewing angle and signed inset.",
+    "Parallel-light shadow height follows h=s*tan(alpha); known-height reference under a common plane projection gives h_target=h_reference*s_target/s_reference.",
+    "Image shadow direction supplies a projected light-direction candidate, not a unique3D light position.",
+    "Hidden leather and occlusion darkness are not automatically air or a cast shadow.",
+    "A finished edge thickness is not automatically the height of the shadow caster."
+  ],
+  "application": "Own local geometry design; no OpenCV installation or execution. Specific product measurements and application execution are separate private project evidence.",
+  "failed_sources_not_counted": ["Blender camera documentation access failed", "PUMAS PDF redirected to an offline landing page"],
+  "physical_product_validation": "NOT_RUN",
+  "native_blender_validation": "NOT_RUN",
+  "raw_media_or_private_paths_published": false
+}
