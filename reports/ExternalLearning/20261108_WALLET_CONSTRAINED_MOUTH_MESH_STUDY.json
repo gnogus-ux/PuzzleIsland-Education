@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-08",
+  "author": "Codex",
+  "purpose": "Constrained planar mouth candidate topology and smooth independent displacement",
+  "preflightCommit": "ae98c2eb47315118ea0bedad158add54e7bde24b",
+  "manual": "docs/WALLET_CONSTRAINED_MOUTH_MESH.md",
+  "reusedManual": "docs/WALLET_BROAD_CURVATURE_AND_POCKET_HEIGHT.md sections1-3",
+  "sources": [
+    {
+      "title": "Geometry Utilities",
+      "creator": "Blender Foundation",
+      "url": "https://docs.blender.org/api/5.2/mathutils.geometry.html",
+      "actuallyRead": "delaunay_2d_cdt signature, output modes0-5, epsilon, need_ids and orig mapping",
+      "downloadedBodySha256": "6c7484b329f8f659d604717f1b8e60da6f84407d731ba41772e08e4dfe90b126",
+      "downloadedBodyBytes": 415836
+    },
+    {
+      "title": "CDT Design T68277",
+      "creator": "Blender Foundation",
+      "url": "https://archive.blender.org/developer/maniphest/0068/0068277/index.html",
+      "actuallyRead": "Problem Description, Algorithm and API; intersecting constraints, original-element relationships",
+      "downloadedBodySha256": "8521a2735addf22f1c8d96ad92ac66c397da2d40d64ef47855cd60f2cf84bbdb",
+      "downloadedBodyBytes": 34653
+    },
+    {
+      "title": "2.81 Python API",
+      "creator": "Blender Foundation",
+      "url": "https://developer.blender.org/docs/release_notes/2.81/python_api/",
+      "actuallyRead": "Mathutils Geometry section, historical introduction only",
+      "downloadedBodySha256": "3d16016b7f929e348245b23b06b9607cc81db4b9d7fd183b68ab5a7e0f318e17",
+      "downloadedBodyBytes": 453433
+    }
+  ],
+  "retrieval": "Official bodies fetched directly after web-tool402/cache errors; specific text sections read. No source bodies republished.",
+  "nativeCoupon": {
+    "version": "5.2.2 LTS",
+    "isolatedFactory": true,
+    "functionDocstringRead": true,
+    "crossedDiagonals": {
+      "vertices": 5,
+      "edges": 8,
+      "faces": 4
+    },
+    "settingsHashUnchanged": true,
+    "saved": false
+  },
+  "distinctions": {
+    "study": "READ",
+    "apiCoupon": "EXECUTED",
+    "productApproval": "NOT_GRANTED",
+    "globalCollision": "NOT_RUN",
+    "universalCurvedMesh": "NOT_IMPLEMENTED"
+  },
+  "privateAssetsPublished": false
+}

@@ -1,7 +1,7 @@
 {
   "export_date": "2026-11-01",
   "public_repository": "gnogus-ux/PuzzleIsland-Education",
-  "manuals": 71,
+  "manuals": 72,
   "diagrams": 16,
   "checked_local_links": 367,
   "source_training_snapshot_commit": "cb1fd64193dd3e6704840c1731ee0345a913f4b5",
@@ -66,7 +66,8 @@
     "2026-11-05: Added bounded read-only preservation and transport-failure handling: explicit fields/data batches, remote-state UNKNOWN distinct from request return, tool-specific minimal recovery, no duplicate execution/forced takeover/restart, honest incomplete artifacts and independent work. No live application recovery or security change claimed.",
     "2026-11-06: Integrated five official MD sources and author-verified isolated coupon Name/general-curve save-reopen evidence; exact quadratic Bezier and absolute 2D placement remain unverified. Private paths, products and source screenshots omitted.",
     "2026-11-06: Read three official bodies and documented OBJ Load as Garment / Trace2D Patterns from UV Map candidate workflow;MD9 live import/pattern/curve fidelity explicitly NOT_RUN. No private data or raw sources published.",
-    "2026-11-08: Added local perpendicular edge/stitch distances, classified opening projection, directional-light and known-height shadow ratios from three primary document sections. Projection-scale definitions, stationary interval extrema, hidden-material refusal and unknown light-position limits separated. No private product data, raw media, installation or physical/native-app validation published."
+    "2026-11-08: Added local perpendicular edge/stitch distances, classified opening projection, directional-light and known-height shadow ratios from three primary document sections. Projection-scale definitions, stationary interval extrema, hidden-material refusal and unknown light-position limits separated. No private product data, raw media, installation or physical/native-app validation published.",
+    "2026-11-08: Added constrained planar-mouth mesh guidance and three official-document reading scopes; isolated Blender5.2.2 CDT coupon separately recorded. Private products, images, paths and source bodies excluded; no universal curved-mesh or physical-collision claim."
   ],
   "files": [
     {
@@ -76,8 +77,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 21550,
-      "sha256": "fff951cb128633fee5493a1de5ebd037a63a2094b68505b411359b594017d31a"
+      "bytes": 21816,
+      "sha256": "5a79918540b443a825da536e546451bd5e73bad2aa44a78995d4d09ccbae1601"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -993,6 +994,16 @@
       "path": "reports/ExternalLearning/20261108_WALLET_EDGE_SHADOW_GEOMETRY_STUDY.json",
       "bytes": 2382,
       "sha256": "3ac6935749275352994ae0d51cb6f804f164bab300d1112607ae93fe7020c0af"
+    },
+    {
+      "path": "docs/WALLET_CONSTRAINED_MOUTH_MESH.md",
+      "bytes": 5718,
+      "sha256": "16420a0586525158a44332eac7ad70dd84110550e8104a65d9bd34e63521f4e2"
+    },
+    {
+      "path": "reports/ExternalLearning/20261108_WALLET_CONSTRAINED_MOUTH_MESH_STUDY.json",
+      "bytes": 2207,
+      "sha256": "99e1e4d1c82441f00805e2ed958170b3670c868d263a4e6a7b0830bce6d8ecaa"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
