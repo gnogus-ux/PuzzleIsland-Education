@@ -1,6 +1,18 @@
 # PC 직접 TLS 파일 교환과 Android 페어링 설계
 
-2026-11-09 공식 문서 선택 범위 학습에 따른 **r17 후보용 설계**다. 문서 작성자는 서버·인증서 생성·앱 연결·포트 전달·외부 이동통신 실기를 실행하지 않았다. 후속 독립 native fixture 실행은 아래 별도로 기록한다. 기존 [r16 오프라인 파일 교환](ANDROID_OFFLINE_FILE_WORKFLOW.md)의 APK·초안·결과 파일·PC 원본을 보존한다. Cloudflare·VPN·새 계정/도메인·설치·비용·보안 설정 변경을 수행하지 않는다.
+2026-11-09 공식 문서 선택 범위 학습에 따른 **r17 설계와 제한된 로컬 실기 기록**이다. 문서 작성자는 서버·인증서 생성·앱 연결·포트 전달·외부 이동통신 실기를 실행하지 않았다. 후속 독립 native fixture 실행은 아래 별도로 기록한다. 기존 [r16 오프라인 파일 교환](ANDROID_OFFLINE_FILE_WORKFLOW.md)의 APK·초안·결과 파일·PC 원본을 보존한다. Cloudflare·VPN·새 계정/도메인·설치·비용·보안 설정 변경을 수행하지 않는다.
+
+## 후속 확인 — Windows 로컬 TLS와 업데이트 설치
+
+검수 담당이 저장한 결과를 작성자가 대조했다. 검수된 코드 69파일의 배포·해시 대조, 기존 데이터 189파일 및 보호 원본 475파일 불변이 확인됐다. 코드·데이터·캐시는 별도 영역에 두었으며 실제 서비스는 loopback에서만 실행했다. 개인 경로·제품 파일/사진 해시·키/credential 원문은 게시하지 않는다.
+
+실제 전용 TLS 키 생성·PEM 로드 후, loopback 전송에서 인증서 IP SAN을 참조 identity로 사용하는 표준 TLS 검사·정확한 인증서 일치·TLS1.3 협상이 통과했고 무인증 작업 목록 요청은 HTTP401이었다. IP SAN 참조값과 TCP 연결 목적지를 구분한다. 이는 LAN·공유기/방화벽 수신·공인 IP·이동통신 도달 성공이 아니다.
+
+기존 서명키를 보존한 실제 Windows APK 빌드의 v2/v3와 같은 서명 업데이트 설치를 확인했다. 설치 완료 후 확인한 앱은 versionCode2 / r17-1이고 INTERNET 권한을 선언한다. 기존 작업/저장 버전·초안 없음 상태와 PC 연결 메뉴·미페어링 안내 표시만 확인했다. 설치 도중 이전 버전을 보여 준 조기 캡처는 증거에서 제외했다. 실제 앱 페어링·네이티브 송수신은 아직 하지 않았다.
+
+Windows에서는 제작자 시나리오를 검수 담당이 재실행해 서버 124/124·PC e2e 54/54가 통과했다. symlink 생성/정리의 OSError 시 건너뛰는 항목 1건은 이 Windows 실행에서 미실행이다. 별도 제작자 sandbox의 125건과 합산하지 않는다. 검수 담당이 직접 작성한 작은 한도·잠금 유지/만료 회복 재현 통과는 이 시나리오 재실행과 별도 근거다.
+
+이전 shell native 11건은 빌드/native 입력 21파일 불변 대조를 근거로 재사용하며 새 native 실행으로 세지 않는다. [로컬 배포·설치 검수 범위](../reports/ToolInventory/20261109_R17_LOCAL_DEPLOYMENT_APK_REVIEW.json)에 확인과 미확인을 구분했다. 전체 r17/공개 준비 완료 판정은 하지 않는다.
 
 ## 구성과 공개 범위
 
@@ -27,7 +39,7 @@
 
 ## 3. 기존 JDK → Python SSL의 인증서 형식 경계
 
-[JDK 17 keytool](https://docs.oracle.com/en/java/javase/17/docs/specs/man/keytool.html)은 키쌍·자체 서명 인증서와 SAN의 IP/DNS, serverAuth 등 확장을 다룬다. APK 서명키를 재사용하지 않고 TLS 전용 키/별칭/유효기간을 정한다. 명령행·채팅에 암호를 넣지 않고 지원되는 안전한 입력/비공개 암호 파일을 사용한다. 실제 생성은 아직 하지 않았다.
+[JDK 17 keytool](https://docs.oracle.com/en/java/javase/17/docs/specs/man/keytool.html)은 키쌍·자체 서명 인증서와 SAN의 IP/DNS, serverAuth 등 확장을 다룬다. APK 서명키를 재사용하지 않고 TLS 전용 키/별칭/유효기간을 정한다. 명령행·채팅에 암호를 넣지 않고 지원되는 안전한 입력/비공개 암호 파일을 사용한다. 초기 학습 때는 생성 전이었으며, 후속 독립 검수에서 전용 TLS 키 생성·PEM 로드를 확인했다. 문서 작성자는 실행하지 않았다.
 
 [Python 3.10 SSL](https://docs.python.org/3.10/library/ssl.html#ssl.SSLContext.load_cert_chain)의 `load_cert_chain`은 PEM 인증서와 대응 개인키를 읽는다. keytool의 PKCS12 파일을 그대로 넘기는 방식은 지원 경로가 아니다. OpenSSL 명령이 PATH에 없어도 Python의 ssl 모듈과 동일한 의미가 아니며, 별도 OpenSSL 설치를 자동 요청하지 않는다.
 
@@ -64,7 +76,7 @@
 
 최소 시험은 정상 exact-cert/SAN/credential 다운로드·업로드와 함께 다음 실패를 포함한다: 다른 인증서·같은 키의 다른 DER 인증서·만료/미래 인증서·SAN 불일치·HTTP·redirect·누락/오류/폐기 토큰·타 기기 작업ID·허용 외 route/path·과대/손상/중복 파일·중간 연결 종료·느린 요청/동시 폭주·PC 수정 충돌. 실패 후 토큰/사진 미노출과 기존 초안/원본 불변을 확인한다. 이후에만 승인된 좁은 네트워크 설정을 적용하고 실제 이동통신 왕복을 별도 시험한다.
 
-초기 학습 당시 인증서 생성·변환·pin handshake·credential 폐기·전송·외부 경로는 미검증이었다. 후속 shell fixture에서 제한한 native 전송·인증 거부가 확인됐다. 실제 서비스 인증서/변환·설치 앱 통합·라우터/방화벽 설정·외부 이동통신 및 공개 서버 준비는 여전히 별도 미검증이다. [자료별 학습 범위](../reports/ExternalLearning/20261109_DIRECT_TLS_FILE_EXCHANGE_STUDY.json)를 참고한다.
+초기 학습 당시 인증서 생성·변환·pin handshake·credential 폐기·전송·외부 경로는 미검증이었다. 후속 shell fixture에서 제한한 native 전송·인증 거부가 확인됐다. 후속 Windows 로컬 키 생성/PEM 로드·표준 IP SAN/TLS1.3와 제한된 APK 설치는 위 실기 범위로 확인됐다. 설치 앱의 실제 pairing/송수신·라우터/방화벽·외부 이동통신·공개 서버 준비는 여전히 별도 미검증이다. [자료별 학습 범위](../reports/ExternalLearning/20261109_DIRECT_TLS_FILE_EXCHANGE_STUDY.json)를 참고한다.
 
 ## Android 런타임의 별도 격리 검수
 

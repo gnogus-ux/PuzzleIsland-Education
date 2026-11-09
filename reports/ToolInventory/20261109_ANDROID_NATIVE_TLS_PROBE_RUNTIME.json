@@ -136,8 +136,9 @@
     "Other devices/builds/providers",
     "Full r17 server lifecycle/resource tracking/public-service readiness"
   ],
-  "separate_work": "PC endpoint tests and ongoing server tracking corrections are separate from this native fixture receipt; no aggregate full-program pass",
+  "separate_work": "This historical shell fixture receipt is separate from subsequent Windows producer-scenario reruns, independent lock regression and same-signature app install. Those are linked in the followup receipt; actual installed-app transfer/external tests remain pending.",
   "publisher_new_device_code_build_server_or_settings_operations": 0,
   "raw_code_DEX_photos_private_paths_serial_credentials_keys_or_test_payload_hashes_published": false,
-  "manual": "docs/ANDROID_NATIVE_TLS_PROBE.md"
+  "manual": "docs/ANDROID_NATIVE_TLS_PROBE.md",
+  "subsequent_local_install_receipt": "reports/ToolInventory/20261109_R17_LOCAL_DEPLOYMENT_APK_REVIEW.json"
 }

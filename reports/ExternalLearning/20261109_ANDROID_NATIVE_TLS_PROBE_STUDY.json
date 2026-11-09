@@ -193,5 +193,7 @@
   "browser_study": "Separate source-study task completed normally with no kept pages; no router/device/app UI operated",
   "raw_source_files_and_personal_or_secret_data_published": false,
   "runtime_receipt": "reports/ToolInventory/20261109_ANDROID_NATIVE_TLS_PROBE_RUNTIME.json",
-  "historical_study_scope": "Source learning observations and author-zero-execution fields remain historical/author-scoped. A separate root runtime receipt now records one actual device fixture."
+  "historical_study_scope": "Source learning observations and author-zero-execution fields remain historical/author-scoped. A separate root runtime receipt now records one actual device fixture.",
+  "subsequent_build_and_install_receipt": "reports/ToolInventory/20261109_R17_LOCAL_DEPLOYMENT_APK_REVIEW.json",
+  "runtime_continuity": "21 APK/native build inputs unchanged; prior11 ordinary-shell cases reused, not rerun as installed-app tests. Same-signature update/limited installed UI now observed."
 }

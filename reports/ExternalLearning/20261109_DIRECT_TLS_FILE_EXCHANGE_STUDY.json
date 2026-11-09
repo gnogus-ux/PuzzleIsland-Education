@@ -252,12 +252,12 @@
   ],
   "private_data_or_source_media_publicly_published": false,
   "runtime_followup_receipt": "reports/ToolInventory/20261109_ANDROID_NATIVE_TLS_PROBE_RUNTIME.json",
-  "runtime_scope": "Root native shell fixture11cases passed on one S24/Android16; separate from source learning and not a full r17/app/cellular acceptance",
+  "runtime_scope": "Root shell fixture11 remains separate; subsequent reviewed Windows key/PEM/TLS1.3+IP-SAN loopback and same-signature APK update/limited UI observed. No installed-app native transfer or external acceptance.",
   "not_verified": [
-    "Actual service PKCS12/PEM generation/load/rotation path",
-    "Installed-app exact-leaf/hostname/SAF/pairing/UI integration beyond the shell fixture",
-    "Production credential scope/storage and complete server lifecycle/resource limits",
-    "Authorized router/firewall public routing",
-    "Real mobile-data transfer and operational readiness"
-  ]
+    "Installed-app pairing/native transfer and full UI integration",
+    "LAN/router/firewall/mobile-data reachability",
+    "Whole public-service production readiness",
+    "Windows symlink deletion scenario skipped on this run"
+  ],
+  "local_deployment_and_install_followup_receipt": "reports/ToolInventory/20261109_R17_LOCAL_DEPLOYMENT_APK_REVIEW.json"
 }

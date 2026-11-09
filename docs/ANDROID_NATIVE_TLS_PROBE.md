@@ -18,7 +18,7 @@
 
 소유 probe 프로세스 잔여 0, 원래 forward/reverse 목록 보존·시험 reverse 해제, 전용 기기 시험 파일 정리를 확인했다. 원앱/사설 data/페어링/CA/권한·보안 설정·기기 시간·실사용 서버 키/token은 접근·변경하지 않았다는 보존 보고와 대조했다. 이 probe에서 새 앱 APK 빌드·설치는 하지 않았다.
 
-저장 기록의 headers/auth 카운터를 근거로 쓰며 기록에 없는 본문 바이트 계측값은 만들지 않는다. 이 결과는 설치 앱의 Manifest/SAF/UI/권한·외부 인증서·이동통신 검수나 r17 전체/공개 준비 완료가 아니다. 별도 서버 보완·통합 검수는 진행 중이다. [익명화한 범위별 실기 기록](../reports/ToolInventory/20261109_ANDROID_NATIVE_TLS_PROBE_RUNTIME.json)을 참고한다.
+저장 기록의 headers/auth 카운터를 근거로 쓰며 기록에 없는 본문 바이트 계측값은 만들지 않는다. 이 결과는 설치 앱의 Manifest/SAF/UI/권한·외부 인증서·이동통신 검수나 r17 전체/공개 준비 완료가 아니다. 후속 Windows 로컬 서버 보완 재검수·APK 업데이트 설치 결과는 별도 기록이며 앱 통합 전송·외부 검수는 대기 중이다. [익명화한 범위별 실기 기록](../reports/ToolInventory/20261109_ANDROID_NATIVE_TLS_PROBE_RUNTIME.json)을 참고한다.
 
 ## 지원 근거와 한계
 
@@ -59,3 +59,7 @@ fixture URL의 호스트/IP와 SAN은 실제 검수 조건에 맞춰야 한다. 
 [공식 instrumentation 안내](https://developer.android.com/studio/test/command-line)는 main/test APK의 빌드·설치와 선언된 runner를 전제로 `am instrument`를 사용한다. 별도 시험 패키지·runner/의존성·호환 API·서명·설치 승인·대상 앱과 데이터 보존 계획이 필요하다. AndroidX runner나 Gradle 캐시가 이미 있다고 가정하지 않는다. 지금 허용된 설치 없는 probe가 거부됐다는 이유로 원앱을 대상으로 instrumentation을 시작하거나 새 APK를 설치하지 않는다. 필요한 항목만 보고하고 현재 검수 범위를 미완료로 남긴다.
 
 공식 근거와 위 한정 실기 관찰을 구분한다. 실기 통과는 한 기기/후보의 shell fixture 범위이며 원앱·셀룰러 성공으로 확대하지 않는다. [문서/소스별 실제 열람 범위](../reports/ExternalLearning/20261109_ANDROID_NATIVE_TLS_PROBE_STUDY.json)와 함께 사용한다.
+
+## 후속 설치 관찰과 기존 probe의 재사용
+
+후속 후보의 빌드/native 입력 21파일이 기존 시험 입력과 같다는 검수 대조를 근거로 위 shell 11건을 재사용한다. 새 probe 실행이나 설치 앱 환경에서 같은 11건을 수행한 결과가 아니다. 같은 서명 APK versionCode2 / r17-1의 실제 업데이트 설치·기존 작업/저장 버전·초안 없음 표시·PC 연결 메뉴는 확인했지만 앱 pairing/송수신·LAN/셀룰러는 미검증이다. 설치 중 이전 버전을 보여 준 조기 캡처는 제외하고 설치 완료 후 확인 기록만 사용했다. [Windows 로컬·설치 범위별 보고](../reports/ToolInventory/20261109_R17_LOCAL_DEPLOYMENT_APK_REVIEW.json)를 참고한다.

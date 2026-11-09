@@ -1,0 +1,86 @@
+{
+  "date_kst": "2026-11-09",
+  "status": "REVIEWED_LOCAL_WINDOWS_DEPLOYMENT_AND_LIMITED_APK_INSTALL_EXTERNAL_PENDING",
+  "evidence": "Saved independent reviewer records/logs directly read by documentation publisher; no new runtime actions",
+  "deployment": {
+    "reviewed_files_copied_and_hash_compared": 69,
+    "existing_data_files_preserved": 189,
+    "protected_original_files_unchanged": 475,
+    "runtime_data_cache_separated": true,
+    "public_network_opened": false,
+    "private_paths_or_product_asset_hashes_published": false
+  },
+  "actual_local_TLS": {
+    "transport": "loopback only; IP SAN reference identity is distinct from TCP destination",
+    "standard_IP_SAN_validation": "Independent reviewer reports standard TLS verification with IP SAN over loopback transport",
+    "version": "TLS1.3",
+    "cipher": "TLS_AES_256_GCM_SHA384",
+    "exact_certificate_match": true,
+    "private_material": "Dedicated TLS key generation, PEM load and key/certificate correspondence observed locally; no material or fingerprint published",
+    "anonymous_job_list_http": 401,
+    "paired_devices_in_actual_runtime": 0,
+    "LAN_or_mobiledata_proof": false
+  },
+  "apk": {
+    "actual_windows_build_exit": 0,
+    "signature_v2": true,
+    "signature_v3": true,
+    "existing_signing_identity_reused_and_unchanged": true,
+    "version_code": 2,
+    "version_name": "r17-1",
+    "declared_permission": [
+      "android.permission.INTERNET"
+    ],
+    "same_signature_update_install_confirmed_after_completion": true,
+    "limited_UI": [
+      "Existing task/saved measurement version and no-draft state displayed",
+      "PC connection menu rendered",
+      "Unpaired receive action showed setup instructions"
+    ],
+    "all_private_app_data_dump_or_comparison": false,
+    "premature_capture_of_prior_version_excluded": true,
+    "pairing_created": false,
+    "actual_installed_app_network_roundtrip": false,
+    "private_APK_signing_or_photo_hashes_published": false
+  },
+  "windows_producer_scenarios_rerun_by_reviewer": {
+    "exchange": {
+      "passed": 124,
+      "failed": 0,
+      "unexecuted_symlink_case": 1,
+      "skip_reason": "Symlink creation/operation OSError is caught and skipped; this Windows run did not log that case",
+      "distinct_producer_sandbox_count": 125,
+      "counts_not_combined": true
+    },
+    "pc_e2e": {
+      "passed": 54,
+      "failed": 0
+    },
+    "independent_scenario_authorship": false
+  },
+  "independent_reviewer_authored_regression": {
+    "small_capacity_admission_auth_failure_lock_and_expiry_recovery": true,
+    "active_lock_preserved_until_expiry": true,
+    "new_peer_recovery_after_expiry": true,
+    "pass": true
+  },
+  "native_fixture_reuse": {
+    "previous_scope": "11 ordinary-shell AndroidOpenSSL/Conscrypt fixture cases; not installed-app or cellular",
+    "build_and_native_input_files_compared": 21,
+    "changed_inputs_since_tested_build": 0,
+    "new_native_run_claimed": false,
+    "receipt": "reports/ToolInventory/20261109_ANDROID_NATIVE_TLS_PROBE_RUNTIME.json"
+  },
+  "not_verified": [
+    "Installed-app pairing and native send/receive",
+    "LAN access",
+    "Router forwarding",
+    "Firewall rules for inbound external access",
+    "Mobile-data/public IP reachability",
+    "Whole r17/public production readiness",
+    "Windows symlink deletion safety scenario on this run"
+  ],
+  "historical_r16_acceptance_preserved": true,
+  "Cloudflare_or_VPN_used": false,
+  "publisher_new_research_code_build_server_phone_router_or_settings_operations": 0
+}
