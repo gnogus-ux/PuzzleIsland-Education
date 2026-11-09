@@ -81,7 +81,8 @@
     "2026-11-09: Added narrow Android/HTML button feedback study from12 selected official documents: transient press versus persistent screen/mode, actual progress/save/error results, Android state lists/API30 compatibility, ARIA toggle/current/disabled/busy, cancellation, restored state and accessible visible cues. Product code/app/device/servers unchanged; no UI runtime/accessibility conformance claimed. Prior r16 and networking holds preserved.",
     "2026-11-09: Added real SDK version override correction from4selected primary sources and scoped UI review: requestedversion3/r17-ui1 finalbadging, preserved signing v2/v3, completed update/install-loaded-screen evidence, native12 and web4 at360CSSpx. Job-open SAF cancel differs from untested result export/save-failure/font/rotation/TalkBack/cellular. Publisher read stored evidence only; no raw screens/private artifacts or their hashes published. Prior r16/native11/service history and network holds preserved.",
     "2026-11-09: Added narrow mobile-tabs/current-task/next-action design from5core primary sources, reusing existing state/result guidance. Functional panels, ARIA keyboard behavior, thin sticky navigation, collapsible repetitive detail, critical dirty/error/unconfirmed-PC state, WebView display-data limits and positive-size hidden-canvas rendering are separated from untested product implementation. No app/phone/server/production changes or new dependencies.",
-    "2026-11-09: Added plain-button workspace selection/return focus and hidden-state supplement from three primary selected sections; previous tab rules conditional, no picker runtime success claimed. Private app-reference screens not published."
+    "2026-11-09: Added plain-button workspace selection/return focus and hidden-state supplement from three primary selected sections; previous tab rules conditional, no picker runtime success claimed. Private app-reference screens not published.",
+    "2026-11-09: Added sanitized three-official-photo-app UI observations and reuse proposals; marketing images and numeric-version limits distinguished from actual app/product execution. No raw screens, private brief, product values or artifact hashes published."
   ],
   "files": [
     {
@@ -1141,13 +1142,18 @@
     },
     {
       "path": "docs/WORKSPACE_SELECTION_RETURN.md",
-      "bytes": 5202,
-      "sha256": "b3d38fb95afd9d080278a5054caa4b46266c7073c25b6fe9b9ad94f60c1a8098"
+      "bytes": 7469,
+      "sha256": "71270937458c854e028e8665bca58811d8aefe0193fce30328f2e7f59ccebc96"
     },
     {
       "path": "reports/ExternalLearning/20261109_WORKSPACE_SELECTION_RETURN_STUDY.json",
       "bytes": 3734,
       "sha256": "38777ea39c0ad1ae61ab587b81fe4e1232a33c723d8c27b7f46f05e113f210a9"
+    },
+    {
+      "path": "reports/ExternalLearning/20261109_PHOTO_EDITOR_UI_REFERENCE_STUDY.json",
+      "bytes": 2552,
+      "sha256": "b4249ce6c35c73dcd5995b107172985ba311fae7cc06ea8f3f8890025b6cc03e"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1397,5 +1403,11 @@
     "scope": "Three primary selected sections; focus/hidden design only, no new device/product test",
     "raw_screens_or_private_values_published": false,
     "prior_history_and_order_preserved": true
+  },
+  "photo_editor_ui_reference_study_20261109": {
+    "manual": "docs/WORKSPACE_SELECTION_RETURN.md",
+    "study": "reports/ExternalLearning/20261109_PHOTO_EDITOR_UI_REFERENCE_STUDY.json",
+    "scope": "Previously observed official three-store marketing screens; no actual reference-app or product execution",
+    "raw_images_or_private_values_published": false
   }
 }

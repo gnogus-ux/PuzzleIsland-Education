@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-09",
+  "manual": "docs/WORKSPACE_SELECTION_RETURN.md",
+  "method": "Reconciled previously completed direct observation of three official store pages and their selected published UI images; no new browsing or image review in this publication",
+  "sources": [
+    {
+      "app": "Adobe Lightroom",
+      "publisher": "Adobe",
+      "url": "https://play.google.com/store/apps/details?id=com.adobe.lrmobile&hl=en",
+      "listed_update_date_at_read": "2026-11-04",
+      "read_scope": "Photo extension editing marketing image",
+      "observed": "Large photo/crop area, related controls and named subtools below",
+      "numeric_app_and_image_version": "NOT_CONFIRMED"
+    },
+    {
+      "app": "Snapseed",
+      "publisher": "Google LLC",
+      "url": "https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&hl=en",
+      "listed_update_date_at_read": "2026-11-05",
+      "read_scope": "Film styles editing marketing image",
+      "observed": "Large photo, named tool groups, highlighted current group and nearby previews",
+      "numeric_app_and_image_version": "NOT_CONFIRMED"
+    },
+    {
+      "app": "Google Photos",
+      "publisher": "Google LLC",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en",
+      "listed_update_date_at_read": "2026-11-04",
+      "read_scope": "Object removal editing marketing image",
+      "observed": "Large photo, nearby selection controls and separated action controls",
+      "numeric_app_and_image_version": "NOT_CONFIRMED"
+    }
+  ],
+  "proposals": [
+    "Photo-first space with nearby task-specific tools",
+    "Plain named selection buttons to large workspace and explicit return is our proposal, not a shared observed flow in all reference apps",
+    "Short Korean names plus visible current-state cues; do not copy icons alone",
+    "Keep critical dirty/error/unconfirmed-PC boundary visible; fold repetitive detail",
+    "Device draft, exported file, PC receipt and explicit PC apply/calculation are separate results"
+  ],
+  "not_verified": [
+    "Installed or latest global app versions",
+    "Reference-app actual navigation/save/cancel behavior",
+    "Product picker behavior, storage, accessibility or conformance"
+  ],
+  "actual_reference_apps_executed": 0,
+  "installation_login_paid_use_personal_photo_upload": 0,
+  "new_product_phone_server_router_operations": 0,
+  "raw_images_private_brief_product_values_paths_or_artifact_hashes_published": false,
+  "prior_focus_study_runtime_and_network_holds_unchanged": true
+}

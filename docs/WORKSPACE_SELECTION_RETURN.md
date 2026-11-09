@@ -31,3 +31,13 @@
 이 문서는 공식 세 절의 학습과 적용 제안이다. 기존 탭 시제품의 시험 수치나 이전 버튼 실기를 새 선택 화면 성공으로 재사용하지 않는다. 새 선택/복귀 UI·초점·저장·회전·접근성은 **미검증**이며 설치·의존성·계정·외부 설정 변경을 포함하지 않는다.
 
 [자료별 선택 열람 기록](../reports/ExternalLearning/20261109_WORKSPACE_SELECTION_RETURN_STUDY.json)을 함께 확인한다.
+
+## 5. 공식 사진 편집 앱 화면에서 참고할 구조
+
+공식 Google Play의 [Adobe Lightroom](https://play.google.com/store/apps/details?id=com.adobe.lrmobile&hl=en), [Google Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&hl=en), [Google Photos](https://play.google.com/store/apps/details?id=com.google.android.apps.photos&hl=en) 소개 페이지와 게시된 편집 이미지 각 한 화면을 관찰했다. Lightroom은 큰 사진 아래 관련 조작·도구를, Snapseed는 사진 아래 이름 있는 도구 그룹과 강조된 선택을, Google Photos는 큰 사진 가까이에 선택 조작과 별도 실행 조작을 보여 줬다. 이는 공개 마케팅 화면의 관찰이며 실제 앱 탐색·저장 동작을 실행한 기록이 아니다.
+
+재사용할 제안은 사진 공간을 먼저 확보하고 현재 작업에 필요한 소수 도구를 가까이 두는 것이다. 선택 화면에서 기능을 고른 뒤 큰 작업 공간을 열고 명시적으로 복귀하는 흐름은 이 문서의 적용 제안이며, 관찰한 세 앱 모두가 같은 흐름이라는 주장은 아니다. 아이콘만 모방하지 말고 짧은 한국어 기능 이름과 대비·체크/텍스트의 현재 상태를 함께 둔다. 중복 헤더·반복 설명은 줄이되 미저장·오류·PC 반영 미확인은 짧게 남긴다.
+
+다른 앱의 체크/완료 표시는 이 프로그램의 저장 근거가 아니다. 기기 초안 저장·결과 파일 생성·PC 접수·PC 계산/명시 반영을 각각 구분하며 알 수 없는 PC 결과는 미확인으로 둔다. 브랜드·아이콘·사진을 복제하거나 원본 캡처를 공개 자산으로 사용하지 않는다.
+
+열람 당시 소개 페이지의 업데이트 표시는 각각 2026-11-04, 2026-11-05, 2026-11-04였다. 숫자 앱 버전·이미지 촬영 버전과 전 세계 최신 배포 상태는 확인하지 못했다. 실제 앱 실행·설치·로그인·개인 사진 업로드·유료 기능 실행은 0이다. 위 배치 제안의 제품 조작·저장·접근성 통과도 별도 검수 전까지 미검증이다. [공식 화면 선택 관찰 범위](../reports/ExternalLearning/20261109_PHOTO_EDITOR_UI_REFERENCE_STUDY.json)를 참고한다.
