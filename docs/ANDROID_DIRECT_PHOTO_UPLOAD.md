@@ -84,6 +84,16 @@ uploadId의 멱등 계약은 요청 시작부터 (deviceId, folderId, SHA256)에
 
 [익명화한 범위별 검수 영수증](../reports/ToolInventory/20261110_ANDROID_DIRECT_PHOTO_UPLOAD_SCOPED_RUNTIME.json)을 참고한다. 이전 세 반례와 제품 생성 ID의 저장·정리 동시 실패는 독립 재시험에서 해소됐다는 근거를 대조했다. 독립 TLS 계약24/24, Windows native124/124·fix01 34/34·launcher50 통과를 각각의 범위로 기록하며 합산한 전체 무결함 판정으로 쓰지 않는다.
 
+## 후속 추가 — 별도 휴대폰의 실제 셀룰러 PNG 등록 (2026-11-10)
+
+앞 절의 새 사진 이동통신 미검증은 당시 Wi-Fi 검수 범위의 기록으로 보존한다. 이후 검수 담당이 기존 versionCode5/r18-photo1이 이미 설치된 별도 승인 Android 폰에서 새 제품 폴더를 명시 생성·선택하고, 시스템 선택기로 작은 합성 PNG 한 장을 골라 앱의 직접 TLS 경로로 PC에 등록했다. 원본 바이트·SHA와 영수증의 제품/프로젝트 대응이 일치했고, 같은 파일을 다시 보내자 중복1건으로 처리되어 활성 사진은1장으로 유지됐다. 이번 후속에는 새 빌드·설치가 없었다.
+
+전송 전후 기본 네트워크는 CELLULAR/VALIDATED, Wi-Fi 꺼짐·모바일 데이터 켜짐이었으며 검수자가 네트워크 설정을 바꾸지 않았다. USB는 사용자가 직접 승인한 기기 조작과 검수용 파일 전달에만 쓰였고 TLS 전송에 reverse를 쓰지 않았다. 기존 PC7프로젝트 요약·현재 선택·모델/사진 작업 유휴 상태와 AI 통계가 유지됐다. 기존 기기 등록은 보존하고 검수 기기만 추가했으며 서버 재시작·공유기·방화벽·인증서 변경은 없었다.
+
+가져오기 뒤 임시 페어링 사본은 PC와 폰에서, 검수용 사진 사본은 폰에서 제거했으며 앱의 페어링과 서버에 등록한 시험 제품/사진은 남겼다. 이 결과는 그 폰의 해당 셀룰러 연결에서 PNG1장과 동일 파일 중복에 한정한다. 다른 통신사·로밍·장시간/대용량 전송·셀룰러 JPEG/WebP와 전체 제품의 운영 준비까지 통과한 것은 아니다. 문서 게시 담당은 폰·서버를 새로 조작하거나 모델 설정을 변경하지 않고 저장 근거만 대조했다.
+
+[익명화한 셀룰러 범위별 영수증](../reports/ToolInventory/20261110_ANDROID_CELLULAR_PHOTO_UPLOAD_SCOPED_RUNTIME.json)을 [이전 Wi-Fi 검수](../reports/ToolInventory/20261110_ANDROID_DIRECT_PHOTO_UPLOAD_SCOPED_RUNTIME.json)와 구분해 읽는다.
+
 ## 6. 실제 읽은 원출처와 학습 범위
 
 1. [Android SAF](https://developer.android.com/training/data-storage/shared/documents-files): 문서 열기·MIME·URI 권한·메타데이터·가상문서/stream 제한 절.

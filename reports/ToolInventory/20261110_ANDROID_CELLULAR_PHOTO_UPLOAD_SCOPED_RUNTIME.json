@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-10",
+  "status": "PASS_SCOPED_ONE_ANDROID_PHONE_CELLULAR_PNG_REGISTRATION_AND_DUPLICATE",
+  "roles": {
+    "actual_device_network_and_registration_review": "Codex reviewer",
+    "publisher": "Document specialist compared saved evidence only; no new app/device/server operation or study"
+  },
+  "prior_evidence_preserved": "Earlier same-WiFi PNG/JPEG product-folder verification remains a separate historical receipt.",
+  "installed_app": {
+    "versionCode": 5,
+    "versionName": "r18-photo1",
+    "already_installed": true,
+    "new_builds": 0,
+    "new_installations": 0,
+    "USB_authorization": "Completed directly by user"
+  },
+  "network": {
+    "default_transport_before": "CELLULAR",
+    "default_transport_after": "CELLULAR",
+    "validated_before_and_after": true,
+    "WiFi_disabled_before_and_after": true,
+    "mobile_data_enabled_before_and_after": true,
+    "network_setting_changes": 0,
+    "USB_reverse_used_for_TLS": false,
+    "USB_scope": "Authorized device control and owned pairing/fixture copies only; not the photo TLS transport"
+  },
+  "actual_photo_flow": {
+    "media_scope": "One small synthetic PNG only",
+    "explicit_new_product_folder_created_and_selected": true,
+    "system_file_picker_used": true,
+    "application_TLS_upload_used": true,
+    "new_upload_result": "registered 1",
+    "original_bytes_and_SHA_exact": true,
+    "receipt_product_folder_and_project_mapping_match": true,
+    "same_file_repeat_result": "duplicate 1",
+    "active_photo_count_after_duplicate": 1,
+    "unrelated_photos_selected": 0
+  },
+  "preservation": {
+    "prior_PC_project_summaries_unchanged": 7,
+    "current_PC_project_selection_unchanged": true,
+    "model_and_photo_jobs_remained_idle": true,
+    "AI_statistics_unchanged": true,
+    "prior_server_device_registrations_retained": 2,
+    "review_device_registration_added": 1,
+    "phone_work_and_draft_state_preserved": true,
+    "app_pairing_retained": true,
+    "server_restart": 0,
+    "router_firewall_or_certificate_changes": 0
+  },
+  "cleanup": {
+    "own_PC_plaintext_pairing_copy_removed": true,
+    "own_phone_plaintext_pairing_copy_removed": true,
+    "own_phone_fixture_copy_removed": true,
+    "registered_test_product_and_server_photo_retained": true,
+    "unrelated_user_data_removed": false
+  },
+  "limits": [
+    "One tested Android phone and its current cellular connection only; other carriers and roaming not tested.",
+    "One small synthetic PNG and its duplicate only; cellular JPEG/WebP not tested.",
+    "Long-running or large transfers, broader device matrix, TalkBack and process-kill recovery are not covered by this followup.",
+    "No whole-product, physical measurement or manufacturing-readiness claim."
+  ],
+  "privacy": {
+    "private_paths_IP_device_folder_photo_project_identifiers_fingerprints_credentials": false,
+    "raw_media_names_or_fixture_hash_values": false
+  },
+  "publisher_new_runtime_build_install_study_or_model_settings_changes": 0,
+  "manual": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md",
+  "prior_WiFi_receipt": "reports/ToolInventory/20261110_ANDROID_DIRECT_PHOTO_UPLOAD_SCOPED_RUNTIME.json"
+}

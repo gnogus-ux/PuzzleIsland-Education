@@ -85,7 +85,8 @@
     "2026-11-09: Added sanitized three-official-photo-app UI observations and reuse proposals; marketing images and numeric-version limits distinguished from actual app/product execution. No raw screens, private brief, product values or artifact hashes published.",
     "2026-11-09: Reconciled approved narrow forwarding/firewall settings and installed-app v3 file roundtrip via same-WiFi public IPv4 NAT loopback. Not independent external/cellular, PC apply or new chooser UI acceptance. Private network/device/asset/auth values and hashes omitted; prior local history preserved.",
     "2026-11-09: Added six-primary-source selected-section Android photo upload manual, plus Pillow11.3.0 official-tag API comparison to current13.0.0 docs. Bounded SAF/TLS/image validation/original-copy registration design; runtime not claimed; private state omitted.",
-    "2026-11-10: Clarified explicit product-folder identity, permissions and idempotency; added anonymized reviewer evidence for same-signature APK versionCode5/r18-photo1 update and PNG/JPEG registration across two product folders via same-WiFi NAT loopback. Original sources preserved; cellular photo feature and other scoped exclusions remain unverified; publisher runtime0."
+    "2026-11-10: Clarified explicit product-folder identity, permissions and idempotency; added anonymized reviewer evidence for same-signature APK versionCode5/r18-photo1 update and PNG/JPEG registration across two product folders via same-WiFi NAT loopback. Original sources preserved; cellular photo feature and other scoped exclusions remain unverified; publisher runtime0.",
+    "2026-11-10: Added saved-reviewer evidence for one separately tested Android phone using validated cellular transport to register one synthetic PNG in an explicit product folder and deduplicate a repeat. Existing app5/r18-photo1 reused, build/install/server/network configuration changes0; prior WiFi history preserved; other carriers, roaming, long transfers and cellular JPEG/WebP remain unverified; no private source values published."
   ],
   "files": [
     {
@@ -620,8 +621,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 27676,
-      "sha256": "e2f8152d12a9cec7eaa68b95cfa1e805b41213d9aa5f74927d6bbf15d27f42d1"
+      "bytes": 28952,
+      "sha256": "51162e452326eb2fc1ae69124f554218c382b4ad565b4e32057ad3817c8b8fc5"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1165,8 +1166,8 @@
     },
     {
       "path": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md",
-      "bytes": 21127,
-      "sha256": "7085c535c7e66aff1cec15753255050a4bd9564e291f0be1fcdca32bafe05aa6"
+      "bytes": 23206,
+      "sha256": "0aff3adf3ff6f71ec01b192741b5261929f41314388c90d6d8bb60e2ef9a8435"
     },
     {
       "path": "reports/ExternalLearning/20261109_ANDROID_DIRECT_PHOTO_UPLOAD_STUDY.json",
@@ -1177,6 +1178,11 @@
       "path": "reports/ToolInventory/20261110_ANDROID_DIRECT_PHOTO_UPLOAD_SCOPED_RUNTIME.json",
       "bytes": 4687,
       "sha256": "96b70328828da79138fde64a250f5a0f0902b8d2e0d4343bb19df10afd0df74f"
+    },
+    {
+      "path": "reports/ToolInventory/20261110_ANDROID_CELLULAR_PHOTO_UPLOAD_SCOPED_RUNTIME.json",
+      "bytes": 3139,
+      "sha256": "b805784b13cc3cdb0cb77f52dd48fd06aec839ca1ee8001a251353eec9b36aef"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1456,5 +1462,12 @@
     "relative_link_occurrences_checked": 175,
     "private_state_or_media_published": false,
     "prior_history_and_order_preserved": true
+  },
+  "android_cellular_photo_upload_followup_20261110": {
+    "manual": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md",
+    "receipt": "reports/ToolInventory/20261110_ANDROID_CELLULAR_PHOTO_UPLOAD_SCOPED_RUNTIME.json",
+    "scope": "Saved reviewer evidence only: one phone/current cellular connection, one synthetic PNG plus duplicate, explicit product-folder mapping and prior-PC preservation. No new publisher runtime or install; broader transport/media limitations retained.",
+    "prior_WiFi_history_and_receipt_preserved": true,
+    "private_data_or_media_published": false
   }
 }
