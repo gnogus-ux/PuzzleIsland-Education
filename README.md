@@ -44,7 +44,7 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 | 주제 | 매뉴얼 |
 |---|---|
-| Android 사진 선택·직접 서버 업로드 | [SAF URI·제한 TLS 전송·이미지 검증·원본/등록 분리](docs/ANDROID_DIRECT_PHOTO_UPLOAD.md) · [공식6자료 선택 학습·실기미실행](reports/ExternalLearning/20261109_ANDROID_DIRECT_PHOTO_UPLOAD_STUDY.json) |
+| Android 사진 선택·직접 서버 업로드 | [SAF URI·제품별 폴더·제한 TLS·이미지 검증·원본 보존](docs/ANDROID_DIRECT_PHOTO_UPLOAD.md) · [공식6자료 학습·작성자 실기미실행](reports/ExternalLearning/20261109_ANDROID_DIRECT_PHOTO_UPLOAD_STUDY.json) · [검수 담당의 실제 폰 PNG/JPEG·Wi-Fi 범위](reports/ToolInventory/20261110_ANDROID_DIRECT_PHOTO_UPLOAD_SCOPED_RUNTIME.json) |
 | 모바일 탭·현재 작업·다음 행동 | [기능 공간·얇은 안내·숨은 캔버스 보존](docs/MOBILE_TABS_TASK_GUIDANCE.md) · [핵심 공식5자료 선택 학습](reports/ExternalLearning/20261109_MOBILE_TABS_TASK_GUIDANCE_STUDY.json) |
 | 작업 선택→큰 작업 공간→복귀 | [일반 버튼·초점 복귀·숨김/초안 보존](docs/WORKSPACE_SELECTION_RETURN.md) · [핵심 공식3절 학습](reports/ExternalLearning/20261109_WORKSPACE_SELECTION_RETURN_STUDY.json) |
 | 버튼 눌림·선택·실제 처리 결과 | [Android/HTML 상태 표시·취소·접근성](docs/UI_BUTTON_STATE_FEEDBACK.md) · [공식12자료 선택 학습](reports/ExternalLearning/20261109_UI_BUTTON_STATE_FEEDBACK_STUDY.json) · [native12/웹4 제한 실기](reports/ToolInventory/20261109_UI_BUTTON_STATE_SCOPED_RUNTIME.json) · [APK 버전 교체 근거](reports/ExternalLearning/20261109_APK_VERSION_OVERRIDE_STUDY.json) |

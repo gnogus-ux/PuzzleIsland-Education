@@ -84,7 +84,8 @@
     "2026-11-09: Added plain-button workspace selection/return focus and hidden-state supplement from three primary selected sections; previous tab rules conditional, no picker runtime success claimed. Private app-reference screens not published.",
     "2026-11-09: Added sanitized three-official-photo-app UI observations and reuse proposals; marketing images and numeric-version limits distinguished from actual app/product execution. No raw screens, private brief, product values or artifact hashes published.",
     "2026-11-09: Reconciled approved narrow forwarding/firewall settings and installed-app v3 file roundtrip via same-WiFi public IPv4 NAT loopback. Not independent external/cellular, PC apply or new chooser UI acceptance. Private network/device/asset/auth values and hashes omitted; prior local history preserved.",
-    "2026-11-09: Added six-primary-source selected-section Android photo upload manual, plus Pillow11.3.0 official-tag API comparison to current13.0.0 docs. Bounded SAF/TLS/image validation/original-copy registration design; runtime not claimed; private state omitted."
+    "2026-11-09: Added six-primary-source selected-section Android photo upload manual, plus Pillow11.3.0 official-tag API comparison to current13.0.0 docs. Bounded SAF/TLS/image validation/original-copy registration design; runtime not claimed; private state omitted.",
+    "2026-11-10: Clarified explicit product-folder identity, permissions and idempotency; added anonymized reviewer evidence for same-signature APK versionCode5/r18-photo1 update and PNG/JPEG registration across two product folders via same-WiFi NAT loopback. Original sources preserved; cellular photo feature and other scoped exclusions remain unverified; publisher runtime0."
   ],
   "files": [
     {
@@ -94,8 +95,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 24416,
-      "sha256": "be865d5263edebc65e18cbae2c47d582be15ad710f37279320cfaba346d25345"
+      "bytes": 24559,
+      "sha256": "b59d33127cc4fe1f82b9f912096609f71955c348363616a67e725d47bbd1fd6d"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -619,8 +620,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 26009,
-      "sha256": "638b8fcc99a47bd44c6dc5e572d7d52f29777ed41d8fabbc559da52785f78888"
+      "bytes": 27676,
+      "sha256": "e2f8152d12a9cec7eaa68b95cfa1e805b41213d9aa5f74927d6bbf15d27f42d1"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1164,13 +1165,18 @@
     },
     {
       "path": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md",
-      "bytes": 13601,
-      "sha256": "7c415683424450183ed64aa08faa776d0feee059324dd425387513d74aff691d"
+      "bytes": 21127,
+      "sha256": "7085c535c7e66aff1cec15753255050a4bd9564e291f0be1fcdca32bafe05aa6"
     },
     {
       "path": "reports/ExternalLearning/20261109_ANDROID_DIRECT_PHOTO_UPLOAD_STUDY.json",
-      "bytes": 4900,
-      "sha256": "bcf5f635773ddf1b4cacf5ecef3c55f7004c4db6a5a706cbbe93e71219bfc74d"
+      "bytes": 6081,
+      "sha256": "9c7b7dd571505a336e5224142ba7b40c72f043fdb14eb0d85bfedd01e3a07868"
+    },
+    {
+      "path": "reports/ToolInventory/20261110_ANDROID_DIRECT_PHOTO_UPLOAD_SCOPED_RUNTIME.json",
+      "bytes": 4687,
+      "sha256": "96b70328828da79138fde64a250f5a0f0902b8d2e0d4343bb19df10afd0df74f"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1440,6 +1446,15 @@
     "scope": "Six official documents selected sections plus two11.3.0 tagged-source API cross-checks. Study/design only; runtime not run.",
     "relative_link_occurrences_checked": 135,
     "private_data_or_source_media_published": false,
+    "prior_history_and_order_preserved": true
+  },
+  "android_direct_photo_upload_runtime_20261110": {
+    "manual": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md",
+    "study": "reports/ExternalLearning/20261109_ANDROID_DIRECT_PHOTO_UPLOAD_STUDY.json",
+    "receipt": "reports/ToolInventory/20261110_ANDROID_DIRECT_PHOTO_UPLOAD_SCOPED_RUNTIME.json",
+    "scope": "Normative product-folder rules plus saved independent build/update/PNG-JPEG/WiFi registration evidence. No new publisher phone/server operations; no photo cellular or whole-product pass.",
+    "relative_link_occurrences_checked": 175,
+    "private_state_or_media_published": false,
     "prior_history_and_order_preserved": true
   }
 }

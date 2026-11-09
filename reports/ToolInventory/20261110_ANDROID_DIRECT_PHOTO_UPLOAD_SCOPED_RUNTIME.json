@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-10",
+  "status": "PASS_SCOPED_REVIEWER_WINDOWS_BUILD_AND_ANDROID_WIFI_PHOTO_REGISTRATION",
+  "roles": {
+    "implementation_and_author_self_checks": "Claude",
+    "independent_review_build_install_runtime": "Codex reviewer",
+    "publisher": "Document specialist; saved-evidence comparison only; no new phone/server operations"
+  },
+  "actual_build": {
+    "versionCode": 5,
+    "versionName": "r18-photo1",
+    "same_prior_signer": true,
+    "original_signing_material_unchanged": true,
+    "signature_v2_v3_verified": true,
+    "permissions": [
+      "android.permission.INTERNET"
+    ],
+    "same_signature_update_install_observed_by_reviewer": true,
+    "existing_saved_draft_and_pairing_retained": true,
+    "build_record_install_false_was_preinstallation_state": true
+  },
+  "phone_scope": {
+    "system_image_picker_cancelled_without_upload_or_draft_loss": true,
+    "explicit_product_folder_creation_and_selection": true,
+    "registered_product_count": 2,
+    "registered_photo_count": 3,
+    "product_photo_counts": [
+      2,
+      1
+    ],
+    "same_photo_same_product_deduplicated": true,
+    "same_photo_other_product_registered_separately": true,
+    "distinct_photo_and_project_objects_across_products": true,
+    "real_phone_formats": [
+      "PNG",
+      "JPEG"
+    ],
+    "original_bytes_and_sha_exact": true,
+    "EXIF_orientation_6_original_retained_and_display_rotated": true,
+    "PC_UI_opened_display_image": true,
+    "current_PC_project_unchanged_during_transfer": true,
+    "PC_project_opened_only_after_transfer_for_explicit_display_review": true,
+    "AI_or_model_work_automatically_started": false,
+    "PC_geometry_apply": 0
+  },
+  "transport": {
+    "route": "SAME_WIFI_VALIDATED_PUBLIC_IP_NAT_LOOPBACK",
+    "real_new_photo_feature_CELLULAR": "NOT_TESTED",
+    "prior_job_exchange_cellular_scope": "Earlier job-file roundtrip on another phone is separate historical evidence, not a photo-upload cellular pass",
+    "cert_validation_disabled": false,
+    "Cloudflare_or_VPN_used": false
+  },
+  "independent_checks": {
+    "TLS_product_folder_contract_cases_passed": 24,
+    "create_id_persistence_failure_and_cleanup_failure_combined_current_and_restart": "PASS",
+    "prior_alias_binding_permission_race_and_orphan_quota_counterexamples": "FIXED_AND_INDEPENDENTLY_RETESTED",
+    "Windows_native_scenarios_passed": 124,
+    "Windows_fix01_regressions_passed": 34,
+    "Windows_launcher_cases_passed": 50,
+    "Windows_launcher_symlink_case": "NOT_VERIFIED",
+    "native_Windows_file_lock_failure": "FAULT_INJECTION_SIMULATION_ONLY"
+  },
+  "preservation": {
+    "prior_model_original_files": 201,
+    "prior_photo_original_files": 510,
+    "original_source_changes": 0,
+    "copied_model_files_exact": 201,
+    "copied_photo_files_exact": 510,
+    "old_runtime_files_unchanged": 69,
+    "old_source_snapshot_files_unchanged": 295,
+    "final_runtime_source_files_matched": 171,
+    "old_service_transition": "Reviewer reported normal console stop then verified existing-data cutover; no unrelated process termination",
+    "new_photo_store_separate_from_prior_originals": true
+  },
+  "product_folder_requirements": {
+    "device_authentication_is_not_product_identity": true,
+    "target_selected_or_created_explicitly_before_upload": true,
+    "dedup_scope": [
+      "device",
+      "folder",
+      "SHA256"
+    ],
+    "upload_id_binding": "Each accepted device/uploadId is bound to folder and content; cross-folder/content reuse conflicts",
+    "max_photos_per_actual_Photo_project": 100,
+    "max_projects_total": 50,
+    "aggregate_storage_applies_to_all_products": true,
+    "explicit_creation_for_another_actual_product_allowed_within_global_limits": true,
+    "automatic_rollover_after_capacity_failure_forbidden": true,
+    "old_photos_auto_reclassified_or_moved": false
+  },
+  "limits": [
+    "New-photo cellular path not tested on the connected phone.",
+    "WebP covered by JVM/Windows fixtures; phone picker runtime used PNG and JPEG only.",
+    "TalkBack and process-kill recovery not independently tested.",
+    "Native Windows file-in-use behavior was injected rather than reproduced with an actual competing locker.",
+    "Conditional Windows symlink case remains unverified.",
+    "Synthetic test photos only; no physical measurement/manufacturing or whole-product/production-readiness claim."
+  ],
+  "privacy": {
+    "product_photo_names_hashes_or_media_published": false,
+    "device_folder_photo_project_identifiers_published": false,
+    "private_paths_IP_PID_certificate_fingerprints_credentials_published": false
+  },
+  "publisher_new_runtime_or_installs": 0,
+  "manual": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md"
+}

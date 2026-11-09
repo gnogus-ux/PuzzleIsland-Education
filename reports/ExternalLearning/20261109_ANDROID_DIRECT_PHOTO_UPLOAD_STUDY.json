@@ -105,5 +105,27 @@
     ],
     "sections": "Image.open(formats)/lazy identification, verify/reopen/load, decompression bomb warning and MAX_IMAGE_PIXELS, exif_transpose copy/in_place and orientation mapping",
     "compatibility_claim": "Selected API source-grounding only, no actual image/runtime upload pass"
+  },
+  "product_folder_requirements_20261110": {
+    "kind": "Normative product-separation contract, distinguished from runtime evidence",
+    "dedup_scope": [
+      "device",
+      "folder",
+      "SHA256"
+    ],
+    "uploadId_binding": "device/uploadId -> immutable(folder,SHA256)",
+    "max_photos_per_Photo_project": 100,
+    "global_project_cap": 50,
+    "global_storage_across_products": true,
+    "explicit_other_product_creation_allowed_within_global_caps": true,
+    "automatic_rollover_on_limit_failure": false,
+    "existing_photos_automatically_reclassified": false
+  },
+  "original_unverified_field_scope": "Original document-author study-stage gaps only; the later independent runtime evidence is separately scoped below, not claimed as author runtime.",
+  "followup_runtime_20261110": {
+    "receipt": "reports/ToolInventory/20261110_ANDROID_DIRECT_PHOTO_UPLOAD_SCOPED_RUNTIME.json",
+    "reviewer_saved_evidence_compared": true,
+    "publisher_new_runtime": 0,
+    "scope": "Actual Windows build/update and PNG/JPEG photo registration in two product folders, same-WiFi public-IP NAT loopback; cellular/WebP phone/TalkBack/process-kill/symlink exclusions retained."
   }
 }
