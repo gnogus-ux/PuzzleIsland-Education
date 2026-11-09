@@ -77,7 +77,8 @@
     "2026-11-09: Added direct TLS file-exchange design from16 selected official documents: exact leaf DER pin versus SPKI, normal IPv4 SAN checks and explicit re-pair after dynamic-IP renewal, JDK PKCS12/encoding to Python PEM boundary, per-device revoked credentials, bounded native transfer and separate public routing prerequisites. No certificates, secrets, product code, servers, port/firewall settings or mobile-data execution performed. Prior offline acceptance preserved.",
     "2026-11-09: Added conditional shell app_process/DEX native TLS probe manual from10 selected official documents/code files: non-zygote main, upstream SELinux shell/temp boundaries, exact candidate/provider and TLS-versus-HTTP observations, owned USB reverse/deadline/cleanup, instrumentation prerequisites. No phone/probe/build/server/settings execution; installed app and mobile-data validation remain separate. Prior r16 and direct TLS records preserved.",
     "2026-11-09: Reconciled actual ordinary-shell AndroidOpenSSL/Conscrypt fixture11-case report, pin/certificate validity rejection with headers/auth counters0, pairing-preflight SAN distinction, credential/redirect rejection, write deadline observation and owned cleanup. Private test code/DEX hashes withheld. Installed app/SAF/UI/cellular and full r17/public service acceptance remain unverified; server corrections separate. Publisher performed no new device/code/server actions.",
-    "2026-11-09: Added limited reviewed Windows deployment/TLS and same-signature APK update observations. Local69-file deployment preserved189existing/475original files; loopback TLS1.3/IP-SAN verification and anonymous401. Producer scenario reruns124/124 plus one unexecuted Windows symlink case and PCe2e54/54 are distinct from reviewer-authored lock regression. Prior native11 reused via21unchanged inputs. Installed-app pairing/transfer, LAN/router/firewall/carrier and whole-public-service acceptance remain pending; no private asset/code/key/cert/APK hashes published."
+    "2026-11-09: Added limited reviewed Windows deployment/TLS and same-signature APK update observations. Local69-file deployment preserved189existing/475original files; loopback TLS1.3/IP-SAN verification and anonymous401. Producer scenario reruns124/124 plus one unexecuted Windows symlink case and PCe2e54/54 are distinct from reviewer-authored lock regression. Prior native11 reused via21unchanged inputs. Installed-app pairing/transfer, LAN/router/firewall/carrier and whole-public-service acceptance remain pending; no private asset/code/key/cert/APK hashes published.",
+    "2026-11-09: Added narrow Android/HTML button feedback study from12 selected official documents: transient press versus persistent screen/mode, actual progress/save/error results, Android state lists/API30 compatibility, ARIA toggle/current/disabled/busy, cancellation, restored state and accessible visible cues. Product code/app/device/servers unchanged; no UI runtime/accessibility conformance claimed. Prior r16 and networking holds preserved."
   ],
   "files": [
     {
@@ -87,8 +88,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 23204,
-      "sha256": "30f824dcc59a7a44f4ac3b9be990004b733da8d456637251651ada2543834bad"
+      "bytes": 23452,
+      "sha256": "9d893879788e4c98f2998632ca53276d9114d688de6b6b6bdc67f211a469f20c"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -1017,8 +1018,8 @@
     },
     {
       "path": "docs/ANDROID_PC_WEB_CONTROL.md",
-      "bytes": 18583,
-      "sha256": "052f36af379cb93115401b3b217eee9651a043296ac4b029868db678e140cef2"
+      "bytes": 19000,
+      "sha256": "ad31ebe0390e1d6757a09458df499ed4d58f9f9b6f6d694e39e8c26d648ce55f"
     },
     {
       "path": "reports/ExternalLearning/20261109_ANDROID_PC_WEB_CONTROL_STUDY.json",
@@ -1104,6 +1105,16 @@
       "path": "reports/ToolInventory/20261109_R17_LOCAL_DEPLOYMENT_APK_REVIEW.json",
       "bytes": 3530,
       "sha256": "cf6bc6f25aaf2fd7a1f5c825764334bb4f47983d51d2a6b7bc92023ecd33d100"
+    },
+    {
+      "path": "docs/UI_BUTTON_STATE_FEEDBACK.md",
+      "bytes": 11297,
+      "sha256": "9025789c12159ff775a45c08623984ed8df49d1236fc1b3adc66fa5354d9c1e8"
+    },
+    {
+      "path": "reports/ExternalLearning/20261109_UI_BUTTON_STATE_FEEDBACK_STUDY.json",
+      "bytes": 11984,
+      "sha256": "04a4ba4789edb92c9afdee7686b176b888cf5afa1bc9145f4e9e6ead510c4794"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1322,5 +1333,13 @@
     "relative_tracked_link_occurrences_checked": 164,
     "private_values_or_product_artifact_hashes_published": false,
     "existing_r16_and_history_preserved": true
+  },
+  "ui_button_state_feedback_study_20261109": {
+    "manual": "docs/UI_BUTTON_STATE_FEEDBACK.md",
+    "study": "reports/ExternalLearning/20261109_UI_BUTTON_STATE_FEEDBACK_STUDY.json",
+    "scope": "12primary documents selectively read; UI state design only, no production edits/app/phone tests",
+    "relative_tracked_link_occurrences_checked": 129,
+    "private_user_data_or_source_media_published": false,
+    "historical_counts_and_other_files_preserved": true
   }
 }

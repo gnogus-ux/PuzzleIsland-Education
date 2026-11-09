@@ -1,0 +1,219 @@
+{
+  "date_kst": "2026-11-09",
+  "status": "OFFICIAL_DOCUMENT_STUDY_AND_UI_STATE_PROPOSAL_ONLY",
+  "manual": "docs/UI_BUTTON_STATE_FEEDBACK.md",
+  "official_distinct_documents_selectively_read": 12,
+  "library_preflight": {
+    "canonical_base": "4e892372efa43116ec943ab9983354c8da3fd1b6",
+    "read_or_same_version_reused": [
+      "README.md",
+      "docs/COMMON_WORK_RULES.md",
+      "docs/COMMON_TOOL_POLICY.md",
+      "docs/AVAILABLE_TOOLS.md",
+      "CONTRIBUTING.md",
+      "docs/ANDROID_PC_WEB_CONTROL.md",
+      "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md"
+    ],
+    "search_terms": [
+      "aria-pressed",
+      "aria-current",
+      "state_selected",
+      "state_pressed",
+      "선택 상태",
+      "눌림",
+      "pointercancel",
+      "처리 중"
+    ],
+    "existing_relevant_content": "Android web-control manual supplies pointer cancellation and small-screen input, offline workflow distinguishes draft/export/import outcomes",
+    "gap": "No focused persistent-selection versus transient-press/progress/real-success semantics, Android state list/API compatibility or ARIA mode/navigation feedback manual"
+  },
+  "fresh_source_search": {
+    "query": "site:developer.android.com state_selected state_pressed button selector",
+    "method": "Ego-browser official-result discovery and selected official primary page body reading",
+    "third_party_summaries_relied_on": false,
+    "browser_task_completed_no_pages_kept": true
+  },
+  "sources": [
+    {
+      "title": "Android Drawable resources",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://developer.android.com/guide/topics/resources/drawable-resource#StateList",
+      "read_scope": "State list syntax/pressed-selected-activated-enabled descriptions, first-match ordering and default-last note",
+      "observed": "Pressed, selected, focused and activated differ; selector uses first match, not best match",
+      "application_proposal": "Separate transient and persistent state; render actual state with explicit state-combination priority",
+      "selected_body_receipt_sha256": [
+        "dc693b3982306215ce20bf951145d920a725ed5591cad2ea751c0156b0389c0e",
+        "a9466f5616b88818d9a50aaaabc6a3d32ea07d3d4d1ca6e66af44f476fa82948"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    },
+    {
+      "title": "WAI Button Pattern",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/",
+      "read_scope": "About this pattern, toggle button naming/aria-pressed, basic keyboard interaction",
+      "observed": "Toggle buttons expose pressed state with stable labels; command buttons perform actions",
+      "application_proposal": "Use aria-pressed only for persistent button toggles, preserve native button behavior and stable names",
+      "selected_body_receipt_sha256": [
+        "53755dc95279b556571f6524e859c043188902fd6979072afd5739ac5564392f"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    },
+    {
+      "title": "WCAG2.2 Use of Color",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+      "read_scope": "SC1.4.1 and selected intent paragraphs",
+      "observed": "Color must not be the only visual signal of information/action/state",
+      "application_proposal": "Use high-contrast fill plus check/text and programmatic state",
+      "selected_body_receipt_sha256": [
+        "96eae3e94d8abc3d38c9e384ff57fc4de3940db7d5a32a2f004696d4aef9a995"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    },
+    {
+      "title": "WCAG2.2 Pointer Cancellation",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html",
+      "read_scope": "SC2.5.2, up-event activation and abort/undo explanation",
+      "observed": "Ordinary activation can be committed on release with cancellation opportunity",
+      "application_proposal": "Do not execute/leave persistent selection just because pointer-down or cancelled press occurred",
+      "selected_body_receipt_sha256": [
+        "18531bbb9e565c325f066b77c5c18dafa73657d397300d9e2d7bc4659fbd57b0"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    },
+    {
+      "title": "Android View API",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://developer.android.com/reference/android/view/View",
+      "read_scope": "setSelected(boolean), setEnabled(boolean), setStateDescription(CharSequence) method bodies",
+      "observed": "Selection differs from focus; stateDescription supports accessibility and starts at API30",
+      "application_proposal": "Keep semantic/visual state consistent and guard newer APIs without assuming new AndroidX dependencies",
+      "selected_body_receipt_sha256": [
+        "e9ba4834c5736700b58bd3f9458717b97fc5bb247441c980b3bf4f50f90219d5"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    },
+    {
+      "title": "Android MotionEvent API",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://developer.android.com/reference/android/view/MotionEvent#ACTION_CANCEL",
+      "read_scope": "ACTION_CANCEL constant documentation",
+      "observed": "Current gesture is aborted and its normal action must not be performed",
+      "application_proposal": "Clear transient pointer/pressed state without committing action/selection",
+      "selected_body_receipt_sha256": [
+        "a4c2d3af9dac48d453aaa8c1acfdf38f57bb8a8d189264301583015659021da0"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    },
+    {
+      "title": "WAI-ARIA1.2",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://www.w3.org/TR/wai-aria-1.2/",
+      "read_scope": "aria-current complete attribute entry; aria-disabled and aria-busy selected entries",
+      "observed": "Current item differs from tab selection; disabled requires appropriate host behavior; busy marks ongoing updates",
+      "application_proposal": "Navigation current, persistent toggle and command progress use distinct semantics",
+      "selected_body_receipt_sha256": [
+        "3e3fc64c0eda169352562f80417d639fa82aade35d700bec06451d2369361ed1",
+        "d3560bd22b3d2a990a5004f1fb06af0b2358efc78f5e38bee2ced315ea737d04"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    },
+    {
+      "title": "WCAG2.2 Status Messages",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+      "read_scope": "SC4.1.3/intent and selected sufficient technique references for status/error/progress",
+      "observed": "Important status changes can be exposed without focus moves",
+      "application_proposal": "Announce actual waiting/results/errors with appropriate live-region semantics; do not announce click as success",
+      "selected_body_receipt_sha256": [
+        "4342d022ccb8b4cca83b853986e0bed5bfa21967ca2606820641ca077dfd3e46"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    },
+    {
+      "title": "Android Make apps more accessible",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://developer.android.com/guide/topics/ui/accessibility/apps",
+      "read_scope": "Increase text visibility, large controls/touch target and UI description paragraphs; current page Compose examples observed but not executed",
+      "observed": "Android recommends48dp touch targets, text contrast thresholds and meaningful labels",
+      "application_proposal": "Apply general visibility/target principles to existing Views without adopting Compose code or dependencies",
+      "selected_body_receipt_sha256": [
+        "769a38df00949dc60eb1af8ee7a033b7d849f67cce1e57f28e332b4e94694f01"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    },
+    {
+      "title": "WCAG2.2 Resize Text",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html",
+      "read_scope": "SC1.4.4 and selected intent paragraphs",
+      "observed": "Web text can be resized to200percent without lost content/function",
+      "application_proposal": "Test labels/checks/results under enlarged text; do not treat CSS pixels as native dp",
+      "selected_body_receipt_sha256": [
+        "dfeff07be0d5b0e365739433da17ddefeabca3197efeae8e9ee334d85d63a803"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    },
+    {
+      "title": "WCAG2.2 Reflow",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+      "read_scope": "SC1.4.10,320CSSpx/400percent note and two-dimensional exceptions",
+      "observed": "Ordinary vertical content reflows at320CSSpx; necessary2D content has an exception",
+      "application_proposal": "Keep toolbars/status usable at narrow width; do not blanket-exempt all controls because canvas is2D",
+      "selected_body_receipt_sha256": [
+        "80b743634e8b513f8bac5a77d9f117b3ce6cba025e0a355652fcb32dfdff947b"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    },
+    {
+      "title": "WCAG2.2 Non-text Contrast",
+      "publisher": "Android Developers or W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+      "read_scope": "SC1.4.11/intent, adjacent contrast and inactive-component exceptions",
+      "observed": "Required active UI/state cues need3:1 adjacent contrast, with stated exceptions",
+      "application_proposal": "Measure check/border/focus cues and preserve visible meaning under high contrast",
+      "selected_body_receipt_sha256": [
+        "0c633ab7075bfefe64427e70ad4079d99c5b03dcf06d4829013344fc2865f5e6"
+      ],
+      "runtime": "NOT_EXECUTED_BY_STUDY_AUTHOR"
+    }
+  ],
+  "cross_checks_and_corrections": [
+    "Pressed is not selected/focused/activated; keep the actual state model authoritative",
+    "Android state lists use first match and default last; selected+pressed/disabled combinations need explicit review",
+    "WAI toggle aria-pressed requires a stable label; current navigation uses aria-current and true tab widgets use aria-selected",
+    "A click acknowledgement is not file-save/export/upload/import completion",
+    "ACTION_CANCEL and cancelled pointer input must not execute the normal action; ongoing async work is a separate lifecycle",
+    "aria-busy/aria-disabled meanings do not replace real completion checks or event blocking",
+    "API30 stateDescription requires compatibility handling; no new dependency assumed",
+    "Android48dp and webCSSpx criteria are distinct; current Android page examples being Compose does not require a Views migration"
+  ],
+  "application_inferences": [
+    "Single render source for actual screen/mode and visual/programmatic state",
+    "Do not persist transient press; restore checks from restored real screen/mode and dirty/save state",
+    "Guard stale async results against task/tab changes and restore previous actual selection after transition failure",
+    "Keep current screen check separate from one-shot save result messages",
+    "Validate dark fill plus check/text, keyboard focus, large text/reflow and screen-reader output together"
+  ],
+  "not_verified": [
+    "Product UI implementation",
+    "Actual Android touch cancellation and rotation",
+    "Real save/load/transition failure behavior",
+    "TalkBack/keyboard semantics",
+    "Contrast measurement/high-contrast rendering",
+    "Large-font/narrow-device usability",
+    "WCAG conformance or full product acceptance"
+  ],
+  "operations_by_author": {
+    "product_code_edits": 0,
+    "app_or_phone_control": 0,
+    "server_or_router_operations": 0,
+    "new_install_or_dependency": 0,
+    "production_asset_or_snapshot_changes": 0
+  },
+  "preservation": "Existing production sources, r16 acceptance, review snapshot and Cloudflare/VPN/external-configuration holds unchanged",
+  "private_user_data_or_source_media_republished": false
+}

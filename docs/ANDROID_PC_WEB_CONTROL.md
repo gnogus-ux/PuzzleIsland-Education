@@ -105,3 +105,7 @@ cloudflared tunnel --url http://localhost:PORT --allowed-mail USER_EMAIL
 사용자가 USB로 연결한 폰의 직접 검수를 요청하면 [기존 페이지·미저장 초안 보존과 별도 USB 로컬 시험 절차](ANDROID_USB_EXISTING_PAGE_REVIEW.md)를 먼저 확인한다. ADB 연결 상태만으로 오류 사진의 기기라고 가정하지 않고, 사용자가 지정한 대상과 현재 화면을 확인한다. 현재 오류 초안 보존과 새 시험 탭을 이용한 별도 로컬 검수를 구별한다. USB reverse를 통한 로컬 저장 성공은 외부 인증·이동통신 저장 성공을 뜻하지 않는다. 새 설치·인증·디버깅 설정 변경은 자동으로 수행하지 않는다.
 
 문서 학습, 소스 검토, PC 화면 에뮬레이션, 외부 HTTPS 응답, 실제 Android 실기와 제품 최종 승인은 각각 구분해 보고한다.
+
+## 버튼 상태와 실제 작업 결과
+
+[버튼 눌림·선택·처리 결과 매뉴얼](UI_BUTTON_STATE_FEEDBACK.md)은 순간 pressed, 현재 화면/편집 모드, 진행·실제 성공·실패를 구분한다. Android state list와 HTML ARIA, 입력 취소·재렌더·큰 글씨·화면읽기 검수 근거를 보강했다. 공식 학습이며 실제 제품 UI 수정·실기 통과를 의미하지 않는다.
