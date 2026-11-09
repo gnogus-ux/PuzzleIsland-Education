@@ -83,7 +83,8 @@
     "2026-11-09: Added narrow mobile-tabs/current-task/next-action design from5core primary sources, reusing existing state/result guidance. Functional panels, ARIA keyboard behavior, thin sticky navigation, collapsible repetitive detail, critical dirty/error/unconfirmed-PC state, WebView display-data limits and positive-size hidden-canvas rendering are separated from untested product implementation. No app/phone/server/production changes or new dependencies.",
     "2026-11-09: Added plain-button workspace selection/return focus and hidden-state supplement from three primary selected sections; previous tab rules conditional, no picker runtime success claimed. Private app-reference screens not published.",
     "2026-11-09: Added sanitized three-official-photo-app UI observations and reuse proposals; marketing images and numeric-version limits distinguished from actual app/product execution. No raw screens, private brief, product values or artifact hashes published.",
-    "2026-11-09: Reconciled approved narrow forwarding/firewall settings and installed-app v3 file roundtrip via same-WiFi public IPv4 NAT loopback. Not independent external/cellular, PC apply or new chooser UI acceptance. Private network/device/asset/auth values and hashes omitted; prior local history preserved."
+    "2026-11-09: Reconciled approved narrow forwarding/firewall settings and installed-app v3 file roundtrip via same-WiFi public IPv4 NAT loopback. Not independent external/cellular, PC apply or new chooser UI acceptance. Private network/device/asset/auth values and hashes omitted; prior local history preserved.",
+    "2026-11-09: Added six-primary-source selected-section Android photo upload manual, plus Pillow11.3.0 official-tag API comparison to current13.0.0 docs. Bounded SAF/TLS/image validation/original-copy registration design; runtime not claimed; private state omitted."
   ],
   "files": [
     {
@@ -93,8 +94,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 24133,
-      "sha256": "8e7fee899ec4d75053864c0ba2dc4a9d230f295f93d34130a1958f8cb768e265"
+      "bytes": 24416,
+      "sha256": "be865d5263edebc65e18cbae2c47d582be15ad710f37279320cfaba346d25345"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -1160,6 +1161,16 @@
       "path": "reports/ToolInventory/20261109_R17_NAT_LOOPBACK_APP_TRANSFER.json",
       "bytes": 2061,
       "sha256": "02c354e05b2170311861a7e410b04f80a2dbc843b444b42c97f92847ee2542e6"
+    },
+    {
+      "path": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md",
+      "bytes": 13601,
+      "sha256": "7c415683424450183ed64aa08faa776d0feee059324dd425387513d74aff691d"
+    },
+    {
+      "path": "reports/ExternalLearning/20261109_ANDROID_DIRECT_PHOTO_UPLOAD_STUDY.json",
+      "bytes": 4900,
+      "sha256": "bcf5f635773ddf1b4cacf5ecef3c55f7004c4db6a5a706cbbe93e71219bfc74d"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1422,5 +1433,13 @@
     "scope": "Saved reviewer evidence only; approved settings actually applied, same-WiFi authenticated file exchange; independent external/cellular and PC apply unverified",
     "publisher_new_operations": 0,
     "private_values_or_artifact_hashes_published": false
+  },
+  "android_direct_photo_upload_study_20261109": {
+    "manual": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md",
+    "study": "reports/ExternalLearning/20261109_ANDROID_DIRECT_PHOTO_UPLOAD_STUDY.json",
+    "scope": "Six official documents selected sections plus two11.3.0 tagged-source API cross-checks. Study/design only; runtime not run.",
+    "relative_link_occurrences_checked": 135,
+    "private_data_or_source_media_published": false,
+    "prior_history_and_order_preserved": true
   }
 }

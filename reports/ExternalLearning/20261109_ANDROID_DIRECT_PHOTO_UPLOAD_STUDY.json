@@ -1,0 +1,109 @@
+{
+  "date_kst": "2026-11-09",
+  "status": "OFFICIAL_SECTIONS_REVIEWED_MANUAL_READY_RUNTIME_NOT_RUN",
+  "topic": "Android user-selected photo upload through existing exact-certificate TLS with bounded server registration",
+  "existing_manual_gap": "Existing offline-container and direct-TLS-edit manuals do not cover new gallery image content URIs, resource-safe image decoding, photo registration destination or upload retry idempotency.",
+  "manual": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md",
+  "sources": [
+    {
+      "url": "https://developer.android.com/training/data-storage/shared/documents-files",
+      "title": "Android SAF documents/files",
+      "scope": "open document, MIME, URI grants, metadata, virtual documents and stream restrictions",
+      "accessed_kst": "2026-11-09",
+      "observed_language": "Korean locale redirect",
+      "runtime": false
+    },
+    {
+      "url": "https://developer.android.com/reference/android/content/Intent",
+      "title": "Intent API reference",
+      "scope": "ACTION_OPEN_DOCUMENT API19, CATEGORY_OPENABLE, EXTRA_ALLOW_MULTIPLE, read/persistable grants",
+      "accessed_kst": "2026-11-09",
+      "runtime": false
+    },
+    {
+      "url": "https://developer.android.com/reference/android/content/ContentResolver",
+      "title": "ContentResolver API reference",
+      "scope": "getType, openInputStream, return-null provider crash, FileNotFoundException, schemes",
+      "accessed_kst": "2026-11-09",
+      "runtime": false
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html",
+      "title": "OWASP File Upload Cheat Sheet",
+      "scope": "type/signature/filename/content/storage/permissions/limits and image rewriting limits",
+      "accessed_kst": "2026-11-09",
+      "runtime": false
+    },
+    {
+      "url": "https://pillow.readthedocs.io/en/stable/reference/Image.html",
+      "title": "Pillow Image",
+      "displayed_version": "13.0.0",
+      "scope": "lazy open/formats, decompression bombs, verify/reopen/load, pixel thresholds",
+      "accessed_kst": "2026-11-09",
+      "runtime": false
+    },
+    {
+      "url": "https://pillow.readthedocs.io/en/stable/reference/ImageOps.html",
+      "title": "Pillow ImageOps",
+      "displayed_version": "13.0.0",
+      "scope": "exif_transpose, orientation removal, copy versus in_place",
+      "accessed_kst": "2026-11-09",
+      "runtime": false
+    }
+  ],
+  "source_access": {
+    "browser": "ego-browser",
+    "skill_version": "2.2.0",
+    "official_selected_sections_only": true,
+    "source_media_republished": false
+  },
+  "current_source_read_scope": {
+    "kind": "limited read-only existing photo upload API",
+    "verified_policy": {
+      "max_photo_bytes": 8388608,
+      "max_photos_per_project": 100,
+      "max_projects": 50,
+      "max_pixels": 24000000,
+      "max_side": 8192,
+      "allowed_mimes": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ]
+    },
+    "integration_constraint": "Existing upload services may be tied to the current PC project; remote registration must not silently change that project.",
+    "product_source_modified": false
+  },
+  "corrections": [
+    "getType and metadata size do not prove actual file format or bounded bytes.",
+    "CATEGORY_OPENABLE deliberately narrows stream access; virtual-document conversion is a separate flow.",
+    "Image.open is lazy, and verify does not fully decode; reopen before load.",
+    "OWASP image rewriting does not justify overwriting required original source bytes.",
+    "Photo receipt, registered photo, selected task, and actual measured geometry are distinct states."
+  ],
+  "unverified": [
+    "Actual image decode/upload on installed Pillow11.3.0; installed version itself supplied by reviewer observation",
+    "Android picker and provider runtime",
+    "APK build/install",
+    "actual phone upload and server image registration",
+    "network or cellular operation",
+    "limits/idempotency/security fixtures"
+  ],
+  "operations": {
+    "product_edits": 0,
+    "phone_or_server_operations": 0,
+    "new_installs": 0,
+    "scope": "Official document study and reusable manual authoring/publication only; runtime not claimed."
+  },
+  "version_applicability": {
+    "installed_pillow_version_reported_by_reviewer": "11.3.0",
+    "manual_author_queried_installed_runtime": false,
+    "versioned_docs_11_3_0_unavailable": true,
+    "fallback_primary_tag_sources_reviewed": [
+      "https://github.com/python-pillow/Pillow/blob/11.3.0/src/PIL/Image.py",
+      "https://github.com/python-pillow/Pillow/blob/11.3.0/src/PIL/ImageOps.py"
+    ],
+    "sections": "Image.open(formats)/lazy identification, verify/reopen/load, decompression bomb warning and MAX_IMAGE_PIXELS, exif_transpose copy/in_place and orientation mapping",
+    "compatibility_claim": "Selected API source-grounding only, no actual image/runtime upload pass"
+  }
+}
