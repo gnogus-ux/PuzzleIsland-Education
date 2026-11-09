@@ -79,7 +79,8 @@
     "2026-11-09: Reconciled actual ordinary-shell AndroidOpenSSL/Conscrypt fixture11-case report, pin/certificate validity rejection with headers/auth counters0, pairing-preflight SAN distinction, credential/redirect rejection, write deadline observation and owned cleanup. Private test code/DEX hashes withheld. Installed app/SAF/UI/cellular and full r17/public service acceptance remain unverified; server corrections separate. Publisher performed no new device/code/server actions.",
     "2026-11-09: Added limited reviewed Windows deployment/TLS and same-signature APK update observations. Local69-file deployment preserved189existing/475original files; loopback TLS1.3/IP-SAN verification and anonymous401. Producer scenario reruns124/124 plus one unexecuted Windows symlink case and PCe2e54/54 are distinct from reviewer-authored lock regression. Prior native11 reused via21unchanged inputs. Installed-app pairing/transfer, LAN/router/firewall/carrier and whole-public-service acceptance remain pending; no private asset/code/key/cert/APK hashes published.",
     "2026-11-09: Added narrow Android/HTML button feedback study from12 selected official documents: transient press versus persistent screen/mode, actual progress/save/error results, Android state lists/API30 compatibility, ARIA toggle/current/disabled/busy, cancellation, restored state and accessible visible cues. Product code/app/device/servers unchanged; no UI runtime/accessibility conformance claimed. Prior r16 and networking holds preserved.",
-    "2026-11-09: Added real SDK version override correction from4selected primary sources and scoped UI review: requestedversion3/r17-ui1 finalbadging, preserved signing v2/v3, completed update/install-loaded-screen evidence, native12 and web4 at360CSSpx. Job-open SAF cancel differs from untested result export/save-failure/font/rotation/TalkBack/cellular. Publisher read stored evidence only; no raw screens/private artifacts or their hashes published. Prior r16/native11/service history and network holds preserved."
+    "2026-11-09: Added real SDK version override correction from4selected primary sources and scoped UI review: requestedversion3/r17-ui1 finalbadging, preserved signing v2/v3, completed update/install-loaded-screen evidence, native12 and web4 at360CSSpx. Job-open SAF cancel differs from untested result export/save-failure/font/rotation/TalkBack/cellular. Publisher read stored evidence only; no raw screens/private artifacts or their hashes published. Prior r16/native11/service history and network holds preserved.",
+    "2026-11-09: Added narrow mobile-tabs/current-task/next-action design from5core primary sources, reusing existing state/result guidance. Functional panels, ARIA keyboard behavior, thin sticky navigation, collapsible repetitive detail, critical dirty/error/unconfirmed-PC state, WebView display-data limits and positive-size hidden-canvas rendering are separated from untested product implementation. No app/phone/server/production changes or new dependencies."
   ],
   "files": [
     {
@@ -89,8 +90,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 23639,
-      "sha256": "5cb4bedf7e8e90a5bd41080b3184cd9a47c4f6a4729a1641f43400aecd503e85"
+      "bytes": 23892,
+      "sha256": "016df1b92e0f239888254b720d759f3e1d8313a80d055cdb8df6f9e46880cfef"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -1109,8 +1110,8 @@
     },
     {
       "path": "docs/UI_BUTTON_STATE_FEEDBACK.md",
-      "bytes": 13857,
-      "sha256": "e2c628433c68aff01afe86dfe922d8b689c76f32bed0900c1d3b07f0c3af364d"
+      "bytes": 14267,
+      "sha256": "fcc8e314df327fe4ee92715394a4e46722f895cf24a79203622bfba90ac54002"
     },
     {
       "path": "reports/ExternalLearning/20261109_UI_BUTTON_STATE_FEEDBACK_STUDY.json",
@@ -1126,6 +1127,16 @@
       "path": "reports/ToolInventory/20261109_UI_BUTTON_STATE_SCOPED_RUNTIME.json",
       "bytes": 3772,
       "sha256": "cb325ef3f7152bcbe71ae49df1700b391b689e608531fe64bc7563f7e616d8f2"
+    },
+    {
+      "path": "docs/MOBILE_TABS_TASK_GUIDANCE.md",
+      "bytes": 10148,
+      "sha256": "8e0bc1fc2245d81ecd21c4b1cee036cd624e5211a6a9c3a85b975fa7ee9eac2e"
+    },
+    {
+      "path": "reports/ExternalLearning/20261109_MOBILE_TABS_TASK_GUIDANCE_STUDY.json",
+      "bytes": 7025,
+      "sha256": "e112e1f1ac04f778b546fd7e20e17c72c94286c8fe0d1dd2fc16ae7e4fdb32c5"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1360,5 +1371,13 @@
     "relative_tracked_link_occurrences_checked": 166,
     "publisher_product_SDK_app_phone_server_router_operations": 0,
     "private_values_and_artifact_hashes_published": false
+  },
+  "mobile_tabs_task_guidance_study_20261109": {
+    "manual": "docs/MOBILE_TABS_TASK_GUIDANCE.md",
+    "study": "reports/ExternalLearning/20261109_MOBILE_TABS_TASK_GUIDANCE_STUDY.json",
+    "scope": "5core primary sources selectively read; reusable5-section design, no product/device execution or conformance claim",
+    "relative_tracked_link_occurrences_checked": 134,
+    "private_data_or_source_media_published": false,
+    "prior_history_and_manifest_order_preserved": true
   }
 }

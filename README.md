@@ -44,6 +44,7 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 | 주제 | 매뉴얼 |
 |---|---|
+| 모바일 탭·현재 작업·다음 행동 | [기능 공간·얇은 안내·숨은 캔버스 보존](docs/MOBILE_TABS_TASK_GUIDANCE.md) · [핵심 공식5자료 선택 학습](reports/ExternalLearning/20261109_MOBILE_TABS_TASK_GUIDANCE_STUDY.json) |
 | 버튼 눌림·선택·실제 처리 결과 | [Android/HTML 상태 표시·취소·접근성](docs/UI_BUTTON_STATE_FEEDBACK.md) · [공식12자료 선택 학습](reports/ExternalLearning/20261109_UI_BUTTON_STATE_FEEDBACK_STUDY.json) · [native12/웹4 제한 실기](reports/ToolInventory/20261109_UI_BUTTON_STATE_SCOPED_RUNTIME.json) · [APK 버전 교체 근거](reports/ExternalLearning/20261109_APK_VERSION_OVERRIDE_STUDY.json) |
 | PC 직접 TLS 파일 교환·Android 페어링 | [정확한 인증서 고정·PEM·공인/유동IP 설계](docs/DIRECT_TLS_FILE_EXCHANGE.md) · [공식16문서 선택 학습·미검증](reports/ExternalLearning/20261109_DIRECT_TLS_FILE_EXCHANGE_STUDY.json) · [앱 보존 네이티브 TLS 프로브](docs/ANDROID_NATIVE_TLS_PROBE.md) · [shell fixture 11건·통합 미검증](reports/ToolInventory/20261109_ANDROID_NATIVE_TLS_PROBE_RUNTIME.json) · [Windows 로컬·APK 설치 범위](reports/ToolInventory/20261109_R17_LOCAL_DEPLOYMENT_APK_REVIEW.json) |
 | Android 오프라인 앱·PC 파일 가져오기 | [사진·점·가이드 파일 교환 설계](docs/ANDROID_OFFLINE_FILE_WORKFLOW.md) · [기존 SDK 직접 빌드](docs/ANDROID_OFFLINE_APK_BUILD.md) · [학습 범위](reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_STUDY.json) · [제안 계약](reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_SPEC.json) · [범위별 실기 통과·한계](reports/ToolInventory/20261109_ANDROID_OFFLINE_SCOPED_ROUNDTRIP.json) |

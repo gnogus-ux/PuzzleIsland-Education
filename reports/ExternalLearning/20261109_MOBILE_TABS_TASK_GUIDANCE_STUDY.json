@@ -1,0 +1,131 @@
+{
+  "date_kst": "2026-11-09",
+  "status": "CORE_DOCUMENT_STUDY_AND_MOBILE_TAB_DESIGN_ONLY",
+  "manual": "docs/MOBILE_TABS_TASK_GUIDANCE.md",
+  "core_official_documents_selectively_read": 5,
+  "sources": [
+    {
+      "title": "WAI Tabs Pattern",
+      "publisher": "W3C WAI / W3C or Android Developers",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/",
+      "read_scope": "Main pattern body: one active panel, tablist/tab/tabpanel relationships, aria-selected, keyboard and latency/activation note",
+      "observed": "Focus and active selection differ; automatic activation is appropriate only without noticeable panel latency",
+      "application_proposal": "Few functional panels with correct relationships and manual activation when content is delayed",
+      "selected_body_receipt_sha256": "1ce9c6aeff09b1273df30446a562dcc181d995844bfd6c1d2e98caa14ef68419",
+      "runtime": "NOT_EXECUTED_BY_DOCUMENT_AUTHOR"
+    },
+    {
+      "title": "Android WebView state API",
+      "publisher": "W3C WAI / W3C or Android Developers",
+      "url": "https://developer.android.com/reference/android/webkit/WebView",
+      "read_scope": "saveState(Bundle) and restoreState(Bundle) exact method bodies",
+      "observed": "These APIs no longer store/restore display data; restore after already building state can have side effects",
+      "application_proposal": "Preserve application data/draft separately; do not assume tab reload or WebView history saves live editor content",
+      "selected_body_receipt_sha256": "530561a080963ce0fee0e69b6aaddd289123e277b15dc6f1254beabb75028fec",
+      "runtime": "NOT_EXECUTED_BY_DOCUMENT_AUTHOR"
+    },
+    {
+      "title": "Resize Observer",
+      "publisher": "W3C WAI / W3C or Android Developers",
+      "url": "https://www.w3.org/TR/resize-observer/",
+      "read_scope": "Introduction selected observation conditions and3.4.6 loop-error paragraphs",
+      "observed": "Display-none changes affect observations; initial rendered nonzero size and no CSS-transform notification are explicit",
+      "application_proposal": "Gate tab-show rendering on positive size, observe container changes and avoid resize loops; actual WebView support unverified",
+      "selected_body_receipt_sha256": "4f5be486f42c83b174587fdf36d3322e7f8312598b8051ebc7ba54363e00e868",
+      "runtime": "NOT_EXECUTED_BY_DOCUMENT_AUTHOR"
+    },
+    {
+      "title": "CSS Positioned Layout3 sticky",
+      "publisher": "W3C WAI / W3C or Android Developers",
+      "url": "https://www.w3.org/TR/css-position-3/#sticky-pos",
+      "read_scope": "3.4 selected nearest-scrollport/inset/sticky-rectangle paragraphs and publication status",
+      "observed": "Sticky uses nearest scrollport and insets; source was Working Draft when read",
+      "application_proposal": "Use one thin navigation owner and inspect real scroll container/overlap, not a universal browser behavior guarantee",
+      "selected_body_receipt_sha256": "9be99f621ca5f8f4c5117b747339ed363a2cc9bb4852fb17881ee4dbbc4ca51c",
+      "runtime": "NOT_EXECUTED_BY_DOCUMENT_AUTHOR"
+    },
+    {
+      "title": "WAI Disclosure Pattern",
+      "publisher": "W3C WAI / W3C or Android Developers",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/",
+      "read_scope": "Main pattern, Enter/Space, expanded state and optional controls relationship",
+      "observed": "Disclosure visibly hides/reveals content with button state that matches expansion",
+      "application_proposal": "Collapse repeated help/technical detail while keeping current unsaved/error/unconfirmed-PC state outside",
+      "selected_body_receipt_sha256": "25e51787323db386341d957ececba1a5becaa3b8733e5929118ba729d2520eb5",
+      "runtime": "NOT_EXECUTED_BY_DOCUMENT_AUTHOR"
+    }
+  ],
+  "library_preflight": {
+    "canonical_base": "590fe4c11a3637afeecd4bcf74de8ae4bb47c712",
+    "read_or_same_version_reused": [
+      "README.md",
+      "docs/COMMON_WORK_RULES.md",
+      "docs/COMMON_TOOL_POLICY.md",
+      "docs/AVAILABLE_TOOLS.md",
+      "CONTRIBUTING.md",
+      "docs/UI_BUTTON_STATE_FEEDBACK.md",
+      "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md"
+    ],
+    "search_terms": [
+      "tablist",
+      "tabpanel",
+      "aria-selected",
+      "ViewFlipper",
+      "ResizeObserver",
+      "sticky",
+      "current task",
+      "next action",
+      "hidden canvas"
+    ],
+    "existing_basis": "Button-state manual supports selected/cancel/result/a11y; offline workflow supports draft/export/PC-apply boundaries",
+    "gap": "Missing task-group tabs, thin current/next guidance, collapsed repetitive detail and hidden-panel layout/coordinate preservation"
+  },
+  "scope_control": {
+    "core_sources_limited_to": 5,
+    "reuse_instead_of_research_expansion": "Current/result/dirty/a11y rules reused from existing UI_BUTTON_STATE_FEEDBACK manual",
+    "adjacent_selected_lookups_not_core_design_basis": [
+      {
+        "title": "Android View",
+        "scope": "Visibility/pane-title API entries were briefly read; no new pane-title compatibility implementation prescribed"
+      },
+      {
+        "title": "HTML canvas",
+        "scope": "Selected paragraphs retrieved/read; full canvas algorithm not studied and no executable resize recipe claimed"
+      }
+    ]
+  },
+  "fresh_search": {
+    "query": "site:w3.org/WAI/ARIA/apg tabs tabpanel automatic activation latency",
+    "method": "One Ego source-study space, official primary DOM bodies only",
+    "completed_normally_no_pages_kept": true
+  },
+  "cross_checks_and_inferences": [
+    "Tabs partition functional spaces; they are not a linear wizard or completion counter",
+    "A single navigation/guidance owner avoids native plus WebView duplicate headers",
+    "Critical dirty/error/PC-confirmation boundaries stay visible while repetitive technical help folds",
+    "When PC apply cannot be known, say unconfirmed rather than asserting applied/not-applied",
+    "WebView history state does not guarantee live DOM/draft/canvas recovery",
+    "Hidden panels require positive measured size before fit/redraw; original-photo coordinates stay independent",
+    "Reflow/tab changes do not authorize point/revision writes, reloads, new network calls or settings",
+    "Sticky and layout APIs require actual target WebView/device verification"
+  ],
+  "proposal_examples_not_frozen_product_IA": true,
+  "not_verified": [
+    "Actual product tab implementation",
+    "Input/draft/coordinate recovery across hide/show/resize",
+    "Actual save/cancel/error/late response behavior",
+    "Large font/narrow layout/keyboard/TalkBack",
+    "Target WebView/API compatibility and full WCAG",
+    "Product acceptance"
+  ],
+  "operations_by_document_author": {
+    "production_code": 0,
+    "app_or_phone": 0,
+    "server_or_router": 0,
+    "installation_account_or_cost": 0,
+    "source_snapshot_or_original_asset_changes": 0
+  },
+  "prior_r16_native11_UI_and_service_evidence_preserved": true,
+  "Cloudflare_VPN_and_external_setup_holds_preserved": true,
+  "private_data_source_media_or_raw_screens_published": false
+}
