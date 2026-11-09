@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-09",
+  "program": "cloudflared",
+  "version": "2026.10.7",
+  "platform": "Windows amd64 portable executable",
+  "official_release": "https://github.com/cloudflare/cloudflared/releases/tag/2026.10.7",
+  "license": "Apache-2.0",
+  "binary_sha256": "2493dbc168923bb3e59e5e7716f71deced92992eea9acd6e9d74f84ac7751343",
+  "authenticode_status": "Valid",
+  "publisher": "Cloudflare, Inc.",
+  "authorization": "User explicitly allowed project-local addition and a protected connectivity test",
+  "scope": "Actual MAY mobile Windows launcher and email-restricted Quick Tunnel; selected anonymous external rejection checks and direct-loopback public Host/Origin wiring only",
+  "roles": {
+    "execution_and_independent_application_checks": "Root Codex reviewer, separate from implementation author",
+    "publication": "Dedicated Codex documentation writer; saved evidence read and compared, no new runtime started"
+  },
+  "initial_install_receipt": {
+    "official_binary_hash_match": true,
+    "version_executed": true,
+    "tunnel_help_allowed_mail_present": true,
+    "global_path_or_windows_service_or_firewall_changed": false
+  },
+  "followup_connection": {
+    "real_application_instead_of_only_hello_world": true,
+    "protected_quick_tunnel_connection_observed": true,
+    "anonymous_external_gets": [
+      {
+        "resource_class": "HTML",
+        "expected_status": 302,
+        "actual_status": 302,
+        "exact_official_login_host_verified": true,
+        "pass": true
+      },
+      {
+        "resource_class": "state API",
+        "expected_status": 302,
+        "actual_status": 302,
+        "exact_official_login_host_verified": true,
+        "pass": true
+      },
+      {
+        "resource_class": "actual application photo",
+        "app_token_only": true,
+        "expected_status": 302,
+        "actual_status": 302,
+        "exact_official_login_host_verified": true,
+        "pass": true
+      },
+      {
+        "resource_class": "JSON export",
+        "app_token_only": true,
+        "expected_status": 302,
+        "actual_status": 302,
+        "exact_official_login_host_verified": true,
+        "pass": true
+      },
+      {
+        "resource_class": "SVG export",
+        "expected_status": 302,
+        "actual_status": 302,
+        "exact_official_login_host_verified": true,
+        "pass": true
+      }
+    ],
+    "external_post_with_only_app_token": {
+      "expected_status": 401,
+      "actual_status": 401,
+      "pass": true
+    },
+    "published_urls_or_response_bodies_or_product_photos": false,
+    "scope_limit": "Selected six anonymous requests passed; no authenticated session or all-route security guarantee"
+  },
+  "direct_loopback_public_host_origin_wiring": {
+    "not_an_authenticated_tunnel_session": true,
+    "cases": [
+      {
+        "case": "exact external top navigation",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "case": "top navigation exception cannot read external API",
+        "status": 403,
+        "pass": true
+      },
+      {
+        "case": "matching external API origin and token",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "case": "external null origin",
+        "status": 403,
+        "pass": true
+      },
+      {
+        "case": "external host mixed with loopback origin",
+        "status": 403,
+        "pass": true
+      },
+      {
+        "case": "external write without app token",
+        "status": 401,
+        "pass": true
+      },
+      {
+        "case": "external write with foreign origin",
+        "status": 403,
+        "pass": true
+      }
+    ],
+    "expectation_correction": "Reviewer initially expected403 for a missing app token. The existing application contract explicitly returns401; only this case was rerun after source comparison. Original expectation/result preserved privately; not a product defect."
+  },
+  "lifecycle": {
+    "test_stopped_by_console_interrupt": true,
+    "owned_application_and_connector_processes_absent_after_interrupt": "OBSERVED_BY_EXECUTION_REVIEWER",
+    "application_listener_released": "OBSERVED_BY_EXECUTION_REVIEWER",
+    "saved_run_record_state_read_by_publisher": "running",
+    "finally_completion_record_observed": false,
+    "successful_normal_shutdown_finalizer_claimed": false,
+    "scope": "OS process/listener release is distinct from a correct final saved lifecycle state"
+  },
+  "private_evidence": {
+    "selected_http_result_sha256": "d78a57d4e653ea58abb8a6c4f4c16c04cdb04bd5bbe7495bd15fe020c13e7b03",
+    "source_result_read_and_parsed": true,
+    "source_run_record_read_and_parsed": true,
+    "private_source_copies_published": false,
+    "lifecycle_observation_sha256": "2ea96094525cdab9e3efb6f6658a6ea7868f15f88bd6c32a03d1481e78f032df",
+    "lifecycle_observation_read_and_parsed": true
+  },
+  "still_unverified": [
+    "Actual user email/PIN authentication",
+    "Actual Android mobile-data access",
+    "Authenticated external application viewing, editing, saving and reopening",
+    "Authenticated external photo upload and file download",
+    "Successful shutdown finalizer and final saved run-record state",
+    "Full application route and security audit"
+  ],
+  "publication_operations": {
+    "new_application_or_connector_or_browser_execution": 0,
+    "global_settings_changes": 0,
+    "paid_purchase_or_new_account": 0,
+    "private_email_hostname_ip_pid_path_photo_or_token_published": false
+  },
+  "manual": "docs/ANDROID_PC_WEB_CONTROL.md",
+  "document_study": "reports/ExternalLearning/20261109_ANDROID_PC_WEB_CONTROL_STUDY.json",
+  "status": "LIMITED_REAL_APP_ANONYMOUS_REJECTION_VERIFIED_AUTHENTICATED_ANDROID_USE_UNVERIFIED"
+}

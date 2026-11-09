@@ -67,7 +67,17 @@ cloudflared tunnel --url http://localhost:PORT --allowed-mail USER_EMAIL
 
 [공식 Downloads](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/downloads/)는 Windows 32/64비트 EXE/MSI를 제공한다. Windows 자동 업데이트가 없으므로 실제 설치 버전과 필요한 플래그의 help를 확인한다. 검토 시 최신 릴리스는 2026.10.7이며 [LICENSE](https://github.com/cloudflare/cloudflared/blob/2026.10.7/LICENSE)는 Apache-2.0이다. 소프트웨어 라이선스와 Cloudflare 서비스 약관·플랜은 별개다. 이 문서 학습 담당은 다운로드·설치·실행·결제·서비스 가입을 하지 않았다.
 
-별도 실행 담당의 2026-11-09 저장 보고를 대조했다. 사용자 개별 허용 후 공식 Windows amd64 2026.10.7 EXE를 프로젝트 전용 폴더에 포터블로 추가했고, 릴리스 SHA256 일치·Authenticode Valid 발행자 Cloudflare, Inc.·실제 version 및 tunnel help의 allowed-mail 옵션을 확인했다고 기록한다. 전역 PATH·Windows 서비스·방화벽 설정은 바꾸지 않았다. 이 제한 확인은 터널 연결·PIN 인증·실제 휴대폰 편집·사진 업로드 성공과 구별하며, 해당 실기는 보고 시점에 미검증이다.
+별도 실행 담당의 2026-11-09 초기 설치 보고를 대조했다. 사용자 개별 허용 후 공식 Windows amd64 2026.10.7 EXE를 프로젝트 전용 폴더에 포터블로 추가했고, 릴리스 SHA256 일치·Authenticode Valid 발행자 Cloudflare, Inc.·실제 version 및 tunnel help의 allowed-mail 옵션을 확인했다고 기록한다. 전역 PATH·Windows 서비스·방화벽 설정은 바꾸지 않았다. 초기 설치·도움말 확인과 아래 후속 연결 검증, PIN 인증·실제 휴대폰 사용을 각각 구분한다.
+
+### 후속 제한 실기: 실제 앱의 익명 접근 차단
+
+문서 학습 후 별도 Codex 검수 담당이 Windows의 실제 MAY 모바일 실행기와 지정 버전 cloudflared의 이메일 제한 옵션으로 외부 연결을 실행했다. 이 문서 게시 담당은 저장된 요청 결과를 읽고 대조했으며 앱·터널·브라우저를 새로 실행하지 않았다. [익명화한 도구 검증 기록](../reports/ToolInventory/20261109_CLOUDFLARED_PROTECTED_MAY_REVIEW.json)에 확인 범위를 남겼다.
+
+선정한 HTML·상태 API·실제 사진·JSON/SVG 내보내기 5개 GET은 미인증 상태에서 정확한 공식 로그인 호스트로 302를 반환했다. 일부 GET에 앱 내부 토큰만 첨부해도 인증을 통과하지 못했다. 앱 토큰만 있는 외부 POST는 401이었다. 이는 Hello World만의 시험이 아니라 실제 앱의 선정 리소스 차단 확인이며, 전체 앱 경로·인증 후 사용·사진 업로드 성공을 보장하지 않는다.
+
+앱의 공개 Host/Origin 연결은 별도 loopback 요청 7개로 확인했다. 일치하는 외부 조합은 허용하고, API의 top-navigation 예외 사용·null 원점·외부 Host와 로컬 원점 혼합·다른 원점은 거부했다. 앱 토큰 누락의 기존 계약은 401이므로 이 경우를 403으로 예상했던 검수 기대값만 바로잡아 한 사례를 재확인했으며 최초 결과는 보존했다. 프록시 인증과 앱 토큰·원점 검사는 서로 대체하지 않는다.
+
+검수 담당은 시험을 콘솔로 중단한 뒤 소유 앱/중계 프로세스가 없고 서비스 리스너가 해제된 것을 확인했다고 보고했다. 그러나 저장된 실행 기록은 여전히 running으로 남았고 finally 완료 기록을 확인하지 못했다. 따라서 프로세스·리스너 해제와 종료 finalizer/상태 기록 성공을 구별하며, 정상 종료 기록까지 검증했다고 주장하지 않는다. 실제 PIN 인증, 안드로이드 이동통신 접속, 인증 후 앱 사용·편집·업로드·다운로드는 계속 미확인이다.
 
 보통의 상시 hostname으로 게시하는 [정식 Tunnel 시작 문서](https://developers.cloudflare.com/tunnel/get-started/)는 Cloudflare 계정·Cloudflare에 연결한 도메인·cloudflared 실행 PC를 요구한다. [Access](https://developers.cloudflare.com/cloudflare-one/access-controls/applications/http-apps/)는 각 요청에 접근 정책을 적용하는 별도 계층이며 public-hostname 앱은 Cloudflare DNS 구성을 요구한다. Quick의 allowed-mail과 named+Access 설정을 혼동하지 않는다. 도메인 보유 여부, 새 계정/비용과 유지보수 조건을 확인한 뒤 정식 운영으로 전환한다. 서비스 가격·최신 플랜 조건은 실행 결정 시 공식 가격에서 다시 확인한다.
 

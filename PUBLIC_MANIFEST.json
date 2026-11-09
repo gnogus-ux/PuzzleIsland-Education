@@ -68,7 +68,8 @@
     "2026-11-06: Read three official bodies and documented OBJ Load as Garment / Trace2D Patterns from UV Map candidate workflow;MD9 live import/pattern/curve fidelity explicitly NOT_RUN. No private data or raw sources published.",
     "2026-11-08: Added local perpendicular edge/stitch distances, classified opening projection, directional-light and known-height shadow ratios from three primary document sections. Projection-scale definitions, stationary interval extrema, hidden-material refusal and unknown light-position limits separated. No private product data, raw media, installation or physical/native-app validation published.",
     "2026-11-08: Added constrained planar-mouth mesh guidance and three official-document reading scopes; isolated Blender5.2.2 CDT coupon separately recorded. Private products, images, paths and source bodies excluded; no universal curved-mesh or physical-collision claim.",
-    "2026-11-09: Added Android touch and protected PC web-editor access manual; official document and pinned source study, Quick Tunnel allowed-mail version evidence, and separate portable cloudflared version/help receipt. No endpoint/email/private paths or device-success claims published."
+    "2026-11-09: Added Android touch and protected PC web-editor access manual; official document and pinned source study, Quick Tunnel allowed-mail version evidence, and separate portable cloudflared version/help receipt. No endpoint/email/private paths or device-success claims published.",
+    "2026-11-09: Updated cloudflared inventory with a separate real MAY protected-connection review: selected anonymous GET redirects, token-only POST rejection and direct-loopback Host/Origin wiring verified. PIN, authenticated Android use and successful final lifecycle record remain unverified; private endpoints and source evidence withheld."
   ],
   "files": [
     {
@@ -603,8 +604,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 21398,
-      "sha256": "e55c202a38a1017bdb1efb9efc5d1164214d576376803756b27e7a8d9169ed03"
+      "bytes": 21685,
+      "sha256": "a25872641a7b294d32b7a73ff3094d5b5300f854704d4db57262fd47175d8f47"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1008,13 +1009,18 @@
     },
     {
       "path": "docs/ANDROID_PC_WEB_CONTROL.md",
-      "bytes": 15816,
-      "sha256": "3babcb53b52389a76ff743fc2a5481b8ea53b979cafcfcca17380f04b761c686"
+      "bytes": 17882,
+      "sha256": "45315587dbf2c80a8d81d6037f731222a2ab2f34ff73baa8cdd4e834255f15be"
     },
     {
       "path": "reports/ExternalLearning/20261109_ANDROID_PC_WEB_CONTROL_STUDY.json",
       "bytes": 13741,
       "sha256": "4fa76c5e868702c16cbdeee38a2a57214d25ff8df48e8ab6311f7a23d5bc7816"
+    },
+    {
+      "path": "reports/ToolInventory/20261109_CLOUDFLARED_PROTECTED_MAY_REVIEW.json",
+      "bytes": 5660,
+      "sha256": "5e592a01a80a71b72119e97f546825e99d4a45166ce15439e3c62c9900eba6ec"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1163,5 +1169,10 @@
     "report": "reports/ExternalLearning/20261109_ANDROID_PC_WEB_CONTROL_STUDY.json",
     "scope": "13 selected official document bodies,8 pinned source files,2 adjacent version comparisons; separate portable2026.10.7 version/help receipt; actual tunnel/PIN/Android editing unverified at publication",
     "historical_export_counts": "Initial export counts preserved; not a full inventory recount"
+  },
+  "cloudflared_limited_connection_review_20261109": {
+    "record": "reports/ToolInventory/20261109_CLOUDFLARED_PROTECTED_MAY_REVIEW.json",
+    "scope": "6 selected anonymous external requests and7 direct-loopback origin guard cases; saved run record still running despite reported owned process/listener release; no authenticated Android or successful shutdown-finalizer claim",
+    "source_private_data_published": false
   }
 }
