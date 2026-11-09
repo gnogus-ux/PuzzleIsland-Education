@@ -65,3 +65,7 @@
 최소 시험은 정상 exact-cert/SAN/credential 다운로드·업로드와 함께 다음 실패를 포함한다: 다른 인증서·같은 키의 다른 DER 인증서·만료/미래 인증서·SAN 불일치·HTTP·redirect·누락/오류/폐기 토큰·타 기기 작업ID·허용 외 route/path·과대/손상/중복 파일·중간 연결 종료·느린 요청/동시 폭주·PC 수정 충돌. 실패 후 토큰/사진 미노출과 기존 초안/원본 불변을 확인한다. 이후에만 승인된 좁은 네트워크 설정을 적용하고 실제 이동통신 왕복을 별도 시험한다.
 
 공식 API/설계 문서 학습은 완료 범위로 기록하지만 인증서 생성·변환·pin handshake·credential 폐기·업로드/다운로드·라우터/방화벽 설정·외부 실기는 모두 **미검증**이다. [자료별 학습 범위](../reports/ExternalLearning/20261109_DIRECT_TLS_FILE_EXCHANGE_STUDY.json)를 참고한다.
+
+## Android 런타임의 별도 격리 검수
+
+[앱을 보존하는 네이티브 TLS 프로브](ANDROID_NATIVE_TLS_PROBE.md)는 기존 ADB/JDK/D8와 AOSP app_process 소스에 근거한 조건부 검수 경로다. 일반 shell에서 정확한 후보 Java 클래스를 별도로 확인하는 제안이며 앱 패키지 환경·실제 이동통신 성공을 대신하지 않는다. 현재 이 프로브의 기기 실행은 미검증이다.

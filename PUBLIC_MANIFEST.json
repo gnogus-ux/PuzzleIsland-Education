@@ -74,7 +74,8 @@
     "2026-11-09: Recorded a separate actual-phone USB-local measurement review: zoom, selection, one-source-pixel nudge, save and Chrome-menu reload retention with full configuration comparison. Open test tab/owned reverse retained by explicit user continuation instruction. No full-program, multi-touch or external-authentication save fix claimed; private test values withheld.",
     "2026-11-09: Added offline Android editor/manual file transfer and explicit PC import proposal, bounded version/photo/baseline/conflict contract, and existing SDK/JDK standalone development APK build study. Nine official resources selectively read. Selected CLI versions/file presence do not imply APK or offline round-trip success. Latest Cloudflare no-use instruction and absent portable executable observed; historical receipts retained. No private assets or secrets published.",
     "2026-11-09: Reconciled independent Windows/one-device offline file-exchange acceptance: existing-tool full APK builds/signing/update draft preservation, synthetic SAF edit/export/manual USB/PC preview-explicit-apply round trip, input/concurrency guards, corrected no-AI loopback launcher and preserved source/repeated seed. Real-photo package open-only; historical P1 failures retained as resolved. Rotation/two-finger/airplane-mode/cloud providers/other devices/manufacturing remain unverified. Only manuals and sanitized receipts published; no product code/APK/photo/private key.",
-    "2026-11-09: Added direct TLS file-exchange design from16 selected official documents: exact leaf DER pin versus SPKI, normal IPv4 SAN checks and explicit re-pair after dynamic-IP renewal, JDK PKCS12/encoding to Python PEM boundary, per-device revoked credentials, bounded native transfer and separate public routing prerequisites. No certificates, secrets, product code, servers, port/firewall settings or mobile-data execution performed. Prior offline acceptance preserved."
+    "2026-11-09: Added direct TLS file-exchange design from16 selected official documents: exact leaf DER pin versus SPKI, normal IPv4 SAN checks and explicit re-pair after dynamic-IP renewal, JDK PKCS12/encoding to Python PEM boundary, per-device revoked credentials, bounded native transfer and separate public routing prerequisites. No certificates, secrets, product code, servers, port/firewall settings or mobile-data execution performed. Prior offline acceptance preserved.",
+    "2026-11-09: Added conditional shell app_process/DEX native TLS probe manual from10 selected official documents/code files: non-zygote main, upstream SELinux shell/temp boundaries, exact candidate/provider and TLS-versus-HTTP observations, owned USB reverse/deadline/cleanup, instrumentation prerequisites. No phone/probe/build/server/settings execution; installed app and mobile-data validation remain separate. Prior r16 and direct TLS records preserved."
   ],
   "files": [
     {
@@ -84,8 +85,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 22906,
-      "sha256": "c9165d5f3e6c4c545d08285178745f5e1cf20dc1a472006bd668651a849160b5"
+      "bytes": 22983,
+      "sha256": "870d91e75c625fd1ce1415737dd0d23e9450b46c81ef53c573c8dd0b7cdcc9f9"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -1074,13 +1075,23 @@
     },
     {
       "path": "docs/DIRECT_TLS_FILE_EXCHANGE.md",
-      "bytes": 13180,
-      "sha256": "17576e126c821b579a0fb8f746aa0b299c7c6eafc0c025a76a02c3c3a72e3393"
+      "bytes": 13618,
+      "sha256": "4306507cf176a0e9157da98c7acd0fc7c4caf2043af28a2213331b0dfa158c07"
     },
     {
       "path": "reports/ExternalLearning/20261109_DIRECT_TLS_FILE_EXCHANGE_STUDY.json",
       "bytes": 15009,
       "sha256": "19f8f0bccfe8941a8f2fdbcad82e8739326c55a39cf72e77287a8b002b881355"
+    },
+    {
+      "path": "docs/ANDROID_NATIVE_TLS_PROBE.md",
+      "bytes": 9961,
+      "sha256": "0a4da365b46dd7fe52c75476cab64348eb643249a3507eaba18f7c1e6fb2e4b2"
+    },
+    {
+      "path": "reports/ExternalLearning/20261109_ANDROID_NATIVE_TLS_PROBE_STUDY.json",
+      "bytes": 10371,
+      "sha256": "4f6ed9c258549f02b1b1e8a2ec876230b69dd8ee38d2e53306605fad6e5f090c"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1277,5 +1288,13 @@
     "relative_tracked_link_occurrences_checked": 152,
     "private_assets_or_credentials_published": false,
     "historical_inventory_counts_preserved": true
+  },
+  "android_native_tls_probe_study_20261109": {
+    "manual": "docs/ANDROID_NATIVE_TLS_PROBE.md",
+    "study": "reports/ExternalLearning/20261109_ANDROID_NATIVE_TLS_PROBE_STUDY.json",
+    "scope": "10 selected primary documents/code files; six AOSP source files pinned to commit/blob, no code execution or device compatibility guarantee",
+    "local_tracked_link_occurrences_checked": 125,
+    "phone_or_probe_executed_by_author": false,
+    "historical_counts_and_unrelated_files_preserved": true
   }
 }
