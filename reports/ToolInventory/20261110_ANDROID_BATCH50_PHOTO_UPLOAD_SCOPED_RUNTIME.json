@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-10",
+  "status": "PASS_SCOPED_ACTUAL_FIFTY_SMALL_PNG_CELLULAR_REGISTRATION",
+  "roles": {
+    "runtime_review": "Codex reviewer",
+    "publisher": "Document specialist compared saved evidence only; no new runtime/build/study"
+  },
+  "app": {
+    "versionCode": 6,
+    "versionName": "r19-photo50",
+    "actual_Windows_SDK_build": true,
+    "INTERNET_permission_only": true,
+    "v2_v3_verified": true,
+    "existing_signer_and_key_unchanged": true,
+    "same_package_update_completed": true,
+    "uninstall_or_app_data_clear": false,
+    "pairing_and_empty_work_draft_state_preserved": true,
+    "prior_Android_input_files_preserved": 39,
+    "embedded_editor_assets_unchanged": 4
+  },
+  "actual_native": {
+    "system_picker_selected": 50,
+    "one_upload_confirmation": true,
+    "registered": 50,
+    "unique_synthetic_PNG_originals": 50,
+    "total_original_bytes": 87545,
+    "original_bytes_SHA_and_receipt_product_photo_mapping_exact": 50,
+    "display_and_orientation_copies_present": true,
+    "measurement_or_product_confirmation": false
+  },
+  "network": {
+    "before_and_after": "CELLULAR VALIDATED",
+    "WiFi_disabled": true,
+    "mobile_data_enabled": true,
+    "settings_changed": false,
+    "TLS_reverse_used": false
+  },
+  "preservation": {
+    "prior_PC_project_summaries_unchanged": 10,
+    "current_selection_jobs_AI_statistics_unchanged": true,
+    "device_registrations_unchanged": 3,
+    "explicit_new_test_product": 1,
+    "active_photos_in_test_product": 50,
+    "server_network_or_existing_PC_geometry_changes": 0
+  },
+  "policy": {
+    "batch_maximum": 50,
+    "sequential_upload": true,
+    "per_photo_MiB": 8,
+    "per_photo_max_pixels": 24000000,
+    "per_photo_max_side": 8192,
+    "per_product_photos": 100,
+    "global_projects": 50,
+    "server_storage_GiB": 1,
+    "new_batch_original_staging_MiB": 400,
+    "prior_retry_original_staging_MiB": 400,
+    "combined_theoretical_original_staging_MiB": 800,
+    "combined_staging_is_whole_app_OS_disk_cap": false,
+    "free_space_reserve_MiB": 64,
+    "maximum_actual_stream_bytes": 8388609,
+    "read_buffer_KiB": 16
+  },
+  "separate_Windows_checks": {
+    "independent_JVM_assertions": 161,
+    "isolated_loopback_TLS_actual_photo_store_and_mock_server_cases": 81,
+    "failures": 0,
+    "scope": [
+      "50/51 boundary, progress, stable-ID retry and no resend of completed items",
+      "Cancellation/capacity stop, create failure and exact 8MiB+1 read bound",
+      "Actual isolated store reached product100 and duplicate50; not production-server or native-phone fault injection"
+    ],
+    "independent_read_overrun_reproduced_then_fixed_and_rechecked": true,
+    "individual_test_gap_covered_by_direct_stop_measurement": true,
+    "all_twelve_mutations_rerun_claim": false
+  },
+  "limits": [
+    "Actual fifty-phone-image test used small synthetic PNGs totaling87545 bytes; fifty large camera images were not tested.",
+    "Phone ENOSPC, mid-transfer faults, screen-off/background continuity and process-kill recovery not tested.",
+    "Other carriers and roaming not tested; no whole-product or measurement-readiness claim."
+  ],
+  "privacy": {
+    "private_paths_identifiers_media_names_raw_hash_values_IP_fingerprints_credentials_included": false
+  },
+  "manual": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md",
+  "prior_receipts_preserved": true,
+  "cleanup": {
+    "owned_phone_Download_fixture_copies_removed": 50,
+    "owned_empty_fixture_directory_removed_nonrecursively": true,
+    "app_pairing_and_empty_work_draft_state_preserved": true,
+    "registered_PC_test_product_and_fifty_originals_retained": true,
+    "user_photos_or_products_removed": 0,
+    "private_app_staging_enumerated": false,
+    "private_app_staging_zero_measured_claim": false,
+    "staging_cleanup_evidence": "Source policy and focused JVM ownership tests only"
+  }
+}
