@@ -1,0 +1,177 @@
+{
+  "date_kst": "2026-11-09",
+  "status": "DOCUMENT_STUDY_COMPLETE_ACTUAL_ERROR_PHONE_OPERATIONS_NOT_VERIFIED",
+  "purpose": "Preserve an existing unsaved Android browser page via USB, or perform a separately explicitly authorized current-phone USB-local application test; keep external carrier testing separate.",
+  "manual": "docs/ANDROID_USB_EXISTING_PAGE_REVIEW.md",
+  "library_preflight": {
+    "repository": "gnogus-ux/PuzzleIsland-Education",
+    "base_commit": "2c5180c1f6989afc0ba644d912bbf1f250a666a9",
+    "read_or_same_blob_reused": [
+      "CONTRIBUTING.md",
+      "docs/COMMON_WORK_RULES.md",
+      "docs/COMMON_TOOL_POLICY.md",
+      "docs/AVAILABLE_TOOLS.md",
+      "README.md",
+      "docs/ANDROID_PC_WEB_CONTROL.md"
+    ],
+    "keywords": [
+      "ADB",
+      "USB",
+      "screencap",
+      "기기 확인",
+      "미저장 초안",
+      "Chrome remote debugging",
+      "input tap swipe"
+    ],
+    "gap": "Existing Android web-control manual covers touch and protected external requests; no procedure for preserving an existing unsaved phone page through USB observation and limited input"
+  },
+  "sources": [
+    {
+      "id": "ANDROID_ADB",
+      "title": "Android Debug Bridge (adb)",
+      "publisher": "Android Developers",
+      "url": "https://developer.android.com/tools/adb?hl=en",
+      "read": [
+        "Enable adb debugging on your device",
+        "Query for devices",
+        "Send commands to a specific device",
+        "Copy files to and from a device",
+        "Issue adb and shell commands",
+        "Take a screenshot"
+      ],
+      "scope_limit": "Selected body sections read. Adjacent wireless/install/reset examples appeared but were not applied. No full SDK tool course or actual command execution by the study author.",
+      "observed": [
+        "USB/RSA authorization is a prerequisite requiring device user action",
+        "device status alone does not guarantee a fully operational Android system",
+        "-s selects a particular current serial",
+        "exec-out screencap -p streams PNG raw output to the host",
+        "shell argument quoting spans local and device shells"
+      ],
+      "applied_proposal": "Read current screenshot and device identity before input; byte-preserving private screenshot handling; no setup/authentication/reset/restart automation"
+    },
+    {
+      "id": "CHROME_REMOTE",
+      "title": "Remote debug Android devices",
+      "publisher": "Chrome for Developers",
+      "url": "https://developer.chrome.com/docs/devtools/remote-debugging?hl=en",
+      "authors_as_displayed": [
+        "Kayce Basques",
+        "Sofia Emelianova"
+      ],
+      "read": "Full visible main explanatory body: discovery, existing tab inspect, target actions, elements, screencast, manual ADB CDP forwarding and limitations",
+      "observed": [
+        "Existing device tabs can be inspected",
+        "DevTools version follows device Chrome version",
+        "Open URL/reload/close/pause are separate mutating actions",
+        "Screencast clicks/keys can operate the phone and affect frame rates",
+        "ADB forward to chrome_devtools_remote exposes debug targets on the host"
+      ],
+      "scope_limit": "No Chrome device discovery setting, forwarding, tab attach, phone browsing or authentication performed by study author",
+      "applied_proposal": "Optional existing-page read-only inspection after target confirmation; no new URL, navigation or auth changes. Distinguish debug forwarding from app reverse routing."
+    },
+    {
+      "id": "AOSP_INPUT",
+      "title": "InputShellCommand.java",
+      "publisher": "Android Open Source Project official mirror",
+      "url": "https://github.com/aosp-mirror/platform_frameworks_base/blob/main/services/core/java/com/android/server/input/InputShellCommand.java",
+      "repository": "aosp-mirror/platform_frameworks_base",
+      "ref_read": "main",
+      "blob_sha": "5bc08a0ff85d122b0e1740877633b7d461de8510",
+      "license": "Apache-2.0 as stated in file header",
+      "read": "onCommand/onHelp, event injection and pointerCount, tap/swipe/drag/key/motion handling; full fetched file available for comparison",
+      "observed": [
+        "tap and swipe inject actual input events",
+        "help exposes available syntax",
+        "reviewed event builder fixes pointerCount=1",
+        "coordinates and display/source selection affect actual targets"
+      ],
+      "scope_limit": "Current upstream source is not a guarantee of exact Samsung/Android installed command support; inspect the authorized target's local input help. No build or execution performed.",
+      "applied_proposal": "One observed action then fresh screenshot; no guessed coordinate batches; no multi-touch success claim from single-pointer ADB commands"
+    },
+    {
+      "url": "https://android.googlesource.com/platform/packages/modules/adb/+/refs/heads/main/docs/user/adb.1.md",
+      "applied_proposal": "When the user separately authorizes USB-local app testing, record prior mappings and add only one non-rebinding owned reverse; remove only that item. It does not validate external carrier traffic.",
+      "read": "Current primary man page: target selection, forward/reverse list/no-rebind/remove semantics and shell/file-transfer syntax; reverse section lines68-77",
+      "observed": [
+        "reverse maps device endpoint to host endpoint",
+        "--no-rebind avoids replacing an existing endpoint",
+        "--list and --remove operate on mappings; remove-all is broader"
+      ],
+      "id": "AOSP_ADB_MAN",
+      "cli_version_as_displayed": "1.0.41",
+      "publisher": "Android Open Source Project",
+      "title": "ADB(1) MAN PAGE",
+      "not_run": "No reverse or other ADB command executed by study author"
+    },
+    {
+      "url": "https://github.com/aosp-mirror/platform_frameworks_base/blob/main/core/java/android/provider/Browser.java",
+      "not_run": "No phone intent or browser launch by study author",
+      "scope_limit": "Actual installed Chrome intent behavior must be observed; source constant is not device validation",
+      "read": "Lines174-179 documentation and constant",
+      "observed": "Boolean create_new_tab extra requests a new browser tab and is documented to override the application-id reuse hint",
+      "id": "AOSP_BROWSER",
+      "publisher": "Android Open Source Project official mirror",
+      "title": "Browser.java / EXTRA_CREATE_NEW_TAB",
+      "blob_sha": "afa7b80f58a010396e9ba347c311eba87cc57a95"
+    }
+  ],
+  "cross_checks": [
+    "ADB connection/authentication, specific device selection and existing Chrome tab selection are separate prerequisites",
+    "Source input command behavior makes UI mutation distinct from screenshot or help observation",
+    "USB debug transport does not imply the phone application's external network path changed or that mobile-data use was verified",
+    "Current main AOSP support does not establish installed-device support; actual help/version and matching screenshot must be checked",
+    "ADB alone cannot certify multi-touch gestures from the reviewed single-pointer implementation",
+    "Later explicit current-phone USB-local test authorization changes the permitted test scope, while preserving the original error phone and preventing local-test success from being described as an external-network fix."
+  ],
+  "separate_root_receipt": {
+    "private_identity_handoff_read_and_parsed": true,
+    "adb_cli_version": "1.0.41",
+    "platform_tools_version": "37.0.1",
+    "installation": "Existing SDK tool; no new installation reported",
+    "first_attached_phone": "User explicitly confirmed it was different from the phone in the error screenshots",
+    "root_reported_observations": [
+      "Version and device inventory",
+      "Current device screenshot",
+      "Chrome process and debug-socket availability"
+    ],
+    "root_reported_input_forward_app_open_installs": 0,
+    "identity_receipt_state": "Waiting for the correct error phone connection",
+    "scope": "Publisher received the root's saved receipt; publisher did not execute ADB or inspect/control any phone. No physical device identifiers, actual paths or screenshots published.",
+    "initial_identity_receipt_is_historical": true,
+    "latest_user_scope": "User subsequently explicitly authorized the current different attached phone for separate USB-local application testing; external/carrier testing deferred.",
+    "latest_usb_local_test_result": "NOT_RECEIVED_OR_VERIFIED_BY_PUBLISHER"
+  },
+  "session_issue_context": {
+    "issue": "https://github.com/cloudflare/cloudflared/issues/1752",
+    "state_previously_read_same_day": "open",
+    "source": "https://github.com/cloudflare/cloudflared/blob/2026.10.7/quicktunnelauth/session.go#L99",
+    "correction": "Four hours is a maximum cap and can be shortened by identity expiry; the short-session reports do not prove the current save-failure cause.",
+    "supported_fix_found_in_bounded_prior_source_review": false,
+    "no_auth_weakening_proposed": true
+  },
+  "not_run_by_study_author": [
+    "Any ADB/device command",
+    "Phone input or screenshot",
+    "USB discovery or debug settings",
+    "RSA/PIN/account authentication",
+    "Forward/reverse configuration",
+    "App/browser/server/tunnel start or restart",
+    "New software install",
+    "Actual device upload, save, download or multi-touch validation"
+  ],
+  "browser_source_reading": {
+    "tool": "ego-browser",
+    "version": "0.6.2.7",
+    "task_space": 43,
+    "finished_once": true,
+    "kept_pages": 0,
+    "update_notice_received": true,
+    "upgrade_run": false
+  },
+  "publication": {
+    "target_manual": "docs/ANDROID_USB_EXISTING_PAGE_REVIEW.md",
+    "target_study": "reports/ExternalLearning/20261109_ANDROID_USB_EXISTING_PAGE_STUDY.json",
+    "private_device_screen_or_serial_or_paths_or_auth_data_included": false,
+    "study_source_count": 5
+  }
+}

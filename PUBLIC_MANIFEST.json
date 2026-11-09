@@ -69,7 +69,8 @@
     "2026-11-08: Added local perpendicular edge/stitch distances, classified opening projection, directional-light and known-height shadow ratios from three primary document sections. Projection-scale definitions, stationary interval extrema, hidden-material refusal and unknown light-position limits separated. No private product data, raw media, installation or physical/native-app validation published.",
     "2026-11-08: Added constrained planar-mouth mesh guidance and three official-document reading scopes; isolated Blender5.2.2 CDT coupon separately recorded. Private products, images, paths and source bodies excluded; no universal curved-mesh or physical-collision claim.",
     "2026-11-09: Added Android touch and protected PC web-editor access manual; official document and pinned source study, Quick Tunnel allowed-mail version evidence, and separate portable cloudflared version/help receipt. No endpoint/email/private paths or device-success claims published.",
-    "2026-11-09: Updated cloudflared inventory with a separate real MAY protected-connection review: selected anonymous GET redirects, token-only POST rejection and direct-loopback Host/Origin wiring verified. PIN, authenticated Android use and successful final lifecycle record remain unverified; private endpoints and source evidence withheld."
+    "2026-11-09: Updated cloudflared inventory with a separate real MAY protected-connection review: selected anonymous GET redirects, token-only POST rejection and direct-loopback Host/Origin wiring verified. PIN, authenticated Android use and successful final lifecycle record remain unverified; private endpoints and source evidence withheld.",
+    "2026-11-09: Added USB Android existing-page draft preservation and separately authorized USB-local testing procedure from5 official sources. Device identity, raw screenshot, single-pointer limits, owned reverse mapping and new-tab request are separated from external-network/authentication validation. Existing ADB version/initial read-only observation receipt recorded without private device information."
   ],
   "files": [
     {
@@ -79,8 +80,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 22068,
-      "sha256": "dd133411583da863fcfe203568316c2478061fb803950455df61223d945d16e8"
+      "bytes": 22162,
+      "sha256": "06cca01d7879faaf5304b2ca52e752441546775d14124af544be197b545215d4"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -604,8 +605,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 21685,
-      "sha256": "a25872641a7b294d32b7a73ff3094d5b5300f854704d4db57262fd47175d8f47"
+      "bytes": 22528,
+      "sha256": "bddc603f96c843a07cc7d035be1caa711d291b934fa36931aafdd13221009542"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1009,8 +1010,8 @@
     },
     {
       "path": "docs/ANDROID_PC_WEB_CONTROL.md",
-      "bytes": 17882,
-      "sha256": "45315587dbf2c80a8d81d6037f731222a2ab2f34ff73baa8cdd4e834255f15be"
+      "bytes": 18583,
+      "sha256": "052f36af379cb93115401b3b217eee9651a043296ac4b029868db678e140cef2"
     },
     {
       "path": "reports/ExternalLearning/20261109_ANDROID_PC_WEB_CONTROL_STUDY.json",
@@ -1021,6 +1022,16 @@
       "path": "reports/ToolInventory/20261109_CLOUDFLARED_PROTECTED_MAY_REVIEW.json",
       "bytes": 5660,
       "sha256": "5e592a01a80a71b72119e97f546825e99d4a45166ce15439e3c62c9900eba6ec"
+    },
+    {
+      "path": "docs/ANDROID_USB_EXISTING_PAGE_REVIEW.md",
+      "bytes": 12722,
+      "sha256": "d89f791d68558ed29dc2ec5ae0c8551da716acbf174897d6d3f698da272e0052"
+    },
+    {
+      "path": "reports/ExternalLearning/20261109_ANDROID_USB_EXISTING_PAGE_STUDY.json",
+      "bytes": 9870,
+      "sha256": "bea7ed374af29ca1a47867c8b46ef701145375d82b58ba66c1872685779b0cee"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1174,5 +1185,11 @@
     "record": "reports/ToolInventory/20261109_CLOUDFLARED_PROTECTED_MAY_REVIEW.json",
     "scope": "6 selected anonymous external requests and7 direct-loopback origin guard cases; saved run record still running despite reported owned process/listener release; no authenticated Android or successful shutdown-finalizer claim",
     "source_private_data_published": false
+  },
+  "android_usb_existing_page_study_20261109": {
+    "manual": "docs/ANDROID_USB_EXISTING_PAGE_REVIEW.md",
+    "report": "reports/ExternalLearning/20261109_ANDROID_USB_EXISTING_PAGE_STUDY.json",
+    "scope": "5 selected primary resources; existing ADB37.0.1/CLI1.0.41 root receipt; no phone operations by study author; real USB-local or external success not claimed",
+    "historical_export_counts": "Initial export counts preserved; not a full inventory recount"
   }
 }
