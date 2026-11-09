@@ -1,6 +1,6 @@
 # PC 직접 TLS 파일 교환과 Android 페어링 설계
 
-2026-11-09 공식 문서 선택 범위 학습에 따른 **r17 후보용 설계**다. 서버·인증서 생성·앱 연결·포트 전달·외부 이동통신 실기는 실행하지 않았다. 기존 [r16 오프라인 파일 교환](ANDROID_OFFLINE_FILE_WORKFLOW.md)의 APK·초안·결과 파일·PC 원본을 보존한다. Cloudflare·VPN·새 계정/도메인·설치·비용·보안 설정 변경을 수행하지 않는다.
+2026-11-09 공식 문서 선택 범위 학습에 따른 **r17 후보용 설계**다. 문서 작성자는 서버·인증서 생성·앱 연결·포트 전달·외부 이동통신 실기를 실행하지 않았다. 후속 독립 native fixture 실행은 아래 별도로 기록한다. 기존 [r16 오프라인 파일 교환](ANDROID_OFFLINE_FILE_WORKFLOW.md)의 APK·초안·결과 파일·PC 원본을 보존한다. Cloudflare·VPN·새 계정/도메인·설치·비용·보안 설정 변경을 수행하지 않는다.
 
 ## 구성과 공개 범위
 
@@ -64,8 +64,8 @@
 
 최소 시험은 정상 exact-cert/SAN/credential 다운로드·업로드와 함께 다음 실패를 포함한다: 다른 인증서·같은 키의 다른 DER 인증서·만료/미래 인증서·SAN 불일치·HTTP·redirect·누락/오류/폐기 토큰·타 기기 작업ID·허용 외 route/path·과대/손상/중복 파일·중간 연결 종료·느린 요청/동시 폭주·PC 수정 충돌. 실패 후 토큰/사진 미노출과 기존 초안/원본 불변을 확인한다. 이후에만 승인된 좁은 네트워크 설정을 적용하고 실제 이동통신 왕복을 별도 시험한다.
 
-공식 API/설계 문서 학습은 완료 범위로 기록하지만 인증서 생성·변환·pin handshake·credential 폐기·업로드/다운로드·라우터/방화벽 설정·외부 실기는 모두 **미검증**이다. [자료별 학습 범위](../reports/ExternalLearning/20261109_DIRECT_TLS_FILE_EXCHANGE_STUDY.json)를 참고한다.
+초기 학습 당시 인증서 생성·변환·pin handshake·credential 폐기·전송·외부 경로는 미검증이었다. 후속 shell fixture에서 제한한 native 전송·인증 거부가 확인됐다. 실제 서비스 인증서/변환·설치 앱 통합·라우터/방화벽 설정·외부 이동통신 및 공개 서버 준비는 여전히 별도 미검증이다. [자료별 학습 범위](../reports/ExternalLearning/20261109_DIRECT_TLS_FILE_EXCHANGE_STUDY.json)를 참고한다.
 
 ## Android 런타임의 별도 격리 검수
 
-[앱을 보존하는 네이티브 TLS 프로브](ANDROID_NATIVE_TLS_PROBE.md)는 기존 ADB/JDK/D8와 AOSP app_process 소스에 근거한 조건부 검수 경로다. 일반 shell에서 정확한 후보 Java 클래스를 별도로 확인하는 제안이며 앱 패키지 환경·실제 이동통신 성공을 대신하지 않는다. 현재 이 프로브의 기기 실행은 미검증이다.
+[앱을 보존하는 네이티브 TLS 프로브](ANDROID_NATIVE_TLS_PROBE.md)는 기존 ADB/JDK/D8와 AOSP app_process 소스에 근거한 조건부 검수 경로다. 후속 독립 검수에서 S24 Android16 일반 shell의 AndroidOpenSSL/Conscrypt socket으로 fixture 11건이 통과했다. 정상 왕복·pin/기간 거부·pairing 사전 SAN 거부·인증/redirect 거부와 write 마감·소유 자산 정리가 확인됐다. 앱 패키지 환경·SAF/UI·실제 TLS SAN handshake 거부·이동통신·r17 전체 통과를 대신하지 않는다. [범위별 실기 기록](../reports/ToolInventory/20261109_ANDROID_NATIVE_TLS_PROBE_RUNTIME.json)에 검증 계층과 미검증을 나눴다.

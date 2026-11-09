@@ -250,5 +250,14 @@
     "Real mobile-data direct transfer",
     "Operational security/production readiness"
   ],
-  "private_data_or_source_media_publicly_published": false
+  "private_data_or_source_media_publicly_published": false,
+  "runtime_followup_receipt": "reports/ToolInventory/20261109_ANDROID_NATIVE_TLS_PROBE_RUNTIME.json",
+  "runtime_scope": "Root native shell fixture11cases passed on one S24/Android16; separate from source learning and not a full r17/app/cellular acceptance",
+  "not_verified": [
+    "Actual service PKCS12/PEM generation/load/rotation path",
+    "Installed-app exact-leaf/hostname/SAF/pairing/UI integration beyond the shell fixture",
+    "Production credential scope/storage and complete server lifecycle/resource limits",
+    "Authorized router/firewall public routing",
+    "Real mobile-data transfer and operational readiness"
+  ]
 }

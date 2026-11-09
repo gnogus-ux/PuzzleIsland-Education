@@ -1,10 +1,28 @@
 # 앱을 보존하는 Android 네이티브 TLS 격리 검수
 
-2026-11-09 공식 문서·AOSP 소스의 선택 범위를 대조한 **검수 절차 제안**이다. 작성자는 DEX/시험 코드를 만들거나 폰·서버를 실행하지 않았다. [직접 TLS 파일 교환 설계](DIRECT_TLS_FILE_EXCHANGE.md)의 인증서 검증기를 Android 런타임에서 좁게 확인하기 위한 경로이며, 설치 앱 전체·공개 서버·이동통신 성공 판정이 아니다.
+2026-11-09 공식 문서·AOSP 소스의 선택 범위를 대조한 **검수 절차와 후속 제한 실기 기록**이다. 작성자는 DEX/시험 코드를 만들거나 폰·서버를 실행하지 않았다. [직접 TLS 파일 교환 설계](DIRECT_TLS_FILE_EXCHANGE.md)의 인증서 검증기를 Android 런타임에서 좁게 확인하기 위한 경로이며, 설치 앱 전체·공개 서버·이동통신 성공 판정이 아니다.
+
+## 후속 독립 실기 — shell 전송 fixture 11건
+
+검수 담당의 실제 기록을 작성자가 직접 대조했다. Galaxy S24 / Android16(API36)의 일반 shell(uid2000), TLS provider `AndroidOpenSSL`, factory `com.android.org.conscrypt.OpenSSLSocketFactoryImpl`, socket `com.android.org.conscrypt.Java8EngineSocket`에서 후보 순수 Java 전송 클래스의 11/11 시험이 통과했다. 제품 사진 대신 전송 시험용 payload와 임시 인증 자료를 사용했다. 문서 작성자는 추가 실행을 하지 않았다.
+
+| 시험 | 관찰한 결과와 범위 |
+|---|---|
+| 정상 다운로드·업로드 | fixture 왕복 성공과 SHA 일치를 검수 담당이 확인 |
+| 다른 키 pin·같은 키 새 DER·만료·미래 인증서 | native 검증 거부. 서버 transport 접속은 있었으나 headers/auth 카운터 모두 0 |
+| SAN 불일치 | pairing 사전 검사에서 거부, 연결 0. 실제 TLS hostname-verifier의 SAN 거부 시험으로 확대하지 않음 |
+| 잘못된·폐기 credential | 인증 거부. HTTP401은 검수 담당 직접 보고이며 저장 snapshot에는 수치 상태 코드가 없음 |
+| redirect | 허용 fixture에 인증 요청 1회 후 redirect 응답 거부 |
+| 평문 fixture | 네트워크 오류로 중단, headers/auth 0. HTTP URL parser 자체를 시험한 결과는 아님 |
+| 막힌 write | 검수 담당이 설정한 200ms 마감 시험에서 실제 216ms에 종료. 모든 전송의 보편 지연 보장은 아님 |
+
+소유 probe 프로세스 잔여 0, 원래 forward/reverse 목록 보존·시험 reverse 해제, 전용 기기 시험 파일 정리를 확인했다. 원앱/사설 data/페어링/CA/권한·보안 설정·기기 시간·실사용 서버 키/token은 접근·변경하지 않았다는 보존 보고와 대조했다. 이 probe에서 새 앱 APK 빌드·설치는 하지 않았다.
+
+저장 기록의 headers/auth 카운터를 근거로 쓰며 기록에 없는 본문 바이트 계측값은 만들지 않는다. 이 결과는 설치 앱의 Manifest/SAF/UI/권한·외부 인증서·이동통신 검수나 r17 전체/공개 준비 완료가 아니다. 별도 서버 보완·통합 검수는 진행 중이다. [익명화한 범위별 실기 기록](../reports/ToolInventory/20261109_ANDROID_NATIVE_TLS_PROBE_RUNTIME.json)을 참고한다.
 
 ## 지원 근거와 한계
 
-[AOSP Android16 app_process 구현](https://android.googlesource.com/platform/frameworks/base/+/99b01a65cc4c104933788b3143285ab6bae65827/cmds/app_process/app_main.cpp)은 31행의 CLI 구문, 56–72행의 CLASSPATH 클래스 검색, 86행의 main 호출을 제공한다. 190–211행은 VM 인수·현재 미사용인 cmd-dir·실행 클래스/인수를 설명하며, 285–299행과 336–339행은 non-zygote 클래스 실행을 RuntimeInit으로 연결한다. 이는 **플랫폼 내부 CLI 구현 근거**이며 장기 호환을 보장하는 일반 앱 SDK API가 아니다. OEM·빌드·정책에 따른 현재 기기 실행 가능성은 실제 확인 전 미검증이다.
+[AOSP Android16 app_process 구현](https://android.googlesource.com/platform/frameworks/base/+/99b01a65cc4c104933788b3143285ab6bae65827/cmds/app_process/app_main.cpp)은 31행의 CLI 구문, 56–72행의 CLASSPATH 클래스 검색, 86행의 main 호출을 제공한다. 190–211행은 VM 인수·현재 미사용인 cmd-dir·실행 클래스/인수를 설명하며, 285–299행과 336–339행은 non-zygote 클래스 실행을 RuntimeInit으로 연결한다. 이는 **플랫폼 내부 CLI 구현 근거**이며 장기 호환을 보장하는 일반 앱 SDK API가 아니다. 후속 검수에서는 아래 한 기기/후보가 실행됐다. 다른 OEM·빌드·정책의 실행 가능성은 별도 확인이 필요하다.
 
 [같은 릴리스의 shell 정책](https://android.googlesource.com/platform/system/sepolicy/+/d4a7f392598cee96d9479a8ac0f84259c19b043a/private/shell.te)은 24–26행에서 app_process 실행 용도를 명시하고, 291행에서 shell의 네트워크 속성을 부여하며, 309–312행에서 shell 임시 파일 접근, 349행에서 해당 실행 파일 타입 접근을 허용한다. [public/shell.te](https://android.googlesource.com/platform/system/sepolicy/+/d4a7f392598cee96d9479a8ac0f84259c19b043a/public/shell.te) 1–3행은 ADB/console shell 도메인이다. [file_contexts](https://android.googlesource.com/platform/system/sepolicy/+/d4a7f392598cee96d9479a8ac0f84259c19b043a/private/file_contexts) 274–275·626행의 app_process/임시 영역 타입과 교차 확인했다. [매크로](https://android.googlesource.com/platform/system/sepolicy/+/d4a7f392598cee96d9479a8ac0f84259c19b043a/public/te_macros) 242행과 279행은 정책 속성을 부여하며 앱의 패키지 UID로 전환하는 명령이 아니다.
 
@@ -23,7 +41,7 @@
 1. 기존 USB/RSA 허용 상태와 현재 대상 기기를 [ADB 문서](https://developer.android.com/tools/adb)의 명시 대상 선택 방식으로 확인한다. 기기 확인·일반 shell uid/SELinux 상태·실행 파일 존재·현재 forward/reverse 목록을 최소 조회한다. 새 인증 창은 사용자가 처리하며 자동 설정 변경을 하지 않는다. 기존 매핑을 대체하지 않는다.
 2. PC의 별도 로컬 fixture 서버에 시험 전용 인증서/개인키·일회성 credential을 둔다. 기기에는 공개 시험 인증서·임시 credential 파일·DEX/config만 새 전용 하위 디렉터리에 넣는다. 실제 서버 키·실사용 token·제품 사진·사용자 pairing 파일은 사용하지 않는다. `/data/local/tmp` 전체가 아닌 이번에 만든 디렉터리와 명시 파일 목록만 점유한다. credential은 argv·환경값·일반 로그로 전달하지 않고 제한한 시험 파일로 읽는다.
 3. [공식 ADB CLI 구현](https://android.googlesource.com/platform/packages/modules/adb/+/ce023afef190b0cea7f8939e9dd5ee3ee79b137b/client/commandline.cpp) 131–139행은 reverse 목록·`--no-rebind`·개별 제거를 제공한다. 충돌하지 않는 기기 시험 포트 하나만 PC의 loopback fixture로 reverse하고 기존 포트 점유가 있으면 실패시킨다. `--remove-all`이나 기존 ADB 서버 종료를 정리 수단으로 쓰지 않는다. 이 연결은 USB 경로이며 공유기/방화벽/셀룰러 시험이 아니다.
-4. DEX를 바꾸지 않을 시험 자산으로 확인한 뒤 일반 shell에서 일회성 CLASSPATH와 non-zygote main을 사용한다. 개념 구문은 `CLASSPATH=<전용 DEX JAR> app_process /system/bin <시험 main> <시험 config 경로>`다. 명령 문자열/경로 quoting은 PC와 기기 shell 두 단계에서 검토한다. 기기마다 존재하는 app_process 변형과 정책을 먼저 확인하며 시스템 바이너리·전역 환경·ART 설정은 바꾸지 않는다. 이 문서는 해당 명령을 실행한 기록이 아니다.
+4. DEX를 바꾸지 않을 시험 자산으로 확인한 뒤 일반 shell에서 일회성 CLASSPATH와 non-zygote main을 사용한다. 개념 구문은 `CLASSPATH=<전용 DEX JAR> app_process /system/bin <시험 main> <시험 config 경로>`다. 명령 문자열/경로 quoting은 PC와 기기 shell 두 단계에서 검토한다. 기기마다 존재하는 app_process 변형과 정책을 먼저 확인하며 시스템 바이너리·전역 환경·ART 설정은 바꾸지 않는다. 이 절은 재사용 절차이며, 후속 실행 관찰은 위 실기 절로 구분한다.
 5. 시작 시 probe의 소유 PID·uid/context·Android/API·Java 런타임·SSLContext provider와 socket 구현·후보/입력 해시를 민감값 없이 기록한다. 실제 provider가 원하는 기기 TLS 제공자인지 확인하기 전 Conscrypt 검수라고 단정하지 않는다. PC JDK에서 같은 클래스가 통과한 결과와 별도 기록한다.
 6. 전체 실행에 독립적인 host 마감 시간을 두고 connect/read/write·TLS 실패·서버 응답을 개별 측정한다. main 반환만으로 남은 스레드·프로세스가 없다고 추정하지 않는다. 마감 초과 시 확인한 **소유 probe PID만** 종료하고 결과를 실패/미완료로 남긴다. 앱·adbd·다른 app_process·사용자 서버를 종료하지 않는다.
 7. 민감값 없는 결과를 회수한 뒤 소유 probe/fixture의 정상 종료·리스너 해제를 확인한다. 이번 reverse 하나만 제거하고 이전 forward/reverse 목록 보존을 대조한다. 시험 디렉터리와 목록을 다시 확인한 뒤 이번 파일만 정리한다. 루트 임시 영역 일괄 삭제·와일드카드 전역 정리·기존 앱 데이터 삭제는 하지 않는다. 정리 실패도 미확인으로 기록한다.
@@ -40,4 +58,4 @@ fixture URL의 호스트/IP와 SAN은 실제 검수 조건에 맞춰야 한다. 
 
 [공식 instrumentation 안내](https://developer.android.com/studio/test/command-line)는 main/test APK의 빌드·설치와 선언된 runner를 전제로 `am instrument`를 사용한다. 별도 시험 패키지·runner/의존성·호환 API·서명·설치 승인·대상 앱과 데이터 보존 계획이 필요하다. AndroidX runner나 Gradle 캐시가 이미 있다고 가정하지 않는다. 지금 허용된 설치 없는 probe가 거부됐다는 이유로 원앱을 대상으로 instrumentation을 시작하거나 새 APK를 설치하지 않는다. 필요한 항목만 보고하고 현재 검수 범위를 미완료로 남긴다.
 
-공식 근거는 이 제한된 경로를 **제안할 근거**이며 실제 폰 실행 성공을 뜻하지 않는다. [문서/소스별 실제 열람 범위](../reports/ExternalLearning/20261109_ANDROID_NATIVE_TLS_PROBE_STUDY.json)와 함께 사용한다.
+공식 근거와 위 한정 실기 관찰을 구분한다. 실기 통과는 한 기기/후보의 shell fixture 범위이며 원앱·셀룰러 성공으로 확대하지 않는다. [문서/소스별 실제 열람 범위](../reports/ExternalLearning/20261109_ANDROID_NATIVE_TLS_PROBE_STUDY.json)와 함께 사용한다.

@@ -1,0 +1,143 @@
+{
+  "date_kst": "2026-11-09",
+  "status": "PASS_11_SCOPED_NATIVE_PROVIDER_FIXTURE_CASES_NOT_FULL_R17_ACCEPTANCE",
+  "evidence": "Saved independent reviewer snapshot directly read and compared by documentation publisher; complementary direct reviewer reports explicitly marked",
+  "environment": {
+    "device_family": "Galaxy S24",
+    "android": "Android16",
+    "api": 36,
+    "uid_role": "ordinary shell uid2000",
+    "reported_vm": "Dalvik",
+    "tls_provider": "AndroidOpenSSL",
+    "socket_factory": "com.android.org.conscrypt.OpenSSLSocketFactoryImpl",
+    "socket_class": "com.android.org.conscrypt.Java8EngineSocket"
+  },
+  "fixture_only": true,
+  "fixture_is_product_photo": false,
+  "same_candidate_pure_java_classes": "Independent reviewer tested selected candidate transport classes; private source/DEX identities retained in private evidence only",
+  "cases": [
+    {
+      "case": "roundtrip",
+      "result": "ROUNDTRIP_OK",
+      "pass": true,
+      "server_headers_counter": 3,
+      "server_auth_counter": 3,
+      "layer": "NATIVE_FIXTURE_UPLOAD_DOWNLOAD",
+      "hash_match": "Independent reviewer reports fixture download/upload SHA matched; exact payloads/hashes withheld"
+    },
+    {
+      "case": "wrong-pin",
+      "result": "EXCHANGE_PIN_MISMATCH",
+      "pass": true,
+      "server_headers_counter": 0,
+      "server_auth_counter": 0,
+      "layer": "NATIVE_TLS_VALIDATION",
+      "server_accepted_connection": 1
+    },
+    {
+      "case": "same-key-new-der",
+      "result": "EXCHANGE_PIN_MISMATCH",
+      "pass": true,
+      "server_headers_counter": 0,
+      "server_auth_counter": 0,
+      "layer": "NATIVE_TLS_VALIDATION",
+      "server_accepted_connection": 1
+    },
+    {
+      "case": "expired",
+      "result": "EXCHANGE_CERT_INVALID",
+      "pass": true,
+      "server_headers_counter": 0,
+      "server_auth_counter": 0,
+      "layer": "NATIVE_TLS_VALIDATION",
+      "server_accepted_connection": 1
+    },
+    {
+      "case": "future",
+      "result": "EXCHANGE_CERT_INVALID",
+      "pass": true,
+      "server_headers_counter": 0,
+      "server_auth_counter": 0,
+      "layer": "NATIVE_TLS_VALIDATION",
+      "server_accepted_connection": 1
+    },
+    {
+      "case": "san-mismatch",
+      "result": "PAIR_REJECTED",
+      "pass": true,
+      "server_headers_counter": 0,
+      "server_auth_counter": 0,
+      "layer": "PAIRING_PREFLIGHT_NOT_A_TLS_HOSTNAME_HANDSHAKE_TEST",
+      "server_accepted_connection": 0
+    },
+    {
+      "case": "bad-credential",
+      "result": "EXCHANGE_AUTH",
+      "pass": true,
+      "server_headers_counter": 1,
+      "server_auth_counter": 1,
+      "layer": "HTTP_AUTH_REJECTION",
+      "http_status_401_evidence": "Independent reviewer direct report; numeric HTTP status absent from source snapshot"
+    },
+    {
+      "case": "revoked",
+      "result": "EXCHANGE_AUTH",
+      "pass": true,
+      "server_headers_counter": 1,
+      "server_auth_counter": 1,
+      "layer": "HTTP_AUTH_REJECTION",
+      "http_status_401_evidence": "Independent reviewer direct report; numeric HTTP status absent from source snapshot"
+    },
+    {
+      "case": "redirect",
+      "result": "EXCHANGE_REDIRECT",
+      "pass": true,
+      "server_headers_counter": 1,
+      "server_auth_counter": 1,
+      "layer": "REDIRECT_RESPONSE_REJECTED_AFTER_ONE_AUTHENTICATED_FIXTURE_REQUEST"
+    },
+    {
+      "case": "plain",
+      "result": "EXCHANGE_NETWORK",
+      "pass": true,
+      "server_headers_counter": 0,
+      "server_auth_counter": 0,
+      "layer": "PLAINTEXT_FIXTURE_REJECTED_WITHOUT_HTTP_AUTH; not an HTTP-URL parser test"
+    },
+    {
+      "case": "write-deadline",
+      "result": "EXCHANGE_NETWORK",
+      "pass": true,
+      "server_headers_counter": 0,
+      "server_auth_counter": 0,
+      "layer": "BLOCKED_WRITE_CANCELLATION",
+      "configured_deadline_ms_from_reviewer_report": 200,
+      "observed_elapsed_ms": 216
+    }
+  ],
+  "tls_failure_counter_boundary": "Other-key pin/same-key-new-DER/expired/future connected at transport level but parsed headers/auth counters stayed0. SAN rejection happened before connection in pairing preflight. No body-byte counter was present in this snapshot; no such measured value is invented.",
+  "cleanup_observed": {
+    "owned_probe_processes_remaining": 0,
+    "original_forward_preserved": true,
+    "original_reverse_restored": true,
+    "dedicated_remote_probe_files_cleaned": true,
+    "unexpected_remote_entries": 0
+  },
+  "preservation": {
+    "original_app_private_data_accessed": false,
+    "security_settings_changed": false,
+    "original_app_pairing_CA_permissions_time_and_runtime_keys_or_tokens_changed": "No changes/use reported by independent reviewer",
+    "no_new_app_APK_build_or_install_in_this_probe": true
+  },
+  "not_verified": [
+    "Installed-app UID/Manifest/NetworkSecurityConfig/Keystore/SAF/pairing/UI integration",
+    "Actual device hostname-verifier rejection of SAN mismatch; this case was pairing preflight",
+    "Public certificate/server configuration and mobile-data reachability",
+    "Other devices/builds/providers",
+    "Full r17 server lifecycle/resource tracking/public-service readiness"
+  ],
+  "separate_work": "PC endpoint tests and ongoing server tracking corrections are separate from this native fixture receipt; no aggregate full-program pass",
+  "publisher_new_device_code_build_server_or_settings_operations": 0,
+  "raw_code_DEX_photos_private_paths_serial_credentials_keys_or_test_payload_hashes_published": false,
+  "manual": "docs/ANDROID_NATIVE_TLS_PROBE.md"
+}

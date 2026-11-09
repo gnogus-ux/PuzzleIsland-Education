@@ -1,6 +1,6 @@
 {
   "date_kst": "2026-11-09",
-  "status": "SELECTED_OFFICIAL_SOURCE_STUDY_PROBE_NOT_EXECUTED",
+  "status": "OFFICIAL_SOURCE_STUDY_PLUS_SEPARATE_SCOPED_ROOT_NATIVE_RUNTIME_REVIEW",
   "manual": "docs/ANDROID_NATIVE_TLS_PROBE.md",
   "parent_manual": "docs/DIRECT_TLS_FILE_EXCHANGE.md",
   "library_preflight": {
@@ -184,13 +184,14 @@
   },
   "future_authorized_probe_only": "Dedicated shell temporary directory, public test certificate and temporary credential, exact candidate DEX and loopback fixture through one owned reverse. Record and clean owned processes/files/mapping only.",
   "not_verified": [
-    "Current OEM app_process/ART/classpath execution",
-    "Actual uid/context/provider and TLS handshake",
-    "Exact cert/SAN/expiry failures and zero HTTP credential/body transmission",
-    "Probe lifecycle/deadline and owned cleanup",
-    "Installed app integration/pairing/UI/data preservation",
-    "External mobile-data file exchange"
+    "Installed-app UID/Manifest/NSC/Keystore/SAF/pairing/UI integration",
+    "Actual TLS hostname-verifier SAN rejection; current SAN test was pairing preflight",
+    "Public service/mobile-data path",
+    "Other OEM/provider behavior",
+    "Full server lifecycle/resource-tracking readiness"
   ],
   "browser_study": "Separate source-study task completed normally with no kept pages; no router/device/app UI operated",
-  "raw_source_files_and_personal_or_secret_data_published": false
+  "raw_source_files_and_personal_or_secret_data_published": false,
+  "runtime_receipt": "reports/ToolInventory/20261109_ANDROID_NATIVE_TLS_PROBE_RUNTIME.json",
+  "historical_study_scope": "Source learning observations and author-zero-execution fields remain historical/author-scoped. A separate root runtime receipt now records one actual device fixture."
 }
