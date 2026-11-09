@@ -82,7 +82,8 @@
     "2026-11-09: Added real SDK version override correction from4selected primary sources and scoped UI review: requestedversion3/r17-ui1 finalbadging, preserved signing v2/v3, completed update/install-loaded-screen evidence, native12 and web4 at360CSSpx. Job-open SAF cancel differs from untested result export/save-failure/font/rotation/TalkBack/cellular. Publisher read stored evidence only; no raw screens/private artifacts or their hashes published. Prior r16/native11/service history and network holds preserved.",
     "2026-11-09: Added narrow mobile-tabs/current-task/next-action design from5core primary sources, reusing existing state/result guidance. Functional panels, ARIA keyboard behavior, thin sticky navigation, collapsible repetitive detail, critical dirty/error/unconfirmed-PC state, WebView display-data limits and positive-size hidden-canvas rendering are separated from untested product implementation. No app/phone/server/production changes or new dependencies.",
     "2026-11-09: Added plain-button workspace selection/return focus and hidden-state supplement from three primary selected sections; previous tab rules conditional, no picker runtime success claimed. Private app-reference screens not published.",
-    "2026-11-09: Added sanitized three-official-photo-app UI observations and reuse proposals; marketing images and numeric-version limits distinguished from actual app/product execution. No raw screens, private brief, product values or artifact hashes published."
+    "2026-11-09: Added sanitized three-official-photo-app UI observations and reuse proposals; marketing images and numeric-version limits distinguished from actual app/product execution. No raw screens, private brief, product values or artifact hashes published.",
+    "2026-11-09: Reconciled approved narrow forwarding/firewall settings and installed-app v3 file roundtrip via same-WiFi public IPv4 NAT loopback. Not independent external/cellular, PC apply or new chooser UI acceptance. Private network/device/asset/auth values and hashes omitted; prior local history preserved."
   ],
   "files": [
     {
@@ -617,8 +618,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 25226,
-      "sha256": "7ac1b83e58d1b8a40b7a4ce2cdf40a3319cf1de122d7f2c48a9f75b50b0d9e3a"
+      "bytes": 26009,
+      "sha256": "638b8fcc99a47bd44c6dc5e572d7d52f29777ed41d8fabbc559da52785f78888"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1082,8 +1083,8 @@
     },
     {
       "path": "docs/DIRECT_TLS_FILE_EXCHANGE.md",
-      "bytes": 16557,
-      "sha256": "a36e688bfd1e87580934230652b1394ee32e901920f6f9b54fab6eb1d0c62d05"
+      "bytes": 18821,
+      "sha256": "aa046351f15d562b564dc78457960866ae69b31f74e043c2c95f86ec661ffb96"
     },
     {
       "path": "reports/ExternalLearning/20261109_DIRECT_TLS_FILE_EXCHANGE_STUDY.json",
@@ -1107,8 +1108,8 @@
     },
     {
       "path": "reports/ToolInventory/20261109_R17_LOCAL_DEPLOYMENT_APK_REVIEW.json",
-      "bytes": 3530,
-      "sha256": "cf6bc6f25aaf2fd7a1f5c825764334bb4f47983d51d2a6b7bc92023ecd33d100"
+      "bytes": 3853,
+      "sha256": "5f8eea218933fe3b63ffb6cdb20b1e9ab24397dc424e9f0fe4220d180fc2c8fa"
     },
     {
       "path": "docs/UI_BUTTON_STATE_FEEDBACK.md",
@@ -1154,6 +1155,11 @@
       "path": "reports/ExternalLearning/20261109_PHOTO_EDITOR_UI_REFERENCE_STUDY.json",
       "bytes": 2552,
       "sha256": "b4249ce6c35c73dcd5995b107172985ba311fae7cc06ea8f3f8890025b6cc03e"
+    },
+    {
+      "path": "reports/ToolInventory/20261109_R17_NAT_LOOPBACK_APP_TRANSFER.json",
+      "bytes": 2061,
+      "sha256": "02c354e05b2170311861a7e410b04f80a2dbc843b444b42c97f92847ee2542e6"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1409,5 +1415,12 @@
     "study": "reports/ExternalLearning/20261109_PHOTO_EDITOR_UI_REFERENCE_STUDY.json",
     "scope": "Previously observed official three-store marketing screens; no actual reference-app or product execution",
     "raw_images_or_private_values_published": false
+  },
+  "r17_installed_app_nat_loopback_followup_20261109": {
+    "receipt": "reports/ToolInventory/20261109_R17_NAT_LOOPBACK_APP_TRANSFER.json",
+    "manual": "docs/DIRECT_TLS_FILE_EXCHANGE.md",
+    "scope": "Saved reviewer evidence only; approved settings actually applied, same-WiFi authenticated file exchange; independent external/cellular and PC apply unverified",
+    "publisher_new_operations": 0,
+    "private_values_or_artifact_hashes_published": false
   }
 }

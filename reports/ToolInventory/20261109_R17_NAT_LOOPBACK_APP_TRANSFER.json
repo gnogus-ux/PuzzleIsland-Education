@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-09",
+  "type": "SAVED_INDEPENDENT_REVIEW_RECONCILIATION",
+  "verdict": "INSTALLED_APP_WIFI_PUBLIC_IPV4_NAT_LOOPBACK_FILE_ROUNDTRIP_PASS_ONLY",
+  "basis": "Reviewer finalized saved network-start result, read in full by document author; no new execution",
+  "observed_configuration": {
+    "approved_single_TCP_forward": true,
+    "narrow_Windows_inbound_program_address_interface_Public_profile": true,
+    "editor_admin_remain_loopback": true,
+    "actual_settings_applied_not_learning_only": true
+  },
+  "installed_app_at_network_test": {
+    "version_code": 3,
+    "version_name": "r17-ui1",
+    "authenticated_job_list": true,
+    "validated_download_and_open": true,
+    "download_bytes": 2382589,
+    "upload_and_PC_receipt_verified": true,
+    "upload_bytes": 2172,
+    "file_hash_equality_verified_values_omitted": true,
+    "anonymous_HTTP_status": 401,
+    "certificate_validation_disabled": false,
+    "USB_reverse_for_public_socket": false
+  },
+  "route": "Same Wi-Fi, public IPv4 NAT loopback; not independent external or cellular",
+  "cellular": {
+    "success": false,
+    "WiFi_off_default_network": "none",
+    "user_confirmed_mobile_internet_unavailable": true,
+    "WiFi_restored": true
+  },
+  "preservation": {
+    "PC_apply_count": 0,
+    "measurement_configuration_unchanged": true,
+    "protected_original_files_unchanged": 475,
+    "runtime_files_unchanged": 69,
+    "prior_data_files": 194,
+    "prior_data_change": "normal audit append only",
+    "new_owned_inbox_files": 2,
+    "saved_phone_draft_and_pairing_retained": true
+  },
+  "not_claimed": [
+    "Independent external Internet reachability",
+    "Mobile-data roundtrip",
+    "PC explicit apply or actual measurement edit",
+    "New chooser UI acceptance",
+    "Whole product or production service readiness"
+  ],
+  "document_author_new_phone_app_server_router_security_operations": 0,
+  "private_values_paths_screens_product_artifact_hashes_or_credentials_published": false,
+  "prior_r16_native_fixture_UI_and_Cloudflare_VPN_prohibitions_preserved": true
+}

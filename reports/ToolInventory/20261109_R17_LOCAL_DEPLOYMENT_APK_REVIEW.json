@@ -82,5 +82,10 @@
   ],
   "historical_r16_acceptance_preserved": true,
   "Cloudflare_or_VPN_used": false,
-  "publisher_new_research_code_build_server_phone_router_or_settings_operations": 0
+  "publisher_new_research_code_build_server_phone_router_or_settings_operations": 0,
+  "later_scoped_followup": {
+    "receipt": "reports/ToolInventory/20261109_R17_NAT_LOOPBACK_APP_TRANSFER.json",
+    "scope": "Later installed-app v3 same-WiFi NAT loopback transfer/settings only; initial local-review fields remain historical",
+    "independent_external_cellular_PC_apply_or_new_UI_acceptance": false
+  }
 }
