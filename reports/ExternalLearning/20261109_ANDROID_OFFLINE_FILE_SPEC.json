@@ -1,5 +1,5 @@
 {
-  "status": "PROPOSED_AUTHOR_HANDOFF_CONTRACT_NOT_IMPLEMENTED",
+  "status": "DESIGN_REQUIREMENTS_REFERENCE_WITH_SEPARATE_SCOPED_IMPLEMENTATION_REVIEW",
   "goal": "Reuse MAY photo/point/guide editing in an offline Android app; export a file and explicitly import into PC MAY",
   "roles": {
     "implementation": "Existing Claude MAY author",
@@ -98,5 +98,7 @@
   "manuals": [
     "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md",
     "docs/ANDROID_OFFLINE_APK_BUILD.md"
-  ]
+  ],
+  "historical_proposal_boundary": "Field roles and ZIP candidate below are the preimplementation design reference, not an exact public serialization contract. Final implemented behavior is scoped by separate runtime receipt; do not infer every proposed field is implemented under these names.",
+  "runtime_receipt": "reports/ToolInventory/20261109_ANDROID_OFFLINE_SCOPED_ROUNDTRIP.json"
 }

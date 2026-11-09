@@ -1,6 +1,6 @@
 {
   "date_kst": "2026-11-09",
-  "scope": "Existing Android build tooling: selected version execution versus file presence, no APK build claim",
+  "scope": "Historical initial version/file-presence checkpoint retained, plus separate intermediate root runtime receipt; no final automated build acceptance claim",
   "source": "Independent reviewer saved existing-tool receipt and direct report, private paths omitted",
   "source_evidence_sha256": "20b9401a2ae0a5b18f358cb512403b570a1409c379795be3bd539d93f0b8b906",
   "executed_versions": {
@@ -39,5 +39,7 @@
     "docs/ANDROID_OFFLINE_APK_BUILD.md"
   ],
   "private_values_published": false,
-  "publisher_build_phone_or_runtime_operations": 0
+  "publisher_build_phone_or_runtime_operations": 0,
+  "followup_runtime_receipt": "reports/ToolInventory/20261109_ANDROID_OFFLINE_SCOPED_ROUNDTRIP.json",
+  "followup_status": "Root scoped offline file-exchange acceptance on reviewed PC/S24: corrected complete build/sign, update-install/draft, synthetic file round trip, input/concurrency guards and corrected launcher preservation. Current real-photo package opened only. Full production/store release not claimed."
 }

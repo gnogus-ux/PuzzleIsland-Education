@@ -1,6 +1,6 @@
 {
   "date_kst": "2026-11-09",
-  "status": "READ_ONLY_DOCUMENT_STUDY_AND_PREIMPLEMENTATION_SPEC_READY_NOT_RUNTIME_VALIDATED",
+  "status": "OFFICIAL_STUDY_PLUS_ROOT_SCOPED_OFFLINE_FILE_EXCHANGE_ACCEPTANCE",
   "scope": "Offline Android editor reusing MAY frontend behavior and explicit file-based PC import, with no Cloudflare/VPN/email authentication or automatic synchronization",
   "manual": "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md",
   "library_preflight": {
@@ -211,5 +211,8 @@
   ],
   "private_user_assets_or_paths_or_serials_or_emails_published": false,
   "build_manual": "docs/ANDROID_OFFLINE_APK_BUILD.md",
-  "publication": "Canonical document publication only; does not change runtime or implementation verification status"
+  "publication": "Canonical document publication only; does not change runtime or implementation verification status",
+  "not_run_scope": "Items in not_run describe documentation author operations; separate root runtime observation does not convert source learning into author execution.",
+  "runtime_receipt": "reports/ToolInventory/20261109_ANDROID_OFFLINE_SCOPED_ROUNDTRIP.json",
+  "runtime_boundary": "Root accepted scoped offline file exchange on reviewed PC and one Galaxy S24/Android16. Corrected Windows build, same-key update/draft, synthetic edit/apply and current real-photo open-only, concurrency/input guards and launcher preservation verified. No rotation/two-finger/airplane-mode/cloud-provider/other-device/manufacturing claim."
 }

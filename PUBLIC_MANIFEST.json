@@ -72,7 +72,8 @@
     "2026-11-09: Updated cloudflared inventory with a separate real MAY protected-connection review: selected anonymous GET redirects, token-only POST rejection and direct-loopback Host/Origin wiring verified. PIN, authenticated Android use and successful final lifecycle record remain unverified; private endpoints and source evidence withheld.",
     "2026-11-09: Added USB Android existing-page draft preservation and separately authorized USB-local testing procedure from5 official sources. Device identity, raw screenshot, single-pointer limits, owned reverse mapping and new-tab request are separated from external-network/authentication validation. Existing ADB version/initial read-only observation receipt recorded without private device information.",
     "2026-11-09: Recorded a separate actual-phone USB-local measurement review: zoom, selection, one-source-pixel nudge, save and Chrome-menu reload retention with full configuration comparison. Open test tab/owned reverse retained by explicit user continuation instruction. No full-program, multi-touch or external-authentication save fix claimed; private test values withheld.",
-    "2026-11-09: Added offline Android editor/manual file transfer and explicit PC import proposal, bounded version/photo/baseline/conflict contract, and existing SDK/JDK standalone development APK build study. Nine official resources selectively read. Selected CLI versions/file presence do not imply APK or offline round-trip success. Latest Cloudflare no-use instruction and absent portable executable observed; historical receipts retained. No private assets or secrets published."
+    "2026-11-09: Added offline Android editor/manual file transfer and explicit PC import proposal, bounded version/photo/baseline/conflict contract, and existing SDK/JDK standalone development APK build study. Nine official resources selectively read. Selected CLI versions/file presence do not imply APK or offline round-trip success. Latest Cloudflare no-use instruction and absent portable executable observed; historical receipts retained. No private assets or secrets published.",
+    "2026-11-09: Reconciled independent Windows/one-device offline file-exchange acceptance: existing-tool full APK builds/signing/update draft preservation, synthetic SAF edit/export/manual USB/PC preview-explicit-apply round trip, input/concurrency guards, corrected no-AI loopback launcher and preserved source/repeated seed. Real-photo package open-only; historical P1 failures retained as resolved. Rotation/two-finger/airplane-mode/cloud providers/other devices/manufacturing remain unverified. Only manuals and sanitized receipts published; no product code/APK/photo/private key."
   ],
   "files": [
     {
@@ -82,8 +83,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 22538,
-      "sha256": "fa153b1cd520af4a841f7ca728b9c6addb3e894cd57b8bf1e54b5d1d89f3d09a"
+      "bytes": 22645,
+      "sha256": "d3054f27206686c5aa1e74a13c05c4a4c25c18abb15b24ff6c9c4d581424be9d"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -607,8 +608,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 22905,
-      "sha256": "b0190dcec3a1babe30ac7f3bd75520d260bb06a112b23f717e60272d8c383970"
+      "bytes": 23579,
+      "sha256": "6b6a9767605765244cc63773b95c4e204cd4af5707fb84038c837cd0da6b10dc"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1042,28 +1043,33 @@
     },
     {
       "path": "docs/ANDROID_OFFLINE_APK_BUILD.md",
-      "bytes": 5849,
-      "sha256": "38617633c9cf9fd3b7332f83747f0ba37c8b528b919a44dcfc766a910536b430"
+      "bytes": 8644,
+      "sha256": "82a782c9151f3f1646485ef287b3ab5ddf0c90f724a5c3729d9d0ca67a314eb7"
     },
     {
       "path": "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md",
-      "bytes": 12113,
-      "sha256": "c42eaec911dad859eb5a69e3e43c4ad1c92e0da8d2b7e69f1cdb33db3504e149"
+      "bytes": 15541,
+      "sha256": "2fc264ca07e1db7933338b2204335a974eeea191bdcd97405b7d2a13cdde970a"
     },
     {
       "path": "reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_SPEC.json",
-      "bytes": 5371,
-      "sha256": "647a85b7d95850a7a5a1e9b39eaf0d4e5809f92e80a70a5e522cac8b400fe00c"
+      "bytes": 5783,
+      "sha256": "1e7f3d3fa6f43494d0fe55cb9baeca4eb8f3cc5415191bc9a3080eec855aa8e4"
     },
     {
       "path": "reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_STUDY.json",
-      "bytes": 11515,
-      "sha256": "b084e735e41981dfae5664271779d6985bf0437e8e61255b6cc2fa03051eb7d9"
+      "bytes": 12127,
+      "sha256": "8f387e9f5b09df57f06e1346e1855e55318cdb851bf98d4a8e7bb62280ea0a29"
     },
     {
       "path": "reports/ToolInventory/20261109_ANDROID_OFFLINE_BUILD_TOOLS.json",
-      "bytes": 1528,
-      "sha256": "4609b179bd9e47df88fb2dc2ec3220375423ce4ceb4e2eb01d7589ea2ec02bd6"
+      "bytes": 1997,
+      "sha256": "be30d03c2e8fe989a26e5e2ea93c263561e3b4b44117cb8748d606cc25d7cd6a"
+    },
+    {
+      "path": "reports/ToolInventory/20261109_ANDROID_OFFLINE_SCOPED_ROUNDTRIP.json",
+      "bytes": 6613,
+      "sha256": "5edfd36e6eaaec498bc1e845bfb813df6ae863bd6785a91d6f681b49255d2733"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1238,5 +1244,19 @@
     "scope": "Nine selected official source bodies; preimplementation proposal and limited root existing-tool receipt only. No APK build/sign/install/device/offline round-trip executed by publisher; package contract awaits author agreement. Historical library counts retained.",
     "checked_relative_link_occurrences": 148,
     "private_assets_or_secrets_published": false
+  },
+  "android_offline_scoped_runtime_20261109": {
+    "receipt": "reports/ToolInventory/20261109_ANDROID_OFFLINE_SCOPED_ROUNDTRIP.json",
+    "scope": "Root accepted offline file exchange on reviewed Windows PC and Galaxy S24/Android16. Publisher read evidence only; no new device/build/runtime actions. Current real photo opened only. Historical library counts and initial study checkpoints retained.",
+    "unverified": [
+      "Rotation",
+      "Actual two-finger gesture",
+      "Airplane mode",
+      "Cloud SAF providers",
+      "Other devices/versions",
+      "Manufacturing/production"
+    ],
+    "checked_relative_link_occurrences": 152,
+    "private_assets_or_credentials_published": false
   }
 }

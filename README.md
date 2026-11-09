@@ -44,7 +44,7 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 | 주제 | 매뉴얼 |
 |---|---|
-| Android 오프라인 앱·PC 파일 가져오기 | [사진·점·가이드 파일 교환 설계](docs/ANDROID_OFFLINE_FILE_WORKFLOW.md) · [기존 SDK 직접 빌드](docs/ANDROID_OFFLINE_APK_BUILD.md) · [학습 범위](reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_STUDY.json) · [제안 계약](reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_SPEC.json) |
+| Android 오프라인 앱·PC 파일 가져오기 | [사진·점·가이드 파일 교환 설계](docs/ANDROID_OFFLINE_FILE_WORKFLOW.md) · [기존 SDK 직접 빌드](docs/ANDROID_OFFLINE_APK_BUILD.md) · [학습 범위](reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_STUDY.json) · [제안 계약](reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_SPEC.json) · [범위별 실기 통과·한계](reports/ToolInventory/20261109_ANDROID_OFFLINE_SCOPED_ROUNDTRIP.json) |
 | Android 터치·PC 웹 편집기 외부 접속 | [다중 터치·보호된 중계·저장·실기 검수](docs/ANDROID_PC_WEB_CONTROL.md) · [공식 문서·소스 학습 범위](reports/ExternalLearning/20261109_ANDROID_PC_WEB_CONTROL_STUDY.json) · [USB 기존 초안 보존·별도 로컬 시험](docs/ANDROID_USB_EXISTING_PAGE_REVIEW.md) |
 | Chili3D 로컬 CAD·제품 단면 검토 | [설치·단위·입출력·저장 검증](docs/CHILI3D_LOCAL_CAD.md) |
 | PBR·광택·재질·조명·렌더 적용 | [Blender 제작 절차](docs/BLENDER_SKILLS_WORKFLOW.md) · [PBR·룩디벨롭·렌더 색인](docs/BLENDER_SKILLS_INDEX.md) |

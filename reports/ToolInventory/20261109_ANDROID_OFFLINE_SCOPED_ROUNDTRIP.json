@@ -1,0 +1,154 @@
+{
+  "date_kst": "2026-11-09",
+  "state": "PASS_SCOPED_OFFLINE_ANDROID_FILE_EXCHANGE_ON_REVIEWED_PC_AND_DEVICE",
+  "scope": "Independent root acceptance on this Windows PC and one Galaxy S24/Android16 for offline file exchange; includes synthetic edit/apply round trip and current real-photo package open-only. Documentation author read evidence and did not operate app/device/build.",
+  "apk_observed": {
+    "aapt2_packaging": true,
+    "zipalign_check": true,
+    "manual_signing_v2": true,
+    "manual_signing_v3": true,
+    "declared_permissions": [],
+    "user_authorized_install": true,
+    "automated_windows_build_final_pass": true,
+    "automated_build_scope": "Corrected build script only: existing private key reuse and separate initially empty test-key generation both passed; not overall release acceptance",
+    "existing_key_update_install_and_draft_preserved": true,
+    "updated_apk_zip_member_bytes_equal_to_roundtrip_apk": true,
+    "separate_new_test_key_apk_not_installed_or_distributed": true
+  },
+  "phone_observed": [
+    "Native file picker opened PC work package",
+    "Photo displayed in packaged WebView",
+    "Measurement point one-source-pixel nudge and mouth-point drag edited",
+    "Local draft saved and restored after app-specific force-stop/reopen",
+    "Native create-document saved outbound file and app reread SHA matched",
+    "User-directed USB file copy returned exact file to PC"
+  ],
+  "pc_observed": [
+    "Import difference preview",
+    "Explicit confirmation and apply",
+    "Existing measurement/mouth views reopened with new revisions and edited coordinates",
+    "Existing PC calculation produced a result",
+    "Repeated import of re-export recognized as already applied; UI offered no apply action"
+  ],
+  "cancellation_preservation": {
+    "reported_by_root": [
+      "Open picker cancel",
+      "Invalid container rejection",
+      "Export picker cancel"
+    ],
+    "publisher_compared_two_return_files": true,
+    "equal_fields": [
+      "edits",
+      "base",
+      "changeSetId"
+    ],
+    "different_fields": [
+      "createdAt",
+      "editSha256"
+    ],
+    "whole_file_identical": false
+  },
+  "blocking_findings": [],
+  "unverified": [
+    "Physical rotation",
+    "Actual two-finger gestures",
+    "Airplane-mode execution",
+    "Cloud SAF providers",
+    "Other Android devices/versions",
+    "Physical thickness/manufacturing accuracy and production Blender"
+  ],
+  "network_boundary": "No INTERNET permission declared and no remote route/tunnel used in this test; phone-wide connection settings unchanged. This is not an observed airplane-mode test or a network-capture claim.",
+  "private_assets_paths_ids_keys_passwords_or_raw_exports_published": false,
+  "publisher_build_install_phone_runtime_operations": 0,
+  "manuals": [
+    "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md",
+    "docs/ANDROID_OFFLINE_APK_BUILD.md"
+  ],
+  "official_study": "reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_STUDY.json",
+  "resolved_findings": [
+    {
+      "severity": "P1",
+      "issue": "Failed import rollback can overwrite a successful concurrent PC save",
+      "independent_reproduction": "Concurrent PC save succeeded; induced second-component write failure caused rollback to older state",
+      "status": "FIXED_INDEPENDENT_RETEST_PASSED"
+    },
+    {
+      "severity": "P1",
+      "issue": "Windows build script tool-output decoding fails after key generation",
+      "status": "FIXED_INDEPENDENT_RETEST_PASSED"
+    },
+    {
+      "severity": "P1",
+      "issue": "Same one-line password file used twice causes apksigner password EOF",
+      "status": "FIXED_INDEPENDENT_RETEST_PASSED"
+    },
+    {
+      "severity": "P1",
+      "issue": "PC launcher source and writable data locations reversed, risking original data writes",
+      "status": "FIXED_INDEPENDENT_RETEST_PASSED"
+    },
+    {
+      "severity": "P1",
+      "issue": "Mandatory unavailable AI model startup gate blocks file-exchange UI even though this path does not use AI",
+      "status": "FIXED_INDEPENDENT_RETEST_PASSED"
+    }
+  ],
+  "concurrency_retest": {
+    "ordinary_pc_save_waits_for_import_transaction": true,
+    "forced_second_store_failure_preserves_ordinary_save": true,
+    "normal_multi_store_apply_and_reopen": true,
+    "same_new_test_on_old_code_detected_failure": true,
+    "baseline_failure_source": "Root follow-up review request reports old-code failure under the same independent test"
+  },
+  "launcher_observation": "Corrected Windows launcher actually started loopback-only without an AI server or Cloudflare; existing source dataset copied without source changes, and repeated seed preserved current data.",
+  "final_integrity_review": {
+    "frozen_candidate_files_checked": 97,
+    "candidate_file_hash_failures": 0,
+    "apk_build_input_files_equal_to_tested_snapshot": 13,
+    "scope": "Local candidate versus frozen producer manifest and tested build inputs; not public remote product-code verification"
+  },
+  "current_photo_job_open_only": {
+    "pc_ui_download_to_usb_copy_to_native_saf": true,
+    "current_photo_and_source_revision_displayed": true,
+    "additional_edit_or_apply": false,
+    "previous_synthetic_draft": "Archived after confirmation; prior result export preserved",
+    "raw_photo_or_identifiers_published": false
+  },
+  "pc_input_boundary_tests": [
+    {
+      "case": "unsupported schema",
+      "result": "REFUSED_WITHOUT_DATA_CHANGE"
+    },
+    {
+      "case": "photo SHA mismatch",
+      "result": "REFUSED_WITHOUT_DATA_CHANGE"
+    },
+    {
+      "case": "negative photo coordinate",
+      "result": "REFUSED_WITHOUT_DATA_CHANGE"
+    },
+    {
+      "case": "stale base revision",
+      "result": "REFUSED_WITHOUT_DATA_CHANGE"
+    },
+    {
+      "case": "conflicted preview cannot apply",
+      "result": "REFUSED_WITHOUT_DATA_CHANGE"
+    },
+    {
+      "case": "missing local CSRF token",
+      "result": "REFUSED_WITHOUT_DATA_CHANGE"
+    },
+    {
+      "case": "PC changed after preview -> final recheck refuses stale apply",
+      "result": "REFUSED_WITHOUT_DATA_CHANGE"
+    }
+  ],
+  "http_expectation_correction": "Missing local token was correctly refused with401; initial expected403 was a test expectation error, not a product change.",
+  "acceptance_boundary": "Scoped prototype acceptance only. Self-signed development APK, not a Play Store release or full production/manufacturing acceptance. Two pre-existing broader phase3 expectation failures remain outside this file-exchange scope.",
+  "unsupported_on_phone": [
+    "New photo registration",
+    "Side profile editor",
+    "Python/Blender/AI calculations"
+  ]
+}
