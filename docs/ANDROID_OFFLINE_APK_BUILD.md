@@ -39,3 +39,25 @@ APK 생성 → 정렬/서명 검사 → 사용자가 허용한 설치 → 네트
 같은 한 줄 암호 파일을 keystore/key 암호 입력 두 곳에 지정한 실제 호출에서 두 번째 읽기가 EOF로 실패했다. 같은 암호의 해당 키에서는 key 암호 옵션을 생략한 수동 호출이 성공했다. 이 관찰을 서로 다른 키 암호에도 적용하지 말고 해당 도구/키에 맞는 입력을 검증한다. 암호 파일·명령 원문은 공개하지 않는다.
 
 출력 재생성/정리 시 resolved 대상이 명시한 전용 출력 경계 안인지 먼저 확인하고 원본·상위·기존 사용자 폴더를 삭제 대상으로 허용하지 않는다. 기존 유효한 서명키/암호는 보존하고 서명 검증 실패를 성공 처리하지 않는다. 후속 수정 스크립트를 실제 Windows에서 실행해 기존키 재사용과 별도 빈 시험키 최초 생성 모두 전체 빌드·서명 v2/v3가 통과했다. 기존키 APK 업데이트 설치 후 초안이 보존됐으며 최초 실기 APK와 모든 ZIP 멤버 바이트가 같았다. 별도 시험키 APK는 설치·배포하지 않았고 기존키는 보존했다. PC 실행기 데이터 경로/불필요 AI 시작 검사도 수정 후 실제 시작·원본 보존·재실행 보존이 통과했다. APK 입력 13파일과 시험 빌드 기준 일치 및 동결 후보 97파일의 본문 해시 확인 보고를 대조했다. 이 PC/기기의 파일 교환 통과와 전체 제품·스토어 배포 승인을 구분한다. [범위별 실기·해결 기록](../reports/ToolInventory/20261109_ANDROID_OFFLINE_SCOPED_ROUNDTRIP.json)
+
+## AAPT2 버전 입력과 최종 APK 확인
+
+2026-11-09 추가 공식 학습과 독립 실제 Windows 검수 보고 대조. 초기 실패·수정된 실제 SDK 빌드·설치와 제한 UI 관찰을 구분한다. 작성자는 SDK·제품 빌드·앱·폰을 실행하지 않았다.
+
+[AAPT2 link 옵션](https://developer.android.com/tools/aapt2)은 `--version-code`와 `--version-name`을 Manifest에 해당 값이 없을 때 넣는 기본값으로 설명한다. 기존 명시값을 교체하려면 제공한 버전 인수와 함께 `--replace-version`이 필요하다. 이 옵션을 생략한 채 CLI 인수·파일명·보고서에 요청 버전을 적었다고 실제 APK 버전이 바뀌는 것은 아니다.
+
+[Android 버전 안내](https://developer.android.com/studio/publish/versioning)는 versionCode를 양의 정수인 내부 업데이트 순서, versionName을 사용자에게 보이는 버전 문자열로 구분한다. 새 릴리스의 code와 표시 이름을 명시하고 이전 설치본과 비교한다. 버전 불일치를 낮은 버전 설치 허용·검사 삭제로 우회하지 않는다.
+
+[AOSP Link.h](https://github.com/aosp-mirror/platform_frameworks_base/blob/99b01a65cc4c104933788b3143285ab6bae65827/tools/aapt2/cmd/Link.h#L200)는 200–216행에서 기본 주입과 교체 옵션을 구분한다. [ManifestFixer.cpp](https://github.com/aosp-mirror/platform_frameworks_base/blob/99b01a65cc4c104933788b3143285ab6bae65827/tools/aapt2/link/ManifestFixer.cpp#L505) 505–524행은 replace_version이 있을 때 기존 versionName/Code 속성을 제거하고 지정값을 넣는 경로다. 이는 고정 참조 소스 근거이며 설치된 Build Tools 바이너리와 같은 소스 빌드임을 보증하지 않는다. 해당 SDK의 실제 help·동작 검증은 따로 기록한다.
+
+이번 중간 검수에서는 기존 Windows SDK에서 assets/Java/DEX/link/pack/align까지 진행했으나 요청한 새 버전 대신 Manifest의 이전 버전이 남아 guard가 exit5로 실패 처리했다. 서명 자료는 보존됐고 이 실패 산출물을 새 설치 성공으로 취급하지 않았다. 검수 담당의 기존 SDK help 관찰도 같은 옵션 의미를 확인했다. 문서 작성자의 SDK 실행 결과는 아니다.
+
+빌드 보강·검수 조건:
+
+- 명시 버전을 교체하는 빌드 정책이면 지원되는 link 교체 옵션을 실제 호출에 전달한다. 원본 Manifest를 제자리 덮어쓰거나 무관한 UI/네트워크 코드를 바꿀 필요는 없다.
+- 리소스 APK 단계와 최종 설치할 APK에서 실제 Manifest를 확인한다. 공식 `aapt2 dump badging`/Manifest 검사로 package·versionCode·versionName·기대 권한을 읽고 요청값과 정확히 대조한다. 정보가 없거나 도구/해석이 실패하면 성공을 추정하지 않는다.
+- 버전 불일치 guard와 비정상 종료 코드를 유지한다. 정렬/서명 검사가 통과해도 버전 검사를 대체하지 않는다. 서명 후 APK를 바꾸지 않고 마지막에 검증한 동일 파일을 설치 대상으로 식별한다. 키·암호·개인 경로·산출물 해시는 공개 문서에 넣지 않는다.
+- 인수 전달 여부·guard 분기 같은 모의 도구 시험과 실제 SDK의 기존 Manifest 교체를 구분한다. 모의 aapt2가 원하는 버전 문자열을 출력했다는 결과만으로 실제 링크 교체 성공을 주장하지 않는다. 기존 버전 속성이 있는 작은 입력을 실제 도구로 링크해 요청값을 읽는 시험이 교체 동작을 직접 확인한다. 이 문서 작성에서는 시험하지 않았다.
+- 실제 설치는 완료를 기다린 뒤 기기의 설치 버전을 별도로 확인하고 그 버전의 UI를 관찰한다. 설치 중 이전 화면을 찍은 캡처·APK 파일명·요청값·이전 성공 APK는 새 버전 설치/버튼 검수 근거가 아니다. 기존 서명 정체성·초안·페어링·원본은 보존한다.
+
+후속 독립 검수는 기존 Windows SDK의 실제 `--replace-version` 호출 뒤 최종 badging의 versionCode3 / r17-ui1, v2/v3와 기존 서명 자료 보존, 같은 서명 업데이트 설치 완료와 설치 버전·편집기 로드를 확인했다. 이는 모의 helper 성공이 아닌 실제 SDK/기기 관찰이다. 새 UI의 범위는 네이티브12/좁은 웹4건으로 한정하며, 실제 파일 내보내기 성공/취소·저장 실패 주입·큰 글씨·회전·TalkBack·외부 전송은 미검증이다. [범위별 실기 기록](../reports/ToolInventory/20261109_UI_BUTTON_STATE_SCOPED_RUNTIME.json)을 참고한다. [추가 학습 기록](../reports/ExternalLearning/20261109_APK_VERSION_OVERRIDE_STUDY.json)과 최종 후속 실기 기록을 함께 확인한 뒤 정본 상태를 갱신한다.

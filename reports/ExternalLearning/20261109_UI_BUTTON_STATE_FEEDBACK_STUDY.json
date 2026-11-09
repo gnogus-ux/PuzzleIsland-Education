@@ -1,6 +1,6 @@
 {
   "date_kst": "2026-11-09",
-  "status": "OFFICIAL_DOCUMENT_STUDY_AND_UI_STATE_PROPOSAL_ONLY",
+  "status": "OFFICIAL_DOCUMENT_STUDY_PLUS_SEPARATE_SCOPED_ROOT_UI_RUNTIME_REVIEW",
   "manual": "docs/UI_BUTTON_STATE_FEEDBACK.md",
   "official_distinct_documents_selectively_read": 12,
   "library_preflight": {
@@ -199,13 +199,11 @@
     "Validate dark fill plus check/text, keyboard focus, large text/reflow and screen-reader output together"
   ],
   "not_verified": [
-    "Product UI implementation",
-    "Actual Android touch cancellation and rotation",
-    "Real save/load/transition failure behavior",
-    "TalkBack/keyboard semantics",
-    "Contrast measurement/high-contrast rendering",
-    "Large-font/narrow-device usability",
-    "WCAG conformance or full product acceptance"
+    "Real result export success or its SAF cancellation",
+    "Save-failure injection and broader async failure/recovery",
+    "Font scale/rotation/TalkBack/other devices",
+    "Full contrast/a11y conformance",
+    "New point edits/import/apply/transport/cellular"
   ],
   "operations_by_author": {
     "product_code_edits": 0,
@@ -215,5 +213,7 @@
     "production_asset_or_snapshot_changes": 0
   },
   "preservation": "Existing production sources, r16 acceptance, review snapshot and Cloudflare/VPN/external-configuration holds unchanged",
-  "private_user_data_or_source_media_republished": false
+  "private_user_data_or_source_media_republished": false,
+  "runtime_receipt": "reports/ToolInventory/20261109_UI_BUTTON_STATE_SCOPED_RUNTIME.json",
+  "runtime_scope": "Root observed real version3 build/update installed editor, native12 and web4 cases at360CSSpx. Documentation author reviewed saved evidence only; no full UI/WCAG or untested lifecycle claim."
 }

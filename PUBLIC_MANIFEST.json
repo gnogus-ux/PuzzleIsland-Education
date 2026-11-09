@@ -78,7 +78,8 @@
     "2026-11-09: Added conditional shell app_process/DEX native TLS probe manual from10 selected official documents/code files: non-zygote main, upstream SELinux shell/temp boundaries, exact candidate/provider and TLS-versus-HTTP observations, owned USB reverse/deadline/cleanup, instrumentation prerequisites. No phone/probe/build/server/settings execution; installed app and mobile-data validation remain separate. Prior r16 and direct TLS records preserved.",
     "2026-11-09: Reconciled actual ordinary-shell AndroidOpenSSL/Conscrypt fixture11-case report, pin/certificate validity rejection with headers/auth counters0, pairing-preflight SAN distinction, credential/redirect rejection, write deadline observation and owned cleanup. Private test code/DEX hashes withheld. Installed app/SAF/UI/cellular and full r17/public service acceptance remain unverified; server corrections separate. Publisher performed no new device/code/server actions.",
     "2026-11-09: Added limited reviewed Windows deployment/TLS and same-signature APK update observations. Local69-file deployment preserved189existing/475original files; loopback TLS1.3/IP-SAN verification and anonymous401. Producer scenario reruns124/124 plus one unexecuted Windows symlink case and PCe2e54/54 are distinct from reviewer-authored lock regression. Prior native11 reused via21unchanged inputs. Installed-app pairing/transfer, LAN/router/firewall/carrier and whole-public-service acceptance remain pending; no private asset/code/key/cert/APK hashes published.",
-    "2026-11-09: Added narrow Android/HTML button feedback study from12 selected official documents: transient press versus persistent screen/mode, actual progress/save/error results, Android state lists/API30 compatibility, ARIA toggle/current/disabled/busy, cancellation, restored state and accessible visible cues. Product code/app/device/servers unchanged; no UI runtime/accessibility conformance claimed. Prior r16 and networking holds preserved."
+    "2026-11-09: Added narrow Android/HTML button feedback study from12 selected official documents: transient press versus persistent screen/mode, actual progress/save/error results, Android state lists/API30 compatibility, ARIA toggle/current/disabled/busy, cancellation, restored state and accessible visible cues. Product code/app/device/servers unchanged; no UI runtime/accessibility conformance claimed. Prior r16 and networking holds preserved.",
+    "2026-11-09: Added real SDK version override correction from4selected primary sources and scoped UI review: requestedversion3/r17-ui1 finalbadging, preserved signing v2/v3, completed update/install-loaded-screen evidence, native12 and web4 at360CSSpx. Job-open SAF cancel differs from untested result export/save-failure/font/rotation/TalkBack/cellular. Publisher read stored evidence only; no raw screens/private artifacts or their hashes published. Prior r16/native11/service history and network holds preserved."
   ],
   "files": [
     {
@@ -88,8 +89,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 23452,
-      "sha256": "9d893879788e4c98f2998632ca53276d9114d688de6b6b6bdc67f211a469f20c"
+      "bytes": 23639,
+      "sha256": "5cb4bedf7e8e90a5bd41080b3184cd9a47c4f6a4729a1641f43400aecd503e85"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -613,8 +614,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 24843,
-      "sha256": "d8ae6f3fe2519ed6643169433c6b563f2c5df3246a3a517b4c866b30ffc2f51b"
+      "bytes": 25226,
+      "sha256": "7ac1b83e58d1b8a40b7a4ce2cdf40a3319cf1de122d7f2c48a9f75b50b0d9e3a"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1048,8 +1049,8 @@
     },
     {
       "path": "docs/ANDROID_OFFLINE_APK_BUILD.md",
-      "bytes": 8644,
-      "sha256": "82a782c9151f3f1646485ef287b3ab5ddf0c90f724a5c3729d9d0ca67a314eb7"
+      "bytes": 13416,
+      "sha256": "38afbd2c6b1abb9bc705499f4a3a516ce1d00430111c88bf94efc836c4f8f222"
     },
     {
       "path": "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md",
@@ -1108,13 +1109,23 @@
     },
     {
       "path": "docs/UI_BUTTON_STATE_FEEDBACK.md",
-      "bytes": 11297,
-      "sha256": "9025789c12159ff775a45c08623984ed8df49d1236fc1b3adc66fa5354d9c1e8"
+      "bytes": 13857,
+      "sha256": "e2c628433c68aff01afe86dfe922d8b689c76f32bed0900c1d3b07f0c3af364d"
     },
     {
       "path": "reports/ExternalLearning/20261109_UI_BUTTON_STATE_FEEDBACK_STUDY.json",
-      "bytes": 11984,
-      "sha256": "04a4ba4789edb92c9afdee7686b176b888cf5afa1bc9145f4e9e6ead510c4794"
+      "bytes": 12254,
+      "sha256": "c55bb455c386f017b21d4991a82422d1201bd3512a45737918a23f338c36edd6"
+    },
+    {
+      "path": "reports/ExternalLearning/20261109_APK_VERSION_OVERRIDE_STUDY.json",
+      "bytes": 5139,
+      "sha256": "1195553cd0027b766f018d9f4c08dd38c2a4b47311da6ac59e1cb36a84548bbc"
+    },
+    {
+      "path": "reports/ToolInventory/20261109_UI_BUTTON_STATE_SCOPED_RUNTIME.json",
+      "bytes": 3772,
+      "sha256": "cb325ef3f7152bcbe71ae49df1700b391b689e608531fe64bc7563f7e616d8f2"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1341,5 +1352,13 @@
     "relative_tracked_link_occurrences_checked": 129,
     "private_user_data_or_source_media_published": false,
     "historical_counts_and_other_files_preserved": true
+  },
+  "ui_button_state_scoped_runtime_20261109": {
+    "receipt": "reports/ToolInventory/20261109_UI_BUTTON_STATE_SCOPED_RUNTIME.json",
+    "version_study": "reports/ExternalLearning/20261109_APK_VERSION_OVERRIDE_STUDY.json",
+    "scope": "Root reviewed version3 Windows build/install and native12/web4 only. Screenshot loading/cancel distinctions explicit; no full WCAG/export/network acceptance.",
+    "relative_tracked_link_occurrences_checked": 166,
+    "publisher_product_SDK_app_phone_server_router_operations": 0,
+    "private_values_and_artifact_hashes_published": false
   }
 }

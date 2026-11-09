@@ -1,0 +1,86 @@
+{
+  "date_kst": "2026-11-09",
+  "status": "PASS_SCOPED_BUTTON_FEEDBACK_ON_REVIEWED_PC_AND_ONE_S24",
+  "evidence": "Independent root review and saved Windows build/intake/browser/deployment records directly read by documentation publisher; screenshots remain private and were viewed by reviewer, not republished",
+  "candidate_integrity": {
+    "immutable_candidate_files_checked": 164,
+    "private_source_manifest_and_artifact_hashes_published": false
+  },
+  "actual_build_and_install": {
+    "existing_Windows_SDK": true,
+    "explicit_replace_version_used": true,
+    "final_badging_version_code": 3,
+    "final_badging_version_name": "r17-ui1",
+    "signature_v2": true,
+    "signature_v3": true,
+    "existing_signing_material_preserved": true,
+    "new_key_generated": false,
+    "same_signature_update_install_completed": true,
+    "installed_version_confirmed_after_completion": true,
+    "editor_loaded_before_successful_UI_capture": true,
+    "premature_blank_loading_capture_excluded": true
+  },
+  "native_smoke": {
+    "passed": 12,
+    "scope": [
+      "Current measurement/mouth screens have exclusive selected state",
+      "Dark navy fill and white check with unclipped labels observed at tested settings",
+      "Drag-out gesture cancellation preserves current measurement screen",
+      "Mouth free/finish modes switched without adding a point",
+      "Measurement points/pan states and labels agree",
+      "Zoom command1.5 and recent-action feedback observed",
+      "Existing task/saved version/no-draft/pairing retained",
+      "Native job-open SAF Back cancellation preserves task/current screen",
+      "Export with no saved edits refused without false success"
+    ],
+    "actual_result_export_SAF_cancel_executed": false,
+    "real_point_edits_made": false,
+    "actual_new_save_success_or_failure_injection": false
+  },
+  "web_smoke": {
+    "passed": 4,
+    "viewport_css_width_per_case": [
+      360,
+      360,
+      360,
+      360
+    ],
+    "scope": [
+      "Point-mode source state, exclusive aria-pressed and visible fill/check agree",
+      "Pan inversely switches both mode buttons",
+      "Zoom command reports action without false mode selection",
+      "Configuration and clean/saved state preserved"
+    ],
+    "ordinary_scroll_recovery_within_same_browser_space": true,
+    "browser_finish_once_no_tabs_kept": "Independent reviewer report; publisher did not operate browser",
+    "new_measurement_writes": false
+  },
+  "preservation": {
+    "protected_original_files_unchanged": 475,
+    "runtime_files_checked": 69,
+    "intentional_UI_HTML_updates": 2,
+    "other_runtime_files_unchanged": 67,
+    "data_files_checked": 194,
+    "data_change_scope": "Normal listener lifecycle audit append only",
+    "reviewer_restart": "Owned normal restart retained existing bind/TLS/data",
+    "pairing_retained": true,
+    "full_private_app_data_dump_claimed": false
+  },
+  "prior_build_failure": {
+    "requested_new_version_but_old_manifest_values_retained": true,
+    "version_guard_rejected_exit": 5,
+    "resolved_by_real_SDK_replace_version_and_final_badging": true,
+    "mock_helper_is_not_actual_override_proof": true
+  },
+  "not_tested_this_scope": [
+    "Real result-file export success or export SAF cancellation",
+    "Save-failure injection",
+    "Font scale/rotation/TalkBack/other Android devices/full WCAG conformance",
+    "New real-point edit/import/PC apply",
+    "Native network transfer/cellular/router/firewall"
+  ],
+  "external_configuration_still_deferred": true,
+  "prior_r16_native11_and_local_service_receipts_preserved": true,
+  "publisher_new_product_code_SDK_build_app_phone_server_router_operations": 0,
+  "private_paths_IPs_serial_keys_cert_pairing_artifact_hashes_labels_photos_or_screens_published": false
+}

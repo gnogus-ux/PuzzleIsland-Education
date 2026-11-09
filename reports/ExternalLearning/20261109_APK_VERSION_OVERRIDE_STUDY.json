@@ -1,0 +1,96 @@
+{
+  "date_kst": "2026-11-09",
+  "status": "OFFICIAL_STUDY_PLUS_REAL_SDK_VERSION_OVERRIDE_AND_SCOPED_UI_REVIEW",
+  "canonical_manual_to_extend": "docs/ANDROID_OFFLINE_APK_BUILD.md",
+  "base_commit": "7fac2d41f8b1b11f34e4829377183b8225da8e4a",
+  "library_preflight": {
+    "manual_read": "docs/ANDROID_OFFLINE_APK_BUILD.md",
+    "gap": "Existing min/target/package/version step lacked default-injection versus replacement semantics, final artifact version guard and mocked-versus-real-tool distinction",
+    "same_version_common_and_publication_rules_reused": true
+  },
+  "official_distinct_documents_or_source_files_selectively_read": 4,
+  "sources": [
+    {
+      "title": "AAPT2",
+      "publisher": "Android Developers / Android Open Source Project",
+      "url": "https://developer.android.com/tools/aapt2?hl=en",
+      "read_scope": "link --version-code/name/replace-version options and dump badging subcommand",
+      "observed": "Version defaults are injected only if missing; replace-version overrides supplied attributes; badging extracts APK manifest info",
+      "selected_receipt_sha256": "0388b464e04d97daf2dcc5969dcc69ad475ec9ce3f5d977775419e5b15bc6909"
+    },
+    {
+      "title": "Version your app",
+      "publisher": "Android Developers / Android Open Source Project",
+      "url": "https://developer.android.com/studio/publish/versioning?hl=en",
+      "read_scope": "VersionCode/versionName definitions, monotonic version code and downgrade relationship paragraphs",
+      "observed": "VersionCode is internal positive integer; versionName is user-facing string; final APK metadata matters",
+      "selected_receipt_sha256": "8399c92273ed079c934a8878371dad91f4740215b1d3baad6b6736d6b29fb811"
+    },
+    {
+      "title": "AOSP Link.h",
+      "publisher": "Android Developers / Android Open Source Project",
+      "url": "https://github.com/aosp-mirror/platform_frameworks_base/blob/99b01a65cc4c104933788b3143285ab6bae65827/tools/aapt2/cmd/Link.h",
+      "read_scope": "Lines200-216 selected CLI option definitions",
+      "observed": "Explicit no-existing-value defaults and replace switch correspond to documentation",
+      "selected_receipt_sha256": "4513763c8e33867453181ff36c226a6d4cf8abec44ab881a63d52aac98757872",
+      "commit": "99b01a65cc4c104933788b3143285ab6bae65827",
+      "blob_sha": "54a8c8625eb5f878e1d17f1d7638dc3046a58061"
+    },
+    {
+      "title": "AOSP ManifestFixer.cpp",
+      "publisher": "Android Developers / Android Open Source Project",
+      "url": "https://github.com/aosp-mirror/platform_frameworks_base/blob/99b01a65cc4c104933788b3143285ab6bae65827/tools/aapt2/link/ManifestFixer.cpp",
+      "read_scope": "Lines505-524 versionName/versionCode rewrite",
+      "observed": "replace_version removes old version attrs before inserting requested values",
+      "selected_receipt_sha256": "d46667c3bfe9321c6050b60c05a76d2d90d2a28ba034ba6c0506989278df77f3",
+      "commit": "99b01a65cc4c104933788b3143285ab6bae65827",
+      "blob_sha": "382b088e4bbad579c61a0f1fb3c98f2f438b9d86"
+    }
+  ],
+  "cross_checks": [
+    "AAPT2 docs and two pinned AOSP source files agree on default injection versus explicit replacement",
+    "Installed SDK actual help report aligns, but pinned source does not prove binary provenance",
+    "Android app version semantics differ from version strings recorded in builder logs/filenames",
+    "Mock helper success does not prove real aapt2 changes an existing manifest",
+    "Version guard detecting a mismatch is successful failure detection, not successful APK completion/install"
+  ],
+  "root_actual_evidence_reconciled": {
+    "SDK": "Existing BuildTools35.0.1/aapt2 2.19-12874835",
+    "requested_version": {
+      "code": 3,
+      "name": "r17-ui1"
+    },
+    "intermediate_actual_version": {
+      "code": 2,
+      "name": "r17-1"
+    },
+    "actual_build_exit": 5,
+    "assets_javac_d8_link_pack_align_completed": true,
+    "existing_signing_material_unchanged": true,
+    "new_apk_install_at_this_checkpoint": false,
+    "help_evidence": "Direct root tool observation quoted in handoff; review request records the same option/cause. Study author did not execute SDK.",
+    "checkpoint": "Historical initial failed build; followup below is separate"
+  },
+  "not_verified": [
+    "Actual result export success/cancellation or save-failure injection",
+    "Font-scale/rotation/TalkBack/other devices/full accessibility conformance",
+    "New real-point edit/import/apply/network/cellular"
+  ],
+  "new_product_code_SDK_app_phone_server_or_router_operations_by_author": 0,
+  "official_browser_study_finished_no_pages_kept": true,
+  "private_source_IP_path_key_artifact_hash_photo_published": false,
+  "runtime_receipt": "reports/ToolInventory/20261109_UI_BUTTON_STATE_SCOPED_RUNTIME.json",
+  "corrected_followup": {
+    "actual_SDK_replace_version": true,
+    "final_badging": {
+      "code": 3,
+      "name": "r17-ui1"
+    },
+    "v2_v3": true,
+    "existing_signing_material_preserved": true,
+    "same_signature_update_install_and_version_confirmed": true,
+    "editor_loaded_before_UI_evidence": true,
+    "native_smoke": 12,
+    "web_smoke_width360": 4
+  }
+}
