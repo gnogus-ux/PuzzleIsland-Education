@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-10",
+  "status": "PASS_SCOPED_TWO_PHOTO_NATIVE_MULTIPLE_SELECTION_AND_BATCH_REGISTRATION",
+  "roles": {
+    "actual_review": "Codex reviewer",
+    "publisher": "Document specialist compared saved evidence only; no device/server operation or new study"
+  },
+  "installed_app": {
+    "versionCode": 5,
+    "versionName": "r18-photo1",
+    "already_installed": true,
+    "new_code_changes": 0,
+    "new_builds": 0,
+    "new_installations": 0
+  },
+  "usage": [
+    "Explicitly select the product folder.",
+    "Long press the first photo in the system picker; tap the remaining photos.",
+    "Tap the top-right selection action.",
+    "Check the product and selected count in the app, then tap upload once."
+  ],
+  "selection_limits": {
+    "existing_code_maximum": 10,
+    "actual_device_selected_and_registered": 2,
+    "ten_photo_runtime_test_performed": false
+  },
+  "actual_photo_flow": {
+    "media_scope": "Two owned synthetic PNG/JPEG images",
+    "one_picker_result_and_one_upload_confirmation": true,
+    "registered_count": 2,
+    "application_TLS_upload_used": true,
+    "each_original_bytes_and_SHA_exact": true,
+    "receipt_product_and_project_mapping_match": true,
+    "unrelated_photos_selected": 0
+  },
+  "network": {
+    "default_transport_before_and_after": "CELLULAR",
+    "validated_before_and_after": true,
+    "WiFi_disabled_before_and_after": true,
+    "network_setting_changes": 0
+  },
+  "preservation": {
+    "prior_PC_project_summaries_unchanged": 9,
+    "baseline": "Immediately before this followup, after intervening user activity",
+    "current_PC_selection_and_model_photo_jobs_unchanged": true,
+    "phone_work_draft_and_pairing_preserved": true
+  },
+  "cleanup": {
+    "owned_phone_fixture_copies_removed": 2,
+    "registered_PC_test_product_photos_retained": 2,
+    "unrelated_data_removed": false
+  },
+  "limits": [
+    "Actual two-image selection and batch registration only; the existing ten-image code limit was not fully device-tested.",
+    "One tested Android phone and its current cellular connection; other carriers, roaming, long-running or large transfers and cellular WebP not tested.",
+    "No new feature implementation or whole-product readiness claim."
+  ],
+  "privacy": {
+    "private_paths_device_models_serials_IP_fingerprints_credentials_identifiers_media_names_or_raw_fixture_hash_values_included": false
+  },
+  "manual": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md",
+  "prior_WiFi_receipt": "reports/ToolInventory/20261110_ANDROID_DIRECT_PHOTO_UPLOAD_SCOPED_RUNTIME.json",
+  "prior_single_cellular_receipt": "reports/ToolInventory/20261110_ANDROID_CELLULAR_PHOTO_UPLOAD_SCOPED_RUNTIME.json"
+}

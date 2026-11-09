@@ -94,6 +94,14 @@ uploadId의 멱등 계약은 요청 시작부터 (deviceId, folderId, SHA256)에
 
 [익명화한 셀룰러 범위별 영수증](../reports/ToolInventory/20261110_ANDROID_CELLULAR_PHOTO_UPLOAD_SCOPED_RUNTIME.json)을 [이전 Wi-Fi 검수](../reports/ToolInventory/20261110_ANDROID_DIRECT_PHOTO_UPLOAD_SCOPED_RUNTIME.json)와 구분해 읽는다.
 
+## 후속 추가 — 여러 장 선택 후 한 번에 등록 (2026-11-10)
+
+제품 폴더를 명시 선택한 뒤 시스템 사진 선택창에서 첫 사진을 길게 누르고, 나머지 사진을 탭한 다음 오른쪽 위 **선택**을 누른다. 앱에서 대상 제품과 선택 장수를 확인하고 **올리기**를 한 번 누른다. 기존 versionCode5/r18-photo1에는 최대10장 복수선택 처리가 이미 있으며 이번에 새 기능 구현·빌드·설치를 하지는 않았다.
+
+검수 담당은 실제 Android 폰에서 합성 PNG/JPEG 두 장을 한 번에 선택·확인해 앱 TLS로 PC에2장 등록했다. 각 원본 바이트·SHA와 영수증의 제품/프로젝트 대응이 일치했다. 전후 기본 연결은 CELLULAR/VALIDATED, Wi-Fi 꺼짐이었고 네트워크 설정을 바꾸지 않았다. 직전 사용자 활동 이후의 기존 PC9프로젝트 요약·현재 선택·모델/사진 작업 상태와 폰의 작업·초안·페어링을 보존했다. 폰의 시험 사진 사본 두 개만 제거하고 PC 시험 제품의 두 장은 남겼다.
+
+이는 두 장의 실제 복수선택·일괄 등록 확인이며, 코드상 최대10장 전체를 실기 검증한 결과가 아니다. 앞선 단일 PNG 셀룰러 검수와 별도 이력으로 보존하며, 다른 통신사·로밍·장시간/대용량 전송·셀룰러 WebP와 전체 제품 검증으로 확대하지 않는다. 문서 게시 담당은 저장 근거만 대조했다. [익명화한 복수선택 영수증](../reports/ToolInventory/20261110_ANDROID_MULTIPHOTO_UPLOAD_SCOPED_RUNTIME.json)을 참고한다.
+
 ## 6. 실제 읽은 원출처와 학습 범위
 
 1. [Android SAF](https://developer.android.com/training/data-storage/shared/documents-files): 문서 열기·MIME·URI 권한·메타데이터·가상문서/stream 제한 절.

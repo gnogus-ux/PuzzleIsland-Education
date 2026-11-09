@@ -86,7 +86,8 @@
     "2026-11-09: Reconciled approved narrow forwarding/firewall settings and installed-app v3 file roundtrip via same-WiFi public IPv4 NAT loopback. Not independent external/cellular, PC apply or new chooser UI acceptance. Private network/device/asset/auth values and hashes omitted; prior local history preserved.",
     "2026-11-09: Added six-primary-source selected-section Android photo upload manual, plus Pillow11.3.0 official-tag API comparison to current13.0.0 docs. Bounded SAF/TLS/image validation/original-copy registration design; runtime not claimed; private state omitted.",
     "2026-11-10: Clarified explicit product-folder identity, permissions and idempotency; added anonymized reviewer evidence for same-signature APK versionCode5/r18-photo1 update and PNG/JPEG registration across two product folders via same-WiFi NAT loopback. Original sources preserved; cellular photo feature and other scoped exclusions remain unverified; publisher runtime0.",
-    "2026-11-10: Added saved-reviewer evidence for one separately tested Android phone using validated cellular transport to register one synthetic PNG in an explicit product folder and deduplicate a repeat. Existing app5/r18-photo1 reused, build/install/server/network configuration changes0; prior WiFi history preserved; other carriers, roaming, long transfers and cellular JPEG/WebP remain unverified; no private source values published."
+    "2026-11-10: Added saved-reviewer evidence for one separately tested Android phone using validated cellular transport to register one synthetic PNG in an explicit product folder and deduplicate a repeat. Existing app5/r18-photo1 reused, build/install/server/network configuration changes0; prior WiFi history preserved; other carriers, roaming, long transfers and cellular JPEG/WebP remain unverified; no private source values published.",
+    "Added a scoped two-photo native multi-selection and one-confirmation cellular registration followup; existing code maximum ten is separate from the actual two-photo test. Prior runtime receipts preserved; no code/build/install changes."
   ],
   "files": [
     {
@@ -1166,8 +1167,8 @@
     },
     {
       "path": "docs/ANDROID_DIRECT_PHOTO_UPLOAD.md",
-      "bytes": 23206,
-      "sha256": "0aff3adf3ff6f71ec01b192741b5261929f41314388c90d6d8bb60e2ef9a8435"
+      "bytes": 24817,
+      "sha256": "64c383718daffdb5d810fa27f1f0dc5c55142be145916bb36cb44e2c7b50ea9a"
     },
     {
       "path": "reports/ExternalLearning/20261109_ANDROID_DIRECT_PHOTO_UPLOAD_STUDY.json",
@@ -1183,6 +1184,11 @@
       "path": "reports/ToolInventory/20261110_ANDROID_CELLULAR_PHOTO_UPLOAD_SCOPED_RUNTIME.json",
       "bytes": 3139,
       "sha256": "b805784b13cc3cdb0cb77f52dd48fd06aec839ca1ee8001a251353eec9b36aef"
+    },
+    {
+      "path": "reports/ToolInventory/20261110_ANDROID_MULTIPHOTO_UPLOAD_SCOPED_RUNTIME.json",
+      "bytes": 2661,
+      "sha256": "087ce872fa0f6a4ddcf8cba92c23b34723899da7c3a48ae26dc9d74126a933bf"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
