@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-09",
+  "tool": "Existing Android SDK Platform-Tools / adb",
+  "platform_tools_version": "37.0.1",
+  "adb_cli_version": "1.0.41",
+  "status": "PASS_SCOPED_ACTUAL_PHONE_USB_LOCAL_MEASUREMENT_WORKFLOW",
+  "scope": "User-designated currently attached phone and a separate practice measurement; USB-local application route only",
+  "roles": {
+    "implementation": "Separate implementation author",
+    "actual_phone_independent_review": "Root Codex reviewer",
+    "publication": "Dedicated Codex documentation writer, saved result and preservation reports read; no new phone operation"
+  },
+  "verified_actual_ui": [
+    "Increase displayed zoom",
+    "Select a measurement point through native phone input",
+    "Move the selected point by one source-photo pixel through the UI",
+    "Save through the measurement dock and observe the new saved revision",
+    "Reload through the actual Chrome menu",
+    "Reselect the same point and observe the saved coordinate and revision retained"
+  ],
+  "server_comparison": {
+    "complete_measurement_configuration_compared": true,
+    "only_expected_one_point_one_source_pixel_change": true,
+    "raw_point_coordinates_or_revision_ids_published": false
+  },
+  "preservation": {
+    "saved_root_preservation_report_read": true,
+    "root_reported_original_material_and_prior_code_hashes_unchanged": true,
+    "original_error_phone_untouched": true,
+    "authorized_practice_changes_kept_separate": true,
+    "publisher_reexecuted_hash_audit": false
+  },
+  "entry_observations": [
+    {"entry_kind": "Initial app Intent", "status": 403},
+    {"entry_kind": "Navigation containing a query", "status": 401},
+    {"entry_kind": "Address-bar navigation to the canonical exact page path", "status": 200}
+  ],
+  "entry_interpretation": "Recorded observations only; neither a confirmed general root cause nor a fix for the external-authentication save failure. Existing Host/Origin protection retained.",
+  "retained_for_user_continuation": {
+    "open_practice_tab": true,
+    "owned_usb_reverse_mapping": true,
+    "basis": "Latest explicit user instruction to keep the app ready for continued use overrides the default test-mapping cleanup",
+    "lifetime": "Current USB and ADB connectivity; remapping may be needed after reconnection",
+    "permanent_connectivity_claimed": false,
+    "preexisting_protected_external_runtime_and_authentication_unchanged": true
+  },
+  "not_claimed": [
+    "Whole-program final PASS",
+    "Actual simultaneous multi-finger touch validation",
+    "External authentication save failure resolved",
+    "Mobile-carrier route validated",
+    "Physical measurement or manufacturing accuracy"
+  ],
+  "external_testing": {
+    "authentication_path_save_failure": "UNRESOLVED",
+    "carrier_test": "EXPLICITLY_DEFERRED_BY_USER",
+    "usb_success_is_external_fix": false
+  },
+  "settings_changes": {"wifi": false, "vpn": false, "security": false, "authentication": false},
+  "publisher_operations": {"phone_or_adb_or_runtime_control": 0, "software_install": 0},
+  "privacy": {"raw_source_files_or_screenshots_published": false, "device_serial_model_paths_hostname_email_ip_pid_url_tokens_or_exact_test_values_published": false},
+  "manual": "docs/ANDROID_USB_EXISTING_PAGE_REVIEW.md",
+  "document_study": "reports/ExternalLearning/20261109_ANDROID_USB_EXISTING_PAGE_STUDY.json"
+}
