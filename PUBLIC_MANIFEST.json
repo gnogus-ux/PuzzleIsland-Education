@@ -80,7 +80,8 @@
     "2026-11-09: Added limited reviewed Windows deployment/TLS and same-signature APK update observations. Local69-file deployment preserved189existing/475original files; loopback TLS1.3/IP-SAN verification and anonymous401. Producer scenario reruns124/124 plus one unexecuted Windows symlink case and PCe2e54/54 are distinct from reviewer-authored lock regression. Prior native11 reused via21unchanged inputs. Installed-app pairing/transfer, LAN/router/firewall/carrier and whole-public-service acceptance remain pending; no private asset/code/key/cert/APK hashes published.",
     "2026-11-09: Added narrow Android/HTML button feedback study from12 selected official documents: transient press versus persistent screen/mode, actual progress/save/error results, Android state lists/API30 compatibility, ARIA toggle/current/disabled/busy, cancellation, restored state and accessible visible cues. Product code/app/device/servers unchanged; no UI runtime/accessibility conformance claimed. Prior r16 and networking holds preserved.",
     "2026-11-09: Added real SDK version override correction from4selected primary sources and scoped UI review: requestedversion3/r17-ui1 finalbadging, preserved signing v2/v3, completed update/install-loaded-screen evidence, native12 and web4 at360CSSpx. Job-open SAF cancel differs from untested result export/save-failure/font/rotation/TalkBack/cellular. Publisher read stored evidence only; no raw screens/private artifacts or their hashes published. Prior r16/native11/service history and network holds preserved.",
-    "2026-11-09: Added narrow mobile-tabs/current-task/next-action design from5core primary sources, reusing existing state/result guidance. Functional panels, ARIA keyboard behavior, thin sticky navigation, collapsible repetitive detail, critical dirty/error/unconfirmed-PC state, WebView display-data limits and positive-size hidden-canvas rendering are separated from untested product implementation. No app/phone/server/production changes or new dependencies."
+    "2026-11-09: Added narrow mobile-tabs/current-task/next-action design from5core primary sources, reusing existing state/result guidance. Functional panels, ARIA keyboard behavior, thin sticky navigation, collapsible repetitive detail, critical dirty/error/unconfirmed-PC state, WebView display-data limits and positive-size hidden-canvas rendering are separated from untested product implementation. No app/phone/server/production changes or new dependencies.",
+    "2026-11-09: Added plain-button workspace selection/return focus and hidden-state supplement from three primary selected sections; previous tab rules conditional, no picker runtime success claimed. Private app-reference screens not published."
   ],
   "files": [
     {
@@ -90,8 +91,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 23892,
-      "sha256": "016df1b92e0f239888254b720d759f3e1d8313a80d055cdb8df6f9e46880cfef"
+      "bytes": 24133,
+      "sha256": "8e7fee899ec4d75053864c0ba2dc4a9d230f295f93d34130a1958f8cb768e265"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -1130,13 +1131,23 @@
     },
     {
       "path": "docs/MOBILE_TABS_TASK_GUIDANCE.md",
-      "bytes": 10148,
-      "sha256": "8e0bc1fc2245d81ecd21c4b1cee036cd624e5211a6a9c3a85b975fa7ee9eac2e"
+      "bytes": 10422,
+      "sha256": "902483639f468ca8ec79e2684022c8cebf590772fc58b7e77b3a04cd4c51482c"
     },
     {
       "path": "reports/ExternalLearning/20261109_MOBILE_TABS_TASK_GUIDANCE_STUDY.json",
       "bytes": 7025,
       "sha256": "e112e1f1ac04f778b546fd7e20e17c72c94286c8fe0d1dd2fc16ae7e4fdb32c5"
+    },
+    {
+      "path": "docs/WORKSPACE_SELECTION_RETURN.md",
+      "bytes": 5202,
+      "sha256": "b3d38fb95afd9d080278a5054caa4b46266c7073c25b6fe9b9ad94f60c1a8098"
+    },
+    {
+      "path": "reports/ExternalLearning/20261109_WORKSPACE_SELECTION_RETURN_STUDY.json",
+      "bytes": 3734,
+      "sha256": "38777ea39c0ad1ae61ab587b81fe4e1232a33c723d8c27b7f46f05e113f210a9"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1379,5 +1390,12 @@
     "relative_tracked_link_occurrences_checked": 134,
     "private_data_or_source_media_published": false,
     "prior_history_and_manifest_order_preserved": true
+  },
+  "workspace_selection_return_study_20261109": {
+    "manual": "docs/WORKSPACE_SELECTION_RETURN.md",
+    "study": "reports/ExternalLearning/20261109_WORKSPACE_SELECTION_RETURN_STUDY.json",
+    "scope": "Three primary selected sections; focus/hidden design only, no new device/product test",
+    "raw_screens_or_private_values_published": false,
+    "prior_history_and_order_preserved": true
   }
 }

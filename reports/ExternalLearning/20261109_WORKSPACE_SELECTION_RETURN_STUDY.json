@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-09",
+  "manual": "docs/WORKSPACE_SELECTION_RETURN.md",
+  "basis": "Three official selected document sections, directly read in one Ego source-study space",
+  "library_preflight": {
+    "canonical_base": "b9bdc0509b61d6c54548d9e7ea0e1c7672d10e09",
+    "existing_manuals": [
+      "docs/UI_BUTTON_STATE_FEEDBACK.md",
+      "docs/MOBILE_TABS_TASK_GUIDANCE.md"
+    ],
+    "reused": "Button result/cancel/state; short critical guidance and hidden canvas/draft preservation",
+    "gap": "Logical focus entry/return, inactive-screen semantics and current context for plain selection buttons",
+    "user_direction": "Selection screen to one large workspace to explicit return; permanent tab row replaced"
+  },
+  "sources": [
+    {
+      "title": "WAI Button Pattern",
+      "publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/",
+      "read_scope": "Following button activation focus paragraphs and button roles",
+      "observed": "Context-changing actions may move focus to the starting point; unchanged-context actions often keep focus",
+      "application_proposal": "Reveal workspace then logical start; return to opener/fallback is application proposal, not dialog trap",
+      "selected_private_receipt_sha256": "35bdb2518589c289428f9ec1feeff64ea433c42652e0e9f4449bb011562c7b4e",
+      "product_runtime": "NOT_EXECUTED"
+    },
+    {
+      "title": "Understanding Focus Order 2.4.3",
+      "publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html",
+      "read_scope": "SC/Intent, dynamic content and static focus target selected paragraphs",
+      "observed": "Order preserves meaning and operability, without universally mandating one destination",
+      "application_proposal": "Logical heading/control and meaningful visual order; no redundant tab stops",
+      "selected_private_receipt_sha256": "f041400248dc4251fdd200ba6ca4e4b502e12c850bb91705ac75aae988754835",
+      "product_runtime": "NOT_EXECUTED"
+    },
+    {
+      "title": "HTML hidden attribute",
+      "publisher": "WHATWG",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute",
+      "read_scope": "Hidden state, CSS override, until-found and scripts/form controls selected paragraphs",
+      "observed": "Hidden removes currently irrelevant state from rendering but scripts/form controls can remain active",
+      "application_proposal": "Hide inactive current-state screen, preserve data, prevent hidden focus; no assumption of async cancellation",
+      "selected_private_receipt_sha256": "03b9ddb49db029c755952f4170840c6d7bf887ee9f73dea060d60010fa8a7c5c",
+      "product_runtime": "NOT_EXECUTED"
+    }
+  ],
+  "cross_checks": [
+    "No tab roles or tab arrow-key rules for normal selection buttons",
+    "Focus destination is a proposal; Focus Order does not mandate an exact heading",
+    "Nonmodal workspace does not imply modal dialog/focus trapping",
+    "Hidden state does not erase model, save data or cancel asynchronous writes",
+    "Native input focus and TalkBack focus require separate actual validation"
+  ],
+  "not_verified": [
+    "New picker product implementation",
+    "Input/draft/photo/coordinate preservation in actual new UI",
+    "Keyboard/TalkBack/large text/rotation",
+    "Actual save/export/PC apply",
+    "Full WCAG conformance"
+  ],
+  "prior_tab_WIP_not_reclassified_as_picker_success": true,
+  "operations_by_author": {
+    "product_code": 0,
+    "phone_app_server_router": 0,
+    "install_account_cost": 0
+  },
+  "source_study_space_finished_normally_no_pages_kept": true,
+  "raw_screens_media_private_assets_or_values_published": false,
+  "prior_evidence_and_external_setup_holds_preserved": true
+}
