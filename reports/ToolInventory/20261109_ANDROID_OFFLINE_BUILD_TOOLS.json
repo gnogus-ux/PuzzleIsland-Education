@@ -1,0 +1,43 @@
+{
+  "date_kst": "2026-11-09",
+  "scope": "Existing Android build tooling: selected version execution versus file presence, no APK build claim",
+  "source": "Independent reviewer saved existing-tool receipt and direct report, private paths omitted",
+  "source_evidence_sha256": "20b9401a2ae0a5b18f358cb512403b570a1409c379795be3bd539d93f0b8b906",
+  "executed_versions": {
+    "java_javac": "Temurin java17.0.20.1+1; javac17.0.20.1 actual version report",
+    "aapt2": "2.19-12874835",
+    "d8": "8.6.2-dev bundled in existing SDK",
+    "apksigner": "0.9"
+  },
+  "metadata": {
+    "android_api": 35,
+    "platform_revision": 2,
+    "build_tools": "35.0.1"
+  },
+  "file_presence_only": [
+    "android.jar",
+    "zipalign"
+  ],
+  "gradle_on_path": false,
+  "unknown": [
+    "Gradle elsewhere/cache",
+    "AndroidX WebKit availability",
+    "Actual framework-only APK build and signing",
+    "Actual offline phone file round trip"
+  ],
+  "additional_install_or_download": false,
+  "cloudflare_latest_override": {
+    "use": "FORBIDDEN_BY_CURRENT_USER_INSTRUCTION",
+    "portable_executable_exists": false,
+    "owned_process_present": false,
+    "absence_observed_by": "Independent reviewer",
+    "deleted_by_reviewer": false,
+    "historical_install_and_connection_receipts": "Retained as historical evidence, not current readiness"
+  },
+  "manuals": [
+    "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md",
+    "docs/ANDROID_OFFLINE_APK_BUILD.md"
+  ],
+  "private_values_published": false,
+  "publisher_build_phone_or_runtime_operations": 0
+}

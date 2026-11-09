@@ -1,0 +1,102 @@
+{
+  "status": "PROPOSED_AUTHOR_HANDOFF_CONTRACT_NOT_IMPLEMENTED",
+  "goal": "Reuse MAY photo/point/guide editing in an offline Android app; export a file and explicitly import into PC MAY",
+  "roles": {
+    "implementation": "Existing Claude MAY author",
+    "independent_review": "Root Codex",
+    "education": "Dedicated Codex documentation subtask"
+  },
+  "workflow": [
+    "PC exports a selected work package with baseline and photos",
+    "Phone opens it via SAF",
+    "Phone edits and preserves local draft offline",
+    "Phone creates a new outbound edit file via SAF",
+    "User transfers the file",
+    "PC stages and previews differences/conflicts",
+    "User explicitly applies to a new PC revision",
+    "PC recomputes results and preserves import receipt"
+  ],
+  "reuse": {
+    "keep": [
+      "Reviewed frontend photo/point/guide semantics",
+      "Source-photo pixel coordinates",
+      "Product/part/photo identity",
+      "Existing PC calculation and persistence contracts"
+    ],
+    "replace": [
+      "PC network API calls with a bounded phone-local state adapter"
+    ],
+    "do_not_assume": [
+      "Python/Blender/AI runs on phone",
+      "Unknown AndroidX dependency exists",
+      "A simple remote WebView wrapper is offline",
+      "Files automatically synchronize to PC"
+    ]
+  },
+  "proposed_file_fields": {
+    "format": "Fixed package-kind identifier",
+    "schemaVersion": "Explicit supported interchange schema",
+    "editorBuild": "Compatible packaged editor version",
+    "packageId": "Identity of the PC baseline package",
+    "changeSetId": "Unique outbound change set for idempotent import",
+    "projectId_productId_partId_photoId": "Exact existing PC identifiers",
+    "baseRevisions": "Revision vector for the edited components",
+    "baseSnapshotSha256": "Digest of normalized baseline data under an explicitly defined byte/canonicalization contract",
+    "photos": "Source and displayed byte hashes, dimensions, orientation transform and safe local identifiers",
+    "edits": "Bounded finite original-pixel geometry, classifications, calibration, notes, protected boundaries and provenance"
+  },
+  "format_decisions": {
+    "container": "Versioned manifest with bounded optional image members; ZIP using standard libraries is a candidate, not finalized",
+    "phone_return": "Can omit unchanged image bytes while referencing their exact hashes",
+    "arbitrary_archive_extraction": "Forbidden; fixed allowlisted streams or safely staged controlled paths only",
+    "file_extension_or_mime_is_security_validation": false,
+    "sha_is_authorship_proof": false
+  },
+  "phone_safety": [
+    "App-owned local content only; deny external resource/navigation/frames",
+    "Explicitly disable file/universal access; do not load content/file URI as trusted editor page",
+    "No broad native bridge; fixed operations and exact-origin schema/size validation",
+    "User-selected SAF URI read/write; no broad storage permission assumption",
+    "Private atomic local draft before export; cancel/error does not discard edits",
+    "Imported labels/notes are text, not HTML or executable JS"
+  ],
+  "pc_import_gates": [
+    "Supported schema/kind and member allowlist",
+    "Strict types, finite numbers, coordinate bounds and data limits",
+    "Actual image hash/dimensions/orientation and PC ID correspondence",
+    "Exact base revisions and baseline digest",
+    "Safe archive names, duplicate/traversal/oversize/decode rejection",
+    "Preview before apply and recheck revisions at commit",
+    "Atomic new revision with recoverable prior state",
+    "Change-set deduplication",
+    "Changed confirmation invalidation and PC recalculation"
+  ],
+  "conflict_behavior": "Do not overwrite. Preserve current PC data and incoming candidate, show target/diff, allow cancel or separate candidate review; no guessed auto-merge.",
+  "minimum_verification": [
+    "Build/signing and actual phone offline launch separately verified",
+    "PC package to phone open, actual edit and local draft restore",
+    "SAF outbound file created and validated",
+    "Manual transfer and actual PC import preview/apply/reopen",
+    "Exact geometry and photo hashes/revisions/provenance round trip",
+    "Zero unexpected external resource requests",
+    "Malformed/unsupported/corrupt/wrong-photo/stale/duplicate/traversal/oversize files rejected",
+    "Picker cancel, write failure and import failure preserve original state",
+    "Relevant existing measurement/confirmation regressions pass"
+  ],
+  "excluded": [
+    "Cloudflare",
+    "VPN",
+    "Email/PIN auth",
+    "New account/domain/payment",
+    "Automatic PC sync",
+    "Remote PC control",
+    "Production Blender changes",
+    "Physical thickness/manufacturing approval"
+  ],
+  "dependency_check": "Root limited receipt confirms existing API35/BuildTools35.0.1/JDK17 and selected CLI versions; Gradle absent from PATH, AndroidX/cache unknown. Author may supply a framework-only Java build script for independent reviewer to build with existing tools. No new install/download and no APK success assumed.",
+  "contract_finalization": "Proposed field roles and ZIP candidate only. Author must freeze one bounded format/version and PC/phone agreement before claiming implementation compatibility.",
+  "manuals": [
+    "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md",
+    "docs/ANDROID_OFFLINE_APK_BUILD.md"
+  ]
+}

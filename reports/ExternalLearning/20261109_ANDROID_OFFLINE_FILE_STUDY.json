@@ -1,0 +1,215 @@
+{
+  "date_kst": "2026-11-09",
+  "status": "READ_ONLY_DOCUMENT_STUDY_AND_PREIMPLEMENTATION_SPEC_READY_NOT_RUNTIME_VALIDATED",
+  "scope": "Offline Android editor reusing MAY frontend behavior and explicit file-based PC import, with no Cloudflare/VPN/email authentication or automatic synchronization",
+  "manual": "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md",
+  "library_preflight": {
+    "repository": "gnogus-ux/PuzzleIsland-Education",
+    "read": [
+      {
+        "path": "README.md",
+        "blob_sha": "acc954bc39e64c2adb2a4a45b4c93eb11df17586",
+        "scope": "Education index and common manual prerequisites searched"
+      },
+      {
+        "path": "docs/AVAILABLE_TOOLS.md",
+        "blob_sha": "b0e148aae0e7f57e4c65c1c2547bd5d36af84dd1",
+        "scope": "Existing Android ADB, Python, Git, development tool states and installation boundaries"
+      },
+      {
+        "path": "docs/ANDROID_USB_EXISTING_PAGE_REVIEW.md",
+        "blob_sha": "e62a4c4e5bd8617b742758d239c0b9926e4b7908",
+        "scope": "Existing USB review preservation, local-versus-remote limits; not an offline packaged app or file-import design"
+      }
+    ],
+    "query": "WebView Storage Access Framework offline",
+    "topic_search_results": 0,
+    "gap": "No existing WebView offline editor plus SAF versioned file interchange manual found. Prior USB/remote-browser manual does not satisfy native offline app requirements.",
+    "common_rules_basis": "Previously read same-version COMMON_WORK_RULES/COMMON_TOOL_POLICY manual-first study authorization and role separation; latest user explicitly switched from remote routes to offline file exchange."
+  },
+  "official_sources": [
+    {
+      "title": "Load in-app content",
+      "publisher": "Android Developers",
+      "url": "https://developer.android.com/develop/ui/views/layout/webapps/load-local-content",
+      "page_modified": "2026-10-23 UTC",
+      "read_sections": [
+        "In-app content overview",
+        "WebViewAssetLoader and assets/resources",
+        "loadDataWithBaseURL",
+        "Things to avoid"
+      ],
+      "observed": [
+        "Packaged content need not access the internet",
+        "WebViewAssetLoader supports same-origin HTTP(S) local resources",
+        "loadDataWithBaseURL is an alternative for an HTML page without subresource interception",
+        "file/data opaque origins and universal/file access workarounds are discouraged; explicit false recommended",
+        "Mixed content always-allow is discouraged"
+      ],
+      "application_proposal": "Reuse frozen editor HTML/JS/CSS with a real offline I/O adapter. Prefer an already available AssetLoader dependency; otherwise evaluate a bounded self-contained framework alternative without assuming new dependencies.",
+      "unverified": "Existing AndroidX WebKit availability, installed WebView behavior, app build and large photo performance"
+    },
+    {
+      "title": "Access documents and other files from shared storage",
+      "publisher": "Android Developers",
+      "url": "https://developer.android.com/training/data-storage/shared/documents-files",
+      "read_sections": [
+        "SAF overview and use cases",
+        "ACTION_CREATE_DOCUMENT",
+        "ACTION_OPEN_DOCUMENT and restrictions",
+        "Chosen URI operations",
+        "Persist permissions and unknown document sizes"
+      ],
+      "observed": [
+        "User-selected documents via system picker and URI grants",
+        "ACTION_CREATE_DOCUMENT creates a new document rather than overwriting an existing name",
+        "ACTION_OPEN_DOCUMENT selects a supported document",
+        "Provider capabilities/size may vary",
+        "Persistable permission does not survive file move/deletion without re-selection"
+      ],
+      "application_proposal": "Use native document open/create flows, private local draft first, stream-limited input, explicit final write result and cancellation/error preservation. Prefer local provider when offline.",
+      "unverified": "Actual OEM picker behavior, file copy route, URI revocation/disk-full handling and complete phone-to-PC round trip"
+    },
+    {
+      "title": "WebView – Native bridges",
+      "publisher": "Android Developers Security",
+      "url": "https://developer.android.com/privacy-and-security/risks/insecure-webview-native-bridges",
+      "page_modified": "2026-10-23 UTC",
+      "read_sections": [
+        "Overview and impact",
+        "JavascriptInterface risks",
+        "Content/origin restrictions",
+        "Sensitive functionality boundaries",
+        "MessageChannel origin checks"
+      ],
+      "observed": [
+        "addJavascriptInterface exposes an object to all frames and lacks caller-origin validation",
+        "Untrusted injected content can misuse a native bridge",
+        "Message channels also require an exact trusted origin",
+        "Load scoped app-owned content and avoid exposing sensitive general-purpose native operations"
+      ],
+      "application_proposal": "Deny external navigation/subresources/frames, treat imported values as data rather than HTML or code, keep native file actions minimal and validate every message/schema/size. Do not solve file loading by broad WebView privileges.",
+      "unverified": "Chosen native-to-editor channel and real application attack-surface tests"
+    },
+    {
+      "title": "Zip Path Traversal",
+      "publisher": "Android Developers Security",
+      "url": "https://developer.android.com/privacy-and-security/risks/zip-path-traversal",
+      "page_modified": "2024-09-24 UTC",
+      "read_sections": [
+        "Overview and impact",
+        "Destination-child validation",
+        "Safe destination and overwrite prevention"
+      ],
+      "observed": [
+        "java.util.zip does not make archive entry paths safe automatically",
+        "Extraction can overwrite files outside the intended directory",
+        "Target paths must remain under a safe destination and existing content should not be overwritten"
+      ],
+      "application_proposal": "Prefer streaming fixed allowlisted entries rather than arbitrary path extraction; validate manifest/photo content, declared and actual bounds, traversal and duplicate entries, and stage imports without overwriting originals.",
+      "unverified": "Chosen ZIP contract, actual member/compression limits and corruption/adversarial-file tests; additional bounds are design requirements, not claimed as supplied by the standard library"
+    },
+    {
+      "title": "AAPT2",
+      "publisher": "Android Developers",
+      "url": "https://developer.android.com/tools/aapt2",
+      "read_sections": [
+        "Overview and compile",
+        "Link syntax and options -I/--manifest/--java/-A/-o"
+      ],
+      "observed": [
+        "Standalone resource compile/link support",
+        "Resource APK has no DEX and is unsigned"
+      ],
+      "application_proposal": "Resource compile/link before Java/DEX and signing",
+      "unverified": "Manual standalone build, signing, installation and device behavior not executed by documentation author"
+    },
+    {
+      "title": "d8",
+      "publisher": "Android Developers",
+      "url": "https://developer.android.com/tools/d8",
+      "read_sections": [
+        "General usage/options",
+        "Compile bytecode that uses Java 8 language features"
+      ],
+      "observed": [
+        "Java bytecode to DEX",
+        "--lib/--classpath/--min-api/--output requirements",
+        "Final DEX excludes --intermediate"
+      ],
+      "application_proposal": "Compile the complete wrapper class set with an explicit supported API contract",
+      "unverified": "Manual standalone build, signing, installation and device behavior not executed by documentation author"
+    },
+    {
+      "title": "zipalign",
+      "publisher": "Android Developers",
+      "url": "https://developer.android.com/tools/zipalign",
+      "read_sections": [
+        "Overview",
+        "Usage and options"
+      ],
+      "observed": [
+        "Align before apksigner",
+        "Alignment check mode",
+        "4-byte ordinary alignment and -P16 for uncompressed native libraries"
+      ],
+      "application_proposal": "Separate unsigned/aligned/signed outputs; verify alignment",
+      "unverified": "Manual standalone build, signing, installation and device behavior not executed by documentation author"
+    },
+    {
+      "title": "apksigner",
+      "publisher": "Android Developers",
+      "url": "https://developer.android.com/tools/apksigner",
+      "read_sections": [
+        "Usage/sign/verify",
+        "Keystore and password input options"
+      ],
+      "observed": [
+        "Private key/certificate signing and verification",
+        "APK mutation after signing invalidates signature",
+        "stdin or file password input supported"
+      ],
+      "application_proposal": "Sign a separate output and verify; do not expose keys/passwords in public text or inline arguments",
+      "unverified": "Manual standalone build, signing, installation and device behavior not executed by documentation author"
+    },
+    {
+      "title": "Sign your app",
+      "publisher": "Android Developers",
+      "url": "https://developer.android.com/studio/publish/app-signing",
+      "read_sections": [
+        "Debug signing",
+        "Sign your app for release to Google Play"
+      ],
+      "observed": [
+        "Debug certificates are for development and generally not accepted for store publication",
+        "Play release has a distinct signing/distribution workflow"
+      ],
+      "application_proposal": "Keep development APK verification separate from production release and preserve update signing identity",
+      "unverified": "Manual standalone build, signing, installation and device behavior not executed by documentation author"
+    }
+  ],
+  "implementation_inferences": [
+    "Existing server-backed HTML is not offline merely because it is packaged in a WebView",
+    "Phone should edit source-coordinate data locally; unavailable PC Python/AI/Blender calculations remain deferred to PC import",
+    "Photos/part IDs, displayed-image orientation, SHA256, base revisions and baseline digest are necessary to prevent wrong-project or stale overwrites",
+    "PC import must preview a staged candidate, recheck revisions when applying, deduplicate change sets and invalidate changed measurement confirmations",
+    "Local draft saved, exported file written and PC import applied are distinct states; there is no automatic PC sync claim"
+  ],
+  "dependencies": {
+    "existing_sdk_jdk_build_plugin_cache": "ROOT_RECEIPT: API35 revision2/BuildTools35.0.1 metadata; aapt2 2.19-12874835, Temurin java/javac17.0.20.1+1, D8 8.6.2-dev and apksigner0.9 version checks; android.jar/zipalign file presence. Gradle not on PATH. No APK success claim.",
+    "androidx_webkit_assetloader": "UNKNOWN_DO_NOT_AUTODOWNLOAD",
+    "new_programs_or_accounts_required_by_design": false,
+    "new_dependency_or_tool_missing_action": "Report exact needed component and reuse supported existing path; do not install or fabricate a substitute without authorization"
+  },
+  "not_run": [
+    "Application coding",
+    "SDK/build commands",
+    "APK signing/install",
+    "Device input or file-picker operations",
+    "Phone/PC runtime",
+    "Cloudflare or other remote route"
+  ],
+  "private_user_assets_or_paths_or_serials_or_emails_published": false,
+  "build_manual": "docs/ANDROID_OFFLINE_APK_BUILD.md",
+  "publication": "Canonical document publication only; does not change runtime or implementation verification status"
+}

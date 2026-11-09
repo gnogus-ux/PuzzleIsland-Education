@@ -71,7 +71,8 @@
     "2026-11-09: Added Android touch and protected PC web-editor access manual; official document and pinned source study, Quick Tunnel allowed-mail version evidence, and separate portable cloudflared version/help receipt. No endpoint/email/private paths or device-success claims published.",
     "2026-11-09: Updated cloudflared inventory with a separate real MAY protected-connection review: selected anonymous GET redirects, token-only POST rejection and direct-loopback Host/Origin wiring verified. PIN, authenticated Android use and successful final lifecycle record remain unverified; private endpoints and source evidence withheld.",
     "2026-11-09: Added USB Android existing-page draft preservation and separately authorized USB-local testing procedure from5 official sources. Device identity, raw screenshot, single-pointer limits, owned reverse mapping and new-tab request are separated from external-network/authentication validation. Existing ADB version/initial read-only observation receipt recorded without private device information.",
-    "2026-11-09: Recorded a separate actual-phone USB-local measurement review: zoom, selection, one-source-pixel nudge, save and Chrome-menu reload retention with full configuration comparison. Open test tab/owned reverse retained by explicit user continuation instruction. No full-program, multi-touch or external-authentication save fix claimed; private test values withheld."
+    "2026-11-09: Recorded a separate actual-phone USB-local measurement review: zoom, selection, one-source-pixel nudge, save and Chrome-menu reload retention with full configuration comparison. Open test tab/owned reverse retained by explicit user continuation instruction. No full-program, multi-touch or external-authentication save fix claimed; private test values withheld.",
+    "2026-11-09: Added offline Android editor/manual file transfer and explicit PC import proposal, bounded version/photo/baseline/conflict contract, and existing SDK/JDK standalone development APK build study. Nine official resources selectively read. Selected CLI versions/file presence do not imply APK or offline round-trip success. Latest Cloudflare no-use instruction and absent portable executable observed; historical receipts retained. No private assets or secrets published."
   ],
   "files": [
     {
@@ -81,8 +82,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 22162,
-      "sha256": "06cca01d7879faaf5304b2ca52e752441546775d14124af544be197b545215d4"
+      "bytes": 22538,
+      "sha256": "fa153b1cd520af4a841f7ca728b9c6addb3e894cd57b8bf1e54b5d1d89f3d09a"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -606,8 +607,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 22756,
-      "sha256": "47f92d2635cec2c65f52dc1a7fdef797ad076f34059738af9cad96020d52d4d6"
+      "bytes": 22905,
+      "sha256": "b0190dcec3a1babe30ac7f3bd75520d260bb06a112b23f717e60272d8c383970"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1038,6 +1039,31 @@
       "path": "reports/ToolInventory/20261109_ANDROID_USB_SCOPED_REVIEW.json",
       "bytes": 3358,
       "sha256": "5428d4f55b8673985294374ff5d72a350cee93f0950e9ed4320ffa8c8977e9b3"
+    },
+    {
+      "path": "docs/ANDROID_OFFLINE_APK_BUILD.md",
+      "bytes": 5849,
+      "sha256": "38617633c9cf9fd3b7332f83747f0ba37c8b528b919a44dcfc766a910536b430"
+    },
+    {
+      "path": "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md",
+      "bytes": 12113,
+      "sha256": "c42eaec911dad859eb5a69e3e43c4ad1c92e0da8d2b7e69f1cdb33db3504e149"
+    },
+    {
+      "path": "reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_SPEC.json",
+      "bytes": 5371,
+      "sha256": "647a85b7d95850a7a5a1e9b39eaf0d4e5809f92e80a70a5e522cac8b400fe00c"
+    },
+    {
+      "path": "reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_STUDY.json",
+      "bytes": 11515,
+      "sha256": "b084e735e41981dfae5664271779d6985bf0437e8e61255b6cc2fa03051eb7d9"
+    },
+    {
+      "path": "reports/ToolInventory/20261109_ANDROID_OFFLINE_BUILD_TOOLS.json",
+      "bytes": 1528,
+      "sha256": "4609b179bd9e47df88fb2dc2ec3220375423ce4ceb4e2eb01d7589ea2ec02bd6"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1202,5 +1228,15 @@
     "receipt": "reports/ToolInventory/20261109_ANDROID_USB_SCOPED_REVIEW.json",
     "scope": "Scoped actual-phone USB local measurement UI and save/reload passed; external save issue unresolved and carrier test explicitly deferred; user continuation mapping retained",
     "private_device_or_exact_test_values_published": false
+  },
+  "android_offline_file_study_20261109": {
+    "manual": "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md",
+    "build_manual": "docs/ANDROID_OFFLINE_APK_BUILD.md",
+    "study": "reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_STUDY.json",
+    "proposed_contract": "reports/ExternalLearning/20261109_ANDROID_OFFLINE_FILE_SPEC.json",
+    "tool_receipt": "reports/ToolInventory/20261109_ANDROID_OFFLINE_BUILD_TOOLS.json",
+    "scope": "Nine selected official source bodies; preimplementation proposal and limited root existing-tool receipt only. No APK build/sign/install/device/offline round-trip executed by publisher; package contract awaits author agreement. Historical library counts retained.",
+    "checked_relative_link_occurrences": 148,
+    "private_assets_or_secrets_published": false
   }
 }
