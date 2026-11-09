@@ -1,0 +1,254 @@
+{
+  "date_kst": "2026-11-09",
+  "status": "OFFICIAL_DOCUMENT_STUDY_AND_CANDIDATE_DESIGN_ONLY",
+  "manual": "docs/DIRECT_TLS_FILE_EXCHANGE.md",
+  "official_distinct_document_bodies_read": 16,
+  "sources": [
+    {
+      "title": "Android Network security configuration",
+      "url": "https://developer.android.com/privacy-and-security/security-config",
+      "read_scope": "Custom CAs/limited trust, cleartext opt-out, CertificatePinning and pin-set expiration",
+      "observed": "Pins are SPKI hashes, not whole certificate fingerprints; expiration disables pinning",
+      "application_proposal": "Use native exact-leaf validation for local runtime pairing; no expiration bypass",
+      "selected_excerpt_receipt_sha256": [
+        "0f7e078b0ef9d255f5c14d8f6eed3780d50771f8a6b34e9001e2d1d98dfb3a7a"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "Python3.10 ssl",
+      "url": "https://docs.python.org/3.10/library/ssl.html",
+      "read_scope": "load_cert_chain, PROTOCOL_TLS_SERVER, minimum_version, wrap_socket",
+      "observed": "PEM certificate and corresponding private key are required; mismatch raises error",
+      "application_proposal": "Explicit PEM conversion and TLS server context; real installed SSL capabilities must be tested",
+      "selected_excerpt_receipt_sha256": [
+        "a91a1220f84e5900cd58228450918db68d0686ddfa736554fb7965de8f618e0e"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "JDK17 keytool",
+      "url": "https://docs.oracle.com/en/java/javase/17/docs/specs/man/keytool.html",
+      "read_scope": "Key-pair generation examples, named SAN IP/DNS table read in browser, common password modifiers, SSL-server generation example and PKCS12 description",
+      "observed": "Key and certificate management; SAN IP supported; PKCS12 is default; password modifiers; certificate export differs from private-key extraction",
+      "application_proposal": "Separate TLS identity from APK signing; current IPv4 SAN and explicit re-pair after renewal",
+      "selected_excerpt_receipt_sha256": [
+        "37198bf6ee78b646e929465044e058ecbe950a1d6932393e4f0a3b1ff969a44d",
+        "11908d18bc9c012cea3e9a0691f62fffa2161d0f84d3e0ff380ff35de978fd36"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "JDK17 KeyStore",
+      "url": "https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/security/KeyStore.html",
+      "read_scope": "getKey/getCertificate/load exact method bodies",
+      "observed": "Password-based load and entry recovery; missing key/certificate can be null",
+      "application_proposal": "Bounded alias/format checks before private conversion",
+      "selected_excerpt_receipt_sha256": [
+        "b8aca4749b13b0f47de849953c66802d4120a1f4b4c7b852fcc2063b9dc27864"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "JDK17 Key",
+      "url": "https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/security/Key.html",
+      "read_scope": "getEncoded/getFormat exact method bodies",
+      "observed": "Private key primary encoding may be PKCS#8; encoding may be unavailable",
+      "application_proposal": "Require expected format and non-null bytes; do not presume every provider exports keys",
+      "selected_excerpt_receipt_sha256": [
+        "74f97f42ee4ba5bb7be905165f3daec90b35fd443b93c697e6674e2a1a583caa"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "JDK17 Certificate",
+      "url": "https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/security/cert/Certificate.html",
+      "read_scope": "getEncoded method body",
+      "observed": "X509 certificate encoding is DER",
+      "application_proposal": "Use DER certificate encoding for exact SHA256 and PEM wrapping",
+      "selected_excerpt_receipt_sha256": [
+        "a644c0ec144bf5669cedeef591b7b14e4c45264ac3431009aef3bdb2ff29266e"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "TP-Link port forwarding setup guide",
+      "url": "https://www.tp-link.com/us/support/faq/1379/",
+      "read_scope": "Public WAN and stable internal target prerequisites; selected Virtual Servers interface explanation",
+      "observed": "Internet forwarding requires public WAN and stable internal device address",
+      "application_proposal": "General NAT prerequisite only; no claim this vendor UI applies to another router",
+      "selected_excerpt_receipt_sha256": [
+        "8c0bab7ff6ea5f12b30049541d19eb6820cbb9113408aff2b01d562fdd6ec7ca"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "OWASP REST Security Cheat Sheet",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html",
+      "read_scope": "HTTPS, Access Control, API Keys, Sensitive information in HTTP requests, return-code table",
+      "observed": "Every endpoint needs authorization; secrets stay out of URLs; rate limits/revocation matter; API keys alone insufficient for sensitive critical resources",
+      "application_proposal": "TLS-before-credentials, per-device limited rights/revocation and bounded file endpoints",
+      "selected_excerpt_receipt_sha256": [
+        "2924f10eb23e9c02d98c6dbcc6f4ca05a228fa00b2da07d804b6eed14cff218f"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "Android Security with network protocols",
+      "url": "https://developer.android.com/privacy-and-security/security-ssl",
+      "read_scope": "Unknown CA, self-signed server certificate, TrustManager caution",
+      "observed": "Trust-all is explicitly unsafe even temporarily; self-signed trust must be deliberate",
+      "application_proposal": "Only paired trust material; preserve normal HTTPS identity checks",
+      "selected_excerpt_receipt_sha256": [
+        "7930c5d341e74ee400b77903ad461b322f7b6ebb54e897f368d10e8655329024"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "Android HttpURLConnection",
+      "url": "https://developer.android.com/reference/java/net/HttpURLConnection",
+      "read_scope": "setInstanceFollowRedirects(boolean) method body",
+      "observed": "Instances follow redirects by default unless configured otherwise",
+      "application_proposal": "Disable per-instance redirects and fail all3xx",
+      "selected_excerpt_receipt_sha256": [
+        "9191f9aba893cb06e55500570c34eb83cd71cd07e98b00d692bbd52d42fb9625"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "Python3.10 http.server",
+      "url": "https://docs.python.org/3.10/library/http.server.html",
+      "read_scope": "Opening production warning and HTTPServer explanation",
+      "observed": "Not recommended for production and only basic security checks",
+      "application_proposal": "Do not treat a TLS-wrapped static server as hardened internet transfer software",
+      "selected_excerpt_receipt_sha256": [
+        "23829122840667f6d410ca3052b842f311959bdfc9d59805996c12a727075b6c"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "Android HttpsURLConnection",
+      "url": "https://developer.android.com/reference/javax/net/ssl/HttpsURLConnection",
+      "read_scope": "setSSLSocketFactory instance method and getDefaultHostnameVerifier bodies",
+      "observed": "Socket factory can be per connection; default hostname verifier exists",
+      "application_proposal": "Restrict trust changes to candidate transfer connection and retain default hostname/IP checks",
+      "selected_excerpt_receipt_sha256": [
+        "e73cbf9cb873a9c7aefc942c633bf870b5dbbd9e8f691bd030f05a354333bae2"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "JDK17 X509Certificate",
+      "url": "https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/security/cert/X509Certificate.html",
+      "read_scope": "checkValidity() method body",
+      "observed": "Checks current time between notBefore/notAfter",
+      "application_proposal": "Explicit validity check as well as exact paired-leaf digest",
+      "selected_excerpt_receipt_sha256": [
+        "c2ad06babf0ed906da4dc865760789cf9fc6a06894588010a70ca57e14c20a7e"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "RFC6598",
+      "url": "https://datatracker.ietf.org/doc/html/rfc6598",
+      "read_scope": "Shared address space external-routing restrictions and IANA allocation paragraph",
+      "observed": "Shared address space is not a public endpoint; distinct from globally routable WAN",
+      "application_proposal": "Recognize shared/private WAN as a direct-routing blocker; no live network conclusion",
+      "selected_excerpt_receipt_sha256": [
+        "ef8581852557a838e746d67731077f82e63bed15bf48c8fbd073fe38697c070f"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "OWASP TLS Cheat Sheet",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html",
+      "read_scope": "Only Support Strong Protocols and selected Strong Ciphers paragraphs",
+      "observed": "Prefer TLS1.3, allow1.2 for compatibility and reject older protocols",
+      "application_proposal": "Verify actual Python SSL negotiation and modern cipher policy; no downgrade fallback",
+      "selected_excerpt_receipt_sha256": [
+        "00bf9238bbeb48fad89b40e355b5c4f0a4e325767649551fbfc6546b10ef34f5"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    },
+    {
+      "title": "Python3.10 secrets",
+      "url": "https://docs.python.org/3.10/library/secrets.html",
+      "read_scope": "token_bytes and compare_digest bodies",
+      "observed": "Secure random token bytes and constant-time comparison APIs",
+      "application_proposal": "Explicit candidate entropy32bytes, per-device credential and comparison; no secret generation run",
+      "selected_excerpt_receipt_sha256": [
+        "bb6381c8dcbabdb0f942ab6538db81782af395e2f2ac1a3cf232cef4b2a86b07"
+      ],
+      "unverified": "No implementation, certificate/secret generation, network service, settings change or device/external connection executed in this study"
+    }
+  ],
+  "library_preflight": {
+    "canonical_base": "90d13c477502bc6ecea6c4efeb52dbfd38593043",
+    "read_and_search": [
+      "README.md",
+      "docs/COMMON_WORK_RULES.md",
+      "docs/COMMON_TOOL_POLICY.md",
+      "docs/AVAILABLE_TOOLS.md",
+      "CONTRIBUTING.md",
+      "docs/ANDROID_OFFLINE_FILE_WORKFLOW.md",
+      "docs/ANDROID_OFFLINE_APK_BUILD.md"
+    ],
+    "search_terms": [
+      "TLS",
+      "SSL",
+      "certificate",
+      "pinning",
+      "public IP",
+      "port forwarding",
+      "file server"
+    ],
+    "gap": "Prior r16 offline and remote intermediary manuals do not establish direct TLS, runtime exact-leaf pairing, PKCS12-to-PEM boundary or public/dynamic IPv4 transfer safety"
+  },
+  "fresh_source_discovery": {
+    "method": "New Google search through one Ego-browser task; official pages directly read; search snippets and third-party results not treated as sources",
+    "queries": [
+      "Android network security configuration certificate pinning Python3.10 SSL load_cert_chain",
+      "site:tp-link.com port forwarding WAN public IP CGNAT"
+    ],
+    "browser_task_completed_no_pages_kept": true
+  },
+  "cross_checks_and_corrections": [
+    "Android SPKI pin is not DER certificate pin; expiration must not silently bypass the exact-pin requirement",
+    "Python PEM loader cannot directly consume keytool PKCS12; standard JDK encoding APIs support a conversion proposal, not a tested converter",
+    "Exact certificate check must happen in TLS handshake before any credential/body; normal IP SAN validation remains required",
+    "Public-form matching WAN/egress and router menu observation do not prove inbound reachability or fixed IP",
+    "Static http.server plus TLS is not production-hardening; every file endpoint needs scoped authorization",
+    "R16 INTERNET permission absent; new r17 native transfer must not open WebView network access or old editor/admin"
+  ],
+  "root_report_only_not_rescanned": {
+    "existing_tools": [
+      "Python3.10",
+      "Windows PowerShell/.NET",
+      "JDK17 keytool",
+      "SDK35.0.1"
+    ],
+    "openssl_cli_on_path": "Not found in root report; no install proposed or run",
+    "router_observation": "Forwarding menu present, no rules, DMZ/SuperDMZ off, public-form WAN equals egress; no values published",
+    "inbound_or_mobiledata_success": false
+  },
+  "runtime_and_mutations": {
+    "product_code": 0,
+    "certificate_or_private_key_or_token_generation": 0,
+    "new_server_or_router_or_firewall_configuration": 0,
+    "phone_operations": 0,
+    "installation_account_or_payment": 0,
+    "Cloudflare_or_VPN": 0
+  },
+  "proposal_not_a_frozen_protocol": true,
+  "unverified": [
+    "Actual PKCS12 export/PEM load",
+    "Exact-leaf TLS/IP-SAN validation and failure tests",
+    "Credential scope/revocation/storage",
+    "File upload/download bounds and preserved PC import",
+    "Windows service limits and lifecycle",
+    "Router/firewall authorized narrow configuration",
+    "Real mobile-data direct transfer",
+    "Operational security/production readiness"
+  ],
+  "private_data_or_source_media_publicly_published": false
+}
