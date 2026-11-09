@@ -67,7 +67,8 @@
     "2026-11-06: Integrated five official MD sources and author-verified isolated coupon Name/general-curve save-reopen evidence; exact quadratic Bezier and absolute 2D placement remain unverified. Private paths, products and source screenshots omitted.",
     "2026-11-06: Read three official bodies and documented OBJ Load as Garment / Trace2D Patterns from UV Map candidate workflow;MD9 live import/pattern/curve fidelity explicitly NOT_RUN. No private data or raw sources published.",
     "2026-11-08: Added local perpendicular edge/stitch distances, classified opening projection, directional-light and known-height shadow ratios from three primary document sections. Projection-scale definitions, stationary interval extrema, hidden-material refusal and unknown light-position limits separated. No private product data, raw media, installation or physical/native-app validation published.",
-    "2026-11-08: Added constrained planar-mouth mesh guidance and three official-document reading scopes; isolated Blender5.2.2 CDT coupon separately recorded. Private products, images, paths and source bodies excluded; no universal curved-mesh or physical-collision claim."
+    "2026-11-08: Added constrained planar-mouth mesh guidance and three official-document reading scopes; isolated Blender5.2.2 CDT coupon separately recorded. Private products, images, paths and source bodies excluded; no universal curved-mesh or physical-collision claim.",
+    "2026-11-09: Added Android touch and protected PC web-editor access manual; official document and pinned source study, Quick Tunnel allowed-mail version evidence, and separate portable cloudflared version/help receipt. No endpoint/email/private paths or device-success claims published."
   ],
   "files": [
     {
@@ -77,8 +78,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 21816,
-      "sha256": "5a79918540b443a825da536e546451bd5e73bad2aa44a78995d4d09ccbae1601"
+      "bytes": 22068,
+      "sha256": "dd133411583da863fcfe203568316c2478061fb803950455df61223d945d16e8"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -602,8 +603,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 20560,
-      "sha256": "12bb279a403617d90bfcc351740191881a9884bba01b86cef5957b5f3a5a1ff4"
+      "bytes": 21398,
+      "sha256": "e55c202a38a1017bdb1efb9efc5d1164214d576376803756b27e7a8d9169ed03"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1004,6 +1005,16 @@
       "path": "reports/ExternalLearning/20261108_WALLET_CONSTRAINED_MOUTH_MESH_STUDY.json",
       "bytes": 2207,
       "sha256": "99e1e4d1c82441f00805e2ed958170b3670c868d263a4e6a7b0830bce6d8ecaa"
+    },
+    {
+      "path": "docs/ANDROID_PC_WEB_CONTROL.md",
+      "bytes": 15816,
+      "sha256": "3babcb53b52389a76ff743fc2a5481b8ea53b979cafcfcca17380f04b761c686"
+    },
+    {
+      "path": "reports/ExternalLearning/20261109_ANDROID_PC_WEB_CONTROL_STUDY.json",
+      "bytes": 13741,
+      "sha256": "4fa76c5e868702c16cbdeee38a2a57214d25ff8df48e8ab6311f7a23d5bc7816"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1146,5 +1157,11 @@
     "report": "reports/VideoLearning/20261106_MARVELOUS_SEWING_ASSEMBLY_STUDY.json",
     "scope": "22sampleframesincl9oldtimestamps;1newvideo/1knownvideo;10documentreadsincl6rereads4new;0wholecaptiontracks;nonativepractice",
     "historical_export_counts": "Priorinitialexportcounts/metadataretained; notfullinventoryrecount"
+  },
+  "android_pc_web_control_study_20261109": {
+    "manual": "docs/ANDROID_PC_WEB_CONTROL.md",
+    "report": "reports/ExternalLearning/20261109_ANDROID_PC_WEB_CONTROL_STUDY.json",
+    "scope": "13 selected official document bodies,8 pinned source files,2 adjacent version comparisons; separate portable2026.10.7 version/help receipt; actual tunnel/PIN/Android editing unverified at publication",
+    "historical_export_counts": "Initial export counts preserved; not a full inventory recount"
   }
 }

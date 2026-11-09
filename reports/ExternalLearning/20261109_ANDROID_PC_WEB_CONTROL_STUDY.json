@@ -1,0 +1,288 @@
+{
+  "date_kst": "2026-11-09",
+  "status": "DOCUMENT_STUDY_COMPLETE_WITH_SEPARATE_LIMITED_TOOL_RECEIPT_NOT_ANDROID_VALIDATED",
+  "author_role": "Dedicated Codex education subtask",
+  "purpose": "Android touch web editor linked to PC storage/calculation; protected Internet access without VPN",
+  "manual": "docs/ANDROID_PC_WEB_CONTROL.md",
+  "actual_learning": "Official selected document bodies and named upstream source files were read; no videos, login screens, executable downloads, installations or product-code execution",
+  "library_search": {
+    "keywords": [
+      "Android",
+      "안드로이드",
+      "터치",
+      "pointer",
+      "pinch",
+      "모바일",
+      "휴대폰",
+      "Tailscale",
+      "Cloudflare",
+      "Origin",
+      "원격"
+    ],
+    "read": [
+      {
+        "path": "docs/COMMON_WORK_RULES.md",
+        "blob_sha": "bd970e98a13fb1ca241bcb02297887730b6ca402",
+        "scope": "Work start, role separation, study, single writer, publication and handoff sections"
+      },
+      {
+        "path": "docs/COMMON_TOOL_POLICY.md",
+        "blob_sha": "b65bd4cfae268286db2ca7222172bd603b3b7931",
+        "scope": "Manual preflight, missing manual three-source study, tool and installation boundaries"
+      },
+      {
+        "path": "docs/AVAILABLE_TOOLS.md",
+        "blob_sha": "72291b0e1aa25aac4da713f00560047de68bbb50",
+        "scope": "ego-browser, Python, Git, Tailscale tool states and restrictions"
+      },
+      {
+        "path": "README.md",
+        "blob_sha": "77593e33675301fff5c793d91ca44b676c984db1",
+        "scope": "Common rules and education index searched; no Android touch editor manual found in index"
+      },
+      {
+        "path": "docs/CHILI3D_LOCAL_CAD.md",
+        "blob_sha": "0581995a7fbfba0354fe4ff6ecf6231bf387ce7c",
+        "scope": "External phone access, existing verification limitations and Loading diagnosis"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "blob_sha": "e07ae67419dd6fc5d19414d16378d8aae97beaae",
+        "scope": "Full publication rules"
+      }
+    ],
+    "repository": "https://github.com/gnogus-ux/PuzzleIsland-Education",
+    "gap": "Existing phone-access material covers Tailscale and Chili3D; insufficient for multi-pointer editing and protected non-VPN public PC relay"
+  },
+  "sources": [
+    {
+      "id": "MDN_POINTER",
+      "title": "Pointer events",
+      "publisher": "MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "page_modified": "2026-10-07",
+      "read": "Terminology, PointerEvent properties/event types, primary pointer, button state, capture, touch-action, mouse compatibility and best practices",
+      "observed": "pointerId, capture and cancellation semantics; event work and touch target guidance",
+      "not_done": "No example execution or browser compatibility device tests"
+    },
+    {
+      "id": "MDN_PINCH",
+      "title": "Pinch zoom gestures",
+      "publisher": "MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures",
+      "page_modified": "2026-10-10",
+      "read": "Full explanatory body from example overview through cache management and event logging; embedded demo source not executed",
+      "observed": "Cache each active pointer; compare two-pointer distance; remove inactive contacts",
+      "correction": "Example changes background color and is not a complete editor zoom transform"
+    },
+    {
+      "id": "W3C_TARGET",
+      "title": "Understanding SC 2.5.8 Target Size (Minimum)",
+      "publisher": "W3C WAI WCAG2.2",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "read": "Success Criterion, exceptions, intent, minimum/enhanced distinction, size and spacing explanations",
+      "observed": "AA24 CSS pixel size with specified exceptions differs from44 CSS pixel enhanced threshold",
+      "not_done": "No full WCAG conformance audit"
+    },
+    {
+      "id": "W3C_DRAG",
+      "title": "Understanding SC 2.5.7 Dragging Movements",
+      "publisher": "W3C WAI WCAG2.2",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html",
+      "read": "Success Criterion, intent, keyboard relationship, alternative operation and examples beginning",
+      "observed": "Equivalent single-pointer operation without dragging; numerical input can be a suitable alternative",
+      "not_done": "No full criterion technique/test suite"
+    },
+    {
+      "id": "TAILSCALE_SERVE",
+      "title": "Tailscale Serve",
+      "publisher": "Tailscale",
+      "url": "https://tailscale.com/docs/features/tailscale-serve",
+      "page_validated": "2026-01-20",
+      "read": "Overview, requirements, basic serving, identity/capabilities headers and localhost protection; not full related CLI pages",
+      "observed": "Tailnet routing, HTTPS requirements, access rules, header spoofing protection depend on trusted ingress",
+      "current_scope": "Existing configuration preserved; VPN not selected by current user; no Tailscale command executed by this subtask"
+    },
+    {
+      "id": "OWASP_ORIGIN",
+      "title": "Cross-Site Request Forgery Prevention Cheat Sheet",
+      "publisher": "OWASP",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html",
+      "read": "Using Standard Headers to Verify Origin; Identifying Source Origin and Target Origin, trusted proxies and missing/null origin handling",
+      "observed": "Exact source/target origin checks; forwarded headers need trusted proxy handling; absent/null origin not same-origin proof",
+      "not_done": "No complete application security review"
+    },
+    {
+      "id": "CF_QUICK",
+      "title": "Quick Tunnels",
+      "publisher": "Cloudflare",
+      "url": "https://developers.cloudflare.com/tunnel/get-started/quick-tunnels/",
+      "page_modified": "2026-09-30",
+      "read": "Full main explanatory body including prerequisites, allowed-mail examples and limitations",
+      "observed": "No Cloudflare account/domain, cloudflared required, ephemeral hostname, email PIN candidate,200 in-flight requests,429,SSE unsupported,interactive browser only",
+      "not_done": "No tunnel or PIN screen opened; help, authenticated requests and uploads not tested"
+    },
+    {
+      "id": "CF_DOWNLOADS",
+      "title": "Downloads",
+      "publisher": "Cloudflare",
+      "url": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/downloads/",
+      "page_modified": "2026-04-17",
+      "read": "Main body including Windows binary/MSI and support period/update note",
+      "observed": "Windows32/64bit files and manual update requirement",
+      "not_done": "No file downloaded or installed"
+    },
+    {
+      "id": "CF_RELEASE",
+      "title": "cloudflared 2026.10.7",
+      "publisher": "Cloudflare official GitHub",
+      "url": "https://github.com/cloudflare/cloudflared/releases/tag/2026.10.7",
+      "read": "Release title, commit abbreviation and complete visible checksum list",
+      "observed": "Latest redirect reached2026.10.7, commit abbreviation872b241; windows-amd64.exe SHA2562493dbc168923bb3e59e5e7716f71deced92992eea9acd6e9d74f84ac7751343",
+      "not_done": "Binary hash/signature/runtime not checked"
+    },
+    {
+      "id": "CF_LICENSE",
+      "title": "cloudflared LICENSE at2026.10.7",
+      "publisher": "Cloudflare official GitHub",
+      "url": "https://github.com/cloudflare/cloudflared/blob/2026.10.7/LICENSE",
+      "read": "GitHub license identification plus visible license text through redistribution conditions",
+      "observed": "Apache License2.0; service terms/pricing are separate",
+      "not_done": "Not a legal review"
+    },
+    {
+      "id": "CF_NAMED",
+      "title": "Get started",
+      "publisher": "Cloudflare",
+      "url": "https://developers.cloudflare.com/tunnel/get-started/",
+      "page_modified": "2026-09-30",
+      "read": "Full main body, prerequisites, create tunnel, publish application, Quick comparison",
+      "observed": "Published hostname route requires Cloudflare account and domain onCloudflare; internet-capable cloudflared server"
+    },
+    {
+      "id": "CF_ACCESS",
+      "title": "Add web applications",
+      "publisher": "Cloudflare",
+      "url": "https://developers.cloudflare.com/cloudflare-one/access-controls/applications/http-apps/",
+      "page_modified": "2026-10-12",
+      "read": "Full main body including public/private application distinctions",
+      "observed": "Identity-aware proxy checks requests; public-hostname Access requires full or partialCloudflare DNS setup; private-network access is separate"
+    },
+    {
+      "id": "CF_413",
+      "title": "Error413",
+      "publisher": "Cloudflare",
+      "url": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/4xx-client-error/error-413/",
+      "page_modified": "2026-10-29",
+      "read": "Full main body including incoming proxied-domain plan limits and separate outbound limits",
+      "observed": "Proxied-domain Free/Pro100MB and Business200MB; app/server may have lower limits",
+      "correction": "Not explicitly a Quick Tunnel upload guarantee; actual Quick request/body behavior unverified"
+    }
+  ],
+  "upstream_source_review": {
+    "repository": "cloudflare/cloudflared",
+    "ref": "2026.10.7",
+    "read_files": [
+      {
+        "path": "cmd/cloudflared/tunnel/cmd.go",
+        "blob_sha": "8896c8d800e868d3c9ef47e6ff9f15b103654b2b",
+        "scope": "AllowedMail flag, Quick-specific restriction and related command context"
+      },
+      {
+        "path": "quicktunnelauth/handler.go",
+        "blob_sha": "b704559a069b0587558ba7774030c56abebdbbd6",
+        "scope": "Full file"
+      },
+      {
+        "path": "quicktunnelauth/authorization.go",
+        "blob_sha": "c01c076c7e121a7fbe26582f5be8a1cd0ca5d89d",
+        "scope": "Full file"
+      },
+      {
+        "path": "quicktunnelauth/session.go",
+        "blob_sha": "84b2e8e04e4e6ac3d31891797eecf5e807861692",
+        "scope": "Full file"
+      },
+      {
+        "path": "quicktunnelauth/isolation.go",
+        "blob_sha": "5e7fa46a1555deec03dc66880241d2270aaeb168",
+        "scope": "Full file"
+      },
+      {
+        "path": "proxy/proxy.go",
+        "blob_sha": "c2abfce03fbbd1717a253d1ef57a72c13e97fb45",
+        "scope": "Authorizer construction, ProxyHTTP authentication before ingress, rejectedTCP context"
+      },
+      {
+        "path": "component-tests/test_quicktunnels.py",
+        "blob_sha": "8d6ba69b47ff9f9360a8897d8a5ab86761b684d6",
+        "scope": "Flag visibility and invalid allowed-mail test definitions; not executed"
+      },
+      {
+        "path": "RELEASE_NOTES",
+        "blob_sha": "0add54ea00b09b6deaad644911299e727ed64854",
+        "scope": "2026.10.7 through2026.9.1 and matching authentication entries"
+      }
+    ],
+    "adjacent_tag_comparison": [
+      {
+        "ref": "2026.9.2",
+        "path": "cmd/cloudflared/tunnel/cmd.go",
+        "blob_sha": "bc598a1e2566a899db22dd03499c434eac6931c6",
+        "allowed_mail_found": true
+      },
+      {
+        "ref": "2026.9.1",
+        "path": "cmd/cloudflared/tunnel/cmd.go",
+        "blob_sha": "2f15e13e1781a84e818ad36236f045c4d0f9438c",
+        "allowed_mail_found": false
+      }
+    ],
+    "version_conclusion": "2026.9.2 is the first supporting version in the reviewed adjacent tags and corresponding release notes. Latest2026.10.7 source supports it. Actual Windows executable help and end-to-end behavior remain unverified.",
+    "scope_inference": "Common ProxyHTTP authorizer before ingress covers HTTP page, resource, download and modifying request paths; unauthedGET/HEAD redirect, other methods401. Actual application's all-ingress coverage must be tested.",
+    "session_observation": "HMAC signed host-bound Secure HttpOnly SameSiteLax cookie, max4hours bounded by broker expiry, process-local key invalidates on restart, cookie stripped before origin. App CSRF token is separate."
+  },
+  "not_run": [
+    "cloudflared download/install/help/execution",
+    "external tunnel publication",
+    "Cloudflare account signup",
+    "email/PIN authentication",
+    "actualAndroid touch or upload/download",
+    "MAY code changes or runtime tests",
+    "Tailscale operations"
+  ],
+  "browser": {
+    "tool": "ego-browser",
+    "version": "0.6.2.7",
+    "task_space": 40,
+    "finished_once": true,
+    "kept_pages": 0,
+    "update_notice_received": true,
+    "upgrade_run": false
+  },
+  "publication": {
+    "status": "CANONICAL_CONTENT_PREPARED_REMOTE_VERIFICATION_RECORDED_SEPARATELY",
+    "target_manual": "docs/ANDROID_PC_WEB_CONTROL.md",
+    "target_study": "reports/ExternalLearning/20261109_ANDROID_PC_WEB_CONTROL_STUDY.json",
+    "public_private_data_included": false
+  },
+  "separate_runtime_receipt": {
+    "receipt_read": "cloudflared-installation.json private record read and parsed",
+    "tunnel_started": false,
+    "date_kst": "2026-11-09",
+    "authenticode_status": "Valid",
+    "verifier": "Root Codex, separate execution role",
+    "actual_version_executed": true,
+    "sha256": "2493dbc168923bb3e59e5e7716f71deced92992eea9acd6e9d74f84ac7751343",
+    "version": "2026.10.7",
+    "actual_android_verified": false,
+    "global_path_or_service_or_firewall_changed": false,
+    "actual_tunnel_help_allowed_mail_present": true,
+    "publisher": "Cloudflare, Inc.",
+    "official_sha256_match": true,
+    "installation_kind": "Project-local portable EXE",
+    "email_pin_authentication_verified": false,
+    "learning_author_ran_executable": false
+  },
+  "not_run_scope": "Education role; separate root executable version/help receipt is recorded explicitly. Publication is a separate normal Git workflow."
+}

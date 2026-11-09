@@ -44,6 +44,7 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 | 주제 | 매뉴얼 |
 |---|---|
+| Android 터치·PC 웹 편집기 외부 접속 | [다중 터치·보호된 중계·저장·실기 검수](docs/ANDROID_PC_WEB_CONTROL.md) · [공식 문서·소스 학습 범위](reports/ExternalLearning/20261109_ANDROID_PC_WEB_CONTROL_STUDY.json) |
 | Chili3D 로컬 CAD·제품 단면 검토 | [설치·단위·입출력·저장 검증](docs/CHILI3D_LOCAL_CAD.md) |
 | PBR·광택·재질·조명·렌더 적용 | [Blender 제작 절차](docs/BLENDER_SKILLS_WORKFLOW.md) · [PBR·룩디벨롭·렌더 색인](docs/BLENDER_SKILLS_INDEX.md) |
 | 얼굴 기본 루프·눈–코 연결 | [기본 루프 배치](docs/FACE_RETOPOLOGY_BASIC_LOOPS.md) |
