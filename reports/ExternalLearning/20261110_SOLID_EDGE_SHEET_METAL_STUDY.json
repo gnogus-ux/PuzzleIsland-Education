@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-10",
+  "manual": "docs/SOLID_EDGE_SHEET_METAL_VERIFICATION.md",
+  "status": "PARTIAL_LICENSE_BLOCKED_NATIVE_TESTS_NOT_RUN",
+  "library_preflight": {
+    "canonical_base": "5734e1b79727a71a3a82c4fd0e03a9c4bad76051",
+    "search_terms": ["Solid.?Edge", "K.factor", "판금"],
+    "result": "No Solid Edge-specific manual found in README/docs",
+    "related_manuals_read": ["docs/WALLET_LAYERED_SHELL_VOLUME.md#8", "docs/COWHIDE_CARDHOLDER_CRAFT_WORKFLOW.md"],
+    "gap": "Installed-version drafting/sheet-metal API, neutral-factor semantics, save/reopen/export verification and leather applicability"
+  },
+  "sources": [
+    {
+      "title": "Solid Edge sheet metal design, spse01546",
+      "publisher": "Siemens",
+      "version": "ST5; HTTP Last-Modified 2013-02-20; not current226 runtime documentation",
+      "url": "https://support.industrysoftware.automation.siemens.com/training/se/en/ST5/pdf/spse01546-s-1050_en.pdf",
+      "read_scope": "PDF physical pages16,17,18,211,212,215,223,224 text; physical page16 one rendered view to check the missing pi glyph. Not the entire232-page course.",
+      "observed": "Bend-equation parameters; same-document flat pattern versus separate Save As Flat; older-format export/update distinctions",
+      "extraction_correction": "Text extraction omitted pi and reordered page lines. Page16 rendering verified pi in the original equation. Search AI summary was not a source of truth.",
+      "not_verified": "Current226 menus/export behavior, complete document images and live native functionality"
+    },
+    {
+      "title": "How to find the correct Neutral Factor for each bend in a Solid Edge Sheetmetal part?",
+      "publisher": "Siemens",
+      "version": "KB000177623_EN_US; Updated July18,2025; workaround stated since Solid Edge2025",
+      "url": "https://support.sw.siemens.com/en-US/okba/KB000177623_EN_US/How-to-find-the-correct-Neutral-Factor-for-each-bend-in-a-Solid-Edge-Sheetmetal-part/index.html",
+      "read_scope": "Summary and all Details paragraph bodies; example images not visually inspected for their detailed values",
+      "observed": "Gage-table individual factors can differ from global property annotation. Inquire Element with Bends only is the documented per-bend inspection route.",
+      "not_verified": "Current226 native inspection and actual material accuracy"
+    },
+    {
+      "title": "Solid Edge API107: NeutralFactor, FlatPatternModels.Add, SheetMetalDocument.SaveAs",
+      "publisher": "Siemens",
+      "version": "API URL version107; distinct from installed226",
+      "urls": [
+        "https://support.industrysoftware.automation.siemens.com/trainings/se/107/api/SolidEdgePart~Bend~NeutralFactor.html",
+        "https://support.industrysoftware.automation.siemens.com/trainings/se/107/api/SolidEdgePart~FlatPatternModels.html",
+        "https://support.industrysoftware.automation.siemens.com/trainings/se/107/api/SolidEdgePart~FlatPatternModels_members.html",
+        "https://support.industrysoftware.automation.siemens.com/trainings/se/107/api/SolidEdgePart~FlatPatternModels~Add.html",
+        "https://support.industrysoftware.automation.siemens.com/trainings/se/107/api/SolidEdgePart~SheetMetalDocument~SaveAs.html"
+      ],
+      "read_scope": "NeutralFactor description/syntax/Remarks; FlatPatternModels overview/members/Add description/syntax/parameter; SaveAs description/syntax/parameters and displayed opening Remarks. URLs counted as one related API source set, not five courses.",
+      "observed": "UseGlobalNeutralFactor may override the local value; Add takes a DesignModel; SaveAs changes document identity/name and must not be applied to a preserved original",
+      "local_metadata_check": "Included226 interop metadata contains matching related members; this is not COM call execution",
+      "not_verified": "Current226 method behavior, API coordinate units and complete Remarks beyond the visible fragment"
+    }
+  ],
+  "additional_local_official_reading": [
+    "SDK Readme:2026 SDK/SESDK.chm separate support download requires authentication; not downloaded/installed",
+    "Training/Sheet Metal Readme: copy sample before use, variables, flat update guidance; no sample model opened/modified"
+  ],
+  "cross_checks": [
+    "T_stack, single-sheet t, path-offset d, inside radius, bend angle, adhesion/compression and card loading are distinct",
+    "At assumed T=2mm pi*T=6.283185mm while1.5T..2T=3..4mm; no universal leather-safe conclusion",
+    "At T=2mm the quoted width expression with seam offset3..4 gives97.6..99.6mm, not96..98mm",
+    "96..98mm occurs arithmetically at T=1.2mm; this does not establish an actual thickness",
+    "The54/85.6 dimensions are quoted inputs, not a new standards/tolerance verification",
+    "NF0.33..0.35 is a synthetic test parameter, not a verified leather constant",
+    "Concentric-arc difference theta*d is explanatory geometry, not a verified product cutting allowance"
+  ],
+  "runtime": {
+    "executable_version": "226.00.01.004",
+    "authenticode": "Valid Siemens signature",
+    "com_registration": "PRESENT",
+    "existing_com_object": "GetActiveObject unavailable; no live document object obtained",
+    "startup": "Existing installed executable launched after target window count0; license error prevented editing workspace",
+    "license": "VALID_LICENSE_NOT_AVAILABLE_AT_ATTEMPT; user direct configuration/check pending",
+    "license_account_server_security_changes": 0,
+    "native_document_mutations": 0,
+    "native_create_save_reopen_flatten": "NOT_RUN",
+    "neutral_export_import": "NOT_RUN",
+    "may_2d_receiver": "NOT_RUN",
+    "leather_physical_accuracy": "UNVERIFIED",
+    "shutdown": "License error acknowledged; target windows0. After a temporary windowless-process interval, final scoped PID metadata check confirmed owned PID absence. Exit code not collected. No force kill/restart."
+  },
+  "synthetic_guide": {
+    "two_dimensional": "100x60mm rectangle; center50,30mm circle radius5mm; future DFT save/reopen and neutral exchange",
+    "bend": {"angle_deg":90,"inside_radius_mm":2,"sheet_thickness_mm":1,"width_mm":20,"straight_tangent_lengths_mm":[40,30],"NF":[0.33,0.35,0.5]},
+    "expected_flat_lengths_mm": [73.659955441,73.691371368,73.926990817],
+    "separate_180_degree_coupon": {
+      "status": "PREPARATION_ONLY_NOT_RUN",
+      "angle_deg": 180,
+      "inside_radius_mm": 2,
+      "sheet_thickness_mm": 1,
+      "width_mm": 20,
+      "straight_tangent_lengths_mm": [40,30],
+      "NF": [0.33,0.35,0.5],
+      "derived_formula": "70 + pi*(2+NF), self-derived synthetic check from the source angle-dependent equation",
+      "expected_flat_lengths_mm": [77.319910883,77.382742736,77.853981634],
+      "expected_K033_to_K035_difference_mm": 0.062831853,
+      "preconditions": "Verify actual180-degree rotation versus0-degree included-angle semantics, opposing-arm interference/contact and supported modeling command before creation; save separate candidates and preserve90-degree tests",
+      "not_a_leather_material_or_product_validation": true
+    },
+    "comparison_target_mm": 0.001,
+    "warning": "Preparation only. Comparison target is CAD arithmetic tolerance, not leather manufacturing tolerance."
+  },
+  "rights_and_privacy": "Self-authored explanation and links only. No source PDF, screenshot, full source text, personal path, credential, server address, proprietary wallet geometry or user product data is published.",
+  "overall": "Limited official-source learning and synthetic preparation completed; installed presence confirmed; usable licensing and all native/manufacturing outcomes not passed."
+}

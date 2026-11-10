@@ -98,8 +98,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 24559,
-      "sha256": "b59d33127cc4fe1f82b9f912096609f71955c348363616a67e725d47bbd1fd6d"
+      "bytes": 24871,
+      "sha256": "06f2d31581a3fce0513f8d9f773a14ac5259a1fbc89e4cbf7807dd75706c18a6"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -623,8 +623,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 30246,
-      "sha256": "c19c667f0a0b0ea9f8ffd532810b59caae0fda48ccc7a5c32edaf4deb6c5caf3"
+      "bytes": 31215,
+      "sha256": "4f218ac5ef58376e8088490153e907ab01c53993158f05eefc9c75dce1f5f536"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1205,6 +1205,16 @@
       "path": "reports/ToolInventory/20261110_REALITYSCAN_OFFICIAL_SAMPLE_ALIGNMENT.json",
       "bytes": 4447,
       "sha256": "d898f91e132d3fe1c1edce2f79290d2e771c964047ad0c23bba47e1a494ec435"
+    },
+    {
+      "path": "docs/SOLID_EDGE_SHEET_METAL_VERIFICATION.md",
+      "bytes": 10308,
+      "sha256": "1571e38c32a6b258a8c478c9b08677bdaaf03c9f7c7b452c6243368b48657589"
+    },
+    {
+      "path": "reports/ExternalLearning/20261110_SOLID_EDGE_SHEET_METAL_STUDY.json",
+      "bytes": 7636,
+      "sha256": "9bdb430b07b6c2980a23080a97ad536d810cef6df710360466fa9959bee2c919"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
