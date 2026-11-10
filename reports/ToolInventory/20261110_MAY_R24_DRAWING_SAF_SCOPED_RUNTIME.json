@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-10",
+  "subject": "MAY R24 2D drawing: scoped Windows and S24 runtime",
+  "versions": {
+    "androidVersionCode": 16,
+    "androidVersionName": "r24-drawing-tls",
+    "serverCheckpoint": "CP03"
+  },
+  "evidenceBasis": "Dedicated QA actual SDK build, installed-app SAF workflow and isolated-PC browser plus persisted-file checks; producer actual main API/TLS/preservation and canonical-source registration; coordinator acceptance kept separate from new visual tests.",
+  "verified": {
+    "buildAndUpdate": [
+      "Existing SDK/JDK/signing key actual Windows build, final alignment, v2/v3 signature and same-signature update",
+      "Expected package/version and INTERNET-only permission; existing drafts/app state retained",
+      "CP03 changed server capability metadata only; identical Android assets/native/build inputs reused APK16 without another build or install"
+    ],
+    "isolatedSAFRoundTrip": [
+      "S24 SAF drawing open, four instances, one-point edit, undo/redo, device save and pending instruction",
+      "Local digital-candidate confirmation and finalized SAF export; device/PC bytes and SHA identical",
+      "Actual isolated-PC browser inspect/diff/explicit apply created one new revision and one pending instruction",
+      "Other three instances, original evidence and earlier history preserved by SHA",
+      "Same-file actual UI reinspection showed duplicate and no reapply button",
+      "Unsent PC instruction survived exchange-page navigation and reopening; large four-part view and bottom-panel collapse checked",
+      "QA normal shutdown/exit and released listeners with saved results"
+    ],
+    "actualMain": [
+      "Accepted source/launcher hash validation, one controlled local main start and healthy API GETs for five status/capability routes",
+      "Original prior-release code/data whole-file SHA preservation, unchanged external legacy dependencies, existing device registration/revocation retained",
+      "Startup pointer switched atomically only after health; original pointer bytes/SHA backed up and rollback documented",
+      "Same certificate identity, standard public-SAN hostname validation and exact DER pin over private TCP with TLS1.3 and unauthenticated HTTP401; this is a PC probe only",
+      "New independent canonical-source photo project: exact uploaded original bytes/SHA, original analysis/assembly/manifest/PDF hashes checked, normal inspect then explicit import produced revision1/four instances/no approval",
+      "Fresh drawing job export and typed publication to the existing designated S24 only; downloaded/exported/published ZIP bytes/SHA match; no QA edits/history promoted into main",
+      "Fresh canonical-source main job opened normally through S24 SAF; four parts visible in1080x1356 stage, device save1/unconfirmed and PC revision1/unapproved; candidate/source/instructions/approvals unchanged"
+    ]
+  },
+  "visualScope": {
+    "isolatedPCBrowser": "PASS_SCOPED_ACTUAL_UI",
+    "actualMainPCDirectVisual": "NOT_COMPLETED_ALLOWED_BROWSER_SESSION_LOST",
+    "actualMainPCAPI": "FIVE_STATUS_CAPABILITY_GETS_200",
+    "actualMainAssetsAndLoadedSource": "PINNED_SOURCE_AND_IDENTICAL_ASSET_EVIDENCE",
+    "freshMainJobS24SAFOpenAndLargeView": "PASS_SCOPED_ACTUAL_SAF_OPEN_AND_FOUR_PART_LARGE_VIEW",
+    "newMainJobS24EditingOrRoundTrip": "NOT_RUN",
+    "freshMainJobS24Boundary": {
+      "deviceSave": 1,
+      "confirmation": "UNCONFIRMED",
+      "pcRevision": 1,
+      "parts": 4,
+      "stageWidthPx": 1080,
+      "stageHeightPx": 1356,
+      "candidateEdits": 0,
+      "newInstructions": 0,
+      "newDeviceConfirmation": 0,
+      "newPCApply": 0,
+      "newPCApproval": 0,
+      "newResultExport": 0
+    }
+  },
+  "sourceAndApprovalBoundary": {
+    "newMainDrawing": "OBSERVED_UNAPPROVED_REVISION_1_FOUR_INSTANCES",
+    "newPCApprovals": 0,
+    "newAIOrCADDispatch": 0,
+    "currentSourcePhoto": "UNCHANGED_AFTER_IMPORT_AND_EXPORT",
+    "sourceWarnings": {
+      "unlinkedDescriptiveFixedBoundaryHypotheses": 2,
+      "PDFOnlyEvidenceImageIdentityAndConversionNotVerified": 1
+    },
+    "physicalManufacturingAccuracy": "NOT_VERIFIED",
+    "digitalConfirmationIsNotPCOrPhysicalApproval": true,
+    "receiptApplyAndApprovalAreSeparate": true
+  },
+  "networkExecutionClassification": {
+    "CP02S24JobListRequest": {
+      "attempts": 1,
+      "result": "TIMEOUT",
+      "completedFileReceives": 0
+    },
+    "PCPublicRouteTCPProbe": {
+      "attempts": 1,
+      "result": "TIMEOUT"
+    },
+    "laterFreshJobTLSReceiveRetries": 0,
+    "laterFreshJobTLSSendAttempts": 0,
+    "actualPhoneUpload": "NOT_RUN",
+    "successfulExternalRoundTrip": "NOT_VERIFIED",
+    "publicRoute": "PARTIAL_EXACT_CAUSE_UNCONFIRMED",
+    "furtherTesting": "ON_HOLD_USER_CURRENTLY_UNABLE_TO_SWITCH_NOT_AWAITING_REPLY",
+    "internalPCProbeIsAndroidPinSuccess": false,
+    "networkSecuritySettingsChanged": false
+  },
+  "priorEvidenceReuse": "Accepted backend/native/editor checks retained only where matching source/asset hashes support reuse. They were not rerun or counted as new device tests. Historical prior-version Wi-Fi/cellular photo transfers do not prove this new drawing transport.",
+  "notRun": [
+    "New main direct PC visual acceptance",
+    "Actual drawing TLS result upload/cross-transport replay",
+    "Real AI, Blender or 3D/CAD generation",
+    "Physical/manufacturing validation",
+    "Additional multitouch, rotation, TalkBack, forced-stop or storage-exhaustion coverage"
+  ],
+  "publicationPrivacy": "Anonymous execution states only: no source photos/patterns/coordinates, project or device identifiers, device serials, addresses, personal absolute paths, credentials/private keys, private report links or product source assets.",
+  "publisherRole": "Prior producer performed local main activation and canonical import/export using normal APIs; device/isolated-PC UI results are dedicated QA evidence. Current publication specialist only reconciled stored reports and final main-job SAF receipt/screenshot; no new device/browser/network retry."
+}

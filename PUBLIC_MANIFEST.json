@@ -623,8 +623,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 31215,
-      "sha256": "4f218ac5ef58376e8088490153e907ab01c53993158f05eefc9c75dce1f5f536"
+      "bytes": 33933,
+      "sha256": "5060346a62c1251592fbd6042a5d3d59843a9f50969079438cf9fdc3b569848f"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1215,6 +1215,11 @@
       "path": "reports/ExternalLearning/20261110_SOLID_EDGE_SHEET_METAL_STUDY.json",
       "bytes": 7636,
       "sha256": "9bdb430b07b6c2980a23080a97ad536d810cef6df710360466fa9959bee2c919"
+    },
+    {
+      "path": "reports/ToolInventory/20261110_MAY_R24_DRAWING_SAF_SCOPED_RUNTIME.json",
+      "bytes": 6041,
+      "sha256": "5d8cd170dfb67247992b54b7b3b600661698af32cc0c939dcc14d6152783a0be"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
