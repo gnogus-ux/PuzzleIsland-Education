@@ -538,8 +538,8 @@
     },
     {
       "path": "docs/PHOTO3D_CAPTURE_RECONSTRUCTION.md",
-      "bytes": 11783,
-      "sha256": "c9ec34f689b3b905e754ea2f47b1ad0f62a87ebfa0490e9654e604d857bcc4a3"
+      "bytes": 16464,
+      "sha256": "613ac05e5acc95fb04df5d380d6fac1114aef8546b038224549740ed6371e7d7"
     },
     {
       "path": "docs/PHOTO3D_COURSE_ANALYSIS.md",
@@ -623,8 +623,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 28952,
-      "sha256": "51162e452326eb2fc1ae69124f554218c382b4ad565b4e32057ad3817c8b8fc5"
+      "bytes": 29414,
+      "sha256": "50bb35faa1d1639e863bbab8dd6095423e866a137e6c4d1fe0380e20f345d3b7"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1195,6 +1195,11 @@
       "path": "reports/ToolInventory/20261110_ANDROID_BATCH50_PHOTO_UPLOAD_SCOPED_RUNTIME.json",
       "bytes": 3851,
       "sha256": "9a4ddb2f9cbc0f797f9376f45e83273c9811a4070e8542420087cbac04b22c25"
+    },
+    {
+      "path": "reports/ToolInventory/20261110_REALITYSCAN_ALIGNMENT_STUDY_RUNTIME.json",
+      "bytes": 4757,
+      "sha256": "282e528ab0718d0552c029ca8380ccad92941ec4288cccec606ecb907179e894"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

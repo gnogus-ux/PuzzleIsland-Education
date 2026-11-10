@@ -1,5 +1,21 @@
 # 1부. 사진 촬영과 3D 표면 복원
 
+## RealityScan 2.2 CLI로 정렬만 시험할 때
+
+2026-11-10 공식 문서 보강. 대상 실행 파일은 2.2.0.119430이며 문서 열람과 아래 제한 실기 결과는 구분한다. 입력은 같은 실물·같은 자세 후보만 고르고 원본 바이트와 SHA256이 같은 사본으로 준비한다. 색상이 다른 제품, 펼침·닫힘, 손으로 잡아 변형된 사진을 하나의 강체로 강제 정렬하지 않는다. 동일 실물 여부가 불명확하면 시험 가정으로 기록한다.
+
+1. 사용자 인스턴스와 미저장 작업을 먼저 확인한다. 기존 인스턴스에 명령을 위임하거나 새 장면으로 교체하지 않고, 충돌이 없을 때만 별도 새 실행에서 시험한다.
+2. 공식 `-headless`로 시작하고 `-stdConsole`의 표준 출력을 분석 폴더 로그로 받는다. `-disableOnlineCommunication`으로 온라인 통신을 끄는 방법도 공식 설정 명령에 있다. 열람한 본문에는 프로세스 종료 후 지속 여부가 명시되지 않아 이 명령을 프로세스 한정이라고 단정하지 않는다. 실행 전후 설정 근거가 없으면 사용자 설정 불변·복원 완료를 주장하거나 임의 복원하지 않는다. 이 명령으로 유효한 계정·라이선스나 인증이 생기지는 않는다. 로그인·연령·보안 승인이 필요하면 사용자가 직접 처리한다.
+3. `-addFolder`로 사본 폴더를 입력하고 `-exportGlobalSettings`로 실제 설정을 기록한 뒤 `-align`한다. 기본값 표를 실제 적용값으로 간주하지 않는다. 이번 분석을 위해 `reset`, 전역 환경변수 변경, 캐시 위치 변경을 하지 않는다. 설정 변경이 필요하면 기존 값을 보존하고 해당 범위를 따로 검토한다.
+4. `-save`로 새 `.rsproj`에 저장한다. `-exportReport output.html template.html`은 설치 폴더 `Reports`의 공식 `Overview.html` 템플릿으로 입력 수·컴포넌트 수·등록 카메라·재투영오차를 남길 수 있다. 결과가 없을 때도 파일 생성과 종료 상태를 확인한다.
+5. `-setMinComponentSize`와 `-exportLatestComponents`로 작은 분리 묶음도 보존한다. `-exportXMP`는 이미지 옆에 카메라 메타데이터를 쓰므로 반드시 사본을 입력해야 한다. 최신 명령 표와 일부 옛 예시의 `exportComponent`/`minComponentSize` 표기가 다르므로 최신 표를 기준으로 한다. 다만 실제 2.2.0.119430은 `setMinComponentSize`를 실행하면서 deprecated 경고를 출력했다. 문서와 설치 버전의 이 차이를 기록하고 다음 버전에서는 대체 명령을 다시 확인한다. `-quit` 뒤 실제 프로세스 종료·반환 코드·내보내기·원본 SHA를 각각 검증한다. 프로세스 종료를 봤어도 반환 코드를 보존하지 못했으면 종료 코드 미확인으로 남긴다.
+
+정렬 시험에는 메시·텍스처 생성 명령을 넣지 않는다. 정렬 성공은 정확한 두께·재질·포켓 내부·실측 크기나 편집 가능한 모델 완성을 의미하지 않는다. EXIF 렌즈·원본 해상도·겹침·고정 자세가 부족하면 카메라 보정과 연결이 불안정할 수 있다. 서로 분리된 컴포넌트의 오차가 작아도 지갑 전체가 연결됐다고 판정하지 않는다.
+
+헤드리스도 팝업·오류·사용자 상호작용 때 창이 나타날 수 있다. `silent`는 경고 및 업로드 마법사 동작에 영향을 주며, 직접 인증을 대신하지 않는다. `appQuitOnError` 등 `set` 키는 앱 설정을 바꾸므로 무조건 추가하지 않는다. 연결 끊김은 실행 종료의 증거가 아니며 상태가 불명확하면 UNKNOWN으로 기록한다. 같은 오류는 합리적 최대2회까지만 확인하고 중복 실행·강제 종료·재시작으로 우회하지 않는다.
+
+서로 다른 공식 본문에서 프로젝트 입력·정렬·오류 처리·헤드리스·설정/키·보고 명령을 직접 대조했다. 전체 강좌나 모든 기능의 실행 검증은 아니다. [프로젝트/입력 CLI](https://rshelp.capturingreality.com/en-US/tutorials/commandline.htm), [정렬 CLI](https://rshelp.capturingreality.com/en-US/tutorials/commandline_1.htm), [오류 처리](https://rshelp.capturingreality.com/en-US/tutorials/commandline_5.htm), [헤드리스](https://rshelp.capturingreality.com/en-US/tutorials/headless.htm), [설정 명령](https://rshelp.capturingreality.com/en-US/tutorials/commandline_4.htm), [설정 키](https://rshelp.capturingreality.com/en-US/tutorials/setkeyvaluetable.htm), [전체 명령 표](https://rshelp.capturingreality.com/en-US/appbasics/allcommands.htm).
+
 사진 기반 지갑 3D 복원 매뉴얼 · 2026년 11월 1일
 
 ## 먼저 선택할 작업 방식
