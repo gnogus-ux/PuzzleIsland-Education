@@ -44,6 +44,7 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 | 주제 | 매뉴얼 |
 |---|---|
+| SOLIDWORKS 기존 세션 읽기 API | [ROT·동봉 PIA·typed getter와 초기 실패 구분](docs/SOLIDWORKS_READONLY_API_VERIFICATION.md) · [제한 실기·미검증 범위](reports/ToolInventory/20261111_SOLIDWORKS_READONLY_API_SCOPED_RUNTIME.json) |
 | Solid Edge 도면·판금 전개 검증 준비 | [두께·중립계수·가죽식 구분과 격리 쿠폰](docs/SOLID_EDGE_SHEET_METAL_VERIFICATION.md) · [공식3자료 제한 학습·설치 확인·라이선스 차단·native 미실행](reports/ExternalLearning/20261110_SOLID_EDGE_SHEET_METAL_STUDY.json) |
 | Android 사진 선택·직접 서버 업로드 | [SAF URI·제품별 폴더·제한 TLS·이미지 검증·원본 보존](docs/ANDROID_DIRECT_PHOTO_UPLOAD.md) · [공식6자료 학습·작성자 실기미실행](reports/ExternalLearning/20261109_ANDROID_DIRECT_PHOTO_UPLOAD_STUDY.json) · [검수 담당의 실제 폰 PNG/JPEG·Wi-Fi 범위](reports/ToolInventory/20261110_ANDROID_DIRECT_PHOTO_UPLOAD_SCOPED_RUNTIME.json) |
 | 모바일 탭·현재 작업·다음 행동 | [기능 공간·얇은 안내·숨은 캔버스 보존](docs/MOBILE_TABS_TASK_GUIDANCE.md) · [핵심 공식5자료 선택 학습](reports/ExternalLearning/20261109_MOBILE_TABS_TASK_GUIDANCE_STUDY.json) |

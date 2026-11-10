@@ -1,0 +1,52 @@
+{
+  "recorded_date": "2026-11-11",
+  "scope": "Existing user-opened SOLIDWORKS session and two read-only typed COM getters",
+  "manual": "docs/SOLIDWORKS_READONLY_API_VERIFICATION.md",
+  "runtime": {
+    "edition": "SOLIDWORKS Design Premium 2026 SP4.1",
+    "executable_and_bundled_pia_version": "34.4.1.1011",
+    "signature": "DASSAULT SYSTEMES SE; Valid",
+    "client": "Windows PowerShell5.1 / .NET Framework;64-bit STA",
+    "connection": "Marshal.GetActiveObject with SldWorks.Application; existing single session only",
+    "interface": "Bundled SolidWorks.Interop.sldworks ISldWorks, referenced by C# typed calls",
+    "status": "PASS_TYPED_READONLY_COM",
+    "attached": true,
+    "revision_number": "34.4.1",
+    "open_document_count": 0,
+    "client_exit_code": 0,
+    "application_left_open": true
+  },
+  "earlier_observations": {
+    "automatic_start": "Initial tool did not obtain target window; direct launch subsequently ended after splash. Cause and exit code unconfirmed; automatic-start stability not established",
+    "no_running_session": "GetActiveObject failed0x800401E3; getters not run",
+    "late_binding_with_running_session": "ROT attach succeeded; first RevisionNumber getter failed0x8002802B",
+    "typed_followup": "Same existing session answered both getters using bundled PIA; no registry repair or license-damage diagnosis inferred"
+  },
+  "preservation": {
+    "com_server_activations": 0,
+    "document_mutations": 0,
+    "document_open_save_close_calls": 0,
+    "registry_or_global_setting_writes": 0,
+    "license_changes": 0,
+    "new_package_or_sdk_installs": 0,
+    "temporary_compile_location": "Probe process only; no system/user global TEMP change"
+  },
+  "official_sources": [
+    {"title": "Connect to SOLIDWORKS Session, C# /2026", "url": "https://help.solidworks.com/2026/English/api/sldworksapi/Connect_to_SOLIDWORKS_Session_CSharp.htm", "scope": "STA and ISldWorks connection example; new-server/modeling operations excluded"},
+    {"title": "RevisionNumber /ISldWorks /2026", "url": "https://help.solidworks.com/2026/English/api/sldworksapi/SolidWorks.Interop.sldworks~SolidWorks.Interop.sldworks.ISldWorks~RevisionNumber.html", "scope": "Definition, return and version remarks"},
+    {"title": "GetDocumentCount /ISldWorks /2026", "url": "https://help.solidworks.com/2026/English/api/sldworksapi/SOLIDWORKS.Interop.sldworks~SOLIDWORKS.Interop.sldworks.ISldWorks~GetDocumentCount.html", "scope": "Definition, integer return, open-document meaning and availability"},
+    {"title": "Marshal.GetActiveObject /.NET Framework4.8.1", "url": "https://learn.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.marshal.getactiveobject?view=netframework-4.8.1", "scope": "ROT lookup, ProgID and unavailable-object exception"}
+  ],
+  "roles": {
+    "prior_verification": "API verification author read the four official sources, observed application state and performed the recorded getter calls",
+    "publication": "Documentation specialist read stored results and manual, reconciled scope and published; no new app/API/browser/device/network execution or source study"
+  },
+  "limits": [
+    "Documentation service-pack context is2026 SP05; installed runtime was SP4.1",
+    "No model, drawing, save/reopen, neutral-format exchange or add-in function verified",
+    "No actual MAY feature integration or CAD-generation dispatch verified",
+    "No automatic-start stability or complete entitlement/license-function coverage established",
+    "Separate product network tests remain held; no additional Claude or device access"
+  ],
+  "publication": "Version and anonymous execution states only; no personal paths, process/window/device IDs, user filenames/images, serials, addresses, license keys, credentials, private links, source media or product source"
+}

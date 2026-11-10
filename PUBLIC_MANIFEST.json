@@ -98,8 +98,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 24871,
-      "sha256": "06f2d31581a3fce0513f8d9f773a14ac5259a1fbc89e4cbf7807dd75706c18a6"
+      "bytes": 25128,
+      "sha256": "8c70f65e29b2c52dca14223ddffed21d71e11b419d6a962de8076a5e3eb0677e"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -623,8 +623,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 33933,
-      "sha256": "5060346a62c1251592fbd6042a5d3d59843a9f50969079438cf9fdc3b569848f"
+      "bytes": 35006,
+      "sha256": "f5a51dc16e587a1aff6aea9fa48f5494becfc971905eecfde73ef0de3f82b97b"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1220,6 +1220,16 @@
       "path": "reports/ToolInventory/20261110_MAY_R24_DRAWING_SAF_SCOPED_RUNTIME.json",
       "bytes": 6041,
       "sha256": "5d8cd170dfb67247992b54b7b3b600661698af32cc0c939dcc14d6152783a0be"
+    },
+    {
+      "path": "docs/SOLIDWORKS_READONLY_API_VERIFICATION.md",
+      "bytes": 6025,
+      "sha256": "79726bf80ca09c08262f0a6f35760c09e1b2a5dc175f9f9b8e8eae0acdefe37e"
+    },
+    {
+      "path": "reports/ToolInventory/20261111_SOLIDWORKS_READONLY_API_SCOPED_RUNTIME.json",
+      "bytes": 3812,
+      "sha256": "3a963004656fa34b3c5a1a345b511f9ae47cc5b6d20eb9f80061a05d1d4a5b2f"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
