@@ -623,8 +623,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 35006,
-      "sha256": "f5a51dc16e587a1aff6aea9fa48f5494becfc971905eecfde73ef0de3f82b97b"
+      "bytes": 36657,
+      "sha256": "bad45113b60ab4c535cdd4075e7b118ac1445e7d1ce18a943cc772ae7a952b73"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1230,6 +1230,11 @@
       "path": "reports/ToolInventory/20261111_SOLIDWORKS_READONLY_API_SCOPED_RUNTIME.json",
       "bytes": 3812,
       "sha256": "3a963004656fa34b3c5a1a345b511f9ae47cc5b6d20eb9f80061a05d1d4a5b2f"
+    },
+    {
+      "path": "reports/ToolInventory/20261111_MAY_R25_PRECISION_UI_SCOPED_RUNTIME.json",
+      "bytes": 6339,
+      "sha256": "ba8944bc148263329c7589d816baa36c3d55ddc17f63c34ecc15240ac981f9a2"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

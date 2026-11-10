@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-11",
+  "subject": "MAY R25 CP03 precision editing, lower controls and scoped mobile/main acceptance",
+  "status": "PASS_SCOPED_CP03_DEPLOYED_APK18_S24_AND_MAIN_UI",
+  "roles": "Producer focused checks, independent code/seal review, rollout/build/phone evidence and coordinator actual browser acceptance remain separate. Publisher only read stored evidence and one final-main screenshot; no new app/API/browser/device/network actions",
+  "implementation": [
+    "Explicit point absolute/delta/nudge editing with unit/identity/finite-input gates and single-command undo/redo",
+    "Approximate readable dimensions and signed small changes; display rounding does not change retained coordinate precision",
+    "Save-failure feedback takes priority over success text while memory edits/history remain recoverable",
+    "Wide drawing workspace with lower edit/view controls; IME compact inputs, temporary display camera and visible sign toggle preserve stored geometry/camera/history until explicit apply"
+  ],
+  "review": {
+    "checkpoint": "CP03",
+    "frozen_source_files": 190,
+    "producer_focused_cases": {"keyboard": 21, "precision": 38, "persist_feedback": 29, "navigation": 25},
+    "independent_rerun": "Keyboard21/precision38/persist29 rerun in separate outputs; unchanged backend/native/navigation evidence reused only where source identity supports it",
+    "independently_designed_cases": 11,
+    "independent_sealed_stage_checks": 17,
+    "interpretation": "Synthetic/code and seal checks are not summed as independently designed cases or actual phone coverage",
+    "unresolved_p1_p2_in_reviewed_scope": 0
+  },
+  "failure_history": [
+    "CP01 native-save failure was overwritten by success feedback and mobile view controls obscured parts; corrected in CP02",
+    "CP02 code and browser checks passed, then actual S24 IME obscured input/apply and selected geometry. This P2 prompted CP03 and a new APK; earlier evidence is preserved, not retroactively called full-keyboard PASS"
+  ],
+  "build_and_phone": {
+    "final_version_code": 18,
+    "final_version_name": "r25-precision-ui2",
+    "actual_builds_cp03": 1,
+    "prior_cp02_builds": 1,
+    "build_boundary": "Two actual builds across successive checkpoints; existing SDK/JDK/key, final alignment/v2/v3, INTERNET-only permission and matching frozen assets",
+    "same_signature_update_and_prior_qa_save2_preserved": true,
+    "actual_ime": "Samsung numeric key taps and visible sign toggle produced negative delta without ADB text/clipboard injection. X/Y caret, fields and apply fully visible; selected geometry visible; four footer actions in one row",
+    "edit_and_persistence": "One physical apply tap, one undo and one redo; QA save3 and normal activity close/reopen passed",
+    "final_original": "Fresh original SAF reopen, baseline revision1/device save1/unconfirmed/PC not applied/four parts. Prior original redo history and QA save3 remain archived; prior history was not restored into the fresh current UI",
+    "actual_screen_measurement": {"stage_height_px": 1521, "screen_height_px": 2340, "ratio": 0.65},
+    "production_pc_drawing_edits": 0,
+    "phone_network_or_tls_calls": 0
+  },
+  "browser": {
+    "qa_clone": "Blank rejected unchanged; absolute and negative delta, dimension change, single undo/redo and final restoration observed",
+    "final_actual_main": "Read-only revision1/unapproved/four-part view; lower edit/view controls, one-row footer, no part obstruction or horizontal overflow",
+    "css_viewports": [{"width": 390, "height": 844, "stage_height_px": 638.8125, "ratio": 0.7568868483412322}, {"width": 360, "height": 780, "stage_height_px": 574.8125, "ratio": 0.7369391025641026}],
+    "measurement_boundary": "CSS viewport observations and physical-phone screen65percent have different conditions; no same-condition comparison to historical phone58percent inferred",
+    "production_edit_save_instruction_approval_calls": 0,
+    "task_space": "Finished normally once with no retained pages; no subsequent Page actions"
+  },
+  "main_deployment": {
+    "code_files": 194,
+    "composition": "Frozen source190 plus sealed launcher/support4",
+    "preservation": "Prior code187/data1298 and legacy4 preserved by before/after SHA, mtime and directory checks; prior data1298files/166697847bytes copied separately; credentials/certificate/key bytes unchanged",
+    "health": "Eight API/HTML responses200 and served drawing assets matched frozen input; original drawing revision1/four parts/approvals0/requests0 retained",
+    "normal_runtime_delta_files": 4,
+    "removed_files": 0,
+    "pointer": "Health snapshot was before pointer switch. Separate later receipt confirms atomic switch to healthy R25 with original pointer backup preserved",
+    "starts": 1,
+    "restarts": 0,
+    "current_ownership": "Main and guardian intentionally running for user; current-main normal shutdown not tested",
+    "qa_ownership": "QA stopped through normal stop-file shutdown, thread ended, exit0 and process/listener absent; source/runtime preserved",
+    "tls_boundary": "One internal private-TCP probe verified TLS1.3, public-SAN hostname, existing exact DER pin and anonymous401. This is not phone/external-route TLS success; no security/network setting changes"
+  },
+  "limits": [
+    "Rotation, large font, TalkBack, multitouch and full accessibility unverified in this run",
+    "Nonempty unsent-request durability on actual phone untested; synthetic/native/session checks do not replace it",
+    "Actual drawing TLS phone upload and external Wi-Fi/cellular/S22 remain unverified and on user hold; historical R24 timeout/failure remains separate",
+    "Physical/manufacturing accuracy, fixed-boundary locking and real AI/CAD generation not verified",
+    "Baseline sub-resolution whole/edge translation may create history/dirty despite unchanged rounded geometry",
+    "Historical prior-main exit code remains unknown; current normal QA shutdown does not resolve that history",
+    "No additional SOLIDWORKS functions, Claude access, new tool install or paid usage"
+  ],
+  "publication_privacy": "Anonymous scoped states only; no personal paths, addresses, process/device/project IDs, serials, source photos or measurements, asset/product-code hashes, credentials/certificate fingerprints, private links or raw source media"
+}
