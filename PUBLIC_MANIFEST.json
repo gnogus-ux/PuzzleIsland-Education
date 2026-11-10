@@ -623,8 +623,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 29414,
-      "sha256": "50bb35faa1d1639e863bbab8dd6095423e866a137e6c4d1fe0380e20f345d3b7"
+      "bytes": 30246,
+      "sha256": "c19c667f0a0b0ea9f8ffd532810b59caae0fda48ccc7a5c32edaf4deb6c5caf3"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1200,6 +1200,11 @@
       "path": "reports/ToolInventory/20261110_REALITYSCAN_ALIGNMENT_STUDY_RUNTIME.json",
       "bytes": 4757,
       "sha256": "282e528ab0718d0552c029ca8380ccad92941ec4288cccec606ecb907179e894"
+    },
+    {
+      "path": "reports/ToolInventory/20261110_REALITYSCAN_OFFICIAL_SAMPLE_ALIGNMENT.json",
+      "bytes": 4447,
+      "sha256": "d898f91e132d3fe1c1edce2f79290d2e771c964047ad0c23bba47e1a494ec435"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

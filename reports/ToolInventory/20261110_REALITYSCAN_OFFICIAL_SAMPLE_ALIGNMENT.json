@@ -1,0 +1,72 @@
+{
+  "recorded_date": "2026-11-10",
+  "author_role": "Codex tool-inventory documentation specialist",
+  "scope": "Sanitized summary of previously completed official-sample runtime and accepted evidence; publisher performed no new application execution or study",
+  "runtime_version": "2.2.0.119430",
+  "manual": "docs/PHOTO3D_CAPTURE_RECONSTRUCTION.md#realityscan-22-cli로-정렬만-시험할-때",
+  "dataset": {
+    "name": "Small relief",
+    "official_source": "https://dev.epicgames.com/community/learning/sample-projects/j20e/realityscan-sample-datasets#smallrelief",
+    "download_url": "https://downloads.realityscan.com/SmallPlastic.zip",
+    "archive_bytes": 27687524,
+    "received_archive_sha256": "8789e7854e2afb693cf4f32ff540390c6901926d15e2ae03bec20e9a0c4f9995",
+    "checksum_scope": "Locally computed received-file hash; no provider-published checksum was confirmed",
+    "archive_contents": "14 JPEG images only, each 2816x2112; no pre-aligned XMP or project",
+    "camera_metadata": "Canon DIGITAL IXUS 85 IS EXIF and focal-length information preserved",
+    "rights_boundary": "Official sample used locally; no archive license file found and no redistribution or commercial-reuse rights inferred. Sample files are not republished"
+  },
+  "test": {
+    "status": "PASS_OFFICIAL_SAMPLE_IMAGE_ONLY_ALIGNMENT",
+    "execution": "Separate new headless process and project; copied images only",
+    "input_images": 14,
+    "registered_cameras": 14,
+    "components": 1,
+    "sparse_tie_points": 65386,
+    "total_projections": 239131,
+    "reprojection_error_px": {"mean": 0.53, "median": 0.41, "max": 2.0, "official_report_decimal_places": 2},
+    "models": 0,
+    "metric": false,
+    "georeferenced": false,
+    "project_saved": true,
+    "official_overview_and_selected_component_reports_saved": true,
+    "xmp_exports": 14,
+    "native_component_exports": 1,
+    "native_component_bytes": 37976391,
+    "xmp_numeric_checks": "All input names matched; finite unique camera positions, orthonormal rotations and determinant +1 within 1e-6, finite lens/distortion values and positive focal/aspect values",
+    "project_reference_check": "20 referenced files exist; hashes recorded privately",
+    "preservation_check": "Source archive,14 original images and copied image bytes preserved; no XMP written beside originals",
+    "process_handle_retained": true,
+    "quit_logged": true,
+    "process_ended_confirmed": true,
+    "exit_code": 0,
+    "numeric_setting_override_commands_added": 0,
+    "communication_setting_commands_added": 0,
+    "cache_setting_commands_added": 0,
+    "effective_cache_folder": "NOT_INDEPENDENTLY_CONFIRMED",
+    "ownership": "RELEASED"
+  },
+  "evidence_review": {
+    "runtime_specialist": "Executed sample and verified saved reports, exports, references and preservation",
+    "coordinator_acceptance": "Accepted report counts/errors, exit/quit evidence, archive hash and export/preservation checks; detailed export numeric checks remain runtime-specialist verification",
+    "publisher": "Read saved result, completion, official HTML, console log, export/reference/preservation and acceptance records; no new native-app execution, installation, setting change or educational-source study"
+  },
+  "prior_history": {
+    "record": "reports/ToolInventory/20261110_REALITYSCAN_ALIGNMENT_STUDY_RUNTIME.json",
+    "six_image_result": "0/6 registered cameras,0 components,0 models; preserved as a separate failed alignment",
+    "prior_exit_code": "NOT_COLLECTED; later exit0 does not establish the earlier exit code",
+    "prior_online_disable_command_persistence": "UNCONFIRMED; later successful alignment does not establish restoration or lifetime of the earlier command"
+  },
+  "limits": [
+    "No mesh or texture generated and no physical metric-scale accuracy verified",
+    "Camera-path and point-cloud physical correctness not independently established beyond the stated export/component checks",
+    "Official-sample success does not prove the cause of the earlier six-image failure or successful wallet reconstruction",
+    "No product code, private photos, live service, device or production application changed by this publication"
+  ],
+  "publication": {
+    "sample_binaries_or_source_media": false,
+    "private_product_identifiers_or_artifact_hashes": false,
+    "local_absolute_paths": false,
+    "credentials_or_account_data": false,
+    "full_source_text_or_report_template": false
+  }
+}
