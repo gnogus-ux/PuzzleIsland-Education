@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-11",
+  "scope": "one closed planar polyline, one blind boss, native part save and read-only reopen",
+  "status": "PASS_NATIVE_ROUND_TRIP",
+  "environment": {
+    "application": "SOLIDWORKS Design Premium 2026 SP4.1",
+    "apiRevision": "34.4.1",
+    "bundledPiaVersion": "34.4.1.1011",
+    "client": "Windows PowerShell 5.1, 64-bit STA, typed C# COM via ROT",
+    "referenceEdition": "SOLIDWORKS API Help 2026 SP05"
+  },
+  "documentation": {
+    "reviewedOfficialSections": [
+      "ISketchManager.CreateLine, InsertSketch and AddToDB",
+      "IRefPlane.Transform and ISketch.ModelToSketchTransform",
+      "IFeatureManager.FeatureExtrusion3 and IExtrudeFeatureData2.GetDepth",
+      "ISldWorks.NewDocument, CloseDoc, QuitDoc and OpenDoc6",
+      "IModelDocExtension.SaveAs3",
+      "IPartDoc.GetBodies2 and IBody2.GetExtremePoint and GetMassProperties",
+      "ISketch.GetSketchSegments and IModelDoc2.GetUnits and SaveBMP"
+    ],
+    "implementationCorrection": "The installed PIA declares the save and open diagnostic arguments as input/output. The C# calls use ref with initial values."
+  },
+  "run": {
+    "existingInteractiveSessionOnly": true,
+    "existingOpenDocumentsBefore": 0,
+    "existingOpenDocumentsAfter": 0,
+    "partTemplateDigestUnchanged": true,
+    "nativeFileSaved": true,
+    "saveErrorMask": 0,
+    "saveWarningMask": 0,
+    "testDocumentClosedAfterSave": true,
+    "diskReopenReadOnly": true,
+    "openErrorMask": 0,
+    "openWarningMask": 0,
+    "nativeFileDigestUnchangedAfterReopen": true,
+    "testDocumentClosedAfterReopen": true,
+    "existingSessionPreserved": true,
+    "comReferenceReleased": true
+  },
+  "geometry": {
+    "beforeSaveAndAfterReopen": {
+      "solidCount": 1,
+      "surfaceBodyCount": 0,
+      "closedContourCount": 1,
+      "lengthUnit": "mm",
+      "allSketchSegmentEndpointsMatchInput": true,
+      "sixAxisAlignedExactExtremaMatchInput": true,
+      "blindBossFeatureDepthMatchesTestInput": true,
+      "bodyVolumeMatchesInputAreaTimesDepthWithinDigitalCheckTolerance": true
+    },
+    "modelViewCapture": {
+      "api": "IModelDoc2.SaveBMP",
+      "capturedAndVisuallyOpened": ["front", "isometric"],
+      "fromReopenedModel": true
+    }
+  },
+  "isolatedPcReview": {
+    "status": "PASS_SCOPED_BROWSER_REVIEW",
+    "reopenedModelPreviewDisplayed": true,
+    "downloadedNativeFileDigestMatchesSavedFile": true,
+    "cadVerificationReportDownloaded": true,
+    "reviewRequestDraftsSavedAndExported": 1,
+    "requestReferencesDrawingRevisionOutlineAndCadFileDigest": true,
+    "requestProcessed": false,
+    "requestDelivered": false,
+    "automaticCadGenerationOrApplicationRan": false,
+    "productionServiceOrPhoneUsedInThisReview": false
+  },
+  "unverified": [
+    "Coexistence with open user documents and the QuitDoc branch",
+    "Other SOLIDWORKS versions and service packs",
+    "Non-polyline or multiple-part geometry",
+    "Physical dimensions, materials and manufacturing suitability"
+  ]
+}

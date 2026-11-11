@@ -98,8 +98,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 25128,
-      "sha256": "8c70f65e29b2c52dca14223ddffed21d71e11b419d6a962de8076a5e3eb0677e"
+      "bytes": 25388,
+      "sha256": "95537cfad46714e015bd0ad7faca8226fcc386d6c9631e3e344216bb3dc73472"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -623,8 +623,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 36657,
-      "sha256": "bad45113b60ab4c535cdd4075e7b118ac1445e7d1ce18a943cc772ae7a952b73"
+      "bytes": 37554,
+      "sha256": "656a7a789bff3e7fd7a36db38ca6dd460bf8720eb76a3479bd7db359b0fb802d"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1235,6 +1235,16 @@
       "path": "reports/ToolInventory/20261111_MAY_R25_PRECISION_UI_SCOPED_RUNTIME.json",
       "bytes": 6339,
       "sha256": "ba8944bc148263329c7589d816baa36c3d55ddc17f63c34ecc15240ac981f9a2"
+    },
+    {
+      "path": "docs/SOLIDWORKS_PROFILE_PILOT_MANUAL_KO.md",
+      "bytes": 9958,
+      "sha256": "01167de41287a6be9735d1029ccd89080780975f840d3e22fd4e744c6b060fa7"
+    },
+    {
+      "path": "reports/ToolInventory/20261111_SOLIDWORKS_PROFILE_PILOT_SCOPED_RUNTIME.json",
+      "bytes": 3000,
+      "sha256": "130c0772e5e6f2e120cdf3db9bc1c7e28150a035e62d1a8408deae67fba74737"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
