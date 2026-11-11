@@ -98,8 +98,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 25388,
-      "sha256": "95537cfad46714e015bd0ad7faca8226fcc386d6c9631e3e344216bb3dc73472"
+      "bytes": 25656,
+      "sha256": "50beff39744abb584eb802a62b00b3989d7a2b43f01f68a1001b1e2392dbbc8e"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -623,8 +623,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 37554,
-      "sha256": "656a7a789bff3e7fd7a36db38ca6dd460bf8720eb76a3479bd7db359b0fb802d"
+      "bytes": 38436,
+      "sha256": "9c00b3b5775f3e689e1bb713c6dab10aaf44adf54cfbba7b67d32120303c1bf6"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -1245,6 +1245,16 @@
       "path": "reports/ToolInventory/20261111_SOLIDWORKS_PROFILE_PILOT_SCOPED_RUNTIME.json",
       "bytes": 3000,
       "sha256": "130c0772e5e6f2e120cdf3db9bc1c7e28150a035e62d1a8408deae67fba74737"
+    },
+    {
+      "path": "docs/SOLIDWORKS_REOPENED_MESH_REVIEW_KO.md",
+      "bytes": 9947,
+      "sha256": "0721c018158413cd27ab1b28bebca3f3140e785566b16efc61eb7e8cb34b8115"
+    },
+    {
+      "path": "reports/ToolInventory/20261111_SOLIDWORKS_REOPENED_MESH_SCOPED_RUNTIME.json",
+      "bytes": 4379,
+      "sha256": "d12f150d2c9b62a13df57d0a60ce17e150cc497609e10675f1e9bce9b1ebd50c"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

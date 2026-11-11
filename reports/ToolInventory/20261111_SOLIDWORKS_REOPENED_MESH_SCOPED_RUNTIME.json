@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-11",
+  "scope": "single closed planar profile, native part save and read-only reopen, native body tessellation and persisted mesh validation",
+  "status": "PASS_SCOPED_NATIVE_REOPENED_MESH",
+  "environment": {
+    "application": "SOLIDWORKS Design Premium 2026 SP4.1",
+    "apiRevision": "34.4.1",
+    "bundledPiaVersion": "34.4.1.1011",
+    "client": "Windows PowerShell 5.1, 64-bit STA, typed C# COM via ROT",
+    "referenceEdition": "Installed SOLIDWORKS API Help 2026"
+  },
+  "documentation": {
+    "cadReader": "CAD specialist",
+    "cadSources": [
+      "Dassault Systèmes Tessellate a Body C# example, solid body and topology match",
+      "IBody2.GetTessellation and ITessellation, face map, facet, fin and vertex APIs",
+      "IFace2.Normal, FaceInSurfaceSense, GetArea and GetTessTriangles definitions and remarks",
+      "ISldWorks.OpenDoc6, IModelDoc2.IsOpenedReadOnly, QuitDoc and ActivateDoc3 definitions and remarks"
+    ],
+    "viewerReader": "UI specialist",
+    "viewerSources": [
+      "Khronos WebGL 2.0 specification, context, vertex array and buffer binding",
+      "Khronos OpenGL ES 3 reference, glDrawElements, glEnable and dFdx/dFdy",
+      "MDN WebGL best practices, lifetime, blocking calls and device pixel ratio"
+    ],
+    "unreadViewerSource": "GLSL ES PDF body"
+  },
+  "nativeRoundTrip": {
+    "usedExistingInteractiveSession": true,
+    "coexistedWithExistingOpenDocument": true,
+    "savedNativePart": true,
+    "saveErrorMask": 0,
+    "saveWarningMask": 0,
+    "closedOwnedDocumentAfterSave": true,
+    "reopenedDiskFileReadOnly": true,
+    "reopenedSameConfiguration": true,
+    "openErrorMask": 0,
+    "openWarningMask": 0,
+    "exactExtremaAndSketchEndpointsMatchInput": true,
+    "reopenedBodyTessellatedWithNativeApi": true,
+    "windingCheckedAgainstCadFaceNormals": true,
+    "persistedMeshIsFiniteWithValidIndices": true,
+    "persistedMeshHasNondegenerateTriangles": true,
+    "persistedMeshSharesOppositelyOrientedEdges": true,
+    "meshBoundsFaceAreasAndVolumeMatchCadChecks": true,
+    "nativeBytesPreservedThroughReopen": true,
+    "partTemplateBytesPreserved": true,
+    "closedOwnedDocumentAfterReopen": true,
+    "restoredExistingActiveDocument": true,
+    "existingSessionPreserved": true,
+    "ownershipReleased": true,
+    "guideMismatchRejectedBeforeCadAttachment": true
+  },
+  "browserReview": {
+    "status": "PASS_SCOPED_AUTOMATIC_PC_WEBGL_REVIEW",
+    "scope": "isolated local desktop browser and a different saved single-profile part",
+    "selectedDifferentPartFromStandaloneCadTest": true,
+    "successfulBrowserGenerationButtonPresses": 1,
+    "successfulBrowserRequestSavedAndReopenedNativePart": true,
+    "nativeBodyMeshAutomaticallyDisplayedInWebGl2": true,
+    "dragRotationConfirmedVisuallyAndByCameraState": true,
+    "wheelZoomConfirmedVisuallyAndByCameraState": true,
+    "frontAndIsometricViewsChecked": true,
+    "returnedToDrawing": true,
+    "reloadedPageAndReopenedSaved3d": true,
+    "downloadedNativeBytesMatchSavedFile": true,
+    "draftRequestSavedAndExported": true,
+    "draftReferencesSavedRevisionAndNativeFile": true,
+    "drawingAndHistoryPreserved": true,
+    "localPcReviewPageKept": true
+  },
+  "noninteractiveChildPreflight": {
+    "status": "PASS_SCOPED_PREFLIGHT",
+    "bundledWindowsPowerShellUtilityModuleExplicitlyLoaded": true,
+    "hashingJsonAndTypedCompilationVerified": true,
+    "invalidGeometryRejected": true,
+    "cadAttachmentAttempted": false
+  },
+  "unverified": [
+    "Other SOLIDWORKS versions and service packs",
+    "Curves, holes, assemblies and multiple solids",
+    "Physical dimensions, materials and manufacturing suitability",
+    "Production service and pointer changes",
+    "External TLS and phone/device behavior"
+  ],
+  "automaticRequestRecovery": {
+    "firstRequestFailedBeforeCom": "Windows PowerShell built-in hashing command did not load automatically in child process",
+    "firstFailureReceiptPreserved": true,
+    "firstRequestOwnershipReleased": true,
+    "correction": "explicit load of bundled Windows PowerShell Utility module",
+    "actualBrowserCadInvocations": 1,
+    "standaloneNativeRunIsSeparate": true
+  },
+  "supportedInput": {
+    "geometry": "one closed planar line-segment outline for blind extrusion",
+    "partIdentifierCharacters": "ASCII letters, digits, underscore and hyphen"
+  }
+}
