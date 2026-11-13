@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-13",
+  "environment": "Windows, Blender 5.2.2 LTS, isolated background process",
+  "installations_changed": false,
+  "preferences_saved": false,
+  "preferences_hash_unchanged": true,
+  "qremeshify": {
+    "installed_version": "1.1.0",
+    "installed_manifest_license": "GPL-3.0-or-later",
+    "registered_in_test_process": true,
+    "input": "Independent subdivided cube, 96 faces",
+    "result": "FINISHED",
+    "output_quad_faces": 4704,
+    "elapsed_seconds": 3.3508,
+    "limitations": "Generic coupon only; semantic boundaries, multi-layer shared topology, product quality and face budget not verified."
+  },
+  "retopoflow": {
+    "installed_version": "3.4.11",
+    "installed_manifest_license": "GPL-2.0-or-later",
+    "module_loaded": true,
+    "background_skips_feature_initialization": true,
+    "interactive_operation_tested": false
+  },
+  "native_mesh_api": {
+    "independent_quad_coupons_created_and_reopened": true,
+    "explicit_short_diagonal_triangulation_evaluated": true,
+    "persistent_material_slots_preserved": true,
+    "per_corner_uv_hash_preserved": true,
+    "face_material_indices_preserved": true,
+    "seam_count_preserved": true,
+    "shader_input_link_signatures_preserved": true,
+    "initial_pre_save_error": "libraries.load mutated the passed list from names to Material IDs; fixed by passing a separate list. No product data was changed.",
+    "limitations": "Not a connected full product, arbitrary deformation proof, complete UV transfer or PBR test."
+  },
+  "private_product_data_published": false,
+  "original_app_work_preserved": true
+}

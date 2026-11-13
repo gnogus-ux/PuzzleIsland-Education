@@ -623,8 +623,8 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 38436,
-      "sha256": "9c00b3b5775f3e689e1bb713c6dab10aaf44adf54cfbba7b67d32120303c1bf6"
+      "bytes": 38989,
+      "sha256": "16e6ae2ae6fefab9985f6de16074c333ae09a3984fac6c144f539a974d527abd"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
@@ -803,8 +803,8 @@
     },
     {
       "path": "docs/BLENDER_ADDONS.md",
-      "bytes": 9473,
-      "sha256": "76ebe2abb77768d808f21f8f95a7d5c1d50222f329b641ee996da88ec0ff3b74"
+      "bytes": 10839,
+      "sha256": "97c80f05fc439f1ea017f42dbc5a159b7920914467193f9fbc787f54f5f2071b"
     },
     {
       "path": "reports/ToolInventory/20261103_BLENDER_ADDONS.json",
@@ -1255,6 +1255,11 @@
       "path": "reports/ToolInventory/20261111_SOLIDWORKS_REOPENED_MESH_SCOPED_RUNTIME.json",
       "bytes": 4379,
       "sha256": "d12f150d2c9b62a13df57d0a60ce17e150cc497609e10675f1e9bce9b1ebd50c"
+    },
+    {
+      "path": "reports/ToolInventory/20261113_QUAD_PATCH_RUNTIME.json",
+      "bytes": 1599,
+      "sha256": "e6796921437ca1ed1d6eb4d701acd3f5561fd259cb87fe881a9670e198a1fc8f"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
@@ -1541,5 +1546,9 @@
     "scope": "Saved reviewer evidence only: one phone/current cellular connection, one synthetic PNG plus duplicate, explicit product-folder mapping and prior-PC preservation. No new publisher runtime or install; broader transport/media limitations retained.",
     "prior_WiFi_history_and_receipt_preserved": true,
     "private_data_or_media_published": false
+  },
+  "quad_patch_runtime_20261113": {
+    "receipt": "reports/ToolInventory/20261113_QUAD_PATCH_RUNTIME.json",
+    "scope": "Existing add-on generic cube / background limitation and native independent coupon persistence tests only. No product or private data published."
   }
 }

@@ -79,3 +79,11 @@
 설정상 활성이나 설치 항목이 없는 모듈: **없음**.
 
 [기계 판독 목록](../reports/ToolInventory/20261103_BLENDER_ADDONS.json) · [공통 도구 규칙](COMMON_TOOL_POLICY.md) · [프로그램 목록](AVAILABLE_TOOLS.md)
+
+## QRemeshify·RetopoFlow 제한 확인 — 2026-11-13
+
+기존 설치 QRemeshify1.1.0을 Blender5.2.2 LTS의 별도 백그라운드 프로세스에서 로드·등록하고 독립 큐브로 실행했다. 입력96면, 출력4,704쿼드, `FINISHED`, 약3.35초였다. 일반 쿼드화의 제한된 동작 확인이며 특정 제품의 경계·공유 격자·면 예산을 보장하지 않는다. 이 한 시험이 항상 면 수를 늘린다는 뜻도 아니다. 새 설치·저장 활성화 변경은 없었다.
+
+RetopoFlow3.4.11은 모듈이 로드됐지만 설치 코드가 `bpy.app.background`에서 후속 초기화를 건너뛰었다. 등록 표지만으로 실제 retopo 기능 실행 성공으로 표시하지 않는다. UI 도구·전체 버전 호환은 미검증이다.
+
+같은 환경에서 Blender 기본 메시 API의 독립 쿼드 패치 생성·저장·재열기, 명시적 짧은 대각선 삼각화와 재질/UV 속성 보존을 확인했다. 평가 메시의 임시 재질 ID와 영구 `bpy.data.materials` 참조를 구분하고, 저장 재열기에서 null 슬롯·면별 재질 번호·UV·셰이더 signature를 확인해야 한다. 제품 제작·전체 연결·충돌·UV 전개 완료를 뜻하지 않는다. 사용자 설정 파일은 해시 불변이었다. [제한 실기 기록](../reports/ToolInventory/20261113_QUAD_PATCH_RUNTIME.json).
