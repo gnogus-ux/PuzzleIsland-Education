@@ -49,3 +49,5 @@
 | 43 | [scenario-blender-uv-baking](https://github.com/scenario-labs/skills/blob/7f4b801c7248d51b093ec365aceb114bd06139e6/skills/dcc/blender/scenario-blender-uv-baking/SKILL.md) | 시임·왜곡·밀도·mip와 adaptive 투영의 문제 위치를 검사한다. | L1–185 전체 |
 
 정확한 바이트 수·SHA256는 [학습 기록](../reports/ExternalLearning/20261101_DCC_PRIMARY_READING_VERIFICATION.json)의 `assigned_main_documents`에 있다. 본문에서 링크한 모든 참조·코드·영상을 확인한 것은 아니다. 직접 추가 확인한 파일은 같은 JSON의 `extra_full_text_reads`에 따로 있다.
+
+2026-11-13 보강: [가죽판 Cloth → 정적 모양 키](BLENDER_LEATHER_CLOTH_TO_SHAPEKEY.md). 공식 Blender 5.2의 물성·핀·충돌·캐시 문서와 설치 Leather 프리셋을 대조했다. 장면/실물 단위, 원본 보존, 안정화·침투·핀 검사, 상태 한정 키 저장과 학습/실기 검증 구분을 다룬다.
