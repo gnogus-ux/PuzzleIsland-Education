@@ -88,7 +88,8 @@
     "2026-11-10: Clarified explicit product-folder identity, permissions and idempotency; added anonymized reviewer evidence for same-signature APK versionCode5/r18-photo1 update and PNG/JPEG registration across two product folders via same-WiFi NAT loopback. Original sources preserved; cellular photo feature and other scoped exclusions remain unverified; publisher runtime0.",
     "2026-11-10: Added saved-reviewer evidence for one separately tested Android phone using validated cellular transport to register one synthetic PNG in an explicit product folder and deduplicate a repeat. Existing app5/r18-photo1 reused, build/install/server/network configuration changes0; prior WiFi history preserved; other carriers, roaming, long transfers and cellular JPEG/WebP remain unverified; no private source values published.",
     "Added a scoped two-photo native multi-selection and one-confirmation cellular registration followup; existing code maximum ten is separate from the actual two-photo test. Prior runtime receipts preserved; no code/build/install changes.",
-    "Added r19 scoped actual fifty-small-PNG cellular registration, bounded original staging and per-photo atomicity versus partial batch completion; prior runtime receipts preserved."
+    "Added r19 scoped actual fifty-small-PNG cellular registration, bounded original staging and per-photo atomicity versus partial batch completion; prior runtime receipts preserved.",
+    "2026-11-13: Both Codex and Claude may now research, study three distinct sources, and author or improve manuals. Until the Codex subscription ends, Codex retains Blender production and Claude independent review/relay; after it ends Claude safely takes over the former Codex work. Preserve three-source procedures, single-writer publication, pre/post remote SHA records and remote body/hash verification; supersede the 2026-11-03 education restriction."
   ],
   "files": [
     {
@@ -628,13 +629,13 @@
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
-      "bytes": 16409,
-      "sha256": "3b2df7cbe4d99f1efac76420e00cf39f9bc036e3852b9d99674fccca80bf0d6a"
+      "bytes": 16781,
+      "sha256": "8881bf7049212b222666a6c2fbf406a4d2544b1720f42649561f6e53ddf822e2"
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 25285,
-      "sha256": "6fb3ad823c70d2b9a5b1eff5471162c456552c17d9eae4d3342eb10c55747a55"
+      "bytes": 26332,
+      "sha256": "c4a26231b4aab1a3424dc273e0c92c64a08ffe231e8a0bd45c2761cb3cf40998"
     },
     {
       "path": ".gitmodules",
@@ -673,8 +674,8 @@
     },
     {
       "path": "docs/CLAUDE_RULES_AND_LIBRARY.md",
-      "bytes": 6361,
-      "sha256": "c94e17c6957f2d7020089c82b0fe9172d6ed63eac4a3bd79287b003fc953ba25"
+      "bytes": 7494,
+      "sha256": "572a05addfe9a72e8847ba4cb999f458e225daf390091a9e6727c38509c760de"
     },
     {
       "path": "reports/ExternalLearning/20261101_INTEGRATION_REVIEW.json",
