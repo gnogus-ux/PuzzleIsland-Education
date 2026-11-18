@@ -32,7 +32,7 @@ Unity 매치3·Blender·Maya·RetopoFlow·Substance 3D Painter 강좌를 바탕�
 
 다음 작업을 시작한다고 판단할 때마다 아래 교육 목록과 매뉴얼 본문에서 관련 내용을 먼저 검색하고 필요한 절을 읽습니다. 같은 대화의 다음 단계·인수 후 작업도 포함하며 사용자의 재지시를 기다리지 않습니다. **매뉴얼을 읽지 않은 임의 작업은 금지합니다.** 매뉴얼이 없거나 내용·버전 근거가 부족하면 필요한 내용·자료를 요청하고 **관련 교육자료3개를 검색·실제 학습해 매뉴얼을 작성·보강한 뒤** 승인된 작업에 적용합니다. 검색·열람·적용 범위를 기록하고 [상세 절차](docs/COMMON_TOOL_POLICY.md#매뉴얼-미확인-작업-금지와-부재-시-3개-자료-학습)를 따릅니다. 이 범위의 학습·작성 승인은 반복 질문하지 않습니다.
 
-Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합니다. **교육이 필요하면 Codex에게 알리며, 신규 교육·자료3개 학습·매뉴얼 작성·보강은 Codex가 담당합니다. Claude에게 교육을 맡기지 않습니다.** [역할 구분](docs/COMMON_WORK_RULES.md#claude는-규칙-숙지제작-담당-교육은-codex-담당)과 [Claude용 지침](docs/CLAUDE_RULES_AND_LIBRARY.md)을 함께 적용합니다.
+Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합니다. **2026-11-18부터 작업(제작·학습·매뉴얼 작성)은 Claude가 맡고, Codex는 검수 전용입니다.** [역할 구분](docs/COMMON_WORK_RULES.md#codex-claude-learning-and-production)과 [Claude용 지침](docs/CLAUDE_RULES_AND_LIBRARY.md)을 함께 적용합니다.
 
 ## 외부 제작자의 교육·작업 매뉴얼
 
