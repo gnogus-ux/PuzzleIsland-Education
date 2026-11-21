@@ -126,6 +126,8 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 
 추가 검수: [매끈한 코팅 가죽·면광원 반사·미세 요철과 디노이즈](docs/LEATHER_LOOKDEV_AND_DENOISE.md) — 공식 자료3개의 해당 절을 Codex가 직접 읽고 대조한 절차 보강이며 [실제 학습 범위](reports/ExternalLearning/20261103_LEATHER_LOOKDEV_STUDY.json)와 실기 검증을 구분합니다.
 
+[제품 렌더 미세 흔적 — 실물에 있는 것만](docs/PRODUCT_SURFACE_IMPERFECTIONS.md): 먼지·실 보풀·마감칠 점을 실물 사진 대조 후 실측 크기로 아주 약하게 넣는 절차. Blender 5.2 공식 문서·Adobe Sampler Dust·School of Motion 글 3자료 학습 정리이며 실제 렌더 검증은 프로젝트 기록과 구분합니다.
+
 모델링·표면 맵 10강과 사진→3D 5강을 분석한 한국어 적용 매뉴얼입니다. 예시 치수는 제품의 실측값으로 바꾸며, 교육 완료와 실제 제품 제작·스캔 검증은 구분합니다.
 
 | 주제 | 정본 문서 |
