@@ -99,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 25656,
-      "sha256": "50beff39744abb584eb802a62b00b3989d7a2b43f01f68a1001b1e2392dbbc8e"
+      "bytes": 26213,
+      "sha256": "aac03b4482341f1a1342fa25fc8c5f4ecf76326ac5d08211f57b0bfc1cd7f4da"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -1266,6 +1266,16 @@
       "path": "docs/PRODUCT_SURFACE_IMPERFECTIONS.md",
       "bytes": 5477,
       "sha256": "df1ddcde2e3e52ef60b07b0b08d8acbe1200670f52e3c27e66bde6db58751e3b"
+    },
+    {
+      "path": "docs/GOOGLE_APPS_SCRIPT_PHOTO_INBOX.md",
+      "bytes": 8051,
+      "sha256": "171c0c4254023f167adb0254da747b43141867cc6113b00e9a3ed69c6e24a397"
+    },
+    {
+      "path": "reports/ExternalLearning/20261121_APPS_SCRIPT_PHOTO_INBOX_STUDY.json",
+      "bytes": 3188,
+      "sha256": "6b7c0ba424c6b2e99a9b283006b11e6857da3ff8f3968dfe6bacfa002a498ddb"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

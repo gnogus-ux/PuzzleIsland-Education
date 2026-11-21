@@ -1,0 +1,25 @@
+{
+  "date_kst": "2026-11-21",
+  "author": "Claude",
+  "status": "OFFICIAL_SECTIONS_REVIEWED_MANUAL_READY_RUNTIME_NOT_RUN",
+  "topic": "Upload-only Google Apps Script web app receiving original Android photos into a Drive folder, with PC watcher notification",
+  "existing_manual_gap": "No manual covered Apps Script web app doPost, Drive folder file creation, MailApp owner notification, or Android camera-intent original capture without storage/camera permissions.",
+  "manual": "docs/GOOGLE_APPS_SCRIPT_PHOTO_INBOX.md",
+  "browser": "ego-browser (project rule), page innerText read in full for the first four; MediaStore reference read for the named constants only",
+  "sources": [
+    {"url": "https://developers.google.com/apps-script/guides/web", "title": "Apps Script guide: Web Apps", "scope": "requirements, doGet/doPost event object fields, reserved parameters c/sid, deploy steps, test /dev URL, execute-as permissions, OAuth token caution", "read": "full page", "runtime": false},
+    {"url": "https://developers.google.com/apps-script/guides/services/quotas", "title": "Apps Script: Quotas for Google Services", "scope": "consumer vs Workspace quotas and limits table, exception messages", "read": "full page", "runtime": false},
+    {"url": "https://developers.google.com/apps-script/reference/drive/folder", "title": "Apps Script reference: Drive Folder", "scope": "createFile(blob), createFolder, getFoldersByName, getFilesByName", "read": "method table and the four method sections", "runtime": false},
+    {"url": "https://developers.google.com/apps-script/reference/mail/mail-app", "title": "Apps Script reference: MailApp", "scope": "sendEmail(recipient, subject, body), getRemainingDailyQuota", "read": "full page", "runtime": false},
+    {"url": "https://developer.android.com/reference/android/provider/MediaStore", "title": "Android reference: MediaStore", "scope": "ACTION_IMAGE_CAPTURE (EXTRA_OUTPUT full size, CAMERA permission note), ACTION_VIDEO_CAPTURE, EXTRA_DURATION_LIMIT, ACTION_PICK_IMAGES, EXTRA_PICK_IMAGES_MAX", "read": "constant summaries and detail sections for these constants only", "runtime": false},
+    {"url": "https://developer.android.com/training/data-storage/shared/photopicker", "title": "Android guide: Photo picker", "scope": "availability API30+/backport, multiple selection limit, access lifetime and persistable grants, HDR transcoding opt-in", "read": "full page", "runtime": false}
+  ],
+  "cross_check": [
+    "doPost body is text only (postData.contents) -> base64 for binary; matched with Utilities/Folder.createFile(blob) usage.",
+    "Quota page lists no web-app request body size limit -> treated as unknown; conservative 4 MiB raw chunks.",
+    "Photo picker grants end at app stop -> copy original bytes immediately for resumable upload.",
+    "MediaStore note: declared-but-ungranted CAMERA permission breaks ACTION_IMAGE_CAPTURE -> do not declare CAMERA."
+  ],
+  "not_verified": ["actual deployment and consent screen", "POST 302 redirect behaviour", "max doPost body size", "real phone capture/upload", "Gmail delivery on the phone"],
+  "applied_to": "MAY wallet photo send app candidate (private project), 2026-11-21"
+}
