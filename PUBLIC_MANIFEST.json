@@ -1261,6 +1261,11 @@
       "path": "reports/ToolInventory/20261113_QUAD_PATCH_RUNTIME.json",
       "bytes": 1599,
       "sha256": "e6796921437ca1ed1d6eb4d701acd3f5561fd259cb87fe881a9670e198a1fc8f"
+    },
+    {
+      "path": "docs/PRODUCT_SURFACE_IMPERFECTIONS.md",
+      "bytes": 5477,
+      "sha256": "df1ddcde2e3e52ef60b07b0b08d8acbe1200670f52e3c27e66bde6db58751e3b"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
