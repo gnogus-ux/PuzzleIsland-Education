@@ -11,6 +11,7 @@
 | 1 | [손 기본형 제작](HAND_BUILDING.md) | Dikko, [Modeling for Animation 04 - Building the Hands!](https://www.youtube.com/watch?v=8R0e0qh5wiU), 약33:57. 관찰→손바닥→손가락→엄지 재작업→변형 시험→팔 접속→외부 서비스 예시 |
 | 2 | [손 리토폴로지 판단](HAND_RETOPOLOGY.md) | Dikko, [Best Tips for Retopologising ANY kind of hand!](https://www.youtube.com/watch?v=zF61xM6fiDw), 약21:44. 서로 다른 세 손의 면 흐름·변형 비교. 빈 메시부터 완성하는 전체 제작 수업은 아님 |
 | 3 | [손가락 리깅과 가중치](HAND_FINGER_RIGGING.md) | CG Cookie, [CGC Classic: Rigging Fingers (Blender 2.6)](https://www.youtube.com/watch?v=NR5q3zsKHew), 약38:04. Copy Rotation 기반 컨트롤→복제→바인딩 오류→가중치 보정. 마지막에도 보정할 부분이 남음 |
+| 4 | [자연스러운 손 자세](HAND_POSING_NATURAL.md) | 리깅된 손에 자세 주기. 쉬는 손 굽힘 순서·관절 범위(임상 논문2), 자세 디자인 규칙(애니메이션 글1), 책상 위 톡 치는 손 실제 적용 기록(2026-11-21) |
 
 ![손 제작부터 변형 검수까지의 자체 도식](assets/hand-topology/hand-deformation-pipeline.svg)
 

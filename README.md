@@ -87,6 +87,7 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 | 손 기본형 모델링 | [손 제작](docs/HAND_BUILDING.md) |
 | 손바닥·관절 면 흐름 | [손 리토폴로지](docs/HAND_RETOPOLOGY.md) |
 | 손가락 컨트롤·가중치 | [손가락 리깅](docs/HAND_FINGER_RIGGING.md) |
+| 손 자세(쉬는 손 굽힘 순서·관절 범위·엄지·책상 위 손) | [자연스러운 손 자세](docs/HAND_POSING_NATURAL.md) · [임상2·애니1 자료 학습](reports/ExternalLearning/20261121_HAND_POSING_NATURAL_STUDY.json) |
 | 전신 전체 흐름·검수 | [전신 교육 시작점](docs/BODY_CHARACTER_WORKFLOW.md) |
 | 몸통·팔다리·목 면 흐름 | [전신 리토폴로지](docs/BODY_RETOPOLOGY.md) |
 | 어깨·골반·팔꿈치·무릎 볼륨 | [관절 볼륨 보강](docs/BODY_JOINT_VOLUME.md) |

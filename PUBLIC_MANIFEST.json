@@ -99,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 26213,
-      "sha256": "aac03b4482341f1a1342fa25fc8c5f4ecf76326ac5d08211f57b0bfc1cd7f4da"
+      "bytes": 26455,
+      "sha256": "1e754d064b612126367729b33853d728cae17919859dee3fca1a7da5d1ccf0e6"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -159,8 +159,8 @@
     },
     {
       "path": "docs/HAND_FINGER_WORKFLOW.md",
-      "bytes": 7496,
-      "sha256": "f9796eed1e19149fa9d4dfb2010aadfeaba4b64d67c4d57082d7c6b68d06fad6"
+      "bytes": 7754,
+      "sha256": "c8b2dd201c849b14f666212a5238e1e4269ae778e1ffabdf9466cb596b5fbfd4"
     },
     {
       "path": "docs/HAND_RETOPOLOGY.md",
@@ -1276,6 +1276,16 @@
       "path": "reports/ExternalLearning/20261121_APPS_SCRIPT_PHOTO_INBOX_STUDY.json",
       "bytes": 3188,
       "sha256": "6b7c0ba424c6b2e99a9b283006b11e6857da3ff8f3968dfe6bacfa002a498ddb"
+    },
+    {
+      "path": "docs/HAND_POSING_NATURAL.md",
+      "bytes": 10158,
+      "sha256": "3c5ad88c0be668846c4a834526fe08c6130b1989488e99c58f08bae75bc29d96"
+    },
+    {
+      "path": "reports/ExternalLearning/20261121_HAND_POSING_NATURAL_STUDY.json",
+      "bytes": 2963,
+      "sha256": "d9d4a5d5bcd10d8ac3daa37c292c03ba132cc071492f21edd0a79396cfb5cb2d"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
