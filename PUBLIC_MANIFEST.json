@@ -1279,13 +1279,13 @@
     },
     {
       "path": "docs/HAND_POSING_NATURAL.md",
-      "bytes": 10158,
-      "sha256": "3c5ad88c0be668846c4a834526fe08c6130b1989488e99c58f08bae75bc29d96"
+      "bytes": 12099,
+      "sha256": "7e927f7138da73efc8d60246bc0e053393fe81315446ac106c09acd6c9c0270a"
     },
     {
       "path": "reports/ExternalLearning/20261121_HAND_POSING_NATURAL_STUDY.json",
-      "bytes": 2963,
-      "sha256": "d9d4a5d5bcd10d8ac3daa37c292c03ba132cc071492f21edd0a79396cfb5cb2d"
+      "bytes": 3905,
+      "sha256": "8db921c85a06386fc8156c68082b292d2b086b8c1c2c6ddb4ff5e75e91c3612c"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

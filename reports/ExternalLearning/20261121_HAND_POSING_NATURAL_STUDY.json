@@ -8,19 +8,52 @@
   "manual": "docs/HAND_POSING_NATURAL.md",
   "browser": "ego-browser (project rule); page innerText saved and read",
   "sources": [
-    {"url": "https://www.jcdr.net/ReadXMLFile.aspx?id=13677", "title": "Varghese et al. 2020, A Study on the Normative Values of Finger Flexion Cascade in Power Grip Users and Non-power Grip Users (JCDR 14(5):YC01-YC07)", "kind": "clinical measurement paper (resting hand)", "read": "full article text including tables 5, 9, 13, 15, discussion and limitations"},
-    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11436331/", "title": "Normal Active Range of Motion of the Index, Middle, Ring, and Little Fingers in a Sample of Indian Population (Indian J Plast Surg 2024;57(4):248-255)", "kind": "clinical measurement paper (maximum active ROM)", "read": "abstract, methods, results table, discussion, conclusion"},
-    {"url": "https://www.animatorisland.com/2-ways-to-make-hand-poses-stand-out/", "title": "Ferdinand Englander 2014, 2 Ways to Make Hand Poses STAND OUT (Animator Island)", "kind": "animation pose design article", "read": "full text (short article)"}
+    {
+      "url": "https://www.jcdr.net/ReadXMLFile.aspx?id=13677",
+      "title": "Varghese et al. 2020, A Study on the Normative Values of Finger Flexion Cascade in Power Grip Users and Non-power Grip Users (JCDR 14(5):YC01-YC07)",
+      "kind": "clinical measurement paper (resting hand)",
+      "read": "full article text including tables 5, 9, 13, 15, discussion and limitations"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11436331/",
+      "title": "Normal Active Range of Motion of the Index, Middle, Ring, and Little Fingers in a Sample of Indian Population (Indian J Plast Surg 2024;57(4):248-255)",
+      "kind": "clinical measurement paper (maximum active ROM)",
+      "read": "abstract, methods, results table, discussion, conclusion"
+    },
+    {
+      "url": "https://www.animatorisland.com/2-ways-to-make-hand-poses-stand-out/",
+      "title": "Ferdinand Englander 2014, 2 Ways to Make Hand Poses STAND OUT (Animator Island)",
+      "kind": "animation pose design article",
+      "read": "full text (short article)"
+    },
+    {
+      "url": "https://www.pinterest.com/pin/366269382221756032/",
+      "title": "TOAnimate infographic 'Handy tips on posing hands' (posted on Pinterest as 'Hand posing tips')",
+      "kind": "animation pose comparison image (wrong/right)",
+      "read": "whole image: fist pair, two relaxed-hand pairs; added 2026-11-21 correction"
+    }
   ],
   "supporting": [
-    {"url": "https://www.physio-pedia.com/Range_of_Motion_Normative_Values", "read": "upper limb table only (wrist, forearm pronation/supination)"}
+    {
+      "url": "https://www.physio-pedia.com/Range_of_Motion_Normative_Values",
+      "read": "upper limb table only (wrist, forearm pronation/supination)"
+    }
   ],
-  "failed_access": ["https://blog.animschool.edu/2025/05/09/hand-posing-basics/ (connection timed out)", "https://blog.animschool.edu/2018/07/17/hand-posing-101/ (connection timed out)"],
+  "failed_access": [
+    "https://blog.animschool.edu/2025/05/09/hand-posing-basics/ (connection timed out)",
+    "https://blog.animschool.edu/2018/07/17/hand-posing-101/ (connection timed out)"
+  ],
   "cross_check": [
     "Resting cascade (JCDR) is far below active maxima (PMC): resting PIP 39-45 deg vs max 92-97 deg -> natural poses use under half of range.",
     "JCDR: MCP drives tapping while PIP/DIP extend and absorb -> tap motion keyed at MCP.",
     "Animator Island asymmetry rule agrees with the cascade: fingers should not share one shape or one angle."
   ],
-  "applied": "Product video hand (scan + DEF/CTRL rig): five rounds matched to the user's own hand photos; final rest pose middle 55/95/55, ring 68/100/60, little 80/105/65, index 12/28/12 deg, thumb MCP 35 IP 25 deg, whole hand rolled 25 deg toward the thumb side. Checked by top, side and fingertip-side close renders only.",
-  "not_verified": ["thumb CMC/MCP/IP normative ROM values (no source read)", "full animation playback of the final pose", "weight problems in tight fist", "populations other than the Indian adult samples"]
+  "applied": "Product video hand (scan + DEF/CTRL rig): five rounds matched to the user's own hand photos; final rest pose middle 55/95/55, ring 68/100/60, little 80/105/65, index 12/28/12 deg, thumb MCP 35 IP 25 deg, whole-hand roll removed (was 25 deg, wrong), thumb first bone lowered 22 deg palmward; supports are curled middle fingertip and thumb tip. Checked by top, side and fingertip-side close renders only.",
+  "not_verified": [
+    "thumb CMC/MCP/IP normative ROM values (no source read)",
+    "full animation playback of the final pose",
+    "weight problems in tight fist",
+    "populations other than the Indian adult samples"
+  ],
+  "correction_2026_11_21": "Rule 5 in 6f87106 (roll the whole hand 20-30 deg toward the thumb) was a misreading of the user's photo. The user pointed it out; re-reading the TOAnimate image showed the back of the hand arches (thumb metacarpal drops palmward, knuckle line curves). Manual now says do not roll the whole hand; lower the thumb's first bone instead."
 }
