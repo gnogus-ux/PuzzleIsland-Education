@@ -99,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 27199,
-      "sha256": "cb0433d49f1774680851c113873e7f56c0b2e8943821c67b2bd399fdb54d7308"
+      "bytes": 27485,
+      "sha256": "17540bf1b78823bba770d150cfd60d3d1ab1309e786aa67dde0a5665b271fedc"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -629,13 +629,13 @@
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
-      "bytes": 16781,
-      "sha256": "8881bf7049212b222666a6c2fbf406a4d2544b1720f42649561f6e53ddf822e2"
+      "bytes": 17111,
+      "sha256": "c90279bf291ad3c4cbf31cec3e2e48c81914bd8fa2791923cb3b0610298a0a84"
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 26332,
-      "sha256": "c4a26231b4aab1a3424dc273e0c92c64a08ffe231e8a0bd45c2761cb3cf40998"
+      "bytes": 29131,
+      "sha256": "c47eff8ba0fd6bf41713bb3b97897ff9ace91e121bf30c088f8d9daba4017aaf"
     },
     {
       "path": ".gitmodules",
@@ -674,8 +674,8 @@
     },
     {
       "path": "docs/CLAUDE_RULES_AND_LIBRARY.md",
-      "bytes": 7494,
-      "sha256": "572a05addfe9a72e8847ba4cb999f458e225daf390091a9e6727c38509c760de"
+      "bytes": 7952,
+      "sha256": "1f6fc7a16a49055755d378d9266e861330cdaf2dd28a28c62fb7c5a9ed99fdc9"
     },
     {
       "path": "reports/ExternalLearning/20261101_INTEGRATION_REVIEW.json",
@@ -844,8 +844,8 @@
     },
     {
       "path": "docs/WALLET_BROAD_CURVATURE_AND_POCKET_HEIGHT.md",
-      "bytes": 21826,
-      "sha256": "782059d449865f5fa1795b1d413d5d06ecfa507b3eca049d9f55b76452b21ebc"
+      "bytes": 21949,
+      "sha256": "8b3079d0545f1204d8da9d972a5e5eefff23071b0d3399aff78316f634d29cab"
     },
     {
       "path": "reports/ExternalLearning/20261104_WALLET_CURVATURE_DRIVER_STUDY.json",
