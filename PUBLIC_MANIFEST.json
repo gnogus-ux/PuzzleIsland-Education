@@ -624,18 +624,18 @@
     },
     {
       "path": "docs/AVAILABLE_TOOLS.md",
-      "bytes": 38989,
-      "sha256": "16e6ae2ae6fefab9985f6de16074c333ae09a3984fac6c144f539a974d527abd"
+      "bytes": 40349,
+      "sha256": "0275de27f3855545865979afdd1b3dd83d73adf3cc8c9601963aea18972622bf"
     },
     {
       "path": "docs/COMMON_TOOL_POLICY.md",
-      "bytes": 17111,
-      "sha256": "c90279bf291ad3c4cbf31cec3e2e48c81914bd8fa2791923cb3b0610298a0a84"
+      "bytes": 18214,
+      "sha256": "3d2d0c46e11b5b3c4086f308c8d91f40c0ea0c648620648aa17cca55ad763c0b"
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 29131,
-      "sha256": "c47eff8ba0fd6bf41713bb3b97897ff9ace91e121bf30c088f8d9daba4017aaf"
+      "bytes": 29304,
+      "sha256": "0e8f5a3d23fe565d34c9668ed388341df41ff87a0b7fde00a35383f9cbfe1dec"
     },
     {
       "path": ".gitmodules",
@@ -1289,8 +1289,8 @@
     },
     {
       "path": "docs/PRODUCT_WALLET_MODELING_ANIMATION_LESSONS.md",
-      "bytes": 14866,
-      "sha256": "37187b2a21231d6c6fcaebca53e90a09d963f6b13b483d0fe8e6ab2d79b176e2"
+      "bytes": 14963,
+      "sha256": "9057d0ed11a1d312af2a2a2a1bfd57bc3778e8ebba46117aad662318388ea5cc"
     },
     {
       "path": "docs/UNITY_IMPORT_RULES_EDITOR.md",

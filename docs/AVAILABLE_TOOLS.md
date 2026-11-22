@@ -44,6 +44,7 @@
 | GitHub CLI | 2.102.0 | 저장소 조회·게시 검증 | 버전·저장소 권한 조회 실행. 다른 계정/PC 권한을 가정하지 않음 |
 | .NET SDK | 10.0.401 | C# 빌드·Unity 독립 코어 검사 | 현재 버전 실행 및 기존 코어 검사 기록. Unity/Android 실행 검증과 구별 |
 | Visual Studio C++ 도구 | Community 2026, MSVC 14.51 | Windows 네이티브 확장 빌드 | 이번 CPU 베이커·UV 확장 빌드 성공. CUDA Toolkit 설치를 뜻하지 않음 |
+| NVIDIA GPU | GeForce RTX 3060, 12 GB, 드라이버 617.42 | 렌더·굽기 등 그래픽 계산([GPU 사용 규칙](COMMON_TOOL_POLICY.md#그래픽-작업-gpu-사용)) | 2026-11-22 nvidia-smi로 이름·메모리·드라이버 확인. Blender Cycles OptiX로 지갑 렌더 실사용. CUDA Toolkit 설치를 뜻하지 않음 |
 | ego-browser | 설치된 CLI·브라우저 | 웹 조사·자료 페이지 확인 | 실제 브라우저 작업 기록. 별도 승인 없이 다른 브라우저 자동화로 바꾸지 않음 |
 
 ## 설치는 확인했지만 용도별 실행 확인이 필요한 도구
