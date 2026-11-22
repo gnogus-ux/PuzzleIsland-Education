@@ -99,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 26455,
-      "sha256": "1e754d064b612126367729b33853d728cae17919859dee3fca1a7da5d1ccf0e6"
+      "bytes": 27199,
+      "sha256": "cb0433d49f1774680851c113873e7f56c0b2e8943821c67b2bd399fdb54d7308"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -1291,6 +1291,16 @@
       "path": "docs/PRODUCT_WALLET_MODELING_ANIMATION_LESSONS.md",
       "bytes": 14866,
       "sha256": "37187b2a21231d6c6fcaebca53e90a09d963f6b13b483d0fe8e6ab2d79b176e2"
+    },
+    {
+      "path": "docs/UNITY_IMPORT_RULES_EDITOR.md",
+      "bytes": 11810,
+      "sha256": "0b6b5e921f4aed46c5450d40c6184e1f3f989bd29115261918904536cfb4f408"
+    },
+    {
+      "path": "reports/ExternalLearning/20261122_UNITY_IMPORT_RULES_STUDY.json",
+      "bytes": 4224,
+      "sha256": "edb5b2b47e0c7017fe400a5b094c97ff52c156f68ecb97e3f04da1149a29e0a5"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

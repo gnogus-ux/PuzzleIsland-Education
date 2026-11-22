@@ -1,0 +1,85 @@
+{
+  "date_kst": "2026-11-22",
+  "author": "Claude",
+  "status": "OFFICIAL_DOCS_REVIEWED_MANUAL_READY_RUNTIME_PENDING",
+  "topic": "Unity editor extension for import rules: AssetPostprocessor, ModelImporter, TextureImporter, URP Lit material maps and channel packing, EditMode tests in batchmode",
+  "existing_manual_gap": "No manual covered AssetPostprocessor callbacks, importer consistency/dependencies, ModelImporter axis/scale/material remap, TextureImporter data/normal settings, URP Lit channel packing, or Unity Test Framework command-line runs for a UPM package.",
+  "manual": "docs/UNITY_IMPORT_RULES_EDITOR.md",
+  "reading_method": "Offline HTML documentation bundled with the Unity 6000.6.7f1 Editor install (Editor/Data/Documentation/en), converted to text and read; online docs.unity3d.com pages not opened",
+  "sources": [
+    {
+      "title": "Unity Manual and Scripting API: asset import scripting",
+      "publisher": "Unity Technologies",
+      "version": "6000.6 offline docs",
+      "pages": [
+        "ScriptReference/AssetPostprocessor",
+        "AssetPostprocessor.OnPreprocessModel",
+        "AssetPostprocessor.OnPostprocessModel",
+        "AssetPostprocessor.OnPostprocessAllAssets",
+        "AssetPostprocessor.OnAssignMaterialModel",
+        "AssetPostprocessor.OnPostprocessMaterial",
+        "AssetPostprocessor.OnPreprocessTexture",
+        "AssetPostprocessor.GetVersion",
+        "AssetImporters.AssetImportContext.DependsOnSourceAsset",
+        "AssetImporters.AssetImportContext.DependsOnArtifact",
+        "ModelImporter-bakeAxisConversion",
+        "ModelImporter-useFileScale",
+        "ModelImporter-fileScale",
+        "ModelImporter-materialImportMode",
+        "ModelImporter-addCollider",
+        "AssetImporter.AddRemap",
+        "AssetImporter.GetExternalObjectMap",
+        "TextureImporter-sRGBTexture",
+        "TextureImporter-textureType",
+        "TextureImporter-maxTextureSize",
+        "TextureImporter-isReadable",
+        "TextureImporterType.NormalMap",
+        "TextureImporter-flipGreenChannel (existence)",
+        "Manual/ImporterConsistency",
+        "Manual/FBXImporter-Model",
+        "Manual/HOWTO-ImportObjectsFrom3DApps (Blender section)",
+        "Manual/lod-group-configure (import LOD section)"
+      ],
+      "read": "full text of listed pages except where noted",
+      "runtime": false
+    },
+    {
+      "title": "Universal Render Pipeline manual (inside Unity 6 Manual)",
+      "publisher": "Unity Technologies",
+      "version": "6000.6 offline docs",
+      "pages": [
+        "urp/lit-shader",
+        "urp/shaders-in-universalrp-channel-packed-texture"
+      ],
+      "read": "full pages",
+      "runtime": false
+    },
+    {
+      "title": "Unity Test Framework manual",
+      "publisher": "Unity Technologies",
+      "version": "6000.6 offline docs",
+      "pages": [
+        "test-framework/reference-command-line",
+        "test-framework/run-tests-from-command-line",
+        "test-framework/workflow-create-test-assembly",
+        "Manual/cus-tests (enable tests for a package)"
+      ],
+      "read": "full pages; cus-tests only the testables section",
+      "runtime": false
+    }
+  ],
+  "cross_check": [
+    "Blender section says textures/diffuse are not assigned automatically -> name-based Painter map matching is needed; URP channel-pack page gives R metallic, G occlusion, A smoothness, sRGB off, assign to Metallic and Occlusion.",
+    "OnAssignMaterialModel accepts only persistent material assets and OnPostprocessAllAssets is the safe place for asset creation -> create materials after import, then AddRemap and reimport.",
+    "GetVersion bump plus DependsOnSourceAsset/DependsOnArtifact keeps imports consistent when rules change.",
+    "Test Framework: -quit not supported during test runs; embedded packages under Packages/ need no testables entry."
+  ],
+  "not_verified": [
+    "6000.3 API parity (to be checked by compiling)",
+    "URP Lit shader property and keyword names",
+    "actual Blender FBX root rotation/scale values in Unity",
+    "Painter export preset official name list",
+    "Blender FBX exporter defaults"
+  ],
+  "applied_to": "Internal import rules tool 1.0 (private development repository), 2026-11-22"
+}

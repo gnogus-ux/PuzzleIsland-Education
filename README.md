@@ -72,6 +72,7 @@ Claude도 공통규칙과 기존 매뉴얼을 직접 읽고 제작에 적용합�
 | 지형·LOD·절벽·해안 | [지형 연결과 시험](docs/MODULAR_MAP_TERRAIN.md) |
 | 벽·문·지붕·중첩 Prefab | [건물 조립](docs/MODULAR_MAP_BUILDINGS.md) |
 | FBX·UV·재질·콜라이더·모바일 | [Blender→Unity 인계](docs/MODULAR_MAP_BLENDER_UNITY.md) |
+| Unity 가져오기 자동 규칙(축·크기·이름·텍스처·URP 재질·EditMode 테스트) | [에디터 확장 매뉴얼](docs/UNITY_IMPORT_RULES_EDITOR.md) · [공식3자료 학습·실기 기록](reports/ExternalLearning/20261122_UNITY_IMPORT_RULES_STUDY.json) |
 | 배우·카메라·이동·복원 상태 | [플레이 검수 계획](docs/MODULAR_MAP_PLAYABILITY_QA.md) |
 | 지정된 모듈러 맵5강 | [강좌 시간 색인](docs/MODULAR_MAP_COURSE_INDEX.md) |
 | UV 전체 흐름·검수 | [UV 교육 시작점](docs/UV_WORKFLOW.md) |
