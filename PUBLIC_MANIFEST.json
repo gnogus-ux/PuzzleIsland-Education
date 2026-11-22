@@ -1294,13 +1294,13 @@
     },
     {
       "path": "docs/UNITY_IMPORT_RULES_EDITOR.md",
-      "bytes": 11810,
-      "sha256": "0b6b5e921f4aed46c5450d40c6184e1f3f989bd29115261918904536cfb4f408"
+      "bytes": 15886,
+      "sha256": "fe86dbe9e607913f0a30e2a9e30a93945408a910ca2c093e1c88fd0ac2f55372"
     },
     {
       "path": "reports/ExternalLearning/20261122_UNITY_IMPORT_RULES_STUDY.json",
-      "bytes": 4224,
-      "sha256": "edb5b2b47e0c7017fe400a5b094c97ff52c156f68ecb97e3f04da1149a29e0a5"
+      "bytes": 4692,
+      "sha256": "36f6c94644c5a3a69d639e3a2456ea499e82ff20f3f4802f70d165fc3f5c42c6"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",

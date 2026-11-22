@@ -1,7 +1,7 @@
 {
   "date_kst": "2026-11-22",
   "author": "Claude",
-  "status": "OFFICIAL_DOCS_REVIEWED_MANUAL_READY_RUNTIME_PENDING",
+  "status": "OFFICIAL_DOCS_REVIEWED_MANUAL_READY_SCOPED_RUNTIME_VERIFIED",
   "topic": "Unity editor extension for import rules: AssetPostprocessor, ModelImporter, TextureImporter, URP Lit material maps and channel packing, EditMode tests in batchmode",
   "existing_manual_gap": "No manual covered AssetPostprocessor callbacks, importer consistency/dependencies, ModelImporter axis/scale/material remap, TextureImporter data/normal settings, URP Lit channel packing, or Unity Test Framework command-line runs for a UPM package.",
   "manual": "docs/UNITY_IMPORT_RULES_EDITOR.md",
@@ -75,11 +75,23 @@
     "Test Framework: -quit not supported during test runs; embedded packages under Packages/ need no testables entry."
   ],
   "not_verified": [
-    "6000.3 API parity (to be checked by compiling)",
-    "URP Lit shader property and keyword names",
-    "actual Blender FBX root rotation/scale values in Unity",
+    "Editor window/Inspector UI clicks",
+    "visual match of connected materials to Painter/Blender reference",
+    "Parallel Import enabled projects",
+    "rigged/animated FBX",
     "Painter export preset official name list",
-    "Blender FBX exporter defaults"
+    "Blender FBX exporter defaults (documentation not read; observed from 3 real files only)"
   ],
-  "applied_to": "Internal import rules tool 1.0 (private development repository), 2026-11-22"
+  "applied_to": "Internal import rules tool 1.0 (private development repository), 2026-11-22",
+  "runtime": {
+    "date_kst": "2026-11-22",
+    "editors": [
+      "6000.3.27f1 (URP 17.3.0, Test Framework 1.6.0)",
+      "6000.6.7f1 (URP 17.6.0, Test Framework 1.8.0)"
+    ],
+    "mode": "batchmode",
+    "tests": "56/56 passed on both editors",
+    "real_files": "3 Blender 5.2 FBX copies + one Painter UDIM export set (private, not published)",
+    "independent_review": false
+  }
 }

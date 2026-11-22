@@ -2,7 +2,7 @@
 
 2026-11-22 · Claude 작성. 블렌더·Painter에서 만든 모델과 텍스처를 Unity에 넣을 때 축·크기·이름·텍스처 설정·URP 재질 연결을 자동으로 맞추는 **에디터 확장**을 만들 때 쓰는 매뉴얼이다. [Blender→Unity 인계](MODULAR_MAP_BLENDER_UNITY.md)(수동 왕복 점검), [Unity 공식 SKILL 학습](UNITY_OFFICIAL_SKILLS_WORKFLOW.md)(CLI·패키지 실행 경계)와 함께 본다.
 
-**상태:** Unity 공식 문서 3종을 읽고 쓴 문서 학습본이다. 아래 '실기 기록'에 적은 것만 실제 Unity에서 확인했다. 나머지는 미검증이다.
+**상태:** Unity 공식 문서 3종을 읽고 쓴 학습본에, 내부용 도구 제작 중 실제 Unity 6000.3/6000.6에서 확인한 내용('실기 기록')을 더했다. 실기 기록에 없는 것은 미검증이다.
 
 ## 1. 적용 환경
 
@@ -66,7 +66,7 @@
 - 금속·매끄러움·AO를 한 장으로 합칠 수 있다: **R=금속, G=AO, B=안 씀, A=매끄러움.** 이 그림은 sRGB를 끄고 **Metallic과 Occlusion 칸 둘 다**에 넣는다.
 - Painter·블렌더의 Roughness(거칠기)는 Unity의 Smoothness(매끄러움)와 반대이므로 `매끄러움 = 1 − 거칠기`로 바꿔 A 채널에 넣는다.
 - Normal Map·Height Map·Occlusion Map 칸이 따로 있다. 기능을 켤 때마다 셰이더 변형이 늘어 SRP Batcher 묶음이 늘 수 있으니 쓰지 않는 맵은 비운다.
-- 스크립트에서 넣을 때의 셰이더 속성 이름(`_BaseMap` 등)과 키워드는 공식 페이지에 적혀 있지 않다. **설치된 URP 패키지의 Lit 셰이더 파일에서 이름을 확인**하고, 넣은 뒤 재질 화면에서 실제로 연결됐는지 본다.
+- 스크립트에서 넣을 때의 셰이더 속성 이름(`_BaseMap` 등)과 키워드는 공식 페이지에 적혀 있지 않다. **설치된 URP 패키지의 Lit 셰이더 파일에서 이름을 확인**하고(아래 실기 기록), 넣은 뒤 재질에 실제로 연결됐는지 본다.
 
 ## 6. 패키지 구조와 EditMode 테스트
 
@@ -97,8 +97,19 @@
 
 읽지 않은 것·미확인: 6000.3판 문서 본문, URP Lit 셰이더 속성 이름(셰이더 파일 확인 필요), Painter 내보내기 프리셋 공식 이름 목록(Adobe 문서 미열람 — 실제 내보낸 파일 이름으로 판단), 블렌더 FBX 내보내기 기본값(블렌더 문서 미열람).
 
-## 실기 기록
+## 실기 기록 (2026-11-22, Unity 6000.3.27f1 / URP 17.3.0 · 6000.6.7f1 / URP 17.6.0, 배치 모드)
 
-아직 없음. 내부용 가져오기 규칙기 1.0 시험 후 이 절을 보강한다.
+내부용 가져오기 규칙기 0.1.0을 만들며 실제로 확인한 것이다. 제작자 자체 확인이며 독립 검수(2026-11-22부터 별도 Claude 검수 창) 전이다. 에디터 창 클릭은 하지 않았다.
+
+- **블렌더 5.2 기본 내보내기 FBX(실제 파일 3개):** 축 설정은 이미 Y-위(UpAxis 1, FrontAxis 2)이고, 단위 cm(UnitScaleFactor 1)에 **물체마다** Lcl Rotation X −90, Lcl Scaling 100이 들어 있다. Unity 기본 가져오기에서 회전 270.02°(−89.98°), 크기 100으로 보인다. 'FBX Units Scale'로 내보낸 파일은 단위 배율 100, 크기 1, 회전 −90이었다.
+- **Bake Axis Conversion은 이 문제를 풀지 않는다:** 켜도 회전 270.02° → 89.98°로 바뀔 뿐이다(파일이 이미 Y-위라서 −90은 축 변환이 아니라 물체 회전이다). 그래서 OnPostprocessModel에서 각 물체의 회전·크기를 메시(정점·노멀·탄젠트·블렌드셰이프)에 굽고, 자식 위치·회전·크기를 넘겨받게 했다. 보이는 모양과 크기는 그대로이고 Transform은 회전 0·크기 1이 된다. 0.1° 안쪽으로 어긋난 직각은 정확한 직각으로 맞춘다. 음수 크기는 삼각형 방향을 뒤집는다. 뼈대 메시·축마다 다른 크기+자식·공유 메시는 굽지 않는다.
+- **크기 100 자체가 단위 실수인 파일도 있다:** 손 스캔 FBX는 cm 값에 크기 100이 겹쳐 18.3 m로 들어왔다. 자동으로 판단하지 말고 폴더 규칙의 Scale Factor(0.01)로 맞추고, 한 메시 10 m 초과는 가져오기 경고로 알린다.
+- **이름에 `.001`이 붙어도** Unity는 루트에 LOD Group을 만들었다. 이름 정리 후 LOD 단계를 다시 맞추는 편이 안전하다. 단일 물체 파일은 루트가 파일 이름이 되고 `.001`은 메시 이름에만 남는다.
+- **첫 가져오기 설정 저장:** `importSettingsMissing`일 때 OnPreprocessModel/Texture에서 바꾼 가져오기 설정과 `userData`는 .meta에 저장됐다. 이후 가져오기는 .meta만 보고 같은 결과를 내므로(ForceUpdate 재가져오기 결과 동일), 사용자가 Inspector에서 바꾼 값이 유지된다.
+- **재질:** 재질 자산 생성과 Remap은 OnPostprocessAllAssets에서 했다(AddRemap → WriteImportSettingsIfDirty → ImportAsset). 재질 칸이 없는 FBX는 OnPostprocessModel에서 렌더러에 재질 자산을 직접 넣고 DependsOnArtifact로 의존성을 등록했다. URP Lit 속성 이름은 설치된 `Lit.shader`에서 확인: `_BaseMap`, `_BaseColor`, `_BumpMap`(`_NORMALMAP`), `_MetallicGlossMap`(`_METALLICSPECGLOSSMAP`), `_Smoothness`, `_SmoothnessTextureChannel`, `_OcclusionMap`(`_OCCLUSIONMAP`), `_ParallaxMap`(`_PARALLAXMAP`), `_EmissionMap`/`_EmissionColor`(`_EMISSION`). 17.6에는 화면 공간 반사 속성 2개가 더 있다.
+- **Painter 내보내기 이름 실례:** Blender 프리셋 UDIM 프로젝트는 `DefaultMaterial_BaseColor.1001.png`처럼 `.1001`이 붙고 Normal은 16비트 PNG였다. `Texture2D.LoadImage`로 16비트 PNG를 읽어 합치기가 됐다. 맵 연결 뒤 색·광택은 Painter 맵 그대로라 블렌더에서 따로 섞은 최종 외관과 달랐다 — 연결 성공과 외관 일치는 따로 판정한다.
+- **같은 경로에 지웠다 다시 넣은 파일은 예전 GUID를 재사용**했다. GUID로 작업 기록을 관리하면 삭제 기록을 지우고, 만든 파일이 실제로 있는지까지 확인해야 한다.
+- **테스트:** `-runTests -testPlatform EditMode -assemblyNames … -testResults …`(‑quit 없이)로 두 버전 56/56 통과. 프로젝트 `Packages/` 안 패키지는 `testables` 없이 테스트가 잡혔다. 6000.6에서는 내장 패키지가 URP 17.6.0, Test Framework 1.8.0으로 해석됐다(manifest의 17.3.0 무시). 같은 프로젝트를 두 버전으로 열지 않도록 6.6 시험은 사본에서 했다.
+- **배치 모드 렌더:** `-nographics` 없이 실행하면 URP에서 `Camera.Render()`로 RenderTexture 캡처가 됐다.
 
 [교육 목록](../README.md) · [공통 작업 규칙](COMMON_WORK_RULES.md)
