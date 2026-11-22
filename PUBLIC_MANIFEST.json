@@ -99,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 27485,
-      "sha256": "17540bf1b78823bba770d150cfd60d3d1ab1309e786aa67dde0a5665b271fedc"
+      "bytes": 27932,
+      "sha256": "9779acef7f2dda7f2d7763e4b103aea91e569c7d9e479a169e9f7a9459941732"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -1301,6 +1301,11 @@
       "path": "reports/ExternalLearning/20261122_UNITY_IMPORT_RULES_STUDY.json",
       "bytes": 4692,
       "sha256": "36f6c94644c5a3a69d639e3a2456ea499e82ff20f3f4802f70d165fc3f5c42c6"
+    },
+    {
+      "path": "docs/PRODUCT_PROP_GAME_READY_BAKE.md",
+      "bytes": 11887,
+      "sha256": "0c10f57084ec5f22e8bc14802832cd4c141e6e3dbfb4f99bcf8ae8aa1d3d3262"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
