@@ -1286,6 +1286,11 @@
       "path": "reports/ExternalLearning/20261121_HAND_POSING_NATURAL_STUDY.json",
       "bytes": 3905,
       "sha256": "8db921c85a06386fc8156c68082b292d2b086b8c1c2c6ddb4ff5e75e91c3612c"
+    },
+    {
+      "path": "docs/PRODUCT_WALLET_MODELING_ANIMATION_LESSONS.md",
+      "bytes": 14866,
+      "sha256": "37187b2a21231d6c6fcaebca53e90a09d963f6b13b483d0fe8e6ab2d79b176e2"
     }
   ],
   "hand_training_added": "2026-10-31: 3 public courses, 393 unique sampled source times, 24 native UI enlargements, public automatic captions; no production app reproduction",
