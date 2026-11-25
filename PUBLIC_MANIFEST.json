@@ -99,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 27932,
-      "sha256": "9779acef7f2dda7f2d7763e4b103aea91e569c7d9e479a169e9f7a9459941732"
+      "bytes": 28305,
+      "sha256": "4e8ebf0da17b8c2907c1a977a3aa6855461d3aa17b52e131bfcb62b7a433c29d"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -474,8 +474,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 6883,
-      "sha256": "52a3af08b28e88826d82ae3c18a6a0d4e5f875d5bc72d25575e2ced848f9dbc3"
+      "bytes": 7263,
+      "sha256": "1d5a301a75df9b822081034cf5da08731c92f0442b9b4a13d718c0ec145c7f94"
     },
     {
       "path": "docs/MODULAR_MAP_BLENDER_UNITY.md",
@@ -634,8 +634,8 @@
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 29304,
-      "sha256": "0e8f5a3d23fe565d34c9668ed388341df41ff87a0b7fde00a35383f9cbfe1dec"
+      "bytes": 30763,
+      "sha256": "97d63ec2efad865a6adcedcd394edbe3c820c10a31f821fa816a8cdf6cb58290"
     },
     {
       "path": ".gitmodules",
