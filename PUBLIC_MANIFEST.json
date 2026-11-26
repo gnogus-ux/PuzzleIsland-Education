@@ -99,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 28305,
-      "sha256": "4e8ebf0da17b8c2907c1a977a3aa6855461d3aa17b52e131bfcb62b7a433c29d"
+      "bytes": 28524,
+      "sha256": "f538488252a92f60dd82df64fb7715da2c1686db16d3eff288973f132e9bceb2"
     },
     {
       "path": "docs/BODY_CHARACTER_WORKFLOW.md",
@@ -634,8 +634,8 @@
     },
     {
       "path": "docs/COMMON_WORK_RULES.md",
-      "bytes": 30763,
-      "sha256": "97d63ec2efad865a6adcedcd394edbe3c820c10a31f821fa816a8cdf6cb58290"
+      "bytes": 31187,
+      "sha256": "a0416dcec5a56d2d525b2f4500fd3e2aa46a3b7faf2a866d52ad6463c1c5e28a"
     },
     {
       "path": ".gitmodules",
